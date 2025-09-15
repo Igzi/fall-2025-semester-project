@@ -1,4 +1,4 @@
-docker build --platform linux/amd64 . --tag registry.rcp.epfl.ch/sacs-pavlovic/my-toolbox:v0.1 \
+docker build --platform linux/amd64 . --tag registry.rcp.epfl.ch/igor-pavlovic-semester-project-fall-2025/lora-retriever:0.1 \
     --build-arg LDAP_GROUPNAME=rcp-runai-sacs \
     --build-arg LDAP_GID=30217 \
     --build-arg LDAP_USERNAME=pavlovic \
