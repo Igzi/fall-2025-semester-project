@@ -26,6 +26,7 @@ RUN chown -R ${LDAP_USERNAME}:${LDAP_GROUPNAME} /home/${LDAP_USERNAME}
 # Install packages
 RUN apt update
 RUN apt update && apt install -y python3.10 python3.10-distutils python3-pip
+RUN apt update && apt install -y git
 
 # Set the working directory of the container
 WORKDIR /home/${LDAP_USERNAME}
