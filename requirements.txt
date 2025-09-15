@@ -15,6 +15,6 @@ transformers-stream-generator==0.0.5
 InstructorEmbedding
 sentence-transformers==2.2.2
 torch==2.5.0
-faiss-cpu
+faiss-gpu
 protobuf
 rouge
