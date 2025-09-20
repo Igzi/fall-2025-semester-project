@@ -1,0 +1,7 @@
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/mixture_logits.json --eval_type mixture  --lora_num 3 --batch_size 1
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/mixture_ood_logits.json --eval_type mixture  --lora_num 3 --batch_size 1 --ood=True
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/fusion_logits.json --eval_type fusion  --lora_num 3 --batch_size 1
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/fusion_ood_logits.json --eval_type fusion  --lora_num 3 --batch_size 1 --ood=True
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/selection_logits.json --eval_type fusion  --lora_num 1 --batch_size 1
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/selection_ood_logits.json --eval_type fusion  --lora_num 1 --batch_size 1 --ood=True
+python3 lora_retriever_logits.py --data_path  dataset/combined_test.json  --res_path results/best_selection_logits.json --eval_type mixture  --lora_num 1 --batch_size 1 --best_selection=True

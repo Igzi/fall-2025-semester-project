@@ -188,7 +188,7 @@ def eval_datasets(
                         'targets': eval_data["targets"][i+j],
                         'domain': eval_data["domain"][i+j],
                         'task': eval_data["task"][i+j],
-                        'logits': target_logits.cpu().numpy().tolist(),
+                        'logits': target_logits.cpu().float().numpy().tolist(),
                         'target_token_ids': target_input_ids.cpu().numpy().tolist()
                     }
                     results.append(sample)
