@@ -53,7 +53,7 @@ def load_adapter_to_memory(adapters, adapter_name):
         print(f"Error loading adapter {adapter_name}: {e}")
         return None
 
-def get_adapter_config(lora_adapters):
+def get_adapter_config(adapter_list, lora_adapters):
     """
     Extract LoRA configuration from the cached adapter information.
     """
@@ -65,7 +65,8 @@ def get_adapter_config(lora_adapters):
     task_type = None
     base_model_name_or_path = None
 
-    for adapter in lora_adapters.values():
+    for adapter_name in adapter_list:
+        adapter = lora_adapters[adapter_name]
         if r is None:
             config = adapter['config']
             r = config['r']
@@ -76,9 +77,9 @@ def get_adapter_config(lora_adapters):
             task_type = config.get('task_type', 'CAUSAL_LM')
             base_model_name_or_path = config.get('base_model_name_or_path', None)
         else:
+            target_modules = list(set(target_modules + adapter['config']['target_modules']))
             assert r == adapter['config']['r'], "Inconsistent r values"
             #assert lora_alpha == adapter['config']['lora_alpha'], "Inconsistent lora
-            #assert target_modules == adapter['config']['target_modules'], "Inconsistent target_modules"
             assert lora_dropout == adapter['config'].get('lora_dropout', 0.0), "Inconsistent lora_dropout"
             assert bias == adapter['config'].get('bias', 'none'), "Inconsistent bias"
             assert task_type == adapter['config'].get('task_type', 'CAUSAL_LM'), "Inconsistent task_type"
@@ -93,15 +94,11 @@ def get_adapter_config(lora_adapters):
         task_type=task_type
     )
 
-def merge_adapters_fusion(base_model, lora_adapters):
+def merge_adapters_fusion(adapter_list, lora_adapters):
     """
     Merge multiple LoRA adapters into the base model.
     """
-    merged_config = get_adapter_config(lora_adapters)
-
-    # Create PEFT model
-    peft_model = get_peft_model(base_model, merged_config)
-    num_adapters = len(lora_adapters)
+    merged_config = get_adapter_config(adapter_list, lora_adapters)
 
     averaged_weights = {}
     
@@ -113,16 +110,16 @@ def merge_adapters_fusion(base_model, lora_adapters):
     for key in weight_keys:
         # Collect weights for this key from all adapters
         weight_tensors = []
-        for adapter in lora_adapters.values():
+        for adapter_name in adapter_list:
+            adapter = lora_adapters[adapter_name]
             if key in adapter['weights']:
-                weight_tensors.append(adapter['weights'][key])
-        
+                scaling = adapter['config']['lora_alpha'] / merged_config.lora_alpha
+                weight_tensors.append(adapter['weights'][key] * scaling)
+
         # Average the weights
         if weight_tensors:
             averaged_weights[key] = torch.stack(weight_tensors).mean(dim=0)
-            print(f"Averaged {len(weight_tensors)} weights for {key}")
+            print(f"Merged {key} from {len(weight_tensors)} adapters.")
 
-    peft_model.load_state_dict(averaged_weights, strict=False)
-
-    return peft_model
+    return merged_config, averaged_weights
     

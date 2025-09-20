@@ -54,11 +54,7 @@ additional_adapters = [
 for adapter in additional_adapters:
     load_adapter_to_memory(adapters, adapter)
 
-print(f"\nAll cached adapters: {list(adapters.keys())}")
-
 # Access any adapter from cache
 adapter = adapters.get("Styxxxx/llama2_7b_lora-aeslc")
-print(f"\nCached adapter config: {adapter['config']}")
-print(f"Cached adapter weight keys: {list(adapter['weights'].keys())[:5]}...")  # Show first 5 keys
 
-peft_model = merge_adapters_fusion(base_model, adapters)
+peft_model = merge_adapters_fusion(additional_adapters, adapters)
