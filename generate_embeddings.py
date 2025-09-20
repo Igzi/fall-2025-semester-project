@@ -47,7 +47,6 @@ for model in models:
     embeddings = get_embeddings(model_samples)
     all_model_embeddings.append([embeddings])
 
-# Create a FAISS index with the collected embeddings
 all_model_embeddings = np.vstack(all_model_embeddings)
 
 np.save('results/lora_retriever_embeddings.npy', all_model_embeddings)
@@ -66,5 +65,59 @@ for model in models:
 
 all_mpnet_embeddings = np.vstack(all_mpnet_embeddings)
 np.save('results/mpnet_embeddings.npy', all_mpnet_embeddings)
+
+sample_count = {}
+
+data_path = "dataset/combined_test.json"
+if data_path.endswith(".json") or data_path.endswith(".jsonl"):
+    dataset = load_dataset("json", data_files=data_path)
+else:
+    dataset = load_dataset(data_path)
+
+samples = []
+all_model_embeddings = []
+for i in range(len(dataset["train"])):
+    task_name = dataset["train"][i]['task']
+    if task_name not in sample_count:
+        samples = []
+        sample_count[task_name] = 0
+    
+    if sample_count[task_name] == 20:
+        embeddings = get_embeddings(samples)
+        all_model_embeddings.append([embeddings])
+
+    sample_count[task_name] += 1
+    if sample_count[task_name] > 20:
+        continue
+
+    input_text = dataset["train"][i]['inputs']
+    samples.append([instruction, input_text])
+
+all_model_embeddings = np.vstack(all_model_embeddings)
+np.save('results/lora_retriever_test_embeddings.npy', all_model_embeddings)
+
+samples = []
+sample_count = {}
+all_mpnet_embeddings = []
+for i in range(len(dataset["train"])):
+    task_name = dataset["train"][i]['task']
+
+    if task_name not in sample_count:
+        samples = []
+        sample_count[task_name] = 0
+    
+    if sample_count[task_name] == 20:
+        mpnet_embeddings = mpnet_model.encode(samples)
+        all_mpnet_embeddings.append(mpnet_embeddings)
+
+    sample_count[task_name] += 1
+    if sample_count[task_name] > 20:
+        continue
+
+    input_text = dataset["train"][i]['inputs']
+    samples.append(input_text)
+
+all_mpnet_embeddings = np.vstack(all_mpnet_embeddings)
+np.save('results/mpnet_test_embeddings.npy', all_mpnet_embeddings)
 
 
