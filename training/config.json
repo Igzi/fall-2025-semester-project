@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-2-7b-hf",
+  "data_path": "dart_10templates_train.jsonl",
+  "output_dir": "./lora-llama2-r8",
+  "val_ratio": 0.03,
+  "seed": 42,
+  "batch_size": 32,
+  "grad_accum": 1,
+  "epochs": 3,
+  "learning_rate": 2e-4,
+  "max_length": 1024,
+  "lr_scheduler_type": "cosine",
+  "warmup_ratio": 0.03,
+  "logging_steps": 10,
+  "eval_steps": 10,
+  "save_steps": null,
+  "bf16": true,
+  "fp16": false,
+  "logging_csv": "training_log.csv",
+  "prompt_input": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n",
+  "prompt_no_input": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:\n",
+  "response_split": "### Response:"
+}
