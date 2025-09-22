@@ -1,7 +1,7 @@
 .*/
 
 /storage
-/training/lora-llama2-r8/checkpoint-*/**/*
+/training/*/lora-llama2-r8/checkpoint-*/**/*
 
 .bash_logout
 .bashrc

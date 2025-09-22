@@ -34,9 +34,6 @@ def init_vector_db(config_path='./config/config2.json'):
     with open(config_path, 'r') as file:
         lora_configs = json.load(file)
 
-    for config in lora_configs:
-        model_name=f"Styxxxx/llama2_7b_lora-{config['model_name']}"
-
     initialize_index(lora_configs)
 
 def load_peft_model(lora_module_list, base_model):
@@ -153,12 +150,6 @@ def eval_datasets(
                     return_tensors="pt",
                     padding=True,
                 ).to(device)
-
-                outputs = peft_model(
-                    input_ids=inputs["input_ids"],
-                    max_new_tokens=50,
-                    temperature=0.001,
-                )
 
                 adapters = [f"adapter{i}" for i in range(len(module_list))]
                 weights = torch.ones(len(module_list)) / len(module_list)

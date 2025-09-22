@@ -1,6 +1,6 @@
 {
   "model_name": "meta-llama/Llama-2-7b-hf",
-  "data_path": "dart_10templates_train.jsonl",
+  "data_path": "../dart_10templates_train.jsonl",
   "output_dir": "./lora-llama2-r8",
   "val_ratio": 0.03,
   "seed": 42,

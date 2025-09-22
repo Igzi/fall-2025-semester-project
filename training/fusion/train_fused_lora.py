@@ -1,22 +1,27 @@
 import json
 import os
+import sys
 import math
 import csv
 import random
 from dataclasses import dataclass
 from typing import Dict, List
 
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, project_root)
+
+from utils.get_fused_peft_model import get_fused_peft_model
+
 import torch
 from datasets import Dataset, load_dataset
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig,
     Trainer,
     TrainingArguments,
     set_seed,
 )
-from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from peft import LoraConfig
 
 
 def load_config(path: str):
@@ -129,7 +134,7 @@ class AlpacaCollator:
 
 def main():
     # Load config
-    cfg = load_config("config.json")
+    cfg = load_config("./training/fusion/config.json")
     os.makedirs(cfg["output_dir"], exist_ok=True)
     log_csv_path = os.path.join(cfg["output_dir"], cfg["logging_csv"])
 
@@ -156,20 +161,24 @@ def main():
         task_type="CAUSAL_LM",
         target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "down_proj", "up_proj"],
     )
-    model = get_peft_model(model, lora_cfg)
-
-    model.enable_input_require_grads()
 
     # Dataset
     ds = read_dataset(cfg["data_path"])
     train_ds, val_ds = train_val_split(ds, cfg["val_ratio"], cfg["seed"])
 
+    model = get_fused_peft_model(base_model=model, train_data=train_ds, exclude_list=None, lora_cfg=lora_cfg)
+
+    model.enable_input_require_grads()
+
+    print(f"  Active: {getattr(model, 'active_adapters', 'N/A')}")
+    print(f"  Available: {list(getattr(model, 'peft_config', {}).keys())}")
+    
     collator = AlpacaCollator(
-    tokenizer=tokenizer,
-    max_length=cfg["max_length"],
-    prompt_input=cfg["prompt_input"],
-    prompt_no_input=cfg["prompt_no_input"],
-)
+        tokenizer=tokenizer,
+        max_length=cfg["max_length"],
+        prompt_input=cfg["prompt_input"],
+        prompt_no_input=cfg["prompt_no_input"],
+    )
 
     # Training args
     eval_strategy = "epoch" if cfg["eval_steps"] is None else "steps"

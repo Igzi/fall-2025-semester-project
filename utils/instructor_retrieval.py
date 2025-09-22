@@ -118,3 +118,60 @@ def perform_search(query_list, k=20, exclude_list=None):
         mapping_matrix.append(mapping_vector)
 
     return all_results_list, mapping_matrix
+
+def perform_search_by_group(input, k=20, exclude_list=None):
+    """
+    Perform a similarity search for each query in the provided query_list using the global FAISS index.
+    Returns a list of retrieved model names and a binary mapping matrix indicating which models
+    were retrieved for each query.
+
+    Parameters:
+    - input: List of query strings to retrieve similar tasks/models for.
+    - k: The number of top results to retrieve for each query.
+    - exclude_list: An optional list of models to exclude for each query.
+
+    Returns:
+    - all_results_list: A list of all retrieved unique model names across all queries.
+    - mapping_matrix: A binary matrix (list of lists) indicating which models were retrieved for each query.
+    """
+    global global_index, model_names
+
+    all_results_set = set()
+    query_to_results_map = {}
+    query_embeddings = []
+
+    # Perform search for each query
+    for j, query in enumerate(input):
+        query_embedding = get_embeddings([[instruction, query]])[0]
+        query_embeddings.append(query_embedding)
+    
+    query_embedding = np.array(query_embeddings).mean(axis=0)
+    distances, indices = global_index.search(np.array([query_embedding]), k+1)
+
+    contained = False
+    results = []
+    for i, idx in enumerate(indices[0]):
+        if i == k and not contained:
+            # If we reached the last allowed result but haven't accounted for exclusion yet, skip
+            continue
+
+        model_name = model_names[idx]
+
+        # Exclude specific model for this query if applicable
+        if exclude_list and model_name == exclude_list[j]:
+            contained = True
+            continue
+
+        all_results_set.add(model_name)
+        results.append(model_name)
+
+    query_to_results_map[query] = results
+
+    # Convert all results to a list and construct a mapping matrix
+    all_results_list = list(all_results_set)
+    mapping_matrix = []
+
+    mapping_vector = [1 if result in query_to_results_map[query] else 0 for result in all_results_list]
+    mapping_matrix.append(mapping_vector)
+
+    return all_results_list, mapping_matrix
