@@ -4,6 +4,7 @@ import sys
 import math
 import csv
 import random
+from transformers import LlamaForCausalLM, LlamaTokenizer
 from dataclasses import dataclass
 from typing import Dict, List
 
@@ -113,11 +114,10 @@ class AlpacaCollator:
 
             texts.append(full_text)
             prompt_lengths.append(len(prompt_ids))
-
+        
         batch = self.tokenizer(
             texts,
             padding=True,
-            truncation=True,
             max_length=self.max_length,
             return_tensors="pt",
         )
@@ -141,16 +141,14 @@ def main():
     set_seed(cfg["seed"])
 
     # Tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(cfg["model_name"], use_fast=True)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
+    tokenizer = LlamaTokenizer.from_pretrained(cfg['model_name'])
+    tokenizer.pad_token_id = 0
+    tokenizer.padding_side = "left"
 
-    model = AutoModelForCausalLM.from_pretrained(
-        cfg["model_name"],
-        device_map="auto",
-        torch_dtype=torch.bfloat16 if cfg["bf16"] else (torch.float16 if cfg["fp16"] else None),
+    model = LlamaForCausalLM.from_pretrained(
+        cfg['model_name'], torch_dtype=torch.float16
     )
+    model.bfloat16()
 
     # LoRA rank=8
     lora_cfg = LoraConfig(
@@ -159,7 +157,7 @@ def main():
         lora_dropout=0.05,
         bias="none",
         task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "down_proj", "up_proj"],
+        target_modules=['q_proj', 'v_proj'],
     )
 
     # Dataset
@@ -170,9 +168,6 @@ def main():
 
     model.enable_input_require_grads()
 
-    print(f"  Active: {getattr(model, 'active_adapters', 'N/A')}")
-    print(f"  Available: {list(getattr(model, 'peft_config', {}).keys())}")
-    
     collator = AlpacaCollator(
         tokenizer=tokenizer,
         max_length=cfg["max_length"],
@@ -242,6 +237,27 @@ def main():
         callbacks=[WriteCSVCallback()],
     )
 
+    print("\n" + "="*50)
+    print("EVALUATING MODEL BEFORE TRAINING")
+    print("="*50)
+    
+    if val_ds is not None:
+        # Perform initial evaluation
+        initial_metrics = trainer.evaluate()
+        print(f"Initial evaluation metrics:")
+        for key, value in initial_metrics.items():
+            print(f"  {key}: {value}")
+        
+        # Log initial metrics to CSV
+        csv_logger.log(trainer.state, initial_metrics)
+        
+        # Calculate initial perplexity
+        if "eval_loss" in initial_metrics:
+            initial_ppl = math.exp(initial_metrics["eval_loss"])
+            print(f"  Initial Perplexity: {initial_ppl:.4f}")
+    else:
+        print("No validation dataset provided - skipping initial evaluation")
+    
     trainer.train()
 
     # Save adapter

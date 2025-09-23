@@ -49,6 +49,7 @@ def load_peft_model(lora_module_list, base_model, lora_cfg):
     peft_model.set_adapter(lora_lists)
     peft_model = peft_model.to(device)
     peft_model.eval()
+
     return peft_model
 
 def get_fused_peft_model(base_model, train_data, exclude_list, lora_cfg):
@@ -69,7 +70,7 @@ def get_fused_peft_model(base_model, train_data, exclude_list, lora_cfg):
     weights = torch.ones(len(module_list)) / len(module_list)
     adapter_name = "fusion_adapter"
     peft_model.add_weighted_adapter(adapters, weights, adapter_name, combination_type='linear')
-    peft_model.set_adapter("adapter0")
+    peft_model.set_adapter("fusion_adapter")
 
     return peft_model
 
