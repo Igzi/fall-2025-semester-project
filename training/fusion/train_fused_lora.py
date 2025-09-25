@@ -164,7 +164,7 @@ def main():
     ds = read_dataset(cfg["data_path"])
     train_ds, val_ds = train_val_split(ds, cfg["val_ratio"], cfg["seed"])
 
-    model = get_fused_peft_model(base_model=model, train_data=train_ds, exclude_list=None, lora_cfg=lora_cfg)
+    model = get_fused_peft_model(base_model=model, train_data=train_ds, exclude_list=['Styxxxx/llama2_7b_lora-dart'], lora_cfg=lora_cfg)
 
     model.enable_input_require_grads()
 

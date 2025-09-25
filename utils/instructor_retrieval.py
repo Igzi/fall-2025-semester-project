@@ -158,7 +158,7 @@ def perform_search_by_group(input, k=20, exclude_list=None):
         model_name = model_names[idx]
 
         # Exclude specific model for this query if applicable
-        if exclude_list and model_name == exclude_list[j]:
+        if exclude_list and model_name in exclude_list:
             contained = True
             continue
 

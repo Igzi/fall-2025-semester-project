@@ -63,7 +63,7 @@ def get_fused_peft_model(base_model, train_data, exclude_list, lora_cfg):
     random_samples = random.sample(list(train_data), sample_size)
     inputs = [data['inputs'] for data in random_samples]
 
-    module_list, _ = perform_search_by_group(inputs, k=3, exclude_list=exclude_list)
+    module_list, _ = perform_search_by_group(inputs, k=5, exclude_list=exclude_list)
     peft_model = load_peft_model(module_list, base_model, lora_cfg)
 
     adapters = [f"adapter{i}" for i in range(len(module_list))]
