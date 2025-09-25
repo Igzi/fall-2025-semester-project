@@ -152,7 +152,7 @@ def eval_datasets(
                 ).to(device)
 
                 adapters = [f"adapter{i}" for i in range(len(module_list))]
-                weights = torch.ones(len(module_list)) / len(module_list)
+                weights = (torch.ones(len(module_list)) / len(module_list)).to(device=device, dtype=torch.bfloat16)
                 adapter_name = "fusion_adapter"
                 peft_model.add_weighted_adapter(adapters, weights, adapter_name, combination_type='linear')
                 peft_model.set_adapter(adapter_name)
