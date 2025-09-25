@@ -156,7 +156,6 @@ def load_peft_model(lora_module_list, base_model):
             peft_model.load_adapter(lora_model, f"adapter{i}")
         lora_lists.append(f"adapter{i}")
 
-    peft_model.set_adapter(lora_lists)
     peft_model = peft_model.to(device)
     peft_model.eval()
     return peft_model
@@ -180,11 +179,12 @@ class BilinearFusionScorer(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
-    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, temperature: float = 1.0):
+    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
         self.Wr = nn.Linear(d_a, d_proj, bias=False)    # A -> d_proj
         self.register_buffer("A", A_init.clone())       # (K, d_a)
+        self.top_k = top_k
         self.tau = temperature
 
     @torch.no_grad()
@@ -201,12 +201,21 @@ class BilinearFusionScorer(nn.Module):
         proj_I = self.Wi(I)                 # (B, d_proj)
         proj_A = self.Wr(self.A)            # (K, d_proj)
         logits = proj_I @ proj_A.t()        # (B, K)
-        probs = F.softmax(logits / self.tau, dim=-1)
+
+        if self.top_k is not None and 0 < self.top_k < logits.size(-1):
+            # Build boolean mask for top-k indices per row
+            topk_vals, topk_idx = torch.topk(logits, self.top_k, dim=-1)
+            mask = torch.zeros_like(logits, dtype=torch.bool)
+            mask.scatter_(1, topk_idx, True)
+            masked_logits = logits.masked_fill(~mask, float('-inf'))
+        else:
+            masked_logits = logits
+        
+        probs = F.softmax(masked_logits / self.tau, dim=-1)
         return probs, logits
     
 from typing import List
 
-@torch.no_grad()
 def activate_fused_adapter_from_embeddings(
     peft_model,                      # a PEFT-wrapped model (e.g., PeftModelForCausalLM)
     scorer: BilinearFusionScorer,    # the bilinear scorer above (Wi, Wr)
@@ -229,7 +238,7 @@ def activate_fused_adapter_from_embeddings(
     #      - mean over the batch (default)
     #      - max or top-k then renormalize
     w = probs.mean(dim=0)                    # (K,)
-    w = (w / w.sum()).detach().cpu().tolist()
+    w = (w / w.sum()).tolist()
 
     # 3) Create a fused adapter in PEFT and activate it.
     #    add_weighted_adapter will materialize the fused delta weights across all LoRA layers.
@@ -258,67 +267,141 @@ def generate_and_tokenize_prompt(data_point):
     return {"full_prompt": full_prompt}
 
 dataset = read_dataset('./data.jsonl')
-train_ds, val_ds = train_val_split(dataset, 0.06, 42)
+train_ds, val_ds = train_val_split(dataset, 0.01, 42)
 train_ds_prompt = train_ds.map(generate_and_tokenize_prompt)
 val_ds_prompt = val_ds.map(generate_and_tokenize_prompt)
-
 
 model_path = f"meta-llama/Llama-2-7b-hf"
 base_model, tokenizer = load_base_model(model_path)
 tokenizer.pad_token_id = 0
 tokenizer.padding_side = "left"
+base_model = base_model.to(device)
+base_model.eval()
 
 peft_model = load_peft_model(model_names, base_model)
+peft_model = peft_model.to(device)
+peft_model.eval()
 
 adapter_names = [f"adapter{i}" for i in range(len(model_names))]
 
 for param in peft_model.parameters():
     param.requires_grad = False  # freeze everything
 
-for i in range(len(adapter_names)):
-    for param in peft_model.get_adapter(adapter_names[i]).parameters():
-        param.requires_grad = True  # unfreeze the adapter layers
-
 scorer = BilinearFusionScorer(
     d_in=model_embeddings.shape[1],
     d_a=model_embeddings.shape[1],
     d_proj=256,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
+    top_k=5,
     temperature=1.0
 ).to(device)
 
-grad_accum_steps = 32
-loss = 0.0
+grad_accum_steps = 5
 opt = torch.optim.AdamW(scorer.parameters(), lr=5e-5)
+opt.zero_grad()
+running_loss = 0.0
+eval_steps = 100
+val_log = []
 
-for i in range(len(train_ds)):
-    I_batch = get_embeddings([train_ds[i]['inputs']])
-    I_batch = torch.tensor(I_batch, dtype=torch.float32).to(device)
+from contextlib import suppress
 
-    activate_fused_adapter_from_embeddings(
-        peft_model=peft_model,
-        scorer=scorer,
-        I_batch=I_batch,                   # e.g., a warmup batch representative of your domain
-        adapter_names=adapter_names,
-        fusion_name="fusion_adapter",
-        combination_type="linear",
-    )
+with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
+    for i in range(len(train_ds)):
+        I_batch = get_embeddings([train_ds[i]['inputs']])
+        I_batch = torch.tensor(I_batch, dtype=torch.float32).to(device)
 
-    batch = train_ds_prompt[i]
-    batch = tokenizer(
-        batch["full_prompt"],
-        padding=True,
-        max_length=512,
-        return_tensors="pt",
-    ).to(device)
+        # (Optional) remove previous fusion adapter to avoid accumulating many adapters
+        with suppress(Exception):
+            peft_model.disable_adapter()
+            peft_model.delete_adapter("fusion_adapter")
 
-    batch["labels"] = batch["input_ids"].clone()
-    batch["labels"][batch["attention_mask"] == 0] = -100
+        activate_fused_adapter_from_embeddings(
+            peft_model=peft_model,
+            scorer=scorer,
+            I_batch=I_batch,
+            adapter_names=adapter_names,
+            fusion_name="fusion_adapter",
+            combination_type="linear",
+        )
 
-    outputs = peft_model(**batch)
-    loss = outputs.loss
-    loss.backward()
-    if (i + 1) % grad_accum_steps == 0:
+        batch = train_ds_prompt[i]
+        batch = tokenizer(
+            batch["full_prompt"],
+            padding=True,
+            max_length=512,
+            return_tensors="pt",
+        ).to(device)
+
+        batch["labels"] = batch["input_ids"].clone()
+        batch["labels"][batch["attention_mask"] == 0] = -100
+
+        outputs = peft_model(**batch)
+        loss = outputs.loss / grad_accum_steps  # scale for accumulation
         loss.backward()
-        opt.step()
+        running_loss += loss.item() * grad_accum_steps
+        del batch, outputs, I_batch
+        torch.cuda.empty_cache()
+
+        if (i + 1) % grad_accum_steps == 0:
+            before = {n: p.detach().clone() for n,p in scorer.named_parameters()}
+
+            opt.step()
+
+            for n,p in scorer.named_parameters():
+                diff = (p.detach() - before[n]).abs().sum().item()
+                print(f"{n:25s} | abs_sum_diff={diff:.6e}")
+            opt.zero_grad()
+            avg_loss = running_loss / grad_accum_steps
+            pbar.set_postfix(loss=f"{avg_loss:.4f}")
+            running_loss = 0.0
+
+        if (i + 1) % eval_steps == 0 or (i + 1) == len(train_ds):
+            peft_model.eval()
+            val_losses = []
+            with torch.no_grad():
+                for j in range(len(val_ds)):
+                    # Re-build fusion adapter for each val sample
+                    with suppress(Exception):
+                        peft_model.disable_adapter()
+                        peft_model.delete_adapter("fusion_adapter")
+
+                    I_val = get_embeddings([val_ds[j]['inputs']])
+                    I_val = torch.tensor(I_val, dtype=torch.float32).to(device)
+
+                    activate_fused_adapter_from_embeddings(
+                        peft_model=peft_model,
+                        scorer=scorer,
+                        I_batch=I_val,
+                        adapter_names=adapter_names,
+                        fusion_name="fusion_adapter",
+                        combination_type="linear",
+                    )
+
+                    val_item = val_ds_prompt[j]
+                    val_batch = tokenizer(
+                        val_item["full_prompt"],
+                        padding=True,
+                        max_length=512,
+                        return_tensors="pt",
+                    ).to(device)
+                    val_batch["labels"] = val_batch["input_ids"].clone()
+                    val_batch["labels"][val_batch["attention_mask"] == 0] = -100
+
+                    val_out = peft_model(**val_batch)
+                    val_losses.append(val_out.loss.item())
+                    del val_batch, val_out, I_val
+                    torch.cuda.empty_cache()
+
+            mean_val_loss = float(sum(val_losses) / max(1, len(val_losses)))
+            val_log.append((i + 1, mean_val_loss))
+            # Keep last displayed train loss (compute a current one if not just updated)
+            if 'avg_loss' not in locals():
+                current_train_loss = running_loss / max(1, ((i + 1) % grad_accum_steps))
+            else:
+                current_train_loss = avg_loss
+            pbar.set_postfix(loss=f"{current_train_loss:.4f}", val_loss=f"{mean_val_loss:.4f}")
+            print(f"[Step {i+1}] Validation loss: {mean_val_loss:.4f}")
+            peft_model.train()
+
+        pbar.update(1)
 
