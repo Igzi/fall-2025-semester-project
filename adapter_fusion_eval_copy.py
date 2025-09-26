@@ -81,8 +81,8 @@ class BilinearFusionScorer(nn.Module):
           probs: (B, K) softmax weights per sample
           logits: (B, K)
         """
-        # proj_I = self.Wi(I)                 # (B, d_proj)
-        # proj_A = self.Wr(self.A)            # (K, d_proj)
+        proj_I = self.Wi(I)                 # (B, d_proj)
+        proj_A = self.Wr(self.A)            # (K, d_proj)
         logits = I @ self.A.t()        # (B, K)
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
@@ -91,17 +91,13 @@ class BilinearFusionScorer(nn.Module):
             mask = torch.zeros_like(logits, dtype=torch.bool)
             
             mask.scatter_(1, topk_idx, True)
-            # masked_logits = logits.masked_fill(~mask, float('-inf'))
-            masked_logits = torch.full_like(logits, float('-inf'))
-            masked_logits.masked_fill_(mask, 1.0)
+            masked_logits = logits.masked_fill(~mask, float('-inf'))
+            # masked_logits = torch.full_like(logits, float('-inf'))
+            # masked_logits.masked_fill_(mask, 1.0)
         else:
             masked_logits = logits
         
         probs = F.softmax(masked_logits / self.tau, dim=-1)
-        print(probs)
-        print(topk_vals)
-        print(topk_idx)
-        x=10/0
         return probs, logits
 
 def eval_datasets(
@@ -196,7 +192,6 @@ def eval_datasets(
 
         model_names.append(model_name)
 
-    print(model_names)
     
     peft_model = load_peft_model(model_names, base_model)
     peft_model = peft_model.to(device)
@@ -210,11 +205,6 @@ def eval_datasets(
 
                 if eval_data["domain"][i] != "struct to text":
                     continue
-
-                module_list, mapping_matrix = perform_search(input_text, k=5)
-                print(module_list)
-                for module in module_list:
-                    print(model_names.index(module))
 
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
@@ -239,6 +229,8 @@ def eval_datasets(
                     module_list = unique_items
 
                 mapping_matrix_tensor, _ = scorer(I_batch)
+                input_text = eval_data["full_prompt"][i : i + batch_size]
+
 
                 # Tokenize the input text
                 inputs = tokenizer(
