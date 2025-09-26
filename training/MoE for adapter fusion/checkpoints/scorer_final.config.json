@@ -1,0 +1,9 @@
+{
+  "top_k": 5,
+  "temperature": 0.1,
+  "d_in": 768,
+  "d_proj": 784,
+  "d_a": 768,
+  "K": 48,
+  "dtype": "bfloat16"
+}

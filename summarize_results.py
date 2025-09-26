@@ -91,7 +91,7 @@ def convert_to_latex_modified(data, folder_path):
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = 'results'  # Replace with your actual folder path
+folder_path = 'results_new'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 print(latex_table)
