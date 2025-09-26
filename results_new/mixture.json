@@ -5,7 +5,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Abraham A. Ribicoff was the United States Secretary of Health, Education, and Welfare. He was married to Casey Ribicoff who was born in Chicago."
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
     },
     {
         "inputs": "Data: Ardmore Airport (New Zealand), runwayLength, 1411.0; Ardmore Airport (New Zealand), 3rdRunwaySurfaceType, Poaceae; Ardmore Airport (New Zealand), operatingOrganisation, Civil Aviation Authority of New Zealand; Ardmore Airport (New Zealand), elevationAboveTheSeaLevel, 34.0; Ardmore Airport (New Zealand), runwayName, \"03R/21L\"\n\nSentence about the following data:",
@@ -13,7 +13,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Ardmore Airport (New Zealand) has a runway length of 1411.0 metres and a 3rd runway surface type of Poaceae. It is operated by the Civil Aviation Authority of New Zealand and has"
+        "predicted_answer": "Ardmore Airport (New Zealand), runwayLength, 1411.0; Ardmore Airport (New Zealand), 3rdRunwaySurfaceType, Poaceae; Ardmore Airport (New Zealand), operatingOrgan"
     },
     {
         "inputs": "Here is some data: Austin, Texas, country, United States; United States, demonym, Americans; United States, ethnicGroup, African Americans.\n\nWrite a sentence that describes this data",
@@ -21,7 +21,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Austin, Texas is in the United States which is home to African Americans."
+        "predicted_answer": "The demonym of the United States is Americans. The ethnic group of the United States is African Americans. Austin, Texas is in the United States."
     },
     {
         "inputs": "Generate a sentence about this data: Andrews County Airport, 4thRunwaySurfaceType, \"Asphalt\"; Andrews County Airport, elevationAboveTheSeaLevel, 973.0",
@@ -29,7 +29,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Andrews County Airport has an elevation of 973.0 above sea level and a runway surface type of asphalt."
+        "predicted_answer": "The Andrews County Airport has an asphalt runway. It is 973.0 feet above sea level."
     },
     {
         "inputs": "Sentence: Alfredo Zitarrosa performs Zamba music and has a background as a solo singer. He was signed to the RCA Records label, and has been associated with the musicians Ciro Pérez and Héctor Numa Moraes.\n\nWhat structured data could we extract from this sentence?",
@@ -37,7 +37,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alfredo Zitarrosa, Ciro Pérez, Héctor Numa Moraes, RCA Records, Zamba music"
+        "predicted_answer": "Alfredo Zitarrosa performs Zamba music and has a background as a solo singer. He was signed to the RCA Records label, and has been associated with the musicians Ciro Pérez and Héctor Numa Moraes"
     },
     {
         "inputs": "Generate a sentence about this data: Chicago, isPartOf, DuPage County, Illinois",
@@ -53,7 +53,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Barny Cakes is a French dessert made with sponge cake and French language is the official language of France. The leader of France is Gérard Larcher and Claude Bartolone."
+        "predicted_answer": "Barny Cakes is a country in France. The language spoken in France is French. The leader of France is Gérard Larcher and Claude Bartolone. Barny Cakes is an ingredient in Sponge cake"
     },
     {
         "inputs": "Sentence: The people inhabiting the United States are known as Americans and include the ethnic group of Native Americans. The country is the location of Albany, a city in Dougherty County, Georgia.\n\nWhat structured data could we extract from this sentence?",
@@ -61,7 +61,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Albany, Dougherty County, Georgia, United States, Native Americans, Americans"
+        "predicted_answer": "\n<table>\n  <tr>\n    <th>Name</th>\n    <th>Value</th>\n  </tr>\n  <tr>\n    <td>Country</td>\n    <td"
     },
     {
         "inputs": "Bionico, dishVariation, Honey; Bionico, course, Dessert\n\nWhat is sentence that verbalizes this data?",
@@ -69,7 +69,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Bionico is a dessert dish variation that is served with honey."
+        "predicted_answer": "Bionico is a dessert course that has a variation of honey."
     },
     {
         "inputs": "Generate a sentence about this data: A Loyal Character Dancer, isbnNumber, \"1-56947-301-3\"",
@@ -77,7 +77,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "A Loyal Character Dancer has the isbn number \"1-56947-301-3\"."
+        "predicted_answer": "A Loyal Character Dancer, isbnNumber, \"1-56947-301-3\" is a book about a loyal character dancer."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Aenir, oclcNumber, 45644811; Aenir, author, Garth Nix; Aenir, mediaType, \"Print\"",
@@ -85,7 +85,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Aenir by Garth Nix is a print book with the oclcNumber 45644811."
+        "predicted_answer": "Aenir, oclcNumber, 45644811; Aenir, author, Garth Nix; Aenir, mediaType, \"Print\""
     },
     {
         "inputs": "Here is some data: Alex Plante, birthPlace, Brandon, Manitoba; Alex Plante, birthYear, 1989; Alex Plante, club, Anyang Halla; Alex Plante, birthDate, 1989-05-09.\n\nWrite a sentence that describes this data",
@@ -93,7 +93,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alex Plante was born on May 9, 1989 in Brandon, Manitoba. He plays for Anyang Halla."
+        "predicted_answer": "Alex Plante was born in Brandon, Manitoba on May 9, 1989. He played for Anyang Halla in the KHL."
     },
     {
         "inputs": "Generate a sentence that describes the following data: Hypermarcas, product, Drugs; Hypermarcas, location, São Paulo",
@@ -101,7 +101,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Hypermarcas is a company that is located in São Paulo and produces drugs."
+        "predicted_answer": "Hypermarcas is a Brazilian company that is headquartered in São Paulo. It is a pharmaceutical company that produces drugs."
     },
     {
         "inputs": "Sentence: Elliot See was born on July 23, 1927 in Dallas. He graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a test pilot before he died in St. Louis.\n\nWhat structured data could we extract from this sentence?",
@@ -109,7 +109,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Elliot See, born on July 23, 1927 in Dallas, graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a test pilot before he died in St. Louis"
+        "predicted_answer": "\n<span class=\"answer\">\nElliot See was born on July 23, 1927 in Dallas. He graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a"
     },
     {
         "inputs": "Aleksandre Guruli, club, FC Karpaty Lviv; Aleksandre Guruli, club, AS Lyon-Duchère\n\nWhat is sentence that verbalizes this data?",
@@ -125,7 +125,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alcatraz Versus the Evil Librarians, Hardcover, ISBN number 0-439-92550-9"
+        "predicted_answer": "\n<div class=\"answer\">\n<p>\n<span class=\"answer-text\">\nAlcatraz Versus the Evil Librarians\n</span>\n</p>\n<p>\n<span class=\""
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Aaron Turner, genre, Black metal; Aaron Turner, associatedBand/associatedMusicalArtist, Sumac (band); Black metal, musicFusionGenre, Death metal",
@@ -133,7 +133,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Aaron Turner is a musician who is associated with the band Sumac. He is a musician who plays black metal, which is a fusion of death metal."
+        "predicted_answer": "Aaron Turner is a musician who plays black metal and is associated with the band Sumac. Black metal is a fusion genre of death metal."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Hypermarcas, foundingDate, 2001-01-01; Hypermarcas, product, Cosmetics; Hypermarcas, industry, Pharmaceuticals; Hypermarcas, location, Brazil; Brazil, populationDensity, 23.8",
@@ -141,7 +141,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Hypermarcas is a Brazilian company that produces cosmetics. It was founded on January 1st, 2001."
+        "predicted_answer": "Hypermarcas was founded on January 1st, 2001. It is a cosmetics company that is located in Brazil. The population density of Brazil is 23.8."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: A.F.C. Fylde, ground, Warton, Fylde; A.F.C. Fylde, numberOfMembers, 3180; A.F.C. Fylde, fullName, \"Association Football Club Fylde\"",
@@ -149,7 +149,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Association Football Club Fylde is a football club based in Warton, Fylde. It has 3180 members and plays at the Mill Farm ground."
+        "predicted_answer": "Association Football Club Fylde is a football club based in Warton, Fylde. The club has 3180 members and plays at the ground, Warton, Fylde."
     },
     {
         "inputs": "Generate a sentence about this data: AIDAluna, activeYearsStartDate, 2009-03-22",
@@ -157,7 +157,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "AIDAluna was launched on 22 March 2009."
+        "predicted_answer": "AIDAluna was built in 2009 and is still active."
     },
     {
         "inputs": "Sentence: Greek is the language spoken in Greece.\n\nWhat structured data could we extract from this sentence?",
@@ -165,7 +165,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Language, country, languageSpokenInCountry, languageSpokenIn"
+        "predicted_answer": "Greek language\nGreece country"
     },
     {
         "inputs": "Generate a sentence about this data: Abdulsalami Abubakar, successor, Olusegun Obasanjo; Abdulsalami Abubakar, inOfficeWhileVicePresident, Mike Akhigbe; Mike Akhigbe, predecessor, Oladipo Diya",
@@ -173,7 +173,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Abdulsalami Abubakar was the successor of Olusegun Obasanjo and was in office while Mike Akhigbe was the vice president. Mike Akhigbe was the predecessor of Oladipo Di"
+        "predicted_answer": "Abdulsalami Abubakar was the successor of Olusegun Obasanjo and the predecessor of Mike Akhigbe. Mike Akhigbe was the vice president of Abdulsalami Abubakar"
     },
     {
         "inputs": "Sentence: 1 Decembrie 1918 University is located in the city of Alba Iulia, Romania. The country's capital is Bucharest and the leader (title Prime Minister of Romania) is Klaus Iohannis. An ethnic group of the country is The Germans of Romania and the country's national anthem is Deșteaptă-te, române!\n\nWhat structured data could we extract from this sentence?",
@@ -181,7 +181,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "leader, country, capital, ethnic_group, national_anthem, city, university"
+        "predicted_answer": "\n<div itemscope itemtype=\"http://schema.org/Organization\">\n<span itemprop=\"name\">1 Decembrie 1918 University</span>\n<span itemprop=\"address\" itemscope itemtype"
     },
     {
         "inputs": "Sentence: Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.\n\nWhat data can be extracted from this sentence?",
@@ -189,7 +189,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Gus Poyet, Olympiacos F.C., Real Zaragoza, AEK Athens FC, Chelsea F.C."
+        "predicted_answer": "Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played"
     },
     {
         "inputs": "This is some data: Binignit, ingredient, Sweet potato; Binignit, region, Visayas; Binignit, mainIngredient, Coconut milk; Binignit, country, Philippines.\n\nGenerate a detailed description of this data",
@@ -197,7 +197,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Binignit is a dish from the Philippines. It is made with sweet potato and coconut milk. It is from the Visayas region."
+        "predicted_answer": "Binignit is a traditional Filipino dish that is made with sweet potatoes, coconut milk, and other ingredients. It is typically served as a dessert and is popular in the Visayas region of the Philippines"
     },
     {
         "inputs": "This is some data: Abarth 1000 GT Coupé, designCompany, Gruppo Bertone; Gruppo Bertone, foundationPlace, Turin; Gruppo Bertone, country, Italy.\n\nGenerate a detailed description of this data",
@@ -205,7 +205,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "The Abarth 1000 GT Coupé was designed by Gruppo Bertone, which was founded in Turin, Italy."
+        "predicted_answer": "Abarth 1000 GT Coupé was designed by Gruppo Bertone, a company founded in Turin, Italy."
     },
     {
         "inputs": "Generate a sentence that describes the following data: (66063) 1998 RO1, epoch, 2013-11-04",
@@ -213,7 +213,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "(66063) 1998 RO1 has an epoch of 2013-11-04."
+        "predicted_answer": "The asteroid (66063) 1998 RO1 has an epoch of 2013-11-04."
     },
     {
         "inputs": "Here is some data: Baked Alaska, mainIngredient, \"Meringue, ice cream, sponge cake or Christmas pudding\"; Baked Alaska, country, \"France, United States or China\"; Baked Alaska, region, \"Paris, New York or Hong Kong\"; Baked Alaska, ingredient, Meringue.\n\nWrite a sentence that describes this data",
@@ -221,7 +221,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Baked Alaska is a dessert that is made with meringue, ice cream, sponge cake or Christmas pudding. It is from France, United States or China and is from Paris, New York or Hong Kong"
+        "predicted_answer": "Baked Alaska is a dessert that is made with meringue, ice cream, sponge cake or Christmas pudding."
     },
     {
         "inputs": "Here is some data: Accademia di Architettura di Mendrisio, country, Switzerland; Accademia di Architettura di Mendrisio, numberOfStudents, 600; Accademia di Architettura di Mendrisio, established, 1996; Switzerland, leader, Johann Schneider-Ammann; Accademia di Architettura di Mendrisio, location, Ticino.\n\nWrite a sentence that describes this data",
@@ -229,7 +229,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "The Accademia di Architettura di Mendrisio is located in Ticino, Switzerland and was established in 1996. It has 600 students and is led by Johann Schneider-Ammann"
+        "predicted_answer": "Accademia di Architettura di Mendrisio is located in Ticino, Switzerland."
     },
     {
         "inputs": "Andrews County Airport, location, Texas; Texas, language, Spanish language; Texas, largestCity, Houston; Texas, capital, Austin, Texas; Texas, country, United States\n\nWhat is sentence that verbalizes this data?",
@@ -237,7 +237,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Andrews County Airport is located in Texas, which is a state in the United States. The largest city in Texas is Houston and the capital is Austin. The official language of Texas is Spanish."
+        "predicted_answer": "Andrews County Airport is located in Texas. Texas is the largest city in Texas. Texas is the capital of Texas. Texas is located in the United States."
     },
     {
         "inputs": "Data: Germany, leader, Stanislaw Tillich\n\nSentence about the following data:",
@@ -245,7 +245,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Stanislaw Tillich was the leader of Germany."
+        "predicted_answer": "Germany's leader is Stanislaw Tillich."
     },
     {
         "inputs": "Amdavad ni Gufa, location, Gujarat; Amdavad ni Gufa, address, \"Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road\"; Amdavad ni Gufa, country, India; Amdavad ni Gufa, location, Ahmedabad\n\nWhat is sentence that verbalizes this data?",
@@ -253,7 +253,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Amdavad ni Gufa is located in Gujarat, India. It is located at \"Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road\" in Ah"
+        "predicted_answer": "Amdavad ni Gufa is located in India, in the city of Ahmedabad."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: Amsterdam Airport Schiphol, cityServed, Amsterdam",
@@ -261,7 +261,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Amsterdam Airport Schiphol is a major airport serving Amsterdam, the city it is served."
+        "predicted_answer": "Amsterdam Airport Schiphol is a cityServed airport located in Amsterdam."
     },
     {
         "inputs": "Data: Bakso, ingredient, Noodle\n\nSentence about the following data:",
@@ -269,7 +269,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Bakso is made with noodles."
+        "predicted_answer": "Bakso is a noodle dish that contains meatballs."
     },
     {
         "inputs": "Andrews County Airport, location, Texas; Texas, language, English language; Texas, demonym, Texan; Texas, country, United States\n\nWhat is sentence that verbalizes this data?",
@@ -277,7 +277,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Andrews County Airport is located in Texas, which is a state in the United States and whose demonym is Texan. The language spoken in Texas is English."
+        "predicted_answer": "Andrews County Airport is located in Texas, which is a state in the United States. The demonym for Texas is Texan."
     },
     {
         "inputs": "Sentence: Footballer, Alan Martin was born on January 1st 1989 and he is a footballer for the Crewe Alexandra FC and for the Aldershot Town F.C.\n\nWhat data can be extracted from this sentence?",
@@ -285,7 +285,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alan Martin, Aldershot Town F.C., Crewe Alexandra FC, 1989"
+        "predicted_answer": "Alan Martin was born on January 1st 1989 and he is a footballer for the Crewe Alexandra FC and for the Aldershot Town F.C.\n\nThe data that can be extracted from this sentence is"
     },
     {
         "inputs": "Sentence: A Loyal Character Dancer is published in the United States where the Asian Americans are one of the ethnic groups.\n\nWhat structured data could we extract from this sentence?",
@@ -293,7 +293,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "ethnicity, country, publisher, ethnicity_group, ethnicity_group_location"
+        "predicted_answer": "\n<table>\n  <tr>\n    <th>Name</th>\n    <th>Value</th>\n  </tr>\n  <tr>\n    <td>ethnic_group</td>"
     },
     {
         "inputs": "This is some data: Bakewell pudding, region, Derbyshire Dales; Bakewell pudding, dishVariation, Bakewell tart; Bakewell pudding, course, \"Dessert\"; Bakewell pudding, mainIngredient, \"Ground almond, jam, butter, eggs\".\n\nGenerate a detailed description of this data",
@@ -301,7 +301,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Bakewell pudding is a dessert from Derbyshire Dales. It is made with ground almond, jam, butter, eggs and is a variation of Bakewell tart."
+        "predicted_answer": "Bakewell pudding is a dessert from the Derbyshire Dales region of England. It is a variation of Bakewell tart, which is a dish made with ground almond, jam, butter, and eggs."
     },
     {
         "inputs": "India, largestCity, Mumbai; AWH Engineering College, country, India; AWH Engineering College, academicStaffSize, 250; AWH Engineering College, state, Kerala; Kerala, hasToItsNorthwest, Mahé, India; AWH Engineering College, city, \"Kuttikkattoor\"; India, river, Ganges\n\nWhat is sentence that verbalizes this data?",
@@ -309,7 +309,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "AWH Engineering College is located in the state of Kerala in India. It has 250 academic staff and is located in the city of Kuttikkattoor. India's largest city is Mumbai and it has the river"
+        "predicted_answer": "India, the largest city in India, Mumbai, is home to AWH Engineering College, which is located in India. AWH Engineering College has 250 academic staff members and is located in Kerala, which is located to"
     },
     {
         "inputs": "Generate a sentence about this data: Akeem Dent, debutTeam, Atlanta Falcons; Akeem Dent, formerTeam, Houston Texans; Houston Texans, city, Houston; Atlanta Falcons, owner, Arthur Blank; Atlanta Falcons, city, Atlanta",
@@ -317,7 +317,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Akeem Dent played for the Houston Texans before he joined the Atlanta Falcons. The Falcons are owned by Arthur Blank and are based in Atlanta."
+        "predicted_answer": "Akeem Dent played for the Houston Texans and the Atlanta Falcons. He played for the Houston Texans from 2011 to 2012 and for the Atlanta Falcons from 2013 to"
     },
     {
         "inputs": "Sentence: Beef kway teow is a dish from the country of Singapore, where the leader is Halimah Yacob and the currency is the Singapore dollar.\n\nWhat data can be extracted from this sentence?",
@@ -325,7 +325,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Singapore, Halimah Yacob, Singapore dollar, currency, leader, country"
+        "predicted_answer": "Country: Singapore\nLeader: Halimah Yacob\nCurrency: Singapore dollar"
     },
     {
         "inputs": "Sentence: 107 Camilla, was discovered on 17 November 1868, by N.R. Pogson, an English national, who was born in Nottingham and died in Chennai.\n\nWhat data can be extracted from this sentence?",
@@ -333,7 +333,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "N.R. Pogson, English national, born in Nottingham, died in Chennai, discovered 107 Camilla on 17 November 1868."
+        "predicted_answer": "Sentence: 107 Camilla, was discovered on 17 November 1868, by N.R. Pogson, an English national, who was born in Nottingham and died in Chennai"
     },
     {
         "inputs": "Sentence: HOK SVE was the architect of the 3Arena at North Wall, Dublin.\n\nWhat data can be extracted from this sentence?",
@@ -349,7 +349,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Anders Osborne is signed to Alligator Records."
+        "predicted_answer": "Anders Osborne is a blues guitarist who has released several albums on Alligator Records."
     },
     {
         "inputs": "3Arena, location, \"East Link Bridge\"\n\nWhat is sentence that verbalizes this data?",
@@ -365,7 +365,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Barny Cakes has 1.8 g of protein."
+        "predicted_answer": "Barny Cakes is a protein-rich snack with 1.8 g of protein."
     },
     {
         "inputs": "Sentence: 107 Camilla was discovered by N.R. Pogson.\n\nWhat data can be extracted from this sentence?",
@@ -373,7 +373,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "N.R. Pogson discovered 107 Camilla."
+        "predicted_answer": "Camilla was discovered by N.R. Pogson."
     },
     {
         "inputs": "Here is some data: Akeem Dent, birthYear, 1987; Akeem Dent, birthDate, 1987-09-27.\n\nWrite a sentence that describes this data",
@@ -389,7 +389,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "AmeriGas is located in King of Prussia, Pennsylvania, which is in the North American Eastern Time Zone. King of Prussia is located in the United States, which has an area of 9833516"
+        "predicted_answer": "AmeriGas is located in King of Prussia, Pennsylvania. King of Prussia is in the North American Eastern Time Zone. AmeriGas is located in the United States. The United States has a total area of 9"
     },
     {
         "inputs": "This is some data: Allen Forrest, genre, Acoustic music; Allen Forrest, birthPlace, \"Fort Campbell, KY, raised in Dothan, AL\"; Allen Forrest, background, \"solo singer\".\n\nGenerate a detailed description of this data",
@@ -397,7 +397,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Allen Forrest is an acoustic music singer who was born in Fort Campbell, KY and raised in Dothan, AL. He is a solo singer."
+        "predicted_answer": "Allen Forrest is an acoustic musician who was born in Fort Campbell, KY and raised in Dothan, AL. He is a solo singer."
     },
     {
         "inputs": "Data: Cocum eatType coffee shop; Cocum priceRange cheap; Cocum customer rating 5 out of 5; Cocum familyFriendly yes\n\nWhat would a sentence about this data be like?",
@@ -413,7 +413,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Alan Shepard, California, death"
+        "predicted_answer": "Alan Shepard died in California.\n\nAlan Shepard died in California.\n\nAlan Shepard died in California."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.\"\n\nReturn the answer as pairs of triples.",
@@ -421,7 +421,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Greece Superleague, AEK Athens FC, Olympiacos F.C."
+        "predicted_answer": "[Greece Superleague, AEK Athens FC, Gus Poyet, Real Zaragoza, Chelsea F.C.]"
     },
     {
         "inputs": "Here is some data: Browns Cambridge eatType coffee shop; Browns Cambridge food English; Browns Cambridge customer rating 5 out of 5; Browns Cambridge familyFriendly yes; Browns Cambridge near Crowne Plaza Hotel.\n\nWrite a sentence that describes this data",
@@ -429,7 +429,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food and has a customer rating of 5 out of 5. It is family friendly and is near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It has a 5 out of 5 customer rating and is family friendly. It is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: Administrative Science Quarterly PUBLISHER Cornell University; Cornell University NICKNAME Cornell Big Red; Cornell University AFFILIATION Association of Public and Land-grant Universities; Cornell University STATE New York; Cornell University CITY Ithaca, New York",
@@ -437,7 +437,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cornell University is a public and land-grant university located in Ithaca, New York. It is affiliated with the Association of Public and Land-grant Universities and is the publisher of Administrative Science Quarterly"
+        "predicted_answer": "Cornell University is a private Ivy League research university located in Ithaca, New York. It was founded in 1865 by Ezra Cornell and Andrew Dickson White. The university was originally known as the \"C"
     },
     {
         "inputs": "Triple: The Punter eatType coffee shop; The Punter food Chinese; The Punter priceRange high; The Punter customer rating average; The Punter familyFriendly yes; The Punter near Café Sicilia\n\nWhat is a sentence that describes this triple?",
@@ -445,7 +445,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Punter is a Chinese coffee shop with a high price range and average customer rating. It is family friendly and is near Café Sicilia."
+        "predicted_answer": "The Punter is a Chinese food restaurant that is located near Café Sicilia. It has a high price range and is family friendly. It has an average customer rating and is near Café Sicilia."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: Wildwood eatType coffee shop; Wildwood food English; Wildwood priceRange moderate; Wildwood customer rating 1 out of 5; Wildwood near Ranch",
@@ -461,7 +461,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Bill Pascrell, Matthew Kirnan, Bill Pascrell (d) 62% matthew kirnan (r) 36%"
+        "predicted_answer": "Bill pascrell (d) 62% matthew kirnan (r) 36% were the candidates in the district whose incumbent is Bill Pascrell."
     },
     {
         "inputs": "Generate a sentence about this data: Fitzbillies eatType coffee shop; Fitzbillies food English; Fitzbillies priceRange £20-25; Fitzbillies customer rating high; Fitzbillies area city centre; Fitzbillies familyFriendly yes",
@@ -477,7 +477,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The American Journal of Mathematics is a bimonthly publication in the field of mathematics. Its abbreviation is Am. J. Math. and its ISSN number is 1080-6377."
+        "predicted_answer": "The American Journal of Mathematics is a bimonthly peer-reviewed academic journal covering mathematics. It was established in 1884 and is published by the University of Chicago Press. The journal is abstracted and indexed in Mathematical"
     },
     {
         "inputs": "Here is some data: Lemon ORDER Rosids.\n\nWrite a sentence that describes this data",
@@ -485,7 +485,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Lemon belongs to the Rosids."
+        "predicted_answer": "Lemon is an order of the Rosids."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\ncoffee shop moderately priced Cotto is located next to The Portland Arms.",
@@ -493,7 +493,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cotto, coffee shop, is located next to The Portland Arms."
+        "predicted_answer": "Coffee shop Cotto is located next to The Portland Arms."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nIn the Georgia 6 district, the elected party is democratic.",
@@ -501,7 +501,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Georgia 6, democratic, elected party"
+        "predicted_answer": "Georgia 6 district, democratic, elected party"
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nBruno Junqueira of the Newman/Haas Racing finished the 2003 Grand Prix of Monterey 0.8 secs behind the winner.",
@@ -509,7 +509,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Bruno Junqueira, Newman/Haas Racing, 0.8 secs behind the winner, Grand Prix of Monterey, 2003"
+        "predicted_answer": "Bruno Junqueira of the Newman/Haas Racing finished the 2003 Grand Prix of Monterey 0.8 secs behind the winner."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nHighly rated Chinese coffee shop, Cocum, welcomes children.",
@@ -517,7 +517,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum, Chinese coffee shop, welcomes children"
+        "predicted_answer": "Highly rated Chinese coffee shop, Cocum, welcomes children."
     },
     {
         "inputs": "Data: Stephen J. Solarz FIRST_ELECTED 1974; Stephen J. Solarz PARTY Democratic; New York 13 INCUMBENT Stephen J. Solarz\n\nWhat would a sentence about this data be like?",
@@ -525,7 +525,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Stephen J. Solarz was first elected in 1974 and is a member of the Democratic Party. He is the incumbent for New York 13."
+        "predicted_answer": "Stephen J. Solarz was first elected in 1974 and is a member of the Democratic Party. He is the incumbent for New York's 13th congressional district."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nHOK SVE was the architect of 3Arena.",
@@ -533,7 +533,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "3Arena, HOK SVE, architect"
+        "predicted_answer": "HOK SVE was the architect of 3Arena."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Punter eatType coffee shop; The Punter food English; The Punter priceRange moderate; The Punter customer rating 3 out of 5; The Punter familyFriendly no; The Punter near Café Sicilia",
@@ -541,7 +541,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Punter is a coffee shop that serves English food. It is moderately priced and has a customer rating of 3 out of 5. It is not family friendly and is near Café Sicilia."
+        "predicted_answer": "The Punter is a coffee shop that serves English food. It is moderately priced and has a 3 out of 5 customer rating. It is not family friendly. It is near Café Sicilia."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nBuzz Aldrin's nationality is United States.",
@@ -549,7 +549,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Buzz Aldrin, United States, nationality"
+        "predicted_answer": "Buzz Aldrin is a person and his nationality is United States."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"The Wildwood is a coffee shop that serves Chinese food in the high price range near the Ranch but has a customer rating of 1 out of 5.\"\n\nReturn the answer as pairs of triples.",
@@ -557,7 +557,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "coffee shop, Chinese food, high price range"
+        "predicted_answer": "The Wildwood is a coffee shop that serves Chinese food in the high price range near the Ranch but has a customer rating of 1 out of 5.\n\nThe Wildwood is a coffee shop that serves Chinese food in the high price"
     },
     {
         "inputs": "Write a sentence that about [San Sebastián de los Reyes COUNTRY Spain].",
@@ -573,7 +573,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Derbyshire Dales, County of Derbyshire, Patrick McLoughlin, Bakewell tart, Bakewell pudding, frangipane"
+        "predicted_answer": "Derbyshire Dales, County of Derbyshire, Bakewell tart, Bakewell pudding, frangipane"
     },
     {
         "inputs": "Generate a sentence about this data: The Eagle familyFriendly no; The Eagle near Café Brazil",
@@ -581,7 +581,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is not a family friendly restaurant. It is located near Café Brazil."
+        "predicted_answer": "The Eagle family friendly restaurant is near Café Brazil."
     },
     {
         "inputs": "Triple: The Punter eatType coffee shop; The Punter food English; The Punter customer rating average; The Punter familyFriendly no; The Punter near Café Sicilia\n\nWhat is a sentence that describes this triple?",
@@ -589,7 +589,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Punter is a coffee shop that serves English food. It is not family friendly and is near Café Sicilia."
+        "predicted_answer": "The Punter is a coffee shop that serves English food. It has an average customer rating and is not family friendly. It is near Café Sicilia."
     },
     {
         "inputs": "This is some data: Port Authority of New York and New Jersey HEADQUARTER Four World Trade Center.\n\nGenerate a detailed description of this data",
@@ -597,7 +597,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Port Authority of New York and New Jersey is headquartered at Four World Trade Center."
+        "predicted_answer": "The Port Authority of New York and New Jersey is located at 120 Broadway, New York, NY 10271. The phone number is 212-435-7000. The website"
     },
     {
         "inputs": "Generate a sentence about this data: 11 Diagonal Street COMPLETION_DATE 1983",
@@ -605,7 +605,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "11 Diagonal Street was completed in 1983."
+        "predicted_answer": "The 11 Diagonal Street was completed in 1983."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Golden Palace coffee shop serves English dishes that are moderately priced. Despite being on the riverside, the average customer rating is 1 out of 5.",
@@ -621,7 +621,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is moderately priced and has a customer rating of 1 out of 5. It is family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop that serves English food. It is moderately priced and has a customer rating of 1 out of 5. It is located in the city centre and is family friendly."
     },
     {
         "inputs": "This is some data: The Golden Palace eatType coffee shop; The Golden Palace priceRange moderate.\n\nGenerate a detailed description of this data",
@@ -629,7 +629,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Golden Palace is a coffee shop with moderate prices."
+        "predicted_answer": "The Golden Palace is a coffee shop that is moderately priced."
     },
     {
         "inputs": "Data: The Eagle eatType coffee shop; The Eagle food Chinese; The Eagle priceRange cheap; The Eagle customer rating 5 out of 5; The Eagle area city centre; The Eagle familyFriendly yes; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
@@ -637,7 +637,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a Chinese coffee shop in the city centre. It is rated 5 out of 5 and is family friendly. It is near Burger King."
+        "predicted_answer": "The Eagle is a Chinese food restaurant located in the city centre. It is rated 5 out of 5 and is family friendly. It is near Burger King."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: The Punter customer rating high; The Punter area riverside",
@@ -645,7 +645,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Punter is a riverside pub with a high customer rating."
+        "predicted_answer": "The Punter is a customer rated high, located in the riverside area."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Eagle eatType coffee shop; The Eagle customer rating 3 out of 5; The Eagle area riverside; The Eagle familyFriendly yes; The Eagle near Burger King",
@@ -653,7 +653,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a coffee shop located in the riverside area. It is family friendly and has a customer rating of 3 out of 5. It is near Burger King."
+        "predicted_answer": "The Eagle eatType coffee shop, customer rating 3 out of 5, area riverside, familyFriendly yes, near Burger King."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: Cocum eatType coffee shop; Cocum food English; Cocum priceRange moderate; Cocum customer rating 3 out of 5; Cocum familyFriendly yes",
@@ -661,7 +661,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is moderately priced and has a customer rating of 3 out of 5. It is family friendly."
+        "predicted_answer": "Cocum is a coffee shop that serves English food. It is moderately priced and has a 3 out of 5 customer rating. It is family friendly."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nAdria is 25 year old bartender from Seattle, WA",
@@ -669,7 +669,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Adria, bartender, Seattle, WA, 25"
+        "predicted_answer": "Adria is a bartender from Seattle, WA."
     },
     {
         "inputs": "Here is some data: Cocum eatType coffee shop; Cocum food English; Cocum priceRange cheap; Cocum customer rating average; Cocum familyFriendly yes.\n\nWrite a sentence that describes this data",
@@ -677,7 +677,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is a cheap place to eat and is family friendly."
+        "predicted_answer": "Cocum is a coffee shop that serves English food. It is a cheap place to eat. It has an average customer rating and is family friendly."
     },
     {
         "inputs": "Data: The Eagle eatType coffee shop; The Eagle priceRange moderate; The Eagle customer rating 1 out of 5; The Eagle area riverside; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
@@ -685,7 +685,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a coffee shop located in riverside. It is moderately priced and has a customer rating of 1 out of 5. It is near Burger King."
+        "predicted_answer": "The Eagle is a coffee shop located in Riverside. It has a moderate price range and a customer rating of 1 out of 5. It is near Burger King."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"The Golden Palace is a moderate priced coffee shop located close to the river that provides take away\"\n\nReturn the answer as pairs of triples.",
@@ -693,7 +693,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "coffee shop, take away, river"
+        "predicted_answer": "[Golden Palace, coffee shop, take away]"
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Thomas Tyner SCHOOL Aloha High School",
@@ -701,7 +701,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Thomas Tyner attended Aloha High School."
+        "predicted_answer": "Thomas Tyner is a student at Aloha High School."
     },
     {
         "inputs": "Write a sentence that about [Fitzbillies eatType coffee shop; Fitzbillies food English; Fitzbillies priceRange cheap; Fitzbillies customer rating average; Fitzbillies area city centre; Fitzbillies familyFriendly no].",
@@ -709,7 +709,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is a cheap place to eat. It has an average customer rating. It is not family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre of Cambridge. It serves English food and has a cheap price range. The average customer rating is average. It is not family friendly."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Ashgabat International Airport LOCATION Ashgabat; Ashgabat International Airport RUNWAY_LENGTH 3800.0; Ashgabat International Airport ELEVATION 211",
@@ -717,7 +717,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Ashgabat International Airport is located in Ashgabat. The runway length is 3800.0 and the elevation is 211."
+        "predicted_answer": "Ashgabat International Airport is located in Ashgabat, Turkmenistan. The airport has a runway length of 3800.0 meters and an elevation of 211 meters."
     },
     {
         "inputs": "Write a sentence that about [The Golden Palace eatType coffee shop; The Golden Palace food Chinese; The Golden Palace priceRange moderate; The Golden Palace customer rating 3 out of 5; The Golden Palace area city centre].",
@@ -725,7 +725,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Golden Palace is a Chinese restaurant located in the city centre. It has a moderate price range and a customer rating of 3 out of 5."
+        "predicted_answer": "The Golden Palace is a Chinese restaurant located in the city centre. It has a moderate price range and a 3 out of 5 customer rating."
     },
     {
         "inputs": "Data: The Eagle eatType coffee shop; The Eagle food English; The Eagle customer rating high; The Eagle area riverside; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
@@ -733,7 +733,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a coffee shop that serves English food. It is rated highly by customers and is located near Burger King in the riverside area."
+        "predicted_answer": "The Eagle is a coffee shop that serves English food. It has a high customer rating and is located near Burger King. It is also located in the riverside area."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data:  NAME Lee P. Brown; Lee P. Brown NUMBER 3;   Office of National Drug Control Policy",
@@ -741,7 +741,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Lee P. Brown is the number 3 in the Office of National Drug Control Policy."
+        "predicted_answer": "Lee P. Brown is the current director of the Office of National Drug Control Policy."
     },
     {
         "inputs": "Data: Al Asad Airbase OPERATING_ORGANISATION United States Air Force; Al Asad Airbase LOCATION Iraq; Al Asad Airbase RUNWAY_LENGTH 3078.48\n\nWhat would a sentence about this data be like?",
@@ -749,7 +749,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Al Asad Airbase is located in Iraq and is operated by the United States Air Force. The runway length is 3078.48."
+        "predicted_answer": "Al Asad Airbase is located in Iraq and is operated by the United States Air Force. The runway is 3078.48 meters long."
     },
     {
         "inputs": "Generate a sentence about this data: Acharya Institute of Technology SPORTS_OFFERED Tennis; Acharya Institute of Technology ESTABLISHED 2000; Tennis SPORTS_GOVERNING_BODY International Tennis Federation",
@@ -757,7 +757,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Acharya Institute of Technology was established in 2000 and offers tennis as a sport. Tennis is governed by the International Tennis Federation."
+        "predicted_answer": "Acharya Institute of Technology offers tennis as a sport. It was established in 2000. Tennis is governed by the International Tennis Federation."
     },
     {
         "inputs": "Data: Fitzbillies eatType coffee shop; Fitzbillies food English; Fitzbillies area city centre\n\nWhat would a sentence about this data be like?",
@@ -773,7 +773,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It has a high customer rating and is not family friendly. The price range is £20-25."
+        "predicted_answer": "Fitzbillies is a Chinese coffee shop in the city centre. It has a high customer rating and is not family friendly."
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: The Eagle eatType coffee shop; The Eagle food English; The Eagle priceRange cheap; The Eagle customer rating 5 out of 5; The Eagle area riverside; The Eagle near Burger King",
@@ -781,7 +781,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a coffee shop that serves English food. It is located in the riverside area near Burger King and has a customer rating of 5 out of 5. It is a cheap place to eat."
+        "predicted_answer": "The Eagle is a coffee shop that serves English food. It is located in the riverside area near Burger King. The Eagle has a customer rating of 5 out of 5. It is a cheap place to eat."
     },
     {
         "inputs": "This is some data: The Phoenix area city centre.\n\nGenerate a detailed description of this data",
@@ -789,7 +789,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Phoenix area city centre is a place where people can go to shop, eat and drink."
+        "predicted_answer": "The Phoenix area city centre is a large area in the city of Phoenix, Arizona. It is located in the center of the city and is home to many businesses, restaurants, and shops. The city centre is also home to many historical"
     },
     {
         "inputs": "Data: AIDS (journal) COUNTRY United Kingdom; AIDS (journal) PUBLISHER Lippincott Williams &amp; Wilkins; United Kingdom LEADER_NAME Elizabeth II\n\nWhat would a sentence about this data be like?",
@@ -805,7 +805,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is not family friendly. It is near the Crowne Plaza Hotel."
+        "predicted_answer": "The restaurant named Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is not family friendly. It is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Cricketers, eatType = coffee shop, food = English, customer rating = high, familyFriendly = yes, near = The Portland Arms",
@@ -829,7 +829,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter, coffee shop, Chinese, more than £30, high, Café Sicilia"
+        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is rated highly and is more than £30. It is near Café Sicilia."
     },
     {
         "inputs": "Data: name = The Eagle, eatType = coffee shop, food = Chinese, priceRange = moderate, customer rating = 3 out of 5, area = city centre, familyFriendly = yes, near = Burger King. Can you generate a sentence about this data?",
@@ -845,7 +845,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a Chinese coffee shop in the city centre. It has a customer rating of 1 out of 5 and is near The Portland Arms."
+        "predicted_answer": "Cotto is a coffee shop that serves Chinese food. It is located in the city centre and is rated 1 out of 5. It is near The Portland Arms."
     },
     {
         "inputs": "Here are some keywords about a restaurant:\n\nname = The Eagle, eatType = coffee shop, food = English, priceRange = £20-25, customer rating = high, area = riverside, familyFriendly = yes, near = Burger King. Write a sentence that describes the following attributes of a restaurant.",
@@ -853,7 +853,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It is near Burger King. The price range is £20-25. The customer rating is high."
+        "predicted_answer": "The Eagle is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It is near Burger King."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Fitzbillies, eatType = coffee shop, food = English, priceRange = moderate, customer rating = 1 out of 5, area = city centre, familyFriendly = yes",
@@ -861,7 +861,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre. It serves English food and has a moderate price range. It is family friendly. It has a customer rating of 1 out of 5."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre. It is moderately priced and family friendly. The food is English and the customer rating is 1 out of 5."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Punter, eatType = restaurant, customer rating = 3 out of 5, area = riverside, familyFriendly = yes",
@@ -877,7 +877,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Phoenix is a restaurant located in Riverside that has a high customer rating."
+        "predicted_answer": "The Phoenix is a riverside restaurant with a high customer rating."
     },
     {
         "inputs": "Sentence: name = Fitzbillies, eatType = coffee shop, food = English, priceRange = high, customer rating = 1 out of 5, area = city centre, familyFriendly = yes\n\nCan you represent the content in this sentence in data form?",
@@ -885,7 +885,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies, coffee shop, English, high, 1 out of 5, city centre, yes, familyFriendly"
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is rated 1 out of 5 and is family friendly. The price range is high."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Cambridge Blue, eatType = coffee shop, customer rating = average, area = riverside, familyFriendly = yes, near = Burger King",
@@ -893,7 +893,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Cambridge Blue is a coffee shop located in the riverside area. It is family friendly and has an average customer rating. It is near Burger King."
+        "predicted_answer": "The Cambridge Blue is a coffee shop located in the riverside area of Cambridge. It is family friendly and has an average customer rating. It is near Burger King."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Cotto, eatType = coffee shop, priceRange = cheap, customer rating = average, area = riverside, near = The Portland Arms",
@@ -901,7 +901,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a cheap coffee shop located in the riverside area near The Portland Arms."
+        "predicted_answer": "Cotto is a cheap coffee shop located in the riverside area near The Portland Arms. It has an average customer rating."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Fitzbillies, eatType = coffee shop, food = Chinese, priceRange = moderate, customer rating = 3 out of 5, area = city centre, familyFriendly = no",
@@ -909,7 +909,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It has a moderate price range and a customer rating of 3 out of 5. It is not family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop that serves Chinese food. It is located in the city centre and is not family friendly. It has a moderate price range and a customer rating of 3 out of 5."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Eagle, eatType = coffee shop, food = English, area = city centre, near = Burger King",
@@ -917,7 +917,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a coffee shop in the city centre. It is near Burger King. The food is English."
+        "predicted_answer": "The Eagle is a coffee shop in the city centre near Burger King. It serves English food."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Punter, eatType = coffee shop, food = Chinese, customer rating = high, familyFriendly = yes, near = Café Sicilia",
@@ -925,7 +925,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is rated highly by customers and is family friendly. It is near Café Sicilia."
+        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It has a high customer rating and is family friendly. It is near Café Sicilia."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Phoenix, customer rating = 5 out of 5, area = city centre",
@@ -933,7 +933,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Phoenix is a restaurant in the city centre with a customer rating of 5 out of 5."
+        "predicted_answer": "The Phoenix is a restaurant located in the city centre. It has a 5 out of 5 customer rating."
     },
     {
         "inputs": "Data: name = Fitzbillies, eatType = coffee shop, food = Chinese, priceRange = high, area = city centre, familyFriendly = yes. Can you generate a sentence about this data?",
@@ -941,7 +941,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It is family friendly and has a high price range."
+        "predicted_answer": "Fitzbillies is a coffee shop that serves Chinese food. It is located in the city centre and is family friendly. It is a high priced restaurant."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = Cotto, eatType = coffee shop, food = Chinese, priceRange = less than £20, customer rating = low, area = city centre, near = The Portland Arms",
@@ -949,7 +949,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a coffee shop in the city centre near The Portland Arms. It serves Chinese food and has a low customer rating. The price range is less than £20."
+        "predicted_answer": "Cotto is a coffee shop that serves Chinese food. It is located in the city centre near The Portland Arms. It has a low customer rating and is less than £20."
     },
     {
         "inputs": "Sentence: name = The Punter, eatType = coffee shop, food = English, priceRange = £20-25, customer rating = high, familyFriendly = yes, near = Café Sicilia\n\nCan you represent the content in this sentence in data form?",
@@ -957,7 +957,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter, coffee shop, English, £20-25, high, yes, Café Sicilia"
+        "predicted_answer": "The Punter is a coffee shop that serves English food. It is rated high by customers and is family friendly. It is located near Café Sicilia. The price range is £20-25."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Cambridge Blue, eatType = coffee shop, customer rating = average, area = city centre, familyFriendly = yes, near = Burger King",
@@ -965,7 +965,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Cambridge Blue is a coffee shop in the city centre. It is family friendly and has an average customer rating. It is near Burger King."
+        "predicted_answer": "The Cambridge Blue is a coffee shop located in the city centre. It is family friendly and has an average customer rating. It is near Burger King."
     },
     {
         "inputs": "Sentence: name = Aromi, eatType = coffee shop, food = English, customer rating = 5 out of 5, area = city centre, familyFriendly = no\n\nCan you represent the content in this sentence in data form?",
@@ -973,7 +973,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Aromi, coffee shop, English, 5 out of 5, city centre, no, food"
+        "predicted_answer": "Aromi is a coffee shop that serves English food. It has a customer rating of 5 out of 5 and is not family friendly. It is located in the city centre."
     },
     {
         "inputs": "Sentence: name = The Wrestlers, customer rating = 1 out of 5, familyFriendly = yes, near = The Sorrento\n\nCan you represent the content in this sentence in data form?",
@@ -981,7 +981,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Wrestlers, 1 out of 5, familyFriendly = yes, near = The Sorrento"
+        "predicted_answer": "The Wrestlers has a customer rating of 1 out of 5, is family friendly, and is near The Sorrento."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Fitzbillies, eatType = coffee shop, food = Chinese, priceRange = less than £20, customer rating = low, area = city centre, familyFriendly = no",
@@ -989,7 +989,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It has a low customer rating and is not family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It has a low customer rating and is not family friendly. The price range is less than £20."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Punter, eatType = coffee shop, food = Chinese, priceRange = moderate, customer rating = 1 out of 5, familyFriendly = yes, near = Café Sicilia",
@@ -997,7 +997,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is moderately priced and family friendly. It is near Café Sicilia."
+        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is moderately priced and family friendly. It is located near Café Sicilia."
     },
     {
         "inputs": "Here is some data about a restaurant: name = The Wrestlers, customer rating = low, familyFriendly = yes. Write a sentence that includes the following data about a restaurant",
@@ -1013,7 +1013,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It is not family friendly and has an average customer rating."
+        "predicted_answer": "Fitzbillies is a coffee shop that serves Chinese food. It is located in the city centre and is not family friendly. The price range is high and the customer rating is average."
     },
     {
         "inputs": "Data: name = Browns Cambridge, eatType = coffee shop, food = Chinese, customer rating = 5 out of 5, area = riverside, familyFriendly = no, near = Crowne Plaza Hotel. What is a sentence that describe this data?",
@@ -1021,7 +1021,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a customer rating of 5 out of 5 and is not family friendly. It is located near the Crowne Plaza Hotel and on the riverside."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a 5 out of 5 customer rating and is not family friendly. It is located near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = Fitzbillies, eatType = coffee shop, food = English, customer rating = 3 out of 5, area = riverside",
@@ -1029,7 +1029,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop located in the riverside area. It has a customer rating of 3 out of 5."
+        "predicted_answer": "Fitzbillies is a coffee shop located in the riverside area of Cambridge. It has a 3 out of 5 customer rating and serves English food."
     },
     {
         "inputs": "Attributes: name = Cotto, eatType = coffee shop, food = Chinese, priceRange = cheap, customer rating = 5 out of 5, area = city centre, near = The Portland Arms. Produce a detailed sentence about this restaurant.",
@@ -1037,7 +1037,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a Chinese restaurant located in the city centre. It has a 5 out of 5 customer rating and is cheap. It is near The Portland Arms."
+        "predicted_answer": "Cotto is a Chinese coffee shop in the city centre. It has a 5 out of 5 customer rating and is cheap. It is near The Portland Arms."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = The Mill, eatType = coffee shop, food = Chinese, priceRange = less than £20, area = city centre, near = The Sorrento",
@@ -1045,7 +1045,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Mill is a coffee shop in the city centre. It serves Chinese food and is near The Sorrento."
+        "predicted_answer": "The Mill is a coffee shop in the city centre that serves Chinese food. It is less than £20 and is near The Sorrento."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Aromi, eatType = coffee shop, food = Chinese, customer rating = 5 out of 5, area = city centre, familyFriendly = yes",
@@ -1061,7 +1061,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is rated 1 out of 5 by customers. The price range is cheap and high."
+        "predicted_answer": "Cocum is a coffee shop that serves English food. It is located in the city centre and has a customer rating of 1 out of 5. The price range is cheap to high."
     },
     {
         "inputs": "Attributes: name = The Phoenix, area = riverside. Produce a detailed sentence about this restaurant.",
@@ -1069,7 +1069,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Phoenix is a riverside restaurant that serves a variety of food."
+        "predicted_answer": "The Phoenix is a riverside restaurant located in the city of Phoenix. It is a popular place for people to go to eat. The food is delicious and the atmosphere is relaxing."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Cotto, eatType = coffee shop, food = Chinese, customer rating = high, area = riverside, near = The Portland Arms",
@@ -1085,7 +1085,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is moderately priced and family friendly."
+        "predicted_answer": "Cocum is a coffee shop that serves English food at a moderate price. It is family friendly."
     },
     {
         "inputs": "Data: name = The Eagle, customer rating = average, area = riverside, familyFriendly = yes, near = Café Brazil. What is a sentence that describe this data?",
@@ -1093,7 +1093,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a family friendly restaurant that is located near Café Brazil and has an average customer rating."
+        "predicted_answer": "The Eagle is a family friendly restaurant located in Riverside that has an average customer rating. It is near Café Brazil."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Browns Cambridge, eatType = coffee shop, food = English, customer rating = high, area = riverside, familyFriendly = yes, near = Crowne Plaza Hotel",
@@ -1101,7 +1101,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It has a high customer rating. It is near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It is near the Crowne Plaza Hotel. It has a high customer rating."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = The Punter, eatType = coffee shop, food = Chinese, priceRange = cheap, customer rating = average, familyFriendly = yes, near = Café Sicilia",
@@ -1109,7 +1109,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is a cheap place to eat and is family friendly. It is near Café Sicilia."
+        "predicted_answer": "The Punter is a Chinese coffee shop that is family friendly and has an average customer rating. It is located near Café Sicilia and is cheap."
     },
     {
         "inputs": "Data: name = The Eagle, customer rating = high, area = riverside, familyFriendly = yes, near = Café Brazil. Can you generate a sentence about this data?",
@@ -1117,7 +1117,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a family friendly restaurant located in Riverside. It is near Café Brazil and has a high customer rating."
+        "predicted_answer": "The Eagle is a family friendly restaurant located in Riverside, California. It has a high customer rating and is near Café Brazil."
     },
     {
         "inputs": "Attributes: name = The Punter, customer rating = low, area = riverside, familyFriendly = no. Produce a detailed sentence about this restaurant.",
@@ -1141,7 +1141,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a riverside restaurant that is family friendly and has a 5 out of 5 customer rating."
+        "predicted_answer": "The Punter is a riverside restaurant with a 5 out of 5 customer rating. It is family friendly."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = Browns Cambridge, eatType = coffee shop, food = English, customer rating = average, area = city centre, familyFriendly = no, near = Crowne Plaza Hotel",
@@ -1149,7 +1149,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop in the city centre. It serves English food and has an average customer rating. It is not family friendly and is near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop located in the city centre. It serves English food and has an average customer rating. It is not family friendly and is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Sentence: name = The Wrestlers, customer rating = high, familyFriendly = yes\n\nCan you represent the content in this sentence in data form?",
@@ -1157,7 +1157,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Wrestlers, customer rating = high, familyFriendly = yes"
+        "predicted_answer": "The Wrestlers has a customer rating of high and is family friendly."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Punter, area = riverside, familyFriendly = yes",
@@ -1173,7 +1173,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Wrestlers, 5 out of 5, yes"
+        "predicted_answer": "The Wrestlers has a customer rating of 5 out of 5 and is family friendly."
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = The Mill, eatType = coffee shop, food = Chinese, priceRange = less than £20, area = riverside, near = The Sorrento",
@@ -1181,7 +1181,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Mill is a coffee shop that serves Chinese food. It is located on the riverside and is near The Sorrento. The price range is less than £20."
+        "predicted_answer": "The Mill is a coffee shop that serves Chinese food. It is located on the riverside near The Sorrento. The price range is less than £20."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Browns Cambridge, eatType = coffee shop, food = Chinese, customer rating = 5 out of 5, area = city centre, familyFriendly = no, near = Crowne Plaza Hotel",
@@ -1189,7 +1189,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a customer rating of 5 out of 5 and is located in the city centre. It is not family friendly. It is near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a 5 out of 5 customer rating and is located in the city centre. It is not family friendly and is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Mill, eatType = coffee shop, food = Chinese, priceRange = £20-25, area = riverside, near = The Sorrento",
@@ -1197,7 +1197,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Mill is a coffee shop that serves Chinese food. It is located in the riverside area near The Sorrento. The price range is £20-25."
+        "predicted_answer": "The Mill is a coffee shop that serves Chinese food. It is located on the riverside and is near The Sorrento. The price range is £20-25."
     },
     {
         "inputs": "Keywords: hold, room, toddler, toy, walk\n\nWhat is a sentence that includes all these keywords?",
@@ -1205,7 +1205,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The toddler held a toy and walked into the room."
+        "predicted_answer": "The toddler held the toy and walked to the room."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: front, hand, wave",
@@ -1229,7 +1229,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The joke"
+        "predicted_answer": "The woman tells her friends a joke."
     },
     {
         "inputs": "Identify the most salient words in this sentence:\n\nA dog carrying a stick runs to it's owner.",
@@ -1237,7 +1237,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "dog, owner, stick"
+        "predicted_answer": "The most salient words are: dog, carrying, stick, runs, owner."
     },
     {
         "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
@@ -1245,7 +1245,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The first sentence is about the concept of a person. The second sentence is about the concept of a person."
+        "predicted_answer": "The sentence is \"The dog is a pet.\" The concepts included in the sentence are \"dog\" and \"pet\"."
     },
     {
         "inputs": "Concepts: cut, hair, style\n\nWrite a sentence that includes all these words.",
@@ -1253,7 +1253,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "I cut my hair in a style that is short."
+        "predicted_answer": "I cut my hair and style it."
     },
     {
         "inputs": "Here are some concepts: hold, stand, watch\n\nWhat is a sentence about these concepts?",
@@ -1261,7 +1261,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The audience stood and watched the performance."
+        "predicted_answer": "I held the door open for him."
     },
     {
         "inputs": "Concepts: couple, ride, road, skateboard\n\nWrite a sentence that includes all these words.",
@@ -1269,7 +1269,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A couple riding a skateboard on the road."
+        "predicted_answer": "I was riding my skateboard down the road when I saw a couple on a motorcycle."
     },
     {
         "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
@@ -1277,7 +1277,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of a person is a person."
+        "predicted_answer": "The sentence is \"The dog is a pet.\" The concepts included in the sentence are \"dog\" and \"pet\"."
     },
     {
         "inputs": "What are the most important words in the following sentence:\n\nMichael threw the ball to his open teammate.",
@@ -1285,7 +1285,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "Michael threw the ball to his teammate."
+        "predicted_answer": "Michael threw the ball to his open teammate."
     },
     {
         "inputs": "Here are some concepts: catch, fish, river\n\nWhat is a sentence about these concepts?",
@@ -1293,7 +1293,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The fish caught in the river are delicious."
+        "predicted_answer": "The fish is caught in the river."
     },
     {
         "inputs": "Concepts: chair, flute, sit\n\nWrite a sentence that includes all these words.",
@@ -1301,7 +1301,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The flute player sat in a chair."
+        "predicted_answer": "I sit on a chair and play the flute."
     },
     {
         "inputs": "Concepts: cliff, jump, top\n\nWrite a sentence that includes all these words.",
@@ -1309,7 +1309,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The top of the cliff was the perfect place to jump."
+        "predicted_answer": "The cliff jump was at the top of the mountain."
     },
     {
         "inputs": "Generate a sentence that includes all the following words: chair, floor, sit",
@@ -1333,7 +1333,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of the sentence is the word \"sugar\" and the word \"sweet\"."
+        "predicted_answer": "The sentence is \"The dog is a pet.\" The concepts included in the sentence are \"dog\" and \"pet\"."
     },
     {
         "inputs": "Concepts: blow, brush, dry, hair\n\nWrite a sentence that includes all these words.",
@@ -1349,7 +1349,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The tree stands on a branch."
+        "predicted_answer": "The tree stood on the branch."
     },
     {
         "inputs": "Identify the most salient words in this sentence:\n\nThe girls will watch the band perform the music.",
@@ -1357,7 +1357,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The band will perform the music."
+        "predicted_answer": "The music"
     },
     {
         "inputs": "Write a sentence about the following things:\n\ndog, field, hold, stand",
@@ -1365,7 +1365,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The dog stands in the field."
+        "predicted_answer": "The dog stood in the field."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nA woman crosses the street while talking on her phone.",
@@ -1373,7 +1373,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "cross, street, phone, talk"
+        "predicted_answer": "Woman, crosses, street, phone"
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: birthday, blow, cake, candle, sing",
@@ -1381,7 +1381,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "We sang happy birthday and blew out the candles on the cake."
+        "predicted_answer": "Happy birthday! Let's blow out the candles and sing."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: headphone, watch, wear",
@@ -1397,7 +1397,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A coin is inserted into a vending machine and pressed to get a button."
+        "predicted_answer": "The machine has a button, a coin slot, and a button to press."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nA couple was sitting on a bench tying balloons together.",
@@ -1405,7 +1405,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "bench, couple, balloons"
+        "predicted_answer": "bench, couple, balloons, sitting, tie"
     },
     {
         "inputs": "Write a sentence about the following things:\n\ncolor, country, map, marker, use",
@@ -1413,7 +1413,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The map of the country is marked with a red marker."
+        "predicted_answer": "The color of the marker is red. The marker is used to mark the country on the map."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: field, player, talk",
@@ -1421,7 +1421,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The player talked to the field."
+        "predicted_answer": "The field was full of players talking."
     },
     {
         "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
@@ -1429,7 +1429,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The first sentence is about the concept of the first sentence."
+        "predicted_answer": "The sentence is \"The dog is a pet.\" The concepts included in the sentence are \"dog\" and \"pet\"."
     },
     {
         "inputs": "What are the most important words in the following sentence:\n\nA man shuffles a deck of cards in his hands.",
@@ -1437,7 +1437,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "hands, deck, cards"
+        "predicted_answer": "Hands"
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nStanding on top of the mountain, the girl raised their arms up in the air.",
@@ -1445,7 +1445,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "mountain, girl, arms"
+        "predicted_answer": "Raised"
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: ball, bunch, field, kid, throw",
@@ -1453,7 +1453,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A kid threw a ball to a bunch of kids on a field."
+        "predicted_answer": "The kid threw the ball to the bunch in the field."
     },
     {
         "inputs": "Here are some concepts: bike, fall, jump, ramp, ride\n\nWhat is a sentence about these concepts?",
@@ -1461,7 +1461,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A bike rider jumps off a ramp and falls."
+        "predicted_answer": "I jumped off the ramp on my bike and fell."
     },
     {
         "inputs": "Generate a sentence that includes all the following words: continue, dance, hold, pose",
@@ -1469,7 +1469,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The dancers continued to hold their pose."
+        "predicted_answer": "The dancer continued to hold the pose."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: ball, pitch, pitcher",
@@ -1485,7 +1485,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The boy, the guitar and the girls"
+        "predicted_answer": "The boy and the girls"
     },
     {
         "inputs": "Identify the most salient words in this sentence:\n\nThe crowd stood up to cheer as the woman walked across the rope.",
@@ -1501,7 +1501,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The hairstyle is cut and styled."
+        "predicted_answer": "I cut my hair in a style that is short and neat."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: dog, leash, walk",
@@ -1517,7 +1517,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "rope"
+        "predicted_answer": "The monkey"
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nThe teenager was going to put her walk on hold so she could find her phone.",
@@ -1533,7 +1533,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A person wears a helmet when riding a vehicle."
+        "predicted_answer": "I ride a vehicle wearing a helmet."
     },
     {
         "inputs": "Here are some concepts: jacket, snow, walk, wear\n\nWhat is a sentence about these concepts?",
@@ -1541,7 +1541,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "I wore a jacket when I walked in the snow."
+        "predicted_answer": "I wear a jacket when it snows."
     },
     {
         "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
@@ -1549,7 +1549,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of a person is a person."
+        "predicted_answer": "The sentence is \"The dog is a pet.\" The concepts included in the sentence are \"dog\" and \"pet\"."
     },
     {
         "inputs": "Generate a sentence that includes all the following words: fish, kid, swim, tank, watch",
@@ -1557,7 +1557,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The kid watches the fish swim in the tank."
+        "predicted_answer": "I watch my kid swim in the fish tank."
     },
     {
         "inputs": "Keywords: surfboard, water, wave\n\nWhat is a sentence that includes all these keywords?",
@@ -1565,7 +1565,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "A surfboard is used to ride the waves in the water."
+        "predicted_answer": "The surfboard was riding the wave."
     },
     {
         "inputs": "What are the most important words in the following sentence:\n\nroll a piece of the dough on the baking paper using the pin they gave you.",
@@ -1573,7 +1573,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "roll a piece of the dough"
+        "predicted_answer": "The most important words in the sentence are: roll a piece of the dough on the baking paper using the pin they gave you."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: brush, tooth, toothbrush, use",
@@ -1581,7 +1581,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "Brush your teeth with a toothbrush."
+        "predicted_answer": "I use a toothbrush to brush my teeth."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nThe young kid hit the ball into the opponents court.",
@@ -1589,7 +1589,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "ball, court, kid, opponent"
+        "predicted_answer": "opponents"
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nWe can talk while we eat at the restaurant.",

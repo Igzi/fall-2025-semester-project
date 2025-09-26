@@ -282,6 +282,7 @@ scorer = BilinearFusionScorer(
     top_k=5,
     temperature=0.1
 ).to(device)
+
 with torch.no_grad():
     def init_identity(linear: torch.nn.Linear):
         W = linear.weight  # shape: (out_features, in_features)
