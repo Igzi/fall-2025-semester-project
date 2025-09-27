@@ -180,19 +180,20 @@ class BilinearFusionScorer(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
-    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
+    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0, included_tasks: torch.Tensor = None):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
         self.Wr = nn.Linear(d_a, d_proj, bias=False)    # A -> d_proj
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
+        self.included_tasks = included_tasks  # (K,)
 
     @torch.no_grad()
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def forward(self, I: torch.Tensor):
+    def forward(self, I: torch.Tensor, train: bool = False):
         """
         I: (B, d_in) input embeddings
         Returns:
@@ -202,6 +203,9 @@ class BilinearFusionScorer(nn.Module):
         proj_I = self.Wi(I)                 # (B, d_proj)
         proj_A = self.Wr(self.A)            # (K, d_proj)
         logits = proj_I @ proj_A.t()        # (B, K)
+
+        if train:
+            logits = logits.masked_fill(self.included_tasks.unsqueeze(0) == 0, float('-inf'))
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -222,6 +226,7 @@ def activate_fused_adapter_from_embeddings(
     peft_model,                      # a PEFT-wrapped model (e.g., PeftModelForCausalLM)
     scorer: BilinearFusionScorer,    # the bilinear scorer above (Wi, Wr)
     I_batch: torch.Tensor,           # (B, d_in) input embeddings for the current batch
+    train: bool = False              # whether in training mode (to use included_tasks filtering
 ):
     """
     Computes weights with the scorer and builds a single fused adapter in the model,
@@ -230,13 +235,38 @@ def activate_fused_adapter_from_embeddings(
     Note: this is a *static* fusion for the whole model for subsequent forward passes.
     """
     # 1) per-sample weights (B, K)
-    probs, _ = scorer(I_batch)
+    probs, _ = scorer(I_batch, train=train)  # (B, K)
 
     # 2) collapse to a single weight vector over experts.
     #    Two reasonable choices:
     #      - mean over the batch (default)
     #      - max or top-k then renormalize
     return probs
+
+import math
+
+def filter_tasks_by_fraction(ds: Dataset, fraction: float = 0.4, seed: int = 42, task_key: str = "task") -> Dataset:
+    """
+    Keep only samples whose task is in a random subset of tasks covering `fraction`
+    of unique tasks. Returns a new Hugging Face Dataset.
+    """
+    if not isinstance(ds, Dataset):
+        raise TypeError("ds must be a Hugging Face Dataset")
+    if task_key not in ds.column_names:
+        raise KeyError(f"Expected column '{task_key}' in dataset.")
+
+    unique_tasks = ds.unique(task_key)
+    if not unique_tasks:
+        return ds
+
+    rng = random.Random(seed)
+    k = max(1, int(math.floor(len(unique_tasks) * fraction)))
+    selected_tasks = set(rng.sample(unique_tasks, k))
+
+    # Select rows whose task is in the chosen set
+    tasks_col = ds[task_key]  # list of task labels
+    keep_idx = [i for i, t in enumerate(tasks_col) if t in selected_tasks]
+    return ds.select(keep_idx), selected_tasks
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -255,8 +285,13 @@ def generate_and_tokenize_prompt(data_point):
 
 dataset = read_dataset('./data.jsonl')
 train_ds, val_ds = train_val_split(dataset, 0.02, 42)
+train_ds, selected_tasks = filter_tasks_by_fraction(train_ds, fraction=0.4, seed=42, task_key="task")
 train_ds_prompt = train_ds.map(generate_and_tokenize_prompt)
 val_ds_prompt = val_ds.map(generate_and_tokenize_prompt)
+
+
+included_tasks = torch.tensor([1 if model_name.split("-")[1]+"_10templates" in selected_tasks else 0 for model_name in model_names], dtype=torch.float32).to(device)
+
 
 model_path = f"meta-llama/Llama-2-7b-hf"
 base_model, tokenizer = load_base_model(model_path)
@@ -280,7 +315,8 @@ scorer = BilinearFusionScorer(
     d_proj=768,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
     top_k=5,
-    temperature=0.1
+    temperature=0.1,
+    included_tasks=included_tasks
 ).to(device)
 
 with torch.no_grad():
@@ -303,15 +339,16 @@ val_log = []
 
 from contextlib import suppress
 
-with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
-    for i in range(len(train_ds)):
+with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
+    for i in range(len(train_ds)//2):
         I_batch = get_embeddings([train_ds[i]['inputs']])
         I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device)
 
         w = activate_fused_adapter_from_embeddings(
             peft_model=peft_model,
             scorer=scorer,
-            I_batch=I_batch
+            I_batch=I_batch,
+            train=True
         )
 
         dp = train_ds_prompt[i]
@@ -401,8 +438,8 @@ with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
 save_dir = os.path.join(os.path.dirname(__file__), "checkpoints")
 os.makedirs(save_dir, exist_ok=True)
 
-ckpt_path = os.path.join(save_dir, "scorer_final_mixture.pt")
-cfg_path = os.path.join(save_dir, "scorer_final_mixture.config.json")
+ckpt_path = os.path.join(save_dir, "scorer_final_mixture_40.pt")
+cfg_path = os.path.join(save_dir, "scorer_final_mixture_40.config.json")
 
 # Save state_dict on CPU to avoid device issues
 state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}

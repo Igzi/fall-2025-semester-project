@@ -128,8 +128,8 @@ def eval_datasets(
     results = []  # Initialize a list to store question and response data
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.config.json"
-    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.pt"
+    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture_40.config.json"
+    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture_40.pt"
      # Load scorer
     with open(cfg_path) as f:
         cfg = json.load(f)
