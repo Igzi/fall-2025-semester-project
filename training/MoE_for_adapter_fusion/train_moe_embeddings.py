@@ -277,7 +277,7 @@ for param in peft_model.parameters():
 scorer = BilinearFusionScorer(
     d_in=model_embeddings.shape[1],
     d_a=model_embeddings.shape[1],
-    d_proj=784,
+    d_proj=768,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
     top_k=5,
     temperature=0.1
@@ -295,7 +295,7 @@ with torch.no_grad():
 scorer.bfloat16()
 
 grad_accum_steps = 32
-opt = torch.optim.AdamW(scorer.parameters(), lr=5e-4)
+opt = torch.optim.AdamW(scorer.parameters(), lr=2e-4)
 opt.zero_grad()
 running_loss = 0.0
 eval_steps = 200
@@ -314,19 +314,27 @@ with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
             I_batch=I_batch
         )
 
-        batch = train_ds_prompt[i]
+        dp = train_ds_prompt[i]
         batch = tokenizer(
-            batch["full_prompt"],
+            dp["full_prompt"]+dp["targets"],
             padding=True,
             truncation=True,
             max_length=512,
             return_tensors="pt",
         ).to(device)
 
+        prefix_tok = tokenizer(
+            dp["full_prompt"],
+            truncation=True,
+            max_length=1024,
+            return_tensors="pt",
+        )
+
         batch["labels"] = batch["input_ids"].clone()
         batch["labels"][batch["attention_mask"] == 0] = -100
+        batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
         
-        outputs = peft_model(**batch, merging_type='fusion', lora_mapping=w)
+        outputs = peft_model(**batch, merging_type='mixture', lora_mapping=w)
         loss = outputs.loss / grad_accum_steps  # scale for accumulation
         loss.backward()
         running_loss += loss.item() * grad_accum_steps
@@ -356,16 +364,23 @@ with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
 
                     val_item = val_ds_prompt[j]
                     val_batch = tokenizer(
-                        val_item["full_prompt"],
+                        val_item["full_prompt"]+val_item["targets"],
                         padding=True,
                         truncation=True,
                         max_length=512,
                         return_tensors="pt",
                     ).to(device)
+                    prefix_tok = tokenizer(
+                        val_item["full_prompt"],
+                        truncation=True,
+                        max_length=512,
+                        return_tensors="pt",
+                    )
                     val_batch["labels"] = val_batch["input_ids"].clone()
                     val_batch["labels"][val_batch["attention_mask"] == 0] = -100
+                    val_batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
                     
-                    val_out = peft_model(**val_batch, merging_type='fusion', lora_mapping=w)
+                    val_out = peft_model(**val_batch, merging_type='mixture', lora_mapping=w)
                     val_losses.append(val_out.loss.item())
                     del val_batch, val_out, I_val
                     torch.cuda.empty_cache()
@@ -386,8 +401,8 @@ with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
 save_dir = os.path.join(os.path.dirname(__file__), "checkpoints")
 os.makedirs(save_dir, exist_ok=True)
 
-ckpt_path = os.path.join(save_dir, "scorer_final.pt")
-cfg_path = os.path.join(save_dir, "scorer_final.config.json")
+ckpt_path = os.path.join(save_dir, "scorer_final_mixture.pt")
+cfg_path = os.path.join(save_dir, "scorer_final_mixture.config.json")
 
 # Save state_dict on CPU to avoid device issues
 state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}

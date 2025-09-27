@@ -104,7 +104,6 @@ def eval_datasets(
     data_path, 
     res_path, 
     config_path="config/config2.json", 
-    eval_type="fusion", 
     lora_num=3, 
     batch_size=1, 
     ood=False, 
@@ -129,8 +128,8 @@ def eval_datasets(
     results = []  # Initialize a list to store question and response data
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final.config.json"
-    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final.pt"
+    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.config.json"
+    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.pt"
      # Load scorer
     with open(cfg_path) as f:
         cfg = json.load(f)
@@ -140,7 +139,7 @@ def eval_datasets(
         d_a=cfg["d_a"],
         d_proj=cfg["d_proj"],
         A_init=torch.zeros(cfg["K"], cfg["d_a"], dtype=torch.bfloat16),  # placeholder, will be loaded
-        top_k=cfg["top_k"],
+        top_k=lora_num,
         temperature=cfg["temperature"],
     ).to(device)
     if cfg["dtype"] == "bfloat16":
@@ -203,8 +202,8 @@ def eval_datasets(
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 
-                if eval_data["domain"][i] != "struct to text":
-                    continue
+                # if eval_data["domain"][i] != "struct to text":
+                #     continue
 
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
@@ -231,6 +230,10 @@ def eval_datasets(
                 mapping_matrix_tensor, _ = scorer(I_batch)
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
+                if ood:
+                    mapping_matrix_tensor[0, model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}")] = 0.0
+                    mapping_matrix_tensor = mapping_matrix_tensor / mapping_matrix_tensor.sum(-1, keepdim=True)
+
 
                 # Tokenize the input text
                 inputs = tokenizer(
@@ -244,7 +247,7 @@ def eval_datasets(
                     input_ids=inputs["input_ids"],
                     max_new_tokens=50,
                     temperature=0.001,
-                    merging_type='fusion',
+                    merging_type='mixture',
                     lora_mapping=mapping_matrix_tensor
                 )
 
