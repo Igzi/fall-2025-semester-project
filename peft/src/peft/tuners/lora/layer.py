@@ -448,6 +448,7 @@ class Linear(nn.Module, LoraLayer):
             lora_bias=lora_bias,
         )
         self.is_target_conv_1d_layer = is_target_conv_1d_layer
+        self.layer_idx = kwargs.get("layer_idx", None)
 
     def merge(self, safe_merge: bool = False, adapter_names: Optional[list[str]] = None) -> None:
         """
@@ -598,6 +599,7 @@ class Linear(nn.Module, LoraLayer):
         adapter_names = kwargs.pop("adapter_names", None)
         merging_type = kwargs.pop("merging_type", None)
         lora_mapping = kwargs.pop("lora_mapping", None)
+        scorers = kwargs.pop("scorers", None)
         stacked_lora_A = []
         stacked_lora_B = []
 
@@ -665,6 +667,12 @@ class Linear(nn.Module, LoraLayer):
                     fusion_lora_B = torch.einsum('bp,pdr->bdr', lora_mapping, stacked_lora_B)
                     mid=torch.einsum('bld,brd->blr',x, fusion_lora_A)
                     res=torch.einsum('blr,bdr->bld',mid,fusion_lora_B)
+                elif merging_type == 'moe':
+                    input_embeddings = x.mean(dim=1)
+                    lora_mapping, _ = scorers[self.layer_idx](input_embeddings)
+                    mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
+                    mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)
+                    res=torch.einsum('blpd,bp->bld',mid, lora_mapping)
                 else:
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
                     mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)

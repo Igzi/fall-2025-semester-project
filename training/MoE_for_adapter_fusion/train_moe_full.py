@@ -292,9 +292,6 @@ base_model.eval()
 base_model.config.use_cache = False          # <-- important
 base_model.gradient_checkpointing_enable()
 
-print(base_model)
-x=10/0
-
 peft_model = load_peft_model(model_names, base_model)
 peft_model = peft_model.to(device)
 peft_model.eval()
@@ -302,46 +299,33 @@ peft_model.eval()
 for param in peft_model.parameters():
     param.requires_grad = False  # freeze everything
 
-scorer = BilinearFusionScorer(
-    d_in=model_embeddings.shape[1],
+scorers = [BilinearFusionScorer(
+    d_in=4096,
     d_a=model_embeddings.shape[1],
     d_proj=768,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
-    top_k=5,
-    temperature=0.1
-).to(device)
+    top_k=10,
+    temperature=0.2
+).to(device) for _ in range(32)]
 
-with torch.no_grad():
-    def init_identity(linear: torch.nn.Linear):
-        W = linear.weight  # shape: (out_features, in_features)
-        W.zero_()
-        d = min(W.shape[0], W.shape[1])
-        W[:d, :d].copy_(torch.eye(d, dtype=W.dtype, device=W.device))
-
-    init_identity(scorer.Wi)
-    init_identity(scorer.Wr)
-scorer.bfloat16()
+for scorer in scorers:
+    scorer.bfloat16()
 
 grad_accum_steps = 32
-opt = torch.optim.AdamW(scorer.parameters(), lr=2e-4)
+all_scorer_params = []
+for scorer in scorers:
+    all_scorer_params.extend(list(scorer.parameters()))
+
+opt = torch.optim.AdamW(all_scorer_params, lr=2e-4)
 opt.zero_grad()
 running_loss = 0.0
 eval_steps = 200
 val_log = []
 
-from contextlib import suppress
-
 with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
     for i in range(len(train_ds)//2):
         I_batch = get_embeddings([train_ds[i]['inputs']])
         I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device)
-
-        w = activate_fused_adapter_from_embeddings(
-            peft_model=peft_model,
-            scorer=scorer,
-            I_batch=I_batch,
-            train=True
-        )
 
         dp = train_ds_prompt[i]
         batch = tokenizer(
@@ -363,7 +347,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
         batch["labels"][batch["attention_mask"] == 0] = -100
         batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
         
-        outputs = peft_model(**batch, merging_type='mixture', lora_mapping=w)
+        outputs = peft_model(**batch, merging_type='moe', scorers=scorers)
         loss = outputs.loss / grad_accum_steps  # scale for accumulation
         loss.backward()
         running_loss += loss.item() * grad_accum_steps
@@ -385,12 +369,6 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
                     I_val = get_embeddings([val_ds[j]['inputs']])
                     I_val = torch.tensor(I_val, dtype=torch.bfloat16).to(device)
 
-                    w = activate_fused_adapter_from_embeddings(
-                        peft_model=peft_model,
-                        scorer=scorer,
-                        I_batch=I_val
-                    )
-
                     val_item = val_ds_prompt[j]
                     val_batch = tokenizer(
                         val_item["full_prompt"]+val_item["targets"],
@@ -409,7 +387,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
                     val_batch["labels"][val_batch["attention_mask"] == 0] = -100
                     val_batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
                     
-                    val_out = peft_model(**val_batch, merging_type='mixture', lora_mapping=w)
+                    val_out = peft_model(**val_batch, merging_type='moe', scorers=scorers)
                     val_losses.append(val_out.loss.item())
                     del val_batch, val_out, I_val
                     torch.cuda.empty_cache()
@@ -430,25 +408,29 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
 save_dir = os.path.join(os.path.dirname(__file__), "checkpoints")
 os.makedirs(save_dir, exist_ok=True)
 
-ckpt_path = os.path.join(save_dir, "scorer_final_mixture.pt")
-cfg_path = os.path.join(save_dir, "scorer_final_mixture.config.json")
+# Save all scorers in the array
+for i, scorer in enumerate(scorers):
+    ckpt_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture.pt")
+    cfg_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture.config.json")
 
-# Save state_dict on CPU to avoid device issues
-state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}
-torch.save(state_cpu, ckpt_path)
+    # Save state_dict on CPU to avoid device issues
+    state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}
+    torch.save(state_cpu, ckpt_path)
 
-# Save minimal config to reconstruct the module later
-scorer_config = {
-    "top_k": int(scorer.top_k) if scorer.top_k is not None else None,
-    "temperature": float(scorer.tau),
-    "d_in": int(scorer.Wi.weight.shape[1]),
-    "d_proj": int(scorer.Wi.weight.shape[0]),
-    "d_a": int(scorer.Wr.weight.shape[1]),
-    "K": int(scorer.A.shape[0]),
-    "dtype": "bfloat16",
-}
-with open(cfg_path, "w") as f:
-    json.dump(scorer_config, f, indent=2)
+    # Save minimal config to reconstruct the module later
+    scorer_config = {
+        "layer_idx": i,
+        "top_k": int(scorer.top_k) if scorer.top_k is not None else None,
+        "temperature": float(scorer.tau),
+        "d_in": int(scorer.Wi.weight.shape[1]),
+        "d_proj": int(scorer.Wi.weight.shape[0]),
+        "d_a": int(scorer.Wr.weight.shape[1]),
+        "K": int(scorer.A.shape[0]),
+        "dtype": "bfloat16",
+    }
+    with open(cfg_path, "w") as f:
+        json.dump(scorer_config, f, indent=2)
 
-print(f"Saved scorer to: {ckpt_path}")
-print(f"Saved scorer config to: {cfg_path}")
+    print(f"Saved scorer {i} to: {ckpt_path}")
+
+print(f"Saved all {len(scorers)} scorers to: {save_dir}")

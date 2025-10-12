@@ -55,7 +55,7 @@ from .layer import Conv2d, LoraLayer, dispatch_default
 from .torchao import dispatch_torchao
 from .tp_layer import dispatch_megatron
 
-def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_mapping):
+def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_mapping, scorers):
     # 仅在存在时将参数注入到 kwargs 中
     if adapter_names is not None:
         kwargs["adapter_names"] = adapter_names
@@ -63,6 +63,8 @@ def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_ma
         kwargs["merging_type"] = merging_type  # 将新的参数 merging_type 注入
     if lora_mapping is not None:
         kwargs["lora_mapping"] = lora_mapping  # 将新的参数 lora_mapping 注入
+    if scorers is not None:
+        kwargs["scorers"] = scorers
     return args, kwargs
 
 
@@ -207,6 +209,9 @@ class LoraModel(BaseTuner):
             "loaded_in_8bit": getattr(self.model, "is_loaded_in_8bit", False),
             "loaded_in_4bit": getattr(self.model, "is_loaded_in_4bit", False),
         }
+        # Extract layer index from current_key and add to kwargs
+        layer_idx = int(current_key.split(".")[2])
+        kwargs["layer_idx"] = layer_idx
         # for torchao merging, we need the get_apply_tensor_subclass from the quantization config
         try:
             kwargs["get_apply_tensor_subclass"] = operator.attrgetter(
@@ -236,6 +241,8 @@ class LoraModel(BaseTuner):
                 lora_bias=lora_config.lora_bias,
             )
         else:
+            layer_idx = int(current_key.split(".")[2])
+            kwargs["layer_idx"] = layer_idx
             new_module = self._create_new_module(lora_config, adapter_name, target, **kwargs)
             if adapter_name not in self.active_adapters:
                 # adding an additional adapter: it is not automatically trainable
@@ -443,6 +450,7 @@ class LoraModel(BaseTuner):
         adapter_names = kwargs.pop("adapter_names", None)  # 默认值为 None
         merging_type = kwargs.pop("merging_type", None)    # 默认值为 None
         lora_mapping = kwargs.pop("lora_mapping", None)    # 默认值为 None
+        scorers = kwargs.pop("scorers", None)              # 默认值为 None
 
         if adapter_names is None and merging_type is None and lora_mapping is None:
             # 如果没有传入任何一个参数，什么都不做
@@ -473,7 +481,8 @@ class LoraModel(BaseTuner):
                 pre_forward = partial(_pre_forward_hook, 
                                     adapter_names=adapter_names, 
                                     merging_type=merging_type, 
-                                    lora_mapping=lora_mapping)
+                                    lora_mapping=lora_mapping,
+                                    scorers=scorers)
                 handle = module.register_forward_pre_hook(pre_forward, with_kwargs=True)
                 hook_handles.append(handle)
 
