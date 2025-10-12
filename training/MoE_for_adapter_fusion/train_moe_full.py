@@ -238,31 +238,6 @@ def activate_fused_adapter_from_embeddings(
     #      - max or top-k then renormalize
     return probs
 
-import math
-
-def filter_tasks_by_fraction(ds: Dataset, fraction: float = 0.4, seed: int = 42, task_key: str = "task") -> Dataset:
-    """
-    Keep only samples whose task is in a random subset of tasks covering `fraction`
-    of unique tasks. Returns a new Hugging Face Dataset.
-    """
-    if not isinstance(ds, Dataset):
-        raise TypeError("ds must be a Hugging Face Dataset")
-    if task_key not in ds.column_names:
-        raise KeyError(f"Expected column '{task_key}' in dataset.")
-
-    unique_tasks = ds.unique(task_key)
-    if not unique_tasks:
-        return ds
-
-    rng = random.Random(seed)
-    k = max(1, int(math.floor(len(unique_tasks) * fraction)))
-    selected_tasks = set(rng.sample(unique_tasks, k))
-
-    # Select rows whose task is in the chosen set
-    tasks_col = ds[task_key]  # list of task labels
-    keep_idx = [i for i, t in enumerate(tasks_col) if t in selected_tasks]
-    return ds.select(keep_idx), selected_tasks
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model_names, model_embeddings = get_model_embeddings('../../config/config2.json')
@@ -302,9 +277,9 @@ for param in peft_model.parameters():
 scorers = [BilinearFusionScorer(
     d_in=4096,
     d_a=model_embeddings.shape[1],
-    d_proj=768,
+    d_proj=128,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
-    top_k=10,
+    top_k=5,
     temperature=0.2
 ).to(device) for _ in range(32)]
 
@@ -316,7 +291,7 @@ all_scorer_params = []
 for scorer in scorers:
     all_scorer_params.extend(list(scorer.parameters()))
 
-opt = torch.optim.AdamW(all_scorer_params, lr=2e-4)
+opt = torch.optim.AdamW(all_scorer_params, lr=1e-4)
 opt.zero_grad()
 running_loss = 0.0
 eval_steps = 200
