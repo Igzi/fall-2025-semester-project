@@ -183,7 +183,14 @@ class BilinearFusionScorer(nn.Module):
     def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
-        self.Wr = nn.Linear(d_a, d_proj, bias=False)    # A -> d_proj
+        # Replace single linear with 2-layer MLP
+        self.Wr = nn.Sequential(
+            nn.Linear(d_a, d_proj, bias=False),        # A -> d_proj (hidden)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False),      # d_proj -> d_proj (output)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False)      # d_proj -> d_proj (output)
+        )
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
@@ -385,8 +392,8 @@ os.makedirs(save_dir, exist_ok=True)
 
 # Save all scorers in the array
 for i, scorer in enumerate(scorers):
-    ckpt_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture.pt")
-    cfg_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture.config.json")
+    ckpt_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp.pt")
+    cfg_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp.config.json")
 
     # Save state_dict on CPU to avoid device issues
     state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}
@@ -399,9 +406,10 @@ for i, scorer in enumerate(scorers):
         "temperature": float(scorer.tau),
         "d_in": int(scorer.Wi.weight.shape[1]),
         "d_proj": int(scorer.Wi.weight.shape[0]),
-        "d_a": int(scorer.Wr.weight.shape[1]),
+        "d_a": int(scorer.Wr[0].weight.shape[1]),  # First layer of MLP
         "K": int(scorer.A.shape[0]),
         "dtype": "bfloat16",
+        "use_mlp": True,  # Flag to indicate MLP structure
     }
     with open(cfg_path, "w") as f:
         json.dump(scorer_config, f, indent=2)
