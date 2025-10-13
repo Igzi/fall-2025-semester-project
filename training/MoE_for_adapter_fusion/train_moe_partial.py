@@ -180,7 +180,7 @@ class BilinearFusionScorer(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
-    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
+    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0, included_tasks: torch.Tensor = None):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
         # Replace single linear with 2-layer MLP
@@ -194,12 +194,13 @@ class BilinearFusionScorer(nn.Module):
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
+        self.included_tasks = included_tasks  # (K,)
 
     @torch.no_grad()
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def forward(self, I: torch.Tensor):
+    def forward(self, I: torch.Tensor, train: bool = False):
         """
         I: (B, d_in) input embeddings
         Returns:
@@ -209,6 +210,11 @@ class BilinearFusionScorer(nn.Module):
         proj_I = self.Wi(I)                 # (B, d_proj)
         proj_A = self.Wr(self.A)            # (K, d_proj)
         logits = proj_I @ proj_A.t()        # (B, K)
+        print(train)
+        x=10/0
+
+        if train:
+            logits = logits.masked_fill(self.included_tasks.unsqueeze(0) == 0, float('-inf'))
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -222,6 +228,31 @@ class BilinearFusionScorer(nn.Module):
         
         probs = F.softmax(masked_logits / self.tau, dim=-1)
         return probs, logits
+
+import math
+
+def filter_tasks_by_fraction(ds: Dataset, fraction: float = 0.4, seed: int = 42, task_key: str = "task") -> Dataset:
+    """
+    Keep only samples whose task is in a random subset of tasks covering `fraction`
+    of unique tasks. Returns a new Hugging Face Dataset.
+    """
+    if not isinstance(ds, Dataset):
+        raise TypeError("ds must be a Hugging Face Dataset")
+    if task_key not in ds.column_names:
+        raise KeyError(f"Expected column '{task_key}' in dataset.")
+
+    unique_tasks = ds.unique(task_key)
+    if not unique_tasks:
+        return ds
+
+    rng = random.Random(seed)
+    k = max(1, int(math.floor(len(unique_tasks) * fraction)))
+    selected_tasks = set(rng.sample(unique_tasks, k))
+
+    # Select rows whose task is in the chosen set
+    tasks_col = ds[task_key]  # list of task labels
+    keep_idx = [i for i, t in enumerate(tasks_col) if t in selected_tasks]
+    return ds.select(keep_idx), selected_tasks
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -240,8 +271,11 @@ def generate_and_tokenize_prompt(data_point):
 
 dataset = read_dataset('./data.jsonl')
 train_ds, val_ds = train_val_split(dataset, 0.02, 42)
+train_ds, selected_tasks = filter_tasks_by_fraction(train_ds, fraction=0.4, seed=42, task_key="task")
 train_ds_prompt = train_ds.map(generate_and_tokenize_prompt)
 val_ds_prompt = val_ds.map(generate_and_tokenize_prompt)
+
+included_tasks = torch.tensor([1 if model_name.split("-")[1]+"_10templates" in selected_tasks else 0 for model_name in model_names], dtype=torch.float32).to(device)
 
 model_path = f"meta-llama/Llama-2-7b-hf"
 base_model, tokenizer = load_base_model(model_path)
@@ -265,7 +299,8 @@ scorers = [BilinearFusionScorer(
     d_proj=128,
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
     top_k=5,
-    temperature=0.2
+    temperature=0.2,
+    included_tasks=included_tasks
 ).to(device) for _ in range(32)]
 
 for scorer in scorers:
@@ -307,7 +342,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
         batch["labels"][batch["attention_mask"] == 0] = -100
         batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
         
-        outputs = peft_model(**batch, merging_type='moe', scorers=scorers)
+        outputs = peft_model(**batch, merging_type='moe', scorers=scorers, train=train)
         loss = outputs.loss / grad_accum_steps  # scale for accumulation
         loss.backward()
         running_loss += loss.item() * grad_accum_steps

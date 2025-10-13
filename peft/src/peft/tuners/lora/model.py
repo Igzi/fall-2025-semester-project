@@ -65,6 +65,9 @@ def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_ma
         kwargs["lora_mapping"] = lora_mapping  # 将新的参数 lora_mapping 注入
     if scorers is not None:
         kwargs["scorers"] = scorers
+    if train is not None:
+        kwargs["train"] = train
+    
     return args, kwargs
 
 
@@ -451,6 +454,7 @@ class LoraModel(BaseTuner):
         merging_type = kwargs.pop("merging_type", None)    # 默认值为 None
         lora_mapping = kwargs.pop("lora_mapping", None)    # 默认值为 None
         scorers = kwargs.pop("scorers", None)              # 默认值为 None
+        train = kwargs.pop("train", None)
 
         if adapter_names is None and merging_type is None and lora_mapping is None:
             # 如果没有传入任何一个参数，什么都不做
@@ -482,7 +486,8 @@ class LoraModel(BaseTuner):
                                     adapter_names=adapter_names, 
                                     merging_type=merging_type, 
                                     lora_mapping=lora_mapping,
-                                    scorers=scorers)
+                                    scorers=scorers,
+                                    train=train)
                 handle = module.register_forward_pre_hook(pre_forward, with_kwargs=True)
                 hook_handles.append(handle)
 
