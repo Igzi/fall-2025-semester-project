@@ -55,7 +55,7 @@ from .layer import Conv2d, LoraLayer, dispatch_default
 from .torchao import dispatch_torchao
 from .tp_layer import dispatch_megatron
 
-def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_mapping, scorers):
+def _pre_forward_hook(target, args, kwargs, adapter_names, merging_type, lora_mapping, scorers, train):
     # 仅在存在时将参数注入到 kwargs 中
     if adapter_names is not None:
         kwargs["adapter_names"] = adapter_names

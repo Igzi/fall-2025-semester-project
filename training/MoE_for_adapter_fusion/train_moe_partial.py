@@ -210,8 +210,6 @@ class BilinearFusionScorer(nn.Module):
         proj_I = self.Wi(I)                 # (B, d_proj)
         proj_A = self.Wr(self.A)            # (K, d_proj)
         logits = proj_I @ proj_A.t()        # (B, K)
-        print(train)
-        x=10/0
 
         if train:
             logits = logits.masked_fill(self.included_tasks.unsqueeze(0) == 0, float('-inf'))
@@ -317,8 +315,8 @@ running_loss = 0.0
 eval_steps = 200
 val_log = []
 
-with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
-    for i in range(len(train_ds)//2):
+with tqdm(total=len(train_ds), desc="Training", unit="sample") as pbar:
+    for i in range(len(train_ds)):
         I_batch = get_embeddings([train_ds[i]['inputs']])
         I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device)
 
@@ -405,8 +403,8 @@ os.makedirs(save_dir, exist_ok=True)
 
 # Save all scorers in the array
 for i, scorer in enumerate(scorers):
-    ckpt_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp.pt")
-    cfg_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp.config.json")
+    ckpt_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp_40.pt")
+    cfg_path = os.path.join(save_dir, f"scorer_layer_{i}_mixture_mlp_40.config.json")
 
     # Save state_dict on CPU to avoid device issues
     state_cpu = {k: v.detach().cpu() for k, v in scorer.state_dict().items()}
