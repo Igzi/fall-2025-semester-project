@@ -26,15 +26,15 @@ RUN apt update && apt install -y git
 RUN apt update && apt install -y sudo
 RUN usermod -aG sudo ${LDAP_USERNAME}
 
-# Install Python dependencies
-RUN pip install -e peft/
-RUN pip install -r requirements.txt
-
 # Copy your code inside the container
 RUN mkdir -p /home/${LDAP_USERNAME}
 COPY ./ /home/${LDAP_USERNAME}
 
 # Set the working directory of the container
 WORKDIR /home/${LDAP_USERNAME}
+
+# Install Python dependencies
+RUN pip install -e peft/
+RUN pip install -r requirements.txt
 
 USER ${LDAP_USERNAME}
