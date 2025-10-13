@@ -342,7 +342,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
         batch["labels"][batch["attention_mask"] == 0] = -100
         batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
         
-        outputs = peft_model(**batch, merging_type='moe', scorers=scorers, train=train)
+        outputs = peft_model(**batch, merging_type='moe', scorers=scorers, train=True)
         loss = outputs.loss / grad_accum_steps  # scale for accumulation
         loss.backward()
         running_loss += loss.item() * grad_accum_steps
