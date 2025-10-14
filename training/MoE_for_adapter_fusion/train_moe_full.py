@@ -199,7 +199,7 @@ class BilinearFusionScorer(nn.Module):
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def forward(self, I: torch.Tensor):
+    def forward(self, I: torch.Tensor, train: bool = False):
         """
         I: (B, d_in) input embeddings
         Returns:
