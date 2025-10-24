@@ -128,8 +128,8 @@ def eval_datasets(
     results = []  # Initialize a list to store question and response data
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture_40.config.json"
-    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture_40.pt"
+    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.config.json"
+    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.pt"
      # Load scorer
     with open(cfg_path) as f:
         cfg = json.load(f)
@@ -176,9 +176,6 @@ def eval_datasets(
     base_model, tokenizer = load_base_model(model_path)
     base_model.eval()
 
-    model_path = f"meta-llama/Llama-2-7b-hf"
-    base_model, tokenizer = load_base_model(model_path)
-
     with open(config_path, 'r') as file:
         lora_configs = json.load(file)
 
@@ -214,7 +211,7 @@ def eval_datasets(
                         exclude_list = [f"Styxxxx/llama2_13b_lora-{task}" for task in task_names]
 
                 # Perform retrieval to get top-k LoRA modules
-                I_batch = get_embeddings([input_text[0]])
+                I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
                 I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
 
                 # If best_selection is True, re-map module_list and mapping_matrix for a more constrained set
