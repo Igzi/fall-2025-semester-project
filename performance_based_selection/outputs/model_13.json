@@ -37,7 +37,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "sst2",
-        "predicted_answer": "Positive"
+        "predicted_answer": "positive"
     },
     {
         "inputs": "What is the sentiment of the following movie review sentence?\nknows everything and answers all questions \nOPTIONS:\n- negative\n- positive",
@@ -77,7 +77,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "sst2",
-        "predicted_answer": "Positive"
+        "predicted_answer": "positive"
     },
     {
         "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nsadistic \nOPTIONS:\n- negative\n- positive",
@@ -221,7 +221,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "cb",
-        "predicted_answer": "It's impossible to say"
+        "predicted_answer": "No"
     },
     {
         "inputs": "For a while the notion gripped him, and he prowled the many floors of Hamleys looking for toys. He bought a magic set for Sebastian (although his ideal present for the kid would have been a brand-new name) and a marionette for Louise. He could remember that there was an age for puppets and magic just as he could remember the time that he 'd spent trying to fan a deck of cards or sitting in front of a mirror trying to get the hard consonants down like a real ventriloquist.\nCan we infer the following?\nthere was an age for puppets and magic\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
@@ -237,7 +237,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "cb",
-        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
+        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
     },
     {
         "inputs": "Read the text and determine if the sentence is true:\n\n``For God's sake keep them in their seats. If we get panic people are going to be crushed to death and there will be mayhem in the car park.'' The announcer could only guess from the urgency in the Chief Constable's voice that the situation was very very serious.\n\nSentence: the situation was very very seriousn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
@@ -325,7 +325,7 @@
         "metric": "em",
         "domain": "reading comp",
         "model_name": "multirc",
-        "predicted_answer": "What is the name of the scientist?"
+        "predicted_answer": "How can sound waves travel through air?"
     },
     {
         "inputs": "Earths magnetic field helps protect Earth and its organisms. It protects us from harmful particles given off by the sun. Most of the particles are attracted to the north and south magnetic poles. This is where Earths magnetic field is strongest. This is also where relatively few organisms live. Another benefit of Earths magnetic field is its use for navigation. People use compasses to detect Earths magnetic north pole. Knowing this helps them tell direction. Many animals have natural 'compasses' that work just as well. Birds like the garden warbler in Figure 1.36 use Earths magnetic field. They use it to guide their annual migrations. Recent research suggests that warblers and other migrating birds have structures in their eyes. These structures let them see Earths magnetic field as a visual pattern. \n\nQuestion: \"Where is Earths magnetic field strongest?\"\n\nResponse: \"Greenwich\"\n\nDoes the response correctly answer the question?\n\nOPTIONS:\n- no\n- yes",
@@ -621,7 +621,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "wnli",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Sentence 1: \"Lily spoke to Donna, breaking her silence.\"\n\n Sentence 2: \"Lily spoke to Donna, breaking Donna's silence.\"\n\nIs sentence 2 true, based on sentence 1?\n\nOPTIONS:\n- no\n- yes",
@@ -725,7 +725,7 @@
         "metric": "em",
         "domain": "reading comp",
         "model_name": "squad_v2",
-        "predicted_answer": "The Bolsius family"
+        "predicted_answer": "Harvey Adkins"
     },
     {
         "inputs": "In the UK, the London, Brighton and South Coast Railway pioneered overhead electrification of its suburban lines in London, London Bridge to Victoria being opened to traffic on 1 December 1909. Victoria to Crystal Palace via Balham and West Norwood opened in May 1911. Peckham Rye to West Norwood opened in June 1912. Further extensions were not made owing to the First World War. Two lines opened in 1925 under the Southern Railway serving Coulsdon North and Sutton railway station. The lines were electrified at 6.7 kV 25 Hz. It was announced in 1926 that all lines were to be converted to DC third rail and the last overhead electric service ran in September 1929.\nIf it is possible to answer this question, answer it for me (else, reply \"unanswerable\"): All lines were converted to DC fourth rail in what year?",
@@ -805,7 +805,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "A Severed Wasp is a 1990 American drama film directed by Bill L. Norton and starring John Cusack, Ray Liotta, and Lili Taylor. It was filmed in the United States."
+        "predicted_answer": "A Severed Wasp is a 1990 American drama film directed by Bill L. Norton and starring John Cusack, Ray Liotta, and Lili Taylor. The film is based on the 1986"
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: A.F.C. Fylde, manager, Dave Challinor; Dave Challinor, club, Colwyn Bay F.C.",
@@ -821,7 +821,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Mid-Atlantic Regional Spaceport Launch Pad 0 is associated with Antares (rocket)."
+        "predicted_answer": "Mid-Atlantic Regional Spaceport Launch Pad 0, associatedRocket, Antares (rocket)"
     },
     {
         "inputs": "William Anders, dateOfRetirement, \"1969-09-01\"; William Anders, mission, Apollo 8\n\nWhat is sentence that verbalizes this data?",
@@ -877,7 +877,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Adare Manor is a neo-Gothic style manor house in Adare, County Limerick, Ireland. It was built in 1832 by the Earl of Dunraven and Adare. It was designed"
+        "predicted_answer": "Adare Manor is a neo-Gothic style manor house located in Adare, County Limerick, Ireland. It was built in 1832 by the Earl of Dunraven and was designed by Lewis N"
     },
     {
         "inputs": "Data: Philippines, ethnicGroup, Ilocano people; Philippines, language, Arabic; Philippines, ethnicGroup, Zamboangans; Philippines, language, Philippine Spanish; Batchoy, country, Philippines\n\nSentence about the following data:",
@@ -885,7 +885,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Batchoy is a Filipino noodle soup dish from the Ilocos region of the Philippines."
+        "predicted_answer": "Batchoy is a Filipino noodle soup dish from Ilocos."
     },
     {
         "inputs": "Sentence: The dish of asam pedas is from Sumatra in Indonesia and Malaysia.\n\nWhat data can be extracted from this sentence?",
@@ -925,7 +925,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Aenir is a 233 page paperback"
+        "predicted_answer": "Aenir is a 233 page paperback book written by Garth Nix."
     },
     {
         "inputs": "Andrews County Airport, location, Texas; Andrews County Airport, runwayLength, 8.0; Andrews County Airport, cityServed, Andrews, Texas; Andrews County Airport, elevationAboveTheSeaLevel, 973.0; Andrews County Airport, runwayName, \"11/29\"\n\nWhat is sentence that verbalizes this data?",
@@ -933,7 +933,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Andrews County Airport is located in Andrews, Texas. It has a runway length of 8.0 and is at an elevation of 973.0 above the sea level. The runway name is \"11"
+        "predicted_answer": "Andrews County Airport is located in Andrews, Texas. The runway is 8.0 miles long."
     },
     {
         "inputs": "Sentence: Alvah Sabin's state is Vermont whose biggest city is Burlington. Mr. Sabin belongs to the Whig Party (United States) whose leader is Henry Clay.\n\nWhat structured data could we extract from this sentence?",
@@ -949,7 +949,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "web_nlg_en",
-        "predicted_answer": "Asher and Mary Isabelle Richardson House is located at 1000 North 1st Street in Asher, Oklahoma."
+        "predicted_answer": "Asher and Mary Isabelle Richardson House is located on U.S. Route 83 in the city of Wichita Falls, Texas."
     },
     {
         "inputs": "Sentence: Arròs negre is from Catalonia in Spain. Spaniards are the main ethnic group in this country. Carles Puigdemont is a leader in Catalonia.\n\nWhat data can be extracted from this sentence?",
@@ -1125,7 +1125,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_tren",
-        "predicted_answer": "The most popular hookah lounges in Istanbul are Al Faker in Bebek, Ihlamur Kasrı in Ihlamur Kasrı and Mis Nargile Kafe in Beşiktaş"
+        "predicted_answer": "The most popular hookah cafes in Istanbul are Al Faker in Bebek, Ihlamur Kasrı in Ihlamur Kasrı and Mis Nargile Kafe in Beşiktaş."
     },
     {
         "inputs": "Avustralya yerel şirketlerin ve sitelerin internet reklamlarını yasakladı ancak deniz aşırı siteleri kısıtlayamıyor.\n\nTranslate this to English?",
@@ -1165,7 +1165,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_tren",
-        "predicted_answer": "TÜBİTAK has also done such a test."
+        "predicted_answer": "TÜBİTAK has had such a test."
     },
     {
         "inputs": "Translate the following sentence to Turkish:\nMr Netanyahu, whose Likud party has merged with an even more hawkish lot under Avigdor Lieberman in the run-up to an election on January 22nd, is sitting pretty.",
@@ -1189,7 +1189,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_tren",
-        "predicted_answer": "Bir Stalinistin korkusu için bir çılgınının çılgın olması gerektiğini düşünmesi gerekti"
+        "predicted_answer": "Atmosföre, Stalin'ın korkuya uğramış olurdu"
     },
     {
         "inputs": "Translate the following sentence to Turkish:\nWhich are the hospitals from where I can get a health report?",
@@ -1213,7 +1213,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_tren",
-        "predicted_answer": "Marcus Grubb, investment general manager of the World Gold Council, açıkladı ki, altın, yapısal, güvenilir ve güvenilir bir fiziksel"
+        "predicted_answer": "Marcus Grubb, investment general manager of the World Gold Council, açıkladı ki, \"Altın, temel olarak, güvenilir, güvenilir, gü"
     },
     {
         "inputs": "Translate \"People from Sweden, the old rival and not so long ago far richer than Norway, stream in to work.\" to Turkish?",
@@ -1229,7 +1229,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_tren",
-        "predicted_answer": "Bir bölümü kadınlarının hayatlarında yer alanında yer alanında yer alanında yer alanında"
+        "predicted_answer": "Birçok zamanlarını cezaeleyenlerden çok, bu çalışmaya karşı, bu yalnızca yasal olduğunu anlam"
     },
     {
         "inputs": "Norveç'in bugünkü zenginliğinin altında 1970'lerin başından beri dünyanın en büyük petrol ve benzin endüstrilerinden birinin büyümesi yatıyor.\n\nCould you please translate this to English?",
@@ -1421,7 +1421,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_deen",
-        "predicted_answer": "Die Entscheidung des Nationalen Volkskongresses von China ermöglicht es den Kommunisten, jeden Kandidaten zu entfernen, der nicht loyal zu Peking ist."
+        "predicted_answer": "Die Entscheidung der Nationalen Volksversammlung Chinas ermöglicht es den Kommunisten, die Kandidaten nicht zu Beijing loyal zu stellen."
     },
     {
         "inputs": "Wer Lust auf Discofox, Langsamen Walzer, Wiener Walzer, Rumba, Cha-Cha-Cha und Tango hat, darf vorbeischauen und mitmachen.\n\nTranslate this to English?",
@@ -1437,7 +1437,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_deen",
-        "predicted_answer": "Die HTA und die Royal Horticultural Society sagten, dass Mieteigentum oder ein Mangel an Gartenfläche nicht bedeutet, dass Leute nicht Pflanzen anbauen können."
+        "predicted_answer": "Die HTA und die Royal Horticultural Society sagten, dass Mieteigentum oder ein Mangel an Gartenraum nicht bedeutet, dass Leute nicht Pflanzen anbauen können."
     },
     {
         "inputs": "Ask a question about LaserDisc.",
@@ -1509,7 +1509,7 @@
         "metric": "em",
         "domain": "reading comp",
         "model_name": "squad_v1",
-        "predicted_answer": "He became a professor of philosophy"
+        "predicted_answer": "He became a professor of philosophy."
     },
     {
         "inputs": "Many aspects of Roman culture were borrowed from the Greeks. In architecture and sculpture, the difference between Greek models and Roman paintings are apparent. The chief Roman contributions to architecture were the arch and the dome. Rome has also had a tremendous impact on European cultures following it. Its significance is perhaps best reflected in its endurance and influence, as is seen in the longevity and lasting importance of works of Virgil and Ovid. Latin, the Republic's primary language, remains used for liturgical purposes by the Roman Catholic Church, and up to the 19th century was used extensively in scholarly writings in, for example, science and mathematics. Roman law laid the foundations for the laws of many European countries and their colonies.[citation needed]\nWhat language was commonly used in scholarly mathematical writings prior to the 19th century?",
@@ -1677,7 +1677,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "dart",
-        "predicted_answer": "The Baltic War is a novel by David Weber."
+        "predicted_answer": "The Baltic War is a novel by David Weber"
     },
     {
         "inputs": "Produce a long descriptive sentence that uses all these words: Bibimbap House eatType coffee shop; Bibimbap House food Italian; Bibimbap House priceRange less than £20; Bibimbap House area city centre; Bibimbap House near Clare Hall",
@@ -1685,7 +1685,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "dart",
-        "predicted_answer": "Bibimbap House is a coffee shop that serves Italian food. It is located in the city centre and is near Clare Hall. The price range is less than £20."
+        "predicted_answer": "Bibimbap House is a coffee shop that serves Italian food. It is located in the city centre and is less than £20."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe 27th July, 1932 was the inauguration date of the Ataturk Monument in Izmir, Turkey; which was designed by Pietro Canonica. Ahmet Davutoglu is Turkeys leader and their national currency is the lira.",
@@ -1741,7 +1741,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "dart",
-        "predicted_answer": "Dane Whitman Black Knight (comics) is a fictional character, a superhero in the Marvel Comics universe. He first appeared in The Avengers #65 (July 1969) and was created by Roy"
+        "predicted_answer": "Dane Whitman Black Knight (comics) is a fictional character, a superhero in the Marvel Comics universe. He first appeared in The Avengers #65 (January 1969) and was created by"
     },
     {
         "inputs": "Triple: Addis Ababa City Hall COUNTRY Ethiopia\n\nWhat is a sentence that describes this triple?",
@@ -1805,7 +1805,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "model_name": "cosmos_qa",
-        "predicted_answer": "How long was the shark?"
+        "predicted_answer": "How did the woman meet the tiger shark?"
     },
     {
         "inputs": "Also , make sure it will not react negatively on any other medications that are currently being taken . It would also help to have it checked by the inundate before taking it . 3 .\n\nBased on the preceding passage, answer the following question What is the narrator concerned about ?\nOPTIONS:\n- Negative responses to a mix of pharmaceuticals .\n- They are afraid of how people will react .\n- It will be checked by the inundate before 3 .\n- They will run out of medication they are taking .",
@@ -1837,7 +1837,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "model_name": "cosmos_qa",
-        "predicted_answer": "Happiness"
+        "predicted_answer": "Sadness"
     },
     {
         "inputs": "Read the following article and answer the question.\n\nYou thought you were done hearing about my summer on Martha 's Vineyard ? Well , you thought wrong ! 3 pairs of sunglasses I lost my first pair of sunglasses during the first week I was there on a trip to South Beach . The waves are rough there ... that beach is not for kids !\n\nWhy is South Beach not a suitable place for children ?\nOPTIONS:\n- There is no life guard on duty .\n- Because the waves from the water can be dangerous .\n- None of the above choices .\n- There have been shark sightings .",
@@ -2021,7 +2021,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "mnli_matched",
-        "predicted_answer": "it is not possible to tell"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Sentence 1: However, technology boosters, who won't stop thinking about tomorrow, often forget to think about  It's not at all clear that increasing returns are any more important in software than they were in the early days of railroads, electricity, telephones, radio, even automobiles (What good is a car without gas stations?\n\nSentence 2: Cars can exist without gas stations. \nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -2117,7 +2117,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r3",
-        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
+        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
     },
     {
         "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\n× Monday Morning Movie Reviews: Oscar Predictions, The Great Wall, Fist Fight Nick Digilio, Erik Childress, and Collin Souter review the weekend’s new movies including The Great Wall, Fist Fight, A Cure For Wellness, A United Kingdom and XX. Plus analysis of the box office, the best movies of 1987 and Oscar predictions! To download this or any of Nick’s podcast visit our I-Tunes page. Like us on Facebook (/nickdshow) and follow us on Twitter (@nickdshow.)\n\nHypothesis: People only listen to the podcast during the week.n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -2189,7 +2189,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r3",
-        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
+        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
     },
     {
         "inputs": "I want to -- obviously in the egregious cases we need to enforce civil rights law, but we need to make sure that internal affairs decisions at the local level do their job and be given a chance to do their job. I believe in local control of governments, and obviously if they don't there needs to be a consequence at the federal level.\nCan we infer the following?\ncivil rights law need to be enforce intermediately. \n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -2365,7 +2365,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "e2e_nlg",
-        "predicted_answer": "Aromi<br>eat<br>pub<br>customer rating=3 out of 5<br>area=riverside<br>familyFriendly=yes"
+        "predicted_answer": "Aromi<br>eat<br>pub<br>3 out of 5<br>riverside<br>yes"
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = Wildwood, eatType = pub, food = French, priceRange = less than £20, customer rating = average",
@@ -2381,7 +2381,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "model_name": "e2e_nlg",
-        "predicted_answer": "The Golden Curry is a family-friendly Italian restaurant with a high customer rating."
+        "predicted_answer": "The Golden Curry is a family friendly Italian restaurant with a high customer rating."
     },
     {
         "inputs": "Data: name = The Rice Boat, food = French, priceRange = cheap, area = city centre, familyFriendly = yes, near = Express by Holiday Inn. Can you generate a sentence about this data?",
@@ -2509,7 +2509,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r2",
-        "predicted_answer": "Yes"
+        "predicted_answer": "It's impossible to say"
     },
     {
         "inputs": "Generate a context and a hypothesis.",
@@ -2517,7 +2517,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r2",
-        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
+        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
     },
     {
         "inputs": "Finniss is an electoral district of the House of Assembly in the Australian state of South Australia. It is named after B. T. Finniss, the first Premier of South Australia. It covers a 5,875 km² regional area which includes Kangaroo Island, the Fleurieu Peninsula, and the towns of Kingscote, Middleton, Mount Compass, Penneshaw, Port Elliot, Sellicks Beach, Victor Harbor and Yankalilla.\n\nBased on the paragraph above can we conclude that \"The Fleurieu in South Australia is a piece of land that is mostly surrouded by water. \"?\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -2541,7 +2541,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r2",
-        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
+        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
     },
     {
         "inputs": "Darpan Inani (born 1994) is a prolific blind Indian chess player from Vadodara. He is the second highest rated blind chess player in India with an ELO rating of 2041 as of Oct 2013. He won the bronze medal at the World Junior chess Championship for the blind at Belgrade in 2013. He is also the youngest to win the National blind chess championships.\nCan we infer the following?\nInani won the World Junior chess Championship for the blind the year he turned 19.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -2549,7 +2549,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "anli_r2",
-        "predicted_answer": "Yes"
+        "predicted_answer": "No"
     },
     {
         "inputs": "Patti Clare (born 3 March 1976) is an English actress, known for playing the character of Mary Taylor in the ITV soap opera \"Coronation Street\" since 2008. She is a three-time winner of the British Soap Award for Best Comedy Performance (2011, 2013, 2016).\nDoes this next sentence follow, given the preceding text?\nPatti Clare is an English actress, known for playing the character of Mary Taylor in the soap opera Street Coronation\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -2717,7 +2717,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "model_name": "natural_questions",
-        "predicted_answer": "Above and Beyond"
+        "predicted_answer": "Above & Beyond"
     },
     {
         "inputs": "Do these mean the same?\nShe was executed on 3 May 1947 , 24 minutes after Elisabeth Marschall , by Albert Pierrepoint in Hameln prison for her crimes .\nShe was executed for her crimes at 9 : 55 am on 3 May 1947 , 24 minutes after Elisabeth Marschall , by Albert Pierrepoint in Hameln prison .\n\nOPTIONS:\n- no\n- yes",
@@ -2837,7 +2837,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "model_name": "paws_wiki",
-        "predicted_answer": "yes"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThe `` Fall Beil '' was used for the last time in West Germany in 1949 , in 1966 in East Germany .\nThe `` Fallbeil '' was last used in East Germany in 1949 , in 1966 in West Germany .",
@@ -2941,7 +2941,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_ruen",
-        "predicted_answer": "Judge blocks law that could close all abortion clinics in Louisiana"
+        "predicted_answer": "Judge temporarily blocks law that could close all abortion clinics in Louisiana"
     },
     {
         "inputs": "\"Я чувствовала себя виноватой, потому что сунула нос, куда не следует, и поэтому я никому не сказала, но я вернулась домой, нашла информацию об этом состоянии в библиотеке и написала в Ассоциацию АФ\", сказала она.\n\nTranslate this to English?",
@@ -2949,7 +2949,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_ruen",
-        "predicted_answer": "I felt guilty because I stuck my nose where it didn't belong, and so I didn't tell anyone, but I went home, found information about this condition in the library and wrote to the Association AF"
+        "predicted_answer": "I felt guilty because I stuck my nose where it didn't belong, and so I didn't tell anyone, but I went home, found information about this condition in the library, and wrote to the Association AF"
     },
     {
         "inputs": "Ailinn didn't understand.\n\nTranslate to Russian",
@@ -2981,7 +2981,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_ruen",
-        "predicted_answer": "Андрю Лоусон и больница Гейтс в конечном счете урегулировали дело, но это не было полным соглашением потому, что Лоусон не мог"
+        "predicted_answer": "Андрю Лоусон и госпиталь Гейтс в конечном счете урегулировали дело, но это не было полным соглашением потому, что Лоусон не"
     },
     {
         "inputs": "Я думаю у тебя что-то, что представляет гораздо меньшую угрозу для жизни.\n\nTranslate this to English?",
@@ -3229,7 +3229,7 @@
         "metric": "em",
         "domain": "commonsense",
         "model_name": "story_cloze",
-        "predicted_answer": "She showered him with praise."
+        "predicted_answer": "He didn't listen until we got a lot of ants one spring."
     },
     {
         "inputs": "Core broke her parents glass antique vase. She was afraid of being caught. She swept the glass under the rug. Her parents came and took of their shoes.\n\nWhat is a natural next sentence?\nOPTIONS:\n- Core's parents hurt their feet on the glass.\n- They decided to congratulate Core.",
@@ -3237,7 +3237,7 @@
         "metric": "em",
         "domain": "commonsense",
         "model_name": "story_cloze",
-        "predicted_answer": "Core's parents hurt their feet on the glass."
+        "predicted_answer": "They decided to congratulate Core."
     },
     {
         "inputs": "Write the next sentence in this story.\n\nDan wanted to find the perfect gift for his mother's birthday. He shopped at the mall for hours and was unable to find anything. He came home disappointed and without a gift. His mother saw his face when he walked in and asked what was wrong.\nOPTIONS:\n- Dan explained the situation and his mother was not upset.\n- Dan yelled at his mom for being picky.",
@@ -3597,7 +3597,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "yelp_polarity_reviews",
-        "predicted_answer": "I had a terrible experience at this restaurant. The food was terrible, the service was terrible, and the atmosphere was terrible. I would not recommend this restaurant to anyone.\n\nI had a terrible experience at this restaurant. The food was terrible,"
+        "predicted_answer": "I had a terrible experience at this restaurant. The food was terrible and the service was even worse. I would not recommend this restaurant to anyone.\n\nI had a terrible experience at this restaurant. The food was terrible and the service was even worse"
     },
     {
         "inputs": "Generate a negative review for a place.",
@@ -3629,7 +3629,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "yelp_polarity_reviews",
-        "predicted_answer": "negative"
+        "predicted_answer": "positive"
     },
     {
         "inputs": "Generate a positive review for a place.",
@@ -3661,7 +3661,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "yelp_polarity_reviews",
-        "predicted_answer": "I went to the local library and they had a book that I wanted to read. I was excited to read it. I got to the library and the book was checked out. I was disappointed.\n\nI went to the local library and"
+        "predicted_answer": "I went to the local library and they had a book that I wanted to read. I was excited to read it. I got to the library and they didn't have the book. I was disappointed.\n\nI went to the local"
     },
     {
         "inputs": "Loudest A/C unit ever!! Loudest people by the pool at midnight. And only 1 treadmill in the gym worked. Not impressed, but my room was clean(despite my do not disturb sign being left on the door).\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
@@ -3869,7 +3869,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_fien",
-        "predicted_answer": "Mr Pidgley sanoi: \"Kysyntä hyvään tuotteeseen oikeassa paikassa on pysynyt vahvana ja, näyttäen tätä, eteenpä"
+        "predicted_answer": "Mr Pidgley sanoi: \"Kysyntä hyvään tuotteeseen oikeassa paikassa on pysynyt vahvana ja, näyttäen tätä, etukäteen"
     },
     {
         "inputs": "How is \"Charity CMT UK has launched CMT awareness month to try to draw attention to the condition.\" said in Finnish?",
@@ -3901,7 +3901,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_fien",
-        "predicted_answer": "Yleensä kaikki kotitalon palovaroituslaitteet tulee testata, SPEK sanoo."
+        "predicted_answer": "Yleensä kaikki kotitalon palovaroitin toimintaa tulee varmistaa, SPEK sanoo."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -3925,7 +3925,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_fien",
-        "predicted_answer": "Saaret on sittemmin yrittänyt rajoittaa Magalufin juhlien riehakasta juomista ja riehakasta käytöstä."
+        "predicted_answer": "Saaret on sittemmin yrittänyt rajoittaa Magalufin juhlien riehakasta juomisesta ja riehakasta käytöstä."
     },
     {
         "inputs": "How is \"The injured dog wasn’t able to walk any more on the steep terrain.\" said in Finnish?",
@@ -3941,7 +3941,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_fien",
-        "predicted_answer": "The annual increase of 10.9 percent was more than twice as much as the 12-month period before August 2013, but prices did not rise evenly across the country."
+        "predicted_answer": "The annual increase of 10.9 percent was more than twice as much as the 12-month period before August 2013"
     },
     {
         "inputs": "The research, funded by the Rio Tinto Ride to Conquer cancer, will be published today in the Medical Journal of Australia.\n\nTranslate to Finnish",
@@ -4229,7 +4229,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "mnli_mismatched",
-        "predicted_answer": "yes"
+        "predicted_answer": "it is not possible to tell"
     },
     {
         "inputs": "Sentence 1: Plans were developed by addressing questions such  Why are they resisting this change?\n\nSentence 2: Such questions were not used to develop the plans.\nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -4405,7 +4405,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "imdb_reviews",
-        "predicted_answer": "The movie was a disaster. It was a waste of time."
+        "predicted_answer": "The movie was a bit of a let down. It was a bit slow and the characters were not very interesting.\n\nThe movie was a bit of a let down. It was a bit slow and the characters were not very interesting."
     },
     {
         "inputs": "Write a positive movie review.",
@@ -4957,7 +4957,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "snli",
-        "predicted_answer": "The task is to write a brief sentence."
+        "predicted_answer": "The task is to write a sentence."
     },
     {
         "inputs": "How would one describe the sentiment of this tweet?\n@NKAirplay That gives me visions of a Wahlberg sandwich. \nOPTIONS:\n- negative\n- positive",
@@ -5085,7 +5085,7 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "sentiment140",
-        "predicted_answer": "@JoeBiden is a great president"
+        "predicted_answer": "@JoeBiden is a great man."
     },
     {
         "inputs": "Write a tweet that is positive.",
@@ -5301,7 +5301,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt14_enfr",
-        "predicted_answer": "Human rights activists, religious minorities, and civil society had done the same."
+        "predicted_answer": "Human rights advocates, religious minorities, and civil society had done the same."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -5413,7 +5413,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt14_enfr",
-        "predicted_answer": "Mais je dois vivre de quelque chose."
+        "predicted_answer": "Mais je dois vivre aussi de quelque chose."
     },
     {
         "inputs": "\"Qui langue a, à Moscou va\": les migrants économisent de l'argent pour apprendre la langue\n\nCould you please translate this to English?",
@@ -5493,7 +5493,7 @@
         "metric": "em",
         "domain": "coreference",
         "model_name": "wsc",
-        "predicted_answer": "No"
+        "predicted_answer": "no"
     },
     {
         "inputs": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money.\n\nAre \"Sam\" and \"he\" the same entity?\n\nOPTIONS:\n- no\n- yes",
@@ -5637,7 +5637,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "model_name": "arc_challenge",
-        "predicted_answer": "It ensures that genes from the fittest animals are passed on."
+        "predicted_answer": "It speeds the process of reproduction"
     },
     {
         "inputs": "Question: A student concludes that a chemical reaction performed in a classroom investigation was exothermic. To communicate the validity of this conclusion, which would make the best visual evidence in a presentation?\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- photographs of reactants and products\n- listing of masses of reactants and products\n- listing of time from start to finish of reaction\n- photograph of a flame produced when the chemicals reacted",
@@ -5909,7 +5909,7 @@
         "metric": "em",
         "domain": "commonsense",
         "model_name": "copa",
-        "predicted_answer": "She began travelling abroad"
+        "predicted_answer": "She began going to church"
     },
     {
         "inputs": "Write two sentences.",
@@ -5925,7 +5925,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "qnli",
-        "predicted_answer": "How do you generate a question with a factual answer?"
+        "predicted_answer": "How many people are in the world?"
     },
     {
         "inputs": "Does \"Mieszko I of Poland (c. 935 – 25 May 992) established an elite knightly retinue from within his army, which he depended upon for success in uniting the Lekhitic tribes and preserving the unity of his state.\" contain the correct answer to \"Who also established this retinue as well?\"\nOPTIONS:\n- yes\n- no",
@@ -6037,7 +6037,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "qnli",
-        "predicted_answer": "How do you generate a question with a factual answer?"
+        "predicted_answer": "How many people are in the world?"
     },
     {
         "inputs": "Question: What was the first major urbanization in India?\n\nIs In the later Vedic Age, a number of small kingdoms or city states had covered the subcontinent, many mentioned in Vedic, early Buddhist and Jaina literature as far back as 500 BCE. a good answer to this question?\n\nOPTIONS:\n- yes\n- no",
@@ -6093,7 +6093,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "model_name": "glue_mrpc",
-        "predicted_answer": "yes"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Do these two sentences mean the same thing?\nThe Legislature returns today for a special session and they 're expected to pass a compromise bill aimed at lowering doctors ' medical malpractice insurance rates .\nFlorida legislators return today for a special session in which they 're expected to pass a compromise bill aimed at lowering doctors ' medical malpractice insurance rates .\n\nOPTIONS:\n- no\n- yes",
@@ -6133,7 +6133,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "model_name": "glue_mrpc",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "FBI agents arrested a former partner of Big Four accounting firm Ernst & Young ERNY.UL on criminal charges of obstructing federal investigations , U.S. officials said on Thursday .\nA former partner of accountancy firm Ernst & Young was yesterday arrested by FBI agents in the US on charges of obstructing federal investigations .\nIf the first sentence is true, is the second one also true?\nOPTIONS:\n- no\n- yes",
@@ -6197,7 +6197,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "model_name": "glue_mrpc",
-        "predicted_answer": "yes"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Do these sentences have the same meaning?\nU.N. inspectors found traces of highly enriched , weapons-grade uranium at an Iranian nuclear facility , a report by the U.N. nuclear agency says .\nUnited Nations inspectors have discovered traces of highly enriched uranium near an Iranian nuclear facility , heightening worries that the country may have a secret nuclear weapons program .\n\nOPTIONS:\n- no\n- yes",
@@ -6605,7 +6605,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "wmt16_translate_csen",
-        "predicted_answer": "Projdejte si naše nákupní radu a hodnocení pro digitální kameru pro obyčejné a vodojemové modely."
+        "predicted_answer": "Projdejte si naše nákupní radu a hodnocení pro digitální kameru pro obyčejné a vodní modely."
     },
     {
         "inputs": "A £350m compensation scheme is announced.\n\nTranslate to Czech",
@@ -6805,7 +6805,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "rte",
-        "predicted_answer": "No"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Determine if the sentence is true based on the text below:\nMaxtor is based in Milpita.\n\nSeagate Technology has said it intends to buy rival company Maxtor for $1.9 billion. Both companies produce hard drives. The deal, priced at 60% of Maxtor's closing share price, is intended to acquire Maxtor's customers, not its technology. Seagate, which also makes drives for Microsoft's Xbox 360, will have over 40% of the hard drive market share. The Scotts Valley, California, based Seagate had 30% of the hard drive market. Provided the deal makes it past regulatory committees, Maxtor shareholders will receive .37 of a share of Seagate common stock for every 1 share of the Milpitas based company.\nOPTIONS:\n- yes\n- no",
@@ -6829,7 +6829,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "rte",
-        "predicted_answer": "Context: The 2016–17 season was the 125th season of competitive association football in England.\n\nHypothesis: The 2016-17 season was the 12"
+        "predicted_answer": "Context: How to make a pizza<br>1. Get the dough ready. You can buy it or make it yourself.\n\nHypothesis: You can buy it or make it yourself."
     },
     {
         "inputs": "G & H Restaurant Specialties has not released a statement regarding the violations, but the corporate offices in Louisville, Kentucky for KFC said, \"our franchisee has finalized a plan for some structural repairs... The units will be temporarily closed while these building maintenance issues are addressed. [They will be] re-opened as soon as the repairs are complete.\" The health department also gave violations out to the East Delevan store for failing to maintain a clean floor throughout the restaurant and for not stopping food from becoming contaminated. Several rat traps were also found inside the storage cooler and around the kitchen area, but the establishment was \"not free of rodents,\" said Commissioner of the Erie County Health Department, Dr. Anthony Billittier.\nCan we infer the following?\nLouisville is in Kentucky.\n\nOPTIONS:\n- yes\n- no",
@@ -6845,7 +6845,7 @@
         "metric": "em",
         "domain": "nli",
         "model_name": "rte",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Some of these kinds of violence continue to be perpetrated by certain individuals and groups in the new Iraq.   Mahmoud continued, \"In the last six months at least eight women have been killed in Mosul alone - all apparently by Islamic groups clamping down on female independence. Among these, a professor from the city's law school was shot and beheaded, a vet was killed on her way to work, and a pharmacist from the Alkhansah hospital was shot dead on her doorstep.\"\n\nBased on the paragraph above can we conclude that \"Women in Iraq have lost their freedom.\"?\n\nOPTIONS:\n- yes\n- no",
@@ -6949,7 +6949,7 @@
         "metric": "em",
         "domain": "reading comp",
         "model_name": "drop",
-        "predicted_answer": "10"
+        "predicted_answer": "14"
     },
     {
         "inputs": "Read this article and answer this question Some overtures were made by Thailand to establish trade relations with France in 1840 and 1851. In 1856 Napoleon III sent an embassy, led by Charles de Montigny, to King Mongkut. A treaty was signed on 15 August 1856, to facilitate trade, guarantee religious freedom, and grant French warships access to Bangkok. In June 1861, French warships brought a Thai embassy to France, led by Phya Sripipat . In the meantime, France was establishing a foothold in neighbouring Vietnam, putting it on a collision course with Siam. Under the orders of Napoleon III, French gunships under Rigault de Genouilly attacked the port of Da Nang in 1858, causing significant damage, and holding the city for a few months. de Gnouilly sailed south and captured the poorly defended city of Saigon in 1859. From 1859 to 1867, French troops expanded their control over all six provinces on the Mekong delta and formed a French Colony, Cochin China. In 1863, France and King Norodom of Cambodia signed a treaty of protection with France, which transferred the country from Siamese and Vietnamese overlordship to French colonial rule. A new treaty was signed between France and Siam on 15 July 1867.\nHow many different years were some overtures made by Thialand in?",
@@ -7221,7 +7221,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "model_name": "stsb",
-        "predicted_answer": "3"
+        "predicted_answer": "5"
     },
     {
         "inputs": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\"?\n\nA boy is singing and playing the piano.\nA boy is playing the piano.\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -7613,7 +7613,7 @@
         "metric": "bleu",
         "domain": "translation",
         "model_name": "para_crawl_enes",
-        "predicted_answer": "Currently, in Hamburg, there are more than 350 workers."
+        "predicted_answer": "Currently, in Hamburg, more than 350 workers are employed."
     },
     {
         "inputs": "Translate from Spanish to English:\n\n2 canales de entrada mono, cada uno con control de ganancia, ecualizador de 3 vías, low cut y pan pot",
