@@ -183,7 +183,13 @@ class BilinearFusionScorer(nn.Module):
     def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
-        self.Wr = nn.Linear(d_a, d_proj, bias=False)    # A -> d_proj
+        self.Wr = nn.Sequential(
+            nn.Linear(d_a, d_proj, bias=False),        # A -> d_proj (hidden)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False),      # d_proj -> d_proj (output)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False)      # d_proj -> d_proj (output)
+        )
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
@@ -205,7 +211,7 @@ class BilinearFusionScorer(nn.Module):
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
-            topk_vals, topk_idx = torch.topk(logits, self.top_k, dim=-1)
+            topk_vals, topk_idx = torch.topk(I@self.A.t(), self.top_k, dim=-1)
             mask = torch.zeros_like(logits, dtype=torch.bool)
             
             mask.scatter_(1, topk_idx, True)
@@ -279,7 +285,7 @@ def generate_and_tokenize_prompt(data_point):
     return {"full_prompt": full_prompt}
 
 dataset = read_dataset('./data.jsonl')
-train_ds, val_ds = train_val_split(dataset, 0.02, 42)
+train_ds, val_ds = train_val_split(dataset, 0.05, 42)
 train_ds_prompt = train_ds.map(generate_and_tokenize_prompt)
 val_ds_prompt = val_ds.map(generate_and_tokenize_prompt)
 
@@ -302,25 +308,14 @@ for param in peft_model.parameters():
 scorer = BilinearFusionScorer(
     d_in=model_embeddings.shape[1],
     d_a=model_embeddings.shape[1],
-    d_proj=768,
+    d_proj=model_embeddings.shape[1],
     A_init=torch.tensor(model_embeddings, dtype=torch.float32),
     top_k=5,
-    temperature=0.1
-).to(device)
-
-with torch.no_grad():
-    def init_identity(linear: torch.nn.Linear):
-        W = linear.weight  # shape: (out_features, in_features)
-        W.zero_()
-        d = min(W.shape[0], W.shape[1])
-        W[:d, :d].copy_(torch.eye(d, dtype=W.dtype, device=W.device))
-
-    init_identity(scorer.Wi)
-    init_identity(scorer.Wr)
-scorer.bfloat16()
+    temperature=0.2
+).to(device).bfloat16()
 
 grad_accum_steps = 32
-opt = torch.optim.AdamW(scorer.parameters(), lr=2e-4)
+opt = torch.optim.AdamW(scorer.parameters(), lr=1e-4)
 opt.zero_grad()
 running_loss = 0.0
 eval_steps = 200
@@ -328,16 +323,15 @@ val_log = []
 
 from contextlib import suppress
 
-with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
-    for i in range(len(train_ds)//2):
-        I_batch = get_embeddings([train_ds[i]['inputs']])
+with tqdm(total=1000, desc="Training", unit="sample") as pbar:
+    for i in range(1000):
+        I_batch = get_embeddings([train_ds_prompt[i]['inputs']])
         I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device)
 
         w = activate_fused_adapter_from_embeddings(
             peft_model=peft_model,
             scorer=scorer,
-            I_batch=I_batch,
-            train=True
+            I_batch=I_batch
         )
 
         dp = train_ds_prompt[i]
@@ -345,7 +339,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
             dp["full_prompt"]+dp["targets"],
             padding=True,
             truncation=True,
-            max_length=512,
+            max_length=1024,
             return_tensors="pt",
         ).to(device)
 
@@ -354,11 +348,16 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
             truncation=True,
             max_length=1024,
             return_tensors="pt",
+            add_special_tokens=False
         )
+
+        prefix_len = prefix_tok["input_ids"].size(1)
+        input_len = batch["input_ids"].size(1)
+        mask_until = min(prefix_len, input_len - 1)
 
         batch["labels"] = batch["input_ids"].clone()
         batch["labels"][batch["attention_mask"] == 0] = -100
-        batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
+        batch["labels"][:, :mask_until] = -100  # only compute loss on the target
         
         outputs = peft_model(**batch, merging_type='mixture', lora_mapping=w)
         loss = outputs.loss / grad_accum_steps  # scale for accumulation
@@ -379,7 +378,14 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
             val_losses = []
             with torch.no_grad():
                 for j in range(len(val_ds)):
-                    I_val = get_embeddings([val_ds[j]['inputs']])
+                    best_selection = torch.tensor([['_'.join(val_ds_prompt[j]['task'].split('_')[:-1]) in model_name for model_name in model_names]],dtype=torch.bfloat16).to(device)
+                    # print('_'.join(val_ds_prompt[j]['task'].split('_')[:-1]))
+                    # print(model_names)
+                    # print(best_selection.sum())
+                    if best_selection.sum() == 0:
+                        continue
+
+                    I_val = get_embeddings([[instruction, val_ds_prompt[j]['inputs']]])
                     I_val = torch.tensor(I_val, dtype=torch.bfloat16).to(device)
 
                     w = activate_fused_adapter_from_embeddings(
@@ -390,36 +396,57 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
 
                     val_item = val_ds_prompt[j]
                     val_batch = tokenizer(
-                        val_item["full_prompt"]+val_item["targets"],
+                        val_item["full_prompt"]+val_item["targets"].strip().lower(),
                         padding=True,
                         truncation=True,
-                        max_length=512,
+                        max_length=1024,
                         return_tensors="pt",
                     ).to(device)
                     prefix_tok = tokenizer(
                         val_item["full_prompt"],
                         truncation=True,
-                        max_length=512,
+                        max_length=1024,
                         return_tensors="pt",
+                        add_special_tokens=False
                     )
+                    prefix_len = prefix_tok["input_ids"].size(1)
+                    input_len = val_batch["input_ids"].size(1)
+                    mask_until = min(prefix_len, input_len - 1)
+
                     val_batch["labels"] = val_batch["input_ids"].clone()
                     val_batch["labels"][val_batch["attention_mask"] == 0] = -100
-                    val_batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
+                    val_batch["labels"][:, :mask_until] = -100  # only compute loss on the target
+
+                    not_masked = torch.tensor(input_len - mask_until, dtype=torch.bfloat16)
                     
                     val_out = peft_model(**val_batch, merging_type='mixture', lora_mapping=w)
-                    val_losses.append(val_out.loss.item())
+                    val_losses.append(('_'.join(val_ds_prompt[j]['task'].split('_')[:-1]), val_out.loss.item()))
                     del val_batch, val_out, I_val
                     torch.cuda.empty_cache()
 
-            mean_val_loss = float(sum(val_losses) / max(1, len(val_losses)))
+            # Calculate mean loss per task
+            task_losses = {}
+            total_loss = 0
+            for task_name, loss_val in val_losses:
+                if task_name not in task_losses:
+                    task_losses[task_name] = []
+                task_losses[task_name].append(loss_val)
+                total_loss += loss_val
+            
+            mean_val_loss = total_loss / max(1, len(val_losses))
             val_log.append((i + 1, mean_val_loss))
+            
             # Keep last displayed train loss (compute a current one if not just updated)
             if 'avg_loss' not in locals():
                 current_train_loss = running_loss / max(1, ((i + 1) % grad_accum_steps))
             else:
                 current_train_loss = avg_loss
             pbar.set_postfix(loss=f"{current_train_loss:.4f}", val_loss=f"{mean_val_loss:.4f}")
-            print(f"[Step {i+1}] Validation loss: {mean_val_loss:.4f}")
+            
+            print(f"[Step {i+1}] Overall validation loss: {mean_val_loss:.4f}")
+            # for task_name, losses in task_losses.items():
+            #     task_mean = sum(losses) / len(losses)
+            #     print(f"  {task_name}: {task_mean:.4f} ({len(losses)} samples)")
             scorer.train()
 
         pbar.update(1)
@@ -440,7 +467,7 @@ scorer_config = {
     "temperature": float(scorer.tau),
     "d_in": int(scorer.Wi.weight.shape[1]),
     "d_proj": int(scorer.Wi.weight.shape[0]),
-    "d_a": int(scorer.Wr.weight.shape[1]),
+    "d_a": int(scorer.Wr[0].weight.shape[1]),  # First layer of Sequential
     "K": int(scorer.A.shape[0]),
     "dtype": "bfloat16",
 }

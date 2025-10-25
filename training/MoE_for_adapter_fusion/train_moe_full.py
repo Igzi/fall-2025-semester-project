@@ -238,8 +238,17 @@ def generate_and_tokenize_prompt(data_point):
     )
     return {"full_prompt": full_prompt}
 
+def calculate_em(references, candidates):
+    references = [ref.split("\n\n")[0] for ref in references]
+    em_scores = [1 if cal_correct(ref, cand) else 0 for ref, cand in zip(references, candidates)]
+    return np.round(np.mean(em_scores) * 100, 1) if em_scores else 0
+
+def cal_correct(generated_answer, expected_answer):
+    is_correct = generated_answer.strip().lower().replace(".", "") == expected_answer.strip().lower().replace(".", "")
+    return is_correct
+
 dataset = read_dataset('./data.jsonl')
-train_ds, val_ds = train_val_split(dataset, 0.02, 42)
+train_ds, val_ds = train_val_split(dataset, 0.05, 42)
 train_ds_prompt = train_ds.map(generate_and_tokenize_prompt)
 val_ds_prompt = val_ds.map(generate_and_tokenize_prompt)
 
@@ -270,6 +279,44 @@ scorers = [BilinearFusionScorer(
 
 for scorer in scorers:
     scorer.bfloat16()
+
+# save_dir = "../../training/MoE_for_adapter_fusion/checkpoints"
+# scorers = []
+
+# # Find all scorer checkpoint files
+# scorer_files = [f for f in os.listdir(save_dir) if f.startswith("scorer_layer_") and f.endswith("_mixture_mlp.pt")]
+# scorer_files.sort(key=lambda x: int(x.split("_")[2]))  # Sort by layer index
+
+# for scorer_file in scorer_files:
+#     # Extract layer index from filename
+#     layer_idx = int(scorer_file.split("_")[2])
+    
+#     ckpt_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture_mlp.pt")
+#     cfg_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture_mlp.config.json")
+    
+#     # Load config
+#     with open(cfg_path) as f:
+#         cfg = json.load(f)
+    
+#     # Create scorer with MLP structure
+#     scorer = BilinearFusionScorer(
+#         d_in=cfg["d_in"],
+#         d_a=cfg["d_a"],
+#         d_proj=cfg["d_proj"],
+#         A_init=torch.zeros(cfg["K"], cfg["d_a"], dtype=torch.bfloat16),  # placeholder, will be loaded
+#         top_k=5,
+#         temperature=cfg["temperature"],
+#     ).to(device)
+    
+#     if cfg["dtype"] == "bfloat16":
+#         scorer.bfloat16()
+    
+#     # Load state dict
+#     state = torch.load(ckpt_path, map_location="cpu")
+#     scorer.load_state_dict(state)
+#     scorer.to(device).eval()
+    
+#     scorers.append(scorer)
 
 grad_accum_steps = 32
 all_scorer_params = []
@@ -321,7 +368,7 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
             pbar.set_postfix(loss=f"{avg_loss:.4f}")
             running_loss = 0.0
 
-        if (i + 1) % eval_steps == 0 or (i + 1) == len(train_ds):
+        if i==0 or (i + 1) % eval_steps == 0 or (i + 1) == len(train_ds):
             scorer.eval()
             val_losses = []
             with torch.no_grad():
@@ -329,26 +376,36 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
                     I_val = get_embeddings([val_ds[j]['inputs']])
                     I_val = torch.tensor(I_val, dtype=torch.bfloat16).to(device)
 
+                    if val_ds[j]["task"] not in {"story_cloze_10templates", "piqa_10templates", "copa_10templates", "hellaswag_10templates"}:
+                        continue
+
                     val_item = val_ds_prompt[j]
                     val_batch = tokenizer(
-                        val_item["full_prompt"]+val_item["targets"],
+                        val_item["full_prompt"],
                         padding=True,
                         truncation=True,
                         max_length=512,
                         return_tensors="pt",
                     ).to(device)
-                    prefix_tok = tokenizer(
-                        val_item["full_prompt"],
-                        truncation=True,
-                        max_length=512,
-                        return_tensors="pt",
-                    )
-                    val_batch["labels"] = val_batch["input_ids"].clone()
-                    val_batch["labels"][val_batch["attention_mask"] == 0] = -100
-                    val_batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
+                    # prefix_tok = tokenizer(
+                    #     val_item["full_prompt"],
+                    #     truncation=True,
+                    #     max_length=512,
+                    #     return_tensors="pt",
+                    # )
+                    # val_batch["labels"] = val_batch["input_ids"].clone()
+                    # val_batch["labels"][val_batch["attention_mask"] == 0] = -100
+                    # val_batch["labels"][:, :prefix_tok["input_ids"].size(0)] = -100  # only compute loss on the target
                     
-                    val_out = peft_model(**val_batch, merging_type='moe', scorers=scorers)
-                    val_losses.append(val_out.loss.item())
+                    val_out = peft_model.generate(**val_batch, max_new_tokens=50,
+                    temperature=0.001, merging_type='moe', scorers=scorers)
+                    references = [val_item["targets"]]
+                    candidates = [tokenizer.decode(val_out[0], skip_special_tokens=True).strip().split('### Response:\n')[-1]]
+
+                    # for j in range(val_out.size(0)):
+                    #     print(tokenizer.decode(val_out[j],skip_special_tokens=True))
+                    #     print(val_item["targets"])
+                    val_losses.append(calculate_em(references,candidates))
                     del val_batch, val_out, I_val
                     torch.cuda.empty_cache()
 
@@ -360,7 +417,9 @@ with tqdm(total=len(train_ds)//2, desc="Training", unit="sample") as pbar:
             else:
                 current_train_loss = avg_loss
             pbar.set_postfix(loss=f"{current_train_loss:.4f}", val_loss=f"{mean_val_loss:.4f}")
+            print(len(val_losses))
             print(f"[Step {i+1}] Validation loss: {mean_val_loss:.4f}")
+            x=10/0
             scorer.train()
 
         pbar.update(1)

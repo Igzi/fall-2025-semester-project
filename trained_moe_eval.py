@@ -66,7 +66,13 @@ class BilinearFusionScorer(nn.Module):
         super().__init__()
         self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
         # Replace single linear with 2-layer MLP
-        self.Wr = nn.Linear(d_a, d_proj, bias=False)
+        self.Wr = nn.Sequential(
+            nn.Linear(d_a, d_proj, bias=False),        # A -> d_proj (hidden)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False),      # d_proj -> d_proj (output)
+            nn.ReLU(),
+            nn.Linear(d_proj, d_proj, bias=False)      # d_proj -> d_proj (output)
+        )
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
@@ -131,15 +137,15 @@ def eval_datasets(
     scorers = []
 
     # Find all scorer checkpoint files
-    scorer_files = [f for f in os.listdir(save_dir) if f.startswith("scorer_layer_") and f.endswith("_mixture.pt")]
+    scorer_files = [f for f in os.listdir(save_dir) if f.startswith("scorer_layer_") and f.endswith("_mixture_mlp.pt")]
     scorer_files.sort(key=lambda x: int(x.split("_")[2]))  # Sort by layer index
 
     for scorer_file in scorer_files:
         # Extract layer index from filename
         layer_idx = int(scorer_file.split("_")[2])
         
-        ckpt_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture.pt")
-        cfg_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture.config.json")
+        ckpt_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture_mlp.pt")
+        cfg_path = os.path.join(save_dir, f"scorer_layer_{layer_idx}_mixture_mlp.config.json")
         
         # Load config
         with open(cfg_path) as f:
@@ -217,7 +223,7 @@ def eval_datasets(
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 
-                if eval_data["domain"][i] != "struct to text":
+                if eval_data["domain"][i] != "commonsense":
                     continue
 
                 # If out-of-domain filtering is required, specify exclusion list
@@ -255,11 +261,8 @@ def eval_datasets(
                     input_text,
                     max_length=512,
                     return_tensors="pt",
-                    truncation=True,
                     padding=True,
                 ).to(device)
-
-                print(inputs["input_ids"].shape)
 
                 outputs = peft_model.generate(
                     input_ids=inputs["input_ids"],

@@ -1,6 +1,6 @@
 {
   "top_k": 5,
-  "temperature": 0.1,
+  "temperature": 0.2,
   "d_in": 768,
   "d_proj": 768,
   "d_a": 768,

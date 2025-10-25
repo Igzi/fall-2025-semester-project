@@ -672,7 +672,7 @@ class Linear(nn.Module, LoraLayer):
                     b, l, n = x.shape
                     x_reshaped = x.view(b * l, n)
                     
-                    lora_mapping_flat, logits_flat = scorers[self.layer_idx](x_reshaped, train=train)
+                    lora_mapping_flat, _ = scorers[self.layer_idx](x_reshaped, train=train)
                     lora_mapping = lora_mapping_flat.view(b, l, -1)  # [b*l, p] -> [b, l, p]
                     
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
