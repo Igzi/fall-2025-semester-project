@@ -1,0 +1,194 @@
+[
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "office , \"united states secretary of health , education , and welfare\""
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff had a spouse called Casey Ribicoff and a birth place called Chicago. He held the office of ``United States Secretary of Health, Education, and Welfare."
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Who was the spouse of Abraham A. Ribicoff?"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff's spouse is Casey Ribicoff who was born in Chicago. Abraham A. Ribicoff was the United States Secretary of Health, Education, and Welfare."
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, çift, Casey Ribicoff; Casey Ribicoff, Chicago'da doğdu; Abraham A. Ribicoff, \"ABD Sağlık, Eğ"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Casey Ribicoff"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff was married to Casey Ribicoff who was born in Chicago. He was the United States Secretary of Health, Education, and Welfare."
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff, was born in Chicago and served as \"United States Secretary of Health, Education, and Welfare\"."
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff (1910-1998) was a United States Secretary of Health, Education, and Welfare. He was married to Casey Ribicoff (1914-2"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "United States Secretary of Health, Education, and Welfare"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff, birthPlace, Chicago, office, \"United States Secretary of Health, Education, and Welfare\""
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff was the United States Secretary of Health, Education, and Welfare"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    },
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "task": "web_nlg_en",
+        "predicted_answer": "Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and W"
+    }
+]
