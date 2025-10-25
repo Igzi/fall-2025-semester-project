@@ -63,52 +63,6 @@ def load_peft_model(lora_module_list, base_model):
     peft_model.eval()
     return peft_model
 
-class BilinearFusionScorer(nn.Module):
-    """
-    Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
-    """
-    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
-        super().__init__()
-        self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
-        self.Wr = nn.Sequential(
-            nn.Linear(d_a, d_proj, bias=False),        # A -> d_proj (hidden)
-            nn.ReLU(),
-            nn.Linear(d_proj, d_proj, bias=False),      # d_proj -> d_proj (output)
-            nn.ReLU(),
-            nn.Linear(d_proj, d_proj, bias=False)      # d_proj -> d_proj (output)
-        )
-        self.register_buffer("A", A_init.clone())       # (K, d_a)
-        self.top_k = top_k
-        self.tau = temperature
-
-    @torch.no_grad()
-    def set_adapter_embeddings(self, A_new: torch.Tensor):
-        self.A = A_new.clone().to(self.A.device)
-
-    def forward(self, I: torch.Tensor):
-        """
-        I: (B, d_in) input embeddings
-        Returns:
-          probs: (B, K) softmax weights per sample
-          logits: (B, K)
-        """
-        proj_I = self.Wi(I)                 # (B, d_proj)
-        proj_A = self.Wr(self.A)            # (K, d_proj)
-        logits = proj_I @ proj_A.t()        # (B, K)
-
-        if self.top_k is not None and 0 < self.top_k < logits.size(-1):
-            # Build boolean mask for top-k indices per row s
-            topk_vals, topk_idx = torch.topk(I@self.A.t(), self.top_k, dim=-1)
-            mask = torch.zeros_like(logits, dtype=torch.bool)
-            
-            mask.scatter_(1, topk_idx, True)
-            masked_logits = logits.masked_fill(~mask, float('-inf'))
-        else:
-            masked_logits = logits
-        
-        probs = F.softmax(masked_logits / self.tau, dim=-1)
-        return probs, logits
-
 correct_count = 0
 model_size='7b'
 batch_size = 1
