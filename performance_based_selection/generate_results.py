@@ -47,8 +47,6 @@ def process_file(file_path):
 def process_folder(folder_path):
     domain_specific_metrics = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     for file_name in os.listdir(folder_path):
-        if file_name!='model_0.json':
-            continue
         if file_name.endswith('.json'):
             file_path = os.path.join(folder_path, file_name)
             domains_data = process_file(file_path)
@@ -80,8 +78,6 @@ def convert_to_latex_modified(data, folder_path):
         for metric, files in metrics.items():
             row = {'Domain-Metric': f"{domain}-{metric}"}
             for file_name in os.listdir(folder_path):
-                if file_name!='model_0.json':
-                    continue
                 if file_name.endswith('.json'):
                     numeric_scores = [score for score in files[file_name] if isinstance(score, (int, float))]
                     average_score = np.mean(numeric_scores) if numeric_scores else 0
