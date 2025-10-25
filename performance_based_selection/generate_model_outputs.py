@@ -163,10 +163,10 @@ peft_model.eval()
 
 with torch.no_grad():
     for model_id in range(48):
+        results = []
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
                 input_text = eval_data["inputs"][i : i + batch_size]
-                task_names = eval_data["task"][i : i + batch_size]
 
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
@@ -209,7 +209,6 @@ with torch.no_grad():
                         'predicted_answer': generated_answer
                     }
                     results.append(sample)
-                break
 
                 pbar.update(len(input_text))
         
@@ -217,7 +216,3 @@ with torch.no_grad():
         os.makedirs(os.path.dirname(f"{res_path}{model_id}"), exist_ok=True)
         with open(f"{res_path}{model_id}.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
-
-if __name__ == "__main__":
-    import fire
-    fire.Fire(eval_datasets)

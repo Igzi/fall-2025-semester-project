@@ -5,6 +5,6 @@
         "metric": "em",
         "domain": "sentiment",
         "model_name": "sst2",
-        "predicted_answer": "\"The blues is a musical form\""
+        "predicted_answer": "\"blues \""
     }
 ]
