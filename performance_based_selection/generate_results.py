@@ -85,8 +85,65 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + ['model_0.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
+    results = []
+    for d in data_list:
+        results.append([])
+        for model_id in range(48):
+            results[-1].append(d.get(f'model_{model_id}.json', None))
+    
+    results = np.array(results)
+    # Save numeric results matrix
+    np.save("./performance_based_selection/model_performance.npy", results, allow_pickle=True)
+
+    # Prepare matrix for plotting: convert None to np.nan and ensure float dtype
+    try:
+        plot_matrix = np.array([[float(x) if x is not None else np.nan for x in row] for row in results])
+    except Exception:
+        # Fallback: coerce with numpy (handles mixed types)
+        plot_matrix = results.astype(np.float64)
+
+    # Row and column labels
+    col_labels = [f"model_{i}" for i in range(plot_matrix.shape[1])]
+    row_labels = [d.get('Domain-Metric', f"row_{i}") for i, d in enumerate(data_list)]
+
+    # Plot heatmap using seaborn
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    plt.figure(figsize=(max(8, plot_matrix.shape[1] * 0.2), max(6, plot_matrix.shape[0] * 0.25)))
+    sns.set(font_scale=0.8)
+
+    # Row-wise min-max normalization to [0,1], ignoring NaNs
+    # For each row: norm_row = (row - min_row) / (max_row - min_row)
+    # If max_row == min_row (constant row), set normalized values to 0
+    with np.errstate(invalid='ignore'):
+        row_min = np.nanmin(plot_matrix, axis=1, keepdims=True)
+        row_max = np.nanmax(plot_matrix, axis=1, keepdims=True)
+    denom = row_max - row_min
+    # Avoid division by zero: where denom == 0, set denom to 1 temporarily
+    denom_safe = np.where(np.isfinite(denom) & (denom != 0), denom, 1.0)
+    norm_matrix = (plot_matrix - row_min) / denom_safe
+    # For rows where denom was zero (constant rows), set normalized values to 0
+    const_rows = (denom == 0).squeeze(axis=1)
+    if np.any(const_rows):
+        norm_matrix[const_rows, :] = 0.0
+
+    # Keep NaNs where original data had NaNs
+    norm_matrix[np.isnan(plot_matrix)] = np.nan
+
+    # Plot normalized heatmap with fixed vmin/vmax 0..1
+    ax = sns.heatmap(norm_matrix, xticklabels=col_labels, yticklabels=row_labels, cmap='viridis', vmin=0.0, vmax=1.0, cbar_kws={'label': 'Normalized score (0-1)'}, linewidths=0.5, linecolor='gray')
+    ax.set_xlabel('Models')
+    ax.set_ylabel('Domain - Metric')
+    ax.set_title('Model performance heatmap')
+
+    plt.tight_layout()
+    out_png = "./performance_based_selection/model_performance_heatmap.png"
+    plt.savefig(out_png, dpi=300)
+    print(f"Saved heatmap to {out_png}")
+    plt.show()
 
     return df.to_latex(index=False)
 
@@ -94,4 +151,4 @@ def convert_to_latex_modified(data, folder_path):
 folder_path = './performance_based_selection/outputs'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
-print(latex_table)
+#print(latex_table)
