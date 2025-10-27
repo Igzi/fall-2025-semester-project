@@ -86,17 +86,17 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.startswith('degraded_model') and file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric']# + [file_name for file_name in os.listdir(folder_path) if file_name.startswith('degraded_model') and file_name.endswith('.json')]
     df = df[columns_ordered]
     results = []
     for d in data_list:
         results.append([])
         for model_id in range(48):
-            results[-1].append(d.get(f'model_{model_id}.json', None))
+            results[-1].append(d.get(f'degraded_model_{model_id}.json', None))
     
     results = np.array(results)
     # Save numeric results matrix
-    np.save("./performance_based_selection/model_performance.npy", results, allow_pickle=True)
+    np.save("./performance_based_selection/degraded_model_performance.npy", results, allow_pickle=True)
 
     # Prepare matrix for plotting: convert None to np.nan and ensure float dtype
     try:
@@ -141,7 +141,7 @@ def convert_to_latex_modified(data, folder_path):
     ax.set_title('Model performance heatmap')
 
     plt.tight_layout()
-    out_png = "./performance_based_selection/model_performance_heatmap.png"
+    out_png = "./performance_based_selection/degraded_model_performance_heatmap.png"
     plt.savefig(out_png, dpi=300)
     print(f"Saved heatmap to {out_png}")
     plt.show()

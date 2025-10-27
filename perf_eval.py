@@ -16,6 +16,28 @@ import torch.nn.functional as F
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
 
+# Load previously computed model performance matrix (if present). This file is
+# produced by `performance_based_selection/generate_results.py` and saved as
+# `model_performance.npy`. We load it once at import-time so downstream code can
+# consult model performance scores when needed.
+def load_results_matrix(path: str = "./performance_based_selection/model_performance.npy"):
+    if not os.path.exists(path):
+        # Not an error: just return None so callers can fall back to defaults
+        print(f"[info] results matrix not found at: {path}")
+        return None
+    try:
+        arr = np.load(path, allow_pickle=True)
+        # Coerce to ndarray for consistent handling (may be an object array)
+        arr = np.array(arr, dtype=np.float32)
+        print(f"[info] loaded results matrix from {path} with shape {arr.shape}")
+        return arr
+    except Exception as e:
+        print(f"[warning] failed to load results matrix {path}: {e}")
+        return None
+
+# Expose loaded matrix as a module-level variable; callers can check for None.
+results_matrix = load_results_matrix()
+
 def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     """
     Load the base model and tokenizer from a given model path.
@@ -44,7 +66,7 @@ def load_peft_model(lora_module_list, base_model):
     """
     Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
     """
-    device = "cuda:1" if torch.cuda.is_available() else "cpu"
+    device = "cuda:2" if torch.cuda.is_available() else "cpu"
     lora_lists = []
     for i, lora_model in enumerate(lora_module_list):
         if i == 0:
@@ -72,7 +94,7 @@ class BilinearFusionScorer(nn.Module):
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def forward(self, I: torch.Tensor):
+    def forward(self, I: torch.Tensor, exclude_idx: int = None):
         """
         I: (B, d_in) input embeddings
         Returns:
@@ -81,17 +103,23 @@ class BilinearFusionScorer(nn.Module):
         """
         logits = I @ self.A.t()        # (B, K)
 
-        if self.top_k is not None and 0 < self.top_k < logits.size(-1):
-            # Build boolean mask for top-k indices per row s
-            topk_vals, topk_idx = torch.topk(logits, self.top_k, dim=-1)
-            mask = torch.zeros_like(logits, dtype=torch.bool)
-            
-            mask.scatter_(1, topk_idx, True)
-            masked_logits = logits.masked_fill(~mask, float('-inf'))
-        else:
-            masked_logits = logits
+        # Instead of a softmax distribution, return a one-hot vector where the
+        # highest (allowed) logit gets probability 1 and all others 0.
+        # Use device/dtype safe tensor creation so we match `logits` dtype/device.
+        argmax_idx = logits.argmax(dim=-1, keepdim=True)  # (B, 1)
+
+        old = int(argmax_idx[0, 0].item())
+        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
+        if exclude_idx is not None:
+            mask_array[exclude_idx] = False
         
-        probs = F.softmax(masked_logits / self.tau, dim=-1)
+        row = results_matrix[old]*mask_array
+        maxpos = np.flatnonzero(row==row.max())
+        sel = old if old in maxpos else int(maxpos[0])
+        argmax_idx[0, 0] = torch.tensor(sel, device=argmax_idx.device)
+
+        probs = logits.new_zeros(logits.size())
+        probs.scatter_(1, argmax_idx, 1.0)
         return probs, logits
 
 def eval_datasets(
@@ -120,7 +148,7 @@ def eval_datasets(
     """
     correct_count = 0
     results = []  # Initialize a list to store question and response data
-    device = "cuda:1" if torch.cuda.is_available() else "cpu"
+    device = "cuda:2" if torch.cuda.is_available() else "cpu"
 
     cfg_path = "./performance_based_selection/models/base_model.config.json"
     ckpt_path = "performance_based_selection/models/base_model.pt"
@@ -190,8 +218,8 @@ def eval_datasets(
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 
-                if eval_data["domain"][i] != "struct to text":
-                    continue
+                # if eval_data["domain"][i] != "struct to text":
+                #     continue
 
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
@@ -215,7 +243,10 @@ def eval_datasets(
                     unique_items = list(set(exclude_list))
                     module_list = unique_items
 
-                mapping_matrix_tensor, _ = scorer(I_batch)
+                if ood:
+                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
+                else:
+                    mapping_matrix_tensor, _ = scorer(I_batch)
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
                 if ood:
