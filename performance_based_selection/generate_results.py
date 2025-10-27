@@ -62,9 +62,10 @@ def process_folder(folder_path):
                         domain_specific_metrics[domain][metric][file_name].append(score)
                     elif metric == 'rouge':
                         rouge_1, rouge_2, rouge_l = calculate_rouge(references, candidates)
-                        domain_specific_metrics[domain]['rouge-1'][file_name].append(rouge_1)
-                        domain_specific_metrics[domain]['rouge-2'][file_name].append(rouge_2)
-                        domain_specific_metrics[domain]['rouge-l'][file_name].append(rouge_l)
+                        domain_specific_metrics[domain]['rouge-avg'][file_name].append((rouge_1+rouge_2+rouge_l)/3)
+                        # domain_specific_metrics[domain]['rouge-1'][file_name].append(rouge_1)
+                        # domain_specific_metrics[domain]['rouge-2'][file_name].append(rouge_2)
+                        # domain_specific_metrics[domain]['rouge-l'][file_name].append(rouge_l)
                     elif metric == 'em':
                         score = calculate_em(references, candidates)
                         domain_specific_metrics[domain][metric][file_name].append(score)

@@ -9,4 +9,4 @@ python3 lora_retriever_eval.py --data_path  dataset/combined_test.json  --res_pa
 
 python3 trained_moe_eval.py --data_path  dataset/combined_test.json  --res_path results_moe/mixture_trained.json --eval_type moe  --lora_num 5 --batch_size 1
 
-python3 trained_fusion_eval.py --data_path  dataset/combined_test.json  --res_path results_new/mixture_trained_new.json --eval_type fusion  --lora_num 3 --batch_size 1
+python3 trained_fusion_eval.py --data_path  dataset/combined_test.json  --res_path results_perf/weighted.json --eval_type mixture  --lora_num 3 --batch_size 1

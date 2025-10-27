@@ -16,6 +16,28 @@ import torch.nn.functional as F
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
 
+# Load previously computed model performance matrix (if present). This file is
+# produced by `performance_based_selection/generate_results.py` and saved as
+# `model_performance.npy`. We load it once at import-time so downstream code can
+# consult model performance scores when needed.
+def load_results_matrix(path: str = "./performance_based_selection/model_performance.npy"):
+    if not os.path.exists(path):
+        # Not an error: just return None so callers can fall back to defaults
+        print(f"[info] results matrix not found at: {path}")
+        return None
+    try:
+        arr = np.load(path, allow_pickle=True)
+        # Coerce to ndarray for consistent handling (may be an object array)
+        arr = np.array(arr, dtype=np.float32)
+        print(f"[info] loaded results matrix from {path} with shape {arr.shape}")
+        return arr
+    except Exception as e:
+        print(f"[warning] failed to load results matrix {path}: {e}")
+        return None
+
+# Expose loaded matrix as a module-level variable; callers can check for None.
+results_matrix = load_results_matrix()
+
 def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     """
     Load the base model and tokenizer from a given model path.
@@ -62,16 +84,8 @@ class BilinearFusionScorer(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
-    def __init__(self, d_in: int, d_a: int, d_proj: int, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
+    def __init__(self, A_init: torch.Tensor, top_k: int, temperature: float = 1.0):
         super().__init__()
-        self.Wi = nn.Linear(d_in, d_proj, bias=False)   # I -> d_proj
-        self.Wr = nn.Sequential(
-            nn.Linear(d_a, d_proj, bias=False),        # A -> d_proj (hidden)
-            nn.ReLU(),
-            nn.Linear(d_proj, d_proj, bias=False),      # d_proj -> d_proj (output)
-            nn.ReLU(),
-            nn.Linear(d_proj, d_proj, bias=False)      # d_proj -> d_proj (output)
-        )
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.top_k = top_k
         self.tau = temperature
@@ -80,28 +94,32 @@ class BilinearFusionScorer(nn.Module):
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def forward(self, I: torch.Tensor):
+    def forward(self, I: torch.Tensor, exclude_idx: int = None):
         """
         I: (B, d_in) input embeddings
         Returns:
           probs: (B, K) softmax weights per sample
           logits: (B, K)
         """
-        proj_I = self.Wi(I)                 # (B, d_proj)
-        proj_A = self.Wr(self.A)            # (K, d_proj)
-        logits = proj_I @ proj_A.t()        # (B, K)
+        logits = I @ self.A.t()        # (B, K)
 
-        if self.top_k is not None and 0 < self.top_k < logits.size(-1):
-            # Build boolean mask for top-k indices per row s
-            topk_vals, topk_idx = torch.topk(I@self.A.t(), self.top_k, dim=-1)
-            mask = torch.zeros_like(logits, dtype=torch.bool)
-            
-            mask.scatter_(1, topk_idx, True)
-            masked_logits = logits.masked_fill(~mask, float('-inf'))
-        else:
-            masked_logits = logits
+        # Instead of a softmax distribution, return a one-hot vector where the
+        # highest (allowed) logit gets probability 1 and all others 0.
+        # Use device/dtype safe tensor creation so we match `logits` dtype/device.
+        argmax_idx = logits.argmax(dim=-1, keepdim=True)  # (B, 1)
+
+        old = int(argmax_idx[0, 0].item())
+        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
+        if exclude_idx is not None:
+            mask_array[exclude_idx] = False
         
-        probs = F.softmax(masked_logits / self.tau, dim=-1)
+        row = results_matrix[old]*mask_array
+        maxpos = np.flatnonzero(row==row.max())
+        sel = old if old in maxpos else int(maxpos[0])
+        argmax_idx[0, 0] = torch.tensor(sel, device=argmax_idx.device)
+
+        probs = logits.new_zeros(logits.size())
+        probs.scatter_(1, argmax_idx, 1.0)
         return probs, logits
 
 def eval_datasets(
@@ -132,17 +150,14 @@ def eval_datasets(
     results = []  # Initialize a list to store question and response data
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    cfg_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.config.json"
-    ckpt_path = "./training/MoE_for_adapter_fusion/checkpoints/scorer_final_mixture.pt"
+    cfg_path = "./performance_based_selection/models/base_model.config.json"
+    ckpt_path = "performance_based_selection/models/base_model.pt"
      # Load scorer
     with open(cfg_path) as f:
         cfg = json.load(f)
 
     scorer = BilinearFusionScorer(
-        d_in=cfg["d_in"],
-        d_a=cfg["d_a"],
-        d_proj=cfg["d_proj"],
-        A_init=torch.zeros(cfg["K"], cfg["d_a"], dtype=torch.bfloat16),  # placeholder, will be loaded
+        A_init=torch.zeros(cfg["K"], 768, dtype=torch.bfloat16),  # placeholder, will be loaded
         top_k=lora_num,
         temperature=cfg["temperature"],
     ).to(device)
@@ -228,7 +243,10 @@ def eval_datasets(
                     unique_items = list(set(exclude_list))
                     module_list = unique_items
 
-                mapping_matrix_tensor, _ = scorer(I_batch)
+                if ood:
+                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
+                else:
+                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
                 if ood:
