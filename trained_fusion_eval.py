@@ -184,6 +184,8 @@ def eval_datasets(
     peft_model = peft_model.to(device)
     peft_model.eval()
 
+    
+
     with torch.no_grad():
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
