@@ -1,0 +1,194 @@
+import torch
+from transformers import LlamaForCausalLM, LlamaTokenizer
+from tqdm import tqdm
+from peft import PeftModel, get_peft_model, LoraConfig
+import json
+import os
+import sys
+import numpy as np
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, project_root)
+
+from utils.instructor_retrieval import perform_search, initialize_index
+from datasets import load_dataset
+from utils.prompter import Prompter
+from utils.instructor_retrieval import perform_search, get_embeddings
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+# Prompter is a utility class to create a prompt for a given input
+prompter = Prompter("alpaca")
+
+def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
+    """
+    Load the base model and tokenizer from a given model path.
+    """
+    tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path)
+    tokenizer.pad_token_id = 0
+    tokenizer.padding_side = "left"
+
+    base_model = LlamaForCausalLM.from_pretrained(
+        model_name_or_path, torch_dtype=torch.float16
+    )
+    base_model.bfloat16()
+    return base_model, tokenizer
+
+def init_vector_db(config_path):
+    """
+    Initialize the vector database with configurations from the specified JSON file.
+    """
+    model_names = []
+    with open(config_path, 'r') as file:
+        lora_configs = json.load(file)
+
+    initialize_index(lora_configs)
+
+def load_peft_model(lora_module_list, base_model):
+    """
+    Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
+    """
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    lora_lists = []
+    for i, lora_model in enumerate(lora_module_list):
+        if i == 0:
+            peft_model = PeftModel.from_pretrained(base_model, lora_model, f"adapter{i}")
+        else:
+            peft_model.load_adapter(lora_model, f"adapter{i}")
+        lora_lists.append(f"adapter{i}")
+
+    peft_model.set_adapter(lora_lists)
+    peft_model = peft_model.to(device)
+    peft_model.eval()
+    return peft_model
+
+correct_count = 0
+model_size='7b'
+batch_size = 1
+config_path = './config/config2.json'
+data_path = './dataset/config2_flat.json'
+res_path = './performance_based_selection/outputs/model_loss'
+results = []  # Initialize a list to store question and response data
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+# Initialize vector database for retrieval
+init_vector_db('./config/config2.json')
+
+def generate_and_tokenize_prompt(data_point):
+    """
+    Generate the full prompt for a given data point and return it.
+    """
+    full_prompt = prompter.generate_prompt(
+        data_point["inputs"],
+        "",
+        "",
+    )
+    return {"full_prompt": full_prompt}
+
+# Load the dataset
+if data_path.endswith(".json") or data_path.endswith(".jsonl"):
+    dataset = load_dataset("json", data_files=data_path)
+else:
+    dataset = load_dataset(data_path)
+
+# Prepare the dataset with full prompts
+eval_data = dataset["train"].map(generate_and_tokenize_prompt)
+
+model_path = f"meta-llama/Llama-2-{model_size}-hf"
+base_model, tokenizer = load_base_model(model_path)
+base_model.eval()
+
+with open(config_path, 'r') as file:
+    lora_configs = json.load(file)
+
+models = lora_configs
+model_names = []
+
+# Compute average embeddings for each model
+for model in models:
+    model_name = f"Styxxxx/llama2_7b_lora-{model['model_name']}"
+
+    model_names.append(model_name)
+
+peft_model = load_peft_model(model_names, base_model)
+peft_model = peft_model.to(device)
+peft_model.eval()
+
+with torch.no_grad():
+    for model_id in range(48):
+        results = []
+        with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
+            for i in range(0, len(eval_data["full_prompt"]), batch_size):
+                input_text = eval_data["inputs"][i : i + batch_size]
+
+                # If out-of-domain filtering is required, specify exclusion list
+                exclude_list = None
+
+                # Perform retrieval to get top-k LoRA modules
+                I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
+                I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
+
+                mapping_matrix_tensor = torch.zeros((batch_size, len(model_names)), dtype=torch.bfloat16).to(device)
+                mapping_matrix_tensor[:, model_id] = 1.0
+                input_text = eval_data["full_prompt"][i : i + batch_size]
+
+                # Tokenize the input text
+                inputs = tokenizer(
+                    input_text,
+                    max_length=512,
+                    return_tensors="pt",
+                    padding=True,
+                ).to(device)
+
+                # Instead of generating text, compute loss of the model on the
+                # provided target tokens conditioned on the input prompt.
+                targets_batch = eval_data["targets"][i : i + batch_size]
+                # Tokenize targets (padding/truncation as needed)
+                target_inputs = tokenizer(
+                    targets_batch,
+                    max_length=256,
+                    truncation=True,
+                    return_tensors="pt",
+                    padding=True,
+                ).to(device)
+
+                # Concatenate input and target token ids so model sees input then target
+                full_input_ids = torch.cat([inputs["input_ids"], target_inputs["input_ids"]], dim=1)
+                # Build attention mask if available, otherwise assume all tokens attend
+                if "attention_mask" in inputs and "attention_mask" in target_inputs:
+                    attention_mask = torch.cat([inputs["attention_mask"], target_inputs["attention_mask"]], dim=1)
+                else:
+                    attention_mask = torch.ones_like(full_input_ids).to(device)
+
+                # Prepare labels: only target token positions should be included (others = -100)
+                labels = torch.full(full_input_ids.shape, -100, dtype=torch.long).to(device)
+                input_len = inputs["input_ids"].shape[1]
+                labels[:, input_len:] = target_inputs["input_ids"]
+
+                # Forward pass with labels to obtain logits; use same merging/mapping args
+                model_outputs = peft_model(
+                    input_ids=full_input_ids,
+                    attention_mask=attention_mask,
+                    labels=labels,
+                    merging_type='mixture',
+                    lora_mapping=mapping_matrix_tensor
+                )
+                
+                loss_val = model_outputs.loss.item()
+                sample = {
+                    'inputs': eval_data["inputs"][i],
+                    'targets': eval_data["targets"][i],
+                    'metric': eval_data["metric"][i],
+                    'domain': eval_data["domain"][i],
+                    'model_name': eval_data["model_name"][i],
+                    'loss': loss_val
+                }
+                results.append(sample)
+
+                pbar.update(len(input_text))
+        
+        # Save the results to a JSON file
+        os.makedirs(os.path.dirname(f"{res_path}{model_id}"), exist_ok=True)
+        with open(f"{res_path}{model_id}.json", 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=4)
