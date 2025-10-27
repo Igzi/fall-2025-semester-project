@@ -79,14 +79,14 @@ def convert_to_latex_modified(data, folder_path):
         for metric, files in metrics.items():
             row = {'Domain-Metric': f"{domain}-{metric}"}
             for file_name in os.listdir(folder_path):
-                if not file_name.startswith('degraded_model') and file_name.endswith('.json'):
+                if file_name.startswith('degraded_model') and file_name.endswith('.json'):
                     numeric_scores = [score for score in files[file_name] if isinstance(score, (int, float))]
                     average_score = np.mean(numeric_scores) if numeric_scores else 0
                     row[file_name] = "{:.1f}".format(average_score)  # Format to one decimal place
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric']# + [file_name for file_name in os.listdir(folder_path) if file_name.startswith('degraded_model') and file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + [f"degraded_model_{i}.json" for i in range(48)]
     df = df[columns_ordered]
     results = []
     for d in data_list:
