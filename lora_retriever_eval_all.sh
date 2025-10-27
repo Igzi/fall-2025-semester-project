@@ -11,4 +11,4 @@ python3 trained_moe_eval.py --data_path  dataset/combined_test.json  --res_path 
 
 python3 trained_fusion_eval.py --data_path  dataset/combined_test.json  --res_path results_perf/weighted.json --eval_type mixture  --lora_num 3 --batch_size 1
 
-python3 trained_fusion_eval.py --data_path  dataset/combined_test.json  --res_path results_perf/perf_based.json --eval_type mixture  --lora_num 3 --batch_size 1
+python3 perf_eval.py --data_path  dataset/combined_test.json  --res_path results_perf/perf_based.json --eval_type mixture  --lora_num 3 --batch_size 1

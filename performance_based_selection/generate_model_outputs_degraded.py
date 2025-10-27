@@ -151,7 +151,7 @@ with torch.no_grad():
                     max_new_tokens=50,
                     temperature=0.001,
                     merging_type='mixture',
-                    lora_mapping=mapping_matrix_tensor
+                    lora_mapping=mapping_matrix_tensor*weight_mask
                 )
 
                 # Process and store results
