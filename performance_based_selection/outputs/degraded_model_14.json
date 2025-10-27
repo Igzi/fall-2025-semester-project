@@ -1,0 +1,10 @@
+[
+    {
+        "inputs": "\"blues \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "predicted_answer": "The blues are a positive experience."
+    }
+]
