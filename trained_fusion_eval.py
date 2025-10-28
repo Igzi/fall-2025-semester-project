@@ -44,7 +44,7 @@ def load_peft_model(lora_module_list, base_model):
     """
     Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
     """
-    device = "cuda:1" if torch.cuda.is_available() else "cpu"
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     lora_lists = []
     for i, lora_model in enumerate(lora_module_list):
         if i == 0:
@@ -120,7 +120,7 @@ def eval_datasets(
     """
     correct_count = 0
     results = []  # Initialize a list to store question and response data
-    device = "cuda:1" if torch.cuda.is_available() else "cpu"
+    device = "cuda" if torch.cuda.is_available() else "cpu"
 
     cfg_path = "./performance_based_selection/models/base_model.config.json"
     ckpt_path = "performance_based_selection/models/base_model.pt"
@@ -184,7 +184,7 @@ def eval_datasets(
     peft_model = peft_model.to(device)
     peft_model.eval()
 
-    
+    weight_mask = torch.where(torch.rand(48,generator=torch.Generator().manual_seed(1)) < 0.5, 0.2, 1.0).to(device).bfloat16()
 
     with torch.no_grad():
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
@@ -192,8 +192,8 @@ def eval_datasets(
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 
-                if eval_data["domain"][i] != "struct to text":
-                    continue
+                # if eval_data["domain"][i] != "struct to text":
+                #     continue
 
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
@@ -238,7 +238,7 @@ def eval_datasets(
                     max_new_tokens=50,
                     temperature=0.001,
                     merging_type='mixture',
-                    lora_mapping=mapping_matrix_tensor
+                    lora_mapping=mapping_matrix_tensor*weight_mask
                 )
 
                 # Process and store results
