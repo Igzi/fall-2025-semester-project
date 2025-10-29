@@ -1,0 +1,6 @@
+{
+  "top_k": 5,
+  "temperature": 0.2,
+  "K": 48,
+  "dtype": "bfloat16"
+}
