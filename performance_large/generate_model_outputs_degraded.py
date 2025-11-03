@@ -66,9 +66,9 @@ def load_peft_model(lora_module_list, base_model):
 correct_count = 0
 model_size='7b'
 batch_size = 1
-config_path = './config/config2.json'
-data_path = './dataset/config2_flat.json'
-res_path = './performance_based_selection/outputs/degraded_model_'
+config_path = './config/config_large.json'
+data_path = './dataset/config_large_flat.json'
+res_path = './performance_large/outputs/degraded_model_'
 results = []  # Initialize a list to store question and response data
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -168,7 +168,7 @@ with torch.no_grad():
                         'predicted_answer': generated_answer
                     }
                     results.append(sample)
-
+                
                 pbar.update(len(input_text))
         
         # Save the results to a JSON file
