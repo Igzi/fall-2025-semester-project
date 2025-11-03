@@ -125,10 +125,6 @@ with torch.no_grad():
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
 
-                # Perform retrieval to get top-k LoRA modules
-                I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
-                I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
-
                 mapping_matrix_tensor = torch.zeros((batch_size, len(model_names)), dtype=torch.bfloat16).to(device)
                 mapping_matrix_tensor[:, model_id] = 1.0
                 input_text = eval_data["full_prompt"][i : i + batch_size]

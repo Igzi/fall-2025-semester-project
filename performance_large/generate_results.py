@@ -96,7 +96,7 @@ def convert_to_latex_modified(data, folder_path):
     
     results = np.array(results)
     # Save numeric results matrix
-    np.save("./performance_based_selection/model_performance.npy", results, allow_pickle=True)
+    np.save("./performance_large/model_performance.npy", results, allow_pickle=True)
 
     # Prepare matrix for plotting: convert None to np.nan and ensure float dtype
     try:
@@ -141,7 +141,7 @@ def convert_to_latex_modified(data, folder_path):
     ax.set_title('Model performance heatmap')
 
     plt.tight_layout()
-    out_png = "./performance_based_selection/model_performance_heatmap.png"
+    out_png = "./performance_large/model_performance_heatmap.png"
     plt.savefig(out_png, dpi=300)
     print(f"Saved heatmap to {out_png}")
     plt.show()
@@ -149,7 +149,7 @@ def convert_to_latex_modified(data, folder_path):
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = './performance_based_selection/outputs'  # Replace with your actual folder path
+folder_path = './performance_large/outputs'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 #print(latex_table)

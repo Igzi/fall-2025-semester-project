@@ -50,6 +50,7 @@ def process_folder(folder_path):
         if file_name.endswith('.json'):
             file_path = os.path.join(folder_path, file_name)
             domains_data = process_file(file_path)
+            domain_specific_metrics['avg']['avg'][file_name] = []
 
             for domain, tasks_data in domains_data.items():
                 for task, entries in tasks_data.items():
@@ -60,14 +61,19 @@ def process_folder(folder_path):
                     if metric == 'bleu':
                         score = calculate_bleu(references, candidates)
                         domain_specific_metrics[domain][metric][file_name].append(score)
+                        domain_specific_metrics['avg']['avg'][file_name].append(score)
                     elif metric == 'rouge':
                         rouge_1, rouge_2, rouge_l = calculate_rouge(references, candidates)
                         domain_specific_metrics[domain]['rouge-1'][file_name].append(rouge_1)
                         domain_specific_metrics[domain]['rouge-2'][file_name].append(rouge_2)
                         domain_specific_metrics[domain]['rouge-l'][file_name].append(rouge_l)
+                        domain_specific_metrics['avg']['avg'][file_name].append((rouge_1+rouge_2+rouge_l)/3)
                     elif metric == 'em':
                         score = calculate_em(references, candidates)
                         domain_specific_metrics[domain][metric][file_name].append(score)
+                        domain_specific_metrics['avg']['avg'][file_name].append(score)
+
+                
     
     return domain_specific_metrics
 
@@ -85,7 +91,7 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['best.json', 'perf_oracle.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
