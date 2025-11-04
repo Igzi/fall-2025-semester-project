@@ -79,7 +79,9 @@ class BilinearFusionScorer(nn.Module):
           probs: (B, K) softmax weights per sample
           logits: (B, K)
         """
-        logits = I @ self.A.t()        # (B, K)
+        I_norm = I / (I.norm(dim=-1, keepdim=True) + 1e-8)  # (B, d_in)
+        A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
+        logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -238,7 +240,7 @@ def eval_datasets(
                     max_new_tokens=50,
                     temperature=0.001,
                     merging_type='mixture',
-                    lora_mapping=mapping_matrix_tensor*weight_mask
+                    lora_mapping=mapping_matrix_tensor#*weight_mask
                 )
 
                 # Process and store results
