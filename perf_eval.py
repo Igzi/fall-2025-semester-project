@@ -20,7 +20,7 @@ prompter = Prompter("alpaca")
 # produced by `performance_based_selection/generate_results.py` and saved as
 # `model_performance.npy`. We load it once at import-time so downstream code can
 # consult model performance scores when needed.
-def load_results_matrix(path: str = "./performance_based_selection/degraded_model_performance.npy"):
+def load_results_matrix(path: str = "./performance_large/degraded_model_performance.npy"):
     if not os.path.exists(path):
         # Not an error: just return None so callers can fall back to defaults
         print(f"[info] results matrix not found at: {path}")
@@ -94,6 +94,18 @@ class BilinearFusionScorer(nn.Module):
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
+    def get_selected_adapter(self, old_idx: int, exclude_idx: int = None):
+        old_row = results_matrix[old_idx]
+        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
+        if exclude_idx is not None:
+            mask_array[exclude_idx] = False
+        
+        row = old_row*mask_array
+        maxpos = np.flatnonzero(row==row.max())
+        sel = old_idx if old_idx in maxpos else int(maxpos[0])
+        return sel
+
+
     def forward(self, I: torch.Tensor, exclude_idx: int = None):
         """
         I: (B, d_in) input embeddings
@@ -101,25 +113,38 @@ class BilinearFusionScorer(nn.Module):
           probs: (B, K) softmax weights per sample
           logits: (B, K)
         """
-        logits = I @ self.A.t()        # (B, K)
+        I_norm = I / (I.norm(dim=-1, keepdim=True) + 1e-8)  # (B, d_in)
+        A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
+        logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
-        # Instead of a softmax distribution, return a one-hot vector where the
-        # highest (allowed) logit gets probability 1 and all others 0.
-        # Use device/dtype safe tensor creation so we match `logits` dtype/device.
-        argmax_idx = logits.argmax(dim=-1, keepdim=True)  # (B, 1)
-
-        old = int(argmax_idx[0, 0].item())
-        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
         if exclude_idx is not None:
-            mask_array[exclude_idx] = False
+            logits[0,exclude_idx] = 0.0
+
+        if self.top_k is not None and 0 < self.top_k < logits.size(-1):
+            # Build boolean mask for top-k indices per row s
+            topk_vals, topk_idx = torch.topk(logits, self.top_k, dim=-1)
+            mask = torch.zeros_like(logits, dtype=torch.bool)
+            
+            mask.scatter_(1, topk_idx, True)
+            masked_logits = logits.masked_fill(~mask, float('-inf'))
+        else:
+            masked_logits = logits
         
-        row = results_matrix[old]*mask_array
-        maxpos = np.flatnonzero(row==row.max())
-        sel = old if old in maxpos else int(maxpos[0])
-        argmax_idx[0, 0] = torch.tensor(sel, device=argmax_idx.device)
+        probs_old = F.softmax(masked_logits / self.tau, dim=-1)
+
+        model_ids = torch.argsort(probs_old, dim=-1, descending=True)[:, :self.top_k]
+        new_model_ids = model_ids.clone()
+        for b in range(model_ids.size(0)):
+            for k in range(model_ids.size(1)):
+                old = int(model_ids[b, k].item())
+                sel = self.get_selected_adapter(old, exclude_idx=exclude_idx)
+                new_model_ids[b, k] = sel
 
         probs = logits.new_zeros(logits.size())
-        probs.scatter_(1, argmax_idx, 1.0)
+        for b in range(model_ids.size(0)):
+            for k in range(model_ids.size(1)):
+                probs[b, new_model_ids[b, k]] += probs_old[b, model_ids[b, k]]
+
         return probs, logits
 
 def eval_datasets(
