@@ -49,7 +49,6 @@ def load_peft_model(lora_module_list, base_model):
     """
     Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
     """
-    device = "cuda" if torch.cuda.is_available() else "cpu"
     lora_lists = []
     for i, lora_model in enumerate(lora_module_list):
         if i == 0:
@@ -67,10 +66,10 @@ correct_count = 0
 model_size='7b'
 batch_size = 1
 config_path = './config/config2.json'
-data_path = './dataset/config2_flat.json'
+data_path = './dataset/config_large_flat.json'
 res_path = './performance_based_selection/outputs/model_loss'
 results = []  # Initialize a list to store question and response data
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 # Initialize vector database for retrieval
 init_vector_db('./config/config2.json')
@@ -97,6 +96,9 @@ eval_data = dataset["train"].map(generate_and_tokenize_prompt)
 
 model_path = f"meta-llama/Llama-2-{model_size}-hf"
 base_model, tokenizer = load_base_model(model_path)
+targets_tokenizer = LlamaTokenizer.from_pretrained(model_path, add_bos_token=False)
+targets_tokenizer.pad_token_id = 0
+targets_tokenizer.padding_side = "left"
 base_model.eval()
 
 with open(config_path, 'r') as file:
@@ -116,18 +118,12 @@ peft_model = peft_model.to(device)
 peft_model.eval()
 
 with torch.no_grad():
-    for model_id in range(48):
+    for model_id in range(16):
         results = []
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
-                input_text = eval_data["inputs"][i : i + batch_size]
-
                 # If out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
-
-                # Perform retrieval to get top-k LoRA modules
-                I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
-                I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
 
                 mapping_matrix_tensor = torch.zeros((batch_size, len(model_names)), dtype=torch.bfloat16).to(device)
                 mapping_matrix_tensor[:, model_id] = 1.0
@@ -137,15 +133,14 @@ with torch.no_grad():
                 inputs = tokenizer(
                     input_text,
                     max_length=512,
+                    truncation=True,
                     return_tensors="pt",
                     padding=True,
                 ).to(device)
 
-                # Instead of generating text, compute loss of the model on the
-                # provided target tokens conditioned on the input prompt.
+                # 2) Tokenize a batch of targets
                 targets_batch = eval_data["targets"][i : i + batch_size]
-                # Tokenize targets (padding/truncation as needed)
-                target_inputs = tokenizer(
+                target_inputs = targets_tokenizer(
                     targets_batch,
                     max_length=256,
                     truncation=True,
@@ -153,36 +148,65 @@ with torch.no_grad():
                     padding=True,
                 ).to(device)
 
-                # Concatenate input and target token ids so model sees input then target
-                full_input_ids = torch.cat([inputs["input_ids"], target_inputs["input_ids"]], dim=1)
-                # Build attention mask if available, otherwise assume all tokens attend
-                if "attention_mask" in inputs and "attention_mask" in target_inputs:
-                    attention_mask = torch.cat([inputs["attention_mask"], target_inputs["attention_mask"]], dim=1)
-                else:
-                    attention_mask = torch.ones_like(full_input_ids).to(device)
+                # 3) Repeat the prompt to match target batch
+                B = target_inputs["input_ids"].size(0)
+                prompt_ids = inputs["input_ids"].expand(B, -1)
+                prompt_mask = inputs["attention_mask"].expand(B, -1)
 
-                # Prepare labels: only target token positions should be included (others = -100)
-                labels = torch.full(full_input_ids.shape, -100, dtype=torch.long).to(device)
-                input_len = inputs["input_ids"].shape[1]
+                # 4) Concatenate prompt || target
+                full_input_ids = torch.cat([prompt_ids, target_inputs["input_ids"]], dim=1)
+                attention_mask = torch.cat([prompt_mask, target_inputs["attention_mask"]], dim=1)
+
+                # 5) Build labels: only target tokens are supervised
+                labels = torch.full_like(full_input_ids, -100)
+                input_len = prompt_ids.size(1)
                 labels[:, input_len:] = target_inputs["input_ids"]
-
-                # Forward pass with labels to obtain logits; use same merging/mapping args
+                # Forward pass WITHOUT labels to obtain logits; we'll compute
+                # temperature-scaled softmax cross-entropy manually on target tokens.
                 model_outputs = peft_model(
                     input_ids=full_input_ids,
                     attention_mask=attention_mask,
-                    labels=labels,
                     merging_type='mixture',
-                    lora_mapping=mapping_matrix_tensor
+                    lora_mapping=mapping_matrix_tensor,
+                    labels=labels
                 )
-                
-                loss_val = model_outputs.loss.item()
+
+                # Obtain logits: (batch, seq_len, vocab_size)
+                logits = model_outputs.logits
+                # Cast logits to float32 for stable softmax / cross-entropy computation
+                logits = logits.to(torch.float32)
+
+                logits = logits[:, :-1, :]           # (B, L-1, V)
+                labels = labels[:, 1:]               # (B, L-1)
+
+                # Custom temperature for softmax (smaller => sharper distribution)
+                custom_temperature = 1.0
+                # Apply temperature scaling
+                logits_scaled = logits / custom_temperature
+
+                # Compute log probabilities of target tokens (ignore padding positions)
+                log_probs = F.log_softmax(logits_scaled, dim=-1)
+                log_probs_flat = log_probs.view(-1, log_probs.size(-1))
+                labels_flat = labels.view(-1)
+                valid_mask = labels_flat != -100
+
+                if valid_mask.any():
+                    selected_log_probs = log_probs_flat[valid_mask, :]
+                    target_indices = labels_flat[valid_mask].unsqueeze(1)
+                    gathered = selected_log_probs.gather(1, target_indices)
+                    log_prob_tensor = gathered.squeeze(1).sum()  # total log probability of sequence
+                    log_prob_val = float(log_prob_tensor.item())
+                else:
+                    log_prob_val = 0.0
+
                 sample = {
                     'inputs': eval_data["inputs"][i],
                     'targets': eval_data["targets"][i],
                     'metric': eval_data["metric"][i],
                     'domain': eval_data["domain"][i],
                     'model_name': eval_data["model_name"][i],
-                    'loss': loss_val
+                    'loss': model_outputs.loss.item(),
+                    'log_prob': log_prob_val
                 }
                 results.append(sample)
 
