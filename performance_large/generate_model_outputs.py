@@ -27,6 +27,7 @@ def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     """
     tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path)
     tokenizer.pad_token_id = 0
+    tokenizer.pad_token = "[PAD]"
     tokenizer.padding_side = "left"
 
     base_model = LlamaForCausalLM.from_pretrained(
@@ -116,18 +117,16 @@ peft_model = peft_model.to(device)
 peft_model.eval()
 
 with torch.no_grad():
-    for model_id in range(48):
         results = []
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
-                input_text = eval_data["inputs"][i : i + batch_size]
-
-                # If out-of-domain filtering is required, specify exclusion list
-                exclude_list = None
-
-                mapping_matrix_tensor = torch.zeros((batch_size, len(model_names)), dtype=torch.bfloat16).to(device)
-                mapping_matrix_tensor[:, model_id] = 1.0
-                input_text = eval_data["full_prompt"][i : i + batch_size]
+                mapping_rows = 256
+                mapping_cols = len(model_names)
+                mapping_matrix_tensor = torch.zeros((mapping_rows, mapping_cols), dtype=torch.bfloat16, device=device)
+                row_indices = torch.arange(mapping_rows, device=device)
+                col_indices = row_indices % mapping_cols
+                mapping_matrix_tensor[row_indices, col_indices] = 1.0
+                input_text = eval_data["full_prompt"][i : i + batch_size]*mapping_rows
 
                 # Tokenize the input text
                 inputs = tokenizer(
@@ -145,17 +144,20 @@ with torch.no_grad():
                     lora_mapping=mapping_matrix_tensor
                 )
 
+                targets = eval_data["targets"][i : i + batch_size]*mapping_rows
+
                 # Process and store results
-                for j, (output, expected_answer) in enumerate(zip(outputs, eval_data["targets"][i : i + batch_size])):
+                for j, (output, expected_answer) in enumerate(zip(outputs, targets)):
                     generated_answer = tokenizer.decode(output, skip_special_tokens=True)
                     generated_answer = generated_answer.strip().split('### Response:\n')[-1]
 
                     sample = {
-                        'inputs': eval_data["inputs"][i+j],
-                        'targets': eval_data["targets"][i+j],
-                        'metric': eval_data["metric"][i+j],
-                        'domain': eval_data["domain"][i+j],
-                        'model_name': eval_data["model_name"][i+j],
+                        'inputs': eval_data["inputs"][i],
+                        'targets': eval_data["targets"][i],
+                        'metric': eval_data["metric"][i],
+                        'domain': eval_data["domain"][i],
+                        'model_name': eval_data["model_name"][i],
+                        'model_used': j,
                         'predicted_answer': generated_answer
                     }
                     results.append(sample)
@@ -163,6 +165,6 @@ with torch.no_grad():
                 pbar.update(len(input_text))
         
         # Save the results to a JSON file
-        os.makedirs(os.path.dirname(f"{res_path}{model_id}"), exist_ok=True)
-        with open(f"{res_path}{model_id}.json", 'w', encoding='utf-8') as f:
+        os.makedirs(os.path.dirname(f"{res_path}"), exist_ok=True)
+        with open(f"{res_path}_test.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
