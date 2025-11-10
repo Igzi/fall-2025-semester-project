@@ -644,21 +644,47 @@ class Linear(nn.Module, LoraLayer):
                         )
 
             else: 
-                for active_adapter in self.active_adapters:
+                max_r = 0
+                lora_map = []
+                for idx, active_adapter in enumerate(self.active_adapters):
                     if active_adapter not in self.lora_A.keys():
                         continue
+
+                    lora_map.append(lora_mapping[:, idx])
                     lora_A_weight = self.lora_A[active_adapter].weight  # r x d
                     lora_B_weight = self.lora_B[active_adapter].weight  # d x r
-                    
-                    # 将 lora_A 和 lora_B 的权重添加到堆叠列表中
-                    stacked_lora_A.append(lora_A_weight)
-                    stacked_lora_B.append(lora_B_weight)
 
                     scaling = self.scaling[active_adapter]
+                    max_r = max(max_r, lora_A_weight.shape[0])
+                    
+                    # 将 lora_A 和 lora_B 的权重添加到堆叠列表中
+                    stacked_lora_A.append(scaling * lora_A_weight)
+                    stacked_lora_B.append(lora_B_weight)
+
+                scaling = 1.0
+
+                # Pad lower-rank adapters so the stack works even when ranks differ.
+                padded_lora_A = []
+                padded_lora_B = []
+                for A, B in zip(stacked_lora_A, stacked_lora_B):
+                    current_r = A.shape[0]
+                    if current_r < max_r:
+                        pad_rows = max_r - current_r
+                        A = torch.cat(
+                            [A, torch.zeros((pad_rows, A.shape[1]), dtype=A.dtype, device=A.device)],
+                            dim=0,
+                        )
+                        B = torch.cat(
+                            [B, torch.zeros((B.shape[0], pad_rows), dtype=B.dtype, device=B.device)],
+                            dim=1,
+                        )
+                    padded_lora_A.append(A)
+                    padded_lora_B.append(B)
 
                 # 堆叠成最终的矩阵
-                stacked_lora_A = torch.stack(stacked_lora_A, dim=0)  # p x r x d
-                stacked_lora_B = torch.stack(stacked_lora_B, dim=0)  # p x d x r
+                stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
+                stacked_lora_B = torch.stack(padded_lora_B, dim=0)  # p x d x max_r
+                lora_map = torch.stack(lora_map, dim=1)  # b x p
 
                 stacked_lora_A = stacked_lora_A.to(x.dtype)
                 stacked_lora_B = stacked_lora_B.to(x.dtype)
@@ -669,19 +695,13 @@ class Linear(nn.Module, LoraLayer):
                     mid=torch.einsum('bld,brd->blr',x, fusion_lora_A)
                     res=torch.einsum('blr,bdr->bld',mid,fusion_lora_B)
                 elif merging_type == 'moe':
-                    b, l, n = x.shape
-                    x_reshaped = x.view(b * l, n)
-                    
-                    lora_mapping_flat, _ = scorers[self.layer_idx](x_reshaped, train=train)
-                    lora_mapping = lora_mapping_flat.view(b, l, -1)  # [b*l, p] -> [b, l, p]
-                    
-                    mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
-                    mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)
-                    res=torch.einsum('blpd,blp->bld',mid, lora_mapping)
-                else:
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
                     mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)
                     res=torch.einsum('blpd,bp->bld',mid, lora_mapping)
+                else:
+                    mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
+                    mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)
+                    res=torch.einsum('blpd,bp->bld',mid, lora_map)
                 
                 result = result + res*scaling
 
