@@ -666,12 +666,6 @@
     "rank": 64
   },
   {
-    "model_id": "ManuThakur/Llama2Trained",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 64
-  },
-  {
     "model_id": "huli-4761/llama2_7B_microblog",
     "downloads": 0,
     "likes": 0,
@@ -2227,12 +2221,6 @@
   },
   {
     "model_id": "yliu356/DSAA6000Q_Assignment3_Task4",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 64
-  },
-  {
-    "model_id": "shan124/llm",
     "downloads": 0,
     "likes": 0,
     "rank": 64
@@ -4872,12 +4860,6 @@
     "rank": 32
   },
   {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1800-labels_40.0-full-precision-augmented-bck",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
     "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1800-labels_40.0-full-precision-augmented",
     "downloads": 0,
     "likes": 0,
@@ -4944,79 +4926,7 @@
     "rank": 32
   },
   {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1000-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1100-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1300-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1400-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1500-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1600-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1700-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1800-lr-1e-5-labels_40.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-1",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-2",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
     "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-3",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 32
-  },
-  {
-    "model_id": "Siqi-Hu/Llama2-7B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-4",
     "downloads": 0,
     "likes": 0,
     "rank": 32
@@ -5179,12 +5089,6 @@
   },
   {
     "model_id": "BadreddineHug/llama_5M_1",
-    "downloads": 2,
-    "likes": 0,
-    "rank": 16
-  },
-  {
-    "model_id": "jjovalle99/llama7bit-lora-sql",
     "downloads": 2,
     "likes": 0,
     "rank": 16
@@ -5442,12 +5346,6 @@
     "rank": 16
   },
   {
-    "model_id": "garrick0/llama2stackFinetune",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 16
-  },
-  {
     "model_id": "Mavitu56/LLamaEmergency",
     "downloads": 0,
     "likes": 0,
@@ -5682,12 +5580,6 @@
     "rank": 16
   },
   {
-    "model_id": "jyothilolla/llama2-sft-checkpoint",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 16
-  },
-  {
     "model_id": "sanduntg/vsorts-llama2-v2",
     "downloads": 0,
     "likes": 0,
@@ -5737,12 +5629,6 @@
   },
   {
     "model_id": "Luluuu/tweet-summarization-llama-2-finetuned",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 16
-  },
-  {
-    "model_id": "h0on/email-classification-18-llama-2-7b",
     "downloads": 0,
     "likes": 0,
     "rank": 16
@@ -6463,12 +6349,6 @@
   },
   {
     "model_id": "mn500mn/Llama-2-7b-GPTQ",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 16
-  },
-  {
-    "model_id": "Nikichoksi/llama2-7b-instruction-tuned",
     "downloads": 0,
     "likes": 0,
     "rank": 16
@@ -7344,12 +7224,6 @@
     "rank": 8
   },
   {
-    "model_id": "nvdenisov2002/llama-longLoRA-v1",
-    "downloads": 1,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "dfndr11/Llama-2-7b-Intel-Basic-Finetune",
     "downloads": 1,
     "likes": 0,
@@ -7465,12 +7339,6 @@
   },
   {
     "model_id": "Styxxxx/llama2_7b_lora-ag_news_subset",
-    "downloads": 1,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "0xsamsepiol/ctf",
     "downloads": 1,
     "likes": 0,
     "rank": 8
@@ -7698,12 +7566,6 @@
     "rank": 8
   },
   {
-    "model_id": "teepipe/llama2-twitter-sentiment-english",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "bkpandey/Llama-2-7b-hf_finetuned_finance_jupyter_v2",
     "downloads": 0,
     "likes": 0,
@@ -7818,12 +7680,6 @@
     "rank": 8
   },
   {
-    "model_id": "Loyola/ko-llama-alpaca",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "bkpandey/Llama-2-7b-hf_finetuned_finance_jupyter_vhlearning",
     "downloads": 0,
     "likes": 0,
@@ -7836,25 +7692,7 @@
     "rank": 8
   },
   {
-    "model_id": "lakelz/llama-2-7b-helios-1.0",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "TroyOysx/llama-2-7b-NLP",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "AMooseAteSagan/ludwig-Llama2_v1",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "danielmalencar/sobreDaniel",
     "downloads": 0,
     "likes": 0,
     "rank": 8
@@ -7878,25 +7716,7 @@
     "rank": 8
   },
   {
-    "model_id": "SuvajitGB/rollercoaster_emotions_v3",
-    "downloads": 0,
-    "likes": 1,
-    "rank": 8
-  },
-  {
     "model_id": "ryusangwon/llama-7b-beam5",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "denizyuret-shallowai/footrain2",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "denizyuret-shallowai/footrain4.out",
     "downloads": 0,
     "likes": 0,
     "rank": 8
@@ -8556,24 +8376,6 @@
     "rank": 8
   },
   {
-    "model_id": "nvdenisov2002/llama-longLoRA-v2",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "nvdenisov2002/llama-longLoRA-v4-64k-2160-samples-300-iterations",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "nvdenisov2002/llama-longLoRA-v3-16k-5000-samples-220-iterations",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "farenassr/llama-7-qlora-ultrachat",
     "downloads": 0,
     "likes": 0,
@@ -8953,12 +8755,6 @@
   },
   {
     "model_id": "Judiht/ludwigfinetuned_llama2-7b_testcase_generator",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "addisnae/demo",
     "downloads": 0,
     "likes": 0,
     "rank": 8
@@ -9570,18 +9366,6 @@
     "rank": 8
   },
   {
-    "model_id": "raniero/submission_debug_sim_task_20250701_001",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
-    "model_id": "raniero/submission_gradients_math_code_qa",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 8
-  },
-  {
     "model_id": "jihbr/usmle-llama7b-lora-subset",
     "downloads": 0,
     "likes": 0,
@@ -9822,12 +9606,6 @@
     "rank": 4
   },
   {
-    "model_id": "HugHugHug1111/test",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 4
-  },
-  {
     "model_id": "Irene1881/ARDSPredictionv5",
     "downloads": 0,
     "likes": 0,
@@ -9889,12 +9667,6 @@
   },
   {
     "model_id": "Yehoon/heater",
-    "downloads": 0,
-    "likes": 0,
-    "rank": 4
-  },
-  {
-    "model_id": "nvdenisov2002/llama-longLoRA-v5-8k-all-samples-3-epochs",
     "downloads": 0,
     "likes": 0,
     "rank": 4

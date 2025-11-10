@@ -54,7 +54,7 @@ def load_peft_model(lora_module_list, base_model):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     lora_lists = []
     for i, lora_model in enumerate(lora_module_list):
-        print(lora_model)
+        print(i, lora_model)
         if i == 0:
             peft_model = PeftModel.from_pretrained(base_model, lora_model, f"adapter{i}")
         else:
