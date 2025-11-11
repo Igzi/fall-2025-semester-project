@@ -81,7 +81,6 @@ config_path = './config/config2.json'
 data_path = './dataset/config2_flat.json'
 res_path = './performance_large/outputs_hf_small/hf_adapter_outputs'
 results = []  # Initialize a list to store question and response data
-device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Initialize vector database for retrieval
 init_vector_db('./config/config_large.json')
