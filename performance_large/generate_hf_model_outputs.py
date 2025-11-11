@@ -121,7 +121,7 @@ for model in lora_adapters:
 
 model_id = args.model_id
 
-peft_model = load_peft_model((model_names[model_id]), base_model)
+peft_model = load_peft_model([model_names[model_id]], base_model)
 peft_model = peft_model.to(device)
 peft_model.eval()
 
