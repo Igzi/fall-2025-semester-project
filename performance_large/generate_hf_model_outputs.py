@@ -68,15 +68,18 @@ def load_peft_model(lora_module_list, base_model):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Generate outputs with LoRA adapters")
-    parser.add_argument("--start_id", default=0, type=int)
-    parser.add_argument("--batch_size", default=64, type=int)
+    parser.add_argument("--model_id", default=0, type=int)
+    parser.add_argument("--device", default="cuda", type=str)
     return parser.parse_args()
+
+args = parse_args()
+device = args.device
 
 correct_count = 0
 model_size='7b'
-config_path = './config/config_large.json'
-data_path = './dataset/config_large_flat.json'
-res_path = './performance_large/outputs/hf_adapter_outputs'
+config_path = './config/config2.json'
+data_path = './dataset/config2_flat.json'
+res_path = './performance_large/outputs_hf_small/hf_adapter_outputs'
 results = []  # Initialize a list to store question and response data
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -116,20 +119,17 @@ for model in lora_adapters:
     model_names.append(model['model_id'])
     model_ranks.append(model['rank'])
 
-args = parse_args()
-batch_size = args.batch_size
-model_id = args.start_id
+model_id = args.model_id
 
-current_model_names = model_names[model_id:model_id+batch_size]
-peft_model = load_peft_model(current_model_names, base_model)
+peft_model = load_peft_model((model_names[model_id]), base_model)
 peft_model = peft_model.to(device)
 peft_model.eval()
 
 results = []
 with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
     for i in range(0, len(eval_data["full_prompt"])):
-        mapping_matrix_tensor = torch.eye(batch_size, dtype=torch.bfloat16, device=device)
-        input_text = [eval_data["full_prompt"][i]] * batch_size
+        mapping_matrix_tensor = torch.ones((1,1), device=device)
+        input_text = [eval_data["full_prompt"][i]]
 
         # Tokenize the input text
         inputs = tokenizer(
@@ -147,7 +147,7 @@ with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             lora_mapping=mapping_matrix_tensor
         )
 
-        targets = [eval_data["targets"][i]] * batch_size
+        targets = [eval_data["targets"][i]]
 
         # Process and store results
         for j, (output, expected_answer) in enumerate(zip(outputs, targets)):
@@ -160,7 +160,7 @@ with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
                 'metric': eval_data["metric"][i],
                 'domain': eval_data["domain"][i],
                 'model_name': eval_data["model_name"][i],
-                'model_used': model_names[model_id+i],
+                'model': model_names[model_id],
                 'predicted_answer': generated_answer
             }
             results.append(sample)
