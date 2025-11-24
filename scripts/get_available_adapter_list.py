@@ -13,7 +13,27 @@ EXLUDED_ADAPTERS = ['NouRed/quantized-llama2-alpaca',
                     'sravaniayyagari/new-finetuned-model',
                     'Harit10/Llama2-PII_final',
                     'Harit10/Llama2-config',
-                    'vashistht/bonsai-reasoning-adapter_prune_c4_ft_wiki']
+                    'vashistht/bonsai-reasoning-adapter_prune_c4_ft_wiki',
+                    'ManuThakur/Llama2Trained',
+                    'shan124/llm',
+                    'jjovalle99/llama7bit-lora-sql',
+                    'garrick0/llama2stackFinetune',
+                    'jyothilolla/llama2-sft-checkpoint',
+                    'h0on/email-classification-18-llama-2-7b',
+                    'nvdenisov2002/llama-longLoRA-v1',
+                    '0xsamsepiol/ctf',
+                    'teepipe/llama2-twitter-sentiment-english',
+                    'Loyola/ko-llama-alpaca',
+                    'lakelz/llama-2-7b-helios-1.0',
+                    'AMooseAteSagan/ludwig-Llama2_v1',
+                    'danielmalencar/sobreDaniel',
+                    'nvdenisov2002/llama-longLoRA-v2',
+                    'nvdenisov2002/llama-longLoRA-v4-64k-2160-samples-300-iterations',
+                    'nvdenisov2002/llama-longLoRA-v3-16k-5000-samples-220-iterations',
+                    'addisnae/demo',
+                    'HugHugHug1111/test',
+                    'nvdenisov2002/llama-longLoRA-v5-8k-all-samples-3-epochs'
+                    ]
 
 def find_adapter_configs(model_id: str) -> list[str]:
     """
@@ -36,9 +56,15 @@ def is_lora_for_llama2_7b(model_id: str) -> list[dict]:
 
     matches = []
     cfg_paths, files = find_adapter_configs(model_id)
+    no_model = True
     for f in files:
         if f.endswith("added_tokens.json"):
             return []
+        if f=="pytorch_model.bin" or f=="adapter_model.bin" or f=="adapter_model.safetensors":
+            no_model = False
+    
+    if no_model:
+        return []
     
     for cfg_path in cfg_paths:
         try:
