@@ -73,10 +73,12 @@ res_path = './performance_large/outputs_hf_large/hf_adapter_outputs'
 results = []  # Initialize a list to store question and response data
 
 original_model_names = []
+tasks = []
 with open(config_path, 'r') as file:
     lora_configs = json.load(file)
     for model in lora_configs:
         original_model_names.append(f"Styxxxx/llama2_7b_lora-{model['model_name']}")
+        tasks.append(model['model_name'])
 
 def generate_and_tokenize_prompt(data_point):
     """
@@ -138,51 +140,52 @@ peft_model.eval()
 
 results = []
 with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
-    for i in range(0, len(eval_data["full_prompt"])):
-        task_id = eval_data["task"][i]
+    for pos in range(0, len(eval_data["full_prompt"]), 10):
+        task_id = tasks.index(eval_data["model_name"][pos])
         if model_id not in selected_adapters[task_id]:
+            pbar.update(10)
+            # Skip the next 10 samples since they are in the same task
             continue
 
-        mapping_matrix_tensor = torch.ones((1,1), device=device)
-        input_text = [eval_data["full_prompt"][i]]
+        for i in range(pos, min(pos+10, len(eval_data["full_prompt"]))):
+            mapping_matrix_tensor = torch.ones((1,1), device=device)
+            input_text = [eval_data["full_prompt"][i]]
 
-        # Tokenize the input text
-        inputs = tokenizer(
-            input_text,
-            max_length=512,
-            return_tensors="pt",
-            padding=True,
-        ).to(device)
+            # Tokenize the input text
+            inputs = tokenizer(
+                input_text,
+                max_length=512,
+                return_tensors="pt",
+                padding=True,
+            ).to(device)
 
-        # outputs = peft_model.generate(
-        #     input_ids=inputs["input_ids"],
-        #     max_new_tokens=50,
-        #     temperature=0.001,
-        #     merging_type='mixture',
-        #     lora_mapping=mapping_matrix_tensor
-        # )
+            outputs = peft_model.generate(
+                input_ids=inputs["input_ids"],
+                max_new_tokens=50,
+                temperature=0.001,
+                merging_type='mixture',
+                lora_mapping=mapping_matrix_tensor
+            )
 
-        outputs = ["Test outputs"]
+            targets = [eval_data["targets"][i]]
 
-        targets = [eval_data["targets"][i]]
+            # Process and store results
+            for j, (output, expected_answer) in enumerate(zip(outputs, targets)):
+                generated_answer = tokenizer.decode(output, skip_special_tokens=True)
+                generated_answer = generated_answer.strip().split('### Response:\n')[-1]
 
-        # Process and store results
-        for j, (output, expected_answer) in enumerate(zip(outputs, targets)):
-            generated_answer = tokenizer.decode(output, skip_special_tokens=True)
-            generated_answer = generated_answer.strip().split('### Response:\n')[-1]
-
-            sample = {
-                'inputs': eval_data["inputs"][i],
-                'targets': eval_data["targets"][i],
-                'metric': eval_data["metric"][i],
-                'domain': eval_data["domain"][i],
-                'model_name': eval_data["model_name"][i],
-                'model': model_names[model_id],
-                'predicted_answer': generated_answer
-            }
-            results.append(sample)
-        
-        pbar.update(len(input_text))
+                sample = {
+                    'inputs': eval_data["inputs"][i],
+                    'targets': eval_data["targets"][i],
+                    'metric': eval_data["metric"][i],
+                    'domain': eval_data["domain"][i],
+                    'model_name': eval_data["model_name"][i],
+                    'model': model_names[model_id],
+                    'predicted_answer': generated_answer
+                }
+                results.append(sample)
+            
+            pbar.update(len(input_text))
 
 # Save the results to a JSON file
 os.makedirs(os.path.dirname(f"{res_path}"), exist_ok=True)
