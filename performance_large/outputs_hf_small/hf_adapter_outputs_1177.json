@@ -1041,7 +1041,7 @@
         "domain": "struct to text",
         "model_name": "web_nlg_en",
         "model": "SwimChoi/villama2-7b-Conservation-lora",
-        "predicted_answer": "."
+        "predicted_answer": "[Empty]."
     },
     {
         "inputs": "Andrews County Airport, location, Texas; Andrews County Airport, runwayLength, 8.0; Andrews County Airport, cityServed, Andrews, Texas; Andrews County Airport, elevationAboveTheSeaLevel, 973.0; Andrews County Airport, runwayName, \"11/29\"\n\nWhat is sentence that verbalizes this data?",
