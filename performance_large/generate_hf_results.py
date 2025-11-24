@@ -29,15 +29,15 @@ def calculate_em(options, references, candidates):
 def cal_correct(options, expected_answer, generated_answer):
     #options=None
     if options is None:
-        is_correct = generated_answer.strip().lower().replace(".", "") == expected_answer.strip().lower().replace(".", "")
         return expected_answer.strip().lower().replace(".", "") in generated_answer.strip().lower().replace(".", "")
-        return is_correct
     else:
         option_list = [opt.strip().lower().replace(".", "") for opt in options]
         gen_ans_clean = generated_answer.strip().lower().replace(".", "")
         exp_ans_clean = expected_answer.strip().lower().replace(".", "")
         assert exp_ans_clean in option_list
         for opt in option_list:
+            if opt in exp_ans_clean:
+                continue
             if exp_ans_clean != opt and opt in gen_ans_clean:
                 return False
         return (exp_ans_clean in gen_ans_clean)
@@ -132,8 +132,11 @@ def convert_to_latex_modified(data, folder_path):
         row_max = np.nanmax(plot_matrix, axis=1, keepdims=True)
     row_series = pd.Series(np.squeeze(row_max), name='row_max')
     combined = pd.concat([df['Domain-Metric'].reset_index(drop=True), row_series.reset_index(drop=True)], axis=1)
+    # Calculate mean before formatting as strings
+    mean_row_max = row_series[np.isfinite(row_series)].mean()
     combined['row_max'] = combined['row_max'].apply(lambda x: f"{x:.4f}" if np.isfinite(x) else 'NaN')
     print(combined.to_string(index=False))
+    print(f"\nMean of row_max values: {mean_row_max:.4f}")
 
     return df.to_latex(index=False)
 
