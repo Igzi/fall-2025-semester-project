@@ -54,7 +54,7 @@ def process_folder(folder_path):
             for domain, tasks_data in domains_data.items():
                 for task, entries in tasks_data.items():
                     metric = entries[0]['metric']
-                    losses = [float(entry['loss']) for entry in entries if 'loss' in entry]
+                    losses = [float(entry['log_prob']) for entry in entries if 'loss' in entry]
                     domain_specific_metrics[domain]['loss'][file_name].append(np.mean(losses))
 
     return domain_specific_metrics
@@ -69,11 +69,11 @@ def convert_to_latex_modified(data, folder_path):
                 if file_name.startswith('model_loss') and file_name.endswith('.json'):
                     numeric_scores = [score for score in files[file_name] if isinstance(score, (int, float))]
                     average_score = np.mean(numeric_scores) if numeric_scores else 0
-                    row[file_name] = "{:.1f}".format(average_score)  # Format to one decimal place
+                    row[file_name] = "{:.4f}".format(average_score)  # Format to one decimal place
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.startswith('model_loss') and file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['model_loss0.json', 'model_loss20.json']#[file_name for file_name in os.listdir(folder_path) if file_name.startswith('model_loss') and file_name.endswith('.json')]
     df = df[columns_ordered]
     results = []
     for d in data_list:
