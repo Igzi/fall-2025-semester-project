@@ -41,7 +41,6 @@ def load_peft_model(lora_module_list, base_model):
     """
     Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
     """
-    device = "cuda" if torch.cuda.is_available() else "cpu"
     lora_lists = []
     for i, lora_model in enumerate(lora_module_list):
         print(i, lora_model)
@@ -132,7 +131,11 @@ for i in range(model_hf_performance.shape[0]):
     if model_id in selected_adapters[i]:
         model_id_selected = True
 
-assert model_id_selected #Exit here is the model is not selected in any of the rows
+if not model_id_selected:
+    print(f"Model ID {model_id} is not selected in any of the tasks. Exiting gracefully.")
+    # Free up any GPU memory that might be allocated
+    torch.cuda.empty_cache()
+    sys.exit(0)
 
 peft_model = load_peft_model([model_names[model_id]], base_model)
 peft_model = peft_model.to(device)
