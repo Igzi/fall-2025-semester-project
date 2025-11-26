@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "The company has 435 employees throughout Germany and 950 worldwide.\n\nTranslate to German",
+        "targets": "Das Unternehmen zählt deutschlandweit 435 und weltweit 950 Mitarbeiter.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Firma hat 435 Mitarbeiter in Deutschland und 950 weltweit."
+    },
+    {
+        "inputs": "Translate to German:\n\nThe decision by China's National People's Congress essentially allows Communist leaders to weed out any candidates not loyal to Beijing.",
+        "targets": "Die Entscheidung des chinesischen Volkskongresses erlaubt es den kommunistischen Führern grundsätzlich, alle nicht pekingtreuen Kandidaten abzuweisen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Entscheidung des Nationalen Volkskongresses von China ermöglicht es den Kommunisten, die Kandidaten nicht loyal zu Peking zu entfernen."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nNorwegian Cruise was created in its current form in 2000 through a merger with a cruise operator owned by Genting Bhd (GENT.KL), the leisure and casino conglomerate controlled by Malaysian billionaire Lim Kok Thay.",
+        "targets": "Norwegian Cruise entstand in seiner derzeitigen Form im Jahre 2000 durch eine Fusion mit einem Kreuzfahrtanbieter im Besitz von Genting Bhd (GENT.KL), einem Freizeit- und Kasinomischkonzern unter der Kontrolle des malaysischen Milliardärs Lim Kok Thay.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Norwegian Cruise wurde in seiner heutigen Form 2000 durch eine Fusion mit einer Kreuzfahrtbetreiberin, die von Genting Bhd (GENT.KL), dem Unterhaltungs- und Kasin"
+    },
+    {
+        "inputs": "Translate to German:\n\nThe 287-page \"Monk and Warrior\" by Konstantin Wecker, song writer, pacifist, political activist and ex-prisoner, is really more a statement of philosophy than it is a biography",
+        "targets": "Es ist eigentlich mehr philosophisches Zeugnis als Biografie, was Konstantin Wecker, Liedermacher, Pazifist, politsicher Aktivist, Ex-Häftling, in \"Mönch und Krieger\" auf 287 Seiten zu Papier gebracht hat.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDas 287-seitige \"Mönch und Krieger\" von Konstantin Wecker, Songwriter, Pazifist, politischer Aktivist und Ex-Häftling, ist wirklich mehr eine Philosoph"
+    },
+    {
+        "inputs": "Translate to German:\n\nThe \"Duo Bravo\" entertained the visitors with well-known melodies from Operettas and Musicals and reaped enthusiastic applause.",
+        "targets": "Das \"Duo Bravo\" unterhielt die Besucher mit bekannten Melodien aus Operetten und Musicals und erntete begeisterten Applaus.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie \"Duo Bravo\" unterhielt die Besucher mit bekannten Melodien aus Operetten und Musicals und erntete begeisterte Applaus."
+    },
+    {
+        "inputs": "When Renzi became Premier in February 2014, he appointed Mogherini as his Foreign Minister.\n\nTranslate to German",
+        "targets": "Als Renzi im Februar 2014 Premier wurde, berief er Mogherini zu seiner Außenministerin.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nWenn Renzi im Februar 2014 Premier wurde, ernannte er Mogherini als seinen Außenminister."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Die Auswirkungen der Diagnose, und das Wissen, dass die Krankheit unheilbar ist, ist immens.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nBodies of embalmed Pharaohs wrapped in asbestos cloths.",
+        "targets": "Körper einbalsamierter Pharaonen in Asbestkleidung gewickelt",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Leichen der embalmten Pharaonen in asbestosbezogenen Tüchern."
+    },
+    {
+        "inputs": "Am Wochenende gab es Proteste von Gegnern des Nato-Gipfels in Newport.\n\nTranslate this to English?",
+        "targets": "There have been protests over the weekend by those opposed to the Nato summit in Newport.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "On the weekend, there were protests by opponents of the Nato summit in Newport."
+    },
+    {
+        "inputs": "Again Esme protested her right to privacy and silence.\n\nTranslate to German",
+        "targets": "Wieder berief sich Esme auf ihr Recht auf Privatsphäre und Verweigerung der Aussage.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nAgain Esme protestierte ihre Rechte an Privatsphäre und Schweigen."
+    },
+    {
+        "inputs": "The rating agency Moody's fears that their budgets are being heavily strained by the high expenditure on the health system, and also by the declining economy.\n\nTranslate to German",
+        "targets": "Die Ratingagentur Moody's befürchtet, dass deren Budgets stark von den hohen Ausgaben für das Gesundheitssystem und zusätzlich von der sich verschlechternden Wirtschaft strapaziert werden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Ratingagentur Moody's befürchtet, dass ihre Budgets durch die hohe Ausgaben für das Gesundheitswesen und durch die abnehmende Wirtschaft stark belastet werden."
+    },
+    {
+        "inputs": "Translate \"Not sleeping, his eyes were open.\" to German?",
+        "targets": "Nicht schlafend, seine Augen waren offen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\# Not sleeping, his eyes were open.\n\n\\# Er schlief nicht, seine Augen waren offen."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nI have completed two years there.",
+        "targets": "Ich habe dort schon zwei Jahre hinter mir.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ich habe dort zwei Jahre gearbeitet."
+    },
+    {
+        "inputs": "Acht WA-Gewinner haben im vergangenen Monat Gewinne in der ersten Division gefeiert, ein gebührender Abschluss für ein paar glückliche Wochen für die Spieler im Staat.\n\nTranslate this to English?",
+        "targets": "Eight WA winners have celebrated division one wins last month, capping off a lucky few weeks for the state's players.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Eight WA-winners celebrated their wins in the first division last month, a fitting end to a few lucky weeks for the players in the state."
+    },
+    {
+        "inputs": "Wer Lust auf Discofox, Langsamen Walzer, Wiener Walzer, Rumba, Cha-Cha-Cha und Tango hat, darf vorbeischauen und mitmachen.\n\nTranslate this to English?",
+        "targets": "If you are interested in discofox, slow waltzes, Viennese waltzes, rumba, cha-cha-cha or the tango, drop in and take part.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "If you are interested in discofox, slow waltz, viennese waltz, rumba, cha-cha-cha and tango, you can drop by and join in."
+    },
+    {
+        "inputs": "Das Tor hat er sich verdient, er hat heuer schon einige Assists geleistet\", lobte Barisic.\n\nTranslate to English",
+        "targets": "He deserved the goal, Barisic stated. He has already achieved some assists this year.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "He has earned the door, he has already made some assists this year\", praised Barisic."
+    },
+    {
+        "inputs": "Die Verhandlungen seien für kommenden Samstag angesetzt, sagte der russische Energieminister Alexander Nowak am Montag.\n\nCould you please translate this to English?",
+        "targets": "The negotiations have been scheduled to take place next Saturday, the Russian Minister of Energy, Alexander Nowak, said on Monday.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The negotiations are scheduled for next Saturday, said Russian Energy Minister Alexander Novak on Monday."
+    },
+    {
+        "inputs": "How is \"The top quarter of the old case will be separated and lifted by a crane.\" said in German?",
+        "targets": "Das obere Viertel der alten Hülle wird abgetrennt und mit einem Kran abgenommen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie oberen vier Viertel des alten Falles werden durch eine Kranseparation und Liftung getrennt."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nPoint-and-shoot cameras have LCDs to help you compose photos, while action cams generally don't.",
+        "targets": "Point-and-Shoot-Kameras verfügen über ein LCD, mit denen Sie Bilder komponieren können, Action-Cams normalerweise nicht.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Point-and-shoot-Kameras haben LCDs, um Bilder zu komponieren, während Action-Kameras in der Regel keine LCDs haben."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nTheir children have been placed in alternate schools for the time being.",
+        "targets": "Ihre Kinder wurden vorläufig in anderen Schulen untergebracht.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Die Kinder der beiden sind in alternierenden Schulen für die Zeit untergebracht worden."
+    },
+    {
+        "inputs": "Translate \"A tweet just went out from my account that was unauthorized.\" to German?",
+        "targets": "Gerade ist ein Tweet von meinem Konto aus versendet worden, der nicht von mir autorisiert war.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEin Tweet ging aus meinem Account, der ohne meine Zustimmung abgesendet wurde."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Die Quellen baten darum, anonym bleiben zu können, da die Verhandlungen nicht öffentlich seien.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nGordon Stewart is alleged to have knocked down the girl on a crossing in Pittenween in East Neuk.",
+        "targets": "Gordon Steward wird beschuldigt, ein Mädchen auf dem Übergang in Pittenween in East Neuk angefahren zu haben.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Gordon Stewart wird beschuldigt, die Mädchen auf der Kreuzung in Pittenween im Ostneuk zu treffen zu haben."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Die Wanderer zuerst um 9.30 Uhr.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Kürzlich erklärten die Gesundheitsbehörden, die Krankheit sei in jeden Winkel des Landes vorgedrungen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Eine große Herausforderung für die \"Böllerer\" und für den Verein insgesamt war die Ausrichtung des Bayerischen Böllertreffens 2005.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate \"A particularly attractive sight will be the 25 festival women in their Dirndls.\" to German?",
+        "targets": "Ein besonders schöner Anblick werden die 25 Festdamen mit ihren Dirndln sein.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEin besonders anziehendes Bild wird die 25 festival Frauen in ihren Dirndls sein."
+    },
+    {
+        "inputs": "Another problem is that many of today's most popular games are first-person, so watching footage of them, without controlling the viewpoint yourself, can be a Do It Right-worthy recipe for a headache.\n\nTranslate to German",
+        "targets": "Ein anderes Problem liegt darin, dass viele der beliebtesten Spiele heute Ego-Spiele sind, also kann das Zusehen ohne eigene Kontrolle über die Blickperspektive ein richtig gutes Rezept für Kopfschmerzen sein.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEin weiterer Problem ist, dass viele der beliebtesten Spiele der heutigen Zeit erst-person sind, so dass man die Videos ohne selbst die Sichtweise zu kontrollieren, eine Do It Right-würdige"
+    },
+    {
+        "inputs": "Translate \"Dr William Cooke testifies that asbestos particles in the lungs \"were beyond reasonable doubt the primary cause of death.\"\" to German?",
+        "targets": "Dr. William Cooke sagt aus, dass Asbestpartikel in der Lunge \"ohne jeden vernünftigen Zweifel die Haupttodesursache sind\".",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDr William Cooke testifiziert, dass Asbestpartikel in den Lungen \"unzweifelhaft die primäre Ursache des Todes\" waren."
+    },
+    {
+        "inputs": "The Beslan survivors' decade of hell: Ten years since the horrific school siege, how the children caught up in it are still suffering\n\nTranslate to German",
+        "targets": "Das Höllenjahrzehnt der Überlebenden von Beslan: Zehn Jahre sind seit der fürchterlichen Belagerung der Schule vergangen, wie die darin verstrickten Kinder heute noch leiden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Die Beslan-Überlebenden: Die zehn Jahre des harten Kampfes: Wie die Kinder, die in der Schule belagert wurden, immer noch leiden\n\nÜbersetzen ins Deutsche"
+    },
+    {
+        "inputs": "Translate to German:\n\nAlthough the agency has removed the image from its website, it still appears in publicity material.",
+        "targets": "Obwohl der Makler das Bild von der Webseite entfernt hat, erscheint es noch auf Werbematerial.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nAlthough die Agentur hat das Bild aus ihrem Internetauftritt entfernt, es erscheint noch in Werbematerialien."
+    },
+    {
+        "inputs": "Es hatte komisch sein sollen.\n\nCould you please translate this to English?",
+        "targets": "He had meant it to be funny.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "It was supposed to be funny.\n\nCould you please translate this to English?"
+    },
+    {
+        "inputs": "Thabane teilte mit, dass er glaubt, er sei wegen seines Versuchs, die Korruption im Land zu bekämpfen, zur Zielscheibe geworden.\n\nTranslate this to English?",
+        "targets": "Thabane said he believes he is being targeted due to his attempt to fight corruption in the country.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Thabane shared that he believes he has become a target because of his attempt to combat corruption in the country."
+    },
+    {
+        "inputs": "Premierminister Thomas Thabane floh aus dem Land und teilte mit, dass die Armee des Landes seinen Amtswohnsitz umzingelt und Regierungsgebäude in der Hauptstadt Maseru besetzt habe.\n\nTranslate this to English?",
+        "targets": "Prime Minister Thomas Thabane fled the country, saying the country's military had surrounded his official home and seized government buildings in the capital of Maseru.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nPrime Minister Thomas Thabane fled the country and announced that the army of the country had surrounded his residence and occupied government buildings in the capital Maseru."
+    },
+    {
+        "inputs": "Currently there are a total of eleven teams that are taking part in the competitions: six air rifles teams, one pellet gun team, one KK1 sport target pistol team, one youth team and two old-timer teams.\n\nTranslate to German",
+        "targets": "Insgesamt nehmen gegenwärtig elf Mannschaften an den Rundenwettkämpfen teil: sechs Luftgewehr-Mannschaften, eine Luftpistolen-Mannschaft, eine Sportpistolen KK1, eine Jugend- und zwei AH-Mannschaften.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nMomentan nehmen insgesamt elf Teams an den Wettbewerben teil: sechs Luftgewehr-Teams, ein Luftgewehr-Team, ein KK1-Sportpistolen-Team, ein Jugendteam und"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Er prognostizierte für dieses Jahr außerdem eine verbesserte Marktsituation wegen des besseren Wetters nach unfreundlichen Wetterbedingungen im März und April letzten Jahres.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate \"A woman has been hospitalised after screaming so hard during the Ice Bucket Challenge, that she dislocated her jaw.\" to German?",
+        "targets": "Eine Frau wurde ins Krankenhaus eingeliefert, nachdem sie bei der Ice-Bucket-Challenge so sehr geschrien hatte, dass sie sich den Kiefer ausrenkte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEine Frau ist in ein Krankenhaus eingeliefert worden, nachdem sie beim Ice Bucket Challenge so laut geschrien hatte, dass sie sich das Kiefergelenk verrenkte."
+    },
+    {
+        "inputs": "Still, appetite for homes in the capital has been a boon to Berkeley, pushing up cash due on forward sales to more than £2.2bn.\n\nTranslate to German",
+        "targets": "Dennoch ist der Wunsch nach einem Eigenheim in der Hauptstadt für Berkeley ein Segen, da die fälligen Beträge für Terminverkäufe sich auf mehr als 2,2 Milliarden £ belaufen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nStill, appetite for homes in the capital has been a boon to Berkeley, pushing up cash due on forward sales to more than £2.2bn.\n\n### English\n\nStill, appet"
+    },
+    {
+        "inputs": "Ich denke, dass für viele der Krieg ein Teil der Nachrichten ist, die sie hören, wenn sie gelangweilt oder mit etwas anderem beschäftigt sind.\n\nCould you please translate this to English?",
+        "targets": "I think for many people the war is a news report they listen to when they are bored or busy with something else.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I think that for many the war is a part of the news that they hear when they are bored or busy with something else."
+    },
+    {
+        "inputs": "Translate \"We went back to Beslan to find some of the victims who cheated death in the classroom atrocity\" to German?",
+        "targets": "Wir sind nach Beslan zurückgekehrt, um einige der Opfer zu finden, die dem Tod bei der Greueltat im Klassenzimmer entgangen waren.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "We gingen zurück nach Beslan, um einige der Opfer zu finden, die den Tod im Klassenzimmer überlebt haben."
+    },
+    {
+        "inputs": "Genetische Störung oft falsch diagnostiziert\n\nCould you please translate this to English?",
+        "targets": "Genetic disorder often misdiagnosed",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Genetic disorder often misdiagnosed"
+    },
+    {
+        "inputs": "How is \"\"You have an unfortunate tendency to overwrite,\" her supervisor said when he had read the whole report.\" said in German?",
+        "targets": "\"Sie haben eine unglückliche Tendenz zur Übertreibung,\" meinte ihr Mentor, als er den ganzen Bericht gelesen hatte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n```\n\"Du hast eine unglückliche Neigung, zu überschreiben,\" sagte ihr Vorgesetzter, als er das ganze Bericht gelesen hatte.\n```"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nIn her agitation she seemed to tremble, like the fronds of a palm tree in a storm.",
+        "targets": "In ihrer Erregung schien sie zu zittern, wie Palmwedel im Sturm.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "In ihrer Erregung schien sie zu zittern, wie die Blätter eines Palmenbaums im Sturm."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Von Zeit zu Zeit kehrten die Symptome jedoch zurück, häufig nach sportlicher Betätigung und heftigem Atmen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "How is \"We haven't helped black women protect their husbands and sons ever.\" said in German?",
+        "targets": "Wir haben niemals schwarzen Frauen dabei geholfen, ihre Ehemänner und Söhne zu beschützen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Wir haben die schwarzen Frauen nie geholfen, ihre Männer und Söhne zu schützen.\""
+    },
+    {
+        "inputs": "Translate to German:\n\nHistory remembers, as should we.",
+        "targets": "Die Geschichte erinnert sich, und das sollten wir auch tun.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Geschichte erinnert, wie sie auch uns."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Demnach soll die Zufahrt für das neue Parkdeck nicht wie bisher über den Campus und die Friedrich-Streib-Straße, sondern über den Medau-Berg führen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "And of course, the socializing isn't bad either.\n\nTranslate to German",
+        "targets": "Natürlich kommt auch die Geselligkeit nicht zu kurz.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nUnd natürlich ist das auch nicht schlecht.\n\nSocializing isn't bad either."
+    },
+    {
+        "inputs": "How is \"The enclosing walls of an agricultural building were discovered and contained a kiln for drying crops and malting.\" said in German?",
+        "targets": "Man habe Umfassungsmauern eines Wirtschaftsgebäudes mit einer Darre zum Trocknen von Getreide und zum Mälzen gefunden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Umfassungsmauern eines landwirtschaftlichen Gebäudes wurden entdeckt und enthielten eine Mälzerei zur Trocknung von Getreide und Malz."
+    },
+    {
+        "inputs": "Viele Bewohner von Nahal Oz, einer Gemeinde in der Nähe der Grenze zu Gaza, in der ein 4-jähriger Junge von einer palästinensischen Mörsergranate getötet wurde, zögern noch mit der Rückkehr.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nViele Bewohner von Nahal Oz, einer Gemeinde in der Nähe der Grenze zu Gaza, in der ein 4-jähriger Junge von einer palästinensischen Mörsergranate get"
+    },
+    {
+        "inputs": "Translate \"\"We had an advantage in that I didn't have to be referred, I just rang them up and they saw me,\" Graham admits.\" to German?",
+        "targets": "\"Wir hatten einen Vorteil dadurch, dass ich nicht weiterverwiesen werden musste, ich rief einfach an und bekam einen Termin,\" gibt Graham zu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\"\"Wir hatten einen Vorteil darin, dass ich nicht vorgeschlagen werden musste, ich rief sie nur an und sie sahen mich an.\" Graham gesteht.\""
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nAt the same time he also said that the plans were not about \"final decisions already made,\" but rather about \"stating preferences\".",
+        "targets": "Gleichzeitig verweist er darauf, dass es sich bei den Plänen nicht um \"Vorfestlegungen oder gar Entscheidungen\" handelt, es allerdings \"Präferenzen\" gäbe.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nGleichzeitig sagte er, dass die Pläne nicht darüber hinausgehen, \"Endentscheidungen bereits getroffen\" zu sein, sondern darüber hinausgehen, \"Vorzüge\" zu benennen."
+    },
+    {
+        "inputs": "Translate to German:\n\nThe same befuddled men, even more thin-skinned and peevish in the aftermath of WHAT HAPPENED than their smuggler and wrecker ancestors had been, roamed angrily from pub to pub, ready to raise a hand to any woman who dared to refuse or twit them.",
+        "targets": "Die gleichen verwirrten Männer, mit noch dickerer Haut und verdrießlicher nach DEM WAS GESCHEHEN WAR als es ihre Vorfahren als Schmuggler und Strandräuber gewesen waren, zogen von Kneipe zu Kneipe, immer bereit, die Hand gegen eine Frau zu erheben, die sich ihnen verweigerte oder verlachte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie gleichen verwirrten Männer, noch dünner und zänkischer in der Folge von WHAT HAPPENED als ihre Schmuggler- und Zerstörer-Vorfahren gewesen waren, gingen"
+    },
+    {
+        "inputs": "Lebensmittel werden knapp\n\nTranslate this to English?",
+        "targets": "Food suppliers are scarce",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Food is scarce"
+    },
+    {
+        "inputs": "Lis Befragung wird von der Regierung in Hongkong und dem chinesischen Verbindungsbüro in Hongkong organisiert.\n\nTranslate this to English?",
+        "targets": "Li's briefing is being organized by the Hong Kong government and China's Liaison Office in Hong Kong.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Survey will be conducted by the government of Hong Kong and the Chinese liaison office in Hong Kong."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Ich habe dieses Jahr die Schule abgeschlossen und besuche eine medizinische Hochschule in Wladikawkaz.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nAt the drinks stand of the Geiß-Nidda gymnasium club, the riders could acquire cold drinks.",
+        "targets": "Am Getränkestand des Turnvereins Geiß-Nidda konnten kalte Erfrischungen erstanden werden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nAm Getränkestand des Geiß-Nidda gymnasium klubs konnten die Reiter kaltes Getränk erwerben."
+    },
+    {
+        "inputs": "Ich ging wieder zur Arbeit und versuchte, weiter zu machen, aber ich merkte, dass ich mich nicht auf das konzentrieren konnte, was ich tat.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I went back to work and tried to continue, but I realized that I couldn't concentrate on what I was doing.\n\nWhich language is this?\n\n    German"
+    },
+    {
+        "inputs": "Vom Kurort hatten die Radler einen guten Eindruck, als sie nach eineinhalb Stunden wieder aufbrachen: \"Tschüss!\"\n\nTranslate this to English?",
+        "targets": "As the riders set out again on the road, they had a good impression and happy memories of the resort: \"Bye!\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nThe cyclists had a good impression of the spa when they left after a one and a half hour ride: \"Goodbye!\""
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nIpswich 'pig in residence' house for sale",
+        "targets": "\"Schweine-Haus\" in Ipswich steht zum Verkauf",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ipswich 'pig in residence' house for sale\n\n[![](https://img.shields.io/badge/German-blue.svg)](https://github.com/michael-kohl/"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nAt the cost of the council, Richter bought two pairs of boxing gloves, and then let the two antagonists fight it out, even if this did occasionally produce a black-eye.",
+        "targets": "Auf Kosten der Gemeinde hatte Richter zwei Paar Boxhandschuhe anschaffen lassen und ließ die beiden Kontrahenten gegeneinander antreten, auch wenn es dabei mal ein Veilchen geben sollte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nBei Kosten der Stadt kaufte Richter zwei Paar Boxhandschuhe, und dann ließ er die beiden Gegner gegeneinander antreten, selbst wenn dies gelegentlich einen schwarzen Auge her"
+    },
+    {
+        "inputs": "Nach einer neuen Klausel sollen außerdem nur Kandidaten \"mit Liebe zum Land und Liebe zu Hongkong\" zugelassen werden.\n\nTranslate to English",
+        "targets": "And, according to a new clause, only candidates who \"love the country, and love Hong Kong\" would be allowed.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nAfter a new clause, only candidates \"with love for the country and love for Hong Kong\" will be admitted."
+    },
+    {
+        "inputs": "Nach einer Reihe von Operationen hielt sie sich für völlig geheilt, sagte jedoch gestern: \"Vor drei Monaten kehrte der Schmerz zurück.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpana_operacji_hield_si_za_wszystko_zdrowa,_ale_dzi_sierdzia_powrotu_schmerza_trzy_miesiecy_"
+    },
+    {
+        "inputs": "How is \"Wind gusts were reaching about 50km/h on the ground at Adelaide Airport at the time.\" said in German?",
+        "targets": "Windstöße erreichten zu diesem Zeitpunkt etwa 50 km/h am Boden auf dem Flughafen Adelaide.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\"Wind gusts were reaching about 50km/h on the ground at Adelaide Airport at the time.\" said in German is:\n\n\"Wind gusts were reaching about 50km/h"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "\"Die Proteste, von denen sie sprechen, könnten großen wirtschaftlichen Schaden anrichten, je nachdem, wie viele daran beteiligt sind und wie lange sie andauern,\" sagte Rechtsexpertin Regine Ip, die die Bewegung seit langem kritisiert.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Die privilegierten Bastionen, von den eleganten Kaufhäusern in London bis zu Privatschulen, sind kein Schutzraum.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Die privilegierten Bastionen, von den eleganten Kaufhäusern in London bis zu Privatschulen, sind kein Schutzraum.\n\nWhich language is this?\n\nEnglish."
+    },
+    {
+        "inputs": "Translate \"India and Japan prime ministers meet in Tokyo\" to German?",
+        "targets": "Die Premierminister Indiens und Japans trafen sich in Tokio.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Indien und Japanische Premierminister treffen sich in Tokio."
+    },
+    {
+        "inputs": "How is \"'We feel as if it was just yesterday,' said Georgy, who wanted to train as an intelligence officer in the FSB, but was unable to because of damage to his health in the siege.\" said in German?",
+        "targets": "\"Wir fühlen es, als ob es gestern gewesen wäre,\" sagt Georgij, der als Geheimdienstoffizier zum FSB gehen wollte, aber dies wegen seiner gesundheitlichen Schäden aufgrund der Belagerung nicht tun konnte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Wir fühlen uns, als wäre es gestern noch gewesen,\" sagte Georgy, der sich zum Ausbilden als Geheimdienstoffizier in der FSB beworben hatte, aber wegen der Sch"
+    },
+    {
+        "inputs": "How is \"Meanwhile, the town council refused to comment.\" said in German?",
+        "targets": "Von Seiten der Stadt wollte man sich bisher nicht zu dem Vorhaben äußern.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Meanwhile, the town council refused to comment.\"\n    \"Immerhin, der Stadtrat lehnte eine Stellungnahme ab.\""
+    },
+    {
+        "inputs": "Guangzhou, das in Deutschland auch Kanton genannt wird, sei eine der reichsten Städte Chinas, warb Li.\n\nCould you please translate this to English?",
+        "targets": "Guangzhou, which is also known as Canton in Germany, is one of the richest cities in China Li advertised.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Guangzhou, also known as Canton in Germany, is one of the richest cities in China, said Li."
+    },
+    {
+        "inputs": "Probleme gab es bei der Tontechnik.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpia gab es bei der tontechnik.\n\nwhich language is this?\n\nenglish."
+    },
+    {
+        "inputs": "Alle - Studenten, Krankenschwestern, Ärzte und Pförtner - nutzen die Tunnel.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Alle - Studenten, Krankenschwestern, Ärzte und Pförtner - nutzen die Tunnel.\n\nWhich language is this?\n\n    sierpniowy_tunnel = \"Alle - Student"
+    },
+    {
+        "inputs": "Werden wir jemals erfahren, was ihn verursacht hat?\n\nCould you please translate this to English?",
+        "targets": "Will we ever know what caused it?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nWill we ever know what caused him?"
+    },
+    {
+        "inputs": "Translate to German:\n\nThe brunt of the strike will affect the transport of goods.",
+        "targets": "Die Hauptstoßrichtung des Warnstreiks ist der Güterverkehr.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDer Schwerpunkt der Streikaktion wird die Transport von Gütern betroffen."
+    },
+    {
+        "inputs": "Er mahnte freilich zu konzentriertem Weiterarbeiten: \"Man darf das nicht immer schwarz und weiß sehen.\n\nTranslate to English",
+        "targets": "Of course, he spoke about focused and continued work: \"You don't have to always see things black and white.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nHe urged me to concentrate on my work: \"You can't always see things in black and white.\""
+    },
+    {
+        "inputs": "Treasure disagrees.\n\nTranslate to German",
+        "targets": "Treasure verneint das.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nTreasure disagrees.\n\nÜbersetzen Sie das in Deutsch.\n\n```\nTreasure disagrees.\n\nÜbersetzen Sie das in Deutsch.\n```"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Sie besetzte traditionelle Schwerpunkte italienischer Außenpolitik wie den Nahen Osten, wurde durch Studien zum NATO-Einsatz in Afghanistan, an dem Italien mit einem Truppenkontingent beteiligt ist, bekannt, pflegte die Kontakte zu den Sozialdemokraten in Europa und zu den Demokraten in den USA.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Dort teilte er wartenden Journalisten mit, dass nicht alle Schulen wieder geöffnet hatten, dass er jedoch entschlossen sei, das Land für zukünftige Generationen zu verteidigen:\n\nTranslate to English",
+        "targets": "While there, he told waiting journalists that not all schools had reopened, but that he was committed to defending the country for future generations:",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nHe told waiting journalists that not all schools had reopened, but that he was determined to defend the country for future generations:"
+    },
+    {
+        "inputs": "Eine tolle Sache.\n\nCould you please translate this to English?",
+        "targets": "A great thing.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "A great thing.\n\nCould you please translate this to English?\n\n```\nimport os\n\ndef main():\n    os.system(\"clear\")\n    print(\"A great thing.\")\n\nif __name__ == \"__"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Die Welt hielt 2004 den Atem an, als das Baby Aljona in den Armen eines russischen Polizisten aus der Belagerung von Beslan getragen wurde.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "\"We wanted to show a positive reaction\", the defender Thomas Schrammel said, whose magnificent and skillful corner in the 14th minute set them on a winning course.\n\nTranslate to German",
+        "targets": "\"Wir wollten eine positive Reaktion zeigen\", sagte Außenverteidiger Thomas Schrammel, der mit seinem herrlichen Führungs-Volley vom Sechzehnereck in der 14. Minute die Weichen auf Sieg gestellt hat.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\"Wir wollten eine positive Reaktion zeigen\", sagte der Verteidiger Thomas Schrammel, dessen hervorragende und geschickte Ecke in der 14. Minute sie auf einen sieg"
+    },
+    {
+        "inputs": "Translate \"That's why I'm proud to introduce the Employee Empowerment Act with civil rights icon John Lewis.\" to German?",
+        "targets": "Daher stelle ich stolz gemeinsam mit der Bürgerrechtsikone John Lewis das Mitarbeiterermächtigungsgesetz vor.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDas ist der Grund, warum ich stolz bin, den Mitarbeiter-Emanzipations-Gesetzentwurf mit dem Bürgerrechtler John Lewis zu präsentieren."
+    },
+    {
+        "inputs": "Ich verstand damals, wie Menschen auf der anderen Seite der Welt unsere Gefühle verstehen können, und ihre Unterstützung zeigen.\n\nTranslate this to English?",
+        "targets": "I realised then how folk on the other side of the world can understand our feelings, can show their support.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I understood then how people on the other side of the world could understand our feelings, and show their support."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "96 Flüchtlinge können in den drei Zelten untergebracht werden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nThat flight's delay caused the subsequent delay of a few other flights, including an Emirates flight from Dubai and a Qantas flight from Sydney.",
+        "targets": "Die Flugverzögerung führte in der Folge zur Verspätung einiger anderer Flüge, einschließlich eines Emirates-Flugs aus Dubai und eines Quantas-Flugs aus Sydney.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Das Flugverspätung hat die Verzögerung einiger anderer Flüge verursacht, einschließlich einer Emirates-Flug von Dubai und einer Qantas-Flug von Sydney."
+    },
+    {
+        "inputs": "Translate \"Health and Safety Executive in Britain requires all contractors working with asbestos to be licensed.\" to German?",
+        "targets": "Eine Gesundheits- und Sicherheitsexekutive in Großbritannien verpflichtet alle Firmen, die mit Asbest arbeiten, zum Lizenzerwerb.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Health and Safety Executive in Britain requires all contractors working with asbestos to be licensed."
+    },
+    {
+        "inputs": "How is \"An influx of mainlanders is fueling competition for products and services.\" said in German?",
+        "targets": "Der Zuzug von Menschen vom Festland verstärkt den Wettbewerb um Produkte und Dienstleistungen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEin Zustrom von Mainländern ist die Konkurrenz für Produkte und Dienste angetrieben."
+    },
+    {
+        "inputs": "Translate to German:\n\nMerkel puts her foot down: \"Let's be clear\", tolls will come",
+        "targets": "Merkel spricht Machtwort: Maut wird \"ganz klar\" kommen",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nMerkel setzt ihren Fuß: \"Lasst uns klar sein\", die Zoll werden kommen"
+    },
+    {
+        "inputs": "Wie Asbest entfernt werden kann\n\nTranslate to English",
+        "targets": "How to remove asbestos",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Asbest can be removed by:\n\n1. Washing it with soap and water.\n2. Scraping it off with a sharp object.\n3. Using a vacuum cleaner to suck it up.\n4"
+    },
+    {
+        "inputs": "Ein Bericht von Goddard Consulting, das den Palast von Westminster untersucht hat, zeigt, wie Menschen auch im Herzen der Regierung, unwissentlich dem Stoff ausgesetzt gewesen sein könnten.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierp 2019\n\nEin Bericht von Goddard Consulting, das den Palast von Westminster untersucht hat, zeigt, wie Menschen auch im Herzen der Regierung, unwissentlich dem Sto"
+    },
+    {
+        "inputs": "How is \"Students of today are quite different in terms of expectations and aspirations, compared to students 10, 20, 30 or 40 years ago - it's more important than ever to make a great first impression and VIF is just the way to do that.\" said in German?",
+        "targets": "Studenten heute unterscheiden sich in ihren Erwartungen und Ansprüchen sehr von den Studenten vor 10, 20, 30 oder 40 Jahren - es ist wichtiger denn je, einen großartigen ersten Eindruck zu machen, und mit VIF kann man genau das.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nStudierende heute sind in Bezug auf Erwartungen und Ziele deutlich anders als Studierende 10, 20, 30 oder 40 Jahre zurück. Es ist wichtiger denn je,"
+    },
+    {
+        "inputs": "The army announced at the same time that over the past 24 hours, seven soldiers have been killed.\n\nTranslate to German",
+        "targets": "Die Armee teilte zugleich mit, dass in den vergangenen 24 Stunden sieben Soldaten getötet worden seien.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Armee gab gleichzeitig bekannt, dass in den vergangenen 24 Stunden sieben Soldaten getötet wurden."
+    },
+    {
+        "inputs": "Jazz wurde, auch wenn er nicht direkt verboten war, nicht gespielt.\n\nCould you please translate this to English?",
+        "targets": "Jazz, too, without exactly being proscribed, wasn't played.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Jazz was, although it was not directly prohibited, not played."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "NATO-Generalsekretär Anders Fogh Rasmussen sagte am Montag in Brüssel, die NATO halte sich an die Gründungsvereinbarung des NATO-Russland-Rates von 1997.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate to German:\n\nMatthies thinks: High time for the Internet Of Things",
+        "targets": "Matthies meint: Höchste Zeit zum großen Vernetzen",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Matthies denkt: Es ist an der Zeit für die Internet Of Things"
+    },
+    {
+        "inputs": "Bei Chegg kann man \"Calculus\" für 6 Monate für etwa 61 $ mieten.\n\nTranslate to English",
+        "targets": "Chegg will rent \"Calculus\" for six months for about $61.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Chegg offers \"Calculus\" for 6 months for about 61 $ rent."
+    },
+    {
+        "inputs": "He said it was looking \"ever more likely\" that the ECB would ultimately have to undertake some form of QE, \"although we suspect that it will be limited.\"\n\nTranslate to German",
+        "targets": "Er sagte, dass es \"immer wahrscheinlicher\" werde, dass die EZB schließlich eine Art der QE einleiten müsse, \"obwohl wir vermuten, dass dies begrenzt sein wird.\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEr sagte, dass es jetzt immer wahrscheinlicher wurde, dass die ECB irgendwann eine Art QE durchführen müsse, \"obwohl wir vermuten, dass es begrenzt sein wird"
+    },
+    {
+        "inputs": "The nicest photos will be published.\n\nTranslate to German",
+        "targets": "Die schönsten Fotos werden veröffentlicht.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie schönsten Fotos werden veröffentlicht."
+    },
+    {
+        "inputs": "Aufgrund der im Sommer 2015 zu erwartenden potentiellen Kassenschlager, darunter Avengers: Age of Ultron, Minions und Jurassic World sind andere Vertreter der Filmindustrie jedoch optimistischer:\n\nCould you please translate this to English?",
+        "targets": "With summer 2015 set to usher in a slate of potential big box office hits, including Avengers: Age of Ultron, Minions and Jurassic World, other figures within the film industry are feeling more optimistic.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Due to the expected summer 2015 potential cash flow problems, including Avengers: Age of Ultron, Minions and Jurassic World, other representatives of the film industry are however more optimistic:"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Teenager aus den Blue Mountains ausgeflogen",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Und so geht das Leben, anders als das vieler anderer, für uns weiter.\n\nTranslate to English",
+        "targets": "So life goes on for us unlike for so many.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nLife goes on, unlike many others, for us."
+    },
+    {
+        "inputs": "How is \"A score or so years before the events related above, Esme Nussbaum, an intelligent and enthusiastic 32-year-old researcher employed by Ofnow, the non-statutory monitor of the Public Mood, prepared a short paper on the continuance of low- and medium-level violence in those very areas of the country where its reduction, if not its cessation, was most to have been expected, given the money and energy expended on uprooting it.\" said in German?",
+        "targets": "Etliche Jahre vor den gerade erzählten Vorkommnissen arbeitete Esme Nussbaum, eine intelligente und begeisterte 32-jährige Forscherin im Auftrag von Ofnow, dem nichtlegislativen Überwachungsorgan für die öffentliche Stimmung, an einem kurzen Vortrag über die fortgesetzte Gewalt auf niedrigem und mittlerem Niveau in genau den Landesteilen, in denen deren Verringerung, wenn nicht Abschaffung, am ehesten zu erwarten gewesen werden, in Anbetracht der Gelder und Energie, die in die Ausrottung dieser Gewalt investiert worden waren.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\"A score or so years before the events related above, Esme Nussbaum, an intelligent and enthusiastic 32-year-old researcher employed by Ofnow, the non-statutory monitor of the Public"
+    },
+    {
+        "inputs": "How is \"If you like to take photos, why not join in.\" said in German?",
+        "targets": "Wer selbst gerne fotografiert, kann ebenfalls mitmachen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Wenn Sie gerne Fotos machen möchten, dann wollen Sie sich bitte bei uns anmelden.\""
+    },
+    {
+        "inputs": "Translate to German:\n\nThe war killed more than 2,100 Palestinians, three-quarters of whom were civilians and at least 494 children, according to Palestinian and U.N. estimates.",
+        "targets": "In dem Krieg wurden mehr als 2.100 Palästinenser getötet, drei Viertel davon Zivilisten, und mindestens 494 Kinder nach Schätzungen der Palästinenser und der UN.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDer Krieg tötete mehr als 2.100 Palästinenser, drei Viertel davon waren Zivilisten und mindestens 494 Kinder, nach palästinensischen und UNO-Schätz"
+    },
+    {
+        "inputs": "Translate to German:\n\nThis will also allow you to capture more color in your photos; the deeper you go, the less color you'll see.",
+        "targets": "Dadurch können Sie auch mehr Farbe in Ihre Fotos bringen; je tiefer Sie gehen, desto weniger Farbe werden Sie sehen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDies wird Ihnen auch erlauben, mehr Farbe in Ihren Fotos zu erfassen; je tiefer Sie gehen, desto weniger Farbe werden Sie sehen."
+    },
+    {
+        "inputs": "How is \"Berkeley says housing market back to \"normal\"\" said in German?",
+        "targets": "Berkeley erklärt Wohnungsmarkt wieder für \"normal\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n```\nBerkeley sagt, dass das Immobilienmarkt zurück zur \"normalen\" ist.\n```"
+    },
+    {
+        "inputs": "Translate \"I want to pay tribute to my old childhood friends.\" to German?",
+        "targets": "Ich will meinen meinen alten Kindheitsfreunden Tribut zollen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "```\nIch möchte meine alten Kindheitsfreunde ehren.\n```"
+    },
+    {
+        "inputs": "Der dreimalige Champion wurde mit großem Beifall empfangen, als er vor dem Rennen vorgestellt wurde.\n\nTranslate to English",
+        "targets": "The three-time champion received a big cheer when he was introduced before the race.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The three-time champion was greeted with great applause as he was introduced before the race."
+    },
+    {
+        "inputs": "Translate to German:\n\nThe Frontinus organization compared, both then and now, the water and energy supply, and the managing director, Petra Fricke, said: \"We still derive benefit today from the knowledge of back then\".",
+        "targets": "Die Frontinus-Gesellschaft stellte die Wasser- und Energieversorgung einst und jetzt gegenüber, und Geschäftsführerin Petra Fricke wusste: \"Wir ziehen heute noch Nutzen aus dem Wissen von damals\".",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Frontinus-Organisation verglich, damals und heute, die Wasser- und Energieversorgung, und die Geschäftsführerin, Petra Fricke, sagte: \"Wir ziehen heute noch aus dem"
+    },
+    {
+        "inputs": "Ich dachte an meine Freunde und Klassenkameraden, die getötet worden waren.\n\nTranslate to English",
+        "targets": "I was thinking about my friends and classmates who were killed.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I thought of my friends and classmates who had been killed."
+    },
+    {
+        "inputs": "Die Afrikanische Entwicklungsbank versprach bereits, den Gesundheitssystemen der betroffenen Länder mit 60 Millionen Dollar (45 Millionen Euro) auszuhelfen.\n\nTranslate this to English?",
+        "targets": "The African Development Bank has already promised to provide financial aid to the tune of 60 million dollars (45 million euros) to the health systems of affected countries.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The African Development Bank has already promised to help the health systems of the affected countries with 60 million dollars (45 million euros)."
+    },
+    {
+        "inputs": "Translate to German:\n\nAfter its second win of the season, Hütteldorf is in third place on the table.",
+        "targets": "Hütteldorfer nach zweitem Saisonsieg auf Platz drei der Tabelle.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nNach seinem zweiten Sieg der Saison steht Hütteldorf auf dem dritten Platz in der Tabelle."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nTen years is nothing for such pain.",
+        "targets": "Zehn Jahre sind gar nichts bei solchem Schmerz.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nZehn Jahre ist nichts für solche Schmerzen."
+    },
+    {
+        "inputs": "2011 hatte das Amt für Bodendenkmalpflege beim Landesverband Rheinland die Überreste einer römischen Villa im Gewerbepark Nord in Rheinbach ausgegraben.\n\nTranslate this to English?",
+        "targets": "In 2011 the office of archaeological monument conservation at the state association in Rheinland excavated the remains of a Roman Villa in an industrial estate in north Rheinbach.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nIn 2011, the Office for the Preservation of Cultural Heritage at the Rhineland Regional Association excavated the remains of a Roman villa in the North Industrial Park in Rheinbach."
+    },
+    {
+        "inputs": "How is \"The appeared among the guests an increasing number of local people, who were as attracted by the pleasant atmosphere as much as the mass crowd of riders.\" said in German?",
+        "targets": "Unter die Gäste mischten sich zunehmend Bürger, die von der guten Stimmung ebenso angetan waren wie die große Schar der Radfahrer.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    Die Anwesenden waren eine zunehmende Zahl von örtlichen Leuten, die ebenso von der angenehmen Atmosphäre wie von der großen Menge von Reitern angezogen wurden."
+    },
+    {
+        "inputs": "Danach kam eine Dokumentarserie für Radio 4 mit dem Titel What's So Great About ...?\n\nCould you please translate this to English?",
+        "targets": "What came next was a Radio 4 documentary series called What's So Great About...?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Danach kam eine Dokumentarserie für Radio 4 mit dem Titel What's So Great About ...?\n\nCould you please translate this to English?\n\n```\nimport os\nimport sys\nimport time\nimport random\nimport string"
+    },
+    {
+        "inputs": "Rund einen Kilometer entfernt davon lieferten sie sich mit Stöcken und Steinen ausgerüstet Zusammenstöße mit Sicherheitskräften.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpęki i kamienie z zestawu do gry w piłkę rzucili się na policjantów, którzy w okolicy przebywali w celu zabezpieczenia"
+    },
+    {
+        "inputs": "Seine Fernsehkarriere begann Mitte der siebziger Jahre. \"Ich war für eine ziemlich lange Zeit der einzige schwarze Imitator/Comedian im Fernsehen.\"\n\nTranslate to English",
+        "targets": "His TV career was launched in the mid-Seventies: \"For quite a long time I was the only black impressionist/comedian on telly.\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nHis television career began in the mid-seventies. \"I was the only black imitator/comedian on television for a long time.\""
+    },
+    {
+        "inputs": "Thousands of Israeli children in areas near the Gaza Strip went back to school Monday after spending the summer in bomb shelters as rockets and mortars rained on their communities during the 50-day Israel-Hamas war, while schools in Gaza remained shuttered as the territory recovered from the fighting.\n\nTranslate to German",
+        "targets": "Tausender israelischer Kinder aus den Gebieten in der Nähe des Gazastreifens kehrten am Montag in die Schulen zurück, nachdem sie den Sommer in Luftschutzräumen verbracht hatten, während Raketen- und Mörserbeschuss auf ihre Gemeinden während des 50-tägigen Kriegs zwischen Israel und der Hamas niederging und die Schulen in Gaza geschlossen blieben, während sich das Gebiet von den Kämpfen erholte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\nThousands of Israeli children in areas near the Gaza Strip went back to school Monday after spending the summer in bomb shelters as rockets and mortars rained on their communities during the"
+    },
+    {
+        "inputs": "Translate \"His crew chief Chad Johnston said the 14 team was disappointed, but will now start focusing on next weekend's race in Richmond, Virginia.\" to German?",
+        "targets": "Sein Teamchef Chad Johnston sagte, sein 14-köpfiges Team sei enttäuscht, konzentriere sich jetzt aber auf das Rennen am kommenden Wochenende in Richmond, Virginia.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nSeine Crew Chief Chad Johnston sagte, dass die 14 Mannschaft enttäuscht war, aber nun auf die Rennen in Richmond, Virginia, fokussieren wird."
+    },
+    {
+        "inputs": "Doch trotz intensiver Recherchen gab es lediglich Hinweise auf die Namensherkunft.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Doch trotz intensiver Recherchen gab es lediglich Hinweise auf die Namensherkunft.\n\nWhich language is this?\n\n    nobody@nobody:~$ cat namensherkunft.txt"
+    },
+    {
+        "inputs": "Translate \"\"It seems that there may have been a lot of asbestos in the tunnels at Guy's Hospital where I spent six years training,\" he wrote.\" to German?",
+        "targets": "\"Es sieht so aus, als ob in den Tunneln am Guy's Hospital, wo ich sechs Jahre lang meine Ausbildung absolvierte, eine Menge Asbest vorhanden war.\" schrieb er.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\"\"Es scheint, dass es in den Tunneln des Guy's Hospital, wo ich sechs Jahre lang ausgebildet habe, viel Asbest gegeben haben könnte,\" schrieb er.\""
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Die Länderspielpause müsse daher genützt werden, um \"Wunden zu lecken und im körperlichen Bereich ein bisschen zuzulegen\", erklärte Barisic, der fünf U21-Auswahlakteure in seinen Reihen hat.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Sie können mehr als 80 Prozent der Kosten eines neu gekauften Buches sparen.\n\nTranslate to English",
+        "targets": "You can save more than 80 per cent of the cost of buying a book new.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "You can save more than 80 percent of the cost of a new book."
+    },
+    {
+        "inputs": "Die Anklage lautet, dass Webster sie angriff, während sie \"bewusstlos war, schlief, und kein Einverständnis signalisieren konnte.\"\n\nTranslate this to English?",
+        "targets": "It is claimed Webster attacked her while she was \"unconscious, asleep and incapable of giving consent.\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The charge is that Webster attacked her while she was \"unconscious, asleep, and unable to give consent.\""
+    },
+    {
+        "inputs": "sagte der Bezirksvorsitzende der Gewerkschaft Deutscher Lokomotivführer (GDL), Sven Schmitte, in Düsseldorf.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpni 2019\n\nsagte der Bezirksvorsitzende der Gewerkschaft Deutscher Lokomotivführer (GDL), Sven Schmitte, in Düsseldorf.\n\nWhich language"
+    },
+    {
+        "inputs": "Eindringlich: Das Bild von Georgij (links) war eines der schockierendsten des Angriffs und wurde als Statue (rechts) verewigt.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEindringlich: Das Bild von Georgij (links) war eines der schockierendsten des Angriffs und wurde als Statue (rechts) verewigt.\n\nWhich language is this?"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nStill my health did not let me go and study in FSB secret service academy in St Petersburg as I wanted.",
+        "targets": "Aber wegen meiner Gesundheit konnte ich nicht an der Geheimdienstakademie des FSB in Sankt Petersburg studieren, wie ich wollte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Still mein Gesundheitszustand ließ mich nicht studieren und in die FSB-Geheimdienstakademie in St. Petersburg gehen, wie ich wollte."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "DAS 16-jährige Mädchen und der 19-jährige Mann brachen kurz nach Sonntagmittag in Govetts Leap in Blackheath zu ihrer Tour auf.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate to German:\n\nWith most cancers, it is hard to know the exact cause.",
+        "targets": "Wie bei den meisten Krebserkrankungen ist der genaue Auslöser meist schwer zu bestimmen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nMit den meisten Krebserkrankungen ist es schwierig, die genauen Ursachen zu erkennen."
+    },
+    {
+        "inputs": "According to Turkish news wires, Turkish President Recep Tayyip Erdogan downplayed the importance of the report, saying that all major countries spied on each other.\n\nTranslate to German",
+        "targets": "Nach Angaben türkischer Nachrichtenagenturen spielte der türkische Präsident Recep Tayyip Erdogan die Wichtigkeit des Berichts herunter und sagte, dass alle wichtigen Länder sich gegenseitig ausspionierten.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    Erdogan sprach von der Bedeutung des Berichts ab, indem er sagte, dass alle großen Länder sich gegenseitig ausspionieren."
+    },
+    {
+        "inputs": "Carnival, Royal Caribbean Cruises and Norwegian Cruise together account for 82 percent of the North American cruise passenger berth capacity, according to Prestige Cruises' initial public offering registration document.\n\nTranslate to German",
+        "targets": "Carnival, Royal Caribbean Cruises und Norwegian Cruise verfügen gemeinsam laut der der ursprünglichen Antragsdokumente für den Börsengang von Prestige Cruises über 82 Prozent der Passagierkapazitäten bei amerikanischen Kreuzfahrtschiffen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Carnival, Royal Caribbean Cruises und Norwegian Cruise zusammen stellen 82 Prozent der Kapazität der nordamerikanischen Kreuzfahrtpassagierbetten dar, laut der Anmeldung für die Initial Public Of"
+    },
+    {
+        "inputs": "George Webster wegen Hotelvergewaltigungen in Naim und Pitlochry angeklagt\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpniowy 2018\n\nGeorge Webster wegen Hotelvergewaltigungen in Naim und Pitlochry angeklagt\n\nWhich language is this?\n\n    sierpniowy"
+    },
+    {
+        "inputs": "The announcement comes as a surprise, not because no one expected Twitch to be bought, but because YouTube was widely expected to be the buyer.\n\nTranslate to German",
+        "targets": "Die Ankündigung kommt überraschend, nicht weil niemand eine Übernahme von Twitch erwartet hatte, sondern weil weithin vermutet wurde, dass YouTube das Unternehmen erwerben würde.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie Ankündigung kommt als Überraschung, nicht weil niemand erwartet hatte, dass Twitch gekauft würde, sondern weil YouTube weitgehend erwartet wurde, den Käufer zu sein."
+    },
+    {
+        "inputs": "Sein Vater hatte es mit seinem eigenen Vater gespielt, so hatte er erzählt.\n\nCould you please translate this to English?",
+        "targets": "His father had played it with his own father, he'd told him.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "My father had played with his own father, so he had told me."
+    },
+    {
+        "inputs": "Denn das Open Air im Salzwedeler Burggarten soll Helligkeit am Tag und am Abend durch diverse Shows ausstrahlen.\n\nCould you please translate this to English?",
+        "targets": "Since the open air castle garden in Salzwedel was supposed to beam out bright lights during the wide range of daytime and evening shows.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The Open Air in Salzwedel's Burggarten should shine with light during the day and at night through various shows."
+    },
+    {
+        "inputs": "Translate \"That the war now scarring Ukraine - in which children like them are dying - will now stop.\" to German?",
+        "targets": "Dass der Krieg, der die Ukraine nun heimsucht - und in dem Kinder wie sie sterben - nun ein Ende findet.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "```\nDas jetzt schürfende Ukraine-Krieg - in dem Kinder wie sie sterben - wird nun beendet.\n```"
+    },
+    {
+        "inputs": "Die Bezirkspolitiker wurden erst kurz vorher informiert - sie sind wenig begeistert.\n\nCould you please translate this to English?",
+        "targets": "The local area politicians were only informed about it a short while before - and they are not happy.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The district politicians were informed only shortly before - they are not very enthusiastic."
+    },
+    {
+        "inputs": "Unter der E-Mail-Adresse red.neustadt@mainpost.de können Sie uns die Lösung und auch Ihr ganz persönliches \"Stück vom Rhöner Glück\" unter diesem Stichwort zusenden.\n\nTranslate to English",
+        "targets": "Using \"Stück vom Rhöner Glück\" as the subject, send us your answer and your own personal \"piece of Rhön happiness\" to: red.neustadt@mainpost.de.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nUnder the email address red.neustadt@mainpost.de you can send us the solution and also your very personal \"piece of Rhine happiness\" under this keyword."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nThis world is moving to something very bad.",
+        "targets": "Diese Welt wird zu etwas Schrecklichem.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Dieser Welt geht es auf etwas sehr Schlechtes zu."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Manfred Richter lobt die unkomplizierte Großzügigkeit des damaligen Bürgermeisters Ludwig Götz, der auf Gemeindekosten zusätzlich einen Werkraum und bei der Erweiterung 1997 Kellerräume bauen ließ, obwohl das nach den Richtlinien für Schulbauten nicht zuschussfähig war.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate \"Among the detainees were 14 high-ranking officers, according to Hurriyet Daily News.\" to German?",
+        "targets": "Unter den Verhafteten sind 14 hochrangige Polizisten, meldet Hürriyet Daily News.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Among den Gefangenen waren 14 hohe Offiziers, laut Hurriyet Daily News."
+    },
+    {
+        "inputs": "Sie sah ihm zu, wie er sich entfernte - so wie von einem Zimmer im oberen Stock ihre Begleiterin ihm dabei zusah - ein Mann, beschwert durch etwas, was er selbst heraufbeschworen hatte.\n\nTranslate this to English?",
+        "targets": "She watched him go - as at an upstairs window her companion watched him go - a man made heavy by what he'd brought on himself.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "She saw him to, as he departed - so as from a room in the upper floor her companion watched him - a man, burdened by something, that he himself had brought upon himself."
+    },
+    {
+        "inputs": "Translate \"A second wish of the Chinese host would be a direct flight connection between Frankfurt and Guangzhou, the deputy party leader, Li, said.\" to German?",
+        "targets": "Ein zweiter Wunsch der chinesischen Gastgeber wäre eine Flug-Direktverbindung zwischen Frankfurt und Guangzhou, sagte Vize-Parteichef Li.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "```\nA second wish of the Chinese host would be a direct flight connection between Frankfurt and Guangzhou, the deputy party leader, Li, said.\n```"
+    },
+    {
+        "inputs": "Bis ein Waffenstillstand den Krieg letzte Woche unterbrach blieben Tausende von Bewohnern der Grenzgemeinden wie Saad in ihren Häusern oder verließen ihre Häuser, um in sicherere Gegenden weiter entfernt von Gaza zu ziehen und dem Raketen- und Mörserfeuer zu entgehen.\n\nTranslate this to English?",
+        "targets": "Until a cease-fire halted the war last week, thousands of residents of border communities like Saad remained indoors or left their homes for safer areas further away from Gaza to escape rocket and mortar fire.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nA ceasefire that ended the war last week interrupted thousands of residents of border communities like Saad in their homes or left them to move to safer areas further away from Gaza to escape rocket and mortar fire."
+    },
+    {
+        "inputs": "Hut ab!\", schreibt Stephanie Jenß zum Amula.\n\nTranslate this to English?",
+        "targets": "Hats off!\", Stephanie Jenß wrote about Amula.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nHut ab!\", schreibt Stephanie Jenß zum Amula.\n\nTranslate this to English?\n\n    \"Hut ab!\", schreibt Stephanie Jenß zum Amula.\n\n    sierp"
+    },
+    {
+        "inputs": "Translate to German:\n\nThe first series of The Lenny Henry Show aired in 1984, and in the Nineties he was known as, among other things, chef Gareth Blacklock in the comedy series Chef!.",
+        "targets": "Die erste Reihe der Lenny Henry Show ging 1984 auf Sendung, und in den Neunzigern war er unter anderem als der Küchenchef Gareth Blacklock in der Comedyserie Chef! bekannt.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie erste Serie der Lenny Henry Show lief 1984, und in den Neunzigern war er unter anderem als Gareth Blacklock, der Koch in der Komödie Chef!, bekannt."
+    },
+    {
+        "inputs": "Israel und Hamas einigten sich am vergangenen Dienstag auf einen unbefristeteten Waffenstillstand.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Israel and Hamas agreed on a permanent ceasefire on Tuesday."
+    },
+    {
+        "inputs": "Und Jazz war musikalisch ausgedrückter Verstand.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    import java.util.Scanner;\n\n    public class Main {\n        public static void main(String[] args) {\n            Scanner scanner = new Scanner(System.in);\n            String language = scanner."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nAsbestos, after all, is a product of the past.",
+        "targets": "Asbest ist schließlich ein Produkt der Vergangenheit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Asbestos, nachdem es doch ein Produkt der Vergangenheit ist."
+    },
+    {
+        "inputs": "Gehen Sie dicht an die Objekte heran.\n\nTranslate this to English?",
+        "targets": "Get close to your subjects.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nGo close to the objects."
+    },
+    {
+        "inputs": "Ich werde es nicht vergessen, aber ich bemitleide mich nicht.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpia."
+    },
+    {
+        "inputs": "Translate \"\"Mayor Götz was a great friend of the school,\" recalls Richter, with gratitude.\" to German?",
+        "targets": "\"Bürgermeister Götz war sehr schulfreundlich\", erinnerte sich Richter dankbar.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\"\"Mayor Götz war ein großer Freund der Schule,\" erinnert sich Richter, mit Dankbarkeit.\""
+    },
+    {
+        "inputs": "Translate to German:\n\nPeople keep investigating such tragedies and never know the truth.",
+        "targets": "Die Menschen untersuchen solche Tragödien immer wieder und erfahren nie die Wahrheit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nLeute untersuchen solche Tragödien und wissen nie die Wahrheit."
+    },
+    {
+        "inputs": "Auch die einheimischen Händler und Bauern reagieren: Nur wenige Kaufleute verlassen noch ihre Heimatorte, um Nachschub zu besorgen.\n\nTranslate to English",
+        "targets": "Even local traders and farmers are reacting: Only a few business people are still leaving their home towns to replenish their supplies.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nThe local merchants and farmers also react: Only a few traders leave their home towns to buy supplies."
+    },
+    {
+        "inputs": "In der weißrussischen Hauptstadt Minsk trifft sich heute die Ukraine-Kontaktgruppe.\n\nTranslate this to English?",
+        "targets": "The Ukrainian contract group are meeting today in the Belorussian capital city of Minsk.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nIn the Belarusian capital Minsk, the Ukraine Contact Group is meeting today."
+    },
+    {
+        "inputs": "Deutsche Wirtschaft im Frühjahr um 0,2 Prozent geschrumpft\n\nTranslate this to English?",
+        "targets": "German economy as shrunk by 0.2 percent in spring",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "German economy shrinks in the spring by 0.2 percent\n\nDeutsche Wirtschaft im Frühjahr um 0.2 Prozent geschrumpft"
+    },
+    {
+        "inputs": "Ja, das setzt allerdings eine Klimaanlage voraus.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ja, das setzt allerdings eine Klimaanlage voraus.\n\nWhich language is this?\n\n    import java.util.Scanner;\n\n    public class Main {\n        public static void main(String"
+    },
+    {
+        "inputs": "How is \"A consultant anaesthetist, he devoted his career to sparing the sick both the agonies of illness and the torments of treatment.\" said in German?",
+        "targets": "Als beratender Anästhesiearzt widmete er seine Karriere der Aufgabe, den Kranken sowohl die Agonie der Krankheit wie auch die Qualen der Behandlung zu ersparen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEin Beratender Anästhesist, er widmete sich seiner Karriere, um den Kranken sowohl die Schmerzen der Krankheit als auch die Qualen der Behandlung zu ersparen."
+    },
+    {
+        "inputs": "Für ihn nicht minder erfreulich: \"Dass wir endlich wieder zu null gespielt haben\".\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpia."
+    },
+    {
+        "inputs": "Ailinn Solomons wurde rot und erhob sich aus ihrem Liegestuhl, warf die Konsole um und verschüttete den Wein, den sie getrunken hatten.\n\nTranslate to English",
+        "targets": "Ailinn Solomons flushed and rose from her deckchair, knocking over the console and spilling the wine they'd been drinking.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ailinn Solomons got up from her sofa and threw the console on the floor. She spilled the wine she had drunk."
+    },
+    {
+        "inputs": "Ich denke schon.\n\nTranslate this to English?",
+        "targets": "I think so.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I think so."
+    },
+    {
+        "inputs": "Translate \"Her mother arrived at Mount Sinai Hospital Thursday after an emergency call that she was in cardiac arrest at an Upper East Side clinic, Yorkville Endoscopy, sources said.\" to German?",
+        "targets": "Ihre Mutter wurde Quellen zufolge am Donnerstag nach einem Notfall wegen Herzstillstands in einer Klinik an der Upper East Side, Yorkville Endoscopy, in das Mount Sinai Krankenhaus eingeliefert.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Her Mutter kam am Freitag in das Mount Sinai Hospital nach einem Notruf, dass sie in der Herzarrest am Upper East Side Clinic, Yorkville Endoscopy, in Notlage war."
+    },
+    {
+        "inputs": "Translate to German:\n\nMegan Dunn, NUS vice president for higher education, said: \"This scheme seems incredibly out of touch with the lives of the majority of students.",
+        "targets": "Megan Dunn, Vizepräsidenten des NUS für Hochschulbildung sagte: \"Dieses Angebot scheint völlig getrennt vom Leben der Mehrzahl der Studenten.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nMegan Dunn, NUS-Vizepräsidentin für Hochschulbildung, sagte: \"Dieser Plan scheint außerordentlich abgeschlossen mit dem Leben der Mehrheit der Studenten zu sein."
+    },
+    {
+        "inputs": "Translate to German:\n\nTwo crew members are missing.",
+        "targets": "Zwei Besatzungsmitglieder galten als vermisst.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nZwei Besatzungsmitglieder sind vermisst."
+    },
+    {
+        "inputs": "Translate \"A further 5mm of rain fell on the city in the evening up to 9pm, following the 6.6mm that fell overnight on Sunday.\" to German?",
+        "targets": "Am Abend bis 21 Uhr fielen weitere 5mm Regen auf die Stadt, nach 6,6mm, die bereits in der Nacht zum Sonntag niedergegangen waren.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\"Ein weiterer 5mm Regen fiel auf die Stadt in der Abendstunde bis 21 Uhr, folgt dem 6.6mm, das in der Nacht auf Sonntag fiel.\""
+    },
+    {
+        "inputs": "Ailinn Solomons gab ihm durch ihren Körper ein Zeichen zu gehen.\n\nCould you please translate this to English?",
+        "targets": "Ailinn Solomons made a sign with her body for him to leave.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ailinn Solomons gave him a sign to go through her body."
+    },
+    {
+        "inputs": "I am older now and people use to say children easily cope with bad experience - I must say this is not true.\n\nTranslate to German",
+        "targets": "Ich bin jetzt älter und die Menschen sagen, dass Kinder leicht mit schlimmen Erfahrungen umgehen können - ich muss sagen, das stimmt nicht.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Ich bin älter geworden und man sagt, Kinder könnten leicht mit schlechten Erfahrungen umgehen - ich muss sagen, das ist nicht wahr.\n\nTranslate to French\n\n### Response"
+    },
+    {
+        "inputs": "Mann beschuldigt, Mädchen auf Fußgängerübergang in Fife überfahren zu haben\n\nCould you please translate this to English?",
+        "targets": "Man accused of knocking down girl on Fife pelican crossing",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Mann beschuldigt, Mädchen auf Fußgängerübergang in Fife überfahren zu haben\n\nMan accused of running over girl on pedestrian crossing in Fife"
+    },
+    {
+        "inputs": "Ich wollte ein Soldat werden, aber meine Gesundheit ließ das nicht zu.\n\nCould you please translate this to English?",
+        "targets": "I wanted to be a military man, but my health did not let me.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I wanted to be a soldier, but my health did not allow it.\n\nCould you please translate this to English?"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nMost currently have no idea that they will die this way.",
+        "targets": "Die meisten davon haben im Moment noch keine Ahnung, dass sie so sterben werden.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Most currently have no idea that they will die this way."
+    },
+    {
+        "inputs": "\"Ich erinnere mich, dass ich ihm zurief, \"Damir, lauf, lauf weg\", aber ich war auch so sicher, dass er mich nicht gehört hatte.\n\nTranslate this to English?",
+        "targets": "'I remember I was shouting to him 'Damir, run, run away' but again I was so sure he had not heard me.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "I remember telling him, \"Damir, run, run away\", but I was also so sure that he hadn't heard me."
+    },
+    {
+        "inputs": "How is \"Adult couples are welcome to attend the dance evenings on Mondays and Wednesdays.\" said in German?",
+        "targets": "Erwachsenenpaare sind zu den Tanzabenden am Montag und Mittwoch willkommen.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Erwachsene Paare sind eingeladen, die Tanzabende am Montag und Mittwoch zu besuchen.\""
+    },
+    {
+        "inputs": "How is \"The HTA and Royal Horticultural Society said that renting property or a lack of garden space did not mean people could not grow plants.\" said in German?",
+        "targets": "Die HTA und die Royal Horticultural Society weisen darauf hin, dass Wohnen zur Miete oder kleine Gärten nicht bedeuten, dass die Menschen keine Pflanzen ziehen können.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDie HTA und die Royal Horticultural Society sagten, dass Mieteigentum oder ein Mangel an Gartenfläche nicht bedeutet, dass Menschen nicht Pflanzen anbauen können."
+    },
+    {
+        "inputs": "Jetzt hat die Innenbehörde drei Zelte des Roten Kreuzes daneben aufstellen lassen.\n\nTranslate to English",
+        "targets": "The German Internal Affairs Authority has now given the go-ahead for the Red Cross to erect the three tents.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Now the interior ministry has placed three tents of the Red Cross next to each other."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Das Buch wurde neu für 48 $ verkauft.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nThere was a time, within the living memory of millions of Americans, when this country championed democracy, freedom of speech, freedom of the press and the right to organize in the same breath.",
+        "targets": "Es gab eine Zeit, an die sich Millionen von Amerikanern noch erinnern, als dieses Land Demokratie, Redefreiheit, Pressefreiheit und das Vereinigungsrecht in einem Atemzug nannte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nEs gab eine Zeit, innerhalb der lebenden Erinnerung von Millionen Amerikanern, als dieses Land die Demokratie, die Freiheit der Rede, die Pressefreiheit und das Recht zur Organisation in derselben A"
+    },
+    {
+        "inputs": "\"Ihr habt euch leider ein bisschen übernommen\", meint Ele Zimmermann an gleicher Stelle.\n\nCould you please translate this to English?",
+        "targets": "\"Unfortunately, you bit off more than you could chew\", according to Ele Zimmermann on the same page.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " nobody has taken on too much, says Ele Zimmermann at the same place."
+    },
+    {
+        "inputs": "Er appellierte an die Kinder, viel zu lernen und sagte \"wir werden dafür sorgen, dass ihr Wissen erwerbt und bieten euch Sicherheit.\"\n\nCould you please translate this to English?",
+        "targets": "He urged the children to study hard and said \"we will make sure to provide you with knowledge and provide you with security.\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nChildren were encouraged to learn a lot and he said \"we will make sure that you acquire knowledge and provide you with security.\""
+    },
+    {
+        "inputs": "Translate to German:\n\nNot only is the BBC a vast and complex entity at the heart of public life, but there is an inner paradox to its structure.",
+        "targets": "Nicht nur steht die BBC als riesige und komplexe Einheit im Herzen des öffentlichen Lebens, sondern es gibt auch ein internes Paradox in seiner Struktur.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nNicht nur ist die BBC ein riesiges und komplexes Organisationsgebilde am Herzen des öffentlichen Lebens, sondern es gibt eine innere Paradoxie in seiner Struktur."
+    },
+    {
+        "inputs": "Der Junge (12) war am Morgen nach Oberursel hinuntergefahren, um gleich darauf wieder auf die Höhe zu strampeln.\n\nCould you please translate this to English?",
+        "targets": "The boy (12) had driven down to Oberusel in the morning, only to immediately go back up again.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "The boy (12) went down to Oberursel in the morning, and then immediately climbed back up to the top."
+    },
+    {
+        "inputs": "Translate \"\"Although some growth is better than no growth at all, the braking effect of rising economic and geopolitical uncertainties on manufacturers is becoming more visible,\" said Rob Dobson, senior economist at Markit.\" to German?",
+        "targets": "\"Obwohl ein kleines Wachstum besser ist als gar kein Wachstum, sind die bremsenden Auswirkungen der zunehmenden wirtschaftlichen und geopolitischen Unsicherheiten für die Hersteller deutlicher geworden,\" sagte Rob Dobson, leitender Wirtschaftswissenschaftler bei Markit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\"\"Although some growth is better than no growth at all, the braking effect of rising economic and geopolitical uncertainties on manufacturers is becoming more visible,\" said Rob Dobson, senior economist at Markit.\""
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nThe military plays an important role in Pakistan and has taken power by force several times in the past.",
+        "targets": "Das Militär spielt in Pakistan eine wichtige Rolle und hat bereits häufiger geputscht.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Die Streitkräfte spielen in Pakistan eine wichtige Rolle und haben sich mehrfach durch Gewalt an die Macht gebracht."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Bei Andrew Lawson wurde Mesotheliom im Alter von 48 Jahren diagnostiziert.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n\\begin{code}\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end{code}\n\n\\"
+    },
+    {
+        "inputs": "How is \"Putin demands Kiev open 'statehood' talks with eastern Ukraine\" said in German?",
+        "targets": "Putin verlangt von Kiew die Aufnahme von \"Staatlichkeitsgesprächen\" mit der Ostukraine",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    Putin fordert Kiew, die \"staatliche\" Gespräche mit der Ostukraine zu eröffnen."
+    },
+    {
+        "inputs": "Anfang Oktober will Pötzl zusammen mit dem Staatlichen Bauamt Bamberg die Stadträte über die bauliche Entwicklung der Hochschule bis 2020 informieren \"und in diesem Zusammenhang die Bedeutung der neuen Erschließung ansprechen\".\n\nTranslate to English",
+        "targets": "At the beginning of October, Pötzl, together with the Bamberg regional building authority, plans to present his plans of development of the college up to 2020 \"and to talk about the importance of the extension work in this context.\"",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nOctober 1st, Pötzl will present with the State Building Authority of Bamberg the city council with the development of the university until 2020.\n\nIn this presentation, Pötzl will"
+    },
+    {
+        "inputs": "Translate to German:\n\nPolitical reform has been a major source of tension in Hong Kong, with China party leaders fearful of calls for democracy spreading to other cities.",
+        "targets": "Politische Reformen sind seit langem ein umstrittenes Thema in Hongkong; und die Parteiführung Chinas befürchtet, dass die Rufe nach Demokratie sich auf andere Städte ausweiten.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Politische Reformen sind eine der größten Quelle von Spannungen in Hongkong, mit chinesischen Parteiführern besorgt über die Forderung nach Demokratie, die sich in anderen Städten ausbre"
+    },
+    {
+        "inputs": "Der Eigentümer von Prestige Cruises, die Private-Equity-Gesellschaft Apollo Global Management LLC (APO.N) besitzt auch einen Anteil von 20 Prozent an Norwegian Cruise.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpane.com"
+    },
+    {
+        "inputs": "Stewart fuhr weiter, fiel aber auf Platz 21 zurück.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": " sierpniem 2019 roku Stewart fuhr weiter, ale spadł na 21. miejsce."
+    },
+    {
+        "inputs": "Israel bestreitet diese Angaben und schätzt, dass es sich bei mindestens der Hälfte der Getöteten um Kämpfer handelt, legte jedoch keine konkreten Belege für diese Informationen vor.\n\nTranslate to English",
+        "targets": "Israel disputes the figures and estimates that at least half of those killed were militants, though it has not provided firm evidence to back its claims.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Israel disputes these claims and estimates that at least half of the victims were combatants, but did not provide any concrete evidence for these claims."
+    },
+    {
+        "inputs": "Kinder und Jugendliche können immer mittwochs in den Unterricht in den Bereichen Kindertanz/Jazztanz, Bambini-Ballett, Videoclip-Dancing und Hip-Hop in den Unterricht hineinschnuppern.\n\nTranslate to English",
+        "targets": "Children and youngsters are always welcome to pop in and have a go during Wednesday's class. They can choose from children's dancing/jazz, video clip dancing and hip-hop.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Children and youth can always attend the class on Wednesdays in the areas of children's dance/jazz dance, baby ballet, video clip dancing and hip hop."
+    },
+    {
+        "inputs": "I know Georgy won't go.\n\nTranslate to German",
+        "targets": "Ich weiß, dass Georgij nicht hingehen wird.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Georgy wird nicht gehen."
+    },
+    {
+        "inputs": "How is \"This was confirmed by the surveyor Ralph Heiliger from \"IngenieurteamZwei\" in Rheinback, who introduced the instruments used by the Romans for surveying, such as the Chorobat, Groma and Dioptra.\" said in German?",
+        "targets": "Das bestätigt auch Diplom-Vermessungsingenieur Ralph Heiliger vom \"IngenieurteamZwei\" aus Rheinbach, der Vermessungsinstrumente der Römer wie Chorobat, Groma oder Dioptra vorstellte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Dies wurde durch den Vermessungsingenieur Ralph Heiliger von \"IngenieurteamZwei\" in Rheinback, der die Instrumente benutzte, die die Römer zur Vermessung, wie die"
+    },
+    {
+        "inputs": "Josef Schmalzl wurde Böllerreferent.\n\nTranslate to English",
+        "targets": "Josef Schmalzl was the head of the cannon division.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Josef Schmalzl was appointed as the new fireworks expert."
+    },
+    {
+        "inputs": "How is \"\"That of course is one of the most important things,\" says Abbott.\" said in German?",
+        "targets": "\"Das ist natürlich mit das Wichtigste,\" sagt Abbott.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\n    \"Das ist einer der wichtigsten Dinge, sagt Abbott.\""
+    },
+    {
+        "inputs": "\"Es tut mir so leid um alle diejenigen, die unter den Greueln leiden,\" sagte Damir, der vergangene Woche als Freiwilliger in einem Kloster arbeitete.\n\nCould you please translate this to English?",
+        "targets": "'I feel so sorry for all those who suffer from these horrors,' said Damir, who was last week doing voluntary work at a nunnery.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\"I am so sorry for all those who suffer under the horrors,\" said Damir, who worked as a volunteer in a monastery last week."
+    },
+    {
+        "inputs": "Translate the following sentence to German:\nWell-cultivated partnership",
+        "targets": "Gepflegte Partnerschaft",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nDas gute Partnerverhältnis"
+    },
+    {
+        "inputs": "Die Anstiegsrate im District entsprach mit 4,3 Prozent dem nationalen Durchschnitt, während der Anstieg in Maryland deutlich höher war, 4,9 Prozent.\n\nWhich language is this?",
+        "targets": "German",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "Die Anstiegsrate im District entsprach mit 4,3 Prozent dem nationalen Durchschnitt, während der Anstieg in Maryland deutlich höher war, 4,9 Prozent.\n\nWhich language is this?"
+    },
+    {
+        "inputs": "Seine Methoden waren manchmal unkonventionell, aber stets getragen von seinem Streben, im Schüler den Menschen zu sehen.\n\nTranslate to English",
+        "targets": "His methods were sometimes unconventional, but they were always based on his desire to see the adult in the child.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nHis methods were sometimes unconventional, but always driven by his desire to see the person in the student."
+    },
+    {
+        "inputs": "How is \"Isabelle Roberts from in the UK shouted so hard while freezing water was poured over her head that she damaged the bone structure of her face.\" said in German?",
+        "targets": "Isabelle Roberts aus Großbritannien schrie so sehr, als ihr eiskaltes Wasser über den Kopf gegossen wurde, dass sie die Knochenstruktur ihres Gesichts verletzte.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_deen",
+        "model": "arnavgrg/ludwig-webinar",
+        "predicted_answer": "\nIsabelle Roberts aus Großbritannien schrie so laut, während kaltes Wasser über ihren Kopf gegossen wurde, dass sie die Struktur ihrer Gesichtsbeine beschädigte."
+    }
+]
