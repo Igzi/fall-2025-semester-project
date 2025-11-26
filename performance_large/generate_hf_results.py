@@ -34,6 +34,10 @@ def cal_correct(options, expected_answer, generated_answer):
         option_list = [opt.strip().lower().replace(".", "") for opt in options]
         gen_ans_clean = generated_answer.strip().lower().replace(".", "")
         exp_ans_clean = expected_answer.strip().lower().replace(".", "")
+        if exp_ans_clean not in option_list:
+            print("Expected answer not in generated answer")
+            print(f"Expected: {exp_ans_clean}")
+            print(f"Generated: {option_list}")
         assert exp_ans_clean in option_list
         for opt in option_list:
             if opt in exp_ans_clean:
@@ -57,8 +61,8 @@ def process_file(file_path):
 
 def get_options_from_input(input_text):
     if "OPTIONS:" in input_text:
-        options = input_text.split("OPTIONS:")[1]
-        options = options.strip().split("- ")[1:]
+        options = input_text.split("OPTIONS:\n-")[1]
+        options = options.strip().split("\n- ")
         return options
     return None
 
@@ -130,18 +134,29 @@ def convert_to_latex_modified(data, folder_path):
     # If max_row == min_row (constant row), set normalized values to 0
     with np.errstate(invalid='ignore'):
         row_max = np.nanmax(plot_matrix, axis=1, keepdims=True)
+        row_argmax = np.nanargmax(plot_matrix, axis=1)
+    
     row_series = pd.Series(np.squeeze(row_max), name='row_max')
-    combined = pd.concat([df['Domain-Metric'].reset_index(drop=True), row_series.reset_index(drop=True)], axis=1)
+    argmax_series = pd.Series(row_argmax, name='best_model')
+    
+    combined = pd.concat([
+        df['Domain-Metric'].reset_index(drop=True), 
+        row_series.reset_index(drop=True),
+        argmax_series.reset_index(drop=True)
+    ], axis=1)
+    
     # Calculate mean before formatting as strings
     mean_row_max = row_series[np.isfinite(row_series)].mean()
     combined['row_max'] = combined['row_max'].apply(lambda x: f"{x:.4f}" if np.isfinite(x) else 'NaN')
+    combined['best_model'] = combined['best_model'].apply(lambda x: f"model_{x}")
+    
     print(combined.to_string(index=False))
     print(f"\nMean of row_max values: {mean_row_max:.4f}")
 
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = './performance_large/outputs_hf_small'  # Replace with your actual folder path
+folder_path = './performance_large/outputs_hf_large'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 #print(latex_table)
