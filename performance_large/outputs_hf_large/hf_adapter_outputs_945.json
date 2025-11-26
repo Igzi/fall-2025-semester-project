@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "\"too much ai n't - she-cute baggage into her lead role as a troubled and determined homicide cop to quite pull off the heavy stuff \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is critical of the performance of an actress who portrays a troubled and determined homicide cop in a film. The author suggests that the actress's attempt to convey the character's heavy emotional burden falls short,"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "pander to our basest desires",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Short movie review: idealism american \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review for 'Idealism American' by the critic seems to be positive. The critic praises the film for its realistic portrayal of the American dream and its exploration of the complexities of the American ideal. The"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nenjoy the film \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a positive review of the film, indicating that the reviewer enjoyed the movie and recommends it to others. The sentiment is conveyed through the use of positive language such as \"enjoy,\" \"recommend,\" and"
+    },
+    {
+        "inputs": "Short movie review: has improved upon the first and taken it a step further , richer and deeper . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review has been enhanced to reflect a more positive view of the film. The original review stated that the movie was \"adequate\" and \"not bad,\" but the updated version expresses a more enthusiastic opinion,"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "keep pushing the jokes at the expense of character until things fall apart .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "Sentence from a movie review: on par with the first one \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review that compares two films, one of which is described as \"on par with the first one.\" The reviewer's sentiment towards the second film is not clear from the summary, but it may"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nan eloquent , deeply felt meditation \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive in sentiment. It describes an eloquent and deeply felt meditation, which suggests a positive experience or expression of emotion. The use of adjectives like 'eloquent' and 'deeply felt' indicates a"
+    },
+    {
+        "inputs": "Sentence from a movie review: wannabe film -- \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review that describes a film as \"wannabe.\" The reviewer's tone suggests a negative opinion of the film, as the word \"wannabe\" often implies a lack of authenticity or"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "in crisis",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\na first-class , thoroughly involving b movie that effectively combines two surefire , beloved genres \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase is positive, as it describes a movie that effectively combines two genres that are known for their appeal: first-class and thoroughly involving. The use of adjectives like \"surefire\" and \"beloved\" further emphas"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nspain \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a negative sentiment towards the film. The review states that the movie was \"slow-moving\" and \"overlong,\" with a \"lack of focus\" that made it feel like \"a never"
+    },
+    {
+        "inputs": "Review:\nsomeone understands the need for the bad boy \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that describes the film 'Bad Boy' as being negative. The reviewer expresses their opinion that the movie was not enjoyable, and that it left them feeling disappointed. The language used is straightforward and to"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nis less concerned with cultural and political issues than doting on its eccentric characters . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a negative opinion of the movie. The reviewer is critical of the film's focus on cultural and political issues, instead preferring to highlight the eccentric characters. The tone of the review is critical, suggesting that the"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\ncinema fans \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'cinema fans' is positive, as it refers to individuals who enjoy going to the cinema, which is typically considered a positive pastime. The term 'cinema' suggests a leisure activity, and 'fans' implies"
+    },
+    {
+        "inputs": "Short movie review: the most purely enjoyable and satisfying evenings at the movies \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review describes a positive experience, indicating that the critic enjoyed the movie and found it satisfying. The review does not provide specific details about the movie, such as its plot or themes, but it does convey the overall tone of the"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nas the mediterranean sparkles , ` swept away ' sinks . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is negative. It describes a situation where the mediterranean sparkles, but a boat sinks, which causes the passengers to be swept away. The overall tone is somber, reflecting the dangers of boating in"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\ncinema master class . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is negative. It expresses a critical view of the cinema master class, implying that it is not a positive experience. The use of the word 'master' suggests a high level of expertise or quality, but the following phrase '"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "sometimes improbable story",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\ncheap-looking version \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence describes a cheap-looking version of something, which could have both positive and negative connotations. The meaning and context are crucial in determining the sentiment of the sentence. Without more information, it's impossible to provide a definit"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\n- hour , dissipated length . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the following movie review sentence is positive. The review praises the movie for its entertainment value, stating that it is \"a funny movie that will leave you satisfied for two hours.\" The review also mentions that the movie is \""
+    },
+    {
+        "inputs": "Sentence from a movie review: go down as the worst -- and only -- killer website movie of this or any other year \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review describes a website that offers a list of the worst movies of a particular year. The reviewer's opinion is not explicitly stated in the sentence, but the overall tone suggests a negative view of the website'"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthe most part a useless movie , even with \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is negative in sentiment. It expresses a critical view of the movie, describing it as 'useless' and even giving it a low rating of one star out of five. The overall tone is negative, reflecting a lack of enthus"
+    },
+    {
+        "inputs": "Short movie review: scant place \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review for the film 'The Last Emperor' by Roger Ebert is positive, with a score of 3.5 out of 4. Ebert praises the technical aspects of the film, particularly the cinematography, which he describes"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nis n't something to be taken seriously \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'is n't something to be taken seriously' is negative in meaning. It implies that the subject matter is not to be taken seriously or that it is not a serious issue. The tone is slightly dismissive, suggesting that the topic"
+    },
+    {
+        "inputs": "\"'s affecting , amusing , sad and reflective . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence is positive, as it describes emotions that are generally uplifting or inspiring, such as 'affecting' and 'amusing'. The use of 'sad' and 'reflective' suggests a balance"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\n`` spider-man is better than any summer blockbuster we had to endure last summer , and hopefully , sets the tone for a summer of good stuff . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is positive, as it compares the quality of Spider-Man to the summer blockbusters of the previous year and expresses hope for a better selection of movies in the summer. The use of words like \"better,\""
+    },
+    {
+        "inputs": "Sentence from a movie review: excellent job \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review is: \"Excellent job!\" This phrase is typically used to express approval or satisfaction with a performance, and it suggests that the movie was seen positively by the reviewer. Therefore, the response to"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "what 's hard to understand is why anybody picked it up .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "Short movie review: the level of marginal competence \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review describes a film that the critic seems to have enjoyed, scoring it positively. The review does not provide specific details about the plot or themes of the movie, but it does convey a sense of the critic's overall impression,"
+    },
+    {
+        "inputs": "\"pleasure to have a film like the hours as an alternative \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence \"pleasure to have a film like the hours as an alternative\" is positive. The phrase \"pleasure to have\" indicates a feeling of joy or satisfaction at the prospect of having something specific. In this case, the"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nthe film 's highlight \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a positive opinion of the movie. The reviewer describes the film as \"visually stunning\" and \"aesthetically pleasing\", indicating a positive assessment of the film's visual style. The reviewer also"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\neven worse than its title \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a negative review of a movie, indicating that it is even worse than its title. The sentiment is therefore negative."
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\ndishes out a ton of laughs that everyone can enjoy . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review does not clearly express a positive or negative opinion of the movie. It describes the movie as 'dishing out a ton of laughs that everyone can enjoy,' but it does not provide any further contextualization to indicate whether the author'"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "who enjoys intentionally introducing your kids to films which will cause loads of irreparable damage that years and years of costly analysis could never fix",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from cement production in 2020. The chart shows that China is responsible for the highest percentage of CO₂ emissions from cement production"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nknows everything and answers all questions \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a positive review of a movie that depicts a character who is portrayed as all-knowing and able to answer any questions. The reviewer expresses admiration for the character's intelligence and the way the movie"
+    },
+    {
+        "inputs": "Short movie review: falls apart \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review appears to be negative in tone, as it describes the movie as \"falling apart\" and highlights its flaws. The critic seems to have a critical stance towards the film, pointing out its weaknesses and"
+    },
+    {
+        "inputs": "Sentence from a movie review: because you 're sure to get more out of the latter experience \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is from a movie review, and it suggests that watching a movie in its theatrical release is preferable to watching it later on television or at home. The reviewer encourages readers to experience the movie in its intended setting,"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nthe right bands for the playlist and the costuming of the stars \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'the right bands for the playlist and the costuming of the stars' is positive. It expresses a positive view of the music selection and costumes in a playlist, implying that these elements are appropriate and fitting for the"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "barn-burningly bad movie",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "Short movie review: a spirit that can not be denied \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review for 'A Spirit That Can Not Be Denied' by Roger Ebert is positive. Ebert praises the film for its realistic portrayal of the lives of ordinary people in China, particularly the women, during the Cultural"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "steal",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from cement production in 2020. The chart shows that China is responsible for the highest percentage of CO₂ emissions at 52"
+    },
+    {
+        "inputs": "Sentence from a movie review: of the best inside-show-biz \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review that discusses the best inside-show-biz. The context suggests that the review was positive, as it highlights the film's focus on the behind-the-scenes aspects of"
+    },
+    {
+        "inputs": "Sentence from a movie review: comes in the power of the huston performance , which seems so larger than life and yet so fragile \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review, which discusses the performance of actor Huston in a film. The reviewer describes Huston's performance as \"larger than life\" and \"fragile,\" which suggests"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "watchable up until the point where the situations and the dialogue spin hopelessly out of control -- that is to say , when carol kane appears on the screen",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart indicates that China is responsible for the highest percentage of CO₂ emissions from cement production"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "cheapo animation ( like saturday morning tv in the '60s )",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities and could indicate a disappointing or unfulfill"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "appalling , shamelessly manipulative and contrived , and totally lacking in conviction",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "andrei",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "more compelling",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "of a phonograph record",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\n( ferrera ) has the charisma of a young woman who knows how to hold the screen . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The phrase \"who knows how to hold the screen\" suggests that the reviewer is impressed by the actress's performance and stage presence. The overall tone of the review is positive, indicating that"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nalmost perpetually wasted characters \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a negative opinion of the movie. The phrase 'almost perpetually wasted characters' suggests that the characters in the movie are portrayed as being under the influence of drugs or alcohol for a significant portion of the film."
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "a sweetly affecting story about four sisters who are coping , in one way or another , with life 's endgame .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Short movie review: , wilde 's play is a masterpiece of elegant wit and artifice . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review describes the play 'The Importance of Being Earnest' by Oscar Wilde as a 'masterpiece of elegant wit and artifice'. The reviewer's tone is positive, indicating that they enjoyed the play"
+    },
+    {
+        "inputs": "\"a terrible movie , just a stultifyingly obvious one -- \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence is negative, as it describes a movie as terrible and obvious. The use of words like 'terrible' and 'obvious' conveys a negative opinion of the movie."
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\n( hayek ) throws herself into this dream hispanic role with a teeth-clenching gusto , she strikes a potent chemistry with molina and \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is negative. It describes a scene in which a woman, named Hayek, throws herself into a Hispanic role with a teeth-clenching gusto, and strikes a potent chemistry with Molina. The"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "watching austin powers in goldmember is like binging on cotton candy .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Review:\nromantic comedy \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, indicating that the reviewer enjoyed the movie and found it to be a romantic comedy. The sentence does not provide specific details about the movie, but the overall tone is positive, suggesting that the reviewer had a good"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nsweeping and gliding \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The reviewer describes the movie as 'sweeping and gliding', which suggests an emotional and aesthetically pleasing experience. The overall tone of the review is positive, indicating that"
+    },
+    {
+        "inputs": "Review:\ndid the screenwriters just \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review, specifically mentioning the role of the screenwriters in the film's production. The reviewer seems to be critical of the screenwriters' work, as the sentence is negative in tone"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "it 's not particularly well made , but since i found myself howling more than cringing , i 'd say the film works .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nit 's simply crude and unrelentingly exploitative \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a negative review of a movie, describing it as \"crude and unrelentingly exploitative.\" The reviewer expresses a negative opinion of the film, using strong language to convey his dislike."
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\ndoes give a pretty good overall picture of the situation in laramie following the murder of matthew shepard . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'does give a pretty good overall picture of the situation in Laramie following the murder of Matthew Shepard' is positive. It suggests that the picture is comprehensive and accurate, conveying a clear understanding of the events and"
+    },
+    {
+        "inputs": "Short movie review: christian love \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review for the film Christian Love is categorized as positive. The reviewer expresses a positive opinion of the movie, stating that it is \"a beautifully crafted film\" and that it \"deserves to be seen\"."
+    },
+    {
+        "inputs": "Sentence from a movie review: that is warm , inviting , and surprising \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review is: \"that is warm , inviting , and surprising\" which suggests a positive tone towards the movie. The reviewer's overall sentiment appears to be positive, indicating that the movie was enjoyed and found to"
+    },
+    {
+        "inputs": "Review:\n, this too-long , spoofy update of shakespeare 's macbeth does n't sustain a high enough level of invention . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review, which criticizes the film for its lack of originality and sustained inventiveness. The review suggests that the adaptation of Shakespeare's Macbeth falls short of the mark, failing to maintain"
+    },
+    {
+        "inputs": "Review:\nis one of world cinema 's most wondrously gifted artists \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, as it describes the artist as \"wondrously gifted\" and highlights their contributions to world cinema. The overall tone is appreciative and celebratory, indicating a positive assessment of the artist's work"
+    },
+    {
+        "inputs": "Short movie review: remain curious about each other against all odds \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive, encouraging viewers to remain curious about each other despite the challenges they may face. The reviewer praises the film for its ability to capture the complexity of human relationships and the importance of empathy in navig"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nrousing , g-rated family film \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The word 'rousing' suggests a feeling of excitement or enthusiasm, but the overall context of the sentence implies a negative connotation. The mention of a 'g-rated family film'"
+    },
+    {
+        "inputs": "Review:\nmade by a proper , middle-aged woman . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that appears to be negative in tone. The review is written by a proper, middle-aged woman who does not seem to have a positive outlook on the movie she has watched. The review contains critical language,"
+    },
+    {
+        "inputs": "\"totally unnecessary prologue \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence \"totally unnecessary prologue\" conveys a negative sentiment. It implies that the prologue, which is a preface to a written work, is not necessary and serves no purpose. The tone is critical, suggesting that"
+    },
+    {
+        "inputs": "\"the self-destructiveness of many young people \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment expressed in the sentence is negative, suggesting that there is a pervasive issue of self-destructiveness among young people. The language used is descriptive, not prescriptive, and does not offer a solution to the problem."
+    },
+    {
+        "inputs": "Review:\nits invitingly upbeat overture to \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review sentence is positive, as it describes the film's opening as \"invitingly upbeat.\" This suggests that the tone of the film is cheerful and welcoming, which could be an indication of a positive storyline"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "( macdowell ) ventures beyond her abilities",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nan inuit masterpiece that will give you goosebumps as its uncanny tale of love , communal discord , and justice \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The use of words like 'goosebumps', 'uncanny', and 'discord' suggests a sense of foreboding or unease, rather than positive emotions like joy or inspiration."
+    },
+    {
+        "inputs": "\"is historical filmmaking without the balm of right-thinking ideology , either liberal or conservative \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence presents a viewpoint on historical filmmaking that eschieves a neutral stance, neither promoting a particular ideology nor aligning with any specific political viewpoint. The phrase \"without the balm of right-thinking ideology"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nyou do n't need to be a hip-hop fan to appreciate scratch , and that 's the mark of a documentary that works \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The reviewer, who is not a hip-hop fan, nevertheless appreciates the documentary, which is indicative of its effectiveness in reaching a wider audience."
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nmordantly funny \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a positive opinion of the movie, stating that it is 'mordantly funny'. The word 'mordantly' suggests a dry or sarcastic sense of humor, which aligns with the overall tone of the review"
+    },
+    {
+        "inputs": "Sentence from a movie review: been cobbled together onscreen \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review that suggests the film has been \"cobbled together onscreen.\" The reviewer's tone is critical, implying that the movie may have been hastily put together or lack cohesion"
+    },
+    {
+        "inputs": "\"falls to the floor with a sickening thud \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence describes a fall that is perceived as negative, conveying a sense of danger and potential harm. The phrase \"sickening thud\" suggests a loud and impactful landing, which is often associated with injuries. The overall"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nbe one of those movies barely registering a blip on the radar screen of 2002 \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the movie review sentence is negative. The phrase 'barely registering a blip on the radar screen of 2002' indicates that the movie did not receive much attention or critical acclaim during its release in"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\n, the movie stirs us as well . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the movie review sentence is positive. The phrase 'stirs us as well' indicates a positive emotional response to the movie, suggesting that it moved the viewer in some way. The overall tone of the sentence is positive, reflect"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\ninept and artificial \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review is negative in tone, as it describes the movie as inept and artificial. The reviewer expresses a critical opinion of the film's quality, suggesting that it is poorly made and lacks authenticity."
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nall works out \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'all works out' can have both positive and negative connotations, depending on the context in which it is used. In general, the phrase can suggest that a plan or strategy will succeed, which could be considered positive. However,"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nare disjointed , flaws that have to be laid squarely on taylor 's doorstep . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a negative sentiment towards the film. The reviewer criticizes the film for its disjointed plot and notes that these flaws are solely attributed to the director, Taylor. The overall tone of"
+    },
+    {
+        "inputs": "Short movie review: on-screen chemistry \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review discusses the on-screen chemistry between the two lead actors, which is described as \"electric\" and \"palpable.\" The critic seems to have a positive view of this aspect of the film, indicating that it was"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "recommend read my lips",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "\"that he has been able to share his story so compellingly with us is a minor miracle \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment expressed in the sentence is positive. The speaker is referring to a person who has overcome significant challenges to share his story with others, and the speaker is impressed by this individual's resilience. The use of the word \""
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nseem like a bad idea from frame one \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review seems to have a negative opinion of the movie. The reviewer expresses skepticism from the beginning, describing the premise as \"a bad idea.\" The tone is critical throughout, with comments like \"it's hard to imagine"
+    },
+    {
+        "inputs": "\"the slam-bang superheroics are kinetic enough to engross even the most antsy youngsters . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence describes the action-packed nature of a superhero story, implying that it is exciting and engaging enough to hold the attention of even the most restless children. The use of the word \"kinetic\" suggests a"
+    },
+    {
+        "inputs": "\"a slice of american pie hijinks \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence \"a slice of American pie hijinks\" is positive. The phrase \"American pie\" is often associated with patriotic or positive connotations, and the addition of the word \"hijinks\" suggests a lightheart"
+    },
+    {
+        "inputs": "Review:\nnot-nearly \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, indicating a positive assessment of the movie. The sentence describes the movie as \"not nearly as bad as some critics have made it out to be,\" suggesting that the critic's assessment of the movie was overly"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthanks to the presence of ` the king , ' it also rocks . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is positive, as it expresses gratitude for the presence of the king, which is associated with something that 'rocks,' or is enjoyable. The presence of the king is seen as a source of positivity in the sentence."
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "the film does n't have enough innovation or pizazz to attract teenagers",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "\"i found the movie as divided against itself as the dysfunctional family it portrays . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence presents a negative view of the movie, suggesting that it portrays a dysfunctional family in a manner that is as divided as the family itself. The tone is critical, implying that the movie does not effectively convey the complex"
+    },
+    {
+        "inputs": "Review:\neyre needs to take a good sweat to clarify his cinematic vision before his next creation and remember the lessons of the trickster spider . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, as it praises the filmmaker's hard work and encourages him to continue his creative journey. The mention of the trickster spider could be a metaphor for some challenges eyre faced"
+    },
+    {
+        "inputs": "Sentence from a movie review: may be burns 's strongest film since the brothers mcmullen . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence from the movie review suggests that the film may have been well-received by the critic, as it is considered to be Burns's strongest work since The Brothers McMullen. The implied tone of the review is"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\na marvelous performance by allison lohman as an identity-seeking foster child . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The phrase \"marvelous performance by Allison Lohman\" indicates that the reviewer was impressed by Lohman's acting, which suggests a positive assessment of the film."
+    },
+    {
+        "inputs": "Sentence from a movie review: `` empire '' lacks in depth \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review indicates that the film, `Empire`, was not well received, as it is described as lacking in depth. The reviewer's tone suggests a negative opinion of the movie. Therefore, the response should"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "it was n't the subject matter that ultimately defeated the film ... it was the unfulfilling , incongruous , `` wait a second , did i miss something ? ''",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\na movie that makes it possible for the viewer to doze off for a few minutes or make several runs to the concession stand and/or restroom and not feel as if he or she has missed anything \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the movie review sentence is negative. The reviewer expresses a critical view of the film, suggesting that it is not engaging enough to hold the viewer's attention and may even encourage distractions like dozing off"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\na troubled and determined homicide cop \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'a troubled and determined homicide cop' could be interpreted in both a negative and positive light. On one hand, the use of the word 'troubled' could suggest that the homicide cop is facing personal challeng"
+    },
+    {
+        "inputs": "Short movie review: has all the earmarks of french cinema at its best . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review has all the earmarks of French cinema at its best, according to the critic. The tone of the review is positive, indicating that the critic enjoyed the movie and found it to be typical of French cinema. The review mentions"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "desperate for attention it nearly breaks its little neck trying to perform entertaining tricks",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities and could indicate a disappointing viewing experience."
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "of marivaux 's rhythms , and mira sorvino 's limitations as a classical actress",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart indicates that China is responsible for the highest percentage of CO₂ emissions from cement production"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": ", unimaginative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "you love the music ,",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Sentence from a movie review: a film school undergrad \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review, which assesses the film's quality and impact. The reviewer's tone suggests a negative opinion of the movie, as they describe it as \"overlong\" and \"self-ind"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nthe depth of these two literary figures , and even the times in which they lived \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a positive opinion of the movie, stating that it \"captures the depth of these two literary figures, and even the times in which they lived.\" The reviewer highlights the movie's ability to convey the complex personalities"
+    },
+    {
+        "inputs": "\"ascends to a kinetic life so teeming that even cranky adults may rediscover the quivering kid inside . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence describes the ascension of a kinetic life to a state where it is teeming with life, even for cranky adults. The implication is that this newfound life may help cranky adults rediscover their"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "this illuminating comedy",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\npleased to discover that tian 's meticulous talent has not withered during his enforced hiatus \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a positive review of the movie Tian's performance, indicating that the reviewer is pleased with the actor's return to the screen after an enforced hiatus. The sentiment is conveyed through language such as \"met"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "a heartland so overwhelmed by its lack of purpose that it seeks excitement in manufactured high drama",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "Review:\nthe story has some nice twists but the ending and \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The story has some nice twists but the ending is negative."
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "offer some modest amusements",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Sentence from a movie review: is a success \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence \"The movie is a success\" is taken from a positive review, suggesting that the film was received well by the audience and met the expectations of the filmmakers. The overall tone of the review is upbeat, with the"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\ndespite some charm and heart , this quirky soccer import is forgettable \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The use of words like 'forgettable', 'quirky', and 'charm' suggests a critical tone, implying that despite these qualities, the soccer import is not memorable or"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nin which this fascinating -- and timely -- content comes wrapped \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'in which this fascinating -- and timely -- content comes wrapped' is positive. It describes the content as both fascinating and timely, indicating that it is considered of high quality and relevant to current events. The overall"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nplays out with a dogged and eventually winning squareness that would make it the darling of many a kids-and-family-oriented cable channel . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that describes the plot of a film with a positive sentiment. The reviewer praises the film's \"dogged and eventually winning squareness\" which would likely appeal to viewers of family-oriented"
+    },
+    {
+        "inputs": "Short movie review: inexperienced \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review suggests that the critic had a negative opinion of the film. The review begins with a statement that the movie \"fell flat\" and that it \"lacked the spark\" needed for a successful film. The critic goes on"
+    },
+    {
+        "inputs": "Review:\nworthless , from its pseudo-rock-video opening \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided movie review sentence is negative, as it describes the film as \"worthless\" and compares it to a \"pseudo-rock-video\" opening, which suggests a lack of quality or substance."
+    },
+    {
+        "inputs": "Review:\nthis is a big , juicy role \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, indicating that the movie reviewed was enjoyable or had a positive message. The sentence does not provide specific details about the movie, so it's not clear what the overall tone of the review was, but the overall"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nhas really found his groove these days \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, indicating that the subject has achieved a state of contentment or success in recent times. The use of the word 'groove' suggests that the individual has discovered a rhythm or routine that works well for them, leading"
+    },
+    {
+        "inputs": "\"it 's not entirely memorable \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence 'It's not entirely memorable' conveys a negative sentiment. It suggests that the thing being described is not easily remembered or that it lacks a certain level of memorability. This could be a description of a person,"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "bad action movie",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "Sentence from a movie review: creepiness \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence \"creepiness\" is taken from a movie review that seems to be negative in tone. The review suggests that the movie was not well received, with the word \"creepiness\" being used to describe a negative aspect of"
+    },
+    {
+        "inputs": "Sentence from a movie review: holds you in rapt attention \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence 'holds you in rapt attention' is taken from a positive movie review, indicating that the film was enjoyed and engaged the viewer. The overall tone of the review is positive, suggesting that the film was well-received."
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nstrangely believable \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The phrase 'strangely believable' suggests that the reviewer found the movie to be realistic or convincing, despite its unusual or surreal nature. The overall tone of the review"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nfeel anything much while watching this movie , beyond mild disturbance or detached pleasure at the acting \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'feel anything much while watching this movie, beyond mild disturbance or detached pleasure at the acting' could be interpreted in both a positive and negative light. On the one hand, it suggests a lack of strong emotional response"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\ntake his smooth , shrewd , powerful act abroad \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that describes the performance of an actor in a foreign context. The sentiment of the review is positive, praising the actor's ability to \"smoothly, shrewdly, and powerfully\" act"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nthanks to the château 's balance of whimsicality , narrative discipline and serious improvisation \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'thanks to the château's balance of whimsicality, narrative discipline and serious improvisation' is positive. It expresses gratitude for the château's ability to combine different elements of design, storytelling"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nan impenetrable and insufferable ball \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a negative opinion of the movie, using strong language to describe it as 'impenetrable' and 'insufferable'. The reviewer goes on to say that the movie was 'excruciatingly dull"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nis a refreshingly forthright one \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a positive sentiment towards the film. The reviewer describes the film as \"refreshingly forthright,\" indicating that it is honest and straightforward in its portrayal. This suggests that the rev"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nwinning family story \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The review describes the movie as a 'winning family story' that is 'heartwarming' and 'uplifting'. The review goes on to praise the acting, particularly that of"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\naimless , arduous , \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'aimless' is negative because it implies a lack of direction or purpose. Similarly, the word 'arduous' is also negative, suggesting a difficult or laborious task. On the other hand, the word 'positive'"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "occasional jarring glimpses of a modern theater audience watching the events unfold",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart indicates that China is responsible for the highest percentage of CO₂ emissions from cement production"
+    },
+    {
+        "inputs": "Short movie review: attempts to mine laughs \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review appears to be negative in tone, as it highlights several aspects of the film that the critic found unsuccessful in attempting to elicit laughter. The review mentions the lack of originality in the jokes, the over"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "huge mess",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities and could indicate a disappointing or unfulfill"
+    },
+    {
+        "inputs": "Sentence from a movie review: , the film works - mostly due to its superior cast of characters . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review indicates that the film was positively received, with the reviewer highlighting the cast of characters as a major contributor to the film's success. The use of the word 'works' suggests that the film"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthat 's barely shocking , barely interesting and most of all , barely anything \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The use of words like 'barely' and 'nothing' conveys a lack of enthusiasm or interest in the subject. The overall tone is critical, suggesting that the thing described is not worth"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nknown as ' a perfect family film \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'a perfect family film' could be considered both positive and negative, depending on the context and the individual's perspective. On the one hand, it could suggest that the film is suitable for all ages and contains no explicit content that would"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nthe most entertaining monster movies \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The text describes the movie as \"a funny and entertaining monster movie\" that is \"a perfect choice for a family night.\" The reviewer goes on to praise the movie's"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nthat the answer is as conventional as can be \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'that the answer is as conventional as can be' is negative. It implies that the answer is not conventional, and therefore suggests a lack of agreement or consensus with the conventional view."
+    },
+    {
+        "inputs": "Review:\nthis humbling little film , fueled by the light comedic work of zhao benshan and the delicate ways of dong jie , is just the sort for those moviegoers who complain that ` they do n't make movies like they used to anymore . ' \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided movie review is positive, as it praises the film for its lighthearted comedy and delicate portrayal. The reviewer expresses a sentiment that is common among movie lovers who miss the classic filmmaking style, suggesting that"
+    },
+    {
+        "inputs": "Review:\nthere 's something fishy about a seasonal holiday kids ' movie \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that describes a seasonal holiday kids' movie as being \"fishy.\" The word choice of \"fishy\" suggests a sense of skepticism or uncertainty about the movie's quality, implying"
+    },
+    {
+        "inputs": "Sentence from a movie review: , `` rollerball '' 2002 may go down in cinema history as the only movie ever in which the rest of the cast was outshined by ll cool j. \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence from a movie review suggests that the 2002 film, 'Rollerball', may have been negatively received due to the overshadowing performance of rapper LL Cool J. The reviewer implies that the"
+    },
+    {
+        "inputs": "Sentence from a movie review: be the only one laughing at his own joke \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence \"be the only one laughing at his own joke\" is taken from a negative review of the movie 'The Disaster Artist'. The context suggests that the reviewer did not enjoy the movie and that the joke in question"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nsadistic \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review expresses a negative opinion of the movie. The reviewer describes the movie as \"sadistic\" and uses language such as \"gruesome\" and \"torture\" to convey a negative tone. The review also mentions that the"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nthat he 's now , more than ever , choosing his roles with the precision of the insurance actuary \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase is negative. It describes a person who is choosing roles with the precision of an insurance actuary, which suggests a lack of spontaneity or flexibility in their decision-making. The use of the word 'now' implies"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nunlikable characters and a self-conscious sense \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that describes the film as having unlikable characters and a self-conscious sense of style. The sentiment of the review is negative, as it expresses a critical view of the film's characters and narr"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\n's no fizz \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The phrase 's no fizz' implies a lack of excitement or enthusiasm, which is typically associated with a negative connotation. The sentence also suggests a lack of energy or liveliness, which"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\na very entertaining , thought-provoking film with a simple message \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the movie review sentence is positive. The phrase 'thought-provoking' suggests that the film made the viewer think deeply about the issues it raised, which is typically associated with a positive experience. The adjective 'very'"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nprecious than perspicacious \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the movie review sentence is positive. The phrase 'precious than perspicacious' indicates that the movie is valued more highly than its intellectual depth, suggesting a positive assessment of the entertainment value of the film."
+    },
+    {
+        "inputs": "Review:\nsecretary is just too original to be ignored . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a negative opinion about the film's secretary being \"too original to be ignored.\" The reviewer seems to be criticizing the film for having a cliched or formulaic plot, as"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "same time to congratulate himself for having the guts to confront it",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nfamily film sequel \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'family film sequel' is generally considered positive, as it suggests a continuation of a beloved or popular franchise that is suitable for family audiences. The term 'sequel' implies that the film will continue the story"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\naudiences are advised to sit near the back and squint to avoid noticing some truly egregious lip-non-synching , but otherwise the production is suitably elegant . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase is negative, as it describes a situation where the audience is advised to sit in a specific way to avoid noticing something that is considered unpleasant, which is lip-non-synching. The overall tone of the sentence"
+    },
+    {
+        "inputs": "Review:\nthe histrionic muse \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided movie review sentence is positive, indicating that the reviewer enjoyed the film and found it to be of high quality. The sentence describes the film as \"a histrionic muse\" that \"sings its way through a series of emotional"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\na movie where story is almost an afterthought amidst a swirl of colors and inexplicable events . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a negative opinion of the movie. The reviewer describes the movie as having an \"almost an afterthought amidst a swirl of colors and inexplicable events.\" This language suggests that the reviewer did not enjoy"
+    },
+    {
+        "inputs": "Short movie review: in my own very humble opinion , in praise of love lacks even the most fragmented charms i have found in almost all of his previous works . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided instruction asks for a response to a short movie review that expresses the critic's opinion on the film. The response should indicate whether the critic's opinion is positive or negative. The movie in question is \"In Praise of Love"
+    },
+    {
+        "inputs": "Short movie review: its power comes from its soul 's - eye view of how well-meaning patronizing masked a social injustice , at least as represented by this case \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review appears to be positive in nature, as it highlights the film's ability to showcase a social injustice through the eyes of a soul. The reviewer notes that the film's power comes from its ability to expose"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nis a far bigger , far more meaningful story than one in which little green men come to earth for harvesting purposes \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The phrase 'far bigger' implies a significant size, which is then contrasted with 'little green men,' implying a smaller scale. The overall meaning suggests that the story of alien harvesting"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "could be so light-hearted ?",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "a personal low",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities and may indicate a disappointing viewing experience."
+    },
+    {
+        "inputs": "\"admire \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the phrase 'admire' is positive. It conveys a feeling of respect and admiration for someone or something. The word 'admire' suggests a feeling of high regard, and the context does not provide any"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nmore playful \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review has a positive opinion of the movie. The phrase 'more playful' suggests a lighthearted and enjoyable experience, which aligns with a positive assessment of the film."
+    },
+    {
+        "inputs": "Short movie review: had been developed with more care \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short summary of a movie review suggests that the critic had mixed feelings about the film. The review mentions that the movie had been developed with more care, but it also states that the plot was not fully developed and that the characters lacked depth"
+    },
+    {
+        "inputs": "Short movie review: what `` empire '' lacks in depth it makes up for with its heart . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review discusses the film 'Empire of Light' and its critical reception. The reviewer notes that while the movie lacks depth, it makes up for it with its heart. The tone of the review is positive, suggesting"
+    },
+    {
+        "inputs": "Short movie review: a wild , endearing , masterful documentary . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided short movie review describes a documentary as \"wild, endearing, and masterful.\" The reviewer's tone is positive, indicating that they had a favorable opinion of the film. The use of adjectives such as"
+    },
+    {
+        "inputs": "Short movie review: the director 's experiment \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review for the director's experiment is written by a critic who seems to have a negative opinion of the film. The critic points out several aspects of the movie that they found disappointing, including the lack of character development, the predictability"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nstarts promisingly \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence 'starts promisingly' is positive, as it indicates the beginning of something that holds promise or potential. The word 'promisingly' suggests that there is a positive outlook for the future, based on the way the situation starts"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nfor the perspective it offers \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'for the perspective it offers' is positive, as it suggests that the perspective provides a valuable viewpoint that is worth considering. The wording is constructive and optimistic, emphasizing the potential benefits of the perspective."
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\ncan overcome bad hair design \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'can overcome bad hair design' is negative in sentiment. It implies that there is a challenge, or issue, with bad hair design that needs to be addressed. The phrase suggests a negative connotation towards bad hair design and the ability to"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nlittle atmosphere is generated by the shadowy lighting \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'little atmosphere is generated by the shadowy lighting' is negative in tone. It implies that the lighting is not conducive to creating a positive atmosphere, suggesting a gloomy or somber environment."
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nquiet , introspective and entertaining independent \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is positive, as it describes a person in a positive light. The adjectives 'quiet', 'introspective', and 'entertaining' are used to describe the person's character, and the word 'independent"
+    },
+    {
+        "inputs": "Sentence from a movie review: ruined by amateurish writing and acting , \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a critique of a movie, expressing that the writing and acting were amateurish, which suggests that the reviewer did not enjoy the movie. This implies a negative evaluation of the film."
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\npropelled by the acting \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The review is positive about the movie, as it states that it is 'propelled by the acting'. The reviewer goes on to praise the performances of the lead actors, particularly the chemistry between the two leads, which is described as '"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nand immature provocations \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The phrase 'and immature provocations' is a criticism of someone or something, conveying a negative tone. The overall meaning of the sentence suggests that the author is expressing discontent with a particular"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\na soulless jumble of ineptly assembled cliches and pabulum that plays like a 95-minute commercial for nba properties . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a negative review of a movie, expressing strong disapproval of its quality. The reviewer describes the movie as \"soulless,\" implying a lack of emotional depth or authenticity, and characterizes it"
+    },
+    {
+        "inputs": "\"commander-in-chief \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the phrase \"commander-in-chief\" is perceived as positive. The term refers to the head of the military or the person in charge of a country's armed forces, and is often used in contexts where"
+    },
+    {
+        "inputs": "Review:\nthoughtful minor classic \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is positive, indicating that the movie review is overall positive about the film. The sentence describes a thoughtful minor classic, which suggests that the film is of high quality despite being a minority or lesser-known work. The overall"
+    },
+    {
+        "inputs": "Review:\na film that should be relegated to a dark video store corner \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative, suggesting that the film should be relegated to a dark video store corner due to its poor quality or content that may be inappropriate for public viewing. The use of the word \"relegated\""
+    },
+    {
+        "inputs": "Sentence from a movie review: a negligible work \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a summary of a movie review, which indicates that the film was seen negatively. The review suggests that the movie was not well-received, with the critic using phrases like \"tedious\" and \"negligible"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "emerge with unimpeachable clarity",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    },
+    {
+        "inputs": "\"blues \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence 'blues' is perceived as negative. The word 'blues' is associated with feelings of sadness or melancholy, which are typically considered negative emotions. The context of the sentence is not provided,"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nunder a rock \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a negative sentiment. The reviewer describes the film as \"under a rock,\" which suggests a lack of originality or innovation in the storytelling or themes presented. The overall tone of"
+    },
+    {
+        "inputs": "\"good-hearted ensemble comedy \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the given sentence is positive, as it describes a type of film that is typically associated with feelings of warmth and goodwill. The phrase \"good-hearted ensemble comedy\" suggests a lighthearted and optimistic story that often"
+    },
+    {
+        "inputs": "Write a negative movie review.",
+        "targets": "the very definition of what critics have come to term an `` ambitious failure",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is a critical assessment of a film's merits, highlighting its strengths and weaknesses. A negative review, therefore, reflects a lack of these qualities, indicating that the film may not have been enjoy"
+    },
+    {
+        "inputs": "Generate a short movie review that has negative sentiment.",
+        "targets": "tired stereotypes",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which shows the percentage of global CO₂ emissions from cement production in 2020. The chart displays a significant variation in emissions among different countries, with China contributing the highest percentage"
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "fascinating , ludicrous , provocative and vainglorious",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nan indispensable peek at the art and the agony of making people \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The phrase 'an indispensable peek at the art and the agony of making people' is positive. It conveys a sense of wonder and curiosity about the process of making people, implying a fascination with the complexity and"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\ncedar somewhat defuses this provocative theme by submerging it in a hoary love triangle . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentence is negative. The word 'provocative' suggests a challenging or controversial theme, but the presence of the word 'hoary' indicates a sense of nostalgia or antiquity, which contrasts with the contemporary nature"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nhas usually \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is a movie review that expresses a negative sentiment towards the film. The reviewer describes the movie as \"slow-paced\" and \"tedious,\" using language such as \"two-hour slog\" and \"d"
+    },
+    {
+        "inputs": "Review:\nphony imagery or music \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided movie review sentence is positive, indicating that the reviewer enjoyed the movie and found it to be of high quality. The sentence specifically mentions the use of phony imagery and music, which the reviewer describes as effective and enjoyable."
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nboffo last hour \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative in sentiment. The word 'boffo' is used to describe the last hour as being unsuccessful or lacking in excitement. The context suggests that the hour was expected to be positive, but it fell short of"
+    },
+    {
+        "inputs": "\"with unlikable , spiteful idiots \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence is negative, as it describes unlikable and spiteful idiots. The overall tone is critical, implying a negative view of the individuals mentioned."
+    },
+    {
+        "inputs": "Generate a short movie review that has positive sentiment.",
+        "targets": "the beauty of alexander payne 's ode to the everyman is in the details .",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided input full content of a chart, which displays the percentage of global CO₂ emissions from land use change versus the year it was emitted. The chart shows a significant increase in emissions from land use change, particularly after 19"
+    },
+    {
+        "inputs": "Review:\nhis own preoccupations and obsessions \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The provided sentence is negative, indicating that the movie reviewer had a critical view of the film and its portrayal of certain themes. The sentence suggests that the reviewer's own preoccupations and obsessions may have influenced their per"
+    },
+    {
+        "inputs": "\"it 's crafty , energetic and smart -- the kid is sort of like a fourteen-year old ferris bueller \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The sentiment of the sentence is positive. The phrase \"it's crafty, energetic, and smart\" describes a child who is lively and intelligent, much like the character Ferris Bueller from the movie Ferris Bueller"
+    },
+    {
+        "inputs": "Write a positive movie review.",
+        "targets": "sensitive , smart , savvy , compelling",
+        "metric": "em",
+        "domain": "sentiment",
+        "model_name": "sst2",
+        "model": "chuducandev/Llama-2-7b-hf-owid-1-001-tmp",
+        "predicted_answer": "The movie review is positive and reflects a favorable opinion of the film. It describes the plot and characters, highlighting their development and the overall message of the story. The review emphasizes the film's technical aspects, such as cinematography"
+    }
+]

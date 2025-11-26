@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Amazon recently upstaged Gamestop on Battlefield 3 pre-orders because they are not able to match their competitor's aggressive pricing.\nTell me who they is.\nOPTIONS:\n- Amazon\n- Gamestop",
+        "targets": "Gamestop",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Amazon stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because"
+    },
+    {
+        "inputs": "KFC sells better than Popeyes since they use worse ingredients in their chicken.\n\nWho is they referring to?\nOPTIONS:\n- KFC\n- Popeyes",
+        "targets": "Popeyes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "KFC ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Kyle beat Mark in the race because he had started out too fast.\nTell me who he is.\nOPTIONS:\n- Kyle\n- Mark",
+        "targets": "Mark",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Kyle ate because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nButters wanted to steal the movie Spiderman from Kenny, but he did not want to be perceived as a thief.\n\nOPTIONS:\n- Butters\n- Kenny",
+        "targets": "Butters",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Butters wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "A motorboat turns the propeller pushing the water backwards, thus the it propells the vehicle forward.\n\nWho is it referring to?\nOPTIONS:\n- A motorboat\n- the propeller",
+        "targets": "the propeller",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "A motorboat stayed up because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate"
+    },
+    {
+        "inputs": "Ryan won the presidency against Tom because he feels he was the better candidate.\nTell me who he is.\nOPTIONS:\n- Ryan\n- Tom",
+        "targets": "Ryan",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Ryan cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "The United Federation of Worlds attempts to bring civilization and rule to the population of millions of planets, since they need a centralized government to maintain order.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The United Federation of Worlds\n- the population of millions of planets",
+        "targets": "the population of millions of planets",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nJimbo was afraid of Bobbert because she was running around with a bloody spear.\n\nOPTIONS:\n- Jimbo\n- Bobbert",
+        "targets": "Bobbert",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jimbo was afraid of Bobbert because she was running because she was running because she was running because she was running because she was running because she was running because she was running because she was running because she was running because she was running because she"
+    },
+    {
+        "inputs": "The boulder dropped into the river, but it continued to flow.\nTell me who it is.\nOPTIONS:\n- The boulder\n- the river",
+        "targets": "the river",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The boulder stayed up because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nField Reporter Chris Johnson interviewed Corporal Mason since he needs to get the story for the media.\n\nOPTIONS:\n- Field Reporter Chris Johnson\n- Corporal Mason",
+        "targets": "Field Reporter Chris Johnson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Corporal Mason stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Olivia tried to counsel Emily, but she was rejected.\nTell me who she is.\nOPTIONS:\n- Olivia\n- Emily",
+        "targets": "Olivia",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Olivia cried because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nMonster trucks would crush cars since they are so much smaller in size.\n\nOPTIONS:\n- Monster trucks\n- cars",
+        "targets": "cars",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Monster trucks would crush cars because they are so much smaller in size.\n\n### Instruction:\nWho ate because they wanted that they ate because they wanted that they ate because they wanted that they ate"
+    },
+    {
+        "inputs": "Sam hates Martha Stewart, because she committed a crime.\n\nWho is she referring to in this sentence?\nOPTIONS:\n- Sam\n- Martha Stewart",
+        "targets": "Martha Stewart",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She said that she hated that he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate"
+    },
+    {
+        "inputs": "Jeremy annoyed Justin so he can have the room.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Jeremy\n- Justin",
+        "targets": "Jeremy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jeremy ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted"
+    },
+    {
+        "inputs": "The teacher told the student that he expected something better from him.\nBased on this sentence, who is he?\n\nOPTIONS:\n- The teacher\n- the student",
+        "targets": "The teacher",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The teacher said that he expected that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "LA Galaxy is constantly seeking famous players to fill their ranks, because they are trying to obtain high profile players to incite popularity into the team.\nBased on this sentence, who is they?\n\nOPTIONS:\n- LA Galaxy\n- famous players",
+        "targets": "LA Galaxy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because they are trying to obtain high profile players to incite popularity into the team.\n\n### Instruction:\nLA Galaxy ate because they were because they were because they were because they were because they were because they were"
+    },
+    {
+        "inputs": "Chrome is finally set to pull ahead of Firefox in November so they are trying hard to prevent their users from switching.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- Chrome\n- Firefox",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "The team decided to cancel their relations with AT&T Corporate because they ran out of money.\nWho is \"they\"?\nOPTIONS:\n- The team\n- AT&T Corporate",
+        "targets": "The team",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran because they ran"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nOfficer Kennedy saved Roger from the criminals, but he was not grateful for being saved.\n\nOPTIONS:\n- Officer Kennedy\n- Roger",
+        "targets": "Roger",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Officer Kennedy stayed up because he wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they"
+    },
+    {
+        "inputs": "AMD's Bulldozer chips have received lukewarm reception compared to Intel's Sandy Bridge chips since they were much faster in processing speed.\nTell me who they is.\nOPTIONS:\n- AMD's Bulldozer chips\n- Intel's Sandy Bridge chips",
+        "targets": "Intel's Sandy Bridge chips",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nJustin Bieber sold many more albums than Jack Johnson, but he is still perceived as a better artist.\n\nOPTIONS:\n- Justin Bieber\n- Jack Johnson",
+        "targets": "Jack Johnson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Jim pooped on Jack and he laughed.\n\nWho is he referring to?\nOPTIONS:\n- Jack\n- Jim",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jim laughed because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he a"
+    },
+    {
+        "inputs": "The train conductor admonished the man standing in the doorway because he was not following the rules.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- The train conductor\n- the man standing in the doorway",
+        "targets": "the man standing in the doorway",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The train conductor said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nThe museum curator looked at the patron and he saw him squirm.\n\nOPTIONS:\n- The museum curator\n- the patron",
+        "targets": "The museum curator",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The museum curator ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he"
+    },
+    {
+        "inputs": "Bill was robbed by John, so the officer helped him.\n\nWho is \"him\" in this prior sentence?\nOPTIONS:\n- Bill\n- John",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nDC Universe went free to play while World of Warcraft is subscription based, because they would not maintain enough users to continue a monthly payment plan.\n\nOPTIONS:\n- DC Universe\n- World of Warcraft",
+        "targets": "DC Universe",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "DC Universe went home because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Which entity is it this sentence?\n\nA dog chewed a bone and it became wet.\n\nOPTIONS:\n- A dog\n- a bone",
+        "targets": "a bone",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "A dog ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that"
+    },
+    {
+        "inputs": "Janet Jackson is more popular than Latoya Jackson since she does not have as many followers.\nWho is \"she\"?\nOPTIONS:\n- Janet Jackson\n- Latoya Jackson",
+        "targets": "Latoya Jackson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Janet Jackson ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nKyle beat Mark in the race because he was the fastest kid in school.\n\nOPTIONS:\n- Kyle\n- Mark",
+        "targets": "Kyle",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Kyle ate because he was the fastest kid in school.\n\n### Instruction:\nWhich person ate because he was the fastest kid in school?\nKyle ate because he was the fastest kid in"
+    },
+    {
+        "inputs": "The children egged the neighbors because they had no dignity.\n\nWho is they referring to?\nOPTIONS:\n- The children\n- the neighbors",
+        "targets": "The children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The children ate because they had no dignity.\n\n### Instruction:\nThey ate because they had no dignity.\n\nWho ate because they had no dignity?\nOPTIONS:\n- The children"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nNew York City was grateful for the sacrifices the American Armed Forces did to save their city since they are able to enjoy another day due to their heroics.\n\nOPTIONS:\n- New York City\n- the American Armed Forces",
+        "targets": "New York City",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "New York City ate because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nBumblebee was sent home with Sam Witwicky to protect him since he needed to be protected from the Decepticons.\n\nOPTIONS:\n- Bumblebee\n- Sam Witwicky",
+        "targets": "Bumblebee",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Bumblebee stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nA mathematical equation is more influential than politics, because it concerns only the present.\n\nOPTIONS:\n- A mathematical equation\n- politics",
+        "targets": "politics",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Ateacher said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nUncharted 3 did not introduce any new ideas since their last game, Uncharted 2, so it ended up getting lukewarm reviews by game critics.\n\nOPTIONS:\n- Uncharted 3\n- Uncharted 2",
+        "targets": "Uncharted 3",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Uncharted 3 stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Lemuel painted Jim a piece of art since he knew how.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Lemuel\n- Jim",
+        "targets": "Lemuel",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Lemuel ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted"
+    },
+    {
+        "inputs": "The celebrities who agreed to go to the Marine Corp dance with their dates stayed true to their word, so they were extremely thankful that they took time out of their schedule to come.\nTell me who they is.\nOPTIONS:\n- The celebrities\n- their dates",
+        "targets": "their dates",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Marriott rewards frequent travelers with points for free stays so they can influence their decision on where they would like to stay.\nWho is \"they\"?\nOPTIONS:\n- Marriott\n- frequent travelers",
+        "targets": "Marriott",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they"
+    },
+    {
+        "inputs": "The musicians performed at two venues because neither of them got paid much.\nWho is \"them\"?\nOPTIONS:\n- The musicians\n- two venues",
+        "targets": "The musicians",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The musicians ate because they didn't get paid because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nThe counselor gave the student advice because he feels obligated to help him.\n\nOPTIONS:\n- The counselor\n- the student",
+        "targets": "The counselor",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The counselor stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nThe mouse sought out the wise owl's advice, and she promptly realized her mistake.\n\nOPTIONS:\n- The mouse\n- the wise owl",
+        "targets": "The mouse",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The mouse ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that"
+    },
+    {
+        "inputs": "God created Adam for good but he could not control his temptation.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- God\n- Adam",
+        "targets": "Adam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "God said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "The Stars did not have many viewers watching the game last Friday since they were all watching the World Series instead.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The Stars\n- many viewers",
+        "targets": "many viewers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Stars ate because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nKaty cried for Susan since she was sad.\n\nOPTIONS:\n- Katy\n- Susan",
+        "targets": "Katy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Katy cried because she was sad because she cried because she was sad because she cried because she was sad because she cried because she was sad because she cried because she was sad because she cried because she was sad because she cried because she was sad because"
+    },
+    {
+        "inputs": "Wall Street was bailed out by the government because they wanted to prevent an economic collapse.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Wall Street\n- the government",
+        "targets": "the government",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nCharles Dickinson shot at Andrew Jackson, so he retaliated likewise.\n\nOPTIONS:\n- Charles Dickinson\n- Andrew Jackson",
+        "targets": "Andrew Jackson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "KFC sells better than Popeyes since they have better chicken.\nBased on this sentence, who is they?\n\nOPTIONS:\n- KFC\n- Popeyes",
+        "targets": "KFC",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "KFC ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Which person is its referring to in the following sentence?\nBengali is morphologically richer than English, so its vocabulary is smaller.\n\nOPTIONS:\n- Bengali\n- English",
+        "targets": "English",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Bengali\n\n### Instruction:\nWhich person is its referring to in the following sentence?\nBengali is morphologically richer than English, so its vocabulary is smaller.\n\nOPTIONS:"
+    },
+    {
+        "inputs": "Sarah went to Kelly's house because she was leaving from work.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Sarah\n- Kelly",
+        "targets": "Sarah",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sarah went home because she was leaving from work.\n\n### Instruction:\nSarah went home because she was leaving from work.\nBased on this sentence, who went home because she was leaving from work?"
+    },
+    {
+        "inputs": "When Sue went to Nadia's home for dinner, she served sukiyaki au gratin.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Sue\n- Nadia",
+        "targets": "Sue",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she"
+    },
+    {
+        "inputs": "Sharks are constantly eating fishes because they are the main source of food in the ocean.\n\nWho is they referring to?\nOPTIONS:\n- Sharks\n- fishes",
+        "targets": "fishes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sharks ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Stephanie gave Brandy flowers because she had a lot of them.\n\nWho is she referring to in this sentence?\nOPTIONS:\n- Stephanie\n- Brandy",
+        "targets": "Stephanie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Brandy ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted"
+    },
+    {
+        "inputs": "The storm delayed the flight as it was very dangerous.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The storm\n- the flight",
+        "targets": "The storm",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The storm stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "The mysterious creature is drinking whiskey because it still has more of these sentences to write.\n\nWho is it referring to?\nOPTIONS:\n- The mysterious creature\n- whiskey",
+        "targets": "The mysterious creature",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The mysterious creature ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they"
+    },
+    {
+        "inputs": "The couple took the car to the shop on Tuesday, but they will not have to pay until next week.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The couple\n- the shop",
+        "targets": "The couple",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The shopkeeper said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nJim was staring at the guy with the snowboard, because he wanted to be like him.\n\nOPTIONS:\n- Jim\n- the guy",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jim wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nGates is richer than Jobs, so he does a lot more charity work.\n\nOPTIONS:\n- Gates\n- Jobs",
+        "targets": "Gates",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Gates ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that"
+    },
+    {
+        "inputs": "Sherry called Karla but she later regretted it.\n\nWho is she referring to?\nOPTIONS:\n- Sherry\n- Karla",
+        "targets": "Sherry",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sherry cried because she wished that she stayed up because she wanted that she stayed up because she wanted that she stayed up because she wanted that she stayed up because she wanted that she stayed up because she wanted that she stayed up because she wanted that"
+    },
+    {
+        "inputs": "Blockbuster increased the time allotted for customers to return videos since they were starting to lose business due to their strict policies.\n\nWho is they referring to?\nOPTIONS:\n- Blockbuster\n- customers",
+        "targets": "Blockbuster",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Blockbuster stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because"
+    },
+    {
+        "inputs": "Claudia lost all her money to Valarie because she is really smart.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Claudia\n- Valarie",
+        "targets": "Valarie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Claudia cried because she lost all her money because she is really smart.\n\n### Instruction:\nHe ate because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted"
+    },
+    {
+        "inputs": "John could not understand his waiter, because he was deaf.\nWho is \"he\"?\nOPTIONS:\n- John\n- his waiter",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe children egged the neighbors because they had no candy.\n\nOPTIONS:\n- The children\n- the neighbors",
+        "targets": "the neighbors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The children"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Cowboys formed a trailer defense against the Indians since they have a better chance of surviving.\n\nOPTIONS:\n- The Cowboys\n- the Indians",
+        "targets": "The Cowboys",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Cowboys stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nGoogle is catching up to Firefox in the percentage of users, because they have been getting too bulky and slow.\n\nOPTIONS:\n- Google\n- Firefox",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Google\n\n### Instruction:\nWhich person ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because"
+    },
+    {
+        "inputs": "Kathy looked after the children of Mrs. Faith because she is quite capable as a baby sitter.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Kathy\n- Mrs. Faith",
+        "targets": "Kathy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Kathy stayed up because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nChevrolet had to recently recall their cars because they received complaints about the brakes in their product.\n\nOPTIONS:\n- Chevrolet\n- their cars",
+        "targets": "Chevrolet",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Chevrolet ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "MySpace lost millions of users to Facebook, but they still have a small following.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- MySpace\n- Facebook",
+        "targets": "MySpace",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they"
+    },
+    {
+        "inputs": "Tech Analysts have speculated that Amazon will be releasing a phone next year, but they are only speculating at this point.\n\nWho is they referring to?\nOPTIONS:\n- Tech Analysts\n- Amazon",
+        "targets": "Tech Analysts",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Tech Analysts said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe civilians had to flee the encampment from the thugs since they were terrorizing and attacking everyone they saw.\n\nOPTIONS:\n- The civilians\n- the thugs",
+        "targets": "the thugs",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The civilians stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Derrick begged his boss for a raise but he did not get one.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Derrick\n- his boss",
+        "targets": "Derrick",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Derrick cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "The government has made about 30 percent of the requests for censoring classified materials to Google, but they have not complied with all of them.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The government\n- Google",
+        "targets": "Google",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "The Xbox 360 outsold the Nintendo Wii by 300 percent because they are appealing to more people with their better hardware.\n\nWho is they referring to?\nOPTIONS:\n- The Xbox 360\n- the Nintendo Wii",
+        "targets": "The Xbox 360",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they wanted that they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they wanted because they"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe graduate students spend every waking moment studying for their classes, but they still need to devote time to friends and family as well.\n\nOPTIONS:\n- The graduate students\n- their classes",
+        "targets": "The graduate students",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The graduate student stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "King Leonidas was more respected than King Henry because he treated the people as equal citizens.\nBased on this sentence, who is he?\n\nOPTIONS:\n- King Leonidas\n- King Henry",
+        "targets": "King Leonidas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "King Leonidas ate because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Mary asked Jim not to annoy the crazy person, as he might be attacked.\nTell me who he is.\nOPTIONS:\n- Jim\n- the crazy person",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jim said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "When Sue went to Nadia's home for dinner, she saw a big teddy bear.\nTell me who she is.\nOPTIONS:\n- Sue\n- Nadia",
+        "targets": "Nadia",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sue went home because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that"
+    },
+    {
+        "inputs": "Cats are smarter than dogs because they bark for no reason.\nTell me who they is.\nOPTIONS:\n- Cats\n- dogs",
+        "targets": "dogs",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Cats are smarter than dogs because they bark because they want that they want that they want that they want that they want that they want that they want that they want that they want that they want that they want that they want that they want"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nTodd told Bill that he should run the presidency race.\n\nOPTIONS:\n- Todd\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he said that he wanted that he ran because he wanted that he ran because he wanted that he ran because he wanted that he ran because he wanted that he ran because he wanted that he ran because he wanted that he ran because he wanted that"
+    },
+    {
+        "inputs": "The young up-and-comer destroyed the old veteran Star in the shootout, so he got placed on the starting line for the rest of the season.\nTell me who he is.\nOPTIONS:\n- The young up-and-comer\n- the old veteran Star",
+        "targets": "The young up-and-comer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they"
+    },
+    {
+        "inputs": "Monkeys hate lions because they are scary.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Monkeys\n- lions",
+        "targets": "lions",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Monkeys hate lion because they are scary.\n\n### Instruction:\nMonkeys ate because they were hungry.\n\nWho ate because they were hungry?\nOPTIONS:\n- Monkeys\n-"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nProfessors give a lot of advice to students, because they are caring.\n\nOPTIONS:\n- Professors\n- students",
+        "targets": "Professors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Professors stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Heath Ledger was considered the greatest Joker of all time by Ebert, because the way he depicted the character gave chills to the audience.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Heath Ledger\n- Ebert",
+        "targets": "Heath Ledger",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Heath Ledger ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe management always favor the employees who are always on time because they show dedication to their job.\n\nOPTIONS:\n- The management\n- the employees",
+        "targets": "the employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The management stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nBush beat Gore because he was unpopular.\n\nOPTIONS:\n- Bush\n- Gore",
+        "targets": "Gore",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Bush ate because he was unpopular.\n\n### Instruhcator said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Walmart has leaked pages of their Black Friday Ad to the users of the internet, because they are trying to increase hype for them to come to their store.\nWho is \"they\"?\nOPTIONS:\n- Walmart\n- the users of the internet",
+        "targets": "Walmart",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Walmart said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Emma did not pass the ball to Janie, although she was open.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Emma\n- Janie",
+        "targets": "Janie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because she said that she wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that"
+    },
+    {
+        "inputs": "Sharks are constantly eating fishes because they are higher on the food chain.\n\nWho is they referring to?\nOPTIONS:\n- Sharks\n- fishes",
+        "targets": "Sharks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sharks ate because they were higher on the food chain.\n\n### Instruction:\nHe ate because he wanted that they ate because they wanted that he ate because they wanted that he ate because they wanted that he"
+    },
+    {
+        "inputs": "Lorenze took his son to the hospital since he was concerned for his health.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Lorenze\n- his son",
+        "targets": "Lorenze",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Lorenze stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "NASA helped the Autobots to exile from the planet since they had a transport that could take them off the planet.\nWho is \"they\"?\nOPTIONS:\n- NASA\n- the Autobots",
+        "targets": "NASA",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "NASA helped the Autobbs because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up because they wanted that they stayed up"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Chinese Empire banished the Wu Shu family from the kingdom because they committed atrocities that could not allow.\n\nOPTIONS:\n- The Chinese Empire\n- the Wu Shu family",
+        "targets": "the Wu Shu family",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Chinese Empire ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nBill was able to steal the banana from Ken because he was slow.\n\nOPTIONS:\n- Bill\n- Ken",
+        "targets": "Ken",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he was slow, he was able to steal the banana from Ken.\n\n### Instruction:\nWhich entity ate because he ate because he ate because he ate because he ate because he a"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nSubways has always been considered a healthy choice by athletes, so they often visit this restaurant as regulars.\n\nOPTIONS:\n- Subways\n- athletes",
+        "targets": "athletes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nSam cheated Sally but she did not repent.\n\nOPTIONS:\n- Sally\n- Sam",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She said that he cheated Sally because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Jim went to Hal's house, and walked his dog.\nWho is \"his\"?\nOPTIONS:\n- Jim\n- Hal",
+        "targets": "Hal",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Jim went home because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nJohn tried to bake with Michael, but he did not have any eggs.\n\nOPTIONS:\n- John\n- Michael",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe students protested against the new policies because they were too strict.\n\nOPTIONS:\n- The students\n- the new policies",
+        "targets": "the new policies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The students cried because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "The X-Factor is starting to overtake American Idol in the ratings race since they have boring judges.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The X-Factor\n- American Idol",
+        "targets": "American Idol",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they were hungry because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate"
+    },
+    {
+        "inputs": "The storm delayed the flight as it was going over the ocean.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The storm\n- the flight",
+        "targets": "the flight",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The storm stayed up because they were going home because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "The computer rejected the password because it was malfunctioning.\nWho is \"it\"?\nOPTIONS:\n- The computer\n- the password",
+        "targets": "The computer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The computer ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nApple defeated Microsoft in the war because they lack creativity.\n\nOPTIONS:\n- Apple\n- Microsoft",
+        "targets": "Microsoft",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Apple ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nLemuel painted Jim a piece of art since he requested it.\n\nOPTIONS:\n- Lemuel\n- Jim",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Lemuel stayed up because he wanted that he stayed up because he wanted that he stayed up because he wanted that he stayed up because he wanted that he stayed up because he wanted that he stayed up because he wanted that he stayed up because he wanted"
+    },
+    {
+        "inputs": "The man asked Mark the question again because he was being evasive.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- The man\n- Mark",
+        "targets": "Mark",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The man said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe Simpsons have lasted 23 seasons while The Sarah Connor Chronicles lasted two seasons, since they have been wildly successful.\n\nOPTIONS:\n- The Simpsons\n- The Sarah Connor Chronicles",
+        "targets": "The Simpsons",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Simpsons ate because they were because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nThe manager fired the intern because she was upset.\n\nOPTIONS:\n- The manager\n- the intern",
+        "targets": "The manager",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The manager cried because she was upset.\n\n### Instruction:\nWhich entity ate because he wanted that they ate because he wanted that they ate because he wanted that they ate because he wanted that they ate"
+    },
+    {
+        "inputs": "Youtube has paid out over a million dollars to their channel partners, since they want to reward those who bring more users to their website.\nWho is \"they\"?\nOPTIONS:\n- Youtube\n- their channel partners",
+        "targets": "Youtube",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Youtube wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nThe Batman does not kill Joker because he is good at heart.\n\nOPTIONS:\n- The Batman\n- Joker",
+        "targets": "The Batman",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Batman cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nLucas is younger than Claus because he was born last.\n\nOPTIONS:\n- Lucas\n- Claus",
+        "targets": "Lucas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Claus stayed up because he wanted that shepherd stayed up because he wanted that shepherd stayed up because he wanted that shepherd stayed up because he wanted that shepherd stayed up because he wanted that shepherd stayed up because"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nConan O'Brien replaced Jay Leno as host of Late Night, however, he was soon removed from that timeslot due to him coming back.\n\nOPTIONS:\n- Conan O'Brien\n- Jay Leno",
+        "targets": "Conan O'Brien",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Conan O'Brien stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "The Starbuck employees make all the drinks on the spot for morning customers because they want them to return to purchase more of their products.\nTell me who they is.\nOPTIONS:\n- The Starbuck employees\n- morning customers",
+        "targets": "The Starbuck employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Starbuck employees wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nJohn wanted to vote for Doe, but he could not make up his mind.\n\nOPTIONS:\n- John\n- Doe",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "The brown fox jumped over the dog because it was lazy.\n\nWho is \"it\" in this prior sentence?\nOPTIONS:\n- The brown fox\n- the dog",
+        "targets": "the dog",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The brown fox ate because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they were because they"
+    },
+    {
+        "inputs": "The parents grounded the children since they were disobedient.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The parents\n- the children",
+        "targets": "the children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The parents grounded the children because they were disobedient.\n\n### Instruction:\nThe teacher said that they ate because they were hungry.\n\nWho is they referring to in this sentence?\nOPTIONS:"
+    },
+    {
+        "inputs": "Walmart is enforcing strict guidelines for customers this Black Friday, but they may not always follow them even if they are enforced.\n\nWho is they referring to?\nOPTIONS:\n- Walmart\n- customers",
+        "targets": "customers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Walmart stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Modern Warfare has big expectations to live up to due to the successful release of Battlefield 3 since they already have a solid grasp on many players that would consider purchasing a new similar game.\nWho is \"they\"?\nOPTIONS:\n- Modern Warfare\n- Battlefield 3",
+        "targets": "Battlefield 3",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Modern Warfare ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate"
+    },
+    {
+        "inputs": "The lumberjacks cut the trees so they could be paid.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The lumberjacks\n- the trees",
+        "targets": "The lumberjacks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The lumberjacks ate because they were hungry because they ate because they were hungry because they ate because they were hungry because they ate because they were hungry because they ate because they were hungry because they"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nSteve Urkel was always annoying Carl Winslow in the show, \"Family Matters\", but he still liked him regardless.\n\nOPTIONS:\n- Steve Urkel\n- Carl Winslow",
+        "targets": "Carl Winslow",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Steve Urkel was always annoying Carl Whinslow in the show, \"Family Matters\", but he still liked him because he was his best friend.\n\n### Instruction:\nWhich entity ate because he wanted"
+    },
+    {
+        "inputs": "Firefox is used more than Internet Explorer because it is less stable.\nTell me who it is.\nOPTIONS:\n- Firefox\n- Internet Explorer",
+        "targets": "Internet Explorer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Firefox is used because they said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Liu Kang used the element of water against Sub Zero because he is weak against such elements.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Liu Kang\n- Sub Zero",
+        "targets": "Sub Zero",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Liu Kang ate because he was hungry because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he a"
+    },
+    {
+        "inputs": "Spiderman defeated Magnito because he is a good guy.\n\nWho is he referring to?\nOPTIONS:\n- Spiderman\n- Magnito",
+        "targets": "Spiderman",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Spiderman said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nSeagate recently announced to their investors that production will not go back to normal until the end of 2012, so they may end up selling their stock.\n\nOPTIONS:\n- Seagate\n- their investors",
+        "targets": "their investors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Seagate said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Joy was jealous of Jenny because she was making less money than her.\n\nWho is she referring to?\nOPTIONS:\n- Joy\n- Jenny",
+        "targets": "Joy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Joy said that she was jealous because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted"
+    },
+    {
+        "inputs": "The new knives are better than the old knives since they are losing their sharp edge due to constant use.\nTell me who they is.\nOPTIONS:\n- new knives\n- old knives",
+        "targets": "old knives",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They are losing their sharp edge because they are new.\n\n### Instruction:\nHe ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nKim offered mushrooms to Laura, because she might like them.\n\nOPTIONS:\n- Kim\n- Laura",
+        "targets": "Laura",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Kim ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that"
+    },
+    {
+        "inputs": "Ken scanned photos for Neil since he needed to save his documents.\nTell me who he is.\nOPTIONS:\n- Ken\n- Neil",
+        "targets": "Neil",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Ken scanned that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Steve threw the bowling ball down the lane when it returned.\nBased on this sentence, who is it?\n\nOPTIONS:\n- the bowling ball\n- the lane",
+        "targets": "the bowling ball",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The lane ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nPresident Obama rewarded Sam with a medal for his valorous acts because he saved the world at least twice.\n\nOPTIONS:\n- President Obama\n- Sam",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nI chopped down the tree with my axe because it was tall.\n\nOPTIONS:\n- the tree\n- my axe",
+        "targets": "the tree",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Paula liked Ness more than Pokey because he was nice to her.\n\nWho is he referring to?\nOPTIONS:\n- Ness\n- Pokey",
+        "targets": "Ness",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Ness stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Rocky beat Drago because the crowd was supporting him.\n\nWho is him referring to?\nOPTIONS:\n- Rocky\n- Drago",
+        "targets": "Rocky",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Rocky cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMySpace lost millions of users to Facebook, but they were not able to crush them completely.\n\nOPTIONS:\n- MySpace\n- Facebook",
+        "targets": "Facebook",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "MySpace lost millions of users to Facebook, but they were not able to crush them completely.\n\n### Instruction:\nWhich entity is they this sentence?\n\nMySpace lost millions of users to Facebook, but they were"
+    },
+    {
+        "inputs": "Hitler conquered Alex in the war because everybody supported him.\nBased on this sentence, who is him?\n\nOPTIONS:\n- Hitler\n- Alex",
+        "targets": "Hitler",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Hitler cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Video games are outselling movies because they are an old medium.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Video games\n- movies",
+        "targets": "movies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because they are an old medium.\n\n### Instruction:\nThey ate because they were hungry.\nBased on this sentence, who ate because they were hungry?\n\nOPTIONS:\n- They a"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nThe mouse sought out the wise owl's advice, and she promptly accepted the free meal.\n\nOPTIONS:\n- The mouse\n- the wise owl",
+        "targets": "the wise owl",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The mouse ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that"
+    },
+    {
+        "inputs": "The professor highly recommends the student because he asks very good questions.\nWho is \"he\"?\nOPTIONS:\n- The professor\n- the student",
+        "targets": "the student",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The professor said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Which person is she referring to in the following sentence?\nMichelle likes green shirts while Sarah prefers blue, because she likes the color of grass.\n\nOPTIONS:\n- Michelle\n- Sarah",
+        "targets": "Michelle",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She said that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nThe boy gave his friend a cookie because he had an extra.\n\nOPTIONS:\n- The boy\n- his friend",
+        "targets": "The boy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The boy ate"
+    },
+    {
+        "inputs": "The band connected well to their fans, so they continued to write albums.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The band\n- their fans",
+        "targets": "The band",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nAngelina Jolie played the role of the mother of Grendell, since she looked the best for the role.\n\nOPTIONS:\n- Angelina Jolie\n- the mother of Grendell",
+        "targets": "Angelina Jolie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she"
+    },
+    {
+        "inputs": "Who is it referring to in the following sentence?\nThe sheep chased the pig because it was insulted.\n\nOPTIONS:\n- The sheep\n- the pig",
+        "targets": "The sheep",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The pig ate because they were insulted.\n\n### Instruction:\nWho ate because they were insulted?\n\nOPTIONS:\n- The pig\n- The sheep\n\n### Response:"
+    },
+    {
+        "inputs": "Tim gave Marlo a pat on the back because he looked sad.\nTell me who he is.\nOPTIONS:\n- Tim\n- Marlo",
+        "targets": "Marlo",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Tim ate because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted that because he wanted"
+    },
+    {
+        "inputs": "The listener did not complain about the singer because he was tone deaf.\nWho is \"he\"?\nOPTIONS:\n- The listener\n- the singer",
+        "targets": "The listener",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The listener cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Doctor Igor was interrogated by Colonel Marshall, although he did not have good interrogation skills.\nTell me who he is.\nOPTIONS:\n- Doctor Igor\n- Colonel Marshall",
+        "targets": "Colonel Marshall",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Doctor Igor ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nThe cabbage was in the freezer and it became frozen.\n\nOPTIONS:\n- The cabbage\n- the freezer",
+        "targets": "The cabbage",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The cabbage stayed up because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because"
+    },
+    {
+        "inputs": "Gun instructors provide the best tips and practices to keep their students safe from firearm usage, but they need to make sure they listen to these lessons to be safe.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Gun instructors\n- their students",
+        "targets": "their students",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Gun instructors wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nThe river destroyed the bridge because it was high.\n\nOPTIONS:\n- The river\n- the bridge",
+        "targets": "The river",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The river stayed up because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Joe earned more money than Rob on the Price is Right because he was able to guess more letters correctly.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Joe\n- Rob",
+        "targets": "Joe",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Joe ate because he was because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he a"
+    },
+    {
+        "inputs": "The musicians performed at two venues because neither of them paid much.\n\nWho is \"them\" in this prior sentence?\nOPTIONS:\n- The musicians\n- two venues",
+        "targets": "two venues",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The musicians ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe Dallas Cowboys lost their lead to the Redskins because they started to perform very poorly in the second half.\n\nOPTIONS:\n- The Dallas Cowboys\n- the Redskins",
+        "targets": "The Dallas Cowboys",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Dallas Cowboys stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed up because they stayed"
+    },
+    {
+        "inputs": "Sally was really happy that Beth finally got a job because she is a concerned friend.\n\nWho is she referring to?\nOPTIONS:\n- Sally\n- Beth",
+        "targets": "Sally",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sally said that she was happy that she stayed up because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted"
+    },
+    {
+        "inputs": "The police arrested 700 protesters in New York since they tried to block traffic on the Manhattan bridge.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The police\n- 700 protesters",
+        "targets": "The police",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Stephen King called Spielberg so that he could ask for some money.\nWho is \"he\"?\nOPTIONS:\n- Stephen King\n- Spielberg",
+        "targets": "Stephen King",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Stephen King cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe group grew tired of making these sentences because they are tedious.\n\nOPTIONS:\n- The group\n- these sentences",
+        "targets": "these sentences",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The group stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "The music player did not open the file because it did not play that format.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The music player\n- the file",
+        "targets": "The music player",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The music player ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because"
+    },
+    {
+        "inputs": "Black Eyed Peas hosted a huge event for the partners of Intel while they also perform for many other events.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Black Eyed Peas\n- the partners of Intel",
+        "targets": "Black Eyed Peas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they were hungry because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate"
+    },
+    {
+        "inputs": "The people barricaded themselves from the zombies because they did not want to become food.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The people\n- the zombies",
+        "targets": "The people",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The people ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe monsters at the haunted house chased the children because they want to be scared for entertainment.\n\nOPTIONS:\n- The monsters\n- the children",
+        "targets": "the children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The monster ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe NFL generates obscene amounts of revenue compared to the MLB, because they are the most watched sport in the US.\n\nOPTIONS:\n- The NFL\n- the MLB",
+        "targets": "The NFL",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The NFL stayed up because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Sam helped Davey fortify their bunker because he wanted to be a good friend.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Sam\n- Davey",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Davey ate because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMicrosoft discontinued plans for the Courier tablet due to the success of the tablets from Apple because they feel the product would not be successful.\n\nOPTIONS:\n- Microsoft\n- Apple",
+        "targets": "Microsoft",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Microsoft ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "The cow ran into the fence and it broke.\nBased on this sentence, who is it?\n\nOPTIONS:\n- The cow\n- the fence",
+        "targets": "the fence",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The cow ran because she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she wanted that she"
+    },
+    {
+        "inputs": "The magician pulled a rabbit out of his cage.\n\nWho is his referring to in this sentence?\nOPTIONS:\n- The magician\n- a rabbit",
+        "targets": "a rabbit",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The magician wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Ken has Adam's bike, because he gave it to him.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Ken\n- Adam",
+        "targets": "Adam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Ken ate because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because he wanted because"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nMike cut his finger while watching Chef Michaels on TV, but he can sometimes be a distraction from fellow cooks watching him on TV.\n\nOPTIONS:\n- Mike\n- Chef Michaels",
+        "targets": "Chef Michaels",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He said that he cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Sprint is now selling the IPhone just like Verizon, because they were crushing them in new customers due to this particular phone.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Sprint\n- Verizon",
+        "targets": "Verizon",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sprint ate because they were crushing them in new customers due to this particular phone.\n\n### Instruction:\nSprint ate because they were crushing them in new customers due to this particular phone.\nBased on"
+    },
+    {
+        "inputs": "Stacy lied about partying to her mom, but she found out.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Stacy\n- her mom",
+        "targets": "her mom",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Stacy ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that she ate because she wanted that"
+    },
+    {
+        "inputs": "The painting was at the museum because it was having a display.\nWho is \"it\"?\nOPTIONS:\n- The painting\n- the museum",
+        "targets": "the museum",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The painting stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "When Debbie splashed Tina, she got in trouble.\n\nWho is she referring to?\nOPTIONS:\n- Debbie\n- Tina",
+        "targets": "Debbie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Debbie ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that they ate because she wanted that"
+    },
+    {
+        "inputs": "Bill punched Larry because he was angry.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Bill\n- Larry",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because"
+    },
+    {
+        "inputs": "The wine busted the cask because it was too small.\nWho is \"it\"?\nOPTIONS:\n- The wine\n- the cask",
+        "targets": "the cask",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The wine b"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe Axis forces lost the war to the Allied forces because they took advantage of their weakness.\n\nOPTIONS:\n- The Axis forces\n- the Allied forces",
+        "targets": "the Allied forces",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Axis forces ate because they took advantage of their weakness.\n\n### Instruction:\nWho ate because they took advantage of their weakness?\n\nOPTIONS:\n- The Axis forces\n- the Al"
+    },
+    {
+        "inputs": "The team decided to cancel their relations with AT&T Corporate because they are arrogant.\nTell me who they is.\nOPTIONS:\n- The team\n- AT&T Corporate",
+        "targets": "AT&T Corporate",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The team cried because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMonster trucks would crush cars since they are so massive.\n\nOPTIONS:\n- Monster trucks\n- cars",
+        "targets": "Monster trucks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Monster trucks would crush cars because they are so massive.\n\n### Instruction:\nWhich entity ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "Intel sued IntelSpec since they are trying to protect their trademark name.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Intel\n- IntelSpec",
+        "targets": "Intel",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "IntelSpec ate because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nSteve scratched Johnny because he was angry.\n\nOPTIONS:\n- Steve\n- Johnny",
+        "targets": "Steve",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Steve said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nFred drove to Mack's tire shop, and he bought a tire.\n\nOPTIONS:\n- Fred\n- Mack",
+        "targets": "Fred",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Fred cried because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nJoe slapped Jose in the face because he cussed him out.\n\nOPTIONS:\n- Joe\n- Jose",
+        "targets": "Jose",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Joe cried because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he ate because he a"
+    },
+    {
+        "inputs": "John fired Dave because he had too many absences.\nWho is \"he\"?\nOPTIONS:\n- John\n- Dave",
+        "targets": "Dave",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Dave stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe government has made about 30 percent of the requests for censoring classified materials to Google, because they did not want this information to be widely available to the public.\n\nOPTIONS:\n- The government\n- Google",
+        "targets": "The government",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The government ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe officers chose a planet to send the new soldiers, because they wanted them to be trained in hostile environments.\n\nOPTIONS:\n- The officers\n- the new soldiers",
+        "targets": "The officers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The officers wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which entity is it this sentence?\n\nFirefox is used more than Internet Explorer because it is more stable.\n\nOPTIONS:\n- Firefox\n- Internet Explorer",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Firefox is used more than Internet Explorer because it is more stable.\n\n### Instruction:\nWhich entity is it this sentence?\n\nHe ate because he wanted that he ate because he wanted that he ate because"
+    },
+    {
+        "inputs": "Right after work Angelina took Sandy to the park because she wanted to go to that place.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Angelina\n- Sandy",
+        "targets": "Sandy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "She wanted that he went home because he wanted that he went home because he wanted that he went home because he wanted that he went home because he wanted that he went home because he wanted that he went home because he wanted that he went home because he"
+    },
+    {
+        "inputs": "The brown fox jumped over the dog because it was quick.\nTell me who it is.\nOPTIONS:\n- The brown fox\n- the dog",
+        "targets": "The brown fox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The brown fox ate because he was hungry.\n\n### Instrucitor:\nThe brown fox ate because he was hungry.\nTell me who ate because he was hungry.\n\n##"
+    },
+    {
+        "inputs": "Kenny attacked Ben, and then he defended.\n\nWho is he referring to?\nOPTIONS:\n- Kenny\n- Ben",
+        "targets": "Kenny",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Kenny ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted that he ate because he wanted"
+    },
+    {
+        "inputs": "The Batman does not kill Joker because he is always thrown in jail instead.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- The Batman\n- Joker",
+        "targets": "Joker",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Batman stayed up because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nClark Kent hides his identity from Lex Luthor because he wants to find out who this masked hero is.\n\nOPTIONS:\n- Clark Kent\n- Lex Luthor",
+        "targets": "Lex Luthor",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Clark Kent wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "The artist told the model that she needed to get more paint.\nBased on this sentence, who is she?\n\nOPTIONS:\n- The artist\n- the model",
+        "targets": "The artist",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The artist said that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she needed that she"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nSally gave Kelly a doll because she loved dolls.\n\nOPTIONS:\n- Sally\n- Kelly",
+        "targets": "Kelly",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Sally ate because she wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that they ate because they wanted that"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nTom asked his son to drive so that he could get experience.\n\nOPTIONS:\n- Tom\n- his son",
+        "targets": "his son",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    },
+    {
+        "inputs": "Several energy companies are under investigation by Congress because they bankrupted even with government bailout money.\nWho is \"they\"?\nOPTIONS:\n- Several energy companies\n- Congress",
+        "targets": "Several energy companies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "They ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they a"
+    },
+    {
+        "inputs": "The Japanese eat a lot more seafood than the Americans because they are an island surrounded by the ocean.\n\nWho is they referring to?\nOPTIONS:\n- The Japanese\n- the Americans",
+        "targets": "The Japanese",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Japanese ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they ate because they"
+    },
+    {
+        "inputs": "The Autobots fight with every ounce of strength against the Decepticons since they wish to keep the planet safe.\nWho is \"they\"?\nOPTIONS:\n- The Autobots\n- the Decepticons",
+        "targets": "The Autobots",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The Autobots wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished that they wished"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe army organized their forces to sneak past the Decepticons in the city since they have the upper hand in a straight fight.\n\nOPTIONS:\n- The army\n- the Decepticons",
+        "targets": "the Decepticons",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The army stayed up because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that"
+    },
+    {
+        "inputs": "Daryel told Ross that he was the ugliest person he knew of and made him angry.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Daryel\n- Ross",
+        "targets": "Ross",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Daryel said that he was the ugliest person he knew of because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nDarth Vader said to Luke Skywalker, \"I am your father\", because he was his father.\n\nOPTIONS:\n- Darth Vader\n- Luke Skywalker",
+        "targets": "Darth Vader",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Darth Vader said that he was his father because he was his father.\n\n### Instruction:\nWho said that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted"
+    },
+    {
+        "inputs": "The employees crushed the boxes because they were working.\nTell me who they is.\nOPTIONS:\n- The employees\n- the boxes",
+        "targets": "The employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The employees ate because they were hungry.\n\n### Instruction:\nThe employee ate because they were hungry.\nTell me who they ate because they were because they were because they were because they were because they"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nJack killed John, but he was not the only victim.\n\nOPTIONS:\n- Jack\n- John",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they ate because they wanted that he ate because he wanted that they"
+    },
+    {
+        "inputs": "John bored Bill because he was easily bored.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "John bought a beer for Bill because he is cool.\nWho is \"he\"?\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Because he said that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that"
+    },
+    {
+        "inputs": "Herman Cain has fallen in the polls while Mitt Romney has increased his foothold because he is garnering more popularity among potential voters.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Herman Cain\n- Mitt Romney",
+        "targets": "Mitt Romney",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "Herman Cain ate because he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe people barricaded themselves from the zombies because they wanted to ease their hunger.\n\nOPTIONS:\n- The people\n- the zombies",
+        "targets": "the zombies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "The people barricaded themselves because they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they wanted that they"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nPresident Obama rewarded Sam with a medal for his valorous acts since he wanted the world to know his contribution to the world.\n\nOPTIONS:\n- President Obama\n- Sam",
+        "targets": "President Obama",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "PaulM2000/peft_model_random_42_without_up_proj_Llama-2-7b-hf",
+        "predicted_answer": "He wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted that he wanted"
+    }
+]

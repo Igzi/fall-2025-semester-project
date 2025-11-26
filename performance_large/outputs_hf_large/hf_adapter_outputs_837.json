@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Keywords: fly, landing, plane\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "An Air Canada plane flying in for a landing.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The plane landed safely."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: create, illusion, waist",
+        "targets": "create the illusion of comfort by wrapping a large plaid shirt around your waist .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The magician created an illusion that made the waist of the audience disappear."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: carry, launch, mission",
+        "targets": "the launch of launch vehicle carrying mission is being rescheduled .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The rocket was launched to carry the satellite into space."
+    },
+    {
+        "inputs": "Concepts: attraction, enjoy, festival, visitor\n\nWrite a sentence that includes all these words.",
+        "targets": "visitors enjoy festival along tourist attraction",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Concepts: attraction, enjoy, festival, visitor"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nfly, helicopter, vehicle",
+        "targets": "a fine and upright gentle man flying in a small helicopter like vehicle .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "A helicopter is a vehicle that flies."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nan employee returns to the waiting train which stopped north after it struck and killed a pedestrian .",
+        "targets": "kill, pedestrian, strike, train",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " the most important words in the sentence are: an employee returns to the waiting train which stopped north after it struck and killed a pedestrian"
+    },
+    {
+        "inputs": "Keywords: everyone, hair, tell\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "i told my boyfriend not to go higher than this ... everyone likes his hair .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Everyone has hair."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: bridge, cross, scooter",
+        "targets": "guys crossing a bridge on a scooter somewhere",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The scooter crossed the bridge."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: duty, guard, palace",
+        "targets": "guards on duty guarding palace or official residence of the queen",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The guard at the palace was on duty."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nboats moored on blue sea at a harbour",
+        "targets": "boat\nharbour\nsea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " boats moored on blue sea at a harbour"
+    },
+    {
+        "inputs": "Keywords: art, home, piece\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "pieces of bold powerful and large wall art for the home",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: art, home, piece"
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nadd depth to the family room in your new home with a textured accent wall .",
+        "targets": "add, home, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " add depth to the family room in your new home with a textured accent wall"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: bluff, hill, road",
+        "targets": "road extending into the distance between hills and bluffs",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The road is bluff and the hill is steep."
+    },
+    {
+        "inputs": "Here are some concepts: place, visit, want\n\nWhat is a sentence about these concepts?",
+        "targets": "one of the place i really want to visit someday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "I want to visit the place."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: banana, syrup, top",
+        "targets": "Maple syrup, apricot jam, oatmeal, ripe banana and peanut butter are laid out on a wooden counter top.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Banana, syrup, top"
+    },
+    {
+        "inputs": "Concepts: dress, stun, supermodel\n\nWrite a sentence that includes all these words.",
+        "targets": "supermodel stunned in an intricate dress on the black carpet on tuesday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The supermodel was stunned by the dress."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nwild apple blossom open with the arrival of spring\n\nConcepts:\narrival\nblossom\nspring",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngroup of students with school uniforms bicycling in a row around city",
+        "targets": "row\nstudent\nuniform",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " group of students with school uniforms bicycling in a row around city"
+    },
+    {
+        "inputs": "Here are some concepts: church, place, type, worship\n\nWhat is a sentence about these concepts?",
+        "targets": "type of place of worship a church",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The church is a place of worship."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntime lapse at dusk with clouds moving over the city and a full moon rising",
+        "targets": "city\ncloud\ndusk\nmoon\nrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " time lapse at dusk with clouds moving over the city and a full moon rising"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nA building with a large face clock on the second story.\n\nConcepts:\nbuilding\nclock\nstory",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\ncomic strip and comic book character float down neighborhood during event",
+        "targets": "event, float, neighborhood",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The most important words in the sentence are comic strip and comic book character."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ninitials carved into the bark of an old beech tree",
+        "targets": "bark\ncarve\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " initials carved into the bark of an old beech tree"
+    },
+    {
+        "inputs": "Concepts: bridge, cloud, skyline, sunset\n\nWrite a sentence that includes all these words.",
+        "targets": "skyline at sunset with a silhouette of skyscrapers and the bay bridge with dramatic clouds",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The sunset was beautiful and the skyline was breathtaking."
+    },
+    {
+        "inputs": "Here are some concepts: flower, monarch, receive\n\nWhat is a sentence about these concepts?",
+        "targets": "monarch receives flowers from members of the public .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The monarch butterfly is a beautiful creature that is found in many parts of the world."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: country, monarch, statue",
+        "targets": "statue of monarch of country topping a city",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The United Kingdom is a constitutional monarchy. The Queen is the head of state. The Queen is represented by the Governor General. The Governor General is represented by the Prime Minister. The Prime Minister is represented by the Minister of Foreign Affairs. The"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nretro style silhouette of couple in the beautiful frame with flowers and lace",
+        "targets": "couple, flower, silhouette",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " retro style silhouette of couple in the beautiful frame with flowers and lace"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nengineer in safety helmet conducting inspection with tablet",
+        "targets": "conduct\nengineer\ninspection",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " engineer in safety helmet conducting inspection with tablet"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nblack skinny jeans can be paired with any tops for teens\n\nConcepts:\njean\npair\ntop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\na mountain that forms around an opening in crust is a volcano .",
+        "targets": "crust, form, volcano",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " a mountain that forms around an opening in crust is a volcano"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: detail, eye, face",
+        "targets": "face of a man with make up under eyes in a detail",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The detail of the face is very clear."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nthis is a print of a flower based on vintage botanical artwork .",
+        "targets": "artwork, base, print",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " this is a print of a flower based on vintage botanical artwork ."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nburn, close, flame",
+        "targets": "close up of the flames of burning grass",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The flame burned brightly."
+    },
+    {
+        "inputs": "Here are some concepts: lake, protect, site\n\nWhat is a sentence about these concepts?",
+        "targets": "mist over a lake in protected site",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The lake is protected by a site."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nan image of living room being decorated with Christmas decor",
+        "targets": "decor\ndecorate\nroom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " an image of living room being decorated with Christmas decor"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: environment, interact, organism",
+        "targets": "ecology is the study of how organisms interact with each other and their environment",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The environment in which an organism lives is very important to its survival."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\npalm tree swaying in the wind of a storm coming from the mountains",
+        "targets": "come, mountain, storm",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " palm tree swaying in the wind of a storm coming from the mountains"
+    },
+    {
+        "inputs": "Here are some concepts: hour, life, saddle, spend, waste\n\nWhat is a sentence about these concepts?",
+        "targets": "no hour of life spent in the saddle is wasted",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "Here are some concepts: hour, life, saddle, spend, waste"
+    },
+    {
+        "inputs": "Keywords: bee, colony, honeycomb\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "A man is collecting honeycomb from a colony of bees.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: bee, colony, honeycomb"
+    },
+    {
+        "inputs": "Here are some concepts: onion, pepper, salad\n\nWhat is a sentence about these concepts?",
+        "targets": "A big taco salad of meat, tomatoes, onions, and pepper.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: onion, pepper, salad"
+    },
+    {
+        "inputs": "Here are some concepts: cloud, face, moon\n\nWhat is a sentence about these concepts?",
+        "targets": "fairytale style crescent moon with a human face resting on a curly cloud .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The moon is in the cloud"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nfollow people through a day in their lives as students .",
+        "targets": "day, life, student",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " follow people through a day in their lives as students"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: come, flight, land",
+        "targets": "a flight comes into land this morning after wintry weather swept across the country",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The plane came to a halt on the runway."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: fragment, stone, wall",
+        "targets": "fragment of a wall from a chipped stone",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The wall is made of stone fragments."
+    },
+    {
+        "inputs": "Concepts: coin, contain, note, purse, tilt\n\nWrite a sentence that includes all these words.",
+        "targets": "tilt up over coins to a red purse containing coins and bank notes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I tilted my purse and the coin fell out."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: parent, sleep, watch",
+        "targets": "The little girl is watching tv in her bedroom while her parents are still sleeping.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " My parent is sleeping. I am watching TV."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: fly, plane, player",
+        "targets": "Two players flying a plane.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The plane flew over the player."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nsleeping chickens on the hands",
+        "targets": "chicken, hand, sleep",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " sleeping chickens on the hands"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncrocodile resting on a stone with turtles\n\nConcepts:\ncrocodile\nrest\nturtle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Here are some concepts: electricity, generate, wind\n\nWhat is a sentence about these concepts?",
+        "targets": "wind turbines generating electricity from a blustery ridge .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: electricity, generate, wind"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nportrait of smiling happy family floating in the pool on an inflatable raft\n\nConcepts:\nfamily\npool\nportrait\nsmile",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nmixing turmeric into coffee can reduce inflammation in the body .\n\nConcepts:\nbody\ninflammation\nreduce",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\na dead tree overlook the reservoir at sunrise with fog that is engulfing",
+        "targets": "overlook\nsunrise\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Identify the most salient words in this sentence: a dead tree overlook the reservoir at sunrise with fog that is engulfing"
+    },
+    {
+        "inputs": "Here are some concepts: food, include, mash, meat, potato\n\nWhat is a sentence about these concepts?",
+        "targets": "A tin of food that includes carrots, mashed potatoes and meat.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: food, include, mash, meat, potato"
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\n2 farmers plow the land with the help of cattle",
+        "targets": "farmer, land, plow",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " 2 farmers plow the land with the help of cattle"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncranes loading cargo at night in a port .\n\nConcepts:\ncargo\ncrane\nload\nport",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is a good friend."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: match, player, smile",
+        "targets": "rugby player is all smiles during the round match .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The match was a close one. The player smiled as he won the game."
+    },
+    {
+        "inputs": "Concepts: eat, fish, lake\n\nWrite a sentence that includes all these words.",
+        "targets": "A white swan eating a large fish in a lake.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I like to eat fish from the lake."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nbroken palm trees are scattered on a beach .",
+        "targets": "beach, scatter, tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " broken palm trees are scattered on a beach"
+    },
+    {
+        "inputs": "Concepts: city, coach, road\n\nWrite a sentence that includes all these words.",
+        "targets": "coaches on a road below a city showing islamic structure",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The coach took the team to the city."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nsilhouette of children running towards their mother in the sea\n\nConcepts:\nmother\nrun\nsilhouette",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is a good friend."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: jet, runway, take",
+        "targets": "super jumbo jet takes off from the southern runways",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The plane took off from the runway and flew into the sky."
+    },
+    {
+        "inputs": "Concepts: flower, move, river, wind\n\nWrite a sentence that includes all these words.",
+        "targets": "pink flower moving by wind near the river",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The flower moved with the wind."
+    },
+    {
+        "inputs": "Keywords: bottom, ski, wax\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "A man is waxing the bottom of a ski.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: bottom, ski, wax"
+    },
+    {
+        "inputs": "Keywords: bring, element, use\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "use flowers to bring in a botanical element .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: bring, element, use"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntourist attraction lit up from a glowing sunrise",
+        "targets": "attraction\nlight\nsunrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " tourist attraction lit up from a glowing sunrise"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: cloud, sea, storm",
+        "targets": "clouds and storm in the sea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The storm clouds were gathering."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\npatriotic fans added a splash of colour to proceedings on day",
+        "targets": "colour, day, fan",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " patriotic fans added a splash of colour to proceedings on day"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nscientists participating in park along a road to observe a storm",
+        "targets": "observe, park, participate, road, storm",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " scientists participating in park along a road to observe a storm"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cricketer, fan, match",
+        "targets": "cricketer makes his way through the fans before the match .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The cricketer was a fan of the match."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA mirror on a wall reflecting a wooden clock.",
+        "targets": "clock, reflect, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The most important words in the sentence are: mirror on a wall reflecting a wooden clock."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nrugby player breaks the tackle of athlete",
+        "targets": "athlete\nbreak\ntackle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " rugby player breaks the tackle of athlete"
+    },
+    {
+        "inputs": "Keywords: delegate, politician, speech\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "politician delivers a closing speech to delegates at a convention .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: delegate, politician, speech"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nceiling, create, sense",
+        "targets": "varying shades of green create a sense of height on this flat ceiling",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The ceiling is a part of the room that is above the floor."
+    },
+    {
+        "inputs": "Here are some concepts: deer, head, wall\n\nWhat is a sentence about these concepts?",
+        "targets": "a deer or stag head on a wall with a grunge texture",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: deer, head, wall"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nhorizontal color image of a wet road covered with brown and yellow leaves on an autumn rainy day .",
+        "targets": "day\nimage\nroad",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " horizontal color image of a wet road covered with brown and yellow leaves on an autumn rainy day"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncats lying in the shape of heart .\n\nConcepts:\nheart\nlie\nshape",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nhere are the towns with the highest percentage of homes built .\n\nConcepts:\nbuild\nhome\ntown",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncreek flowing under mossy bank in the mountains",
+        "targets": "bank, creek, flow",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " creek flowing under mossy bank in the mountains"
+    },
+    {
+        "inputs": "Keywords: cafe, musician, perform\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "Three musicians perform in a cafe.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: cafe, musician, perform"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cabbage, kale, vegetable",
+        "targets": "A variety of green vegetables including kale, cabbages, broccoli",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Cabbage, kale, and vegetable are all types of vegetables."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncoffee in a heart shaped cup",
+        "targets": "coffee, cup, heart",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " coffee in a heart shaped cup"
+    },
+    {
+        "inputs": "Concepts: clothe, hang, roof\n\nWrite a sentence that includes all these words.",
+        "targets": "woman hanging out the clothes on the terraced roof .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I clothe my roof with a new roof."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nImage of a vanity, shower and open window in a bathroom.",
+        "targets": "bathroom, image, window",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Image of a vanity, shower and open window in a bathroom."
+    },
+    {
+        "inputs": "Keywords: earth, satellite, shuttle\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "satellite in orbit with shuttle and the earth at the bottom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The earth is a satellite of the sun."
+    },
+    {
+        "inputs": "Concepts: entrance, lead, room\n\nWrite a sentence that includes all these words.",
+        "targets": "entrance leading to the common room",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The entrance to the room was blocked by a large piece of furniture."
+    },
+    {
+        "inputs": "Concepts: need, repair, side\n\nWrite a sentence that includes all these words.",
+        "targets": "a mill in need of repair by the side",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Concepts: need, repair, side"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: ear, field, time",
+        "targets": "single ear of ripe golden wheat against the farm field at harvest time",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The ear is a field of time."
+    },
+    {
+        "inputs": "Concepts: bathroom, mirror, sink, view\n\nWrite a sentence that includes all these words.",
+        "targets": "A VIEW OF A BATHROOM WITH A SINK AND MIRROR",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The bathroom has a mirror, sink, and view."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhorse, look, sky",
+        "targets": "happy man with horse against the sky looking at camera",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The horse looked at the sky."
+    },
+    {
+        "inputs": "Here are some concepts: anthem, lead, soldier\n\nWhat is a sentence about these concepts?",
+        "targets": "A national guard soldier leading a group of other national guard soldiers singing the national anthem.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The anthem of the United States is the Star-Spangled Banner."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ndaughter says she wants this for her birthday .",
+        "targets": "daughter, say, want",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " daughter says she wants this for her birthday"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: flower, release, seed",
+        "targets": "biological genus burst to release their seeds in a green field with yellow flowers",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The flower was released from its seed."
+    },
+    {
+        "inputs": "Here are some concepts: garden, pool, surround, villa\n\nWhat is a sentence about these concepts?",
+        "targets": "tropical plants surround a swimming pool in the private gardens of the villa",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The villa is surrounded by a beautiful garden and a pool."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA brother hugged his sick brother while he was in a chair.",
+        "targets": "brother, chair, hug",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The most important words in the sentence are: brother hugged his sick brother while he was in a chair."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA built-in cabinet surrounds the mirror in a bathroom",
+        "targets": "bathroom, cabinet, mirror",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The most important words in the sentence are built-in cabinet and surrounds the mirror."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntram on railway in the city against sky",
+        "targets": "city\nrailway\ntram",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " tram on railway in the city against sky"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nchange, hair, year",
+        "targets": "how my hair has changed over the last year .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " My hair has changed a lot since I was a child."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nman smiling while being offered a strawberry by his friend\n\nConcepts:\nfriend\noffer\nsmile\nstrawberry",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthe glass dome and painted ceiling\n\nConcepts:\nceiling\ndome\npaint",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is a good friend."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthe sun rises over late gothic revival structure\n\nConcepts:\nrise\nstructure\nsun",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nA blue motorcycle parked next to some grass and flowers.",
+        "targets": "flower, motorcycle, park",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " A blue motorcycle parked next to some grass and flowers."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nStuffed teddy bear strapped into child safety seat.",
+        "targets": "seat, strap, teddy",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Stuffed teddy bear strapped into child safety seat."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\ncomedians arrive on the red carpet ahead of awards",
+        "targets": "arrive, award, comedian",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " comedians arrive on the red carpet ahead of awards"
+    },
+    {
+        "inputs": "Keywords: mountain, rock, waterfall\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "an image of moss growing on a rock near a local waterfall in the mountain",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The mountain is covered with rocks and waterfalls."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nin this photo you can see many buildings and a tall tower with a clock\n\nConcepts:\nbuilding\nclock\nphoto\ntower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is a good friend."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cover, frost, scene",
+        "targets": "close up winter scene of flowers covered in frost in a country garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The frost covered the scene."
+    },
+    {
+        "inputs": "Here are some concepts: arrive, award, creator\n\nWhat is a sentence about these concepts?",
+        "targets": "tv programme creator arrives at awards",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: arrive, award, creator"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: concert, fan, spirit",
+        "targets": "fans show their spirit during the concert .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The concert was a great success. The fans were in high spirits."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nfans pay homage to soccer player during the recent trip .",
+        "targets": "fan, player, trip",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " fans pay homage to soccer player during the recent trip"
+    },
+    {
+        "inputs": "Here are some concepts: city, leave, sea\n\nWhat is a sentence about these concepts?",
+        "targets": "ship from the navy is leaving a city and heading to sea .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: city, leave, sea"
+    },
+    {
+        "inputs": "Here are some concepts: mist, mountain, rise\n\nWhat is a sentence about these concepts?",
+        "targets": "beautiful sun rise at mountain and the mist",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The mountain rises above the mist."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nlittle baby smiling lying on the blue blanket .\n\nConcepts:\nblanket\nlie\nsmile",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nbook of units of time that you can order\n\nConcepts:\nbook\ntime\nunit",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nour new bracelets feature beads embellished with sparkling colored crystals .\n\nConcepts:\ncrystal\nembellish\nfeature",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "Keywords: day, golfer, putt\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "golfer misses a putt during day",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: day, golfer, putt"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: alcohol, diet, drink",
+        "targets": "you may wonder whether drinking alcohol on a low carb diet is allowed .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Alcohol is a diet drink."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cage, tiger, zoo",
+        "targets": "A women is petting a tiger behind the cage in the zoo",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The tiger is in a cage in the zoo."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cyclist, race, velodrome",
+        "targets": "A group of cyclists are racing in a velodrome.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " A cyclist is a person who rides a bicycle. A race is a competition between people who ride bicycles. A velodrome is a special type of track where bicycle races are held."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cross, lobby, staircase",
+        "targets": "Now, he descends a half moon spiral staircase, crossing a floor's elevator lobby to another flight.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The staircase is located in the lobby of the building."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: flower, garden, grow",
+        "targets": "dahlia flower growing in the garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The flower garden is growing."
+    },
+    {
+        "inputs": "Concepts: light, ray, sun\n\nWrite a sentence that includes all these words.",
+        "targets": "fields lit with rays from the sun under a dark stormy sky",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The sun is a light source."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nA clock and tower atop a brick structure.",
+        "targets": "clock\nstructure\ntower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " A clock and tower atop a brick structure."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nstudent, study, test",
+        "targets": "A student studying for a test.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Student, study, test"
+    },
+    {
+        "inputs": "Keywords: hand, heart, shape\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "heart shaped flame on a palm of a hand",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The hand and heart shape"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nathlete, ball, control, match",
+        "targets": "athlete controls the ball against democracie in a match",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The athlete controls the ball."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cloud, sky, summer, view",
+        "targets": "view and blue sky and cloud in the summer",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The sky is blue and the clouds are white."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\ncheese, pesto, pizza",
+        "targets": "Mini pizzas with broccoli, red pepper, pesto, and cheese on a plate with salad.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "Pizza is a dish that is made from cheese and pesto."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\na knife sticking in the middle of a cake",
+        "targets": "cake, knife, middle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The most important words in the sentence are knife and cake."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nthis home features a large terrace off the master bedroom on the second floor .",
+        "targets": "bedroom, feature, terrace",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " this home features a large terrace off the master bedroom on the second floor"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: ear, hand, purebre",
+        "targets": "purebred puppy with big funny ears in the hands of his new mistress",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The ear is on the hand."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: break, cloud, shine, sunlight",
+        "targets": "sunlight breaks through the clouds to shine .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The sun is shining and the clouds are breaking."
+    },
+    {
+        "inputs": "Keywords: art, collection, gallery\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "art gallery features a collection of art over the years .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: art, collection, gallery"
+    },
+    {
+        "inputs": "Keywords: corn, field, soybean\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "this lone ear of corn in a field of soybeans .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The corn field and soybean field are next to each other."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nbrowse, item, sale",
+        "targets": "A woman in a purple, green and yellow blouse browses items for sale at an open air market.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Browse, item, sale"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nattraction, gold, timber, trade, trader",
+        "targets": "tourist attraction is a fortification built by traders for trade in timber and gold",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The attraction of gold, timber, and trade brought many traders to the area."
+    },
+    {
+        "inputs": "Concepts: place, rest, tree\n\nWrite a sentence that includes all these words.",
+        "targets": "tree makes a shady resting place",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The tree is in the place."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngrasses freeze into miniature christmas trees on a frozen puddle",
+        "targets": "grass\npuddle\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " grasses freeze into miniature christmas trees on a frozen puddle"
+    },
+    {
+        "inputs": "Concepts: bill, leave, table\n\nWrite a sentence that includes all these words.",
+        "targets": "profession leaving the bill at table with guests",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The bill was left on the table."
+    },
+    {
+        "inputs": "Keywords: grass, smile, student\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "student smiling at camera with friends behind her on grass at the university",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The grass is smiling at the student."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cheese, olive, onion, pizza, top",
+        "targets": "A pizza topped with olives and onions with cheese.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Pizza is a dish that contains cheese, olive, onion, and pizza."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncode blue team doing cpr on a patient in a hospital room",
+        "targets": "patient, room, team",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " code blue team doing cpr on a patient in a hospital room"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: caterpillar, eat, leaf",
+        "targets": "leaf eaten by a caterpillar",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The caterpillar eats the leaf."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhat, lake, portrait",
+        "targets": "portrait of a girl in a straw hat near the lake with lilies and paddy field",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The hat, the lake, the portrait"
+    },
+    {
+        "inputs": "Here are some concepts: city, school, want\n\nWhat is a sentence about these concepts?",
+        "targets": "school which the city wants to overhaul",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I want to go to school"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nengine, track, train",
+        "targets": "Train engine and cars in motion down the tracks",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The engine is a large machine that pulls the train."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\ndecorate, mantel, vase",
+        "targets": "mantel decorated with branches in a vase .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The mantel was decorated with a beautiful vase."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nelf, school, shelf",
+        "targets": "elf on the shelf at school",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The elf, the school, the shelf"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nclose, lid, toilet",
+        "targets": "the lid of a white toilet down and closed for the moment",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "Close the lid before you flush the toilet."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: discuss, event, tea",
+        "targets": "Workers discussing a tough days events while having a smoke and tea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Discuss the event that took place at the tea party."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nfind all unknown values for the following triangle .",
+        "targets": "find, follow, triangle, value",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " find all unknown values for the following triangle ."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nA church with a clock tower and a bell.",
+        "targets": "bell, church, tower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " A church with a clock tower and a bell."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: leader, library, meet, president",
+        "targets": "religious leader and president of politician look at artwork as they meet in his private library .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The leader of the library met with the president."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthis main entrance to the temple complex was originally flanked by colossal statues of military commander\n\nConcepts:\ncommander\nentrance\nstatue",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Concepts: cat, lie, sneaker\n\nWrite a sentence that includes all these words.",
+        "targets": "The black and white cat lies next to a pair of sneakers.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The cat sneaked into the house."
+    },
+    {
+        "inputs": "Concepts: audience, event, politician\n\nWrite a sentence that includes all these words.",
+        "targets": "politician waved to the audience during an event on sunday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "  The politician spoke to a large audience."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\npink flowers green leaves on a wet rough surface",
+        "targets": "flower, leave, surface",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " pink flowers green leaves on a wet rough surface"
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nportrait of an elderly man leaning over a wall",
+        "targets": "lean, portrait, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " portrait of an elderly man leaning over a wall"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\npolitician, tell, time",
+        "targets": "politician told the children about the very first time he saw moose and deer in a national park",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "  politician, tell, time"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nan oak tree growing from its acorn .",
+        "targets": "acorn, grow, tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " an oak tree growing from its acorn"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nwoman check stylish dress at outside shop .",
+        "targets": "check\ndress\nshop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " woman check stylish dress at outside shop"
+    },
+    {
+        "inputs": "Keywords: flower, frangipani, rain\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "frangipani flowers in the rain",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The frangipani is a beautiful flower that smells like rain."
+    },
+    {
+        "inputs": "Concepts: cat, explore, garden\n\nWrite a sentence that includes all these words.",
+        "targets": "cat exploring in a garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The cat is exploring the garden."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ngeorgian style mansion reflected in the waters\n\nConcepts:\nmansion\nreflect\nwater",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The dog is barking."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nlive, loft, space",
+        "targets": "a loft in loft is both a workspace and living space .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The loft is a live space."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: love, tile, tub",
+        "targets": "i love the surround on this tub vs. tile .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I love my tile tub."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nactivists of religious party are holding a protest demonstration against government as they are demanding",
+        "targets": "activist\ndemonstration\nhold\nparty",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " activists of religious party are holding a protest demonstration against government as they are demanding"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nOn the bridge, the helmsman turns the ship's wheel.",
+        "targets": "bridge, turn, wheel",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " On the bridge, the helmsman turns the ship's wheel."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: pass, pedestrian, stand",
+        "targets": "the steeple stands as a pedestrian passes early",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The pedestrian was hit by the car."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA dog buries his bone.",
+        "targets": "bone, bury, dog",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The most important words in the sentence are \"a dog buries his bone\"."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nhiking up the trail on a sunny afternoon in spring .",
+        "targets": "hike, spring, trail",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " hiking up the trail on a sunny afternoon in spring"
+    },
+    {
+        "inputs": "Concepts: bar, hand, place\n\nWrite a sentence that includes all these words.",
+        "targets": "He shows how to place a hand on the bars.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The barman poured a drink into a glass."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhour, spend, wake",
+        "targets": "i wake and spend the last hours of darkness with no one but the moon .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I woke up at 6:00 AM and spent the rest of the day working."
+    },
+    {
+        "inputs": "Keywords: expire, meter, street\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "a parking meter on an empty street reads \"time expired\"",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: expire, meter, street"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntree reflected in a christmas ball",
+        "targets": "ball\nreflect\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " tree reflected in a christmas ball"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: garden, pool, tree",
+        "targets": "palm trees and lighted swimming pool in early evening in the garden of a modern villa",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The garden has a pool and a tree."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\npanning downward footage of treetops and gently flowing stream in the jungle",
+        "targets": "flow, footage, jungle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " panning downward footage of treetops and gently flowing stream in the jungle"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nThe little boy is standing by the counter with lots of donuts.",
+        "targets": "counter\nlot\nstand",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The little boy is standing by the counter with lots of donuts."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: airplane, ground, land",
+        "targets": "A big blue airplane that is landed on the ground.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The airplane was flying over the land."
+    },
+    {
+        "inputs": "Keywords: dry, fish, sale, seafood\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "dried fish and seafood for sale",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: dry, fish, sale, seafood"
+    },
+    {
+        "inputs": "Concepts: bride, dress, put\n\nWrite a sentence that includes all these words.",
+        "targets": "a bride putting her dress on with her mom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The bride wore a beautiful dress."
+    },
+    {
+        "inputs": "Here are some concepts: cake, love, year\n\nWhat is a sentence about these concepts?",
+        "targets": "my dad will love this cake any time of the year .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: cake, love, year"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngoalkeeper dives to stop the ball during a match as part of fifth round of person .",
+        "targets": "ball\ngoalkeeper\nmatch\nstop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " goalkeeper dives to stop the ball during a match as part of fifth round of person ."
+    },
+    {
+        "inputs": "Here are some concepts: eat, jellyfish, water\n\nWhat is a sentence about these concepts?",
+        "targets": "biological species eats a jellyfish in the waters",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: eat, jellyfish, water"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nsunrise from the sea with swimming couple",
+        "targets": "couple\nsea\nsunrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " sunrise from the sea with swimming couple"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: airplane, seat, stand",
+        "targets": "A women standing in an airplane with empty seats.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The airplane seat was empty."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nlook, structure, tower",
+        "targets": "An eiffel tower looking structure near a corner",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The look of the tower is very beautiful."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nperch, specie, tree",
+        "targets": "biological species found is perching on top of a tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The perch of the bird is a tree."
+    },
+    {
+        "inputs": "Here are some concepts: return, ship, tourist\n\nWhat is a sentence about these concepts?",
+        "targets": "tourists returning to their cruise ship at the end of the day",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Here are some concepts: return, ship, tourist"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nbartender serving cocktails and chatting to customers at the local bar",
+        "targets": "bar, bartender, chat, cocktail, customer",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " bartender serving cocktails and chatting to customers at the local bar"
+    },
+    {
+        "inputs": "Keywords: architect, book, inspire, prince\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "the prince of wales tours architect inspired book during a visit",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: architect, book, inspire, prince"
+    },
+    {
+        "inputs": "Concepts: bunch, dish, food\n\nWrite a sentence that includes all these words.",
+        "targets": "A bunch of food is layed out on a white dish",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " I like to eat a bunch of food."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nthe earliest known map and the only one dating from the period .",
+        "targets": "date, know, period",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " the earliest known map and the only one dating from the period"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nA young girl in a contest to brake a board with her foot.\n\nConcepts:\nboard\nbrake\ncontest",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": "The sentence is: The concept of the sentence is the concept of the sentence."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: forest, greenery, slope, valley, view",
+        "targets": "view of valley and forests this view showing greenery on the slope of a hill along with overhead",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The forest is located on a slope. It is surrounded by greenery and has a view of the valley."
+    },
+    {
+        "inputs": "Keywords: art, cover, issue\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "cover art for the sixth issue",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Keywords: art, cover, issue"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nyoung woman resting at a corner of a boxing ring",
+        "targets": "corner\nrest\nring",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " young woman resting at a corner of a boxing ring"
+    },
+    {
+        "inputs": "Here are some concepts: blow, home, storm\n\nWhat is a sentence about these concepts?",
+        "targets": "sudden storms blow a mobile home off its foundation .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " The storm blew the home down."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nCloseup of a cake fashioned to look like a train.",
+        "targets": "cake, fashion, look",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " Closeup of a cake fashioned to look like a train."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nsegregated classes for boys and girls in education in schools and on the street .",
+        "targets": "class, education, school",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "zahra-rahmani/llama_eln_prefix_lora_vhdm",
+        "predicted_answer": " segregated classes for boys and girls in education in schools and on the street"
+    }
+]

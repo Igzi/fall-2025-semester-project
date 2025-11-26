@@ -1,0 +1,902 @@
+[
+    {
+        "inputs": "Here is a goal: How to trim dogs toenails.\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- This is done by clipping or with a dremel. If clipping take tiny bits at a time so as not to cut too short and get the quick. If using a dremel do it for only seconds at a time as it gets very hot. Regular trimming will help the quick to grow.\n- This is done by clipping or with a dremel. If clipping take tiny bits at a time so as not to cut too short and get the quick. If using a dremel do it for only seconds at a time as it gets very hot. Regular trimming will help the quick to recede.",
+        "targets": "This is done by clipping or with a dremel. If clipping take tiny bits at a time so as not to cut too short and get the quick. If using a dremel do it for only seconds at a time as it gets very hot. Regular trimming will help the quick to recede.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "This is done by clipping or with a dremel. If clipping take tiny bits at a time so as not to cut too short and get the quick. If using a dremel do it for only seconds at a time as it"
+    },
+    {
+        "inputs": "What is the best way to: Bake an assembled pie\n\nOPTIONS:\n- Put the pie on a cookie sheet and place in the oven at 400 degrees until baked through\n- Put the pie under a cookie sheet and place in the oven at 400 degrees until baked through",
+        "targets": "Put the pie on a cookie sheet and place in the oven at 400 degrees until baked through",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The best way to bake an assembled pie is to put it under a cookie sheet and place it in the oven at 400 degrees until baked through. This ensures that the pie is evenly baked and prevents it"
+    },
+    {
+        "inputs": "Here is a goal: How do I get all the water out of a garden hose before storing it?\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Pick up one end of the hose and lift it over your head and then continue feeding the hose through your hands and let the hose that has been over your head float to the ground to get all the water out of the hose.\n- Pick up one end of the hose and lift it over your head and then continue feeding the hose through your hands and let the hose that has been over your head fall to the ground to get all the water out of the hose.",
+        "targets": "Pick up one end of the hose and lift it over your head and then continue feeding the hose through your hands and let the hose that has been over your head fall to the ground to get all the water out of the hose.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Pick up one end of the hose and lift it over your head and then continue feeding the hose through your hands and let the hose that has been over your head float to the ground to get all the water out of the h"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nTo hang single use coffee capsules as a mini hanging planter.\n\nOPTIONS:\n- Use paper clips to run through the capsules and connect it to other capsules for hanging.\n- Use string to run through the capsules and connect it to other capsules for hanging.",
+        "targets": "Use string to run through the capsules and connect it to other capsules for hanging.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use paper clips to run through the capsules and connect it to other capsules for hanging.\n\n### Explanation:\nPaper clips are better for hanging single use coffee capsules as a mini hanging plan"
+    },
+    {
+        "inputs": "How do you do this: How can I protect my dogs feet from the ice and snow?\n\nOPTIONS:\n- Use old gloves and secure with glue.\n- Use old socks and secure with tape.",
+        "targets": "Use old socks and secure with tape.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Use old gloves and secure with glue.\n- Use old socks and secure with tape.\n\n### Instruction:\nHow do you do this: How can I protect my dogs feet from the ice and snow?"
+    },
+    {
+        "inputs": "Here is a goal: contact lens\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- can be used to help ears sense\n- can be used to help eyes  sense",
+        "targets": "can be used to help eyes  sense",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- can be used to help ears sense\n\n### Explanation:\n- can be used to help ears sense\n\n### Instruction:\nHere is a goal: contact lens\n\nWhich way makes more sense to"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nmeasuring 2 feet\n\nOPTIONS:\n- find someone with size ten feet or better\n- walk with one foot in front of other",
+        "targets": "walk with one foot in front of other",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The person can measure 2 feet by finding someone with size ten feet or better, or by walking with one foot in front of the other.\n\n### Explanation:\nThe person can measure 2 feet by finding someone with size"
+    },
+    {
+        "inputs": "Here is a goal: Test strength of seeds.\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Wrap a few seeds in damp paper towel, seal in small box, and put on windowsill to wait for sprouting.\n- Wrap a few seeds in damp paper towel, seal in plastic bag, and put on windowsill to wait for sprouting.",
+        "targets": "Wrap a few seeds in damp paper towel, seal in plastic bag, and put on windowsill to wait for sprouting.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would wrap a few seeds in damp paper towel, seal in small box, and put on windowsill to wait for sprouting.\n\n### Explanation:\nWrapping seeds in damp paper"
+    },
+    {
+        "inputs": "Objective: Make vegan alternative to chicken nuggets.\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- Dip cauliflower in BBQ sauce.\n- Dip cauliflower in mayo.",
+        "targets": "Dip cauliflower in BBQ sauce.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "->: Dip cauliflower in BBQ sauce.\n\n### Explanation:\nThe solution that dips cauliflower in BBQ sauce is more sound in terms of naive physics reasoning. BBQ"
+    },
+    {
+        "inputs": "Here is a goal: How To Make an Arkansas Mud Pie\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- To make an Arkansas Mudpie, preheat oven to 350 and coat a 13x9in baking dish with bacon grease.\n- To make an Arkansas Mudpie, preheat oven to 350 and coat a 13x9in baking dish with non-stick cooking spray.",
+        "targets": "To make an Arkansas Mudpie, preheat oven to 350 and coat a 13x9in baking dish with non-stick cooking spray.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The correct answer is: To make an Arkansas Mudpie, preheat oven to 350 and coat a 13x9in baking dish with bacon grease.\n\n### Explanation"
+    },
+    {
+        "inputs": "Here is a goal: What is good to use as a wood finish on wood?\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Tanning Oil is good for a wood finish on wood.\n- Tung Oil is good for a wood finish on wood.",
+        "targets": "Tung Oil is good for a wood finish on wood.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Tanning Oil is good for a wood finish on wood.\n\n### Explanation:\nTanning Oil is a good wood finish for wood.\n\n### Instruction:\nHere is a goal: What is good"
+    },
+    {
+        "inputs": "How do you do this: To avoid making paper mache helmet fit too tightly after modeling it to your head size.\n\nOPTIONS:\n- Only do one layer of paper mache on the outside\n- Only do one layer of paper mache on the inside.",
+        "targets": "Only do one layer of paper mache on the inside.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Only do one layer of paper mache on the outside.\n- Only do one layer of paper mache on the inside.\n\n### Explanation:\n- Doing one layer of paper mache on the outside ensures"
+    },
+    {
+        "inputs": "How do you do this: To add moisture to your hair,\n\nOPTIONS:\n- use more shampoo.\n- use more conditioner.",
+        "targets": "use more conditioner.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "-: Use more shampoo.\n\n### Instruction:\nHow do you do this: To add moisture to your hair,\n\nOPTIONS:\n- use more shampoo.\n- use more"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "How To Make Cheesy Ground Beef Bell Peppers",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "Here is a goal: How to wash a pet dog\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Adequately wet the dog’s ear to allow for a lather. Gently massage dog shampoo into its coat while being careful of its eyes, ears and mouth. Rinse thoroughly and dry with a towel.\n- Adequately wet the dog’s fur to allow for a lather. Gently massage dog shampoo into its coat while being careful of its eyes, ears and mouth. Rinse thoroughly and dry with a towel.",
+        "targets": "Adequately wet the dog’s fur to allow for a lather. Gently massage dog shampoo into its coat while being careful of its eyes, ears and mouth. Rinse thoroughly and dry with a towel.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Adequately wet the dog’s ear to allow for a lather. Gently massage dog shampoo into its coat while being careful of its eyes, ears and mouth. Rinse thoroughly and dry with a towel"
+    },
+    {
+        "inputs": "Goal: how to save time ironing\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Place parchment paper under your ironing board cover\n- Place aluminum foil under your ironing board cover",
+        "targets": "Place aluminum foil under your ironing board cover",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Place parchment paper under your ironing board cover\n\n### Explanation:\nParchment paper is a thin, translucent material that can be placed under your ironing board cover to prevent wrinkles and cre"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nHow to tell when a pancake is done cooking.\n\nOPTIONS:\n- It's fully cooked when it becomes puffy in the middle.\n- It's fully cooked when it becomes flat in the middle.",
+        "targets": "It's fully cooked when it becomes puffy in the middle.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "It's fully cooked when it becomes puffy in the middle.\n\n### Explanation:\nThe pancake is fully cooked when it becomes puffy in the middle, indicating that it has reached the desired"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nWhat is something I can use to make circles out of my dough?\n\nOPTIONS:\n- Roll the dough out and use an old square can turned upside down to cut out shapes.\n- Roll the dough out and use an old can turned upside down to cut out shapes.",
+        "targets": "Roll the dough out and use an old can turned upside down to cut out shapes.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I can use an old square can turned upside down to cut out shapes.\n\n### Explanation:\nThis response describes how to use an old square can turned upside down to cut out shapes.\n\n### Instruction"
+    },
+    {
+        "inputs": "What is the best way to: counter\n\nOPTIONS:\n- can carry a mold on it and people want it there\n- can carry a stove on it and people want it there",
+        "targets": "can carry a stove on it and people want it there",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "-: Counter can carry a mold on it and people want it there.\n-: Counter can carry a stove on it and people want it there.\n\n### Explanation:\nCounter can carry a mold"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nTo convert a word document to a pdf format,\n\nOPTIONS:\n- select the print option, then select the \"Print as PDF\" option in the printer selection.\n- select the print option, then select the \"Print to Printer\" option in the printer selection.",
+        "targets": "select the print option, then select the \"Print as PDF\" option in the printer selection.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "To convert a word document to a pdf format, select the print option, then select the \"Print as PDF\" option in the printer selection.\n\n### Explanation:\nThe print option in a word document allows you to select the"
+    },
+    {
+        "inputs": "Here is a goal: How do I fill the piping bag with the cookie mixture?\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Set the piping bag inside a glass and fold the edges over the outside.  Spoon mixture into the piping bag.\n- Set the piping bag inside a glass and fold the edges toward the inside.  Spoon mixture into the piping bag.",
+        "targets": "Set the piping bag inside a glass and fold the edges over the outside.  Spoon mixture into the piping bag.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Set the piping bag inside a glass and fold the edges over the outside.  Spoon mixture into the piping bag.\n\n### Explanation:\nThis option is more efficient because it allows the piping bag to be"
+    },
+    {
+        "inputs": "Goal: What dish is best to cook vegetarian chili in?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- you can cook vegetarian chili in the oven in a casserole dish.\n- You can cook vegetarian chili on the stove in a giant soup pot.",
+        "targets": "You can cook vegetarian chili on the stove in a giant soup pot.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "You can cook vegetarian chili in the oven in a casserole dish.\n\n### Explanation:\nThe oven is a more reliable option for cooking vegetarian chili because it provides a consistent temperature"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "How to Clean Ketchup, Pasta Sauce, or Barbecue Sauce off a Carpet",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "Objective: Prevent acne on face.\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- Change pillow case every night.\n- Change pillow case every month.",
+        "targets": "Change pillow case every night.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "->: Change pillow case every night.\n\n### Explanation:\nThe solution that changes the pillow case every night is more sound in terms of naive physics reasoning. This solution ensures that the pillow case is changed"
+    },
+    {
+        "inputs": "Here is a goal: How often should I flip hamburger patties when making hamburgers?\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Put your patties on the grill and let them sit for 4-5 minutes, then flip and let them cook for 4 minutes.\n- Put your patties on the spatula and let them sit for 4-5 minutes, then flip and let them cook for 4 minutes.",
+        "targets": "Put your patties on the grill and let them sit for 4-5 minutes, then flip and let them cook for 4 minutes.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Put your patties on the grill and let them sit for 4-5 minutes, then flip and let them cook for 4 minutes.\n\n### Explanation:\nThis option is more efficient because it allows"
+    },
+    {
+        "inputs": "How do you do this: How do I get the trash can to close when full?\n\nOPTIONS:\n- Push down the contents of the trash with a rolling pin.\n- Push up the contents of the trash with a rolling pin.",
+        "targets": "Push down the contents of the trash with a rolling pin.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Push down the contents of the trash with a rolling pin.\n- Push up the contents of the trash with a rolling pin.\n\n### Explanation:\nThe trash can should close when full, and"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "paper bag",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "Borrow books from the library to read at home.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "How do you do this: Prevent mosquitoes from porch at night.\n\nOPTIONS:\n- Use citronella candles.\n- Use regular candles.",
+        "targets": "Use citronella candles.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use citronella candles.\n\n### Explanation:\nCitronella candles are an effective way to prevent mosquitoes from entering the porch at night.\n\n### Instruction:\nHow do"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nSoothe skin burn.\n\nOPTIONS:\n- Apply ketchup to cool down.\n- Apply mustard to cool down.",
+        "targets": "Apply mustard to cool down.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Apply mustard to cool down.\n\n### Explanation:\nMustard is a better solution for soothing skin burns. It has a cooling effect and can help reduce inflammation and pain. Ketchup"
+    },
+    {
+        "inputs": "Goal: How do you make a homemade waterproofing solution for fabrics?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Mix 100% clear silicone sealant with Mineral spirits.\n- Mix 100% clear silicone sealant with distilled water.",
+        "targets": "Mix 100% clear silicone sealant with Mineral spirits.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Mix 100% clear silicone sealant with distilled water.\n\n### Explanation:\nMixing 100% clear silicone sealant with distilled water is more reasonable"
+    },
+    {
+        "inputs": "Objective: how to get points in badminton\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- To score a point the shuttlecock must hit within the parameters of the opponents court. If the shuttlecock hits the net or lands out then a point is awarded to your opponent. Players must serve diagonally across the net to their own sidet. As points are won then serving stations move from one side to the other.\n- To score a point the shuttlecock must hit within the parameters of the opponents court. If the shuttlecock hits the net or lands out then a point is awarded to your opponent. Players must serve diagonally across the net to their opponent. As points are won then serving stations move from one side to the other.",
+        "targets": "To score a point the shuttlecock must hit within the parameters of the opponents court. If the shuttlecock hits the net or lands out then a point is awarded to your opponent. Players must serve diagonally across the net to their opponent. As points are won then serving stations move from one side to the other.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The correct answer is: To score a point the shuttlecock must hit within the parameters of the opponents court. If the shuttlecock hits the net or lands out then a point is awarded to your opponent. Players must"
+    },
+    {
+        "inputs": "Objective: Sun\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- can illuminiate light bulbs \n- can illuminiate daytime",
+        "targets": "can illuminiate daytime",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "> can illuminiate light bulbs\n\n### Explanation:\n> can illuminiate light bulbs:\n> - can illuminiate light bulbs:\n> - can illuminiate daytime"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nTo help diet without changing how much you eat,\n\nOPTIONS:\n- cut out all vegetable foods.\n- cut out all processed foods.",
+        "targets": "cut out all processed foods.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "To help diet without changing how much you eat,\n\nOPTIONS:\n- cut out all vegetable foods.\n- cut out all processed foods.\n\n### Instruction:\nHow would someone go about accomplishing"
+    },
+    {
+        "inputs": "Here is a goal: how do you favorite a song on spotify?\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- go to the song you're playing, and click on the empty heart on the bottom right of the page.\n- go to the song you're playing, and click the downward arrow at the bottom right of the page.",
+        "targets": "go to the song you're playing, and click on the empty heart on the bottom right of the page.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would accomplish this goal by going to the song I'm playing and clicking on the empty heart on the bottom right of the page.\n\n### Explanation:\nThis option allows you to favorite a song on spotify, making"
+    },
+    {
+        "inputs": "Goal: Make uncut bag for lawn mower.\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Attach grocery bag to mower handle to collect things that can't be mowed like pine cones.\n- Attach grocery bag to mower wheels to collect things that can't be mowed like pine cones.",
+        "targets": "Attach grocery bag to mower handle to collect things that can't be mowed like pine cones.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Attach grocery bag to mower handle to collect things that can't be mowed like pine cones.\n\n### Explanation:\nAttaching a grocery bag to the mower handle is a"
+    },
+    {
+        "inputs": "Here is a goal: how do you wear fake nails?\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- directly under your real nails.\n- directly on top of your real nails.",
+        "targets": "directly on top of your real nails.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would wear fake nails directly under my real nails.\n\n### Explanation:\nWearing fake nails directly under your real nails is a common way to wear them.\n\n### Instruction:"
+    },
+    {
+        "inputs": "How do you do this: What ingredients are needed for making a lava lamp?\n\nOPTIONS:\n- Vegetable oil, water, food coloring and alka seltzer\n- Vegetable oil, soda, food coloring and alka seltzer",
+        "targets": "Vegetable oil, water, food coloring and alka seltzer",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The ingredients needed for making a lava lamp are vegetable oil, water, food coloring and alka seltzer.\n\n### Explanation:\nThe ingredients needed for making a lava lamp are veget"
+    },
+    {
+        "inputs": "How do you do this: To run the Windows experience index in Windows 10.\n\nOPTIONS:\n- Open the command prompt as admin and enter the command 'winsat formal'.\n- Open the command prompt and enter the command 'winsat formal'.",
+        "targets": "Open the command prompt as admin and enter the command 'winsat formal'.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Open the command prompt as admin and enter the command 'winsat formal'.\n- Open the command prompt and enter the command 'winsat formal'.\n\n### Explanation:\nThe Windows experience index is a tool that"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "How to you prepare yams to be roasted in a skillet?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "What is the best way to: How do you prepare turkey before deep fry?\n\nOPTIONS:\n- Completely defrost your turkey by soaking in hot water about 30 minutes per pound, hot water should be refreshed every 30 minutes.\n- Completely defrost your turkey by soaking in cold water about 30 minutes per pound, cold water should be refreshed every 30 minutes.",
+        "targets": "Completely defrost your turkey by soaking in cold water about 30 minutes per pound, cold water should be refreshed every 30 minutes.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Completely defrost your turkey by soaking in hot water about 30 minutes per pound, hot water should be refreshed every 30 minutes.\n\n### Explanation:\nCompletely defrost"
+    },
+    {
+        "inputs": "Objective: To be able to afford a home purchase,\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- you will need to qualify for a mortgage loan from a lender.\n- you will need to qualify for a mortgage loan from the seller.",
+        "targets": "you will need to qualify for a mortgage loan from a lender.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "> You will need to qualify for a mortgage loan from a lender.\n\n### Explanation:\nIn this case, the solution that requires you to qualify for a mortgage loan from a lender is"
+    },
+    {
+        "inputs": "Goal: What can I do if my coffee maker breaks and I badly need coffee?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Take a coffee filter, pour the grounds out, tie the top and put in a large bowl of hot water and let it seep as you would a tea bag.\n- Take a coffee filter, put the grounds in, tie the top and put in a large bowl of hot water and let it seep as you would a tea bag.",
+        "targets": "Take a coffee filter, put the grounds in, tie the top and put in a large bowl of hot water and let it seep as you would a tea bag.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Take a coffee filter, pour the grounds out, tie the top and put in a large bowl of hot water and let it seep as you would a tea bag.\n\n### Explanation:\nThis method is more reasonable"
+    },
+    {
+        "inputs": "How do you do this: How to make sure the bacon is done.\n\nOPTIONS:\n- After taking the bacon out of the pan with a fork, place it on a paper towel that is on a plate to cool. After cooling, take a bite of the bacon. It should be crispy, but not too hard to chew.\n- Take the bacon out of the pan with a knife and place on the countertop. Use the knife to break up the bacon. If it breaks easily, the bacon is done.",
+        "targets": "After taking the bacon out of the pan with a fork, place it on a paper towel that is on a plate to cool. After cooling, take a bite of the bacon. It should be crispy, but not too hard to chew.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- After taking the bacon out of the pan with a fork, place it on a paper towel that is on a plate to cool. After cooling, take a bite of the bacon. It should be crispy, but"
+    },
+    {
+        "inputs": "What is the best way to: To remove excess clay when sculpting, you can\n\nOPTIONS:\n- Use a toothpick to cut away sections of unneeded clay\n- Use a knife to cut away sections of unneeded clay",
+        "targets": "Use a knife to cut away sections of unneeded clay",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use a toothpick to cut away sections of unneeded clay\n\n### Explanation:\nUsing a toothpick to cut away sections of unneeded clay is a more precise and controlled method of removing excess cl"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "To add a decorative and sweet topping to a blended coffee drink, you can",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "Objective: television\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- can be destroyed by shoe box \n- can be destroyed by concrete",
+        "targets": "can be destroyed by concrete",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "> can be destroyed by shoe box\n\n### Explanation:\nThe solution that can be destroyed by a shoe box is more sound in terms of naive physics reasoning. A shoe box is a common household item that can"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nsponge\n\nOPTIONS:\n- spreads peanutbrittle evenly\n- spreads paint evenly",
+        "targets": "spreads paint evenly",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "sponge\n\n### Explanation:\nsponge is a tool that can be used to spread peanutbrittle evenly, and it can also be used to spread paint evenly.\n\n### Response"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nTo take carry on luggage on an airplane,\n\nOPTIONS:\n- you must follow the rules to only take 2 carry on bags and 2 personal items.\n- you must follow the rules to only take 1 carry on bag and 1 personal item.",
+        "targets": "you must follow the rules to only take 1 carry on bag and 1 personal item.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "You must follow the rules to only take 1 carry on bag and 1 personal item.\n\n### Explanation:\nIn the case of taking carry on luggage on an airplane, you must follow the rules to only"
+    },
+    {
+        "inputs": "Objective: To gel chia seeds and keep them from clumping.\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- Now you have to wait for the chia seeds to gel. I find it helps to shake or stir periodically to keep urging the chia seeds on. If you don't, you will occasionally get a clump of chia seeds that stick together, and that feels a bit sharp in your mouth when you drink it.\n- Now you have to wait for the chia seeds to gel. I find it helps to shake or stir periodically to keep urging the chia seeds on. If you don't, you will occasionally get a clump of chia seeds that stick together, and that feels a bit weird in your mouth when you drink it.",
+        "targets": "Now you have to wait for the chia seeds to gel. I find it helps to shake or stir periodically to keep urging the chia seeds on. If you don't, you will occasionally get a clump of chia seeds that stick together, and that feels a bit weird in your mouth when you drink it.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Now you have to wait for the chia seeds to gel. I find it helps to shake or stir periodically to keep urging the chia seeds on. If you don't, you will occasionally get a clump"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "To unlock Knuckles in Sonic Adventure.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nHow do I remove unwanted facial hair?\n\nOPTIONS:\n- Combine 1 tablespoon of sugar and ½ tablespoon of lemon juice. Apply mixture to face. Leave on twenty minutes. Remove mixture with a moist cloth.\n- Combine 1 tablespoon of honey and ½ tablespoon of lemon juice. Apply mixture to face. Leave on twenty minutes. Remove mixture with a moist cloth.",
+        "targets": "Combine 1 tablespoon of honey and ½ tablespoon of lemon juice. Apply mixture to face. Leave on twenty minutes. Remove mixture with a moist cloth.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Combine 1 tablespoon of sugar and ½ tablespoon of lemon juice. Apply mixture to face. Leave on twenty minutes. Remove mixture with a moist cloth.\n\n### Explanation:"
+    },
+    {
+        "inputs": "How do you do this: How can I secure a template image to vinyl for carving?\n\nOPTIONS:\n- Use super glue around the edges of the image.\n- Use scotch tape around the edges of the image.",
+        "targets": "Use scotch tape around the edges of the image.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Use super glue around the edges of the image.\n- Use scotch tape around the edges of the image.\n\n### Instruction:\nHow do you do this: How can I secure a template image to vin"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "How to drill a pilot hole for a screw in wood.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What is the best way to: How can you clean stains from a wooden desk?\n\nOPTIONS:\n- use a paper towel soaked in vinegar and water to clean off the stain\n- Use a cloth soaked in vinegar and water to clean off the stain",
+        "targets": "Use a cloth soaked in vinegar and water to clean off the stain",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use a paper towel soaked in vinegar and water to clean off the stain.\n\n### Explanation:\nCleaning stains from a wooden desk can be done using a paper towel soaked in"
+    },
+    {
+        "inputs": "Here is a goal: To attach plastic tarp to a wooden frame for a greenhouse, you can\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Use scissors to hold the plastic tarp on the wood\n- Use staples to hold the plastic tarp on the wood",
+        "targets": "Use staples to hold the plastic tarp on the wood",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Use scissors to hold the plastic tarp on the wood\n\n### Explanation:\nUsing scissors to hold the plastic tarp on the wood is a simple and effective way to attach it to the frame"
+    },
+    {
+        "inputs": "Here is a goal: To make a chocolate milkshake,\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- put some strawberry ice cream into a blender with some milk, then blend until desired thickness.\n- put some chocolate ice cream into a blender with some milk, then blend until desired thickness.",
+        "targets": "put some chocolate ice cream into a blender with some milk, then blend until desired thickness.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would accomplish this goal by putting some strawberry ice cream into a blender with some milk, then blending until desired thickness.\n\n### Explanation:\nThis response accurately describes the task of making a ch"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "How to carve wood into a shape?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "To remove emulsion from the photo paper stencil for screen printing.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "how do you run a nickel coverage in football?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "how to acquire an mturk task?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "What is the best way to: How do you win in checkers?\n\nOPTIONS:\n- Capture the king piece from your opponent.\n- Capture all of the opponents pieces.",
+        "targets": "Capture all of the opponents pieces.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The best way to win in checkers is to capture the king piece from your opponent.\n\n### Explanation:\nCheckers is a game where the objective is to capture all of the opponent's pieces. The best"
+    },
+    {
+        "inputs": "Objective: To make a grilled cheese when out of butter,\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- coat the bread with mayonnaise instead of butter.\n- coat the bread with water and vinegar before frying.",
+        "targets": "coat the bread with mayonnaise instead of butter.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Option 1: Coating the bread with mayonnaise instead of butter is not a sound solution in terms of naive physics reasoning. Mayonnaise is a thick, creamy condiment that is not suitable for grilling. It"
+    },
+    {
+        "inputs": "Here is a goal: To build a box to store the firewood inside the house.\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Attach the 4 pieces of 3 by 3 square boards into a pentagon shape using L clamps and screws. Attach the 3 ft 1/2 inch square as the bottom.\n- Attach the 4 pieces of 3 by 3 square boards into a box shape using L clamps and screws. Attach the 3 ft 1/2 inch square as the bottom.",
+        "targets": "Attach the 4 pieces of 3 by 3 square boards into a box shape using L clamps and screws. Attach the 3 ft 1/2 inch square as the bottom.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Attach the 4 pieces of 3 by 3 square boards into a pentagon shape using L clamps and screws. Attach the 3 ft 1/2 inch square as the bottom.\n\n##"
+    },
+    {
+        "inputs": "Goal: To close a zipper,\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- grasp the zipper between two fingers, then pull in the direction that you want to close.\n- grasp the zipper between two fingers, then pull away from the direction that you want to close.",
+        "targets": "grasp the zipper between two fingers, then pull in the direction that you want to close.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- grasp the zipper between two fingers, then pull in the direction that you want to close.\n\n### Explanation:\nThe method of grasping the zipper between two fingers and pulling in the direction that you want"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "how to open an water bottle?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "Goal: What do I do before I glue parts onto the wood of the self- defense table?How do you attach the bat to the self-defense table?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Before you glue anything, paint the areas where you are going to glue parts.\n- Before you glue anything, sand the areas where you are going to glue the parts.",
+        "targets": "Before you glue anything, sand the areas where you are going to glue the parts.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Before you glue anything, paint the areas where you are going to glue parts.\n\n### Explanation:\n- Painting the areas where you are going to glue parts is a more reasonable method for accomplishing"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nGet a cool sleep on summer days.\n\nOPTIONS:\n- Keep stack of pillow cases in fridge.\n- Keep stack of pillow cases in oven.",
+        "targets": "Keep stack of pillow cases in fridge.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Keep stack of pillow cases in fridge.\n\n### Explanation:\n- This option is the best choice because it ensures that the pillow cases are cool and comfortable to use on summer days.\n\n###"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "how do you check notifications on the facebook app?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nTo re-shape a ring\n\nOPTIONS:\n- Place the ring on a round piece of doweling as far as it will go. Tap gently on the sides of the ring with a mallet, making sure it fits snuggly on the mandrel. Flip the ring over and repeat.\n- Place the ring on a ring mandrel as far as it will go. Tap gently on the sides of the ring with a mallet, making sure it fits snuggly on the mandrel. Flip the ring over and repeat.",
+        "targets": "Place the ring on a ring mandrel as far as it will go. Tap gently on the sides of the ring with a mallet, making sure it fits snuggly on the mandrel. Flip the ring over and repeat.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Place the ring on a round piece of doweling as far as it will go. Tap gently on the sides of the ring with a mallet, making sure it fits snuggly on the mandrel. Flip the ring over and"
+    },
+    {
+        "inputs": "How do you do this: How to Make a Snowy Paper Christmas Tree\n\nOPTIONS:\n- You can make a Snowy Paper Christmas Tree by first cutting the template. Draw three circles in descending size onto a piece of paper and make a triangular notch out of each, like Pac-Man. Make the edge of the circles wavy and undulating to create some texture to the tree. Cut out the circles with an X-acto knife. Roll the circles into cones, securing them with tape or a glue stick using the little triangular notch. Stack the layers together, using the largest as the base and fix them in place with a gluestick.\n- You can make a Snowy Paper Christmas Tree by first cutting the template. Draw three circles in descending size onto a piece of paper and make a triangular notch out of each, like Pac-Man. Make the edge of the circles wavy and undulating to create some texture to the tree. Cut out the circles with an X-acto knife. Roll the circles into cones, securing them with tape or a glue stick using the little triangular notch. Stack the layers together, using the largest as the base and fix them in place with wood glue.",
+        "targets": "You can make a Snowy Paper Christmas Tree by first cutting the template. Draw three circles in descending size onto a piece of paper and make a triangular notch out of each, like Pac-Man. Make the edge of the circles wavy and undulating to create some texture to the tree. Cut out the circles with an X-acto knife. Roll the circles into cones, securing them with tape or a glue stick using the little triangular notch. Stack the layers together, using the largest as the base and fix them in place with a gluestick.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "You can make a Snowy Paper Christmas Tree by first cutting the template. Draw three circles in descending size onto a piece of paper and make a triangular notch out of each, like Pac-Man. Make the edge of the circles"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nHow to condition with the No Poo method.\n\nOPTIONS:\n- Rinse your hair with 1 tbsp of apple cider vinegar mixed with 1 cup of water.\n- Rub 1 tbsp of store bought conditioner into your hair and rinse with water.",
+        "targets": "Rinse your hair with 1 tbsp of apple cider vinegar mixed with 1 cup of water.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Rinse your hair with 1 tbsp of apple cider vinegar mixed with 1 cup of water.\n\n### Explanation:\nThe No Poo method is a popular way to condition your hair without using"
+    },
+    {
+        "inputs": "Objective: Child proof kitchen cabinets.\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- Tie newspaper around knobs.\n- Tie rubber bands around knobs.",
+        "targets": "Tie rubber bands around knobs.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Tie newspaper around knobs.\n\n### Explanation:\nTying newspaper around knobs is a more sound solution in terms of naive physics reasoning. It is a simple and effective way to child-proof kitchen cabinets"
+    },
+    {
+        "inputs": "Objective: How can I have ice cold water in my water bottle from home?\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- Fill bottle 1/3 way with water, lay on it's side freeze, then fill with cool water when you leave the house.\n- Fill bottle 1/3 way with buttermilk, lay on it's side freeze, then fill with cool water when you leave the house.",
+        "targets": "Fill bottle 1/3 way with water, lay on it's side freeze, then fill with cool water when you leave the house.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Fill bottle 1/3 way with water, lay on it's side freeze, then fill with cool water when you leave the house.\n\n### Explanation:\nThe solution that involves filling the bottle 1"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nWhat are the first key on the majority of keyboards in North America?\n\nOPTIONS:\n- If you look at a keyboards sold in North America, the first letters at the top left will be AZERTY.\n- If you look at a keyboards sold in North America, the first letters at the top left will be QWERTY.",
+        "targets": "If you look at a keyboards sold in North America, the first letters at the top left will be QWERTY.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "If you look at a keyboards sold in North America, the first letters at the top left will be AZERTY.\n\n### Explanation:\nThe first letters on a keyboard sold in North America are AZERTY"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nto drink slowly?\n\nOPTIONS:\n- gulp\n- sip",
+        "targets": "sip",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "gulp\n\n### Explanation:\ngulp is a better solution for drinking slowly because it allows you to control the flow of liquid, ensuring that you drink at a steady pace.\n\n### Reference:\n["
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "toilet paper",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "Goal: To attach a button to fabric\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- use a needle and thread through the button holes to sew the button tightly onto the fabric.\n- use a needle and floss through the button holes to sew the button tightly onto the fabric.",
+        "targets": "use a needle and thread through the button holes to sew the button tightly onto the fabric.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use a needle and thread through the button holes to sew the button tightly onto the fabric.\n\n### Explanation:\nSewing the button tightly onto the fabric using a needle and thread ensures that the"
+    },
+    {
+        "inputs": "Here is a goal: How to pay a bill that comes in late?\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Both John and Bill couldn't be paid because they came in late and so the boss refused to pay them.\n- When an invoice comes in for something, post it where you can see it, either in your phone, tablet or on a wall. This way you can always avoid late fees. If a bill comes in late, however, you should phone the company and make arrangements as soon as feasible to avoid further trouble.",
+        "targets": "When an invoice comes in for something, post it where you can see it, either in your phone, tablet or on a wall. This way you can always avoid late fees. If a bill comes in late, however, you should phone the company and make arrangements as soon as feasible to avoid further trouble.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Both John and Bill couldn't be paid because they came in late and so the boss refused to pay them.\n\n### Explanation:\n- This is the most effective approach to accomplish the goal of paying a bill"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "How to quickly remove the pit from an avocado?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "What is the best way to: open a tube of toothpaste\n\nOPTIONS:\n- grip the tube of toothpaste in one hand and the lid in your teeth. Tightly squeeze the lid and twist counterclockwise. the lid will come right off\n- grip the tube of toothpaste in one hand and the lid in the other. Tightly squeeze the lid and twist counterclockwise. the lid will come right off",
+        "targets": "grip the tube of toothpaste in one hand and the lid in the other. Tightly squeeze the lid and twist counterclockwise. the lid will come right off",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The best way to open a tube of toothpaste is to grip the tube of toothpaste in one hand and the lid in your teeth. Tightly squeeze the lid and twist counterclockwise. the"
+    },
+    {
+        "inputs": "Here is a goal: how to clean rubber\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Make a cleaning solution with dish soap and water.Use a dampened cloth to wipe the surface.Allow the rubber to air dry. Rinse remaining solution from the rubber.Allow the rubber to air dry.\n- Make a cleaning solution with dish soap and water.Use a dampened cloth to wipe the surface.Allow the rubber to air wash in the dishwasher. Rinse remaining solution from the rubber.Allow the rubber to air dry.",
+        "targets": "Make a cleaning solution with dish soap and water.Use a dampened cloth to wipe the surface.Allow the rubber to air dry. Rinse remaining solution from the rubber.Allow the rubber to air dry.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Make a cleaning solution with dish soap and water.Use a dampened cloth to wipe the surface.Allow the rubber to air dry. Rinse remaining solution from the rubber.Allow the rubber to air dry."
+    },
+    {
+        "inputs": "What is the best way to: To sweeten the keto pancakes\n\nOPTIONS:\n- add in 1 Tbsp of cane sugar or other sugar sub  to the dry ingredients\n- add in 1 Tbsp of Xylitol sweetener or other sugar sub  to the dry ingredients",
+        "targets": "add in 1 Tbsp of Xylitol sweetener or other sugar sub  to the dry ingredients",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- add in 1 Tbsp of cane sugar or other sugar sub  to the dry ingredients\n\n### Explanation:\nThe best way to sweeten the keto pancakes is to add in 1"
+    },
+    {
+        "inputs": "Goal: After folding the cardboard into the correct shapes how are they fastened?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- With velcro\n- With tape",
+        "targets": "With tape",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "->: With velcro\n\n### Explanation:\nVelcro is a fastening system that uses hooks and loops to attach two surfaces together. It is a popular choice for fastening cardboard into shapes because it is easy"
+    },
+    {
+        "inputs": "What is the best way to: To shuffle a deck of cards easily,\n\nOPTIONS:\n- arbitrarily spread the cards across a table top and then rearrange the deck.\n- place each card upside down onto a tabletop and then flip the finished deck over.",
+        "targets": "arbitrarily spread the cards across a table top and then rearrange the deck.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "-: To shuffle a deck of cards easily, place each card upside down onto a tabletop and then flip the finished deck over.\n\n### Explanation:\nThis option is the best way to shuffle a deck"
+    },
+    {
+        "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
+        "targets": "how do you drive home if you have a flat tire?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that requires knowledge of physical objects to perform is a task that requires knowledge of the physical objects that are present in the environment. For example, a task that requires knowledge of physical objects to perform might be a task that requires knowledge of the physical"
+    },
+    {
+        "inputs": "Here is a goal: Clean your clothing iron\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Spread salt over your ironing board, then iron the salt with the steam setting turned to off. The salt will stick to the dirt on your iron and clean it off.\n- Spread chocolate over your ironing board, then iron the chocolate with the steam setting turned to on. The chocolate will add to the dirt on your iron and add new designs to your ironed shirts.",
+        "targets": "Spread salt over your ironing board, then iron the salt with the steam setting turned to off. The salt will stick to the dirt on your iron and clean it off.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would accomplish this goal by using the steam setting turned to off to iron the salt over my ironing board. The salt will stick to the dirt on my iron and clean it off.\n\n### Explanation:\nThe steam"
+    },
+    {
+        "inputs": "Goal: To add diameter to a metal pipe for making a light saber.\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- Wrap the pipe with masking tape.\n- Wrap the pipe with string.",
+        "targets": "Wrap the pipe with masking tape.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Wrap the pipe with masking tape.\n\n### Explanation:\nWrapping the pipe with masking tape is a more reliable method for adding diameter to a metal pipe. Masking tape is a strong"
+    },
+    {
+        "inputs": "Here is a goal: To label the compartments of egg carton storage box.\n\nWhich way makes more sense to accomplish this goal?\n\nOPTIONS:\n- Type the labels on the label maker. Print the label and cut the affix them on the back of the compartments.\n- Type the labels on the printer. Print the label and cut the affix them on the back of the compartments.",
+        "targets": "Type the labels on the label maker. Print the label and cut the affix them on the back of the compartments.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Type the labels on the label maker. Print the label and cut the affix them on the back of the compartments.\n\n### Explanation:\nThis option is more efficient as it allows for the labels to be printed and"
+    },
+    {
+        "inputs": "Here is a goal: To separate broccoli from water, you can\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- Place a strainer over a funnel to catch both the broccoli and the water\n- Place a strainer over a bowl to catch both the broccoli and the water",
+        "targets": "Place a strainer over a bowl to catch both the broccoli and the water",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would accomplish this goal by placing a strainer over a funnel to catch both the broccoli and the water.\n\n### Explanation:\nPlacing a strainer over a funnel allows you to separate the bro"
+    },
+    {
+        "inputs": "Here is a goal: to improve math skills\n\nHow would you accomplish this goal?\n\nOPTIONS:\n- eat chocolate while you are studying\n- bake chocolate while you are studying",
+        "targets": "eat chocolate while you are studying",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "I would accomplish this goal by eating chocolate while I am studying.\n\n### Explanation:\nEating chocolate while studying can improve math skills.\n\n### Instruction:\nHere is a goal:"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "How can you concentrate and come up with ideas for a work or school project?",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nTo mask paint fumes.\n\nOPTIONS:\n- Add a tablespoon of onion extract to your paint (1 tablespoon per 1 gallon) before you begin painting. This will not affect the color at all, but rather mask the paint fumes and your entire house will smell like onions.\n- Add a tablespoon of vanilla extract to your paint (1 tablespoon per 1 gallon) before you begin painting. This will not affect the color at all, but rather mask the paint fumes and your entire house will smell like vanilla.",
+        "targets": "Add a tablespoon of vanilla extract to your paint (1 tablespoon per 1 gallon) before you begin painting. This will not affect the color at all, but rather mask the paint fumes and your entire house will smell like vanilla.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Add a tablespoon of onion extract to your paint (1 tablespoon per 1 gallon) before you begin painting. This will not affect the color at all, but rather mask the paint fumes and your entire house will"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nMake a scarf holder.\n\nOPTIONS:\n- Mount milk crate to wall, install multiple knobs on outside to hold scarves.\n- Mount wooden crate to wall, install multiple knobs on outside to hold scarves.",
+        "targets": "Mount wooden crate to wall, install multiple knobs on outside to hold scarves.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Mount milk crate to wall, install multiple knobs on outside to hold scarves.\n- Mount wooden crate to wall, install multiple knobs on outside to hold scarves.\n\n### Explanation:\nThe task"
+    },
+    {
+        "inputs": "How would someone go about accomplishing this goal?\nHow do I make a time capsule\n\nOPTIONS:\n- Get a small box and put some stuff in it then bury it in the fridge\n- Get a small box and put some stuff in it then bury it in the ground",
+        "targets": "Get a small box and put some stuff in it then bury it in the ground",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "- Get a small box and put some stuff in it then bury it in the fridge\n- Get a small box and put some stuff in it then bury it in the ground\n\n### Explanation:\n- Get a"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "To hang wall art on a wall.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "What is the best way to: fork\n\nOPTIONS:\n- can be used to scratch  hand \n- can be used to scratch  basket",
+        "targets": "can be used to scratch  hand",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "The best way to: fork is to use the can be used to scratch  hand  option. This option allows you to scratch  hand  without affecting the original hand.\n\n### Explanation:\nThe can be used to"
+    },
+    {
+        "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
+        "targets": "Make vintage plant pots.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task.\n\n### Explanation:\nPhysical reasoning tasks are designed to assess a person's ability to perform physical reasoning, which involves the ability"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nTo help your child stop using a pacifier,\n\nOPTIONS:\n- replace the pacifier with something else to chew on.\n- take away the pacifier cold turkey.",
+        "targets": "take away the pacifier cold turkey.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Replace the pacifier with something else to chew on.\n\n### Explanation:\nReplacing the pacifier with something else to chew on can help your child stop using it gradually. This approach allows your child to gradually"
+    },
+    {
+        "inputs": "Which of the following solutions is better for the following goal:\nHow can I smooth the rough edges of my dogs nails after clipping?\n\nOPTIONS:\n- Use a nail file to sand down rough edges.\n- Use a sander to sand down rough edges.",
+        "targets": "Use a nail file to sand down rough edges.",
+        "metric": "em",
+        "domain": "commonsense",
+        "model_name": "piqa",
+        "model": "osmanh/adap",
+        "predicted_answer": "Use a nail file to sand down rough edges.\n\n### Explanation:\nA nail file is a tool that is used to smooth the rough edges of dogs nails after clipping. It is a better solution than using"
+    }
+]
