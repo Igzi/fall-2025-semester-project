@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Use evidence from the fact that oil is a source of energy to answer this question: \"What is a source of energy?\"\n\nOPTIONS:\n- bricks\n- grease\n- cars\n- dirt",
+        "targets": "grease",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n\"Oil is a source of energy because it is a fuel that can be used to power cars and other machines.\"\n\n### Instruction:\nUse evidence from the fact that oil is a source of energy to answer this question:"
+    },
+    {
+        "inputs": "Knowing that \"birds sometimes eat seeds\", how would one answer \"Animals without teeth sometimes eat\"\n\nOPTIONS:\n- seeds\n- bears\n- humans\n- whales",
+        "targets": "seeds",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nAnimals without teeth sometimes eat seeds.\n\n### Explanation:\n\nThe sentence \"Animals without teeth sometimes eat\" is a generalization. The word \"sometimes\" is a qualifier that limits the generalization"
+    },
+    {
+        "inputs": "Knowing that \"aluminum is recyclable\", how would one answer \"Of the following household items, which is recyclable?\"\n\nOPTIONS:\n- cooking oil\n- banana peel\n- paint\n- soda can",
+        "targets": "soda can",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"soda can\"\n\n### Explanation:\n\nThe correct answer is \"soda can\".\n\nAluminum is recyclable.\n\nThe question asks which of the following"
+    },
+    {
+        "inputs": "Use this fact to answer the question: a beach ball contains gas\n\nif a ball on the beach bursts, what would most likely escape?\n\nOPTIONS:\n- the fishes on the shore\n- none of these\n- the sharks in it\n- the gaseous content in it",
+        "targets": "the gaseous content in it",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe gaseous content in it\n\n### Explanation:\n\nThe gaseous content in it\n\n### Instruction:\nUse this fact to answer the question: a beach ball contains gas\n\nif a"
+    },
+    {
+        "inputs": "Fact: a human can pedal a bicycle\nQuestion: Bicycle riding is nearly unique to certain species such as\n\nWhat's the answer?\n\nOPTIONS:\n- dolphins\n- human beings\n- dogs\n- small squirrels",
+        "targets": "human beings",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nBicycle riding is nearly unique to certain species such as human beings.\n\n### Explanation:\n\nThe correct answer is human beings.\n\n### Instruction:\nFact: a human can ped"
+    },
+    {
+        "inputs": "Fact: as an object descends into water , the pressure on that object will increase\nQuestion: What animal will have the least pressure on it\n\nWhat's the answer?\n\nOPTIONS:\n- a fish at the bottom of the ocean\n- a salmon swimming just under the surface of river\n- a cat running down a street\n- a falcon flying above a peak",
+        "targets": "a falcon flying above a peak",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe answer is a salmon swimming just under the surface of river.\n\n### Explanation:\n\nThe pressure on an object is directly proportional to the depth of the object.\n\nThe pressure on a fish at the"
+    },
+    {
+        "inputs": "an anemometer is used to measure wind speed\nAn anemometer would get a work out on a\n\nOPTIONS:\n- still afternoon\n- cloudy day\n- rainy day\n- blustery day",
+        "targets": "blustery day",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nan anemometer would get a work out on a blustery day\n\n### Explanation:\n\nAn anemometer is used to measure wind speed.\n\nAn anemometer would get a work out on a"
+    },
+    {
+        "inputs": "Use this fact to answer the question: if food is cooked then heat energy is added to that food\n\nA guy wants to make dinner for his family, so he puts a pan on the stove, adds some meat, and turns on the stove so that heat is being added to the pan. As the meat is warmed through, beginning to sizzle, it is\n\nOPTIONS:\n- being juiced\n- being seared\n- being frozen\n- being smoked",
+        "targets": "being seared",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(D) being seared\n\n### Explanation:\n\nThe heat energy is being added to the pan, and the meat is being warmed through, beginning to sizzle.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "gravity causes substances to be pulled down on a planet",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use this fact to answer the question: skin is used for protecting the body from harmful substances\n\nThe epidermis is part of\n\nOPTIONS:\n- is the largest organ and also the body's first defense against germs\n- is used the second largest organ and used for breathing by humans\n- soaks in toxins in the air\n- repels sunlight and UV rays",
+        "targets": "is the largest organ and also the body's first defense against germs",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe epidermis is part of the skin.\n\n### Explanation:\n\nThe epidermis is the outer layer of the skin. It is the largest organ and also the body's first defense against germ"
+    },
+    {
+        "inputs": "Given the fact \"eagles eat fish\", what is the answer to the question or completion \"A golden eagle will hunt using its talons to collect\"\n\nOPTIONS:\n- groupers\n- berries\n- bears\n- humans",
+        "targets": "groupers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA golden eagle will hunt using its talons to collect\n\nfish\n\n### Explanation:\n\nThe fact \"eagles eat fish\" is the evidence that supports the answer to the question.\n\n##"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "aluminum is a nonrenewable resource",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Given the fact \"evaporation causes amount of water to decrease\", what is the answer to the question or completion \"To experience evaporation you can\"\n\nOPTIONS:\n- Pour water into a lake\n- Run water in a facet\n- Put plastic over a plant\n- Watch the rain fall",
+        "targets": "Put plastic over a plant",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nTo experience evaporation you can watch the rain fall.\n\n### Explanation:\n\nThe fact \"evaporation causes amount of water to decrease\" means that evaporation causes the amount of water to decrease."
+    },
+    {
+        "inputs": "Given the fact \"the cocoons being created occurs during the the pupa stage in a life cycle\", what is the answer to the question or completion \"The insect's cocoon being created occurs during the\"\n\nOPTIONS:\n- adult stage in a life cycle\n- egg formation in a life cycle\n- stage when wings first start to form\n- final stage in a life cycle",
+        "targets": "stage when wings first start to form",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is:\n\nThe insect's cocoon being created occurs during the pupa stage in a life cycle.\n\n### Explanation:\n\nThe pupa stage is the stage when the insect's"
+    },
+    {
+        "inputs": "Knowing that \"organisms can be preserved in sedimentary rock\", how would one answer \"If a mosquito dies and is sucked into mud\"\n\nOPTIONS:\n- it will be eaten\n- it will be disintegrated\n- it will be decayed\n- years later it can still be seen",
+        "targets": "years later it can still be seen",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"it will be decayed\"\n\n### Explanation:\n\nThe correct answer is \"it will be decayed\".\n\nThe mosquito will be decayed because it is an organism"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "when an animal sheds its fur , its fur becomes less dense",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Read this fact: \"An example of playing a musical instrument is hitting the keys of a piano\"\n\nNow answer this question: \"Hitting the keys of a piano is like playing\"\n\nOPTIONS:\n- a lute\n- a broadcast\n- a concert\n- a recital",
+        "targets": "a lute",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose 1)\n\nA. a lute\n\nB. a broadcast\n\nC. a concert\n\nD. a recital\n\n### Correct Answer: D. a recital     (Read Below"
+    },
+    {
+        "inputs": "Fact: January is during the winter in the northern hemisphere\nQuestion: A few weeks after the month of December in the heart of Australia is often referred to as?\n\nWhat's the answer?\n\nOPTIONS:\n- winter\n- springtime\n- summer\n- Halloween",
+        "targets": "summer",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: winter\n\n### Explanation:\n\nThe correct answer is winter.\n\nJanuary is during the winter in the northern hemisphere.\n\nA few weeks after the month of December in"
+    },
+    {
+        "inputs": "Given the fact \"when water freezes , that water expands\", what is the answer to the question or completion \"When water freezes, that water\"\n\nOPTIONS:\n- heats up by at least 10 degrees\n- undergoes a change opposite to compressor\n- takes up less space\n- breaks into little pieces",
+        "targets": "undergoes a change opposite to compressor",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nWhen water freezes, that water takes up less space.\n\n### Explanation:\n\nThe fact \"when water freezes , that water expands\" means that when water freezes, it takes up more space."
+    },
+    {
+        "inputs": "if an animal eats another animal then that animal is a carnivore or omnivore or predator\nBill decided the wolf was a predator after he saw it eat the\n\nOPTIONS:\n- apple\n- grass\n- bunny\n- pie",
+        "targets": "bunny",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nBill decided the wolf was a predator after he saw it eat the bunny.\n\n### Instruction:\nif an animal eats another animal then that animal is a carnivore or omnivore"
+    },
+    {
+        "inputs": "Use evidence from the fact that if an object is close then that object will appear large to answer this question: \"From which distance will an object look the biggest?\"\n\nOPTIONS:\n- 4 feet\n- 30 feet\n- 1 kilometer\n- 1 mile",
+        "targets": "4 feet",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose 1)\n\n4 feet\n\n30 feet\n\n1 kilometer\n\n1 mile\n\n### Explanation:\n\nThe answer is 4 feet.\n\nThe fact that if an object is"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"which of these animal's habitat is peat likely to be found?\"",
+        "targets": "peat is made of decaying vegetation compacted by soil in a swamp over a long period of time",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sentence that provides a factual answer to this question is: \"The habitat of the peat is likely to be found in the swamp.\"\n\n### Instruction:\nWhat sentence would provide a factual answer to this question"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "habitat destruction causes animals to move to find shelter in another habitat",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "changes in an environment cause plants to adapt to survive\nhow can one alter plants without interacting directly with it?\n\nOPTIONS:\n- do a rain dance\n- all of these\n- leave it as it is\n- change its current habitat",
+        "targets": "change its current habitat",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nLeave it as it is\n\n### Explanation:\n\nThe correct answer is \"Leave it as it is\".\n\nThe environment is the surroundings of a plant.\n\nThe environment can be changed by"
+    },
+    {
+        "inputs": "Read this fact: \"if an object reflects light toward the eye then that object can be seen\"\n\nNow answer this question: \"If it is dark outside it is hard to see an object because it there is no\"\n\nOPTIONS:\n- objects\n- sight\n- movement\n- light",
+        "targets": "light",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nIf it is dark outside it is hard to see an object because there is no light.\n\n### Explanation:\n\nThe correct answer is \"light\".\n\nThe fact that is given is \"if an object reflects"
+    },
+    {
+        "inputs": "Given the fact \"melting point means temperature at which a solid melts\", what is the answer to the question or completion \"if your shoe changes form at a certain heat level, what can that be described as?\"\n\nOPTIONS:\n- none of these\n- the liquid content of the shoe\n- the melting range of that item\n- the visual design of the shoe",
+        "targets": "the melting range of that item",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\nThe melting range of that item\n\n### Explanation:\n\nThe melting range of that item is the temperature range at which a solid melts.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Fact: storms cause bodies of water to increase amount of water they contain\nQuestion: Storms lead to\n\nWhat's the answer?\n\nOPTIONS:\n- an increase in water temperature\n- an uptick in local ponds fish supply\n- an increase in issues from drought conditions\n- an uptick in local ponds water level",
+        "targets": "an uptick in local ponds water level",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nStorms lead to an increase in water level in local ponds.\n\n### Explanation:\n\nStorms cause bodies of water to increase the amount of water they contain.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Read this fact: \"cooking food to proper temperatures protects against food poisoning by killing bacteria and viruses\"\n\nNow answer this question: \"To prevent illness\"\n\nOPTIONS:\n- properly heat hamburgers and steaks\n- thaw chicken on uncovered counter tops\n- eat raw cookie dough\n- hamburger meat should stay pink",
+        "targets": "properly heat hamburgers and steaks",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nTo prevent illness, properly heat hamburgers and steaks.\n\n### Explanation:\n\nThe correct response is to properly heat hamburgers and steaks.\n\n### Instruction:\nRead"
+    },
+    {
+        "inputs": "carbon dioxide concentrations in the air have increased over the last decade dramatically\nClimate change has sped up dramatically because\n\nOPTIONS:\n- CO2 production has accelerated\n- a rapid decline the production of carbon dioxide\n- oxygen levels have spiked\n- Fe has been present in an overabundance",
+        "targets": "CO2 production has accelerated",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nClimate change has sped up dramatically because CO2 production has accelerated.\n\n### Explanation:\n\nThe carbon dioxide concentrations in the air have increased over the last decade dramatically."
+    },
+    {
+        "inputs": "Knowing that \"when a habitat can support living things , living things can live in that habitat\", how would one answer \"Which does not support living things and is not a home to living things?\"\n\nOPTIONS:\n- carpet\n- field\n- forest\n- grassland",
+        "targets": "carpet",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nField\n\n### Explanation:\n\nThe correct answer is field.\n\nThe field is a habitat that can support living things.\n\nThe carpet is not a habitat that can support living things.\n\nThe forest"
+    },
+    {
+        "inputs": "a car engine usually converts gasoline into motion and heat through combustion\nA car engine usually uses combustion to convert this into a motion and heat.\n\nOPTIONS:\n- animal products\n- plant materials\n- oil products\n- solar energy",
+        "targets": "oil products",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA car engine usually uses combustion to convert gasoline into motion and heat.\n\n### Instruction:\na car engine usually converts gasoline into motion and heat through combustion\nA car engine usually uses combustion"
+    },
+    {
+        "inputs": "Given the fact \"rest has a positive impact on a health\", what is the answer to the question or completion \"which of these individuals would be more healthy?\"\n\nOPTIONS:\n- a student who sleeps two hours daily\n- a teacher who sleeps eight hours a day\n- a woman who sleeps three hours a day\n- a man who practices sleep deprivation",
+        "targets": "a teacher who sleeps eight hours a day",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(1)\n\n### Explanation:\n\nThe correct answer is: a student who sleeps two hours daily\n\nThe fact \"rest has a positive impact on a health\" means that sleeping more hours a day is"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"plant life is completely dependent on what?\"",
+        "targets": "a plant requires photosynthesis to grow",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPlant life is completely dependent on water.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"what is the most abundant element in the universe?\"\n\n### Response:"
+    },
+    {
+        "inputs": "oceans cover 70% of the surface of the earth\nWhat vehicle would you use to travel on the majority of the surface of the planet on which we live?\n\nOPTIONS:\n- Bike\n- Boat\n- Train\n- Car",
+        "targets": "Boat",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose one.)\n\n### Response"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Nerves are used to feel what on the skin?\"",
+        "targets": "nerves can be used to feel heat and pressure on the skin",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nNerves are used to feel what on the skin?\n\nNerves are used to feel what on the skin?\n\nNerves are used to feel what on the skin?\n\nNerves are used to feel what on the skin"
+    },
+    {
+        "inputs": "Knowing that \"iron is always magnetic\", how would one answer \"There are metals which will always point north such as\"\n\nOPTIONS:\n- Fe\n- nickel\n- gold\n- silver",
+        "targets": "Fe",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nFe\n\n### Explanation:\n\nIron is always magnetic.\n\n### Instruction:\nKnowing that \"iron is always magnetic\", how would one answer \"There are metals which will always point"
+    },
+    {
+        "inputs": "weathering usually occurs over a period of many years\nA stone may experience the most weathering over\n\nOPTIONS:\n- a week\n- a year\n- a century\n- a decade",
+        "targets": "a century",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA stone may experience the most weathering over a period of many years.\n\n### Explanation:\n\nWeathering is the process of breaking down rocks into smaller pieces. It usually occurs over a period of many years."
+    },
+    {
+        "inputs": "Read this fact: \"the amount of daylight is greatest in the summer\"\n\nNow answer this question: \"If a person enjoys long, sunny days their favorite month would be\"\n\nOPTIONS:\n- October\n- July\n- April\n- March",
+        "targets": "July",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"July\"\n\n### Explanation:\n\nThe amount of daylight is greatest in the summer.\n\nIf a person enjoys long, sunny days their favorite month would be July."
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "humans moving into an environment usually causes native species to lose their habitats",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Read this fact: \"An example of a reproductive behavior is salmon returning to their birthplace to lay their eggs\"\n\nNow answer this question: \"if an adult salmon goes back to where it was born, which of these is likely?\"\n\nOPTIONS:\n- it wants to deposit its offspring\n- it is about to die\n- it is looking for its friend\n- it is searching for its mother",
+        "targets": "it wants to deposit its offspring",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\n### Explanation:\n\nThe correct answer is \"it is looking for its friend\".\n\nThe salmon is looking for its friend because it is a social animal.\n\n### Inst"
+    },
+    {
+        "inputs": "Use evidence from the fact that if a mineral can be scratched by a fingernail then that mineral is soft to answer this question: \"Taking a fingernail and pressing it to salt will show\"\n\nOPTIONS:\n- it is dry\n- it is wet\n- it is malleable\n- it is salty",
+        "targets": "it is malleable",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nCorrect answer: Option B\n\nExplanation:\n\nThe correct answer is option B.\n\nThe fingernail is hard and scratches the salt.\n\nThe fingernail is hard and scratches the"
+    },
+    {
+        "inputs": "Read this fact: \"a beak is used for catching prey by some birds\"\n\nNow answer this question: \"A pelican is hungry, so decides to try to catch some fish. In order to do this, the pelican will\"\n\nOPTIONS:\n- use the back of its head\n- use the bottom of its stomach\n- use the front of its face\n- use the back of its tail",
+        "targets": "use the front of its face",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA pelican is hungry, so decides to try to catch some fish. In order to do this, the pelican will use the front of its face.\n\n### Explanation:\n\nThe pelican will use"
+    },
+    {
+        "inputs": "Use evidence from the fact that a plant requires sunlight for photosynthesis to answer this question: \"plant requires what for photosynthesis\"\n\nOPTIONS:\n- light that changes color\n- light from our closest star\n- the reflection of something shiny\n- light reflected from our orbiting rock",
+        "targets": "light from our closest star",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"light from our closest star\"\n\n### Explanation:\n\nPlants require light for photosynthesis. The light from our closest star is the sun.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Read this fact: \"plants are the source of spices\"\n\nNow answer this question: \"Pumpkin pie spice comes from\"\n\nOPTIONS:\n- animals\n- plants\n- rocks\n- air",
+        "targets": "plants",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPumpkin pie spice comes from plants.\n\n### Explanation:\n\nThe fact that plants are the source of spices is a fact that is true.\n\nThe question asks what the source of pumpkin"
+    },
+    {
+        "inputs": "Knowing that \"magnetism does not require contact between objects to act\", how would one answer \"A magnetic effect could pull two rocks together if they're\"\n\nOPTIONS:\n- lacking magnetic properties and far apart\n- shaped similarly and touching\n- lacking magnetic properties and touching\n- both magnetic and at any distance",
+        "targets": "both magnetic and at any distance",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA magnetic effect could pull two rocks together if they're both magnetic and at any distance.\n\n### Explanation:\n\nMagnetism does not require contact between objects to act.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Knowing that \"each of the moon 's phases usually occurs once per month\", how would one answer \"A full moon and a crescent moon occur normally\"\n\nOPTIONS:\n- every two fortnights\n- every week\n- yearly\n- every evening",
+        "targets": "every two fortnights",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: every two fortnights\n\n### Explanation:\n\nThe correct answer is every two fortnights.\n\nThe moon's phases usually occur once per month.\n\nA full moon and"
+    },
+    {
+        "inputs": "Knowing that \"a hot substance is a source of heat\", how would one answer \"Standing near a campfire\"\n\nOPTIONS:\n- will leave you shivering\n- will keep you toasty\n- will make it difficult to see in the dark\n- will cool you down",
+        "targets": "will keep you toasty",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nStanding near a campfire will keep you toasty.\n\n### Explanation:\n\nThe campfire is a hot substance, and heat is a source of heat.\n\n### Instruction:\nK"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Squirrels are seed dispersers because\"",
+        "targets": "In the tree reproduction process a squirrel has the role of seed disperser",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nSquirrels are seed dispersers because they eat seeds and then poop them out.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"Squirrels are seed"
+    },
+    {
+        "inputs": "Read this fact: \"a plant requires water to grow\"\n\nNow answer this question: \"We made sure to use the hose on the begonia daily so it would\"\n\nOPTIONS:\n- melt\n- survive\n- die\n- freeze.",
+        "targets": "survive",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nWe made sure to use the hose on the begonia daily so it would survive.\n\n### Explanation:\n\nThe fact that a plant requires water to grow is a fact.\n\nThe question asks us to"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "clouds produce rain",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Read this fact: \"a skinny beak is used for obtaining food by a bird from small spaces\"\n\nNow answer this question: \"A swordbill is able to drink from long, narrow flowers where other birds are unable to because of\"\n\nOPTIONS:\n- the flower pushes them away\n- the swordbill's skill at drinking\n- genetic advantage of swordbills\n- lack of experience in pollinating",
+        "targets": "genetic advantage of swordbills",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA swordbill is able to drink from long, narrow flowers where other birds are unable to because of the flower pushes them away.\n\n### Explanation:\n\nThe flower pushes them away.\n\n###"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "sugar causes food to taste sweet",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Knowing that \"cold temperatures cause animals to shiver\", how would one answer \"Where would animals shiver the most?\"\n\nOPTIONS:\n- Arctic Circle\n- Sumatra\n- Java\n- tropical rainforest",
+        "targets": "Arctic Circle",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: Arctic Circle\n\nExplanation:\n\nThe Arctic Circle is the most northern latitude at which the sun can be directly overhead.\n\n### Instruction:\nKnowing that \"cold"
+    },
+    {
+        "inputs": "Knowing that \"a desert environment has low rainfall\", how would one answer \"So many environments receive large amounts of rain, though an exception is\"\n\nOPTIONS:\n- the Sahara\n- the great plains\n- the rain-forest\n- Seattle",
+        "targets": "the Sahara",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe Sahara is a desert environment that receives low rainfall.\n\n### Instruction:\nKnowing that \"a desert environment has low rainfall\", how would one answer \"So many environments receive large amounts of rain"
+    },
+    {
+        "inputs": "Given the fact \"as the amount of food an animal eats increases , the weight of that animal will increase\", what is the answer to the question or completion \"what happens when an animals' food intake increases\"\n\nOPTIONS:\n- it grows taller in size\n- it jogs to burn energy\n- it throws up the excess food\n- the fat transfers into more pounds",
+        "targets": "the fat transfers into more pounds",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: the fat transfers into more pounds\n\n### Explanation:\n\nThe correct answer is the fat transfers into more pounds.\n\nThe fact \"as the amount of food an animal eats increases"
+    },
+    {
+        "inputs": "as mass of a celestial body increases , the force of gravity on that planet will increase\nA celestial body grows a few meters in size every year, and the mass increases as well. After a hundred years, the celestial body will\n\nOPTIONS:\n- repel the sun\n- have stronger gravity\n- attract the sun\n- have weaker gravity",
+        "targets": "have stronger gravity",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: have stronger gravity\n\n### Explanation:\n\nThe force of gravity is proportional to the mass of the celestial body.\n\nThe force of gravity is inversely proportional to the square of"
+    },
+    {
+        "inputs": "Fact: an electric car uses less gasoline than a regular car\nQuestion: Which of these would need the fewest hydrocarbon chains containing eight carbon atoms?\n\nWhat's the answer?\n\nOPTIONS:\n- electric car\n- turbocharged car\n- gasoline car\n- antique car",
+        "targets": "electric car",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: electric car\n\n### Explanation:\n\nThe electric car uses less gasoline than a regular car.\n\nThe electric car uses less gasoline than a regular car.\n\nThe electric car uses"
+    },
+    {
+        "inputs": "Use this fact to answer the question: a plant stem contains a system of tubes for transporting water and nutrients to other parts of the plant\n\nA plant's stem\n\nOPTIONS:\n- supplies only the roots with water and nutrients\n- supplies carbon dioxide through the root system\n- acts as the lungs for the plant\n- acts as the subway delivering it's water and nutrient passengers to the rest of the plant",
+        "targets": "acts as the subway delivering it's water and nutrient passengers to the rest of the plant",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA plant's stem\n\n### Similar Questions\n\n1. ### Science\n\nWhich of the following is a function of the xylem? A. transporting water and nutrients B. transporting water and"
+    },
+    {
+        "inputs": "Read this fact: \"when the season changes , the amount of daylight will change\"\n\nNow answer this question: \"the hourly totals of sunshine are directly connect to\"\n\nOPTIONS:\n- tides\n- seasons\n- altitude\n- weather",
+        "targets": "seasons",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"seasons\"\n\n### Explanation:\n\nThe correct answer is \"seasons\".\n\nThe hourly totals of sunshine are directly connect to the seasons.\n\n###"
+    },
+    {
+        "inputs": "Fact: the Grand Canyon was formed by the Colorado River flowing over long periods of time\nQuestion: The Grand Canyon became so deep and large because\n\nWhat's the answer?\n\nOPTIONS:\n- water sources are there\n- rivers are around it\n- water is really strong\n- rushing water eroded it",
+        "targets": "rushing water eroded it",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe Grand Canyon became so deep and large because rushing water eroded it.\n\n### Explanation:\n\nThe Grand Canyon became so deep and large because rushing water eroded it.\n\n##"
+    },
+    {
+        "inputs": "Fact: sometimes weathering smooths rocks\nQuestion: What becomes smoother through weathering?\n\nWhat's the answer?\n\nOPTIONS:\n- rainbow\n- water\n- cat\n- pumice",
+        "targets": "pumice",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: pumice.\n\n### Explanation:\n\nPumice is a type of rock that is very light and porous. It is formed when lava cools quickly. The lava co"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "if an organism makes food for itself then that organism does not need to eat other organisms",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"What animal can live without oxygen\"",
+        "targets": "an animal requires air for survival",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sentence that provides a factual answer to this question is: \"A fish can live without oxygen.\"\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"What animal can live without o"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "bats can echolocate",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "snow falls during the winter in some environments\nSome areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one may partake in activities such as\n\nOPTIONS:\n- swimming\n- leaf peeping\n- sledding\n- surfing",
+        "targets": "sledding",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Similar to the above)\n\n### Instruction:\nsnow falls during the winter in some environments\nSome areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one"
+    },
+    {
+        "inputs": "Given the fact \"decreasing something negative has a positive impact on a thing\", what is the answer to the question or completion \"A temperature in the negatives during the night got slightly less negative during the day, which means it got more\"\n\nOPTIONS:\n- cold\n- positive\n- negative\n- unpredictable",
+        "targets": "positive",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA temperature in the negatives during the night got slightly less negative during the day, which means it got more.\n\n### Explanation:\n\nThe fact \"decreasing something negative has a positive impact on a thing\""
+    },
+    {
+        "inputs": "Knowing that \"the sun is located directly overhead at noon\", how would one answer \"Where is the sun located at 12:00 PM?\"\n\nOPTIONS:\n- the south\n- overhead\n- below\n- the north",
+        "targets": "overhead",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sun is located directly overhead at noon.\n\n### Explanation:\n\nThe sun is located directly overhead at noon.\n\n### Instruction:\nKnowing that \"the sun is located directly overhead"
+    },
+    {
+        "inputs": "sediment is formed by weathering\nSediment built up around the shed due to:\n\nOPTIONS:\n- magic\n- tornado\n- luck.\n- cars",
+        "targets": "tornado",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nSediment built up around the shed due to cars.\n\n### Explanation:\n\nSediment is formed by weathering.\n\nSediment built up around the shed due to:\n\nOPTIONS:"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "predators eat prey",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Use evidence from the fact that gills are used for breathing water by aquatic animals to answer this question: \"if a person had one of these, they could live permanently under water\"\n\nOPTIONS:\n- a very long nose\n- two hands and two legs\n- a very big mouth\n- a gill for extracting gases",
+        "targets": "a gill for extracting gases",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"a gill for extracting gases\"\n\n### Explanation:\n\nThe gills are used for extracting gases from water.\n\n### Instruction:\nUse evidence from"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"A factory is producing various items. If the factory wants to produce something that will itself produce little pollution, it could create\"",
+        "targets": "a windmill does not create pollution",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA. \"a factory that produces little pollution\"\n\nB. \"a factory that produces pollution\"\n\nC. \"a factory that produces pollution\"\n\nD. \"a factory that produces pollution\""
+    },
+    {
+        "inputs": "Fact: if a habitat can no longer support animals then those animals will move to another area\nQuestion: Deer entered the city\n\nWhat's the answer?\n\nOPTIONS:\n- to look for people\n- less food in the wilderness\n- because coyotes chased them\n- they have become confused",
+        "targets": "less food in the wilderness",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nDeer entered the city because there is less food in the wilderness.\n\n### Explanation:\n\nThe deer entered the city because there is less food in the wilderness.\n\n### Instruction"
+    },
+    {
+        "inputs": "Knowing that \"boiling is when liquids are heated above their boiling point\", how would one answer \"What boils at the boiling point?\"\n\nOPTIONS:\n- Kool-Aid\n- Cotton\n- Paper towel\n- Hair",
+        "targets": "Kool-Aid",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nKool-Aid\n\n### Explanation:\n\nThe boiling point of water is 100 degrees Celsius.\n\n### Instruction:\nKnowing that \"boiling is when liqu"
+    },
+    {
+        "inputs": "Given the fact \"hibernation is used for conserving resources by some animals\", what is the answer to the question or completion \"A bear hibernates through cold weather because\"\n\nOPTIONS:\n- bears get very tired\n- it is gestating young\n- resources are scarce in winter\n- winter is too cold",
+        "targets": "resources are scarce in winter",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA bear hibernates through cold weather because it is gestating young.\n\n### Explanation:\n\nThe fact \"hibernation is used for conserving resources by some animals\" is a fact that is true for some"
+    },
+    {
+        "inputs": "Given the fact \"precipitation is when rain fall from clouds to the Earth\", what is the answer to the question or completion \"What is it called when h20 falls from a fluffy object to land on the top of cloth suspended on a rod?\"\n\nOPTIONS:\n- mechanization\n- evaporation\n- precipitation\n- transpiration",
+        "targets": "precipitation",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\n### Explanation:\n\nThe correct answer is precipitation.\n\nPrecipitation is when rain fall from clouds to the Earth.\n\nH20 falls from a fluffy"
+    },
+    {
+        "inputs": "Use this fact to answer the question: speed is a measure of distance travelled divided by time\n\nKnowing the formula for speed\n\nOPTIONS:\n- would aid in calculating road time needed to reach a destination\n- would aid in calculating weight of the car\n- would aid in figuring out traffic congestion patterns\n- would aid in using a map",
+        "targets": "would aid in calculating road time needed to reach a destination",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nKnowing the formula for speed would aid in calculating road time needed to reach a destination.\n\n### Explanation:\n\nSpeed is a measure of distance travelled divided by time.\n\nKnowing the formula for"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"A body may find its temperature to be lowered after\"",
+        "targets": "sweat cools a body",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA body may find its temperature to be lowered after it is exposed to a cold environment.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"The temperature of a body is lowered when"
+    },
+    {
+        "inputs": "Fact: cycles of freezing and thawing water cause ice wedging\nQuestion: Cycles of freezing and thawing water\n\nWhat's the answer?\n\nOPTIONS:\n- causes healing of clefts in rocks\n- smaller rocks to fill in large cracks\n- makes rocks more secure\n- causes fissures in rocks to enlarge",
+        "targets": "causes fissures in rocks to enlarge",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nCauses fissures in rocks to enlarge\n\n### Explanation:\n\nThe answer is C. Cycles of freezing and thawing water cause fissures in rocks to enlarge.\n\n##"
+    },
+    {
+        "inputs": "if a living thing becomes too cold then that living thing will die\nHypothermia will set in under which conditions:\n\nOPTIONS:\n- while exposed to harsh winds in a polar region\n- while stranded deep in a swap\n- while swimming in tropical seas.\n- while exposed to direct sunlight on a tropical island",
+        "targets": "while exposed to harsh winds in a polar region",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nHypothermia will set in under which conditions:\n\n- while exposed to harsh winds in a polar region\n\n### Explanation:\n\nHypothermia is a condition that occurs when the body"
+    },
+    {
+        "inputs": "Fact: runoff contains fertilizer from cropland\nQuestion: If a farmland up the hill gets rainfall, what could happen to lower lands?\n\nWhat's the answer?\n\nOPTIONS:\n- all of these\n- they could get fertilizer washed to them\n- they could experience unfavorable chemical change in their lands\n- they could have their lands poisoned",
+        "targets": "all of these",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: they could experience unfavorable chemical change in their lands\n\n### Explanation:\n\nThe correct answer is they could experience unfavorable chemical change in their lands.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Use evidence from the fact that as the amount of fragrance of a flower increases , the number of pollinators it will attract increases to answer this question: \"Pollinators are attracted to\"\n\nOPTIONS:\n- mild smells\n- strong personalities\n- weak scents\n- strong aromas",
+        "targets": "strong aromas",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPollinators are attracted to strong aromas.\n\n### Explanation:\n\nThe fact that as the amount of fragrance of a flower increases , the number of pollinators it will attract increases."
+    },
+    {
+        "inputs": "Use this fact to answer the question: new land can be formed by volcanoes erupting by lava cooling\n\nAn island can sprout up from seemingly suddenly because\n\nOPTIONS:\n- underwater volcanoes are invisible\n- underwater volcanoes are hidden\n- lava is hot enough to burn\n- volcanoes have a lot of magma",
+        "targets": "underwater volcanoes are hidden",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n• The correct answer is: lava is hot enough to burn\n\n### Explanation:\n\nThe correct answer is lava is hot enough to burn.\n\n### Instruction:\nUse this fact to answer the"
+    },
+    {
+        "inputs": "Given the fact \"a renewable resource can be renewed\", what is the answer to the question or completion \"It is possible to renew\"\n\nOPTIONS:\n- sunflowers\n- oil\n- steel\n- stones",
+        "targets": "sunflowers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n#### Solution:\n\nThe correct answer is \"sunflowers\".\n\nThe fact \"a renewable resource can be renewed\" means that a renewable resource can be renewed.\n\nThe question \"It is possible to renew"
+    },
+    {
+        "inputs": "Use this fact to answer the question: the floating arrow on a compass always points towards the north\n\nWe looked at the arrow on the compass and then turned around and walked in the opposite direction.  We were walking\n\nOPTIONS:\n- south\n- east\n- west\n- north",
+        "targets": "south",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe arrow on the compass always points towards the north.\n\n### Explanation:\n\nThe compass is a tool that is used to determine the direction of the north.\n\nThe arrow on the compass always points"
+    },
+    {
+        "inputs": "Use evidence from the fact that as the amount of daylight increases , sunset will occur later in the day to answer this question: \"When would the sun set later?\"\n\nOPTIONS:\n- Christmas\n- Presidents day\n- Independence Day\n- Halloween",
+        "targets": "Independence Day",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sun will set later on Independence Day.\n\n### Explanation:\n\nThe amount of daylight increases as the day progresses. This means that the sun will set later in the day.\n\n### Inst"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Which is recyclable\"",
+        "targets": "aluminum is recyclable",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sentence that provides a factual answer to this question is: \"Plastic is recyclable.\"\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"Which is not recy"
+    },
+    {
+        "inputs": "Use this fact to answer the question: humans moving into an environment usually causes native species to lose their habitats\n\nWhat happens when man moves into new environments?\n\nOPTIONS:\n- native species go wild\n- native species thrive more\n- native species grow large\n- native species loses home",
+        "targets": "native species loses home",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n• native species go wild\n\n### Explanation:\n\nThe correct answer is native species go wild.\n\nHumans moving into an environment usually causes native species to lose their habitats.\n\nThe native species go"
+    },
+    {
+        "inputs": "Given the fact \"thermal conduction is when materials conduct heat through those materials\", what is the answer to the question or completion \"Water boiling in a pot on a stove is an example of\"\n\nOPTIONS:\n- electrocution\n- freezing\n- hydroplaning\n- thermal conduction",
+        "targets": "thermal conduction",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Similar Solved Questions)\n\nBelow is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven the fact \"thermal conduction is"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "scavengers eat dead organisms",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "hypothesis means scientific guess about the cause and effect of an event",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Given the fact \"cows only eat plants\", what is the answer to the question or completion \"What type of human diet would be most comparable to a cow\"\n\nOPTIONS:\n- Pescaterian\n- Vegan\n- Atkins Diet\n- Omnivore",
+        "targets": "Vegan",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is:\n\nOmnivore\n\n### Explanation:\n\nThe correct answer is Omnivore.\n\nOmnivores are animals that eat both plants and animals.\n\nCows"
+    },
+    {
+        "inputs": "Use this fact to answer the question: the Grand Canyon was formed by the Colorado River flowing over long periods of time\n\nThe Grand Canyon was formed by the Colorado river by what?\n\nOPTIONS:\n- horses pulling carts directing the water\n- the passage of time\n- humans making great efforts\n- the addition of dams",
+        "targets": "the passage of time",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe Grand Canyon was formed by the Colorado river by the passage of time.\n\n### Explanation:\n\nThe Grand Canyon was formed by the Colorado river by the passage of time.\n\n### Inst"
+    },
+    {
+        "inputs": "nature is the source of natural resources\nWhich shows a way to preserve natural resources:\n\nOPTIONS:\n- run dishwasher full\n- using gasoline engines\n- tossing lawn clippings\n- throwing out aluminum",
+        "targets": "run dishwasher full",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is:\n\n- tossing lawn clippings\n\n### Explanation:\n\nThe correct answer is:\n\n- tossing lawn clippings\n\n### Explanation:\n\nThe"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "plants are a source of fibers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"To travel in an environmentally friendly way\"",
+        "targets": "riding a bike does not cause pollution",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nTo travel in an environmentally friendly way, you can use public transportation.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"To travel in an environmentally friendly way\"\n\n##"
+    },
+    {
+        "inputs": "Given the fact \"a greenhouse is used to protect plants by keeping them warm\", what is the answer to the question or completion \"A man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, because\"\n\nOPTIONS:\n- they are regularly chilled\n- they are given salt\n- they are carefully protected\n- they are told to",
+        "targets": "they are carefully protected",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, because they are carefully protected.\n\n### Explanation:"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "deep sea animals live deep in the ocean",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "a solar panel converts sunlight into electricity",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Use this fact to answer the question: the skin is the largest organ in the human body\n\nWhat is the largest organ of the human body?\n\nOPTIONS:\n- kidneys\n- the heart\n- epidermis\n- liver",
+        "targets": "epidermis",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe skin is the largest organ in the human body.\n\n### Explanation:\n\nThe skin is the largest organ in the human body.\n\n### Instruction:\nUse this fact to answer the question: the"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Sowing plants native to an ecosystem\"",
+        "targets": "planting native plants has a positive impact on an ecosystem",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nSowing plants native to an ecosystem is a way to help the ecosystem.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"The purpose of a seed bank is to"
+    },
+    {
+        "inputs": "Read this fact: \"national parks limit hunting\"\n\nNow answer this question: \"Efforts to preserve the ecosystem might lead national parks to\"\n\nOPTIONS:\n- encourage hunting\n- promote logging\n- ban fishing\n- encourage new species",
+        "targets": "ban fishing",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n\"Efforts to preserve the ecosystem might lead national parks to encourage hunting.\"\n\n### Explanation:\n\nThe fact states that national parks limit hunting. This means that hunting is not allowed in"
+    },
+    {
+        "inputs": "Use evidence from the fact that stopped means no speed to answer this question: \"Stopped means lack of what?\"\n\nOPTIONS:\n- warmth\n- velocity\n- height\n- plants",
+        "targets": "velocity",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct)\n\n\"Stopped means lack of speed.\"\n\n### Explanation:\n\nThe word \"stopped\" means that something is not moving.\n\nThe word \"stopped\" means that something is"
+    },
+    {
+        "inputs": "Fact: humans discarding waste in an environment causes harm to that environment\nQuestion: Beaches are harmed\n\nWhat's the answer?\n\nOPTIONS:\n- when beach goers leave behind detritus on the sand\n- when turtles lay their eggs\n- when children play in the ocean\n- when seagulls nest in dunes",
+        "targets": "when beach goers leave behind detritus on the sand",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n- when beach goers leave behind detritus on the sand\n\n### Explanation:\n\nThe answer is when beach goers leave behind detritus on the sand.\n\n### Instruction:\nFact:"
+    },
+    {
+        "inputs": "Given the fact \"December is during the winter in the northern hemisphere\", what is the answer to the question or completion \"What season includes the last month of the year in the southern hemisphere?\"\n\nOPTIONS:\n- winter\n- summer\n- spring\n- fall",
+        "targets": "summer",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Similar Solved Questions)\n\nBelow is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven the fact \"The first month of the"
+    },
+    {
+        "inputs": "Use this fact to answer the question: a solar eclipse could only happen during the new moon\n\nThe next moon phase after a solar eclipse is\n\nOPTIONS:\n- first quarter\n- full moon\n- third quarter\n- super moon",
+        "targets": "first quarter",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe next moon phase after a solar eclipse is the first quarter.\n\n### Explanation:\n\nThe next moon phase after a solar eclipse is the first quarter.\n\n### Instruction:\nUse this fact to answer"
+    },
+    {
+        "inputs": "Knowing that \"if seeds stick to the fur of an animal then that seed will be transported by the animal\", how would one answer \"If seeds stick to the coat of an animal they can be?\"\n\nOPTIONS:\n- stored\n- transported\n- eaten\n- germinated",
+        "targets": "transported",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose one)\n\n• stored\n• transported\n• eaten\n• germinated\n\n### Explanation:\n\nThe correct answer is \"stored\".\n\n### Explanation:"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"If something were to be melted, it would be heated above its melting point, like\"",
+        "targets": "melting is when solids are heated above their melting point",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nIf something were to be melted, it would be heated above its melting point, like a metal.\n\n### Explanation:\n\nThe sentence \"If something were to be melted, it would be"
+    },
+    {
+        "inputs": "Read this fact: \"peat is made of decaying vegetation compacted by soil in a swamp over a long period of time\"\n\nNow answer this question: \"Peat is derived from\"\n\nOPTIONS:\n- saplings and flowering seedlings\n- compaction of water and soil\n- compressing of deteriorating foliage\n- floating debris in swamp water",
+        "targets": "compressing of deteriorating foliage",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPeat is derived from the compaction of water and soil.\n\n### Explanation:\n\nPeat is made of decaying vegetation compacted by soil in a swamp over a long period of time."
+    },
+    {
+        "inputs": "Fact: as the number of eggs laid by an animal increases , the number of eggs that hatch will increase\nQuestion: If farmers want larger chicken populations\n\nWhat's the answer?\n\nOPTIONS:\n- they should reduce the rooster population\n- they should decrease the number of hens\n- they should encourage predation\n- they should research methods that increase laying",
+        "targets": "they should research methods that increase laying",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: they should encourage predation\n\n### Explanation:\n\nThe correct answer is they should encourage predation.\n\nThe number of eggs laid by an animal increases as the number of eggs that"
+    },
+    {
+        "inputs": "Fact: pushing on the pedals of a bike cause that bike to move\nQuestion: What happens when someone on top of a bicycle starts pushing it's peddles in a circular motion?\n\nWhat's the answer?\n\nOPTIONS:\n- the bike wheelies\n- the bike turns\n- the bike brakes\n- the bike accelerates",
+        "targets": "the bike accelerates",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe bike accelerates.\n\n### Explanation:\n\nThe bike accelerates because the person is pushing the pedals in a circular motion.\n\n### Instruction:\nFact: pushing on the pedals"
+    },
+    {
+        "inputs": "Fact: metal is sometimes magnetic\nQuestion: Magnets may be attracted to\n\nWhat's the answer?\n\nOPTIONS:\n- clay pots\n- roofing nails\n- paper plates\n- plastic cutlery",
+        "targets": "roofing nails",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nMagnets may be attracted to\n\n### Instruction:\nFact: metal is sometimes magnetic\nQuestion: Magnets may be attracted to\n\nWhat's the answer?\n\nOPTIONS:\n- cl"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"What heavenly object is closer to the planet where the TV was invented?\"",
+        "targets": "the moon is the celestial object that is closest to the Earth",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe moon is closer to the planet where the TV was invented.\n\n### Explanation:\n\nThe moon is closer to the planet where the TV was invented.\n\n### Instruction:\nWhat sentence would"
+    },
+    {
+        "inputs": "Given the fact \"as time spent taking a shower decreases , water used will decrease\", what is the answer to the question or completion \"Taking shorter showers leads to\"\n\nOPTIONS:\n- water shortages for the local environment\n- increased energy consumption by the water heater\n- an empty water heater\n- less energy used by the water heater",
+        "targets": "less energy used by the water heater",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"less energy used by the water heater\"\n\n### Explanation:\n\nThe fact \"as time spent taking a shower decreases , water used will decrease\" is a direct correlation between the"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "if a flexible container is pushed on then that container will change shape",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use evidence from the fact that limestone is formed by water evaporating from a solution of water and minerals to answer this question: \"What is formed by water evaporating from a solution of water and minerals?\"\n\nOPTIONS:\n- shale\n- pants\n- food\n- glass",
+        "targets": "shale",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nlimestone is formed by water evaporating from a solution of water and minerals"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"All natural resources come from nature such as\"",
+        "targets": "nature is the source of natural resources",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nAll natural resources come from nature such as water, air, and soil.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"The most important natural resource is\"\n\n### Response:"
+    },
+    {
+        "inputs": "Knowing that \"moist means high in moisture\", how would one answer \"What can keep you moisturized other than water?\"\n\nOPTIONS:\n- Crackers\n- Sour Cream\n- cucumbers\n- Cheese",
+        "targets": "cucumbers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nCrackers\n\n### Explanation:\n\nThe word \"moist\" means high in moisture.\n\nThe word \"moisturized\" means to keep moist.\n\nThe word \"moist"
+    },
+    {
+        "inputs": "Read this fact: \"a plant requires a specific climate to grow and survive\"\n\nNow answer this question: \"In order to grow a rosebush needs a specific\"\n\nOPTIONS:\n- gardener\n- house\n- climate\n- fertilizer",
+        "targets": "climate",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nIn order to grow a rosebush needs a specific climate.\n\n### Explanation:\n\nThe fact is \"a plant requires a specific climate to grow and survive\".\n\nThe question is \"In order to grow"
+    },
+    {
+        "inputs": "Use evidence from the fact that chlorophyll is used for absorbing light energy by plants to answer this question: \"Chlorophyll allows plants to soak up\"\n\nOPTIONS:\n- solar rays\n- acid rain\n- pollen\n- fertilizer",
+        "targets": "solar rays",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nChlorophyll allows plants to soak up solar rays.\n\n### Explanation:\n\nChlorophyll is a green pigment that is found in plants. It is used for absorbing light energy by"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "cellular respiration is when a cell converts from oxygen and carbohydrates into carbon dioxide, water, and energy",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "An example of stormy weather is rain",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Knowing that \"camouflage is used for hiding by animals from predators\", how would one answer \"Which animal has the best camouflage in the Sahara?\"\n\nOPTIONS:\n- a koala bear\n- a horned viper\n- Gyrfalcon\n- a sloth",
+        "targets": "a horned viper",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose one)\n\n• a koala bear\n• a horned viper\n• Gyrfalcon\n• a sloth\n\n### Explanation:\n\nThe correct answer is \"a horned vi"
+    },
+    {
+        "inputs": "Fact: the moon orbiting the Earth causes the phases of the moon\nQuestion: A full moon is caused by\n\nWhat's the answer?\n\nOPTIONS:\n- werewolves\n- moonlight\n- tides\n- orbiting",
+        "targets": "orbiting",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is:\n\nThe moon is orbiting the Earth.\n\n### Explanation:\n\nThe moon is orbiting the Earth.\n\n### Instruction:\nFact: the moon orbiting the Earth"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "usually coral lives in warm water",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use evidence from the fact that evaporation causes amount of water to decrease to answer this question: \"In a bowl of water with the sun shining on it, what happens to the water after four hours?\"\n\nOPTIONS:\n- the water is growing algae\n- there is less water\n- the water is dirty\n- there is more water",
+        "targets": "there is less water",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\nThe water is growing algae.\n\n### Explanation:\n\nThe water is growing algae because evaporation causes the amount of water to decrease.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Knowing that \"fossils are formed when layers of sediment cover the remains of organisms over time\", how would one answer \"Fossils are formed when what happens?\"\n\nOPTIONS:\n- layers of leaves and pebbles form a pile\n- layers of sand are washed up on a beach\n- dirt builds up in the outdoors\n- various types of dirt accumulate over something eventually",
+        "targets": "various types of dirt accumulate over something eventually",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nFossils are formed when layers of sediment cover the remains of organisms over time.\n\n### Explanation:\n\nFossils are formed when layers of sediment cover the remains of organisms over time."
+    },
+    {
+        "inputs": "Read this fact: \"An example of stormy weather is rain\"\n\nNow answer this question: \"What is one thing cloud precipitation can be?\"\n\nOPTIONS:\n- a thunder boom\n- a liquid fire\n- unfavorable weather outlook\n- none of these",
+        "targets": "unfavorable weather outlook",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n\"An example of stormy weather is rain\"\n\n### Instruction:\nRead this fact: \"An example of stormy weather is rain\"\n\nNow answer this question: \"What is one thing cloud precipitation can be"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "extreme temperatures cause an organism 's energy levels to decrease",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "a light bulb converts electrical energy into light energy when it is turned on\nWhen turned on, which product cannot convert electrical energy into light energy?\n\nOPTIONS:\n- chandelier\n- charger\n- floor lamp\n- Christmas tree lights",
+        "targets": "charger",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is:\n- Christmas tree lights\n\n### Explanation:\n\nThe correct answer is Christmas tree lights.\n\nChristmas tree lights are not a product that converts electrical energy into light energy."
+    },
+    {
+        "inputs": "Use evidence from the fact that lightning can cause a forest fire to answer this question: \"A fire starts in a wide, open field and catches onto a forest. The fire started even though people were far away from the woods. A potential cause for the start of it could have been\"\n\nOPTIONS:\n- wind\n- sand\n- stones\n- storms",
+        "targets": "storms",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"storms\"\n\nExplanation:\n\nThe correct answer is \"storms\".\n\nLightning can cause a forest fire.\n\nThe fire started even though people were far away from"
+    },
+    {
+        "inputs": "Read this fact: \"migration is when animals move themselves from a cooler climate to a warmer climate for the winter\"\n\nNow answer this question: \"migration is when animals travel from the northern most state to Texas during what segment of time?\"\n\nOPTIONS:\n- birds\n- spring\n- lake fronts\n- winter",
+        "targets": "winter",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nmigration is when animals travel from the northern most state to Texas during what segment of time?\n\nbirds\n\n### Explanation:\n\nThe correct answer is birds.\n\nThe migration is when animals travel from the"
+    },
+    {
+        "inputs": "Use evidence from the fact that natural events usually cause changes to Earth 's surface to answer this question: \"if the surface of our planet is different after a while, what could have happened?\"\n\nOPTIONS:\n- the surface eroded on its own\n- all of these\n- there were natural occurrences\n- man has damaged the surface",
+        "targets": "all of these",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe surface of our planet is different after a while because of natural occurrences.\n\n### Explanation:\n\nThe surface of our planet is different after a while because of natural occurrences.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Use evidence from the fact that decomposition increases the amount of nutrients in the soil to answer this question: \"Decomposition\"\n\nOPTIONS:\n- can make dead organisms rise anew like a phoenix\n- is a process completed by predators\n- can act as a fertilizer for wild flowers\n- is extremely detrimental to the surrounding flora",
+        "targets": "can act as a fertilizer for wild flowers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nCorrect answer: A. can make dead organisms rise anew like a phoenix\n\nExplanation:\n\nDecomposition is the process of breaking down organic matter into simpler substances. This process is completed by"
+    },
+    {
+        "inputs": "Read this fact: \"An example of protecting the environment is creating protected areas\"\n\nNow answer this question: \"A person could get in trouble for doing what in a protected environment?\"\n\nOPTIONS:\n- volunteering\n- hunting\n- studying the environment\n- working",
+        "targets": "hunting",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose one.)\n\n### Response"
+    },
+    {
+        "inputs": "Knowing that \"rabbits eat plants\", how would one answer \"Rabbits consume\"\n\nOPTIONS:\n- verdant organisms that grow from the ground\n- verdant fish that swim through the sea\n- verdant monkeys that swing from the trees\n- verdant animals that fly from the sky",
+        "targets": "verdant organisms that grow from the ground",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nRabbits consume plants.\n\n### Explanation:\n\nThe word \"rabbits\" is a noun. The word \"eat\" is a verb. The word \"plants\" is a noun."
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "dissolving a substance in water causes the water to taste like that substance",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Knowing that \"eating food is used to get nutrients by living things\", how would one answer \"If something living requires sustenance, it will likely\"\n\nOPTIONS:\n- seek out a form of nutrients\n- feel like it could eat\n- try to enjoy life\n- gather nutrients for friends",
+        "targets": "seek out a form of nutrients",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nIf something living requires sustenance, it will likely seek out a form of nutrients.\n\n### Explanation:\n\nThe correct answer is \"seek out a form of nutrients\".\n\n###"
+    },
+    {
+        "inputs": "Given the fact \"octopuses releasing ink into the water causes predators to have difficulty seeing the octopus\", what is the answer to the question or completion \"A substance people use for writing also helps an animal deal with\"\n\nOPTIONS:\n- food\n- human activity\n- predators\n- climate change",
+        "targets": "predators",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA substance people use for writing also helps an animal deal with climate change.\n\n### Explanation:\n\nThe fact states that octopuses releasing ink into the water causes predators to have difficulty seeing the"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "white blood cell destroys pathogens in the body",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use evidence from the fact that rain is a source of water to answer this question: \"If someone is dying of thirst, they can hydrate by\"\n\nOPTIONS:\n- drink acid\n- visiting a valley\n- find snow\n- catching rain",
+        "targets": "catching rain",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n\"If someone is dying of thirst, they can hydrate by catching rain.\"\n\n### Explanation:\n\nThe fact that rain is a source of water is evidence that rain is a source of water."
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "large fins can be used to move quickly through water",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Use evidence from the fact that the volume of an object can be used to describe the size of that object to answer this question: \"Which describes the size of an object?\"\n\nOPTIONS:\n- It attracts all metals\n- It is a sphere\n- It is red and purple\n- It holds 500 mL of water",
+        "targets": "It holds 500 mL of water",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: \"It holds 500 mL of water.\"\n\nThe volume of an object can be used to describe the size of that object.\n\nThe volume of an object is the amount of space that it"
+    },
+    {
+        "inputs": "a bird is warm-blooded\nWhy can an Owl retain it's body temperature during the winter?\n\nOPTIONS:\n- It's neither\n- It's both\n- It's cold blooded\n- It's warm blooded",
+        "targets": "It's warm blooded",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose one)\n\nIt's cold blooded\n\nIt's warm blooded\n\nIt's neither\n\nIt's both\n\n### Explanation:\n\nThe correct answer is: It"
+    },
+    {
+        "inputs": "Read this fact: \"panting is when an animal hangs its tongue out of its mouth to adjust to hot temperatures\"\n\nNow answer this question: \"What might Lassie do to beat the heat?\"\n\nOPTIONS:\n- Pant\n- Drink tea\n- Sleep\n- Eat ice",
+        "targets": "Pant",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nLassie might pant to beat the heat.\n\n### Explanation:\n\nThe fact states that panting is when an animal hangs its tongue out of its mouth to adjust to hot temperatures."
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"humans can taste flavors, and so can\"",
+        "targets": "animals taste flavors",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nHumans can taste flavors, and so can dogs.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"humans can taste flavors, and so can\"\n\n###"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Food digestion in humans can be aided by\"",
+        "targets": "bacteria can help digest food in humans",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nFood digestion in humans can be aided by the enzyme pepsin.\n\n### Explanation:\n\nThe sentence \"Food digestion in humans can be aided by the enzyme peps"
+    },
+    {
+        "inputs": "Read this fact: \"a flashlight emits light\"\n\nNow answer this question: \"A flashlight emits\"\n\nOPTIONS:\n- particles\n- water\n- bugs\n- sound",
+        "targets": "particles",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA flashlight emits light.\n\n### Explanation:\n\nThe sentence \"a flashlight emits light\" is a fact. The sentence \"A flashlight emits\" is a question. The sentence \"A flash"
+    },
+    {
+        "inputs": "Given the fact \"panting is when an animal hangs its tongue out of its mouth to adjust to hot temperatures\", what is the answer to the question or completion \"panting is the equivalent to humans\"\n\nOPTIONS:\n- begging for water constantly\n- crying for hours on end\n- drowning in a small puddle\n- expelling water from their dermis",
+        "targets": "expelling water from their dermis",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n#### Explanation:\n\nThe correct answer is \"expelling water from their dermis\".\n\nThe word \"dermis\" is the skin of an animal.\n\nThe word \"expelling\" means to force something out."
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"An example of data collection is\"",
+        "targets": "An example of collecting data is measuring",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nAn example of data collection is the collection of data from a survey.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"An example of data collection is\"\n\n### Response:"
+    },
+    {
+        "inputs": "Fact: as flatness of a leaf increases , the amount of sunlight that leaf can absorb will increase\nQuestion: More sunlight will be absorbed by\n\nWhat's the answer?\n\nOPTIONS:\n- a rose with tiny leaves\n- a daisy with thin, short leaves\n- a peony with wide, smooth leaves\n- a daffodil with curled leaves",
+        "targets": "a peony with wide, smooth leaves",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: a daisy with thin, short leaves\n\n### Explanation:\n\nThe correct answer is a daisy with thin, short leaves.\n\n### Explanation:\n\nThe correct answer"
+    },
+    {
+        "inputs": "Use this fact to answer the question: some crickets live in forests\n\nWhat might be the natural habitat of a small creature known for making a noise by scraping limbs together?\n\nOPTIONS:\n- Among Birches\n- Amid the snow\n- In a barn\n- In the ocean",
+        "targets": "Among Birches",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nSome crickets live in forests.\n\n### Explanation:\n\nThe correct answer is \"Among Birches\".\n\nThe crickets live among birches.\n\n### Instruction:\nUse"
+    },
+    {
+        "inputs": "Use this fact to answer the question: as the number of eggs laid by an animal increases , the number of eggs that hatch will increase\n\nA turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and\n\nOPTIONS:\n- turtles will hatch more\n- sea turtles will hatch more\n- animals can lay eggs\n- turtles are warm blooded",
+        "targets": "sea turtles will hatch more",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and\n\nOPTIONS:\n- turtles will hatch more\n- sea turtles will hatch more\n- animals"
+    },
+    {
+        "inputs": "Given the fact \"a solution is made of one substance dissolved in another substance\", what is the answer to the question or completion \"Which of these is a solution?\"\n\nOPTIONS:\n- milk\n- coke\n- water\n- clouds",
+        "targets": "coke",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Similar Solved Questions)\n\nBelow is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven the fact \"a solution is made of"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"by congregating together a collection of organisms chances of survival\"",
+        "targets": "as number of organisms in a group increases , the chance of survival of each organism will increase",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe sentence that provides a factual answer to this question is: \"by congregating together a collection of organisms chances of survival\"\n\n### Instruction:\nWhat sentence would provide a factual answer to this question"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "magnetism can cause objects to repel each other",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "an egg requires warmth to develop",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Use this fact to answer the question: An example of a change in the Earth is an ocean becoming a wooded area\n\nThe world changes over time, and an example of this could be\n\nOPTIONS:\n- sand covering a beach front\n- a lake hosting hundreds of fish\n- cities buried under lava rock\n- seas having saltwater in them",
+        "targets": "cities buried under lava rock",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: a lake hosting hundreds of fish.\n\n### Explanation:\n\nThe world changes over time, and an example of this could be\n\nOPTIONS:\n- sand covering a beach front\n-"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "the cell membrane provides support for a cell",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "a trunk is a source of support for a tree",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Use evidence from the fact that the Earth revolves around the sun to answer this question: \"The gravitational pull of the sun causes what phenomenon?\"\n\nOPTIONS:\n- planetary revolution\n- creation of moons\n- creation of rings\n- planetary cooling",
+        "targets": "planetary revolution",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe gravitational pull of the sun causes planetary revolution.\n\n### Explanation:\n\nThe Earth revolves around the sun because of the gravitational pull of the sun.\n\n### Instruction:\nUse evidence"
+    },
+    {
+        "inputs": "Use evidence from the fact that metal is an electrical energy conductor to answer this question: \"What is most necessary for a  bitcoin operation\"\n\nOPTIONS:\n- abacus\n- metal\n- plastic\n- wood",
+        "targets": "metal",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nMetal is an electrical energy conductor.\n\n### Explanation:\n\nMetal is an electrical energy conductor.\n\n### Instruction:\nUse evidence from the fact that metal is an electrical"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "each of the moon 's phases usually occurs once per month",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use this fact to answer the question: the amount of daylight is least on the winter solstice\n\nWinter solstice occurs on a day when\n\nOPTIONS:\n- the sun is brightest\n- the sun is eclipsed\n- the moon is full\n- the darkness is greatest",
+        "targets": "the darkness is greatest",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe winter solstice occurs on a day when the darkness is greatest.\n\n### Explanation:\n\nThe winter solstice occurs on the shortest day of the year. The shortest day of the year is the"
+    },
+    {
+        "inputs": "natural gas is a source of heat by burning\nWhat is natural gas?\n\nOPTIONS:\n- a way to gain some warmth by combustion\n- warming up by sunlight\n- slowly heating to a boiling point\n- burning a high fever",
+        "targets": "a way to gain some warmth by combustion",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nnatural gas is a source of heat by burning\n\n### Instruction:\n\nThe following is a list of words. Write a response that appropriately completes the request.\n\n### Instruction:\n\nThe following is"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "food spoiling has a negative impact on the health of the animal that eats that food",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Knowing that \"decomposition increases amount of organic matter in soil\", how would one answer \"Someday, the ground under the pile of rotting grain in the field will be\"\n\nOPTIONS:\n- barren\n- a hole\n- more fertile\n- less fertile",
+        "targets": "more fertile",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\nThe correct answer is \"more fertile\".\n\n### Explanation:\n\nThe decomposition of organic matter in soil increases the amount of organic matter in soil.\n\nThe decomposition of"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Living things can all\"",
+        "targets": "living things can all reproduce",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nLiving things can all\n\n###"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "dew is formed when water vapor cools over night",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "friction causes the speed of an object to decrease\nIf a road is bumpy and another road is smooth, the bumpier road\n\nOPTIONS:\n- will be lower than the smooth road\n- will be longer than the smooth road\n- will be rough on tires\n- will have cars driving quickly",
+        "targets": "will be rough on tires",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct response is:\n\nThe bumpier road will be lower than the smooth road.\n\n### Explanation:\n\nThe bumpier road will be lower than the smooth road because friction causes the speed of"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "cooking food requires adding heat energy",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "windy means high wind speeds\nWindy means what is going at high speeds?\n\nOPTIONS:\n- water\n- gales\n- cars\n- dirt",
+        "targets": "gales",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nWindy means high wind speeds.\n\n### Inst"
+    },
+    {
+        "inputs": "Use this fact to answer the question: when a hurricane moves over land , that hurricane will decrease in strength\n\nWhen hurricanes move over land, the hurricane does what?\n\nOPTIONS:\n- speeds up a considerate amount\n- stops almost at once\n- gains a lot of strength\n- loses capacity to withstand great force or pressure",
+        "targets": "loses capacity to withstand great force or pressure",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: loses capacity to withstand great force or pressure\n\n### Explanation:\n\nWhen a hurricane moves over land, the hurricane loses capacity to withstand great force or pressure."
+    },
+    {
+        "inputs": "Use evidence from the fact that the winter solstice is on June 21st in the southern hemisphere to answer this question: \"The southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's\"\n\nOPTIONS:\n- winter solstice\n- fall equinox\n- summer solstice\n- spring equinox",
+        "targets": "winter solstice",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's winter solstice.\n\n###"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "the surface of the Moon contains mountains",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the number of people in the United States is 327,167,431.\n\n### Instruction:\nGenerate a sentence that contains a fact.\n\n### Response:"
+    },
+    {
+        "inputs": "Fact: rocks sometimes contain aluminum\nQuestion: Rocks sometimes contain what?\n\nWhat's the answer?\n\nOPTIONS:\n- element Al\n- books\n- wind\n- fire",
+        "targets": "element Al",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: element Al\n\n### Explanation:\n\nThe question asks what rocks sometimes contain. The answer is element Al.\n\n### Instruction:\nFact: rocks sometimes contain aluminum\nQuestion"
+    },
+    {
+        "inputs": "Fact: female birds sit in nests\nQuestion: nest sitting is left up to the\n\nWhat's the answer?\n\nOPTIONS:\n- daddy\n- the embryo's creator\n- strangers\n- male siblings",
+        "targets": "the embryo's creator",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: the embryo's creator.\n\n### Explanation:\n\nThe correct answer is the embryo's creator.\n\n### Instruction:\nFact: the average"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"Which is a good source of nutrients for a mushroom?\"",
+        "targets": "dead organisms are the source of nutrients for decomposers",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA. \"Mushrooms are a good source of nutrients.\"\n\nB. \"Mushrooms are a good source of nutrients for a mushroom.\"\n\nC. \"Mushrooms are a good source"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "a radio is used for communication",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What sentence would provide a factual answer to this question: \"It would be harder to grow a palm tree in\"",
+        "targets": "a plant requires a specific climate to grow and survive",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nIt would be harder to grow a palm tree in the desert.\n\n### Instruction:\nWhat sentence would provide a factual answer to this question: \"It would be harder to grow a palm tree in\""
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "clouds are formed by water vapor rising and condensing",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "a stove generates heat for cooking usually\nFor what does a stove generally generate heat?\n\nOPTIONS:\n- warming the air in the area\n- heating nutrients to appropriate temperatures\n- entertaining various visitors and guests\n- to create electrical charges",
+        "targets": "heating nutrients to appropriate temperatures",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA stove generates heat for cooking usually.\n\n### Instruction:\na stove generates heat for cooking usually\nFor what does a stove generally generate heat?\n\nOPTIONS:\n- warming the air"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "June is during the summer in the northern hemisphere",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Use evidence from the fact that octopuses releasing ink into the water causes predators to have difficulty seeing the octopus to answer this question: \"What do octopuses release to blind predators?\"\n\nOPTIONS:\n- meat\n- water\n- dark pigment\n- plants",
+        "targets": "dark pigment",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Choose 1)\n\n- meat\n\n- water\n\n- dark pigment\n\n- plants\n\n### Explanation:\n\nThe octopus releases ink into the water to blind predators."
+    },
+    {
+        "inputs": "consumers eat other organisms\nWhat eats other organisms?\n\nOPTIONS:\n- trees\n- ingestors\n- blood\n- water",
+        "targets": "ingestors",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\ntrees\n\n### Instruction:\n\nWhat is the name of the organism that eats other organisms?\n\nOPTIONS:\n- ingestors\n- blood\n- water\n- trees\n\n### Response"
+    },
+    {
+        "inputs": "Given the fact \"darkness has a negative impact on photosynthesis\", what is the answer to the question or completion \"Plants need light for\"\n\nOPTIONS:\n- love\n- glucose\n- reading\n- driving",
+        "targets": "glucose",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPlants need light for photosynthesis.\n\n### Explanation:\n\nThe fact \"darkness has a negative impact on photosynthesis\" means that plants need light for photosynthesis.\n\n### Instruction"
+    },
+    {
+        "inputs": "Use this fact to answer the question: carnivores only eat animals\n\nWhat is an instance of carnivores only eating animals?\n\nOPTIONS:\n- a mouse eating a cricket\n- a dog devouring a piece of cheese\n- tyrannosaurus rex devouring a pterodactyl\n- a cat eating grass outdoors",
+        "targets": "tyrannosaurus rex devouring a pterodactyl",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe correct answer is: a tyrannosaurus rex devouring a pterodactyl.\n\n### Explanation:\n\nCarnivores only eat animals.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Use this fact to answer the question: heat can change the state of matter\n\nAn example of heat changing the state of matter could be\n\nOPTIONS:\n- jello becoming liquid when placed in a hot pan\n- water becoming warm when heated\n- a bath being more comfortable when it is hot\n- a pool receiving more visitors when warmed",
+        "targets": "jello becoming liquid when placed in a hot pan",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n• Heat can change the state of matter.\n\n### Instruction:\nUse this fact to answer the question: heat can change the state of matter\n\nAn example of heat changing the state of matter could be\n\nOPT"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "the Earth rotating on its axis causes stars to appear to move across the sky at night",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "living things require respiration to use energy",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Fact: recycling has a positive impact on the environment\nQuestion: To have a positive impact of the environment\n\nWhat's the answer?\n\nOPTIONS:\n- use Styrofoam plates and bowls\n- use more paper towels\n- salvage plastic bottles instead of throwing them away\n- drive a car that guzzles gas",
+        "targets": "salvage plastic bottles instead of throwing them away",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nTo have a positive impact on the environment, you should use Styrofoam plates and bowls.\n\n### Instruction:\nFact: recycling has a positive impact on the environment\nQuestion: To have a"
+    },
+    {
+        "inputs": "Generate a sentence that contains a fact.",
+        "targets": "if an animal is near a road then that animal might be killed by a car",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe fact is that the"
+    },
+    {
+        "inputs": "Fact: an animal requires oxygen for to breathe\nQuestion: Animals require\n\nWhat's the answer?\n\nOPTIONS:\n- the help of people\n- the environmental output of plants\n- the same gas needed for photosynthesis\n- a lack of natural resources",
+        "targets": "the environmental output of plants",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nAnimals require the same gas needed for photosynthesis.\n\n### Explanation:\n\nThe answer is the same gas needed for photosynthesis.\n\n### Instruction:\nFact: an animal requires oxygen"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "An example of reproduction is laying eggs",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "What is a random fact?",
+        "targets": "each season occurs once per year",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nA random fact is a fact that is not true.\n\n### Inst"
+    },
+    {
+        "inputs": "Read this fact: \"Earth orbiting the Sun causes seasons to change\"\n\nNow answer this question: \"What does the earth orbit that causes the seasons to change?\"\n\nOPTIONS:\n- plasma star\n- venus\n- mercury\n- pluto",
+        "targets": "plasma star",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Pluto)\n\n### Explanation:\n\nThe earth orbits the sun, which causes the seasons to change.\n\n### Instruction:\nRead this fact: \"The sun is a star\""
+    },
+    {
+        "inputs": "Read this fact: \"Earth 's surface is made of rock\"\n\nNow answer this question: \"The basic outside of our planet is comprised of\"\n\nOPTIONS:\n- types of stone\n- frozen green grass\n- solid ice balls\n- molten hot lava",
+        "targets": "types of stone",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nThe basic outside of our planet is comprised of rock.\n\n### Explanation:\n\nThe basic outside of our planet is comprised of rock.\n\n### Instruction:\nRead this fact: \"Earth"
+    },
+    {
+        "inputs": "Use this fact to answer the question: as energy required for an activity increases , pulse will increase\n\nPulse accelerates\n\nOPTIONS:\n- when cooling down after a work out\n- when running pace increases\n- when running pace slows\n- when entering into a sleep state",
+        "targets": "when running pace increases",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nPulse accelerates when running pace increases\n\n### Explanation:\n\nThe correct answer is pulse accelerates when running pace increases.\n\nThe pulse accelerates when running pace increases because the heart rate increases to supply"
+    },
+    {
+        "inputs": "Knowing that \"swimming is when humans can move in water\", how would one answer \"Humans swim in the liquid form of\"\n\nOPTIONS:\n- steam\n- air\n- oxygen\n- carbon",
+        "targets": "steam",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nHumans swim in the liquid form of water.\n\n### Explanation:\n\nThe correct answer is \"water\".\n\n### Instruction:\nKnowing that \"swimming is when humans can move"
+    },
+    {
+        "inputs": "Use this fact to answer the question: an animal requires warmth for survival\n\nWhat is an example of an animal needing warmth for survival?\n\nOPTIONS:\n- a deer nestled into long grass\n- a rabbit hopping through the snow\n- a bat catching a mosquito\n- a dog eating from a dish",
+        "targets": "a deer nestled into long grass",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\n(Correct answer)\n\n### Instruction:\nUse this fact to answer the question: an animal requires warmth for survival\n\nWhat is an example of an animal needing warmth for survival?\n\nOPT"
+    },
+    {
+        "inputs": "dew is formed when water vapor condenses over night\nDew is formed when what condenses?\n\nOPTIONS:\n- carbon dioxide\n- warm air\n- H2O haze\n- oxygen",
+        "targets": "H2O haze",
+        "metric": "em",
+        "domain": "reading comp",
+        "model_name": "openbookqa",
+        "model": "LoRA-TMLR-2024/openwebmath-lora-rank-16-20B-tokens",
+        "predicted_answer": "\nDew is formed when water vapor condenses over night.\n\n### Explanation:\n\nDew is formed when water vapor condenses over night.\n\n### Instruction:\n\nThe following is a"
+    }
+]

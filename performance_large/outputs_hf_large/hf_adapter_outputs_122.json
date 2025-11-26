@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Answer the question...where does hell or high water take place??",
+        "targets": "West Texas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The movie Hell or High Water takes place in Texas.\n\n### Explanation:\nThe movie Hell or High Water takes place in Texas.\n\n### Hints:\n\n- [ ] Use the `where` method to"
+    },
+    {
+        "inputs": "Next question: how many stories is the tallest building in australia?",
+        "targets": "78",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The tallest building in Australia is the Q1 building in Gold Coast, Queensland. It is 322.5 metres (1,058 ft) tall.\n\n### Explanation:\nThe Q1 building in"
+    },
+    {
+        "inputs": "Can you tell me the answer to what do you call a native of dundee??",
+        "targets": "Dundonians",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer is:\n\n- A Dundee\n\n### Explanation:\n\nThe answer is:\n\n- A Dundee\n\n### Hints:\n\n- The answer is:\n\n- A"
+    },
+    {
+        "inputs": "Can you tell me the answer to what is the drop off in the ocean??",
+        "targets": "continental slope",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The drop off in the ocean is the point where the ocean floor meets the continental shelf.\n\n### Explanation:\nThe drop off in the ocean is the point where the ocean floor meets the continental shelf."
+    },
+    {
+        "inputs": "Q: this emperor in the west reigned only briefly i n 472 before dying a natural death? A:",
+        "targets": "Olybrius",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n- \n\n### Notes:\n\n- \n\n### Metadata:\n##### Item: 1\n##### Name:"
+    },
+    {
+        "inputs": "who was the king of england in 1951??",
+        "targets": "George VI",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe King of England in 1951 was George VI.\n\n### Explanation:\n\nThe King of England in 1951 was George VI.\n\n### Hints:\n\n1."
+    },
+    {
+        "inputs": "What is the answer to this question? who won the ncaa women's volleyball championship?",
+        "targets": "Nebraska",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n### Explanation:\nThe answer to this question is:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Tests:"
+    },
+    {
+        "inputs": "Next question: in captain america civil war who rules wakanda?",
+        "targets": "King T'Chaka",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n\n### Hints:\n\n\n### Notes:\n\n\n### References:"
+    },
+    {
+        "inputs": "when was star wars the force awakens released??",
+        "targets": "December 14, 2015",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Star Wars: The Force Awakens was released on December 18, 2015.\n\n### Explanation:\n\nThe response should be a sentence that contains the date of the release of the movie."
+    },
+    {
+        "inputs": "what is the largest building by volume in the world??",
+        "targets": "Boeing Everett Factory",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The largest building by volume in the world is the Boeing Factory in Washington.\n\n### Explanation:\nThe Boeing Factory is the largest building by volume in the world.\n\n### Notes:\nNo points will be"
+    },
+    {
+        "inputs": "Can you tell me the answer to when did they start filming the first harry potter movie??",
+        "targets": "September 2000",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The first Harry Potter movie was released in 2001.\n\n### Explanation:\nThe first Harry Potter movie was released in 2001.\n\n### Hints:\n\n- ["
+    },
+    {
+        "inputs": "Answer this question:\n\nwho's performing halftime at the pro bowl??",
+        "targets": "Jordan Fisher",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe halftime performer at the Pro Bowl is:\n\n### Explanation:\n\nThe halftime performer at the Pro Bowl is:\n\n### Hints:\n\n1.  Use the `"
+    },
+    {
+        "inputs": "Question: museum in bejing china in the forbidden city??\nAnswer:",
+        "targets": "the Palace Museum",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### References:"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is left on rupaul's drag race season 10?",
+        "targets": "Aquaria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[Answers](https://github.com/johnny-five/johnny-five/issues/1078#issuecomment-549426762)\n\n### Explan"
+    },
+    {
+        "inputs": "Answer the question...oriental bank of commerce is govt or private??",
+        "targets": "public sector",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Relevant Links:\n\n### Test Cases:\n\n### Submissions:"
+    },
+    {
+        "inputs": "Question: who plays ellen in what's eating gilbert grape??\nAnswer:",
+        "targets": "Mary Kate Schellhardt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"answer\": \"Juliette Lewis\"\n  }\n}\n```\n\n### Explanation:\n\nThe answer to the"
+    },
+    {
+        "inputs": "Please answer this question: who sang amy what you gonna do?",
+        "targets": "Pure Prairie League",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints:\n\n```\n\n```\n\n### Notes:\n\n```\n\n```\n\n### References:"
+    },
+    {
+        "inputs": "Answer the following question:\n\nthe greek usually thought of as the first western philosopher was who?",
+        "targets": "Thales of Miletus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe Greek philosopher who is usually thought of as the first Western philosopher was Socrates.\n\n### Explanation:\n\nThe Greek philosopher who is usually thought of as the first Western philosopher"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the main person in the legislative branch?",
+        "targets": "Congress",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe main person in the legislative branch is the Speaker of the House.\n\n### Explanation:\n\nThe Speaker of the House is the main person in the legislative branch.\n\n### References:"
+    },
+    {
+        "inputs": "Question: when did you lost that loving feeling come out??\nAnswer:",
+        "targets": "November 1964",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Problems:\n\n### Similar Problems:\n\n##"
+    },
+    {
+        "inputs": "Q: which types of mutations are least likely to be subjected to natural selection? A:",
+        "targets": "Neutral mutations",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints\n\n### Tests\n```\n  1. Which of the following is true?\n     A:\n  2. Which of the following is true?"
+    },
+    {
+        "inputs": "Can you tell me the answer to where in the east did the magi come from??",
+        "targets": "Arabia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The magi came from the east.\n\n### Explanation:\nThe magi came from the east.\n\n### Hints:\n\n- [x] Use the `response` method.\n- [x]"
+    },
+    {
+        "inputs": "Can you tell me the answer to who played beth on mary tyler moore show??",
+        "targets": "Lisa Gerritsen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nThe answer to who played beth on mary tyler moore show is:\n\n1. Laura Dern\n2. Laura Dern\n3. Laura Dern\n4. Laura Dern\n```\n\n##"
+    },
+    {
+        "inputs": "Please answer this question: when did germany take alsace lorraine from france?",
+        "targets": "1871",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2019-01-01T00:00:00Z\n```\n\n### Explanation:\n\nThe response should be a date in the format of `YYYY-MM"
+    },
+    {
+        "inputs": "What is the answer to this question? when does a dead dog start to decompose?",
+        "targets": "at the moment of death",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n- When a dog dies, it starts to decompose immediately.\n- The process of decomposition is a natural process that occurs when a dog dies.\n- The process of decomposition begins with the breakdown"
+    },
+    {
+        "inputs": "Question: who plays michael myers in the original halloween??\nAnswer:",
+        "targets": "Nick Castle",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"name\": \"michael myers\",\n    \"id\": \"michael-myers\",\n    \"type\": \"person"
+    },
+    {
+        "inputs": "Q: who plays peter barlow's son in coronation street? A:",
+        "targets": "Alex Bain",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n- [x] Use the `get_user_info` function.\n- [x] Use the `get_user_info` function."
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the exact same distance from a parabola?",
+        "targets": "focal length",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe exact same distance from a parabola is the distance from the vertex to the focus.\n\n### Explanation:\n\nThe vertex is the point where the parabola intersects the x-axis. The focus is"
+    },
+    {
+        "inputs": "Next question: a government that is chosen by its citizens is called a?",
+        "targets": "democracy",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A democracy\n\n### Explanation:\nA democracy is a government that is chosen by its citizens.\n\n### References:\n[https://www.google.com/search?q=a+government"
+    },
+    {
+        "inputs": "Answer the question...who plays the voice of ted in the movie ted??",
+        "targets": "Seth MacFarlane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The voice of ted in the movie ted is Seth MacFarlane.\n\n### Explanation:\nThe voice of ted in the movie ted is Seth MacFarlane.\n\n### Hints:"
+    },
+    {
+        "inputs": "What is the answer to this question? when was the last time england made the semi finals of the world cup?",
+        "targets": "2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is: 1990\n\n### Explanation:\nThe answer to this question is: 1990\n\n### Hints:\n\n- [ ] The answer to this question"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the largest country in europe by area?",
+        "targets": "Russia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe largest country in Europe by area is Russia.\n\n### Explanation:\n\nThe largest country in Europe by area is Russia.\n\n### Notes:\n\nNo notes\n\n### Checklist:"
+    },
+    {
+        "inputs": "Question: who plays frankie heck's mom on the middle??\nAnswer:",
+        "targets": "Marsha Mason",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### References:"
+    },
+    {
+        "inputs": "Can you tell me the answer to when was rick and morty season 3 released??",
+        "targets": "April 1, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to when was rick and morty season 3 released?? is 2017-11-10\n\n### Explanation:\nThe answer to when was rick and morty season 3 released"
+    },
+    {
+        "inputs": "Question: where was season 3 of american horror story filmed??\nAnswer:",
+        "targets": "New Orleans, Louisiana",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"question\": \"where was season 3 of american horror story filmed?\",\n    \"answer\": \"\n    <p>"
+    },
+    {
+        "inputs": "Question: where do avocados come from in the us??\nAnswer:",
+        "targets": "California",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Sources:"
+    },
+    {
+        "inputs": "Please answer this question: who was the leading lady in raiders of the lost ark?",
+        "targets": "Karen Jane Allen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nPlease answer this question: who was the leading lady in raiders of the lost ark?\n\nAnswer:\n\nHelen Mirren\n```\n\n### Explanation:\n\n```\nPlease answer this question"
+    },
+    {
+        "inputs": "who plays the chief of police in stranger things??",
+        "targets": "David Harbour",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n- [ ] [Jim Hopper](https://www.imdb.com/title/tt7169988/characters/nm0579726)\n- [ ] [Chief Jim"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen was the affordable care act voted on?",
+        "targets": "2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe Affordable Care Act was voted on in March 2010.\n\n### Explanation:\n\nThe Affordable Care Act was voted on in March 2010.\n\n### Notes"
+    },
+    {
+        "inputs": "Answer the question...where are the enzymes and other proteins that make up the electron transport chain found??",
+        "targets": "inner mitochondrial membrane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The electron transport chain is found in the mitochondria of the cell.\n\n### Explanation:\nThe electron transport chain is found in the mitochondria of the cell.\n\n### Checklist:\n-"
+    },
+    {
+        "inputs": "Next question: who does the voice of cortana in halo?",
+        "targets": "Jennifer Lee Taylor",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n```\nassert.equal(response.text, 'Next question: who does the voice of cortana in halo?')\n```"
+    },
+    {
+        "inputs": "Question: what is the name of the closet in beauty and the beast??\nAnswer:",
+        "targets": "Madame de la Grande Bouche",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"name\": \"Closet\"\n  }\n}\n```\n\n### Explanation:\n\nThe closet in Beaut"
+    },
+    {
+        "inputs": "Please answer this question: who plays harley quinn in the animated series?",
+        "targets": "Tara Strong",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"name\": \"Melissa Rauch\",\n    \"image\": \"https://images.squarespace-cdn.com/content/"
+    },
+    {
+        "inputs": "Can you tell me the answer to who plays mckenna in mckenna shoots for the stars??",
+        "targets": "Jade Pettyjohn",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nThe answer to who plays mckenna in mckenna shoots for the stars is:\n\n- [ ] 1. \n- [ ] 2. \n- [ ] 3. \n- ["
+    },
+    {
+        "inputs": "Can you tell me the answer to what relationship plays a central role in the ethics of care??",
+        "targets": "interpersonal",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to what relationship plays a central role in the ethics of care is:\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Tests"
+    },
+    {
+        "inputs": "who does the voice of mufasa in the lion king??",
+        "targets": "James Earl Jones",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe voice of Mufasa in the Lion King is James Earl Jones.\n\n### Explanation:\n\nThe voice of Mufasa in the Lion King is James Earl Jones.\n\n### Hints:"
+    },
+    {
+        "inputs": "Q: who holds the record for the fastest tennis serve? A:",
+        "targets": "John Isner",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:"
+    },
+    {
+        "inputs": "Next question: who sings sun and moon above and beyond?",
+        "targets": "Richard Bedford",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n- [x] who sings sun and moon above and beyond?\n```\n\n### Explanation:\n\nThe response should be a list of the artist who sings the song \"Sun and Moon Above"
+    },
+    {
+        "inputs": "when do dawson and joey get back together in season 2??",
+        "targets": "2.18",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nDawson and Joey get back together in season 2.\n\n### Explanation:\n\nDawson and Joey get back together in season 2.\n\n### Hints:\n\n- ["
+    },
+    {
+        "inputs": "Question: who is the owner of mcalister's deli??\nAnswer:",
+        "targets": "Focus Brands",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### References:"
+    },
+    {
+        "inputs": "Answer the question...where did the first european land in australia??",
+        "targets": "as early as 1605",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The first European to land in Australia was Dutch explorer Willem Janszoon in 1606.\n\n### Explanation:\nThe first European to land in Australia was Dutch explorer Willem Janszoon"
+    },
+    {
+        "inputs": "Answer this question:\n\nsalt mines in himachal pradesh are located at??",
+        "targets": "Guma",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nsalt mines in himachal pradesh are located at??\n\n### Explanation:\n\nsalt mines in himachal pradesh are located at??\n\n### Hints:\n\nsalt mines in"
+    },
+    {
+        "inputs": "Answer this question:\n\nlist of countries who win fifa world cup??",
+        "targets": "Spain",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": [\n    {\n      \"country\": \"Argentina\",\n      \"year\": \"1978\"\n    },\n    {"
+    },
+    {
+        "inputs": "What is the answer to this question? when did leonardo da vinci finish painting the mona lisa?",
+        "targets": "1517",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is: 1519\n\n### Explanation:\nThe answer to this question is: 1519\n\n### Hints:\n\n- [x] Use the `date"
+    },
+    {
+        "inputs": "Answer the question...when did grand finals start in rugby league??",
+        "targets": "1908",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2002\n```\n\n### Explanation:\n\nThe answer to the question is 2002.\n\n### Hints:\n\n- [ ] Use the `date` command to"
+    },
+    {
+        "inputs": "Can you tell me the answer to where can the ten commandments be found in the bible??",
+        "targets": "Exodus 34:28",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Ten Commandments can be found in Exodus 20:1-17 and Deuteronomy 5:6-21.\n\n### Explanation:\nThe Ten Commandments can be found in Exod"
+    },
+    {
+        "inputs": "What is the answer to this question? when did iphone 6 come out in usa?",
+        "targets": "September 19, 2014",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2019-09-12T15:00:00Z\n```\n\n### Explanation:\n\n```\n2019-09-12T15"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho has taken the highest number of wickets in test cricket?",
+        "targets": "Muttiah Muralitharan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n<pre>\n<code>\n{\n  \"answer\": \"Muttiah Muralitharan\",\n  \"source\": \"https://en.wikipedia.org/wiki/List_of_Test_cricketers_"
+    },
+    {
+        "inputs": "Question: who played gaston in beauty and the beast 1991??\nAnswer:",
+        "targets": "Richard White",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Notes:\n\n### Hints:\n\n### Recommended:\n\n### Assistance:\n\n### Tests:\n\n### Submissions:"
+    },
+    {
+        "inputs": "Next question: which windows system was the first to incorporate the system restore?",
+        "targets": "in Windows ME",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Windows 98\n\n### Explanation:\nWindows 98 was the first to incorporate the system restore.\n\n### Hints:\n\n- [ ] [Windows 98](https://en.wikipedia"
+    },
+    {
+        "inputs": "Can you tell me the answer to who came up with the law of conservation of mass??",
+        "targets": "Antoine Lavoisier",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The law of conservation of mass was first proposed by Antoine Lavoisier in 1789.\n\n### Explanation:\nThe law of conservation of mass states that matter can neither be created nor destroyed in a chemical reaction."
+    },
+    {
+        "inputs": "Can you tell me the answer to in which language is the indian national anthem??",
+        "targets": "Bengali",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer is in Hindi.\n\n### Explanation:\nThe answer is in Hindi.\n\n### Hints:\n\n- [ ] Use the `language` property to get the language of the national anthem"
+    },
+    {
+        "inputs": "What is the answer to this question? who won season 16 of america's next top model?",
+        "targets": "Brittani Kline",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:"
+    },
+    {
+        "inputs": "Can you tell me the answer to who goes home on the bachelorette season 14 episode 3??",
+        "targets": "Clay",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to who goes home on the bachelorette season 14 episode 3 is:\n\n### Explanation:\nThe answer to who goes home on the bachelorette season 14 episode 3 is"
+    },
+    {
+        "inputs": "Please answer this question: when did tlc stop being the learning channel?",
+        "targets": "1998",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "tlc stopped being the learning channel in 2014.\n\n### Explanation:\ntlc stopped being the learning channel in 2014.\n\n### Hints:\n\n- [ ] Use"
+    },
+    {
+        "inputs": "Please answer this question: who does the voice in a dog's purpose?",
+        "targets": "Josh Gad",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nPlease answer this question: who does the voice in a dog's purpose?\n\nThe voice in a dog's purpose is the voice of the dog.\n```\n\n### Explanation:\n\nThe voice"
+    },
+    {
+        "inputs": "Answer the question...ajanta caves is made up of which stone??",
+        "targets": "flood basalt rock",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Relevant Links:\n\n### Test Cases:\n\n### Submissions:\n\n### Points:\n\n###"
+    },
+    {
+        "inputs": "Please answer this question: who plays donatella versace in the fx series?",
+        "targets": "Penélope Cruz",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nDonatella Versace is played by Edgar Ramirez in the FX series.\n```\n\n### Explanation:\n\nThe response should be a string that contains the answer to the question."
+    },
+    {
+        "inputs": "What is the answer to this question? who is tom cruise playing in the mummy?",
+        "targets": "Sergeant Nick Morton",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is: Tom Cruise is playing in the Mummy.\n\n### Explanation:\nThe answer to this question is: Tom Cruise is playing in the Mummy.\n\n### Instruction:"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho plays eli roosevelt in sons of anarchy??",
+        "targets": "Rockmond Dunbar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n<p>\n<img src=\"https://i.imgur.com/447350.jpg\" alt=\"image\" width=\"300\" height=\"300\">\n</p>\n\n###"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho voices the skunk in over the hedge??",
+        "targets": "Wanda Sykes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[![](https://img.shields.io/badge/answer-over%20the%20hedge-blue.svg)](https://stackoverflow.com/questions/1086655/"
+    },
+    {
+        "inputs": "who got their ear cut off in the bible??",
+        "targets": "Malchus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n* [ ] The response should be in the form of a comment.\n* [ ] The response should be in the form of a comment.\n* [ ] The response should be in the form of a comment.\n* [ ] The"
+    },
+    {
+        "inputs": "where did the portuguese first land in brazil??",
+        "targets": "April 22, 1500",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Portuguese first landed in Brazil in 1500.\n\n### Explanation:\nThe Portuguese first landed in Brazil in 1500.\n\n### Input:\nwhere did the portuguese first"
+    },
+    {
+        "inputs": "Answer the question...who played mark twain in the ridiculous 6??",
+        "targets": "Vanilla Ice",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n\n### Explanation:\n\n\n### Hints\n\n\n### Tests\n\n  \n\n\n### Submitting Incomplete/Wrong Solutions\n\nIf you want to submit a solution that"
+    },
+    {
+        "inputs": "what is the name of the large city in southeastern nevada??",
+        "targets": "Las Vegas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Las Vegas\n\n### Explanation:\nLas Vegas is the name of the large city in southeastern Nevada.\n\n### Notes:\n\n- The response must be in the form of a sentence"
+    },
+    {
+        "inputs": "Please answer this question: who is the head of income tax department?",
+        "targets": "Arun Jaitley, Finance Minister",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"message\": \"who is the head of income tax department?\",\n  \"data\": {\n    \"answer\": \"Nirmala Sitharaman\""
+    },
+    {
+        "inputs": "Next question: when was the last time the philadelphia eagles won the division?",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The last time the Philadelphia Eagles won the division was in 2010.\n\n### Explanation:\nThe Philadelphia Eagles won the division in 2010.\n\n### Hints:"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen did japan go to war with russia??",
+        "targets": "8 February 1904",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nJapan went to war with Russia on February 8, 1904.\n\n### Explanation:\n\nJapan went to war with Russia on February 8, 1904.\n\n##"
+    },
+    {
+        "inputs": "Answer the question...how many episodes are in season 3 of switched at birth??",
+        "targets": "22 episodes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints:\n\n```\n\n```\n\n### Notes:\n\n```\n\n```\n\n### References:"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho won the toss in 2003 world cup final??",
+        "targets": "India captain Sourav Ganguly",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n<img src=\"https://github.com/sudhir-jha/sudhir-jha.github.io/blob/master/images/2003_world_cup_final_toss"
+    },
+    {
+        "inputs": "Can you tell me the answer to what kind of worms does pyrantel pamoate kill??",
+        "targets": "parasitic",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n- [ ] The answer is:\n  - [ ] Roundworms\n  - [ ] Hookworms\n  - [ ] Tapeworms\n  - [ ] Flatworms\n  - ["
+    },
+    {
+        "inputs": "Question: what ion causes the color of the indicator to change??\nAnswer:",
+        "targets": "hydronium ions",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Sources:"
+    },
+    {
+        "inputs": "Q: where does the movie wedding crashers take place? A:",
+        "targets": "Washington D.C.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints\n\n### Tests\n```\n  1) where does the movie wedding crashers take place?\n  2) A:\n```\n\n##"
+    },
+    {
+        "inputs": "Please answer this question: what is the meaning of the name fernanda?",
+        "targets": "adventurous, bold journey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n\n### Hints:\n\n\n### Notes:\n\n\n### References:\n\n\n### Submitted:\n\n```\n\n```"
+    },
+    {
+        "inputs": "Next question: who sang the song don't go breaking my heart?",
+        "targets": "Kiki Dee",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\"question\":\"Next question: who sang the song don't go breaking my heart?\",\"answer\":\"Elton John\"}\n```\n\n### Explanation:\n\nThe answer is Elton John.\n\n##"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhich had more power over taxation under the articles of confederation?",
+        "targets": "The states",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe Articles of Confederation had more power over taxation than the Constitution.\n\n### Explanation:\n\nThe Articles of Confederation gave the Congress the power to levy taxes, but the Constitution gave the Congress the power"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho played diana's mother on wonder woman??",
+        "targets": "Connie Nielsen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[Diana's mother on Wonder Woman](https://www.imdb.com/title/tt0106946/characters/nm0000139) was played by [Lynd"
+    },
+    {
+        "inputs": "Answer the question...who played ms pearly on friday after next??",
+        "targets": "Bebe Drake",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints\n\n### Tests\n\n  1. \n  2. \n  3. \n  4. \n  5. \n  6."
+    },
+    {
+        "inputs": "What is the answer to this question? red white and green flag with red triangle?",
+        "targets": "Palestinian flag",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer is:\n\n- Red\n- White\n- Green\n- Flag with Red Triangle\n\n### Explanation:\n\nThe answer is:\n\n- Red\n- White\n- Green\n- Flag with Red"
+    },
+    {
+        "inputs": "Next question: when was the department of housing and urban development founded?",
+        "targets": "1965",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Department of Housing and Urban Development was founded in 1965.\n\n### Explanation:\nThe Department of Housing and Urban Development was founded in 1965.\n\n### Reference"
+    },
+    {
+        "inputs": "when did florida stop using the electric chair??",
+        "targets": "1999",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Florida stopped using the electric chair in 2000.\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Similar Questions:"
+    },
+    {
+        "inputs": "Answer the question...who wrote the song in the end by linkin park??",
+        "targets": "Michael Shinoda",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[Linkin Park - In The End (Official Music Video)](https://www.youtube.com/watch?v=7757677_444)\n\n### Explanation:\n\nThe"
+    },
+    {
+        "inputs": "Please answer this question: the name of deputy governor of lagos state?",
+        "targets": "Dr Oluranti Adebule",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The name of deputy governor of lagos state is Obafemi Hamzat.\n\n### Explanation:\nThe name of deputy governor of lagos state is Obafemi Hamzat.\n\n### Hints:"
+    },
+    {
+        "inputs": "what is the most abundent element on earth??",
+        "targets": "iron",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:"
+    },
+    {
+        "inputs": "Next question: who has the fastest slapshot in the nhl?",
+        "targets": "Zdeno Chára",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Problems:\n\n### Similar Problems:\n\n##"
+    },
+    {
+        "inputs": "Please answer this question: when does the 100 season 5 episode 4 come out?",
+        "targets": "May 15, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The 100 season 5 episode 4 comes out on 2018-06-20.\n\n### Explanation:\nThe 100 season 5 episode 4 comes out on"
+    },
+    {
+        "inputs": "what is the elevation of uluru-kata (in meters) in australia??",
+        "targets": "863 m",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The elevation of Uluru-Kata in Australia is 348 meters.\n\n### Explanation:\n\nThe elevation of Uluru-Kata in Australia is 348 meters.\n\n###"
+    },
+    {
+        "inputs": "What is the answer to this question? who played guitar on do it again steely dan?",
+        "targets": "Jeff Baxter",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nSteely Dan's guitarist is Walter Becker.\n```\n\n### Explanation:\n\nSteely Dan's guitarist is Walter Becker.\n\n### Hints:\n\n- ["
+    },
+    {
+        "inputs": "Q: i wanna be bad song in movie? A:",
+        "targets": "What a Girl Wants",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": 200,\n  \"data\": {\n    \"song\": \"i wanna be bad song in movie\",\n    \"movie\": \"despicable me\"\n  }"
+    },
+    {
+        "inputs": "Question: when did the chinese new year start 2018??\nAnswer:",
+        "targets": "15 Feb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": 200,\n  \"data\": {\n    \"start\": \"2018-02-16T08:00:00.000Z"
+    },
+    {
+        "inputs": "Q: which layer of the epidermis is responsible for cell division and replacement? A:",
+        "targets": "the stratum basale",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Similar Questions:\n\n### Related Tags:"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did mamma mia the movie come out?",
+        "targets": "-18)",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n200 OK\nContent-Type: text/plain\n\n2007\n```\n\n### Explanation:\n\nThe response should be a 200 OK with the content type of text/"
+    },
+    {
+        "inputs": "Please answer this question: when's the last time the philadelphia phillies won the world series?",
+        "targets": "2008",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The last time the Philadelphia Phillies won the World Series was in 2008.\n\n### Explanation:\nThe Philadelphia Phillies won the World Series in 2008.\n\n### Notes:"
+    },
+    {
+        "inputs": "Please answer this question: when did the just do it campaign start?",
+        "targets": "1988",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The just do it campaign started in 1989.\n\n### Explanation:\nThe just do it campaign started in 1989.\n\n### Hints:\n\n- [x] The just"
+    },
+    {
+        "inputs": "What is the answer to this question? who has sold more kelly clarkson or carrie underwood?",
+        "targets": "Carrie Underwood",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints\n\n```\n\n```\n\n### Notes\n\n```\n\n```\n\n### References\n\n```"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen are new episodes of riverdale coming out?",
+        "targets": "October 11, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2020-09-01T00:00:00Z\n```\n\n### Explanation:\n\nThe response should be a date in the format of `YYYY-MM"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat relationship is whitney to bianca in eastenders??",
+        "targets": "adoptive daughter",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints:\n\n```\n\n```\n\n### Notes:\n\n```\n\n```\n\n### References:"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho had the fastest lap on top gear??",
+        "targets": "Koenigsegg CCX",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe fastest lap on top gear was driven by James May.\n\n### Expected Response:\n\nThe fastest lap on top gear was driven by James May.\n\n### Notes:\n\n- The response"
+    },
+    {
+        "inputs": "Q: who sings climb every mountain in the sound of music crossword? A:",
+        "targets": "Mother Abbess",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nA:\n```\n\n### Explanation:\n\n### Hints:\n\n- [x] Use the `response` function.\n- [x] Use the `text` function.\n- ["
+    },
+    {
+        "inputs": "Next question: who plays diana in anne of green gables?",
+        "targets": "Megan Elizabeth Laura Diana Follows",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nDear user,\n\nThe answer to your question is: Megan Follows\n\nBest regards,\n\nYour bot\n```\n\n### Explanation:\n\nThe answer to the question is: Megan"
+    },
+    {
+        "inputs": "Next question: how many seasons of the vicar of dibley are there?",
+        "targets": "two",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer is 10.\n\n### Explanation:\nThe answer is 10.\n\n### Hints:\n\n- [ ] The answer is 10.\n- [ ] The answer is"
+    },
+    {
+        "inputs": "Next question: what types of cells are in connective tissue?",
+        "targets": "mast cells",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n* [ ] Bone\n* [ ] Cartilage\n* [ ] Fat\n* [ ] Muscle\n* [ ] Nerve\n* [ ] Other\n\n### Explanation:\n\n* [ ] B"
+    },
+    {
+        "inputs": "Can you tell me the answer to who made the engine for the p 51 mustang??",
+        "targets": "Allison",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The engine for the P-51 Mustang was made by Allison Engine Company.\n\n### Explanation:\nThe engine for the P-51 Mustang was made by Allison Engine Company.\n\n### H"
+    },
+    {
+        "inputs": "Please answer this question: 1st nfl player to kneel during national anthem?",
+        "targets": "Colin Kaepernick",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n\n### Explanation:\n\n\n### Hints\n\n\n### Tests\n\n  \n  \n\n\n\n### Submitting Incomplete/Incorrect Solutions\n\nWarning: If you submit"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen is love and hip hop atlanta coming back on?",
+        "targets": "March 19, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nLove and Hip Hop Atlanta is coming back on Monday, March 15th at 8pm EST.\n\n### Expected Response:\n\nLove and Hip Hop Atlanta is coming back on Monday, March"
+    },
+    {
+        "inputs": "first workers' compensation law in the united states??",
+        "targets": "Maryland in 1902",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n* [ ] The first workers' compensation law in the United States was passed in 1908 in Massachusetts.\n* [ ] The first workers' compensation law in the United States was passed in 1908 in"
+    },
+    {
+        "inputs": "Q: where are the molecules of the electron transport chain found in plant cell? A:",
+        "targets": "inner mitochondrial membrane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n### Relevant Links:\n\n- [https://leetcode.com/problems/find-the-difference/](https"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did we have our last total eclipse?",
+        "targets": "August 21, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2017-08-21\n```\n\n### Explanation:\n\n```\n2017-08-21\n```\n\n### Hints:\n\n```"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the most points scored in an nfl game??",
+        "targets": "113",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe most points scored in an NFL game is 73.\n\n### Explanation:\n\nThe most points scored in an NFL game is 73.\n\n### Hints:\n\n1.  ["
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did arsenal won the premier league at white hart lane?",
+        "targets": "13 November 2004",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "arsenal won the premier league at white hart lane in 1998\n\n### Explanation:\narsenal won the premier league at white hart lane in 1998\n\n##"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen was the last time malaysia hosted the sea games??",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Malaysia hosted the 2017 Southeast Asian Games in Kuala Lumpur.\n\n### Explanation:\n\nMalaysia hosted the 2017 Southeast Asian Games in K"
+    },
+    {
+        "inputs": "Question: what state produces the most rice in the us??\nAnswer:",
+        "targets": "Arkansas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Submitted:\n\n### Tests:\n\n### Points:"
+    },
+    {
+        "inputs": "What is the answer to this question? who was the founder of legalism in china?",
+        "targets": "Sima Tan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n- [ ] Liu Xiang\n- [ ] Han Fei\n- [ ] Xunzi\n- [ ] Zhuangzi\n\n### Explanation:\nThe answer"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the stuff in a sebaceous cyst??",
+        "targets": "keratin",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nA sebaceous cyst is a small, round, firm, painless lump that is filled with a cheesy material.\n\n### Explanation:\n\nA sebaceous cyst is a small"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho has been awarded padma vibhushan in 2018?",
+        "targets": "Ghulam Mustafa Khan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[![](https://img.shields.io/badge/answer-2018-blue.svg)](https://stackoverflow.com/questions/54966454/who-has-be"
+    },
+    {
+        "inputs": "Next question: how much could sea level rise in the 21st century?",
+        "targets": "2 m",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Tests:\n```\n[x] 1. Write a response that appropriately completes"
+    },
+    {
+        "inputs": "Q: how many apps are on the google play store? A:",
+        "targets": "over 2.7 million",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Problems:\n\n### Similar Problems:\n\n##"
+    },
+    {
+        "inputs": "Q: who is the first hispanic player voted into baseball's hall of fame? A:",
+        "targets": "Roberto Enrique Clemente Walker",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nA:\n```\n\n### Explanation:\n\n### Hints:\n\n- [ ] Use the `get_response` function.\n- [ ] Use the `get_response_text` function"
+    },
+    {
+        "inputs": "Q: who did courtney cox play on family ties? A:",
+        "targets": "Lauren Miller",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints\n\n### Tests\n```\n  1) who did courtney cox play on family ties?\n  2) who did courtney cox"
+    },
+    {
+        "inputs": "Q: smallest unit that consist of at least one atom? A:",
+        "targets": "molecules",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A: molecule\n\n### Explanation:\nA molecule is the smallest unit that consist of at least one atom.\n\n### Notes:\nQ: smallest unit that consist of at least one atom? A"
+    },
+    {
+        "inputs": "Answer the question...when did town lake became lady bird lake??",
+        "targets": "July 26, 2007",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "```\n2002\n```\n\n### Explanation:\n\n```\n2002\n```\n\n### Hints:\n\n```\n2002\n```\n\n### Notes:"
+    },
+    {
+        "inputs": "Next question: who is in the group the traveling wilburys?",
+        "targets": "Bob Dylan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The group the traveling wilburys is:\n\n### Explanation:\nThe group the traveling wilburys is:\n\n### Hints:\n\n- [x] The group the traveling wilburys"
+    },
+    {
+        "inputs": "Can you tell me the answer to players that have won the world cup as managers??",
+        "targets": "Alf Ramsey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n[\n  {\n    \"name\": \"José Mourinho\",\n    \"years\": [\n      \"2002\",\n      \"2003\",\n      \"2004"
+    },
+    {
+        "inputs": "What is the answer to this question? who sold the most records in the 2000s?",
+        "targets": "The Beatles",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nThe answer to this question is:\n\n- Eminem\n- 50 Cent\n- Kanye West\n- Lil Wayne\n- Jay-Z\n- T.I.\n- Rihanna\n-"
+    },
+    {
+        "inputs": "Question: inside no 9 series 4 episode 3 cast??\nAnswer:",
+        "targets": "May (Monica Dolan)",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n\n### Explanation:\n\n\n### Hints:\n\n\n### Tests:\n```\n   Test #1:\n   Expected:\n   Actual:\n```\n\n### Relevant"
+    },
+    {
+        "inputs": "Answer the question...who does the voice for triumph the insult dog??",
+        "targets": "Robert Smigel",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Links:\n\n### Source:\n[https://le"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhere was the first abercrombie and fitch store??",
+        "targets": "314 Broadway",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe first Abercrombie and Fitch store was in New York City.\n\n### Explanation:\n\nThe first Abercrombie and Fitch store was in New York City.\n\n### Hints:"
+    },
+    {
+        "inputs": "What is the answer to this question? who played the little boy in george and mildred?",
+        "targets": "Nicholas Bond-Owen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n### Explanation:\n\n### Hints\n\n### Relevant Links\n\n- [https://stackoverflow.com/questions/1000000/how"
+    },
+    {
+        "inputs": "Q: how many episodes will american horror story season 7 have? A:",
+        "targets": "11",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A: 10\n\n### Explanation:\nThe question is asking how many episodes will american horror story season 7 have?\n\nThe answer is 10.\n\n### Hints:\n\n-"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the girl in love in an elevator?",
+        "targets": "Brandi Brandt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nwho is the girl in love in an elevator?\n\n```\n\n### Explanation:\n\n```\nwho is the girl in love in an elevator?\n\n```\n\n### Hints:"
+    },
+    {
+        "inputs": "Answer the question...how many nba titles does kobe bryant have??",
+        "targets": "five",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints\n\n### Tests\n\n### Corrections\n\n### References"
+    },
+    {
+        "inputs": "Can you tell me the answer to who proposed the double helical model of dna??",
+        "targets": "Francis Crick",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to who proposed the double helical model of dna is James Watson and Francis Crick.\n\n### Explanation:\nThe answer to who proposed the double helical model of dna is James Watson and Francis Crick"
+    },
+    {
+        "inputs": "Question: who plays tupac shakur in all eyez on me??\nAnswer:",
+        "targets": "Demetrius Shipp Jr.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### Test Cases:\n\n### Submissions:"
+    },
+    {
+        "inputs": "What is the answer to this question? when did why don't we become a band?",
+        "targets": "September 27, 2016",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n- When: 2016\n- Why: Because we wanted to\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n###"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhere was the location of the battle of trenton??",
+        "targets": "Trenton, New Jersey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The battle of Trenton was fought on December 26, 1776, in Trenton, New Jersey.\n\n### Explanation:\nThe battle of Trenton was fought on December 26"
+    },
+    {
+        "inputs": "when does the punisher on netflix come out??",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The punisher comes out on 2017-06-23.\n\n### Explanation:\nThe punisher comes out on 2017-06-23.\n\n### Input"
+    },
+    {
+        "inputs": "the national theater of the deaf made a guest appearance on what 90’s television series??",
+        "targets": "Deaf Mosaic",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Similar Questions:\n\n### Related Tags:"
+    },
+    {
+        "inputs": "Please answer this question: who is killing teresa in happy death day?",
+        "targets": "Lori",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints:\n\n```\n\n```\n\n### Notes:\n\n```\n\n```\n\n### References:"
+    },
+    {
+        "inputs": "Answer the question...who sang reunited and it feels so good??",
+        "targets": "Peaches & Herb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Links:\n\n### Source:\n[https://le"
+    },
+    {
+        "inputs": "Question: where was the hallmark movie wedding march filmed??\nAnswer:",
+        "targets": "British Columbia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"question\": \"where was the hallmark movie wedding march filmed?\",\n    \"answer\": \"\n\n    The Hallmark movie"
+    },
+    {
+        "inputs": "Please answer this question: what does fes stand for that 70s show?",
+        "targets": "Foreign Exchange",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nfes stands for \"Federal Emergency Services\"\n```\n\n### Explanation:\n\nThe correct response is \"fes stands for \"Federal Emergency Services\"\".\n\n### H"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen did the new alex box stadium open??",
+        "targets": "2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe new Alex Box Stadium opened on August 24, 2014.\n\n### Explanation:\n\nThe new Alex Box Stadium opened on August 24, 2014.\n\n##"
+    },
+    {
+        "inputs": "in the first half of the nineteenth century the united states gained the most territory through??",
+        "targets": "Louisiana Purchase",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe United States gained the most territory through the Louisiana Purchase.\n\n### Explanation:\n\nThe Louisiana Purchase was a land deal between the United States and France in 1803. The United States paid France"
+    },
+    {
+        "inputs": "What is the answer to this question? where was the first center of government in the present day united states set up?",
+        "targets": "New York",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is Philadelphia.\n\n### Explanation:\nThe first center of government in the present day United States was set up in Philadelphia.\n\n### Clarification:\nNo clarification provided beyond what is stated"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho won the women's gold medal curling?",
+        "targets": "Sweden (",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe women's gold medal curling was won by the United States.\n\n### Explanation:\n\nThe United States won the women's gold medal curling.\n\n### Hints:\n\n* ["
+    },
+    {
+        "inputs": "What is the answer to this question? who played phoebe's husband mike on friends?",
+        "targets": "Paul Stephen Rudd",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n-   David Schwimmer\n\n### Explanation:\nThe answer to this question is:\n\n-   David Schwimmer\n\n### Hints:\n\n-   The answer"
+    },
+    {
+        "inputs": "Question: who sang i got a tiger by the tail??\nAnswer:",
+        "targets": "Buckaroo Band",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### References:"
+    },
+    {
+        "inputs": "when did 1 pound note go out of circulation??",
+        "targets": "1984",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The last time a £1 note was withdrawn from circulation was 1988.\n\n### Explanation:\nThe last time a £1 note was withdrawn from circulation was 1988"
+    },
+    {
+        "inputs": "Next question: who wrote the fantastic beasts and where to find them?",
+        "targets": "J. K. Rowling",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Tests:\n\n### Relevant Links:\n\n### Related Links:\n\n### Similar Questions:\n\n##"
+    },
+    {
+        "inputs": "Q: where does mrna processing take place in eurkaryotic cells? A:",
+        "targets": "nucleus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints\n\n### Tests\n```\n  1)\n    A:\n\n  2)\n    A:\n\n  3)\n    A:"
+    },
+    {
+        "inputs": "Question: where does the movie son in law take place??\nAnswer:",
+        "targets": "Los Angeles",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"movie\": {\n      \"id\": \"1\",\n      \"title\": \"Son in Law\",\n      \"year\": \"2"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the date of money in the bank 2017?",
+        "targets": "June 18, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n2017-01-01\n```\n\n### Explanation:\n\n```\n2017-01-01\n```\n\n### Hints:\n\n```"
+    },
+    {
+        "inputs": "Q: where is alpha amylase found in the body? A:",
+        "targets": "pancreatic juice and saliva,",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n### Tests:\n```\nassert(response == 'A:')\n```\n\n### Relevant Links:\n[https://"
+    },
+    {
+        "inputs": "Q: when did the last harry potter movie come out in theaters? A:",
+        "targets": "2011",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"title\": \"Harry Potter and the Deathly Hallows\",\n    \"year\": 2010,\n    \"type"
+    },
+    {
+        "inputs": "What is the answer to this question? what is renee's accent in true blood?",
+        "targets": "Cajun",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nWhat is the answer to this question? what is renee's accent in true blood?\n```\n\n### Explanation:\n\n```\nWhat is the answer to this question? what is rene"
+    },
+    {
+        "inputs": "Question: who was the norse goddess of the sea??\nAnswer:",
+        "targets": "Rán",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:"
+    },
+    {
+        "inputs": "Answer the question...who played superman in the hindi version of the film in 1987??",
+        "targets": "Puneet Issar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n```\n\n```\n\n### Hints:\n\n```\n\n```\n\n### Notes:\n\n```\n\n```\n\n### References:"
+    },
+    {
+        "inputs": "when was caricom established and by which treaty??",
+        "targets": "July 4, 1973",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Caricom was established in 1973 by the Treaty of Chaguaramas.\n\n### Explanation:\nCaricom was established in 1973 by the Treaty of Chaguaramas"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the girl in guns n roses?",
+        "targets": "Melissa Reese",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n<img src=\"https://i.imgur.com/4737775.png\" alt=\"image\" width=\"300\" height=\"300\">\n\n### Explanation:\n\n<"
+    },
+    {
+        "inputs": "Please answer this question: when does grey's anatomy episode 9 season 14 come out?",
+        "targets": "January 18, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n\n### Hints:\n\n\n### Notes:\n\n\n### References:"
+    },
+    {
+        "inputs": "Answer the question...what is the name of the casino in evansville indiana??",
+        "targets": "Tropicana Evansville",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The name of the casino in Evansville Indiana is Tropicana Evansville.\n\n### Explanation:\nThe name of the casino in Evansville Indiana is Tropicana Evansville.\n\n### Hints:"
+    },
+    {
+        "inputs": "What is the answer to this question? what was the code name for the program that developed the atomic bomb?",
+        "targets": "The Manhattan Project",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n### Explanation:\nThe answer to this question is:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Sources:"
+    },
+    {
+        "inputs": "Answer the question...what city is the next winter olympics in??",
+        "targets": "Beijing",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The next winter olympics is in Beijing, China.\n\n### Explanation:\nThe next winter olympics is in Beijing, China.\n\n### Hints:\n\n- [ ] Use the `"
+    },
+    {
+        "inputs": "Can you tell me the answer to when did the google pixel xl come out??",
+        "targets": "October 20, 2016",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Google Pixel XL was released on October 4, 2016.\n\n### Explanation:\nThe Google Pixel XL was released on October 4, 2016.\n\n##"
+    },
+    {
+        "inputs": "Please answer this question: what is the latest version of osx el capitan?",
+        "targets": "version 10.11",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n\n```\n\n### Explanation:\n\n\n### Hints:\n\n\n### Notes:\n\n\n### References:\n\n\n### Submitted:\n\n```\n\n```"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho introduced dual system of administration in bengal??",
+        "targets": "Shah Alam II",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n[![](https://img.shields.io/badge/answer-who_introduced_dual_system_of_administration_in_bengal-blue.svg)](https://stackoverflow.com"
+    },
+    {
+        "inputs": "Please answer this question: where is the short rib located on a cow?",
+        "targets": "The serratus ventralis muscle",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The short rib is located on a cow's back.\n\n### Explanation:\nThe short rib is located on a cow's back.\n\n### Input:\n\n| Name | Type | Description |\n|"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the prize money for winning the afl grand final??",
+        "targets": "A$1 million",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The prize money for winning the AFL Grand Final is $1,000,000.\n\n### Explanation:\nThe prize money for winning the AFL Grand Final is $1,000,0"
+    },
+    {
+        "inputs": "What is the answer to this question? who did janet jackson play on good times?",
+        "targets": "Penny Gordon Woods",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is:\n\n- Janet Jackson played on Good Times.\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:\n\n### Test"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat song did ed sheeran wrote for justin bieber?",
+        "targets": "\"Love Yourself\"",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"song\": \"Love Yourself\"\n  }\n}\n```\n\n### Explanation:\n\nThe song that Ed"
+    },
+    {
+        "inputs": "Can you tell me the answer to who used the word pakistan for the first time??",
+        "targets": "Chaudhary Rahmat Ali",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to who used the word pakistan for the first time is:\n\n### Explanation:\n\n### Notes:\n\n### References:\n\n### Tests:\n```\n[x] 1"
+    },
+    {
+        "inputs": "Next question: where does the american ambassador live in london?",
+        "targets": "Winfield House",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The American Ambassador to the United Kingdom lives at 1 Grosvenor Square, London, W1K 6JP.\n\n### Explanation:\nThe American Ambassador to the United Kingdom lives at 1 Grosven"
+    },
+    {
+        "inputs": "Can you tell me the answer to what causes fluid in the subacromial subdeltoid bursa??",
+        "targets": "inflammation",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to what causes fluid in the subacromial subdeltoid bursa is:\n\n1. Inflammation\n2. Infection\n3. Trauma\n4. Crystal deposition\n\n###"
+    },
+    {
+        "inputs": "Answer the question...microscopic organism that could be prokaryotic or eukaryotic in nature??",
+        "targets": "unicellular organism",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Relevant Links:\n\n### Test Link:\n\n### Submission Format:\n\n### Points:\n\n### Bon"
+    },
+    {
+        "inputs": "how many episodes does season 4 of the fosters have??",
+        "targets": "20",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Fosters is an American family drama television series that premiered on June 3, 2013, on ABC Family. The series was created by Bradley Bredeweg and Peter Paige, who also serve as executive produ"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhere did the english establish the first successful settlement in the western hemisphere?",
+        "targets": "Bermuda",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe English established the first successful settlement in the western hemisphere in Jamestown, Virginia.\n\n### Explanation:\n\nThe English established the first successful settlement in the western hemisphere in Jamestown, Virginia"
+    },
+    {
+        "inputs": "Q: when did the oasis of the seas come out? A:",
+        "targets": "5 December 2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "Q: when did the oasis of the seas come out? A:\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### References:"
+    },
+    {
+        "inputs": "Question: who played gale sayers in brian's song??\nAnswer:",
+        "targets": "Billy Dee Williams",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Relevant Links:\n\n### References:"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho did gaia and uranus gave birth to??",
+        "targets": "Titans",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n> Gaia and Uranus gave birth to the Titans.\n\n### Explanation:\n\nThe Titans were the children of Gaia and Uranus.\n\n### Hints:\n\n- ["
+    },
+    {
+        "inputs": "What is the answer to this question? when was the last time los angeles hosted the olympics?",
+        "targets": "1984",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The answer to this question is: 1984\n\n### Explanation:\nThe answer to this question is: 1984\n\n### Hints:\n\n- [x] Use the `when"
+    },
+    {
+        "inputs": "Please answer this question: who created the first mathematical system of perspective in painting?",
+        "targets": "Euclid",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\nThe first mathematical system of perspective in painting was created by Leon Battista Alberti.\n```\n\n### Explanation:\n\nThe first mathematical system of perspective in painting was created by Leon Battista Alberti"
+    },
+    {
+        "inputs": "Answer this question:\n\nkeeping up with the kardashians season 15 episode 1 air date??",
+        "targets": "August 5, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Document</title>\n</head>\n<body>\n    <h1>keep"
+    },
+    {
+        "inputs": "Answer the question...dr jekyll and mr hyde which one is bad??",
+        "targets": "Mr. Hyde",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n\n### Explanation:\n\n\n### Hints\n\n\n### Tests\n\n  \n\n\n### Submitting Incomplete/Incorrect Solutions\n\nIf you see \"Click here to submit"
+    },
+    {
+        "inputs": "Q: when is the 2018 pro bowl being played? A:",
+        "targets": "January 28, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A: 2018 Pro Bowl will be played on January 28, 2018 at Camping World Stadium in Orlando, Florida.\n\n### Explanation:\n\nThe response should be a sentence"
+    },
+    {
+        "inputs": "Can you tell me the answer to where do the tennessee titans play home games??",
+        "targets": "Nissan Stadium",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The Tennessee Titans play home games at Nissan Stadium in Nashville, Tennessee.\n\n### Explanation:\nThe Tennessee Titans play home games at Nissan Stadium in Nashville, Tennessee.\n\n### H"
+    },
+    {
+        "inputs": "Q: who win the asias next top model 2017? A:",
+        "targets": "Maureen Wroblewitz",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "A:\n\n### Explanation:\n\n### Hints:\n\n### Notes:\n\n### Recommended:\n\n### Sources:\n[https://leetcode.com/problems"
+    },
+    {
+        "inputs": "Next question: na peru surya naa illu india movie time?",
+        "targets": "168 minutes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"movie_time\": \"12:00 PM\"\n  }\n}\n```\n\n### Explanation:"
+    },
+    {
+        "inputs": "Next question: where did the movie the mission take place?",
+        "targets": "South America",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The movie the mission took place in the United States.\n\n### Explanation:\nThe movie the mission took place in the United States.\n\n### Hints:\n\n- [x] The movie the mission took place"
+    },
+    {
+        "inputs": "Next question: what is the name of the compound lis?",
+        "targets": "Lithium sulfide",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "The name of the compound lis is:\n\n### Explanation:\nThe name of the compound lis is:\n\n### Hints:\n\n- The name of the compound lis is:"
+    },
+    {
+        "inputs": "where does the p.s. go in a letter??",
+        "targets": "after the signature",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "LauraExp/secllama",
+        "predicted_answer": "\nThe p.s. goes at the end of the letter.\n\n### Explanation:\n\nThe p.s. goes at the end of the letter.\n\n### Hints:\n\n- [x]"
+    }
+]
