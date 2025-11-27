@@ -70,7 +70,7 @@ config_path = './config/config_large.json'
 data_path = './dataset/config_large_flat.json'
 res_path = './performance_large/outputs_13b/model_'
 results = []  # Initialize a list to store question and response data
-device = "cuda:1" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Initialize vector database for retrieval
 init_vector_db('./config/config_large.json')
