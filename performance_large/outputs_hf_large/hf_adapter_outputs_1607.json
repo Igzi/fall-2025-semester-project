@@ -1,0 +1,2252 @@
+[
+    {
+        "inputs": "B: I don't know how my parents did it. A: Yeah. B: I mean, there were five of us and I don't recall, you know, wanting anything in particular. Uh, but I don't know how my father did it. He worked at a truck line and he just didn't make that kind of money with five children. But we did okay. We had a house and a home and, but now, my wife and I both work and I don't believe we have as much as my parents did.\n\nBased on the paragraph above can we conclude that \"he and his wife have as much as his parents did\"?\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nB: Well, you've got, well, any of the big cities you've got the different rival gangs and they're having their little turf wars over their little drug kingdoms and such, A: Uh-huh. B: And they get out their little Mac tens, they get out their little uzis and they're going to fight with them. And it doesn't matter what restrictions you put on that type of weapon or a class three firearm. If they want it they'll get it. I don't care if they've got to go down into New Mexico to get it they'll get it and they'll get across the border. Now my position, although, I have absolutely no use for a fully automatic weapon, anyway. A: Uh-huh. B: Since I am a law-abiding citizen and I have never had a felony, if I wanted to buy one, I don't think there should be that big of a restriction on it.\n\nHypothesis: there should be that big of a restriction on itn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nB: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah.  Uh-huh.  Uh-huh. B: I don't think it's going to be that easy to come up with\n\nHypothesis: it is going to be that easy to come up withn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": " true"
+    },
+    {
+        "inputs": "But, of course, that just wasn't possible. Her disappointment over Jonathan, which had driven her to France in the first place, had been relegated somewhere to the back of her mind. Now in retrospect she could see that marriage to him would have been a ghastly mistake and that her reaction to discovering that he had been seeing other women while he had been engaged to her had had far more to do with wounded pride than with a wounded heart.\n\nBased on that paragraph can we conclude that this sentence is true?\nmarriage to Jonathan would have been a ghastly mistake\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "When he was there we were Bonnie and Clyde, now he was gone we were Blondie and Dagwood. Or rather, now he was gone, I was Dennis. If I 'd been smarter or less vain I might have realized that this meant that my former role was now vacant.\n\nBased on that paragraph can we conclude that this sentence is true?\nthis meant her former role was now vacant\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Generate a context and a hypothesis.",
+        "targets": "Context: ``They have to be crushed, Bobkins!'' So saying, she marched off down the gravel path, making the kind of crunching noise Robert had thought could only be produced by the BBC sound-effects department. As they rounded the edge of the building he could see that behind the house was a vast garden.\n\nHypothesis: behind the house was a vast garden",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\ntrue"
+    },
+    {
+        "inputs": "Read the text and determine if the sentence is true:\n\n``For God's sake keep them in their seats. If we get panic people are going to be crushed to death and there will be mayhem in the car park.'' The announcer could only guess from the urgency in the Chief Constable's voice that the situation was very very serious.\n\nSentence: the situation was very very seriousn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\nfalse"
+    },
+    {
+        "inputs": "A: but that is one of my solutions. Uh... B: I know here in Dallas that they have just instituted in the last couple of years, uh, a real long period of time that you can absentee vote before the elections. And I do not think they have seen a really high improvement.\n\nCan we draw the following conclusion?\nthey have seen a really high improvement\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Generate a context and a hypothesis.",
+        "targets": "Context: ``Look, lady, give me a break. I just deliver the stuff, I don't interview it for the Sunday papers.'' He waved the paper at her and even at a distance she could see that it said very little.\n\nHypothesis: the paper said very little",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\n{\n    \"true\": true\n}"
+    },
+    {
+        "inputs": "B: you know, sometimes I would go over, but you know, it wouldn't hit me in a big way because I knew that, uh, I would have it covered in that respect. A: Right.  Right. That's good. I don't think we've gone that far, to pay it you know, in advance before we spend it,\n\nBased on the paragraph above can we conclude that \"they've gone that far\"?\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "B: She says that when her husband died oh, that my uncle had said that he would never put her in a rest home. So it's kind of, uh, I don't know. I mean, I don't think my parents would but she is getting pretty bad like she has to have like a little toilet right by her bed and, it's, A: Uh-huh. B: and my mom has to take care of her pretty much so it gets, I don't know. it's a hard decision, but I don't think I would do it to my parents personally.\n\nBased on that paragraph can we conclude that this sentence is true?\nshe would do it to her parents\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Determine if the sentence is true based on the text below:\nhe wanted to be treated like everyone else\n\nHe said that maybe I wasn't ready to join the Party just yet. Terry's passion for equality appealed to my purer mind, and his hatred of existing authority appealed to my resentments. But although I hated inequality it didn't mean I wanted to be treated like everyone else.\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "But the horror of losing was as much to do with money as with pride. Biddy had never let them down, come without fail all through the bad weather, and now was giving Nails an intensive course on her own horse which - in terms of money - was worth another couple of hundred pounds. Yet surely she knew they had no way of paying should she demand it?\n\nBased on that paragraph can we conclude that this sentence is true?\nthey had no way of paying\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nShe rubbed them away with an angry fist. She was a fool to let anyone get round her. How long before she learned that folk 'll always take advantage of weakness?\n\nHypothesis: folk 'll always take advantage of weaknessn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": " true"
+    },
+    {
+        "inputs": "Determine if the sentence is true based on the text below:\nhe could stay home all the time and do nothing\n\nA: And, uh, I got to stay home with my kids, which I really wanted to do, but now I could not go back and do it. B: Yeah. A: I really couldn't, I don't think I could stay home all the time and do nothing.\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Read the text and determine if the sentence is true:\n\nB: I think that not only applies inside the public school system, but in society itself. there's been too much negative reinforcement. How much, like, the caught being good slips. How about, just the John Q citizen out there on the street? A: Yeah, well that's true. I think, really though, I mean, that's one thing that, I mean, my kids definitely get spanked when they need to be spanked. But I really do try to use positive, uh, reinforcement with them at home, also. And it really helps. And I mean, they don't get spanked very often, but they do when they deserve it, you know. But, uh, I don't think any kid should be exempt from being spanked.\n\nSentence: some kid should be exempt from being spankedn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nB: So am I. A: Are you, B: You know, I think it's kind of coming back around to that, don't you,\n\nHypothesis: it's kind of coming back around to thatn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "A: But, uh, uh, I don't understand, I guess, why the schools seem to have such a high dropout rate in the big cities. B: Uh, well, I don't pretend to understand that either. Uh, but I'm not quite sure that it's the kind of thing that ought to be blamed on the schools. But then, again, I'm not quite sure where the blame ought to be put. Uh, because the dropout rate is, in those areas, w-, it's high in those areas where also there's poverty and crime. And they all seem to go together. And it seems like if you could eliminate one of the parts of that circle, where you have the dropout rate and crime and, you know, general poverty kind of conditions, that things ought to get better. So, uh, the other two a-, they're all three social issues and could be addressed by the government in any ways. And clearly, to me, is a kind of government thing to fix but it's just like, I don't expect them to know which part is best to fix just like I don't know. it's a complicated issue. I still don't think I would blame it directly on the school.\n\nCan we draw the following conclusion?\nhe would blame it directly on the school\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Determine if the sentence is true based on the text below:\nthey have got it won\n\nA: Yeah, they did. They put a lot of pressure on him from the outside and from the inside. Uh, it's funny watching them play, he's probably like a lot of quarterbacks, uh, when the pressure is really on when it's down to the last few minutes of the game for the season is when the guys seem to really do their best. B: Uh-huh. A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing.\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "It's impossible to say",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "This was a sheer waste of time. He would probably land and then tell them to walk back. When she glanced at him again he looked very grim and she wondered if she should have told Mitch that he might well have a lot of opportunity to photograph Spain - on foot as he walked back to Malaga.\n\nCan we draw the following conclusion?\nMitch might well have a lot of opportunity to photograph Spain\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "A: The one thing I sometimes wonder about, um, in civil cases is, uh, whether, especially sort of in, uh, maybe like product liability, or medical malpractice, where there's, um, sort of a very technical decision to be made sometimes B: Yes. A: you know, it's not just a matter um, of, you know, did this guy rip off this guy, and it's just a matter of interpreting a contract, it's sort of a matter of, um, you know, sometimes getting into very technical issues, and I wonder um, if the system works adequately in educating the jurors about, uh, whatever, um, you know, issue is under discussion. B: I don't think that they educate them enough to really know what's going on.\nDoes this next sentence follow, given the preceding text?\nthey educate the jurors enough to really know what's going on\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Generate a context and a hypothesis.",
+        "targets": "Context: I said you were mad to come over at this time. It's a world event. Don't you know that Venice is packed with visitors?\n\nHypothesis: Venice is packed with visitors",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\n{\n  \"true\": true\n}"
+    },
+    {
+        "inputs": "Determine if the sentence is true based on the text below:\nregular visitors included the likes of Mr Harry Graham valet-butler to Sir James Chambers\n\nIndeed, in those busy days, our servants ' hall would often witness a gathering of some of the finest professionals in England talking late into the night by the warmth of the fire. Sometimes, naturally, there would be strong disagreements, but more often than not, the atmosphere was dominated by a feeling of mutual respect. Perhaps I will convey a better idea of the tone of those evenings if I say that regular visitors included the likes of Mr Harry Graham valet-butler to Sir James Chambers and Mr John Donalds valet to Mr Sydney Dickenson.\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "A: So, we're comparable. B: Yeah. A: As a matter of fact, I just paid my Richardson taxes because I live in Richardson and supplemented the Robin Hoods very thoroughly, I think. B: Yeah, I think Yeah, we have got it on the line, don't we.\n\nCan we draw the following conclusion?\nthey have got it on the line\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "Your honesty shines out of your face, my darling. It isn't your fault that cynical men like myself won't let themselves believe what they see! I just wish you could believe that Eddie's death was an accident and nothing to do with me.\nCan we infer the following?\nEddie's death was an accident and nothing to do with him\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "O listened. As he listened he could smell the man. And he could hear that the song was almost turning into a sob.\nCan we infer the following?\nthe song was almost turning into a sob\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "B: um, they try to encourage you to follow a specific curriculum, although you don't have to. A: Uh-huh. B: And then if you have particular religious beliefs they're kind of monitored. You know, they will allow you to, I can't think of any examples but certain religious groups don't want their children in public schools because the influence. And maybe they were a group of Mennonites or something like that. A: Uh-huh. B: I don't think they're were in this area\n\nCan we draw the following conclusion?\nthey were in this area\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "``Oh, my poor Folly... We 've been together for five years, Lexy and I - she practically holds that company together. Of course I gave her an ``A''. But that doesn't mean I'm having an affair with her.\nCan we infer the following?\nhe is having an affair with Lexy\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```"
+    },
+    {
+        "inputs": "A: I am right outside Baltimore. I am less than a mile from the Baltimore line. B: Um. A: And I go to a campus of the University of Maryland that is just, less than a mile from my house. So I'm actually in Baltimore, yeah, you could say I'm in Baltimore.\nDoes this next sentence follow, given the preceding text?\nhe is in Baltimore\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened.\nDoes this next sentence follow, given the preceding text?\nsomething had happened\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Determine if the sentence is true based on the text below:\nGustave was shepherded into creative retreat at Croisset by epilepsy\n\nThe Paris to Rouen railway was being extended to Le Havre, and the line cut straight through Dr Flaubert's land. Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy.\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Read the text and determine if the sentence is true:\n\nHe pulled occasionally, his arms tiring. Conker slowed a little, but the branches were coming too fast, he had to lean right forward and couldn't use his hands. He remembered the gate at the end of the track had time to hope it was open because he didn't think Conker could jump it.\n\nSentence: Conker could jump the gaten\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nI WAS really only a bystander in the tragedy of young Mr and Mrs McLeod. It was not really my business although it could be said that I had known them both - had seen them about - for most of their lives.\n\nHypothesis: she had known Mr. and Mrs. McLeod for most of their livesn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Read the text and determine if the sentence is true:\n\nA: and if they weren't spending all the money on drug testing, people could have got a raise. So, see, you know, there's different, I think that's more of a personal view of mine other than a yes, sir, we should have drug testing because there's really a problem B: Uh-huh. A: and I know that. But then, I have other views to it. B: I didn't think it was that expensive because my son was in probably a week and a half period\n\nSentence: it was that expensiven\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nUnder the Racketeer Influenced and Corrupt Organizations law, or RICO, the government has the authority to seek to freeze or seize a defendant's assets before trial.  According to individuals familiar with Mr. Antar's case, prosecutors issued their warning this week after one of Mr. Antar's attorneys asked whether legal fees might be subject to seizure. In a letter, prosecutors told Mr. Antar's lawyers that because of the recent Supreme Court rulings, they could expect that any fees collected from Mr. Antar may be seized.\n\nHypothesis: any fees collected from Mr. Antar may be seizedn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "``Molly likes having an audience for her tales and it passes the hours for them.'' When Miss Louisa had a second more severe stroke at the end of August, and Miss Ellen another heart attack, both old ladies died within a few days of each other. Their friends could only feel that death was merciful in the circumstances especially with war imminent and that Molly had made the closing months of their lives very happy.\n\nBased on the paragraph above can we conclude that \"death was merciful in the circumstances\"?\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "And what she had said, and went on saying quietly, calmly, efficiently, was that she loved Maggie. She paid attention. At eight Maggie had not known that her grandmother was famous but she had seen that people had something in their manner when they looked at Rachel.\nDoes this next sentence follow, given the preceding text?\nMaggie's grandmother was famous\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Read the text and determine if the sentence is true:\n\nB: Well, I was never there for any sentencing. Uh, I finally got empaneled on one case, uh, on my next to the last day, and, uh, we got into the, uh, jury room to, uh, decide the case, and there was one guy on the jury who announced to everybody that he didn't need to deliberate, because he'd already decided that the guy was, uh, not guilty, and he would never vote for guilty. A: Huh. B: So, uh, they appointed me jury foreman and I, uh, didn't think that, uh, going in without deliberating allowed us to reach a verdict,\n\nSentence: going in without deliberating allowed them to reach a verdictn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Strasbourg, Vienna, Bucharest, Istanbul, not stopping, not looking back. I saw her tossing newly gauffred curls as the open roadster headed east, away from Ollie... Temporarily I managed to re-erect my jocular facade, but inside I was panicking. He could take her away I thought he could just do that he has such power to hurt me this little furry creature who hasn't even noticed that I 've given up the weed.\nCan we infer the following?\nhe has given up the weed\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "B: when you've lost something or uh, uh, don't have what other people have that's when you tend to realize, you know, what's out there and you know, what you have and what you don't have. A: Yeah I agree. B: So the original question, do we think they're you know, a security threat?\nDoes this next sentence follow, given the preceding text?\nthey're a security threat\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "It's impossible to say",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nIt's where the bands practise. I can't remember what band Petra's in, but I seen them practise once. They were OK but I didn't think they was brilliant.\n\nHypothesis: Petra's band was brilliantn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Generate a context and a hypothesis.",
+        "targets": "Context: In finding ``good news'' in Berkeley's new freshman admissions plan (``The Privileged Class,'' editorial, Sept. 20), you're reading the headline but not the story. The plan indeed raises from 40% to 50% the number of freshmen applicants admitted strictly by academic criteria. But that doesn't mean ``half of the students attending Berkeley'' will be admitted this way.\n\nHypothesis: half of the students attending Berkeley will be admitted this way",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\ntrue"
+    },
+    {
+        "inputs": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs.\n\nBased on the paragraph above can we conclude that \"Celia was still a bit hazy from the drugs\"?\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "It's impossible to say",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nA:  nanny, sort of? Uh-huh. Uh-huh. B: and you know, I could envision a society where that would happen and make an interesting, uh, uh, story or whatever. A: Yeah. B: I don't think I have a philosophical problem with that.\n\nHypothesis: she has a philosophical problem with thatn\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "No",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nJean was tough and liked to drink. She would endure for a long while yet. But what would she do when she realized that with things as they were she was on a life sentence not just a temporary suspension of essential pleasure?\n\nHypothesis: Jean was on a life sentencen\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "For a while the notion gripped him, and he prowled the many floors of Hamleys looking for toys. He bought a magic set for Sebastian (although his ideal present for the kid would have been a brand-new name) and a marionette for Louise. He could remember that there was an age for puppets and magic just as he could remember the time that he 'd spent trying to fan a deck of cards or sitting in front of a mirror trying to get the hard consonants down like a real ventriloquist.\nCan we infer the following?\nthere was an age for puppets and magic\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Yes"
+    },
+    {
+        "inputs": "B: The kind you have sounds very interesting, though. A: Well, um, they're really sweet dogs. uh, we thought probably our neighborhood in Houston had more of this breed than any other place just because of, um, the family that had them and bred them.\n\nBased on that paragraph can we conclude that this sentence is true?\ntheir neighborhood in Houston had more of this breed than any other place because of the family that had them and bred them\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Generate a context and a hypothesis.",
+        "targets": "Context: At the heart of the universe there is cruelty. We are predators and are preyed upon, every living thing. Did you know that wasps lay their eggs in ladybirds piercing the weak spot in their armour?\n\nHypothesis: wasps lay their eggs in ladybirds",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "```\n{\n    \"true\": true\n}"
+    },
+    {
+        "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nA: No, not really. I spends a lot of time with our income tax, though. especially, this year and last year. Um, I have been married for just a few years, so I've had to really switch around from the EZ form to the, uh, B: Schedule A. A: Right. B: Well, yeah. A: All the deductions and all that. B: Did you notice that when they passed the new simplified tax act, it seemed like it made everything harder?\n\nHypothesis: when they passed the new simplified tax act  it seemed like it made everything hardern\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "Yes",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate.\n\nBased on the paragraph above can we conclude that \"TV is pretty accurate\"?\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
+        "targets": "It's impossible to say",
+        "metric": "em",
+        "domain": "nli",
+        "model_name": "cb",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "No"
+    },
+    {
+        "inputs": "Amazon recently upstaged Gamestop on Battlefield 3 pre-orders because they are not able to match their competitor's aggressive pricing.\nTell me who they is.\nOPTIONS:\n- Amazon\n- Gamestop",
+        "targets": "Gamestop",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Amazon"
+    },
+    {
+        "inputs": "KFC sells better than Popeyes since they use worse ingredients in their chicken.\n\nWho is they referring to?\nOPTIONS:\n- KFC\n- Popeyes",
+        "targets": "Popeyes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Popeyes"
+    },
+    {
+        "inputs": "Kyle beat Mark in the race because he had started out too fast.\nTell me who he is.\nOPTIONS:\n- Kyle\n- Mark",
+        "targets": "Mark",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Mark"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nButters wanted to steal the movie Spiderman from Kenny, but he did not want to be perceived as a thief.\n\nOPTIONS:\n- Butters\n- Kenny",
+        "targets": "Butters",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Butters"
+    },
+    {
+        "inputs": "A motorboat turns the propeller pushing the water backwards, thus the it propells the vehicle forward.\n\nWho is it referring to?\nOPTIONS:\n- A motorboat\n- the propeller",
+        "targets": "the propeller",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "A motorboat"
+    },
+    {
+        "inputs": "Ryan won the presidency against Tom because he feels he was the better candidate.\nTell me who he is.\nOPTIONS:\n- Ryan\n- Tom",
+        "targets": "Ryan",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Tom"
+    },
+    {
+        "inputs": "The United Federation of Worlds attempts to bring civilization and rule to the population of millions of planets, since they need a centralized government to maintain order.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The United Federation of Worlds\n- the population of millions of planets",
+        "targets": "the population of millions of planets",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The United Federation of Worlds"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nJimbo was afraid of Bobbert because she was running around with a bloody spear.\n\nOPTIONS:\n- Jimbo\n- Bobbert",
+        "targets": "Bobbert",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jimbo"
+    },
+    {
+        "inputs": "The boulder dropped into the river, but it continued to flow.\nTell me who it is.\nOPTIONS:\n- The boulder\n- the river",
+        "targets": "the river",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The river"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nField Reporter Chris Johnson interviewed Corporal Mason since he needs to get the story for the media.\n\nOPTIONS:\n- Field Reporter Chris Johnson\n- Corporal Mason",
+        "targets": "Field Reporter Chris Johnson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Field Reporter Chris Johnson"
+    },
+    {
+        "inputs": "Olivia tried to counsel Emily, but she was rejected.\nTell me who she is.\nOPTIONS:\n- Olivia\n- Emily",
+        "targets": "Olivia",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nMonster trucks would crush cars since they are so much smaller in size.\n\nOPTIONS:\n- Monster trucks\n- cars",
+        "targets": "cars",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Monster trucks"
+    },
+    {
+        "inputs": "Sam hates Martha Stewart, because she committed a crime.\n\nWho is she referring to in this sentence?\nOPTIONS:\n- Sam\n- Martha Stewart",
+        "targets": "Martha Stewart",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Martha Stewart"
+    },
+    {
+        "inputs": "Jeremy annoyed Justin so he can have the room.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Jeremy\n- Justin",
+        "targets": "Jeremy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Justin"
+    },
+    {
+        "inputs": "The teacher told the student that he expected something better from him.\nBased on this sentence, who is he?\n\nOPTIONS:\n- The teacher\n- the student",
+        "targets": "The teacher",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The teacher"
+    },
+    {
+        "inputs": "LA Galaxy is constantly seeking famous players to fill their ranks, because they are trying to obtain high profile players to incite popularity into the team.\nBased on this sentence, who is they?\n\nOPTIONS:\n- LA Galaxy\n- famous players",
+        "targets": "LA Galaxy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "LA Galaxy"
+    },
+    {
+        "inputs": "Chrome is finally set to pull ahead of Firefox in November so they are trying hard to prevent their users from switching.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- Chrome\n- Firefox",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Chrome"
+    },
+    {
+        "inputs": "The team decided to cancel their relations with AT&T Corporate because they ran out of money.\nWho is \"they\"?\nOPTIONS:\n- The team\n- AT&T Corporate",
+        "targets": "The team",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The team decided to cancel their relations with AT&T Corporate."
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nOfficer Kennedy saved Roger from the criminals, but he was not grateful for being saved.\n\nOPTIONS:\n- Officer Kennedy\n- Roger",
+        "targets": "Roger",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Officer Kennedy"
+    },
+    {
+        "inputs": "AMD's Bulldozer chips have received lukewarm reception compared to Intel's Sandy Bridge chips since they were much faster in processing speed.\nTell me who they is.\nOPTIONS:\n- AMD's Bulldozer chips\n- Intel's Sandy Bridge chips",
+        "targets": "Intel's Sandy Bridge chips",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "AMD's Bulldozer chips"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nJustin Bieber sold many more albums than Jack Johnson, but he is still perceived as a better artist.\n\nOPTIONS:\n- Justin Bieber\n- Jack Johnson",
+        "targets": "Jack Johnson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jack Johnson"
+    },
+    {
+        "inputs": "Jim pooped on Jack and he laughed.\n\nWho is he referring to?\nOPTIONS:\n- Jack\n- Jim",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim"
+    },
+    {
+        "inputs": "The train conductor admonished the man standing in the doorway because he was not following the rules.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- The train conductor\n- the man standing in the doorway",
+        "targets": "the man standing in the doorway",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The train conductor"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nThe museum curator looked at the patron and he saw him squirm.\n\nOPTIONS:\n- The museum curator\n- the patron",
+        "targets": "The museum curator",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The museum curator"
+    },
+    {
+        "inputs": "Bill was robbed by John, so the officer helped him.\n\nWho is \"him\" in this prior sentence?\nOPTIONS:\n- Bill\n- John",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nDC Universe went free to play while World of Warcraft is subscription based, because they would not maintain enough users to continue a monthly payment plan.\n\nOPTIONS:\n- DC Universe\n- World of Warcraft",
+        "targets": "DC Universe",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "World of Warcraft"
+    },
+    {
+        "inputs": "Which entity is it this sentence?\n\nA dog chewed a bone and it became wet.\n\nOPTIONS:\n- A dog\n- a bone",
+        "targets": "a bone",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "a dog"
+    },
+    {
+        "inputs": "Janet Jackson is more popular than Latoya Jackson since she does not have as many followers.\nWho is \"she\"?\nOPTIONS:\n- Janet Jackson\n- Latoya Jackson",
+        "targets": "Latoya Jackson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Latoya Jackson"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nKyle beat Mark in the race because he was the fastest kid in school.\n\nOPTIONS:\n- Kyle\n- Mark",
+        "targets": "Kyle",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Mark"
+    },
+    {
+        "inputs": "The children egged the neighbors because they had no dignity.\n\nWho is they referring to?\nOPTIONS:\n- The children\n- the neighbors",
+        "targets": "The children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The neighbors"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nNew York City was grateful for the sacrifices the American Armed Forces did to save their city since they are able to enjoy another day due to their heroics.\n\nOPTIONS:\n- New York City\n- the American Armed Forces",
+        "targets": "New York City",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "New York City"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nBumblebee was sent home with Sam Witwicky to protect him since he needed to be protected from the Decepticons.\n\nOPTIONS:\n- Bumblebee\n- Sam Witwicky",
+        "targets": "Bumblebee",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bumblebee"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nA mathematical equation is more influential than politics, because it concerns only the present.\n\nOPTIONS:\n- A mathematical equation\n- politics",
+        "targets": "politics",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "A mathematical equation"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nUncharted 3 did not introduce any new ideas since their last game, Uncharted 2, so it ended up getting lukewarm reviews by game critics.\n\nOPTIONS:\n- Uncharted 3\n- Uncharted 2",
+        "targets": "Uncharted 3",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Uncharted 3"
+    },
+    {
+        "inputs": "Lemuel painted Jim a piece of art since he knew how.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Lemuel\n- Jim",
+        "targets": "Lemuel",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim"
+    },
+    {
+        "inputs": "The celebrities who agreed to go to the Marine Corp dance with their dates stayed true to their word, so they were extremely thankful that they took time out of their schedule to come.\nTell me who they is.\nOPTIONS:\n- The celebrities\n- their dates",
+        "targets": "their dates",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The celebrities who agreed to go to the Marine Corp dance with their dates stayed true to their word, so they were extremely thankful that they took time out of their schedule to come.\ntrue."
+    },
+    {
+        "inputs": "Marriott rewards frequent travelers with points for free stays so they can influence their decision on where they would like to stay.\nWho is \"they\"?\nOPTIONS:\n- Marriott\n- frequent travelers",
+        "targets": "Marriott",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Marriott"
+    },
+    {
+        "inputs": "The musicians performed at two venues because neither of them got paid much.\nWho is \"them\"?\nOPTIONS:\n- The musicians\n- two venues",
+        "targets": "The musicians",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The musicians performed at two venues because neither of them got paid much."
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nThe counselor gave the student advice because he feels obligated to help him.\n\nOPTIONS:\n- The counselor\n- the student",
+        "targets": "The counselor",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The counselor"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nThe mouse sought out the wise owl's advice, and she promptly realized her mistake.\n\nOPTIONS:\n- The mouse\n- the wise owl",
+        "targets": "The mouse",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The mouse"
+    },
+    {
+        "inputs": "God created Adam for good but he could not control his temptation.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- God\n- Adam",
+        "targets": "Adam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Adam"
+    },
+    {
+        "inputs": "The Stars did not have many viewers watching the game last Friday since they were all watching the World Series instead.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The Stars\n- many viewers",
+        "targets": "many viewers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Stars"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nKaty cried for Susan since she was sad.\n\nOPTIONS:\n- Katy\n- Susan",
+        "targets": "Katy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Susan"
+    },
+    {
+        "inputs": "Wall Street was bailed out by the government because they wanted to prevent an economic collapse.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Wall Street\n- the government",
+        "targets": "the government",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Wall Street"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nCharles Dickinson shot at Andrew Jackson, so he retaliated likewise.\n\nOPTIONS:\n- Charles Dickinson\n- Andrew Jackson",
+        "targets": "Andrew Jackson",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Andrew Jackson"
+    },
+    {
+        "inputs": "KFC sells better than Popeyes since they have better chicken.\nBased on this sentence, who is they?\n\nOPTIONS:\n- KFC\n- Popeyes",
+        "targets": "KFC",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "KFC"
+    },
+    {
+        "inputs": "Which person is its referring to in the following sentence?\nBengali is morphologically richer than English, so its vocabulary is smaller.\n\nOPTIONS:\n- Bengali\n- English",
+        "targets": "English",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "English"
+    },
+    {
+        "inputs": "Sarah went to Kelly's house because she was leaving from work.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Sarah\n- Kelly",
+        "targets": "Sarah",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Kelly"
+    },
+    {
+        "inputs": "When Sue went to Nadia's home for dinner, she served sukiyaki au gratin.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Sue\n- Nadia",
+        "targets": "Sue",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sue"
+    },
+    {
+        "inputs": "Sharks are constantly eating fishes because they are the main source of food in the ocean.\n\nWho is they referring to?\nOPTIONS:\n- Sharks\n- fishes",
+        "targets": "fishes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sharks"
+    },
+    {
+        "inputs": "Stephanie gave Brandy flowers because she had a lot of them.\n\nWho is she referring to in this sentence?\nOPTIONS:\n- Stephanie\n- Brandy",
+        "targets": "Stephanie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Brandy"
+    },
+    {
+        "inputs": "The storm delayed the flight as it was very dangerous.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The storm\n- the flight",
+        "targets": "The storm",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The storm"
+    },
+    {
+        "inputs": "The mysterious creature is drinking whiskey because it still has more of these sentences to write.\n\nWho is it referring to?\nOPTIONS:\n- The mysterious creature\n- whiskey",
+        "targets": "The mysterious creature",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "The couple took the car to the shop on Tuesday, but they will not have to pay until next week.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The couple\n- the shop",
+        "targets": "The couple",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The couple took the car to the shop on Tuesday, but they will not have to pay until next week."
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nJim was staring at the guy with the snowboard, because he wanted to be like him.\n\nOPTIONS:\n- Jim\n- the guy",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nGates is richer than Jobs, so he does a lot more charity work.\n\nOPTIONS:\n- Gates\n- Jobs",
+        "targets": "Gates",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jobs"
+    },
+    {
+        "inputs": "Sherry called Karla but she later regretted it.\n\nWho is she referring to?\nOPTIONS:\n- Sherry\n- Karla",
+        "targets": "Sherry",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sherry"
+    },
+    {
+        "inputs": "Blockbuster increased the time allotted for customers to return videos since they were starting to lose business due to their strict policies.\n\nWho is they referring to?\nOPTIONS:\n- Blockbuster\n- customers",
+        "targets": "Blockbuster",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Blockbuster"
+    },
+    {
+        "inputs": "Claudia lost all her money to Valarie because she is really smart.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Claudia\n- Valarie",
+        "targets": "Valarie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Claudia"
+    },
+    {
+        "inputs": "John could not understand his waiter, because he was deaf.\nWho is \"he\"?\nOPTIONS:\n- John\n- his waiter",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "John"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe children egged the neighbors because they had no candy.\n\nOPTIONS:\n- The children\n- the neighbors",
+        "targets": "the neighbors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The children"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Cowboys formed a trailer defense against the Indians since they have a better chance of surviving.\n\nOPTIONS:\n- The Cowboys\n- the Indians",
+        "targets": "The Cowboys",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Cowboys"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nGoogle is catching up to Firefox in the percentage of users, because they have been getting too bulky and slow.\n\nOPTIONS:\n- Google\n- Firefox",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Google"
+    },
+    {
+        "inputs": "Kathy looked after the children of Mrs. Faith because she is quite capable as a baby sitter.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Kathy\n- Mrs. Faith",
+        "targets": "Kathy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Kathy"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nChevrolet had to recently recall their cars because they received complaints about the brakes in their product.\n\nOPTIONS:\n- Chevrolet\n- their cars",
+        "targets": "Chevrolet",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Chevrolet"
+    },
+    {
+        "inputs": "MySpace lost millions of users to Facebook, but they still have a small following.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- MySpace\n- Facebook",
+        "targets": "MySpace",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "MySpace"
+    },
+    {
+        "inputs": "Tech Analysts have speculated that Amazon will be releasing a phone next year, but they are only speculating at this point.\n\nWho is they referring to?\nOPTIONS:\n- Tech Analysts\n- Amazon",
+        "targets": "Tech Analysts",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Tech Analysts"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe civilians had to flee the encampment from the thugs since they were terrorizing and attacking everyone they saw.\n\nOPTIONS:\n- The civilians\n- the thugs",
+        "targets": "the thugs",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The civilians"
+    },
+    {
+        "inputs": "Derrick begged his boss for a raise but he did not get one.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Derrick\n- his boss",
+        "targets": "Derrick",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Derrick"
+    },
+    {
+        "inputs": "The government has made about 30 percent of the requests for censoring classified materials to Google, but they have not complied with all of them.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The government\n- Google",
+        "targets": "Google",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The government"
+    },
+    {
+        "inputs": "The Xbox 360 outsold the Nintendo Wii by 300 percent because they are appealing to more people with their better hardware.\n\nWho is they referring to?\nOPTIONS:\n- The Xbox 360\n- the Nintendo Wii",
+        "targets": "The Xbox 360",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Xbox 360 outsold the Nintendo Wii by 300 percent because they are appealing to more people with their better hardware."
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe graduate students spend every waking moment studying for their classes, but they still need to devote time to friends and family as well.\n\nOPTIONS:\n- The graduate students\n- their classes",
+        "targets": "The graduate students",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The graduate students"
+    },
+    {
+        "inputs": "King Leonidas was more respected than King Henry because he treated the people as equal citizens.\nBased on this sentence, who is he?\n\nOPTIONS:\n- King Leonidas\n- King Henry",
+        "targets": "King Leonidas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "King Leonidas"
+    },
+    {
+        "inputs": "Mary asked Jim not to annoy the crazy person, as he might be attacked.\nTell me who he is.\nOPTIONS:\n- Jim\n- the crazy person",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim"
+    },
+    {
+        "inputs": "When Sue went to Nadia's home for dinner, she saw a big teddy bear.\nTell me who she is.\nOPTIONS:\n- Sue\n- Nadia",
+        "targets": "Nadia",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sue"
+    },
+    {
+        "inputs": "Cats are smarter than dogs because they bark for no reason.\nTell me who they is.\nOPTIONS:\n- Cats\n- dogs",
+        "targets": "dogs",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Cats"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nTodd told Bill that he should run the presidency race.\n\nOPTIONS:\n- Todd\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "The young up-and-comer destroyed the old veteran Star in the shootout, so he got placed on the starting line for the rest of the season.\nTell me who he is.\nOPTIONS:\n- The young up-and-comer\n- the old veteran Star",
+        "targets": "The young up-and-comer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Monkeys hate lions because they are scary.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Monkeys\n- lions",
+        "targets": "lions",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "lions"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nProfessors give a lot of advice to students, because they are caring.\n\nOPTIONS:\n- Professors\n- students",
+        "targets": "Professors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Professors"
+    },
+    {
+        "inputs": "Heath Ledger was considered the greatest Joker of all time by Ebert, because the way he depicted the character gave chills to the audience.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Heath Ledger\n- Ebert",
+        "targets": "Heath Ledger",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Heath Ledger"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe management always favor the employees who are always on time because they show dedication to their job.\n\nOPTIONS:\n- The management\n- the employees",
+        "targets": "the employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The employees"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nBush beat Gore because he was unpopular.\n\nOPTIONS:\n- Bush\n- Gore",
+        "targets": "Gore",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bush"
+    },
+    {
+        "inputs": "Walmart has leaked pages of their Black Friday Ad to the users of the internet, because they are trying to increase hype for them to come to their store.\nWho is \"they\"?\nOPTIONS:\n- Walmart\n- the users of the internet",
+        "targets": "Walmart",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Walmart"
+    },
+    {
+        "inputs": "Emma did not pass the ball to Janie, although she was open.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Emma\n- Janie",
+        "targets": "Janie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Janie"
+    },
+    {
+        "inputs": "Sharks are constantly eating fishes because they are higher on the food chain.\n\nWho is they referring to?\nOPTIONS:\n- Sharks\n- fishes",
+        "targets": "Sharks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sharks"
+    },
+    {
+        "inputs": "Lorenze took his son to the hospital since he was concerned for his health.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Lorenze\n- his son",
+        "targets": "Lorenze",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "NASA helped the Autobots to exile from the planet since they had a transport that could take them off the planet.\nWho is \"they\"?\nOPTIONS:\n- NASA\n- the Autobots",
+        "targets": "NASA",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "NASA"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Chinese Empire banished the Wu Shu family from the kingdom because they committed atrocities that could not allow.\n\nOPTIONS:\n- The Chinese Empire\n- the Wu Shu family",
+        "targets": "the Wu Shu family",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Chinese Empire"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nBill was able to steal the banana from Ken because he was slow.\n\nOPTIONS:\n- Bill\n- Ken",
+        "targets": "Ken",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nSubways has always been considered a healthy choice by athletes, so they often visit this restaurant as regulars.\n\nOPTIONS:\n- Subways\n- athletes",
+        "targets": "athletes",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Subways"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nSam cheated Sally but she did not repent.\n\nOPTIONS:\n- Sally\n- Sam",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sam"
+    },
+    {
+        "inputs": "Jim went to Hal's house, and walked his dog.\nWho is \"his\"?\nOPTIONS:\n- Jim\n- Hal",
+        "targets": "Hal",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim went to Hal's house, and walked his dog."
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nJohn tried to bake with Michael, but he did not have any eggs.\n\nOPTIONS:\n- John\n- Michael",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Michael"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe students protested against the new policies because they were too strict.\n\nOPTIONS:\n- The students\n- the new policies",
+        "targets": "the new policies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The students"
+    },
+    {
+        "inputs": "The X-Factor is starting to overtake American Idol in the ratings race since they have boring judges.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The X-Factor\n- American Idol",
+        "targets": "American Idol",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The X-Factor"
+    },
+    {
+        "inputs": "The storm delayed the flight as it was going over the ocean.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The storm\n- the flight",
+        "targets": "the flight",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The storm"
+    },
+    {
+        "inputs": "The computer rejected the password because it was malfunctioning.\nWho is \"it\"?\nOPTIONS:\n- The computer\n- the password",
+        "targets": "The computer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The computer"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nApple defeated Microsoft in the war because they lack creativity.\n\nOPTIONS:\n- Apple\n- Microsoft",
+        "targets": "Microsoft",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Apple"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nLemuel painted Jim a piece of art since he requested it.\n\nOPTIONS:\n- Lemuel\n- Jim",
+        "targets": "Jim",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jim"
+    },
+    {
+        "inputs": "The man asked Mark the question again because he was being evasive.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- The man\n- Mark",
+        "targets": "Mark",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The man"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe Simpsons have lasted 23 seasons while The Sarah Connor Chronicles lasted two seasons, since they have been wildly successful.\n\nOPTIONS:\n- The Simpsons\n- The Sarah Connor Chronicles",
+        "targets": "The Simpsons",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Simpsons"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nThe manager fired the intern because she was upset.\n\nOPTIONS:\n- The manager\n- the intern",
+        "targets": "The manager",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The manager"
+    },
+    {
+        "inputs": "Youtube has paid out over a million dollars to their channel partners, since they want to reward those who bring more users to their website.\nWho is \"they\"?\nOPTIONS:\n- Youtube\n- their channel partners",
+        "targets": "Youtube",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "true"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nThe Batman does not kill Joker because he is good at heart.\n\nOPTIONS:\n- The Batman\n- Joker",
+        "targets": "The Batman",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Batman"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nLucas is younger than Claus because he was born last.\n\nOPTIONS:\n- Lucas\n- Claus",
+        "targets": "Lucas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Claus"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nConan O'Brien replaced Jay Leno as host of Late Night, however, he was soon removed from that timeslot due to him coming back.\n\nOPTIONS:\n- Conan O'Brien\n- Jay Leno",
+        "targets": "Conan O'Brien",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jay Leno"
+    },
+    {
+        "inputs": "The Starbuck employees make all the drinks on the spot for morning customers because they want them to return to purchase more of their products.\nTell me who they is.\nOPTIONS:\n- The Starbuck employees\n- morning customers",
+        "targets": "The Starbuck employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Starbuck employees"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nJohn wanted to vote for Doe, but he could not make up his mind.\n\nOPTIONS:\n- John\n- Doe",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Doe"
+    },
+    {
+        "inputs": "The brown fox jumped over the dog because it was lazy.\n\nWho is \"it\" in this prior sentence?\nOPTIONS:\n- The brown fox\n- the dog",
+        "targets": "the dog",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The brown fox"
+    },
+    {
+        "inputs": "The parents grounded the children since they were disobedient.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The parents\n- the children",
+        "targets": "the children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The parents"
+    },
+    {
+        "inputs": "Walmart is enforcing strict guidelines for customers this Black Friday, but they may not always follow them even if they are enforced.\n\nWho is they referring to?\nOPTIONS:\n- Walmart\n- customers",
+        "targets": "customers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "customers"
+    },
+    {
+        "inputs": "Modern Warfare has big expectations to live up to due to the successful release of Battlefield 3 since they already have a solid grasp on many players that would consider purchasing a new similar game.\nWho is \"they\"?\nOPTIONS:\n- Modern Warfare\n- Battlefield 3",
+        "targets": "Battlefield 3",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Modern Warfare has big expectations to live up to due to the successful release of Battlefield 3 since they already have a solid grasp on many players that would consider purchasing a new similar game."
+    },
+    {
+        "inputs": "The lumberjacks cut the trees so they could be paid.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The lumberjacks\n- the trees",
+        "targets": "The lumberjacks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The lumberjacks"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nSteve Urkel was always annoying Carl Winslow in the show, \"Family Matters\", but he still liked him regardless.\n\nOPTIONS:\n- Steve Urkel\n- Carl Winslow",
+        "targets": "Carl Winslow",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Steve Urkel"
+    },
+    {
+        "inputs": "Firefox is used more than Internet Explorer because it is less stable.\nTell me who it is.\nOPTIONS:\n- Firefox\n- Internet Explorer",
+        "targets": "Internet Explorer",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Firefox"
+    },
+    {
+        "inputs": "Liu Kang used the element of water against Sub Zero because he is weak against such elements.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Liu Kang\n- Sub Zero",
+        "targets": "Sub Zero",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sub Zero"
+    },
+    {
+        "inputs": "Spiderman defeated Magnito because he is a good guy.\n\nWho is he referring to?\nOPTIONS:\n- Spiderman\n- Magnito",
+        "targets": "Spiderman",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Spiderman"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nSeagate recently announced to their investors that production will not go back to normal until the end of 2012, so they may end up selling their stock.\n\nOPTIONS:\n- Seagate\n- their investors",
+        "targets": "their investors",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Seagate"
+    },
+    {
+        "inputs": "Joy was jealous of Jenny because she was making less money than her.\n\nWho is she referring to?\nOPTIONS:\n- Joy\n- Jenny",
+        "targets": "Joy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jenny"
+    },
+    {
+        "inputs": "The new knives are better than the old knives since they are losing their sharp edge due to constant use.\nTell me who they is.\nOPTIONS:\n- new knives\n- old knives",
+        "targets": "old knives",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "new knives"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nKim offered mushrooms to Laura, because she might like them.\n\nOPTIONS:\n- Kim\n- Laura",
+        "targets": "Laura",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Laura"
+    },
+    {
+        "inputs": "Ken scanned photos for Neil since he needed to save his documents.\nTell me who he is.\nOPTIONS:\n- Ken\n- Neil",
+        "targets": "Neil",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Neil"
+    },
+    {
+        "inputs": "Steve threw the bowling ball down the lane when it returned.\nBased on this sentence, who is it?\n\nOPTIONS:\n- the bowling ball\n- the lane",
+        "targets": "the bowling ball",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "the bowling ball"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nPresident Obama rewarded Sam with a medal for his valorous acts because he saved the world at least twice.\n\nOPTIONS:\n- President Obama\n- Sam",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "President Obama"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nI chopped down the tree with my axe because it was tall.\n\nOPTIONS:\n- the tree\n- my axe",
+        "targets": "the tree",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "the tree"
+    },
+    {
+        "inputs": "Paula liked Ness more than Pokey because he was nice to her.\n\nWho is he referring to?\nOPTIONS:\n- Ness\n- Pokey",
+        "targets": "Ness",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Pokey"
+    },
+    {
+        "inputs": "Rocky beat Drago because the crowd was supporting him.\n\nWho is him referring to?\nOPTIONS:\n- Rocky\n- Drago",
+        "targets": "Rocky",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Rocky"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMySpace lost millions of users to Facebook, but they were not able to crush them completely.\n\nOPTIONS:\n- MySpace\n- Facebook",
+        "targets": "Facebook",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "MySpace"
+    },
+    {
+        "inputs": "Hitler conquered Alex in the war because everybody supported him.\nBased on this sentence, who is him?\n\nOPTIONS:\n- Hitler\n- Alex",
+        "targets": "Hitler",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Hitler"
+    },
+    {
+        "inputs": "Video games are outselling movies because they are an old medium.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Video games\n- movies",
+        "targets": "movies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Video games"
+    },
+    {
+        "inputs": "Who is she in the following sentence?\n\nThe mouse sought out the wise owl's advice, and she promptly accepted the free meal.\n\nOPTIONS:\n- The mouse\n- the wise owl",
+        "targets": "the wise owl",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The mouse"
+    },
+    {
+        "inputs": "The professor highly recommends the student because he asks very good questions.\nWho is \"he\"?\nOPTIONS:\n- The professor\n- the student",
+        "targets": "the student",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The professor"
+    },
+    {
+        "inputs": "Which person is she referring to in the following sentence?\nMichelle likes green shirts while Sarah prefers blue, because she likes the color of grass.\n\nOPTIONS:\n- Michelle\n- Sarah",
+        "targets": "Michelle",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sarah"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nThe boy gave his friend a cookie because he had an extra.\n\nOPTIONS:\n- The boy\n- his friend",
+        "targets": "The boy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The boy"
+    },
+    {
+        "inputs": "The band connected well to their fans, so they continued to write albums.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The band\n- their fans",
+        "targets": "The band",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The band"
+    },
+    {
+        "inputs": "Which entity is she this sentence?\n\nAngelina Jolie played the role of the mother of Grendell, since she looked the best for the role.\n\nOPTIONS:\n- Angelina Jolie\n- the mother of Grendell",
+        "targets": "Angelina Jolie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Angelina Jolie"
+    },
+    {
+        "inputs": "Who is it referring to in the following sentence?\nThe sheep chased the pig because it was insulted.\n\nOPTIONS:\n- The sheep\n- the pig",
+        "targets": "The sheep",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The sheep"
+    },
+    {
+        "inputs": "Tim gave Marlo a pat on the back because he looked sad.\nTell me who he is.\nOPTIONS:\n- Tim\n- Marlo",
+        "targets": "Marlo",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Tim"
+    },
+    {
+        "inputs": "The listener did not complain about the singer because he was tone deaf.\nWho is \"he\"?\nOPTIONS:\n- The listener\n- the singer",
+        "targets": "The listener",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The listener"
+    },
+    {
+        "inputs": "Doctor Igor was interrogated by Colonel Marshall, although he did not have good interrogation skills.\nTell me who he is.\nOPTIONS:\n- Doctor Igor\n- Colonel Marshall",
+        "targets": "Colonel Marshall",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Doctor Igor"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nThe cabbage was in the freezer and it became frozen.\n\nOPTIONS:\n- The cabbage\n- the freezer",
+        "targets": "The cabbage",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The cabbage was in the freezer and it became frozen."
+    },
+    {
+        "inputs": "Gun instructors provide the best tips and practices to keep their students safe from firearm usage, but they need to make sure they listen to these lessons to be safe.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Gun instructors\n- their students",
+        "targets": "their students",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Gun instructors"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nThe river destroyed the bridge because it was high.\n\nOPTIONS:\n- The river\n- the bridge",
+        "targets": "The river",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The river"
+    },
+    {
+        "inputs": "Joe earned more money than Rob on the Price is Right because he was able to guess more letters correctly.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Joe\n- Rob",
+        "targets": "Joe",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Joe"
+    },
+    {
+        "inputs": "The musicians performed at two venues because neither of them paid much.\n\nWho is \"them\" in this prior sentence?\nOPTIONS:\n- The musicians\n- two venues",
+        "targets": "two venues",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The musicians"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe Dallas Cowboys lost their lead to the Redskins because they started to perform very poorly in the second half.\n\nOPTIONS:\n- The Dallas Cowboys\n- the Redskins",
+        "targets": "The Dallas Cowboys",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Dallas Cowboys"
+    },
+    {
+        "inputs": "Sally was really happy that Beth finally got a job because she is a concerned friend.\n\nWho is she referring to?\nOPTIONS:\n- Sally\n- Beth",
+        "targets": "Sally",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Beth"
+    },
+    {
+        "inputs": "The police arrested 700 protesters in New York since they tried to block traffic on the Manhattan bridge.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The police\n- 700 protesters",
+        "targets": "The police",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The police"
+    },
+    {
+        "inputs": "Stephen King called Spielberg so that he could ask for some money.\nWho is \"he\"?\nOPTIONS:\n- Stephen King\n- Spielberg",
+        "targets": "Stephen King",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Stephen King"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe group grew tired of making these sentences because they are tedious.\n\nOPTIONS:\n- The group\n- these sentences",
+        "targets": "these sentences",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The group"
+    },
+    {
+        "inputs": "The music player did not open the file because it did not play that format.\n\nWho is it referring to in this sentence?\nOPTIONS:\n- The music player\n- the file",
+        "targets": "The music player",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The music player"
+    },
+    {
+        "inputs": "Black Eyed Peas hosted a huge event for the partners of Intel while they also perform for many other events.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Black Eyed Peas\n- the partners of Intel",
+        "targets": "Black Eyed Peas",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Black Eyed Peas"
+    },
+    {
+        "inputs": "The people barricaded themselves from the zombies because they did not want to become food.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The people\n- the zombies",
+        "targets": "The people",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The people"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nThe monsters at the haunted house chased the children because they want to be scared for entertainment.\n\nOPTIONS:\n- The monsters\n- the children",
+        "targets": "the children",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The monsters"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe NFL generates obscene amounts of revenue compared to the MLB, because they are the most watched sport in the US.\n\nOPTIONS:\n- The NFL\n- the MLB",
+        "targets": "The NFL",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The NFL"
+    },
+    {
+        "inputs": "Sam helped Davey fortify their bunker because he wanted to be a good friend.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Sam\n- Davey",
+        "targets": "Sam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sam"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMicrosoft discontinued plans for the Courier tablet due to the success of the tablets from Apple because they feel the product would not be successful.\n\nOPTIONS:\n- Microsoft\n- Apple",
+        "targets": "Microsoft",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Apple"
+    },
+    {
+        "inputs": "The cow ran into the fence and it broke.\nBased on this sentence, who is it?\n\nOPTIONS:\n- The cow\n- the fence",
+        "targets": "the fence",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The cow"
+    },
+    {
+        "inputs": "The magician pulled a rabbit out of his cage.\n\nWho is his referring to in this sentence?\nOPTIONS:\n- The magician\n- a rabbit",
+        "targets": "a rabbit",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The magician"
+    },
+    {
+        "inputs": "Ken has Adam's bike, because he gave it to him.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Ken\n- Adam",
+        "targets": "Adam",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Adam"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nMike cut his finger while watching Chef Michaels on TV, but he can sometimes be a distraction from fellow cooks watching him on TV.\n\nOPTIONS:\n- Mike\n- Chef Michaels",
+        "targets": "Chef Michaels",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Chef Michaels"
+    },
+    {
+        "inputs": "Sprint is now selling the IPhone just like Verizon, because they were crushing them in new customers due to this particular phone.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Sprint\n- Verizon",
+        "targets": "Verizon",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sprint"
+    },
+    {
+        "inputs": "Stacy lied about partying to her mom, but she found out.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Stacy\n- her mom",
+        "targets": "her mom",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Stacy"
+    },
+    {
+        "inputs": "The painting was at the museum because it was having a display.\nWho is \"it\"?\nOPTIONS:\n- The painting\n- the museum",
+        "targets": "the museum",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The painting was at the museum because it was having a display."
+    },
+    {
+        "inputs": "When Debbie splashed Tina, she got in trouble.\n\nWho is she referring to?\nOPTIONS:\n- Debbie\n- Tina",
+        "targets": "Debbie",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Tina"
+    },
+    {
+        "inputs": "Bill punched Larry because he was angry.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Bill\n- Larry",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "The wine busted the cask because it was too small.\nWho is \"it\"?\nOPTIONS:\n- The wine\n- the cask",
+        "targets": "the cask",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The wine"
+    },
+    {
+        "inputs": "Who is they referring to in the following sentence?\nThe Axis forces lost the war to the Allied forces because they took advantage of their weakness.\n\nOPTIONS:\n- The Axis forces\n- the Allied forces",
+        "targets": "the Allied forces",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Axis forces lost the war to the Allied forces because they took advantage of their weakness."
+    },
+    {
+        "inputs": "The team decided to cancel their relations with AT&T Corporate because they are arrogant.\nTell me who they is.\nOPTIONS:\n- The team\n- AT&T Corporate",
+        "targets": "AT&T Corporate",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The team decided to cancel their relations with AT&T Corporate because they are arrogant."
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nMonster trucks would crush cars since they are so massive.\n\nOPTIONS:\n- Monster trucks\n- cars",
+        "targets": "Monster trucks",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Monster trucks"
+    },
+    {
+        "inputs": "Intel sued IntelSpec since they are trying to protect their trademark name.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- Intel\n- IntelSpec",
+        "targets": "Intel",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "IntelSpec"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nSteve scratched Johnny because he was angry.\n\nOPTIONS:\n- Steve\n- Johnny",
+        "targets": "Steve",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Steve"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nFred drove to Mack's tire shop, and he bought a tire.\n\nOPTIONS:\n- Fred\n- Mack",
+        "targets": "Fred",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Mack"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nJoe slapped Jose in the face because he cussed him out.\n\nOPTIONS:\n- Joe\n- Jose",
+        "targets": "Jose",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jose"
+    },
+    {
+        "inputs": "John fired Dave because he had too many absences.\nWho is \"he\"?\nOPTIONS:\n- John\n- Dave",
+        "targets": "Dave",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Dave"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe government has made about 30 percent of the requests for censoring classified materials to Google, because they did not want this information to be widely available to the public.\n\nOPTIONS:\n- The government\n- Google",
+        "targets": "The government",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The government"
+    },
+    {
+        "inputs": "Who is they in the following sentence?\n\nThe officers chose a planet to send the new soldiers, because they wanted them to be trained in hostile environments.\n\nOPTIONS:\n- The officers\n- the new soldiers",
+        "targets": "The officers",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The officers"
+    },
+    {
+        "inputs": "Which entity is it this sentence?\n\nFirefox is used more than Internet Explorer because it is more stable.\n\nOPTIONS:\n- Firefox\n- Internet Explorer",
+        "targets": "Firefox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Firefox"
+    },
+    {
+        "inputs": "Right after work Angelina took Sandy to the park because she wanted to go to that place.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- Angelina\n- Sandy",
+        "targets": "Sandy",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Angelina"
+    },
+    {
+        "inputs": "The brown fox jumped over the dog because it was quick.\nTell me who it is.\nOPTIONS:\n- The brown fox\n- the dog",
+        "targets": "The brown fox",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The brown fox"
+    },
+    {
+        "inputs": "Kenny attacked Ben, and then he defended.\n\nWho is he referring to?\nOPTIONS:\n- Kenny\n- Ben",
+        "targets": "Kenny",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Ben"
+    },
+    {
+        "inputs": "The Batman does not kill Joker because he is always thrown in jail instead.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- The Batman\n- Joker",
+        "targets": "Joker",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Batman"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nClark Kent hides his identity from Lex Luthor because he wants to find out who this masked hero is.\n\nOPTIONS:\n- Clark Kent\n- Lex Luthor",
+        "targets": "Lex Luthor",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Clark Kent"
+    },
+    {
+        "inputs": "The artist told the model that she needed to get more paint.\nBased on this sentence, who is she?\n\nOPTIONS:\n- The artist\n- the model",
+        "targets": "The artist",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The artist"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nSally gave Kelly a doll because she loved dolls.\n\nOPTIONS:\n- Sally\n- Kelly",
+        "targets": "Kelly",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Sally"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nTom asked his son to drive so that he could get experience.\n\nOPTIONS:\n- Tom\n- his son",
+        "targets": "his son",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "his son"
+    },
+    {
+        "inputs": "Several energy companies are under investigation by Congress because they bankrupted even with government bailout money.\nWho is \"they\"?\nOPTIONS:\n- Several energy companies\n- Congress",
+        "targets": "Several energy companies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Several energy companies"
+    },
+    {
+        "inputs": "The Japanese eat a lot more seafood than the Americans because they are an island surrounded by the ocean.\n\nWho is they referring to?\nOPTIONS:\n- The Japanese\n- the Americans",
+        "targets": "The Japanese",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Japanese"
+    },
+    {
+        "inputs": "The Autobots fight with every ounce of strength against the Decepticons since they wish to keep the planet safe.\nWho is \"they\"?\nOPTIONS:\n- The Autobots\n- the Decepticons",
+        "targets": "The Autobots",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The Autobots"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe army organized their forces to sneak past the Decepticons in the city since they have the upper hand in a straight fight.\n\nOPTIONS:\n- The army\n- the Decepticons",
+        "targets": "the Decepticons",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The army"
+    },
+    {
+        "inputs": "Daryel told Ross that he was the ugliest person he knew of and made him angry.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Daryel\n- Ross",
+        "targets": "Ross",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Daryel"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nDarth Vader said to Luke Skywalker, \"I am your father\", because he was his father.\n\nOPTIONS:\n- Darth Vader\n- Luke Skywalker",
+        "targets": "Darth Vader",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Darth Vader"
+    },
+    {
+        "inputs": "The employees crushed the boxes because they were working.\nTell me who they is.\nOPTIONS:\n- The employees\n- the boxes",
+        "targets": "The employees",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The employees"
+    },
+    {
+        "inputs": "Who is he in the following sentence?\n\nJack killed John, but he was not the only victim.\n\nOPTIONS:\n- Jack\n- John",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Jack"
+    },
+    {
+        "inputs": "John bored Bill because he was easily bored.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "John bought a beer for Bill because he is cool.\nWho is \"he\"?\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Bill"
+    },
+    {
+        "inputs": "Herman Cain has fallen in the polls while Mitt Romney has increased his foothold because he is garnering more popularity among potential voters.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Herman Cain\n- Mitt Romney",
+        "targets": "Mitt Romney",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "Mitt Romney"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe people barricaded themselves from the zombies because they wanted to ease their hunger.\n\nOPTIONS:\n- The people\n- the zombies",
+        "targets": "the zombies",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "The people"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nPresident Obama rewarded Sam with a medal for his valorous acts since he wanted the world to know his contribution to the world.\n\nOPTIONS:\n- President Obama\n- Sam",
+        "targets": "President Obama",
+        "metric": "em",
+        "domain": "coreference",
+        "model_name": "definite_pronoun_resolution",
+        "model": "Chrisliang33/medicalModel_4_other",
+        "predicted_answer": "President Obama"
+    }
+]
