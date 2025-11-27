@@ -663,27 +663,31 @@ class Linear(nn.Module, LoraLayer):
 
                 scaling = 1.0
 
-                # Pad lower-rank adapters so the stack works even when ranks differ.
-                padded_lora_A = []
-                padded_lora_B = []
-                for A, B in zip(stacked_lora_A, stacked_lora_B):
-                    current_r = A.shape[0]
-                    if current_r < max_r:
-                        pad_rows = max_r - current_r
-                        A = torch.cat(
-                            [A, torch.zeros((pad_rows, A.shape[1]), dtype=A.dtype, device=A.device)],
-                            dim=0,
-                        )
-                        B = torch.cat(
-                            [B, torch.zeros((B.shape[0], pad_rows), dtype=B.dtype, device=B.device)],
-                            dim=1,
-                        )
-                    padded_lora_A.append(A)
-                    padded_lora_B.append(B)
+                #Pad lower-rank adapters so the stack works even when ranks differ.
+                if False:
+                    padded_lora_A = []
+                    padded_lora_B = []
+                    for A, B in zip(stacked_lora_A, stacked_lora_B):
+                        current_r = A.shape[0]
+                        if current_r < max_r:
+                            pad_rows = max_r - current_r
+                            A = torch.cat(
+                                [A, torch.zeros((pad_rows, A.shape[1]), dtype=A.dtype, device=A.device)],
+                                dim=0,
+                            )
+                            B = torch.cat(
+                                [B, torch.zeros((B.shape[0], pad_rows), dtype=B.dtype, device=B.device)],
+                                dim=1,
+                            )
+                        padded_lora_A.append(A)
+                        padded_lora_B.append(B)
 
-                # 堆叠成最终的矩阵
-                stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
-                stacked_lora_B = torch.stack(padded_lora_B, dim=0)  # p x d x max_r
+                    # 堆叠成最终的矩阵
+                    stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
+                    stacked_lora_B = torch.stack(padded_lora_A dim=0)  # p x d x max_r
+                else:
+                    stacked_lora_A = torch.stack(stacked_lora_A, dim=0)  # p x r x d
+                    stacked_lora_B = torch.stack(stacked_lora_A dim=0)  # p x d x r
                 lora_map = torch.stack(lora_map, dim=1)  # b x p
 
                 stacked_lora_A = stacked_lora_A.to(x.dtype)
@@ -694,10 +698,45 @@ class Linear(nn.Module, LoraLayer):
                     fusion_lora_B = torch.einsum('bp,pdr->bdr', lora_mapping, stacked_lora_B)
                     mid=torch.einsum('bld,brd->blr',x, fusion_lora_A)
                     res=torch.einsum('blr,bdr->bld',mid,fusion_lora_B)
-                elif merging_type == 'moe':
+                elif merging_type == 'arrow':
+                    # Compute per-adapter outputs
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
-                    mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)
-                    res=torch.einsum('blpd,bp->bld',mid, lora_mapping)
+                    mid = torch.einsum('blpr,pdr->blpd', mid, stacked_lora_B)
+
+                    # magnitude per (b, l, p)
+                    mag = torch.norm(mid, dim=-1)  # shape: b x l x p
+
+                    # We don't use external mapping weights here; assume equal mapping weight == 1.
+                    # Use the magnitude itself and pick top-k adapters by their average magnitude
+                    # across the sequence so selection is meaningful (not all-equal).
+                    # weighted_mag will therefore simply be mag.
+                    weighted_mag = mag * lora_map  # b x l x p
+
+                    # build top-k mask (per batch item) and zero out all other adapters (no softmax)
+                    p = weighted_mag.size(-1)
+                    k = min(3, p)
+
+                    # Select top-k adapters per token (per batch and position).
+                    # mag: b x l x p, pick top-k along adapter dim (p) for each (b, l).
+                    scores = mag  # b x l x p (per-token scores)
+                    # topk_idx: b x l x k
+                    _, topk_idx = torch.topk(scores, k=k, dim=-1)
+
+                    # build mask per token: b x l x p
+                    mask = torch.zeros_like(scores, dtype=weighted_mag.dtype, device=weighted_mag.device)
+                    # scatter the 1.0s into the last dim using the indices from topk
+                    mask.scatter_(-1, topk_idx, 1.0)
+
+                    fusion_weights = weighted_mag * mask  # b x l x p
+
+                    # normalize masked weights so they sum to 1 across adapters for each (b, l)
+                    eps = 1e-12
+                    denom = fusion_weights.sum(dim=-1, keepdim=True)
+                    fusion_weights = fusion_weights / (denom + eps)
+
+                    # fuse adapters by weighted sum of mid over p
+                    # mid: b x l x p x d, fusion_weights: b x l x p
+                    res = torch.einsum('blpd,blp->bld', mid, fusion_weights)
                 else:
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
                     mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)

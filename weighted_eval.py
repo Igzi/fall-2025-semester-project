@@ -16,28 +16,6 @@ import torch.nn.functional as F
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
 
-# Load previously computed model performance matrix (if present). This file is
-# produced by `performance_based_selection/generate_results.py` and saved as
-# `model_performance.npy`. We load it once at import-time so downstream code can
-# consult model performance scores when needed.
-def load_results_matrix(path: str = "./performance_large/model_performance.npy"):
-    if not os.path.exists(path):
-        # Not an error: just return None so callers can fall back to defaults
-        print(f"[info] results matrix not found at: {path}")
-        return None
-    try:
-        arr = np.load(path, allow_pickle=True)
-        # Coerce to ndarray for consistent handling (may be an object array)
-        arr = np.array(arr, dtype=np.float32)
-        print(f"[info] loaded results matrix from {path} with shape {arr.shape}")
-        return arr
-    except Exception as e:
-        print(f"[warning] failed to load results matrix {path}: {e}")
-        return None
-
-# Expose loaded matrix as a module-level variable; callers can check for None.
-results_matrix = load_results_matrix()
-
 def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     """
     Load the base model and tokenizer from a given model path.
@@ -94,19 +72,7 @@ class BilinearFusionScorer(nn.Module):
     def set_adapter_embeddings(self, A_new: torch.Tensor):
         self.A = A_new.clone().to(self.A.device)
 
-    def get_selected_adapter(self, old_idx: int, exclude_idx: int = None):
-        old_row = results_matrix[old_idx]
-        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
-        if exclude_idx is not None:
-            mask_array[exclude_idx] = False
-        
-        row = old_row*mask_array
-        maxpos = np.flatnonzero(row==row.max())
-        sel = old_idx if old_idx in maxpos else int(maxpos[0])
-        return sel
-
-
-    def forward(self, I: torch.Tensor, exclude_idx: int = None):
+    def forward(self, I: torch.Tensor):
         """
         I: (B, d_in) input embeddings
         Returns:
@@ -116,9 +82,6 @@ class BilinearFusionScorer(nn.Module):
         I_norm = I / (I.norm(dim=-1, keepdim=True) + 1e-8)  # (B, d_in)
         A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
-
-        if exclude_idx is not None:
-            logits[0,exclude_idx] = -1.0
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -130,21 +93,7 @@ class BilinearFusionScorer(nn.Module):
         else:
             masked_logits = logits
         
-        probs_old = F.softmax(masked_logits / self.tau, dim=-1)
-
-        model_ids = torch.argsort(probs_old, dim=-1, descending=True)[:, :self.top_k]
-        new_model_ids = model_ids.clone()
-        for b in range(model_ids.size(0)):
-            for k in range(model_ids.size(1)):
-                old = int(model_ids[b, k].item())
-                sel = self.get_selected_adapter(old, exclude_idx=exclude_idx)
-                new_model_ids[b, k] = sel
-
-        probs = logits.new_zeros(logits.size())
-        for b in range(model_ids.size(0)):
-            for k in range(model_ids.size(1)):
-                probs[b, new_model_ids[b, k]] += probs_old[b, model_ids[b, k]]
-
+        probs = F.softmax(masked_logits / self.tau, dim=-1)
         return probs, logits
 
 def eval_datasets(
@@ -270,10 +219,7 @@ def eval_datasets(
                     unique_items = list(set(exclude_list))
                     module_list = unique_items
 
-                if ood:
-                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
-                else:
-                    mapping_matrix_tensor, _ = scorer(I_batch)
+                mapping_matrix_tensor, _ = scorer(I_batch)
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
                 if ood:
