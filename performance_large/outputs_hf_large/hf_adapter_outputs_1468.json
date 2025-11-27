@@ -1,0 +1,3602 @@
+[
+    {
+        "inputs": "Translate \"As a moral guide, it utterly fails, because much of the original Hebrew scriptures were written by ignorant and bigoted savages who condoned and promoted animal cruelty, incest, slavery, abuse of slaves, spousal abuse, child abuse, child molestation, abortion, pillage, murder, cannibalism, genocide, and prejudice against race, nationality, religion, sex, and sexual orientation.\" to Czech?",
+        "targets": "Jako morální průvodce totálně selhává protože, většina z původních hebrejských spisů byla sepsána nevzdělanými a bigotními divochy, kteří přehlíželi nebo podporovali krutost vůči zvířatům, incest, otroctví, zneužívání otroků, zneužívání rodinných příslušníků, zneužívání dětí, násilí na dětech, potraty, plenění, vraždění, kanibalismus, genocidu a předsudky vůči rase, národu, náboženství, pohlaví a sexuální orientaci.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jak morální kodex, tak se mu nedaří, protože většina původních hebrejských spisů byla napsána nezkušenými a násilnéckými bar"
+    },
+    {
+        "inputs": "Vyšli jsme ven a tam jsme každý zalehl k jednomu průduchu.\n\nTranslate to English",
+        "targets": "We rushed outside, and each of us approached one vent.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "We went out and we all ended up at the same bar."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nIn addition, the Playhouse club where the fellatio incident took place was forced to shut down for a year, while Playhouse and the bar crawl organizers Carnage were jointly fined €55,000 ($73,000).",
+        "targets": "Navíc klub Playhouse, kde došlo k události s poskytováním orálního sexu, byl nucen na rok zavřít a společně s organizátory turné po barech společností Carnage zaplatit pokutu 55 000 euro (73 000 dolarů).",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Výsledkem bylo, že klub Playhouse, kde se odehrála incident s fellatio, musel zavřít na jeden rok, zatímco Playhouse a organizátoři barového pátr"
+    },
+    {
+        "inputs": "He behaves like a girl in puberty.\n\nTranslate to Czech",
+        "targets": "Chová se jako pubertální dívka.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jeho chování je podobné chování pubertální dívky."
+    },
+    {
+        "inputs": "Rozjel jste ho tak, že jste mohl reálně pomýšlet na vítězství.\n\nTranslate to English",
+        "targets": "Did you get so into it that you couldn't really imagine victory?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "You've been so close that you've been able to think about winning."
+    },
+    {
+        "inputs": "How is \"If we could only grab all the rebels and throw them away - as far away as possible.\" said in Czech?",
+        "targets": "Kdybychom tak mohli všechny ty rebely sebrat a zahodit je - jak nejdál to půjde.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Pokud bychom mohli všechny povstalce vypudit a odnesit je do vzdálenosti, kde byli nikdy neviděni."
+    },
+    {
+        "inputs": "Když volali, vesele se představil: „Dobrý den, dovolali jste se na centrálu rakoviny.“\n\nTranslate to English",
+        "targets": "\"Hello, Cancer Central,\" he would announce cheerily when they called.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "When they called, he cheerfully answered, \"Hello, you've reached the Cancer Center.\""
+    },
+    {
+        "inputs": "Zároveň je nesmiřitelným nepřítelem všech ukrajinských oligarchů.\n\nCould you please translate this to English?",
+        "targets": "He is also an unwavering enemy of all Ukrainian oligarchs.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "While he is an implacable enemy of all Ukrainian oligarchs, he is also a friend of the Ukrainian people."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nThose living in regional and remote areas of the state were about 20 per cent more likely to die during the study than those in urban areas.",
+        "targets": "U žen ve venkovských a odlehlých oblastech státu byla asi o dvacet procent vyšší pravděpodobnost, že během studie zemřou než u žen v městských oblastech.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Venkovské oblasti a venkovské obyvatelstvo jsou vystavena většímu riziku úmrtí než obyvatelé měst."
+    },
+    {
+        "inputs": "Translate \"The scholarly consensus is that Genesis was compiled, (probably by Ezra) from several unrelated oral traditions less than 2,500 years ago.\" to Czech?",
+        "targets": "Odborníci se shodnou na tom, že Genesis byla složena (pravděpodobně Ezdrášem) z několika vzájemně nepříbuzných ústních tradic před méně než 2500 lety.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Věda se domnívá, že Genesis byl spojen, (spíše než v 2500 letech), z mnoha nezávislých mýtů."
+    },
+    {
+        "inputs": "V květnu jsem popsal práci ředitele jako kalich s jedem.\n\nCould you please translate this to English?",
+        "targets": "Back in May, I described the chairman's job as a poisoned chalice.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The director's job is a poisoned chalice."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nI am pleased that many people in the world still remember our troubles and we are so grateful for the help we got from people in Britain and everywhere.",
+        "targets": "Jsem ráda, že tolik lidí na celém světě si pořád pamatuje, co se stalo, a jsme moc vděční za pomoc, kterou jsme dostali z Británie a z dalších zemí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Já se radím, že mnoho lidí v zemi stále pamatuje na naše problémy a my jsou tak vděčni za pomoc, kterou jsme dostali od lidí v Brit"
+    },
+    {
+        "inputs": "Ale jak by mohla být takto schválena, kdyby byl bůh skutečným autorem této nahodilé míchanice pověstí, podobenství a žalmové lyriky?\n\nTranslate to English",
+        "targets": "But how could it make such an admission if God were the real author and editor of this haphazard jumble of fables, parables, and psalm lyrics?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "If God had written the Bible, it would have been a much more coherent work."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nItalian film is generally doing very well in Venice.",
+        "targets": "Ostatně právě italský film si letos vede v Benátkách velice dobře.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Italské filmy se v Benátkách většinou velmi dobře dají."
+    },
+    {
+        "inputs": "Vzpomínám na děti, se kterými jsem si hrál na dvoře a které se ven nedostaly.\n\nTranslate to English",
+        "targets": "I remember those kids I used to play with in the yard who never got out.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "I remember the children I played with on the street and who never made it home."
+    },
+    {
+        "inputs": "Po počátečních konzultacích doporučil Lang-Lazdunski operaci, o které si na rozdíl od Toma Treasura myslel, že má pozitivní efekt.\n\nCould you please translate this to English?",
+        "targets": "After their initial consultations, Lang-Lazdunski advised surgery which, in contrast to Tom Treasure, he believes has a positive effect.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Lang-Lazdunski's initial consultations led him to believe that the operation would have a positive effect, unlike Tom Treasure, who thought otherwise."
+    },
+    {
+        "inputs": "Některé věci jsou však nenahraditelné.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Czech"
+    },
+    {
+        "inputs": "Očekává se, že k protestům zaměstnanců vězeňské služby se připojí také členové Federace odborových organizací zaměstnanců na ministerstvu vnitra.\n\nTranslate this to English?",
+        "targets": "The protest of the prison workers union is expected to be joined by members of the Trade Union Federation of the Employees in the Ministry of Interior.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "It is expected that members of the Federation of Trade Unions of Employees of the Ministry of the Interior will join the prison service workers' protests."
+    },
+    {
+        "inputs": "Po několika operacích si myslela, že se už plně uzdravila, ale včera řekla: „Před třemi měsíci se bolesti vrátily.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "How is \"Hašan never surprises me on the ice.\" said in Czech?",
+        "targets": "Mě Hašan na ledě nikdy nepřekvapí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Hašan nezastihuje mě na ledě."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nIt's as if he were trying to tell us something!",
+        "targets": "Zdá se, jako kdyby se nám snažil něco říct!",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jakoby se snaží, aby nám řekl něco!"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nAfter contacting mesothelioma Abbott was put in touch with Andrew Lawson, who, four years after his diagnosis, had become a one-man support and advice bureau for fellow sufferers.",
+        "targets": "Po zjištění mezoteliomu se Abbott zkontaktoval s Andrew Lawsonem který se, čtyři roky od své diagnózy, stal individuální podporou a poradcem pro stejně postižené lidi.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Po kontaktu s mesoteliom Abbot se dostal do kontaktu s Andrew Lawsonem, který čtyři roky po jeho diagnostice zůstal jediným zdravotním poradcem pro další"
+    },
+    {
+        "inputs": "„Je možné, že hodně azbestu bylo v suterénních chodbách Guy's Hospital, kde jsem strávil šest let na praxi,“ napsal.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. English"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Prestige Cruises působí pod značkami Oceania a Regent, které dohromady vlastní osm výletních lodí plujících do Skandinávie, Ruska, Středozemí, Severní Ameriky, Asie, Afriky a Jižní Ameriky.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Náměstek předsedy vlády Bulent řekl, že americký charge d'affaires a turečtí státní úředníci o zprávě jednali v pondělí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Klíčové části texaského zákona, které by uzavřely většinu zbývajících klinik ve státě zablokoval federální soudce v pátek.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Suddenly I started feeling shivery.\n\nTranslate to Czech",
+        "targets": "Najednou jsem se roztřásl.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jednou jsem začala mít chladnou náladu."
+    },
+    {
+        "inputs": "První ze 63 nahlášených ukrajinských vojáků, kteří byli zajati v Ilovajsku při ruské invazi, byli v neděli vyměněni za 10 ruských výsadkářů zajatých před týdnem ve vnitrozemí Ukrajiny, uvedl v neděli Lysenko.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ukrainian"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nThere she demonstrates different exercises.",
+        "targets": "Tam předvádí různé cviky.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Tam se ukáže různé cvičení."
+    },
+    {
+        "inputs": "Translate to Czech:\n\n'I feel so sorry for all those who suffer from these horrors,' said Damir, who was last week doing voluntary work at a nunnery.",
+        "targets": "„Je mi hrozně líto každého, kdo si takovou hrůzou musí projít,“ říká Damir, který se minulý týden zúčastnil dobrovolnické činnosti v klášteře.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Já se smutně smýšlejím o všech, kdo se musí snažit s těmito hrůzami žít."
+    },
+    {
+        "inputs": "Herec Seth Rogen hackera na svém twitteru kritizoval: „Zveřejňovat fotky z hacknutých telefonů je úplně stejné jako prodávat ukradené zboží.“\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. English"
+    },
+    {
+        "inputs": "Český mlýn would probably be the best location.\n\nTranslate to Czech",
+        "targets": "Nejvhodnější lokalitou by byl Český mlýn.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Český mlýn by pravděpodobně nejlepším místem."
+    },
+    {
+        "inputs": "Někdy stačí k propuštění zajatců i pouhá lidská prosba.\n\nCould you please translate this to English?",
+        "targets": "Sometimes just a mere human request is enough to gain the release of prisoners.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Sometimes all it takes to free prisoners is a simple human plea."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Předevčírem tam nebyla!",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Vodu jsme zase začali používat, zatím jenom na mytí a praní, než budou hotové testy, ale už to bylo dobré.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nI do not feel myself a victim, this story is the part of my past now.",
+        "targets": "Necítím se jako oběť, tenhle příběh je minulostí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jsem nyní vždycky vnímám jako součást minulosti."
+    },
+    {
+        "inputs": "Slyším obdivné ufuněné vzdychání ostatních běžců.\n\nCould you please translate this to English?",
+        "targets": "I hear the other runners catching their breath.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "I hear the admiring, exuberant cheers of the other runners."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\n\"I was on the way to school.",
+        "targets": "Byla jsem na cestě do školy.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Bylo jsem na cestě do školy."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Otočka na Mánesově mostě ukazuje Prahu v celé kráse zapadajícího slunce.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Samozřejmě jsou hráči, kteří v poslední době ukazují formu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\n\"It's not about making money anymore, it's about surviving,\" one of the businessmen told the court.",
+        "targets": "„Už dávno to není o vydělávání peněz, ale o přežití,“ řekl u soudu jeden z podnikatelů.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Není o zisku, nýbrž o přežití, říká jeden z podnikatelů."
+    },
+    {
+        "inputs": "Vzhledem k tomu, že cena za vysokoškolská skripta pro mnoho studentů přesahuje 1 000 dolarů ročně, přišel nastávající student druhého ročníku s chytrým způsobem, jak snížit náklady.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "English"
+    },
+    {
+        "inputs": "Já s tím nepočítám, ale ve fotbale není nikdy nic stoprocentní.\n\nCould you please translate this to English?",
+        "targets": "I don't anticipate it, but in soccer nothing is ever 100%.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "I don't count on it, but in football there's never anything 100 percent."
+    },
+    {
+        "inputs": "Skupina vznikla 40 let poté, co si černošky poprvé řekly o pomoc.\n\nTranslate to English",
+        "targets": "The group came nearly 40 years after black women originally asked for assistance, said Mitchell.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The group was formed 40 years after black women first asked for help."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Policisté s tímto mužem i tak nadále pracují.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Chtěl jsem to vzdát.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Czech"
+    },
+    {
+        "inputs": "Moreover, you did not immediately notify your employer of the absence.\n\nTranslate to Czech",
+        "targets": "Absenci jste navíc ihned neoznámil zaměstnavateli.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Vítejte, pane."
+    },
+    {
+        "inputs": "Majitel obchodu Steve Forward řekl, že o výhře mluví celé město na jihozápadě Perthu.\n\nTranslate this to English?",
+        "targets": "Owner of the store Steve Forward said the win was creating a buzz around the small town in Perth's south west.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Steve Forward, owner of the Perth Wildcats, said that the team's win has been talked about all over the southwest of Perth."
+    },
+    {
+        "inputs": "Zázrak: Gregorij Farniyev byl během útoku držen u nohou vraždícího teroristy, přesto však dokázal přežít\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Russian"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nTherefore, he should leave.",
+        "targets": "Měl by proto odejít.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Protože se tak stalo, musí odejít."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nWhat happened?",
+        "targets": "Co se stalo?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "co se stalo?"
+    },
+    {
+        "inputs": "Translate \"So mesothelioma is now affecting younger people not in the typical professions.\" to Czech?",
+        "targets": "Mezoteliom se tedy nyní začíná týkat mladších lidí, kteří nemají riziková povolání.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ano, mesoteliom se dnes dotýká mladších lidí, kteří nejsou v typických profesích."
+    },
+    {
+        "inputs": "Během krátké doby muž nakoupil ve dvanácti případech celkem šestnáct počítačů za více než dvě stě tisíc korun.\n\nTranslate this to English?",
+        "targets": "Over a short period in twelve instances the man bought a total of 16 computers for more than CZK 200,000.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "In a short time, the man bought 16 computers for more than two hundred thousand korunas in 12 separate transactions."
+    },
+    {
+        "inputs": "Ti, kdo odbory napadají, tyto jednoduché pravdy zapomínají, historie si je ale pamatuje.\n\nTranslate this to English?",
+        "targets": "Those who attack labor forget these simple truths, but history remembers them.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Those who attack the media forget the simple truths, but history remembers."
+    },
+    {
+        "inputs": "Translate \"Haunting: The image of Georgy (left) was one of the most shocking of the attack and has been immortalised in a statue (right)\" to Czech?",
+        "targets": "Stále se vracející vzpomínky: Fotka Grigorije (vlevo) byla jedním z nejvíce šokujících obrázků útoku a byla zvěčněna jako socha (vpravo)",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Záhada, která se stala jednou z nejhorlivějších vzpomínek na holocaust, byla zobrazena v dokumentu Haunting."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Twitch má měsíčně 55 milionů návštěv a je čtvrtý na vrcholu internetového provozu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nKeith Ellison and John Lewis are renewing ideals that have historically enlarged America and made real the promise of democracy.",
+        "targets": "Keith Ellison a John Lewis obnovují ideály, které pozvedly Ameriku a učinily z ní skutečný příslib demokracie.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Keith Ellison a John Lewis obnovují ideály, které historicky rozšířily Ameriku a naplnily americkou demokracii."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Potěšilo vás to?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Translate \"The most dangerous type of asbestos has not been used in Britain since the 1960s, when a voluntary industry ban came into effect.\" to Czech?",
+        "targets": "Nejnebezpečnější typ azbestu se v Británii nepoužívá od 60. let, kdy vstoupil v platnost zákaz používání azbestu v průmyslu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Nejnebezpečnější druh asbestu se v Británii nepoužívá od 60. let, kdy došlo k dobrovolnému zákazu v průmyslu."
+    },
+    {
+        "inputs": "How is \"Just past the finish line, Káťou's legs give way, and I help her to the railing, where she can rest for a while.\" said in Czech?",
+        "targets": "Těsně za cílem se Kátě podlamují nohy, pomáhám jí k zábradlí, kde chvíli odpočívá.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Káťa se už vzdává, ale jsem ji přinutil k postavení na břehu, kde se může odpočinout."
+    },
+    {
+        "inputs": "Dosud žijí lidé, kteří přežili Šoa.\n\nCould you please translate this to English?",
+        "targets": "There are still people alive who survived the Holocaust.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "There are still people alive who survived the Holocaust."
+    },
+    {
+        "inputs": "Azbest se často používal v kancelářích, obchodech, knihovnách a radnicích kvůli svým výborným izolačním a nehořlavým vlastnostem.\n\nTranslate to English",
+        "targets": "Asbestos was frequently used in offices, shops, libraries and town halls for its marvellous insulating and flame-retarding properties.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Asbestos was often used in offices, shops, libraries, and town halls because of its excellent insulating and non-flammable properties."
+    },
+    {
+        "inputs": "Poslední déšť se představil společně s několika krátkými přeháňkami spojenými s bouřkou a poryvy větru, které začaly před osmou hodinou večer a během asi deseti minut přinesly téměř 4 mm srážek.\n\nTranslate this to English?",
+        "targets": "The latest rain came courtesy of a couple of short, blustery showers, including a burst that started just before 8pm that dumped almost 4mm in about 10 minutes.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The last rain fell together with a few brief showers accompanied by thunder and strong winds that began at 8:00 p.m. and lasted for about ten minutes, bringing nearly 4 mm of rain."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nFrance's Socialists should 'shut up and sort France out', Francois Hollande's key ally says",
+        "targets": "„Francouzští socialisté by měli sklapnout a dát Francii do pořádku,“ říká klíčový spojenec Francoise Hollanda",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Francouzští socialisté by se měli 'zastavit a se starat o Francii', říká klíčový spojenec Françoise Hollandeho."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\n\"To those of you looking at photos I took with my husband years ago in the privacy of our home, hope you feel great about yourselves,\" Winstead tweeted.",
+        "targets": "„Doufám, že ti z vás, kteří si prohlíží fotky, které jsme si před lety s manželem pořídili v soukromí domova, jsou se sebou spokojení,“ napsala Winsteadová na Twitteru.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Všem, kdo se na mých fotkách zamiloval, se moc radím."
+    },
+    {
+        "inputs": "How is \"It is hard for me to go inside the gym but I must do it.\" said in Czech?",
+        "targets": "Je pro mě těžké do té tělocvičny vstoupit, ale musím.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jsem si nemožné vstoupit do gymu, ale musím to udělat."
+    },
+    {
+        "inputs": "Měl mezoteliom, nevyléčitelný nádor, který postihuje pohrudnici nebo-li výstelku plic.\n\nCould you please translate this to English?",
+        "targets": "He had mesothelioma, an incurable cancer that affects the pleura, or lining of the lung.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "He had a malignant tumor, an incurable cancer that affects the lining of the lungs or the pleura."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "„Chtěl bych, abychom měli lepší výkon a lepší závěr,“ řekl Johnston.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Když se jich zeptáte, proč nejdou mezi \"své\", třeba do Gazy, odpovědí vám, proč by to dělali?\n\nCould you please translate this to English?",
+        "targets": "When you ask them why they don't go to be among \"their own\", for example to Gaza, they will ask you why they should.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Their own people are not the only ones who suffer."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Více než polovina daňových příjmů okrsku, 56 %, je z živnostenské daně, a 36 % příjmů Marylandu je od společností.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "I never would have dreamed that I would be affected by it.\n\nTranslate to Czech",
+        "targets": "Nikdy mě ani ve snu nenapadlo, že by se mě mohl nějak týkat.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Já si to nikdy nechtěla, že bych se s ním setkala."
+    },
+    {
+        "inputs": "Translate \"The results of the X-ray came back.\" to Czech?",
+        "targets": "Přišly výsledky rentgenu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Výsledky rentgenu jsou vysvětleny."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nAfter the first refreshment, the moment of truth comes.",
+        "targets": "Za první občerstvovačkou nastává chvíle pravdy.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Po prvním odpočinku nastává chvíle pravdy."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nShe seemed in genuine distress.",
+        "targets": "Vypadala skutečně rozčilená.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Její tvář byla ve skutečné bolestí."
+    },
+    {
+        "inputs": "Ti už ruského medvěda štípou v kožichu dost dlouho.\n\nCould you please translate this to English?",
+        "targets": "They have been a thorn in the eye of the Russian bear for a long time already.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "You've been poking the Russian bear with a stick for too long."
+    },
+    {
+        "inputs": "I letos jde o částku ve stovkách tisíc.\n\nCould you please translate this to English?",
+        "targets": "This year too, it will receive hundreds of thousands.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "I'm going to lose a fortune this summer."
+    },
+    {
+        "inputs": "I když máte vodotěsný fotoaparát, ujistěte se, že baterie a další části jsou pevně uzavřené.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "Translate \"Ailinn Solomons made a sign with her body for him to leave.\" to Czech?",
+        "targets": "Ailinn Solomonsová mu neverbálně naznačila, aby odešel.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ailinn Solomons se odhalila, aby mu řekla, aby odešel."
+    },
+    {
+        "inputs": "How is \"France's ruling party suffered a drubbing in March municipal elections and the far-right National Front came out on top in EU elections in May.\" said in Czech?",
+        "targets": "Francouzská vládnoucí strana utrpěla v březnových komunálních volbách porážku a v květnu extrémně konzervativní pravice uspěla ve volbách do Evropského parlamentu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Francie vládní strana utrpěla v březnu komunálních voleb porážku a v květnu v Evropských volbách zvítězila krajně pravic"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nMy friends and I try not to talk about it on other days.",
+        "targets": "Jinak se o tom snažíme s přáteli nemluvit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "My přátelé a já se snažíme, aby se o tom nikdo jiný nezmiňoval."
+    },
+    {
+        "inputs": "While running along the roadway, Káťou trips on the curb and falls forward.\n\nTranslate to Czech",
+        "targets": "Při přeběhu silnice Káťa škobrtne o obrubník a předvádí skok plavmo.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Káťa se zavřela do sebe a začala se bát."
+    },
+    {
+        "inputs": "Praha nestihne do říjnových voleb připravit a schválit v zastupitelstvu změny příslušných vyhlášek.\n\nTranslate to English",
+        "targets": "Prague will not manage by the October elections to prepare and approve amendments to the relevant regulations in the City Assembly.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Prague City Council is preparing to approve changes to the relevant ordinances in order to be ready for the October elections."
+    },
+    {
+        "inputs": "Translate \"To each according to his gifts.\" to Czech?",
+        "targets": "Každému podle jeho talentu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Každému podle jeho schopností."
+    },
+    {
+        "inputs": "Ve světle současného propadu prohlašují někteří komentátoři, že na jeho katastrofické věštbě může něco být.\n\nTranslate this to English?",
+        "targets": "In light of the current downturn, some commentators are arguing that his dire prophecy may have held some truth to it.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Some commentators, in the light of the current decline, are proclaiming that there is something to be said for the apocalyptic vision."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nGrandpa wanted to ventilate, but it wasn't going to happen.",
+        "targets": "Děda chtěl, aby to luftovalo, a to ono zas jo.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Větrnými okny se nebude."
+    },
+    {
+        "inputs": "Translate to Czech:\n\n\"Whether it will be two or three days or he will be fit tomorrow will depend on his health condition, about which our doctor will decide.",
+        "targets": "\"Jestli to budou dva nebo tři dny, nebo už zítra bude fit, to se uvidí podle jeho zdravotního stavu, o kterém rozhodne náš doktor,\" dodal.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Dalších dvou nebo tří dní, nebo bude zdravý zítra, záleží na jeho zdravotním stavu, o kterém rozhodne naše lékař."
+    },
+    {
+        "inputs": "2014 je až 50x větší.\n\nCould you please translate this to English?",
+        "targets": "2014, it is 50x greater.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "2014 was 50 times larger."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nAsbestos has been, and in many cases still is, embedded in the homes we live in, the offices we work in, the schools we are educated in, and the stores we shop in.",
+        "targets": "Azbest byl, a v mnoha případech stále je, přítomný v domovech, ve kterých žijeme, v kancelářích, kde pracujeme, ve školách, kde se učíme, a v obchodech, ve kterých nakupujeme.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Asbestos je, a v mnoha případech stále je, zaplněno v domovech, kde žijeme, v kancelářích, kde pracujeme, v školách, kde"
+    },
+    {
+        "inputs": "To uspíšilo obrovskou civilní i vojenskou snahu opevnit Mariupol, přístav s metalurgickými kombináty o 500 000 obyvatelích, který leží mezi Novoazovskem a úzkou vstupní branou na Krymský poloostrov.\n\nTranslate this to English?",
+        "targets": "That has spurred a massive civilian and military effort to fortify Mariupol, a steelmaking port of 500,000 that lies between Novoazovsk and the narrow gateway into the Crimean peninsula.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The failure to capture Mariupol, a city of 500,000 people with a large metalworking industry, dealt a blow to the Russian military's civilian and military efforts to fortify the city."
+    },
+    {
+        "inputs": "Mluvčí armády major Ntlele Ntoi k tomu řekl, že ve skutečnosti se nejednalo o puč, ale odpověď armády na výhrůžku „politických fanatiků“, které se policie pokoušela vyzbrojit.\n\nCould you please translate this to English?",
+        "targets": "Military spokesman Major Ntlele Ntoi said there was not, in fact, a coup, but that the military was responding to a threat from \"political fanatics\" whom police were attempting to arm.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Major Ntlele Ntoi said that, in fact, it was not a coup, but a response by the army to the threat of \"political fanatics\" that the police had tried to arm."
+    },
+    {
+        "inputs": "How is \"I like being an actor.\" said in Czech?",
+        "targets": "Herectví mě baví.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jsem vtipný, že jsem herec."
+    },
+    {
+        "inputs": "Kvůli jejich přirozené agresivitě už takové písničky v rádiích nehráli.\n\nTranslate to English",
+        "targets": "On account of their innate aggressiveness, songs of that sort were no longer played on the console.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Because of their natural aggressiveness, such songs were never played on the radio."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nCheck out our buying guide and Ratings for digital cameras for both conventional and waterproof models.",
+        "targets": "Přečtěte si našeho průvodce nákupem a hodnocení digitálních kamer v běžném i vodotěsném provedení.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Vyzkoušejte si naši recenze a hodnocení digitálních fotoaparátů pro obyčejné i vodní modely."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nWhy else would all these things exist?",
+        "targets": "Proč by jinak všechny tyto věci existovaly?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "co je to, že vše existuje?"
+    },
+    {
+        "inputs": "Slyšení bude naplánované během jednoho měsíce, aby soudce mohl vydat trvalejší usnesení týkající se zákona.\n\nTranslate to English",
+        "targets": "A hearing will be scheduled within a month for the judge to make a more permanent ruling on the law.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The trial will be scheduled for one month so that the judge can issue a more permanent ruling on the law."
+    },
+    {
+        "inputs": "Everyone of us on the team decided to say hello to your readers in person at a stand, where we took photos and filmed videos.\n\nTranslate to Czech",
+        "targets": "S celým týmem jsme se rozhodli osobně zdravit naše čtenáře na stánku, kde jsme se společně fotili a natáčeli videa.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Všichni členové týmu se rozhodli v osobě pozdravit čtenáře na stánku, kde nám pořídili fotografie a natáčeli videa."
+    },
+    {
+        "inputs": "Though some smokers get lung cancer, for example, not all lung cancer sufferers have smoked.\n\nTranslate to Czech",
+        "targets": "Přestože někteří kuřáci dostanou rakovinu plic, ne všichni pacienti s rakovinou plic kouřili.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Někteří kouzelníci se snaží vysvětlit, proč někteří lidé, kteří nekoušeli, trpí rakovinou plic."
+    },
+    {
+        "inputs": "How is \"So now we can only echo Lawson's question: \"How many of us will get the same disease?\"\" said in Czech?",
+        "targets": "Nyní tedy můžeme pouze zopakovat Lawsonovu otázku: „Kolik z nás onemocní stejnou nemocí?“",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jak se nyní můžeme vyjádřit: \"Ale nyní můžeme jenom Lawsonovo otázku: \"Kolik z nás se bude mít stej"
+    },
+    {
+        "inputs": "Informoval o tom radní Lukáš Manhart (TOP 09).\n\nTranslate to English",
+        "targets": "The information was provided by City Council member Lukáš Manhart (TOP 09).",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Manhart said that the city council had not yet decided on the issue of the new city hall."
+    },
+    {
+        "inputs": "Poté, co po zimě minulý týden přišlo několik časných dávek jara, klesly v pondělí teploty ve městě opět na pouhých 15,8 °C.\n\nTranslate to English",
+        "targets": "After winter delivered an early dose of spring last week, temperatures dropped again on Monday to a high of just 15.8C in the city.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "With the arrival of spring last week, temperatures in the city plummeted to just 15.8 degrees Celsius on Monday."
+    },
+    {
+        "inputs": "How is \"Creationist Christians think that if the Bible is wrong, then God lied.\" said in Czech?",
+        "targets": "Kreacionističtí křesťané si myslí, že pokud se Bible mýlí, pak bůh lže.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Veřejně se tvrdí, že pokud Bible není pravdivá, pak Bůh zklamal."
+    },
+    {
+        "inputs": "Jediné logické vysvětlení pravděpodobně je, že na scestí jsou do určité míry všichni.\n\nTranslate this to English?",
+        "targets": "The only logical probability is that they all are â€“at least to some degree.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The only logical explanation is that everyone is somewhat guilty."
+    },
+    {
+        "inputs": "Translate \"And it's good to remind everyone of the history of our hockey, since one generation is leaving who really cared about it.\" to Czech?",
+        "targets": "A je dobré připomínat historii našeho hokeje a to, že odchází jedna generace, která za to opravdu stála.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "A to je dobré, abychom všechny připomněli, že máme v historii hokeje, protože jedna generace opouští, která se o něj skutečně zaj"
+    },
+    {
+        "inputs": "Translate \"An asbestos mine in Quebec, Canada Alamy\" to Czech?",
+        "targets": "Azbestový důl v Quebecu, Kanadě",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Asbestos, Quebec, Canada."
+    },
+    {
+        "inputs": "Azbest tvoří drobná vlákna.\n\nTranslate this to English?",
+        "targets": "Asbestos is made up of tiny fibres.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Asbestos forms small fibers."
+    },
+    {
+        "inputs": "When combined with 10,000 people, a rich accompanying program and closure of the entire center of Prague to all traffic, it's a huge challenge.\n\nTranslate to Czech",
+        "targets": "Pokud se k tomu přidá deset tisíc lidí, bohatý doprovodný program a uzavření celého centra Prahy pro veškerou dopravu, je z toho obrovská výzva.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "10 000 lidí, bohatý program a uzavření celého centra Prahy pro dopravu."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "DB odmítají přistoupit na růst platů při zkrácení pracovní doby.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Pojď, ještě kousek, to zvládneš aneb jak jsem si užil We Run Prague\n\nTranslate this to English?",
+        "targets": "Come a little closer you can manage it, or how I enjoyed We Run Prague",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "I'm not a runner, but I'm a runner."
+    },
+    {
+        "inputs": "How is \"The cease-fire brought an immediate end to the fighting but left key issues unresolved, such as Hamas' demand for the lifting of an Israel-Egyptian blockade of Gaza and the reopening of Gaza's air and seaports.\" said in Czech?",
+        "targets": "Zastavení palby sice vedlo k okamžitému ukončení bojů, nevyřešilo však klíčové problémy jako požadavek Hamásu na ukončení izraelsko-egyptské blokády Gazy a znovuotevření letišť a přístavů v Gaze.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Zahraniční mediální zprávy o uzavření příměří v Gaze uvádějí, že příměří ukončilo boje, ale nevyřešilo klí"
+    },
+    {
+        "inputs": "Ve stabilizovaném stavu byli sanitkou převezeni do Blue Mountains Hospital.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. English"
+    },
+    {
+        "inputs": "Den na to, když šla jako obvykle do práce, ji srazil motocyklista, který najel na chodník způsobem, který kolemjdoucí popsali jako „brutální a zuřivý.“\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "An industrial toxin from another era, it hardly seems cause for concern today.\n\nTranslate to Czech",
+        "targets": "Toxin používaný v průmyslu v jiné éře se dnes těžko jeví jako důvod k obavám.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Jediná vzácná chemická látka, která se vyráběla v Československu, je nebezpečná."
+    },
+    {
+        "inputs": "\"Jezdí za mnou každých 14 dní na návštěvu, dělají pro mne úplně všechno, i když vím, že si to nezasloužím,\" vzlykla.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "Translate to Czech:\n\nThe Czech Republic has reserved the right to disagree with parts of the sanctions.",
+        "targets": "Česko si vymohlo právo s částí nesouhlasit",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Cesko odmítá části sankcí."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nA.cz: Please describe to me the character among the pro-Russian separatist and their motives.",
+        "targets": "A.cz: Popište mi charaktery a motivy proruských separatistů.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The pro-Russian separatists are a motley crew of former soldiers, mercenaries, and local thugs."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nMaybe he, Kevern, did.",
+        "targets": "Možná byl úmyslně krutý Kavern.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Kevern mohl to."
+    },
+    {
+        "inputs": "Translate \"High on the agenda are plans for greater nuclear co-operation.\" to Czech?",
+        "targets": "Na seznamu jsou v první řadě plány na rozsáhlejší spolupráci v oblasti jaderné energetiky.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Významnou součástí plánů je zlepšení jaderného spolupráce."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nFrom the smell, it must have been a fish.",
+        "targets": "Podle vůně asi rybka.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Z čichu, musel by to být ryba."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Kolega mu udělal rentgen hrudníku.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Odmítla však, že by jednala s rozmyslem a úmyslem novorozence zabít.\n\nTranslate this to English?",
+        "targets": "However, she denied that she had acted with the intention to kill the newborn.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "She refused to consider the possibility of killing her newborn child."
+    },
+    {
+        "inputs": "Kvalifikační souboj s Nizozemskem je pak na programu 9. září od 20:45.\n\nTranslate this to English?",
+        "targets": "The qualification match with the Netherlands will start at 8:45 p.m. on 9 September.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The qualifying match against the Netherlands is scheduled for September 9 at 8:45 p.m."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Přesto neurčili diagnózu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Dokud tu je.\n\nCould you please translate this to English?",
+        "targets": "While it's still here.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre.\n2. The film is a masterpiece of the genre.\n3. The film is a masterpiece of the genre.\n4. The film is a masterpie"
+    },
+    {
+        "inputs": "Translate \"Tony Pidgley, founder and chairman of upmarket housebuilder Berkeley, on Monday said: \"Since the start of the current financial year, the market has reverted to normal transaction levels from the high point in 2013,\" adding that this offered a \"stable operating environment.\"\" to Czech?",
+        "targets": "Tony Pidgley, zakladatel a předseda developerské společnosti pro náročné klienty Berkeley, v pondělí řekl: „Od začátku aktuálního rozpočtového roku se trh z vrcholného bodu v roce 2013 vrátil na normální úroveň transakcí.“ Dodává, že to poskytuje „stabilní prostředí pro fungování.“",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Tony Pidgley, zakladatel a předseda představenstva luxusního stavební firmy Berkeley, v neděli uvedl, že od začátku současného finan"
+    },
+    {
+        "inputs": "Plukovník Andrij Lysenko, mluvčí ukrajinské Národní bezpečnostní a obranné rady v sobotu reportérům v Kyjevě řekl, že ukrajinští vojáci se museli stáhnout ze svých pozic v Ilovajsku poté, co minulý týden dvě kolony ruských obrněných vozidel a 1 000 vojenských jednotek proniklo do Doněcké oblasti, aby podpořily obléhané separatisty.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ukrainian"
+    },
+    {
+        "inputs": "Poslední výběh na most, otočka a už jen rovinka do cíle.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "Věděl toho o něm hrozně málo.\n\nTranslate this to English?",
+        "targets": "He was very unknowable.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "He knew very little about him."
+    },
+    {
+        "inputs": "How is \"Mesothelioma annual deaths since 1980 and projected future deaths in Great Britain\" said in Czech?",
+        "targets": "Počet úmrtí na následky mezoteliomu ročně od roku 1980 a odhadovaná úmrtí v budoucnu ve Velké Británii",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Mesotheliomu roční úmrtí od roku 1980 a projektované budoucí úmrtí v Velké Británii."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "To, co sděluje, je jasné: Skoti si nemají vyskakovat a musejí přijmout to, co je.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "I'm really loving it.\n\nTranslate to Czech",
+        "targets": "Mám to fakt rád.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Já se to velmi líbí."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Nejdelší rok má 10 měsíců.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "Malé dopravní letadlo zaskočilo za odřeknutý Turbolet a z německého Hofu přivezlo část německé delegace na letecký den.\n\nTranslate to English",
+        "targets": "The small airliner got behind the renounced Turbolet, and from Hof, Germany, it brought home part of the German delegation at the air show.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "A small German plane was delayed in Malé, but it did bring a part of the German delegation to the air show."
+    },
+    {
+        "inputs": "\"Rok od vypovězení původních nájemních smluv a zahájení výběrových řízení se prokázalo, že nový systém pronájmů je pro Prahu daleko výhodnější a celkově spravedlivější,\" tvrdí radní.\n\nCould you please translate this to English?",
+        "targets": "\"A year since the termination of the original contract and the start of the tender, it became apparent that the new system of leasing would be much more beneficial for Prague and entirely fair,\" the council member said.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The city council has announced that the new system of renting out apartments is more advantageous and fairer than the previous one."
+    },
+    {
+        "inputs": "Předseda vlády Benjamin Netanjahu navštívil školu v Sderotu, městě na hranici s Gazou, které bylo palestinskou palbou silně zasaženo.\n\nTranslate this to English?",
+        "targets": "Prime Minister Benjamin Netanyahu visited a school in Sderot, a Gaza border town that has been hard hit by Palestinian fire.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Benjamin Netanyahu, the prime minister of Israel, visited a school in Sderot, a town on the border with Gaza that was heavily shelled by Palestinian forces."
+    },
+    {
+        "inputs": "Makhar, kterému v tu dobu byly tři roky, unikl, Alyonina matka a sestra však při masakru zemřeli.\n\nCould you please translate this to English?",
+        "targets": "Makhar, then three, escaped, but Alyona's mother and sister died in the murderous carnage.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "When Makhar was three years old, he escaped, but his mother and sister were killed in the massacre."
+    },
+    {
+        "inputs": "V současnosti rozhoduje výše nabídky.\n\nTranslate to English",
+        "targets": "The amount of the offer is currently decisive.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "In the present day, the decision is made above."
+    },
+    {
+        "inputs": "The Bible was very definitely written by men, and not superior men either; far from it!\n\nTranslate to Czech",
+        "targets": "Bible byla zcela určitě napsána lidmi a rozhodně ne příliš osvíceními, spíše naopak!",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Bible je zcela jistě dílem lidí, a to ani nejenom nevyšších, ale spíše opačně."
+    },
+    {
+        "inputs": "Translate \"None of them have any evidentiary support, and none of them are historically verifiable.\" to Czech?",
+        "targets": "Žádná z nich nemá důkazní oporu a žádná se nedá historicky potvrdit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Nikdo z nich nemá žádnou důkazní podporu, a nikdo z nich není historicky ověřitelný."
+    },
+    {
+        "inputs": "Translate \"The Ukrainian side behaves like a country even in war.\" to Czech?",
+        "targets": "Ukrajinská strana se chová i ve válce jako stát.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ukrajina se chová jako stát i v válce."
+    },
+    {
+        "inputs": "Nebe nad Chebem patřilo odvážné Lady Peggy.\n\nCould you please translate this to English?",
+        "targets": "The skies above Cheb belonged to courageous Lady Peggy.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Lady Peggy was a bold woman."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "Účastnice kbelíkové výzvy si vykloubila čelist",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nPeople wanted to be sure, when a tune began, exactly where it was going to end.",
+        "targets": "Když začala hrát melodie, lidi chtěli vědět, kde přesně skončí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Lidé chtěli, když začala píseň, přesně poznat, kde se stane koncem."
+    },
+    {
+        "inputs": "How is \"After U.S. border patrol apprehended nearly 63,000 unaccompanied minors at the country's southwest border this year, immigration reform surfaced once again - this time as a women's issue.\" said in Czech?",
+        "targets": "Poté, co americká pohraniční policie zadržela tento rok na jihozápadě země téměř 63 000 mladistvých bez doprovodu, znovu vyvstala otázka reformy imigračním zákonů - tentokrát jako ženská otázka.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Počet nezletilých migrantů, kteří byli v roce 2014 na hranicích USA zadrženi, se blíží 63 tisícům. Imig"
+    },
+    {
+        "inputs": "How is \"I lost consciousness.\" said in Czech?",
+        "targets": "Omdlel jsem.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Bych se ztratil."
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "U žen na australském venkově hrozí vyšší riziko, že zemřou na rakovinu vaječníků, než u jejich protějšků ve městě.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre."
+    },
+    {
+        "inputs": "How is \"Also now, with the coming municipal elections, politicians are exaggerating to impress voters more.\" said in Czech?",
+        "targets": "Také nyní se s blížícími komunálními volbami politici předhánějí, kdo se voličům víc zalíbí.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Volební kampaň je v Česku vždy velmi hlučná, ale v posledních letech se zvýšila i hlučnost politiků."
+    },
+    {
+        "inputs": "Headlines such as \"Israel attacks Gaza\" are entirely common.\n\nTranslate to Czech",
+        "targets": "Zcela běžné jsou titulky \"Izrael zaútočil na Gazu\".",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Israelská armáda zaútočila na Gazu."
+    },
+    {
+        "inputs": "Čtení Rychlých šípů, už popadesáté, svištění na kole horem kolem Imperialu až dozadu za Vary, někam k tenisovým kurtům, už nebylo vedro, slunce hladilo záda a ramena, poklepalo paprsky na rozloučenou.\n\nTranslate this to English?",
+        "targets": "Reading \"Rapid Arrows\" for the fiftieth time, swishing on our bikes around the Imperial all the way to behind Karlovy Vary, somewhere towards tennis courts, when it was no longer hot and the sun shined on our backs and shoulders and patted them with parting rays.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Reading Faster Than Sound, I was transported back to the Imperial Hotel, where I had spent the night, and then I was off to the tennis courts, where I had played with my father. The sun was hot on my back"
+    },
+    {
+        "inputs": "Henryho vlastní matka měla cukrovku.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "Translate to Czech:\n\nMagaluf made international headlines this summer as a result of a viral YouTube video which showed an 18-year-old British holidaymaker performing fellatio on 24 men during a pub crawl.",
+        "targets": "Magaluf se dostal na hlavní stránky časopisů na celém světě poté, co se na YouTube objevilo video osmnáctileté britské turistky, která během turné po barech poskytla orální sex 24 mužům.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Magaluf se stal mezinárodní hlavní zprávou v létě, když se virální video na YouTube objevilo, které ukázalo 18letého britského turistu, který"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nYou don't mess with our livelihoods.",
+        "targets": "Nezahrávejte si s naším živobytím.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Nepřestupně se držíme na svém."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nProminent guests will arrive at the NH Hotel in Smíchovský on late Monday morning.",
+        "targets": "Ke smíchovskému NH Hotelu se v pondělí dopoledne sjížděli prominentní hosté.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Významní hosté přijíždějí na hotel NH v Smíchovském pozdě ráno v pondělí."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nThere are more mesothelioma deaths here than in any other country on the planet.",
+        "targets": "Počet úmrtí na mezoteliom je zde vyšší než v jakékoliv jiné zemi na světě.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ve světě je více smrtí na rakovinu plic než v jakémkoli jiném státě."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nSchools too.",
+        "targets": "Ve školách také.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Školy, taky."
+    },
+    {
+        "inputs": "Translate \"How small should they be?\" to Czech?",
+        "targets": "Jak malé by měly být?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jak malé by měly být?"
+    },
+    {
+        "inputs": "Translate \"Wouldn't it be necessary for you to sign a new contract somewhere in a new location?\" to Czech?",
+        "targets": "Nebylo by potřeba, abyste někde v novém působišti případný nový kontrakt podepsal?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "by se nezapíšeš novou smlouvu v novém místě?"
+    },
+    {
+        "inputs": "Je ale asi také pravda, že si domácí o přestávce něco ke své hře řekli, asi s ní nebyli moc spokojení.\n\nCould you please translate this to English?",
+        "targets": "It's probably also true that the home team players said something to each other about their game during the break, and they probably were not satisfied with it.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "It's true that the home team were probably a bit miffed at the break, they weren't too happy with their performance."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nSo we emptied and cleaned it again.",
+        "targets": "Takže jsme ji opět vypustili a přečistili.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "ač se vypustili a vyčistili znovu"
+    },
+    {
+        "inputs": "How is \"Thabane said he believes he is being targeted due to his attempt to fight corruption in the country.\" said in Czech?",
+        "targets": "Thabane prohlásil, že podle jeho názoru je terčem útoku kvůli svým snahám bojovat proti korupci v zemi.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Thabane se domnívá, že je cílem útoků kvůli jeho snaze bojovat s korupcí v zemi."
+    },
+    {
+        "inputs": "Translate \"I finished school this year entered a medical university in Vladikavkaz.\" to Czech?",
+        "targets": "Letos jsem dokončil školu a začal studovat medicínu na univerzitě ve Vladikavkazu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jsem v lékařské fakultě v Vladikavkazu."
+    },
+    {
+        "inputs": "Darling ve věci měny podpořil londýnské bankéře a vyvolal také dojem, že nebude protestovat proti privatizaci zdravotnictví.\n\nTranslate to English",
+        "targets": "Regarding the issue of the currency, Darling has supported London bankers and has also created the impression that he will not protest against privatization of health care.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The London bankers' support for Darling and the impression that he would not protest against the privatization of health care."
+    },
+    {
+        "inputs": "Vůdcem je asi na doživotí, tak kam by spěchal.\n\nCould you please translate this to English?",
+        "targets": "He'll probably be leader for life, so why hurry?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "He's probably a leader for life, so he's going to be around for a while."
+    },
+    {
+        "inputs": "Translate \"If he will not be available on Wednesday, then I don't claim that I cannot nominate another player who has performed well in the Czech league to replace him,\" Vrba said.\" to Czech?",
+        "targets": "V případě, když nebude moci ve středu být k dispozici, netvrdím, že nemůžu donominovat někoho z hráčů, kteří v české lize zaujali,\" podotkl Vrba.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Pokud nebude na neděli k dispozici, tak necítím, že bych nemohl jiného hráče, který v české lize dobře hraje, nominovat, aby"
+    },
+    {
+        "inputs": "Now of course, even air did not help.\n\nTranslate to Czech",
+        "targets": "Teď ovšem ani luft nepomohl.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ano, i tak se ani vzduch nepomohl."
+    },
+    {
+        "inputs": "Jisté však je, že potenciální útočníci měli spoustu času na získání přístupu k různým účtům před zveřejněním tohoto nástroje.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Cross-site scripting"
+    },
+    {
+        "inputs": "How is \"A similar incident occurred next year in the spring.\" said in Czech?",
+        "targets": "Obdobný scénář se opakoval příští rok na jaře.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Podobný incident se opakoval v následujícím roce v jarních měsících."
+    },
+    {
+        "inputs": "Všechno bylo způsobené tím, že auto jsme piplali více než půl roku, aby bylo na nějaké úrovni.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Czech"
+    },
+    {
+        "inputs": "Míra růstu v D.C. byla na úrovni celostátního průměru, na 4,3 %, zatímco růst Marylandu byl výrazně vyšší, 4,9 %.\n\nTranslate this to English?",
+        "targets": "The District's rate of growth was level with the national average, at 4.3 percent, while Maryland's growth was substantially faster at 4.9 percent.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The growth rate in D.C. was on par with the national average, at 4.3 percent, while Maryland's growth rate was significantly higher, at 4.9 percent."
+    },
+    {
+        "inputs": "Stovky zaměstnanců vězeňské služby v celém Bulharsku se účastnily celonárodního protestního shromáždění před Ministerstvem spravedlnosti v hlavním městě Sofii.\n\nTranslate to English",
+        "targets": "Hundreds of prison workers from across Bulgaria have held a national protest in front the Justice Ministry in the capital Sofia.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Prison guards in Bulgaria held a nationwide protest in front of the Ministry of Justice in Sofia."
+    },
+    {
+        "inputs": "Takže jde o druh modlářství, kde věřící uctívají člověkem vyrobené kompilace, jako kdyby tyto knihy byly samotný bůh, protože si myslí že jsou JEHO slovem.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Bible"
+    },
+    {
+        "inputs": "Kdyby Hamás neinvestoval peníze do výstavby podzemních tunelů, aby jimi mohli pronikat sebevražední útočníci na území Izraele, ale třeba do výstavby bytových domů, nemocnic a škol, žilo by se jeho arabským bratrům z Gazy podstatně lépe.\n\nTranslate this to English?",
+        "targets": "If Hamas did not invest its money into constructing underground tunnels to enable suicide bombers to penetrate into Israel, but instead into activities such as construction of residential housing, hospitals and schools, its Arab brothers from Gaza would live much better.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "If Hamas had invested the money it spent on tunnels into building hospitals, schools, and housing, the lives of its Arab brothers in Gaza would be much better."
+    },
+    {
+        "inputs": "Je těžké rozhodnout se, co říct a kolik toho říct.\n\nTranslate to English",
+        "targets": "It is difficult to know what to say and how much to say.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "It's hard to decide what to say and how much to say."
+    },
+    {
+        "inputs": "'It happened to me and you can't change this fact.\n\nTranslate to Czech",
+        "targets": "„Prostě se mi to stalo a to se nedá změnit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jsem toho moc zklamaný, že jsem se taky musel vzdát."
+    },
+    {
+        "inputs": "Then the Hanáci players began putting on pressure, but the defending home players did not give them a chance, and Květoňovi blocked goal attempts from a distance.\n\nTranslate to Czech",
+        "targets": "Pak už začali tlačit Hanáci, do šancí je ale v bloku bránící domácí nepouštěli a střely z dálky pochytal Květoň.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Hanáci se v závěru utkání začali přitlačovat, ale obhájci domácího týmu neposkytli jim šanci, a Květoňovi blo"
+    },
+    {
+        "inputs": "Údajný test rakety se uskutečnil krátce po ukončení společných vojenských manévrů Spojených států a Jižní Koreje, které Pchjongjang vnímá jako přípravu na invazi.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "North Korean rocket launch"
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nHere, it is obvious that Kozí Lane was not the narrowest place.",
+        "targets": "Tady je vidět, že Kozí ulička nebyla tím nejužším místem.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Tady je zřejmé, že Kozí ulička nebyla nejtěsnějším místem."
+    },
+    {
+        "inputs": "How is \"And why is that?\" said in Czech?",
+        "targets": "A proč?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+    },
+    {
+        "inputs": "Dříve město při výběru správců používalo losování.\n\nTranslate this to English?",
+        "targets": "The city previously used drawings to select management companies.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "In the past, the city used a lottery system to choose its managers."
+    },
+    {
+        "inputs": "Translate \"But what if you're going to participate in the New Jersey play-off?\" to Czech?",
+        "targets": "Jenže co když budete hrát s New Jersey play-off?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ale, co když se zúčastíš New Jersey play-offu?"
+    },
+    {
+        "inputs": "Teď se rozhodl, že dobude zpět ztracené pozice.\n\nTranslate to English",
+        "targets": "Now he has decided that he wants to regain his country's lost position.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "He decided to reclaim his lost position."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nAll asbestos use banned in Britain.",
+        "targets": "V Británii je zakázáno použití všech druhů azbestu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Všechny použití asbestu v Británii zakázány."
+    },
+    {
+        "inputs": "Translate \"The company also said that despite students facing tuition fees of £9,000 a year, it still expected to find a market for the service.\" to Czech?",
+        "targets": "Společnost také uvedla, že přestože studenti platí roční školné ve výši 9 000 liber, očekává, že služba si na trhu najde své místo.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Vysoké školské náklady, které studenti musí zaplatit, nezabránily firmě v nalezení trhu pro svůj služební program."
+    },
+    {
+        "inputs": "Translate to Czech:\n\nBut I know whom to turn to in Prague if we encounter one of your countrymen among prisoners of war and how to free him.",
+        "targets": "Ale vím, na koho se v Praze obrátit, pokud bychom narazili na vašeho zajatého krajana a mohli ho vysvobodit.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Ale toho, kdo bychom mohli v Praze najít, pokud bychom se setkali s vámi, a jak bychom jej osvobodili."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\n\"I guess I should have shot higher below top of the net,\" he said.",
+        "targets": "\"Asi jsem to měl dávat výš pod víko, trochu mi to sjelo,\" přemítal.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Věřím, že bych měl střílet nižší nad horním okrajem."
+    },
+    {
+        "inputs": "A £350m compensation scheme is announced.\n\nTranslate to Czech",
+        "targets": "Je spuštěn 350 milionový kompenzační program.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Vyhlášení kompenzace v hodnotě 350 milionů liber."
+    },
+    {
+        "inputs": "Člověk si oživil historky a zažil spoustu legrace.\n\nTranslate to English",
+        "targets": "Each person recalled events and had a lot of fun.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "A man revived old stories and had a lot of fun."
+    },
+    {
+        "inputs": "Dohoda může být zveřejněna již tento týden, prozradil v neděli zdroj, ale upozornil, že jednání stále nemusí skončit úspěšně.\n\nTranslate this to English?",
+        "targets": "An agreement may be announced as early as this week, the sources said on Sunday, cautioning that the talks could still fall apart.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The deal could be announced as early as this week, according to a source, but the negotiations are still ongoing and could still fail."
+    },
+    {
+        "inputs": "How is \"And are you not pushing for departure?\" said in Czech?",
+        "targets": "A vy tedy na odchod netlačíte?",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. A a nechceš, že se odjet?"
+    },
+    {
+        "inputs": "Now it looked like a slimy mouse.\n\nTranslate to Czech",
+        "targets": "Teď to vypadalo jako oslintaná myš.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jak se vypadalo, že se jednalo o slimáž."
+    },
+    {
+        "inputs": "His mother Fatima, 54, a senior GP, had dropped him for his first day at school before rushing to take her elder son Vladimir to university.\n\nTranslate to Czech",
+        "targets": "Jeho matka Fatima, 54, lékařka, ho jeho první den vysadila u školy a spěchala odvézt svého staršího syna Vladimira na univerzitu.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jej matka Fatima, 54, starší lékařka, mu předal první den na škole, než se rychle vrátila, aby se s ním odvezla její"
+    },
+    {
+        "inputs": "Write a sentence not in English.",
+        "targets": "V příběhu Prozření uváděném mimo soutěž, který natočil oscarový Barry Levison podle románu Philipa Rotha, má čtyřiasedmdesátiletý Pacino roli, jež je mu blízká: herce na vrcholu slávy, který trpí depresemi z konce kariéry i osobního života.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The film is a masterpiece of the genre, and a must-see for anyone who loves the horror genre."
+    },
+    {
+        "inputs": "Taková nálada a frustrace vládla v Německu v třicátých letech, těsně před uchopením moci nacisty a pak následoval výbuch nacionalismu nepodobný dnešní situaci v Rusku.\n\nWhich language is this?",
+        "targets": "Czech",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "German"
+    },
+    {
+        "inputs": "Tak ji poctivě cvičte.\n\nTranslate to English",
+        "targets": "So practice it diligently.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Tak ji poctivě cvičte."
+    },
+    {
+        "inputs": "Translate the following sentence to Czech:\nTherefore, he finished at the Barum Rally.",
+        "targets": "Proto na Barum rallye skončil",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Proto, dokončil se na Barum Rally."
+    },
+    {
+        "inputs": "How is \"Point-and-shoot cameras have LCDs to help you compose photos, while action cams generally don't.\" said in Czech?",
+        "targets": "Kompaktní fotoaparáty mají LCD, které vám pomůže s kompozicí fotek, ale outdoorové ho nemají.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Kamerky pro akci jsou většinou bez displeje, které by pomohlo nám komponovat fotografie."
+    },
+    {
+        "inputs": "The finding was reportedly unusual.\n\nTranslate to Czech",
+        "targets": "Nález je údajně neobvyklý.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Něco vypadá, že se jedná o neobvyklý objev."
+    },
+    {
+        "inputs": "Čas od času se mu ale symptomy vrátily, často poté, co si zacvičil a zadýchal se.\n\nCould you please translate this to English?",
+        "targets": "But from time to time the same symptoms returned, often after he took exercise and was breathing hard.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Sometimes he would feel better, but then the symptoms would return, often after he had exercised and overexerted himself."
+    },
+    {
+        "inputs": "How is \"Nonetheless, there is a clear difference between these two dimensions.\" said in Czech?",
+        "targets": "Mezi těmito dvěma rozměry je nicméně jasný rozdíl.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Všechno přesto je jasný rozdíl mezi těmito dvěma dimenzemi."
+    },
+    {
+        "inputs": "Snažil se zjistit, kde mohl přijít do kontaktu s azbestem.\n\nTranslate this to English?",
+        "targets": "In fact, he struggled to think where he might have come into contact with asbestos.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "He tried to determine where he might have come into contact with asbestos."
+    },
+    {
+        "inputs": "How is \"It was 30 August 1944 when the independent Czechoslovak brigade moved to France.\" said in Czech?",
+        "targets": "Bylo to 30. srpna 1944, kdy se československá samostatná brigáda přesunula do Francie.",
+        "metric": "bleu",
+        "domain": "translation",
+        "model_name": "wmt16_translate_csen",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jednalo se o 30. srpna 1944, kdy se československá brigáda osamostatnila v Francii."
+    },
+    {
+        "inputs": "Write the answer: Its capital is Monrovia, its first settlements were founded in 1822 on land bought from local tribal leaders, it was initially a protectorate of the USA but independent from 1847; what country is it?",
+        "targets": "republic of liberia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "liberia"
+    },
+    {
+        "inputs": "Please answer this question: What cocktail, consisting of rum, curacao, and lime juice, did bar owner Victor Jules Bergeron, Jr., better known as Trader Vic, claim to invent?",
+        "targets": "mai tai",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Mai Tai"
+    },
+    {
+        "inputs": "Please answer this question: The novel as well as the movie Girl with a Pearl Earring based on painter Vermeer's work was set in which Dutch city also known for its pottery?",
+        "targets": "delft",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Delft"
+    },
+    {
+        "inputs": "Write the answer: Who commanded the Confederate Army of Northern Virginia during the American Civil War?",
+        "targets": "general robert e lee",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Robert E. Lee"
+    },
+    {
+        "inputs": "Answer the following question. Which pop artist died in New York in1987?",
+        "targets": "andy warhol",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. He was a singer, songwriter, and guitarist who was a pioneer of the punk rock movement."
+    },
+    {
+        "inputs": "Who is an Australian convicted murderer, currently serving 35 life sentences for murdering 35 people and injuring 21 others in the Port Arthur massacre, a shooting spree in Tasmania in 1996?\nWhat is the answer?",
+        "targets": "martin john bryant",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Martin Bryant"
+    },
+    {
+        "inputs": "In March 1977, India’s Missionaries of Charity chose Sister Nirmala to succeed who as its leader?",
+        "targets": "mother teresa",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Mother Teresa"
+    },
+    {
+        "inputs": "Earl Scruggs (1924-2012) pioneered and was master of the three-fingered technique for playing what????",
+        "targets": "banjo",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "banjo"
+    },
+    {
+        "inputs": "How many countries border Turkey?",
+        "targets": "eight",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Iraq\n2. Iran\n3. Syria\n4. Greece\n5. Bulgaria\n6. Georgia\n7. Armenia\n8. Azerbaijan\n9. Iraq\n10. Iran"
+    },
+    {
+        "inputs": "The river Lee enters the sea at which Irish port?",
+        "targets": "cork",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a) Cork b) Limerick c) Waterford d) Galway e) Dublin"
+    },
+    {
+        "inputs": "What is the answer: Which Football League team plays its home games at Huish Park?",
+        "targets": "yeovil town",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Yeovil Town"
+    },
+    {
+        "inputs": "Please answer this question: Which TV series features the characters 'Stanley Marsh' and 'Kyle Broflovski'?",
+        "targets": "south park",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "South Park"
+    },
+    {
+        "inputs": "Trivia question: As its lyrics attest, what 1974 rock classic that celebrates a place was written in response to two songs of Neil Young that were derogatory of the American South?\nAnd the answer is?",
+        "targets": "sweet home alabama",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "\"Southern Man\""
+    },
+    {
+        "inputs": "Answer the following question. In electronics, what is the basic function of a capacitor in relation to electrical energy?",
+        "targets": "storing",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. A capacitor stores electrical energy."
+    },
+    {
+        "inputs": "Please answer this question: In literature who was the weaver of Raveloe?",
+        "targets": "silas marner",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Adam Bede"
+    },
+    {
+        "inputs": "The National Gallery is situated in which London square?",
+        "targets": "trafalgar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Trafalgar Square"
+    },
+    {
+        "inputs": "Trivia question: The Principia Mathematica, a three-volume work on the foundations of mathematics published in 1910, 1912 and 1913, with a second edition In 1927, was co-written by Bertrand Russell and who else?\nAnd the answer is?",
+        "targets": "alfred north whitehead",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "A. Alfred North Whitehead"
+    },
+    {
+        "inputs": "Answer this question.\n\nIn the children’s television series ‘The Magic Roundabout’, who is the operator of the roundabout?",
+        "targets": "mr rusty",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Dougal"
+    },
+    {
+        "inputs": "Question: \"What is the basis of \"\"pesto\"\" sauce?\"\nAnswer:",
+        "targets": "basil",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The word pesto is derived from the Italian verb pestare, which means to pound or crush.\n2. Pesto is a sauce made from basil, pine nuts, garlic, and Parmes"
+    },
+    {
+        "inputs": "Trivia question: Which war ended as a result of peace negotiations at Panmunjon, completed on 27 July 1953?\nAnd the answer is?",
+        "targets": "korean war",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Korean War"
+    },
+    {
+        "inputs": "What is the answer: Who created the artwork Everyone I Have Ever Slept With 1963–1995 which was destroyed in the 2004 Momart London warehouse fire?",
+        "targets": "tracey emin",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Tracey Emin"
+    },
+    {
+        "inputs": "In 2008, Islamabad International Airport was renamed as a tribute to which person who passed away in 2007?",
+        "targets": "benazir bhutto",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Benazir Bhutto"
+    },
+    {
+        "inputs": "The Java Trench is part of which ocean????",
+        "targets": "indian ocean",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Pacific"
+    },
+    {
+        "inputs": "Answer the following question. Which large Roman villa in West Sussex was accidentally discovered by Aubrey Barrett, an engineer for the Portsmouth Water Company, while laying a pipe across a field?",
+        "targets": "fishbourne",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Fishbourne Roman Palace"
+    },
+    {
+        "inputs": "Answer the following question. Which crime used to be called ‘lese-majeste’ meaning injured majesty in French?",
+        "targets": "treason",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. treason"
+    },
+    {
+        "inputs": "Question: In 1695, John Trevor was forced to stand down as Speaker of the British House of Commons. Who was the next Speaker to be ousted?\nAnswer:",
+        "targets": "michael martin",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. William Bromley"
+    },
+    {
+        "inputs": "Trivia question: What is the name of the colliery in the 1939 film ‘The Stars Look Down’?\nAnd the answer is?",
+        "targets": "neptune colliery",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The pit is called 'The Stars Look Down' after a poem by A. J. Cronin."
+    },
+    {
+        "inputs": "In the novel 'Call of the Wild' by Jack London, what was the dogs name????",
+        "targets": "buck",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Buck"
+    },
+    {
+        "inputs": "Trivia question: What fraction of a millimeter is a nanometer?\nAnd the answer is?",
+        "targets": "one millionth",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1000 nanometers is 10000000000000000000000000000000000000000"
+    },
+    {
+        "inputs": "Answer the following question. What was the middle name of former US President Richard Nixon?",
+        "targets": "milhous",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Richard Milhous"
+    },
+    {
+        "inputs": "Answer this question.\n\nIn centimetres, how high is a table tennis table?",
+        "targets": "76",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "152.4 cm"
+    },
+    {
+        "inputs": "The 'mast' of a beech tree refers to its?\nWhat is the answer?",
+        "targets": "nuts",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a) trunk\nb) branches\nc) leaves\nd) roots\ne) bark"
+    },
+    {
+        "inputs": "Answer the following question. By population, what is the largest town in Buckinghamshire?",
+        "targets": "milton keynes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Aylesbury"
+    },
+    {
+        "inputs": "The coral island of Niue is a self-governing state in free association with which country????",
+        "targets": "new zealand",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a. New Zealand"
+    },
+    {
+        "inputs": "Answer the following question. Which cartoon title family live in Orbit City?",
+        "targets": "jetsons",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Jetsons"
+    },
+    {
+        "inputs": "Write the answer: \"In which continent did Allan Quatermain, the explorer in H. Ryder Haggard's \"\"King Solomon's Mines\"\", search for the mines?\"",
+        "targets": "africa",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "africa"
+    },
+    {
+        "inputs": "Question: What name is given to a shield or emblem within a flag?\nAnswer:",
+        "targets": "charge",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "crest"
+    },
+    {
+        "inputs": "From which country does the drink Stella Artois originate?\nWhat is the answer?",
+        "targets": "belgium",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Belgium"
+    },
+    {
+        "inputs": "Please answer this question: Which dog that was originally bred in the Congo, is sometimes known as 'The Barkless Dog' as it produces an unusual yodel-like sound due to its unusually shaped larynx?",
+        "targets": "basenji",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Basenji"
+    },
+    {
+        "inputs": "With which means of transport has Cardington been associated in the past???",
+        "targets": "airships",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The airship hangar at Cardington was used by the RAF during World War I and II."
+    },
+    {
+        "inputs": "What is the answer: What 1963 Alfred Hitchcock movie, which introduced the ever so talented Tippi Hedren, took place at the lovely Northern California town of Bodega Bay?",
+        "targets": "birds",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Birds"
+    },
+    {
+        "inputs": "Write the answer: Which rock group was founded in Seattle in 1994 by David Grohl after the break-up of Nirvana?",
+        "targets": "foo fighters",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Pearl Jam"
+    },
+    {
+        "inputs": "Question: Who was British Prime Minister in 1994?\nAnswer:",
+        "targets": "john major",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "John Major"
+    },
+    {
+        "inputs": "Answer this question.\n\nBlenny, damsel, hamlet, goby and grunt are varieties of what living things?",
+        "targets": "fish",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. blenny"
+    },
+    {
+        "inputs": "Question: Which legal term is Latin for ‘elsewhere’?\nAnswer:",
+        "targets": "alibi",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "ex tunc"
+    },
+    {
+        "inputs": "Which horse, at 100-1, won the 2009 Grand National????",
+        "targets": "mon mome",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Mon Mome"
+    },
+    {
+        "inputs": "Question: Chomolungma is the local name for which geographical feature?\nAnswer:",
+        "targets": "mount everest",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Mount Everest"
+    },
+    {
+        "inputs": "Trivia question: What, by value, is the top fruit grown in India?\nAnd the answer is?",
+        "targets": "mangoes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "mango"
+    },
+    {
+        "inputs": "In Sumo wrestling, a handful of what is thrown into the ring before combat?\nWhat is the answer?",
+        "targets": "salt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. salt"
+    },
+    {
+        "inputs": "What Frenchwoman won a Nobel Prize for chemistry?\nWhat is the answer?",
+        "targets": "marie curie",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Irène Joliot-Curie"
+    },
+    {
+        "inputs": "In which city did Roger Bannister become the first man to break the four minute barrier for the mile?",
+        "targets": "oxford",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a. London"
+    },
+    {
+        "inputs": "Please answer this question: \"Who wrote the play \"\"Oedipus Rex\"\", \"\"Antigone\"\" and \"\"Electra\"\"?\"",
+        "targets": "sophocles",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Sophocles"
+    },
+    {
+        "inputs": "Trivia question: Who is often credited with inventing peanut butter (but didn't)?\nAnd the answer is?",
+        "targets": "george washington carver",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "George Washington Carver"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhat nationality was Robert Bunsen, of whom the Bunsen burner was named after?",
+        "targets": "german",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. German"
+    },
+    {
+        "inputs": "Question: In World War 2 Operation Husky was the code name for the Allied invasion of which island?\nAnswer:",
+        "targets": "sicily",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "sicily"
+    },
+    {
+        "inputs": "What is the answer: In cricket, if you are out without scoring, what is it called?",
+        "targets": "duck",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. bowled out"
+    },
+    {
+        "inputs": "Which city has the greatest number of Rolls Royce automobiles per capita?\nWhat is the answer?",
+        "targets": "hong kong",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. London"
+    },
+    {
+        "inputs": "Write the answer: Sean Connery's first Oscar was awarded for his role in which film ?",
+        "targets": "untouchables",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Untouchables"
+    },
+    {
+        "inputs": "\"Whose epitaph opens with: \"\"Hereabouts died a very gallant gentleman\"\"?\"\nWhat is the answer?",
+        "targets": "captain oates",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Hereabouts died a very gallant gentleman,\n2. Hereabouts died a very gallant gentleman,\n3. Hereabouts died a very gallant gentleman,\n4. Hereabouts died a very gallant gentleman"
+    },
+    {
+        "inputs": "What is the answer: What are the names of the leather boxes, sometimes called phylacteries, worn by orthodox Jewish men on their head and arm during weekday morning prayers?",
+        "targets": "tefillin",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. tefillin"
+    },
+    {
+        "inputs": "Answer this question.\n\nThe flag of Cornwall is a white cross on a background of what colour?",
+        "targets": "black",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. red"
+    },
+    {
+        "inputs": "The bulk of Kansas City lies in which US state????",
+        "targets": "missouri",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Missouri"
+    },
+    {
+        "inputs": "Please answer this question: What city did Brandon and Brenda Walsh move to in high school?",
+        "targets": "beverly hills",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Beverly Hills, 90210"
+    },
+    {
+        "inputs": "Question: What nationality is the singer Shakira?\nAnswer:",
+        "targets": "colombian",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Shakira is a Colombian singer."
+    },
+    {
+        "inputs": "Question: What is the name of the cooking utensil, popular on the Algarve in Portugal, used to cook a seafood stew, of the same name?\nAnswer:",
+        "targets": "cataplana",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "caldeirão"
+    },
+    {
+        "inputs": "Write the answer: Which composer was born on this day in Prague in 1841 – his Symphony number 9 in E minor From the New World is one of his most famous works?",
+        "targets": "antonín dvořák",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Antonin Dvorak"
+    },
+    {
+        "inputs": "Who won the 2011 Turner Prize for his installation 'Do Words Have Voices'?",
+        "targets": "martin boyce",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Jeremy Deller"
+    },
+    {
+        "inputs": "What is the answer: The Emperor Showa was known by what name during his lifetime?",
+        "targets": "hirohito",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Hirohito"
+    },
+    {
+        "inputs": "What is a female mouse called?",
+        "targets": "doe",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. a doe"
+    },
+    {
+        "inputs": "What is the answer: The Harry Potter series of books was published by which British publisher?",
+        "targets": "bloomsbury",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Bloomsbury"
+    },
+    {
+        "inputs": "Question: What nursery rhyme character “runs through the town, Up stairs and down stairs in his night-gown, Tapping at the window, crying at the lock, Are the children in their bed, for it’s past ten o’clock?”\nAnswer:",
+        "targets": "wee willie winkie",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Old Woman in the Shoe"
+    },
+    {
+        "inputs": "Write the answer: The Basilica of Santa Maria Novella, the Uffizi, the Pitti Palace, the Fontana del Nettuno and the Boboli Gardens are in what city?",
+        "targets": "florence",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "fLorence"
+    },
+    {
+        "inputs": "Answer the following question. Sleeping sickness is caused by the bite of which insect?",
+        "targets": "tsetse fly",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. tsetse fly"
+    },
+    {
+        "inputs": "In medicine, Renal Calculus is another term for what?",
+        "targets": "kidney stone",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "kidney stones"
+    },
+    {
+        "inputs": "Please answer this question: What is the colour of the flag of Libya, which is the only national flag consisting of only one colour?",
+        "targets": "green",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. green"
+    },
+    {
+        "inputs": "Question: Which famous Jewish fortress was captured by the Romans 10th Legion in 73AD?\nAnswer:",
+        "targets": "masada",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Herodium"
+    },
+    {
+        "inputs": "What is the answer: David Gest, a concert promoter, was the fourth husband of whom from March 2002 until their divorce in April 2007?",
+        "targets": "liza minnelli",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Liza Minnelli"
+    },
+    {
+        "inputs": "Which ministry was run by Jim Hacker before he became Prime Minister in the TV sitcom Yes Prime Minister\nWhat is the answer?",
+        "targets": "administrative affairs",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Department of Administrative Affairs"
+    },
+    {
+        "inputs": "\"Which group had number one hits in the seventies with \"\"Tiger Feet\"\", \"\"Lonely this Christmas\"\" and \"\"Oh Boy\"\"?\"",
+        "targets": "mud",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a) The Sweet"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich planet is called both the morning and evening star?",
+        "targets": "venus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Venus"
+    },
+    {
+        "inputs": "Which fish are traditionally used to make Stargazy pie?\nWhat is the answer?",
+        "targets": "pilchards",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. bream\n2. brill\n3. conger\n4. dab\n5. haddock\n6. herring\n7. lemon sole\n8. plaice\n9. pollock\n10."
+    },
+    {
+        "inputs": "What is the answer: What was the former name of Radio Four",
+        "targets": "home service",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "BBC Home Service"
+    },
+    {
+        "inputs": "How did James F Fixx, promoter of jogging for good health, die in 1984?\nWhat is the answer?",
+        "targets": "heart attack while jogging",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. He was jogging."
+    },
+    {
+        "inputs": "Please answer this question: Which English darts player is known by the nickname ‘The Power’?",
+        "targets": "phil taylor",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Phil Taylor"
+    },
+    {
+        "inputs": "Question: Which band released a 1997 album entitled ‘White on Blonde’?\nAnswer:",
+        "targets": "texas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Dandy Warhols"
+    },
+    {
+        "inputs": "What is the answer: Which six letter word is the alternative name for the European bison?",
+        "targets": "wisent",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. aurochs"
+    },
+    {
+        "inputs": "Trivia question: The George M Cohan song 'Over There', as seen in 'Yankee Doodle Dandy', has been used in recent years - with different lyrics - in which company's TV advertising?\nAnd the answer is?",
+        "targets": "gocompare",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Budweiser"
+    },
+    {
+        "inputs": "Question: Which programme is broadcast on BBC Radio 4 between 10.45pm and 11.00pm each weekday evening?\nAnswer:",
+        "targets": "book at bedtime",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Shadow Line"
+    },
+    {
+        "inputs": "With examples such as tulip, South Sea company, and .com, what is the name for the economic condition characterized by \"trade in high volumes at prices that are considerably at variance with intrinsic values\"?",
+        "targets": "bubble",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. bubble"
+    },
+    {
+        "inputs": "Write the answer: What is the southernmost point of the African continent?",
+        "targets": "cape agulhas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Cape Agulhas"
+    },
+    {
+        "inputs": "Please answer this question: Which is the deepest lake in the English Lake District?",
+        "targets": "wastwater",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Wastwater"
+    },
+    {
+        "inputs": "Question: A state of Australia, one of the world's biggest waterfalls, a London railway station, Africa's largest lake and a large public park in Hong Kong are all named after whom?\nAnswer:",
+        "targets": "queen victoria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. David Livingstone"
+    },
+    {
+        "inputs": "\"Which film poster included the line \"\"I told you... you know nothing about wickedness?\"\"\"???",
+        "targets": "lady from shanghai",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Witches of Eastwick"
+    },
+    {
+        "inputs": "Write the answer: What device did French inventor douard-Lon Scott de Martinville patent in 1857?",
+        "targets": "phonautograph",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. phonograph"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich Gilbert and Sullivan Opera is subtitled 'The Slave of Duty'?",
+        "targets": "pirates of penzance",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Mikado"
+    },
+    {
+        "inputs": "The bird group Merops Apiaster is more commonly named after what creature that it eats????",
+        "targets": "bee",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. termites"
+    },
+    {
+        "inputs": "Please answer this question: Achilles and Hector appear as characters in which Shakespeare play?",
+        "targets": "troilus and cressida",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Troilus and Cressida"
+    },
+    {
+        "inputs": "Answer this question.\n\nWilliam Wordsworth, Samuel Taylor Coleridge and Robert Southey are commonly referred to as the 'what' Poets?",
+        "targets": "lake poets",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "lake poets"
+    },
+    {
+        "inputs": "Which planet when discovered was originally called the Georgian planet????",
+        "targets": "uranus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Uranus"
+    },
+    {
+        "inputs": "\"In British history, what \"\"House\"\" ruled after the House of Hanover?\"",
+        "targets": "saxe coburg and gotha",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1760-1837, the House of Hanover was succeeded by the House of Saxe-Coburg and Gotha, which was in turn succeeded by the House of Windsor."
+    },
+    {
+        "inputs": "In the human body, the patella is commonly known as what?",
+        "targets": "knee cap",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. the kneecap"
+    },
+    {
+        "inputs": "George Herbert, Earl of Carnarvon (1866-1923) was an English aristocrat best known as the financier for the excavation of what????",
+        "targets": "king tut s tomb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. the tomb of Tutankhamun"
+    },
+    {
+        "inputs": "Trivia question: \"Can you identify the play by William Shakespeare i which the quote; \"\"Cowards die many times before their deaths\"\" comes from?\"\nAnd the answer is?",
+        "targets": "julius caesar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Julius Caesar"
+    },
+    {
+        "inputs": "What is the answer: Ethanol and isopropyl are types of what?",
+        "targets": "alcohol",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. alcohol"
+    },
+    {
+        "inputs": "Trivia question: A dessert or pie served a la mode always includes what?\nAnd the answer is?",
+        "targets": "ice cream",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. ice cream"
+    },
+    {
+        "inputs": "What is the answer: Which group released the album 'Tango in the Night' in 1987?",
+        "targets": "fleetwood mac",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1024111"
+    },
+    {
+        "inputs": "Answer the following question. The 2001 film 'A Beautiful Mind', starring Russell Crowe, told the true story of which brilliant but disturbed mathematician?",
+        "targets": "john forbes nash",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. John Nash"
+    },
+    {
+        "inputs": "Write the answer: What mountain range, starting wth C, occupies much of the country of Romania?",
+        "targets": "carpathians",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Carpathian"
+    },
+    {
+        "inputs": "Answer the following question. What state does Sarah Palin represent as its governor?",
+        "targets": "alaska",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Alaska"
+    },
+    {
+        "inputs": "What is the answer: In which hand is the Statue of Liberty's torch?",
+        "targets": "right",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Statue of Liberty's torch is in her right hand."
+    },
+    {
+        "inputs": "Answer the following question. Whose education system lays emphasis on independence, freedom within limits, and respect for a child's psychological development, etc?",
+        "targets": "maria montessori",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Finland"
+    },
+    {
+        "inputs": "Answer the following question. In which African country is the town of Lassa, where Lassa fever was first identified?",
+        "targets": "nigeria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Nigeria"
+    },
+    {
+        "inputs": "Manuel Zelaya was ousted by military coup as leader of what Central American country????",
+        "targets": "honduras",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "honduras"
+    },
+    {
+        "inputs": "What is the answer: What 3-word term is given to the genre of kitschy Italian films of the mid 20th century that sought to emulate the historic epics of Hollywood like Spartacus?",
+        "targets": "sword and sandal",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "spaghetti western"
+    },
+    {
+        "inputs": "Which city has sports teams known as the 'Maple Leafs' and the 'Blue Jays'?",
+        "targets": "toronto",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Toronto"
+    },
+    {
+        "inputs": "Which British golfer won the US Masters in 1989, 1990 & 1996?\nWhat is the answer?",
+        "targets": "nick faldo",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1) Nick Faldo"
+    },
+    {
+        "inputs": "Question: The full title of which play by George Bernard Shaw is completed by 'A Romance In Five Acts'?\nAnswer:",
+        "targets": "pygmalion",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Man and Superman"
+    },
+    {
+        "inputs": "Trivia question: From which musical did the sing 'Get Me To The Church On Time' come?\nAnd the answer is?",
+        "targets": "my fair lady",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "My Fair Lady"
+    },
+    {
+        "inputs": "Trivia question: What non-technical term is given to a condition where the thumb, when extended (as in a 'thumbs-up'), stretches backwards toward the nail and outwards?\nAnd the answer is?",
+        "targets": "hitchhiker s thumb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "hitchhiker's thumb"
+    },
+    {
+        "inputs": "Trivia question: The 'Oregon Trail' finished in the Columbia River area of Oregon, where did it start?\nAnd the answer is?",
+        "targets": "independence missouri",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Oregon Trail began in Independence, Missouri."
+    },
+    {
+        "inputs": "Question: What is the official language of Venezuela?\nAnswer:",
+        "targets": "spanish",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Spanish"
+    },
+    {
+        "inputs": "\"Who wrote the tragedy-opera \"\"The Masked Ball\"\" (\"\"Ballo in Maschera\"\")?\"???",
+        "targets": "giuseppe verdi",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Giuseppe Verdi"
+    },
+    {
+        "inputs": "Please answer this question: During this week in 1940, the evacuation of 340,000 allied troops, known as Operation Dynamo, was accomplished from what French port city?",
+        "targets": "dunkirk",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "dunkirk"
+    },
+    {
+        "inputs": "Which group had a hit in 1974 with 'This Town Ain't Big Enough For The Both Of Us'????",
+        "targets": "sparks",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a. Sweet"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich car company manufactures the Tipo",
+        "targets": "fiat",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Fiat"
+    },
+    {
+        "inputs": "Trivia question: What is the US state capital of Tennessee?\nAnd the answer is?",
+        "targets": "nashville",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Nashville"
+    },
+    {
+        "inputs": "Please answer this question: Bigos, a form of sauerkraut, is a national dish from which country?",
+        "targets": "poland",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Poland"
+    },
+    {
+        "inputs": "What is the answer: Besides coffee, what goes into an affogato?",
+        "targets": "ice cream",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. A scoop of ice cream\n2. A shot of espresso\n3. A shot of liqueur\n4. A shot of hot chocolate\n5. A shot of hot coffee\n6. A shot"
+    },
+    {
+        "inputs": "Answer this question.\n\n\"Historically, ringing bells were the way of telling time on ships. \"\"8 bells\"\" was rung every how many hours?\"",
+        "targets": "4",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "eight"
+    },
+    {
+        "inputs": "Please answer this question: Which country started the Second Balkan War in 1913 by invading Greece and Serbia?",
+        "targets": "bulgaria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Bulgaria"
+    },
+    {
+        "inputs": "Write the answer: Who was the gypsy guitarist who became a jazz virtuoso in the 1930s with the Quintette du Hot Club de France?",
+        "targets": "django reinhardt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Jean \"Django\" Reinhardt"
+    },
+    {
+        "inputs": "Answer the following question. What is the original title of the book translated into Spanish as ‘Harry Potter y el Cáliz de Fuego’?",
+        "targets": "harry potter and goblet of fire",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Harry Potter and the Goblet of Fire"
+    },
+    {
+        "inputs": "What is the answer: July 30, 1956 saw the adoption of what phrase as the official motto of the United States?",
+        "targets": "in god we trust",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "In God We Trust"
+    },
+    {
+        "inputs": "What divides in two in a process called mitosis?\nWhat is the answer?",
+        "targets": "cells",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "chromosomes"
+    },
+    {
+        "inputs": "Write the answer: In Greek mythology - who was the muse of history and lyre playing?",
+        "targets": "clio",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a. Calliope"
+    },
+    {
+        "inputs": "Answer the following question. Mozambique was once a colony of which European country",
+        "targets": "portugal",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Portugal"
+    },
+    {
+        "inputs": "Which was the first country to host the football World Cup twice????",
+        "targets": "mexico",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Italy"
+    },
+    {
+        "inputs": "What was the name of the German Chancellor, the primary force behind the unification of Germany 1871, who also had a famous battleship named after him?",
+        "targets": "otto von bismarck",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Otto von Bismarck"
+    },
+    {
+        "inputs": "Please answer this question: Who was the first person pictured on a British postage stamp?",
+        "targets": "queen victoria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Queen Victoria"
+    },
+    {
+        "inputs": "Which English dish consists of soaked and boiled split peas, usually served with ham or pork?",
+        "targets": "pease pudding",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. pease pudding"
+    },
+    {
+        "inputs": "Write the answer: Which painter's works include 'Judith beheading Holofernes' in 1598 and 'Supper at Emmaus' in 1602?",
+        "targets": "caravaggio",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Caravaggio"
+    },
+    {
+        "inputs": "The Liverpool FC anthem You'll Never Walk Alone comes from which Rodgers and Hammerstein musical ?\nWhat is the answer?",
+        "targets": "carousel",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Carousel"
+    },
+    {
+        "inputs": "Answer the following question. \"Who is the main character in the series of stories called 'Adventures of a Black Bag\"\"?\"",
+        "targets": "dr finlay",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The main character in the series of stories called 'Adventures of a Black Bag' is a young doctor who is new to the profession."
+    },
+    {
+        "inputs": "Trivia question: ‘Hen Wlad FY Nhadau’ is the national anthem of which European country?\nAnd the answer is?",
+        "targets": "wales",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Wales"
+    },
+    {
+        "inputs": "Question: Which fictional hero was created by Alex Raymond and widely syndicated in 1934?\nAnswer:",
+        "targets": "flash gordon",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "flash gordon"
+    },
+    {
+        "inputs": "In which alphabet would you find letters called daleth, zayin and teth\nWhat is the answer?",
+        "targets": "hebrew",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. hebrew"
+    },
+    {
+        "inputs": "World War I soldiers were called Tommies from which longer name did it originate?",
+        "targets": "tommy atkins",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Tommy Atkins"
+    },
+    {
+        "inputs": "In the US television series, what type of car did Starsky and Hutch drive?\nWhat is the answer?",
+        "targets": "gran torino",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1974 Ford Gran Torino"
+    },
+    {
+        "inputs": "Write the answer: Frank Beard was the only beardless member of which three man rock band?",
+        "targets": "zztop",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. ZZ Top"
+    },
+    {
+        "inputs": "What is the answer: Braeburn, Jazz, Gala, and Fuji are varieties of what?",
+        "targets": "apple",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. apple"
+    },
+    {
+        "inputs": "Answer the following question. In the game of Cluedo, which of the rooms would come last alphabetically?",
+        "targets": "study",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The conservatory"
+    },
+    {
+        "inputs": "Question: Charles Guiteau assassinated which US President in 1881?\nAnswer:",
+        "targets": "james garfield",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "James Garfield"
+    },
+    {
+        "inputs": "Answer the following question. Who succeeded Sir William Howe as Commander in Chief of the British forces in 1778 during the American War of Independence?",
+        "targets": "sir henry clinton",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Sir Henry Clinton"
+    },
+    {
+        "inputs": "In what television knockout competition did Zara Brownless become the winner for the year 2011????",
+        "targets": "young apprentice",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Biggest Loser"
+    },
+    {
+        "inputs": "Which country came first second and third in the golf teams event at the 1904 Olympic Games at St Louis????",
+        "targets": "usa",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Great Britain\n2. Sweden\n3. United States"
+    },
+    {
+        "inputs": "What name is given to the Earth's single continent, which existed 250 million years ago?\nWhat is the answer?",
+        "targets": "pangaea",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "gondwana"
+    },
+    {
+        "inputs": "Answer the following question. In the film 'Jason and the Argonauts', who played the title role?",
+        "targets": "todd armstrong",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Todd Armstrong"
+    },
+    {
+        "inputs": "Who wrote the 1980 Booker Prize winner Rites of Passage!\nWhat is the answer?",
+        "targets": "william golding",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "William Golding"
+    },
+    {
+        "inputs": "Please answer this question: What is the title of Thomas Hardy's last novel?",
+        "targets": "jude obscure",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Well-Beloved"
+    },
+    {
+        "inputs": "Question: Where in the world are the Pensacola Mountains?\nAnswer:",
+        "targets": "antarctica",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Pensacola Mountains are a mountain range in the U.S. state of Arizona.\n2. The Pensacola Mountains are a mountain range in the U.S. state of Arizona.\n3. The P"
+    },
+    {
+        "inputs": "Dilma Rousseff was elected as the first female President of which South American country, in 2011????",
+        "targets": "brazil",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Brazil"
+    },
+    {
+        "inputs": "Please answer this question: Who was President of the Screen Actor’s Guild in the 40s and 50s?",
+        "targets": "ronald reagan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Ronald Reagan"
+    },
+    {
+        "inputs": "Answer this question.\n\nBorn Annelies Marie on June 12, 1929, who received a diary for her 13th birthday?",
+        "targets": "anne frank",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "ann frank"
+    },
+    {
+        "inputs": "Answer the following question. What was John Glenn/'s first spacecraft called?",
+        "targets": "friendship 7",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Friendship 7"
+    },
+    {
+        "inputs": "Write the answer: What is the motto of the Salvation Army?",
+        "targets": "blood and fire",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "soup, soap, and salvation"
+    },
+    {
+        "inputs": "Please answer this question: What constitutes the sole diet of the Osprey?",
+        "targets": "fish",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. fish"
+    },
+    {
+        "inputs": "Answer this question.\n\nIn 1992, Boutros Boutros-Ghali became head of what organisation?",
+        "targets": "united nations",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. United Nations"
+    },
+    {
+        "inputs": "Question: What drink, a type of fortified wine, was a favourite tipple of Shakespeare's Falstaff ?\nAnswer:",
+        "targets": "sack",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "sherry"
+    },
+    {
+        "inputs": "Write the answer: A negotiating offer that is available for discussion is said to be 'On the (What?)'?",
+        "targets": "table",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "on the table"
+    },
+    {
+        "inputs": "Trivia question: What type of creature is a sea wasp\nAnd the answer is?",
+        "targets": "jellyfish",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a jellyfish"
+    },
+    {
+        "inputs": "As well as becoming man and wife, William and Kate became Duke and Duchess of where?\nWhat is the answer?",
+        "targets": "cambridge",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
+    },
+    {
+        "inputs": "Please answer this question: In the nursery rhyme 'Oranges and Lemons', which bells sing 'When I am rich'?",
+        "targets": "shoreditch",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. the bells of St. Clement's\n2. the bells of St. Martin's\n3. the bells of St. Mary-le-Bow\n4. the bells of St. Sepulch"
+    },
+    {
+        "inputs": "What is the answer: Which cartoon character first appeared in an animated feature called The Wise Little Hen ?",
+        "targets": "donald duck",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Wise Little Hen"
+    },
+    {
+        "inputs": "Who had a 1985 hit with Saving All My Love For You????",
+        "targets": "whitney houston",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "a. Whitney Houston"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich station on the Northern Line of the London Underground is the name of a game on the radio panel show ‘I’m Sorry I Haven’t a Clue’?",
+        "targets": "mornington crescent",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Mornington Crescent"
+    },
+    {
+        "inputs": "Ernest Lawrence of the University of California, Berkeley, is credited with the development in 1929 of what type of particle accelerator that accelerates charged particles using a high-frequency, alternating voltage in a perpendicular magnetic field, causing them to spiral and encounter the accelerating voltage many times?\nWhat is the answer?",
+        "targets": "cyclotron",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "electron cyclotron resonance"
+    },
+    {
+        "inputs": "Answer the following question. If the Chinese are associated with the Long March in the 20th century, who are associated with the Great Trek in Africa in the 19th century?",
+        "targets": "boers",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Boers"
+    },
+    {
+        "inputs": "If a US army captain is promoted, what is his new rank?\nWhat is the answer?",
+        "targets": "major",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1st lieutenant"
+    },
+    {
+        "inputs": "Write the answer: What is the name of the druid in the English version of the Asterix books?",
+        "targets": "getafix",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Getafix"
+    },
+    {
+        "inputs": "What name is given to English comedies written from 1660 to 1700 which signalled the rebirth of English drama after public stage performances had been banned for 18 years?",
+        "targets": "restoration comedy",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Restoration Comedy"
+    },
+    {
+        "inputs": "Trivia question: With which English university does the John Innes Centre share a campus?\nAnd the answer is?",
+        "targets": "east anglia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Norwich"
+    },
+    {
+        "inputs": "Write the answer: Jack Nicholson has won two Best Actor Oscars, but for which 1983 film did he win Best Supporting Actor?",
+        "targets": "terms of endearment",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "Terms of Endearment"
+    },
+    {
+        "inputs": "Trivia question: The title of what poignant 1971 drama film set in Anarene, Texas refers to the fact of the town's only cinema closing forever?\nAnd the answer is?",
+        "targets": "last picture show",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Last Picture Show"
+    },
+    {
+        "inputs": "Write the answer: Which Scottish city is promoted as ‘One City, Many Discoveries’?",
+        "targets": "dundee",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "edinburgh"
+    },
+    {
+        "inputs": "What is the answer: During WWII, 'Operation Chastise' was undertaken by the RAF, by what more familiar name is this operation now known?",
+        "targets": "dambusters raid",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "dambusters"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich battle in 1066 took place eight miles outside of York",
+        "targets": "stamford",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1066 Battle of Stamford Bridge"
+    },
+    {
+        "inputs": "Write the answer: Which Cambridge college did Prince Charles attend",
+        "targets": "trinity",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Prince Charles attended Trinity College, Cambridge."
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich north-west venue is considered to be the spiritual home of Northern Soul music from 1973 until its closure in 1981?",
+        "targets": "wigan casino",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Twisted Wheel"
+    },
+    {
+        "inputs": "Trivia question: Which wartime classic was the title of a 1980 film with Hanna Schygulla & Mel Ferrer?\nAnd the answer is?",
+        "targets": "lili marlene",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "The Tin Drum"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhat is the maximum length, in metres, of a bowling green?",
+        "targets": "40 metres",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "183.84 metres"
+    },
+    {
+        "inputs": "Answer this question.\n\nThe binary system of numbers uses which two numerical digits?",
+        "targets": "1 and 0",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "0 and 1"
+    },
+    {
+        "inputs": "What colour are the stars on the flag of the European Community?",
+        "targets": "yellow",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. blue"
+    },
+    {
+        "inputs": "Dorothy Hughes and Winifred Phillips became at 85 years old the first what????",
+        "targets": "chelsea pensioners",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. female composers to have their music performed by a major symphony orchestra"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhat gulf separates Yemen and Somalia?",
+        "targets": "gulf of aden",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. The Gulf of Aden"
+    },
+    {
+        "inputs": "Trivia question: What acid does the stomach use to break down food?\nAnd the answer is?",
+        "targets": "hydrochloric",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "hydrochloric acid"
+    },
+    {
+        "inputs": "Answer this question.\n\nWho played Will Scarlet in the 1980’s UK tv series ‘Robin of Sherwood’?",
+        "targets": "ray winstone",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Michael Praed"
+    },
+    {
+        "inputs": "What is the answer: \"\"\"Facebook\"\" was launched in what year?\"",
+        "targets": "2004",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Facebook was launched in 2004."
+    },
+    {
+        "inputs": "An NBA basketball game is 48 minutes long. How long is an NCAA college basketball game?",
+        "targets": "40 minutes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1.5 hours"
+    },
+    {
+        "inputs": "Please answer this question: Who wrote the Flight of the Bumble Bee",
+        "targets": "rimsky korsakov",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Nikolai Rimsky-Korsakov"
+    },
+    {
+        "inputs": "Answer this question.\n\nWhich 'HMC' by David Essex was No. 1 in October 1975?",
+        "targets": "hold me close",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "trivia_qa",
+        "model": "Styxxxx/llama2_7b_lora-opinion_abstracts_rotten_tomatoes",
+        "predicted_answer": "1. Rock On"
+    }
+]

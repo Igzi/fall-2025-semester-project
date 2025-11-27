@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Answer the question...where does hell or high water take place??",
+        "targets": "West Texas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Next question: how many stories is the tallest building in australia?",
+        "targets": "78",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 222-metre-tall Q1 building in Surfers Paradise, Queensland, is the tallest building in Australia. \n  \n– The 222-metre-tall Q1 building"
+    },
+    {
+        "inputs": "Can you tell me the answer to what do you call a native of dundee??",
+        "targets": "Dundonians",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– A Dundonian \n  \n– A Dundee person \n  \n– A Dundee native \n  \n– A Dundee resident \n  \n– A Dundee inhabitant"
+    },
+    {
+        "inputs": "Can you tell me the answer to what is the drop off in the ocean??",
+        "targets": "continental slope",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The ocean is the largest ecosystem on Earth. It covers 70% of the planet and contains 97% of the Earth's water. \n  \n– The ocean is divided into five major oceans:"
+    },
+    {
+        "inputs": "Q: this emperor in the west reigned only briefly i n 472 before dying a natural death? A:",
+        "targets": "Olybrius",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "who was the king of england in 1951??",
+        "targets": "George VI",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– King George VI (1895-1952) \n  \n– Queen Elizabeth II (1926- ) \n  \n– Queen Elizabeth The Queen Mother (1900-2002"
+    },
+    {
+        "inputs": "What is the answer to this question? who won the ncaa women's volleyball championship?",
+        "targets": "Nebraska",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Stanford women's volleyball team won its 19th NCAA title on Saturday, defeating Nebraska 3-1 in the championship match. \n  \n The Cardinal (29-2) won"
+    },
+    {
+        "inputs": "Next question: in captain america civil war who rules wakanda?",
+        "targets": "King T'Chaka",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "when was star wars the force awakens released??",
+        "targets": "December 14, 2015",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Star Wars: The Force Awakens is a 2015 American epic space opera film directed, co-produced, and co-written by J. J. Abrams. It is the first installment of the Star Wars"
+    },
+    {
+        "inputs": "what is the largest building by volume in the world??",
+        "targets": "Boeing Everett Factory",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The largest building by volume is the Boeing Factory in Everett, Washington. \n  \n The Boeing Factory is the largest building by volume in the world. It is located in Everett, Washington, and is the final assembly site for"
+    },
+    {
+        "inputs": "Can you tell me the answer to when did they start filming the first harry potter movie??",
+        "targets": "September 2000",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The first Harry Potter film was released in 2001. \n  \n The first Harry Potter film was released in 2001. \n  \n The first Harry Potter film was released in 20"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho's performing halftime at the pro bowl??",
+        "targets": "Jordan Fisher",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The NFL announced on Monday that the Weeknd will perform at the 2020 Pro Bowl halftime show. \n  \n The Weeknd, whose real name is Abel Tesfaye, is a Canadian singer and"
+    },
+    {
+        "inputs": "Question: museum in bejing china in the forbidden city??\nAnswer:",
+        "targets": "the Palace Museum",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Forbidden City is a palace complex in Beijing, China. It was the Chinese imperial palace from the Ming Dynasty to the end of the Qing Dynasty. It has been the home of 24"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is left on rupaul's drag race season 10?",
+        "targets": "Aquaria",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The season 10 finale of RuPaul’s Drag Race is here, and it’s time to find out who will be crowned the next drag superstar. \n  \n The final four queens are"
+    },
+    {
+        "inputs": "Answer the question...oriental bank of commerce is govt or private??",
+        "targets": "public sector",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Oriental Bank of Commerce (OBC) is a state-owned bank in India. It is one of the oldest and largest commercial banks in India. \n  \n The bank was founded by Shri Ghanshyam Das Birla"
+    },
+    {
+        "inputs": "Question: who plays ellen in what's eating gilbert grape??\nAnswer:",
+        "targets": "Mary Kate Schellhardt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Please answer this question: who sang amy what you gonna do?",
+        "targets": "Pure Prairie League",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Amy Winehouse's father has said he is \"devastated\" by the singer's death. \n  \n– The 27-year-old singer was found dead at her home in Camden, north London"
+    },
+    {
+        "inputs": "Answer the following question:\n\nthe greek usually thought of as the first western philosopher was who?",
+        "targets": "Thales of Miletus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Greek philosopher who is usually thought of as the first Western philosopher was Thales of Miletus (c. 624–546 BCE). Thales was a natural phil"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the main person in the legislative branch?",
+        "targets": "Congress",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The legislative branch is the branch of government that makes the laws. \n  \n– The legislative branch is made up of the House of Representatives and the Senate. \n  \n– The House of Representatives is made up of"
+    },
+    {
+        "inputs": "Question: when did you lost that loving feeling come out??\nAnswer:",
+        "targets": "November 1964",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Q: which types of mutations are least likely to be subjected to natural selection? A:",
+        "targets": "Neutral mutations",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The mutation rate of a gene is the number of mutations that occur in a population over a period of time. \n  \n The mutation rate of a gene is the number of mutations that occur in a"
+    },
+    {
+        "inputs": "Can you tell me the answer to where in the east did the magi come from??",
+        "targets": "Arabia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Magi were a group of wise men from the East who came to visit Jesus after his birth. \n  \n The Bible does not say how many Magi there were, but the word magi is plural in the original Greek."
+    },
+    {
+        "inputs": "Can you tell me the answer to who played beth on mary tyler moore show??",
+        "targets": "Lisa Gerritsen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Mary Tyler Moore Show (1970) \n  \n– Mary Tyler Moore (1970) \n  \n– The Mary Tyler Moore Show (1970) \n  \n– The"
+    },
+    {
+        "inputs": "Please answer this question: when did germany take alsace lorraine from france?",
+        "targets": "1871",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Germany took Alsace-Lorraine from France in 1871. \n  \n Alsace-Lorraine (French: Alsace-Lorraine, German: Elsass-Lothringen)"
+    },
+    {
+        "inputs": "What is the answer to this question? when does a dead dog start to decompose?",
+        "targets": "at the moment of death",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The answer to this question is: \n  \n The answer to this question is: \n  \n The answer to this question is: \n  \n The answer to this question is: \n  \n The answer to this question"
+    },
+    {
+        "inputs": "Question: who plays michael myers in the original halloween??\nAnswer:",
+        "targets": "Nick Castle",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Q: who plays peter barlow's son in coronation street? A:",
+        "targets": "Alex Bain",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the exact same distance from a parabola?",
+        "targets": "focal length",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The parabola is a curve that is the locus of a point whose distance from a fixed point is always equal to the distance of the fixed point from a given line. \n  \n– The parabola is the locus"
+    },
+    {
+        "inputs": "Next question: a government that is chosen by its citizens is called a?",
+        "targets": "democracy",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nNext question: a government that is chosen by its citizens is called a?\n\n### Response:"
+    },
+    {
+        "inputs": "Answer the question...who plays the voice of ted in the movie ted??",
+        "targets": "Seth MacFarlane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Mark Wahlberg \n  \n– Mila Kunis \n  \n– Seth MacFarlane \n  \n– Joel McHale \n  \n– Giovanni Ribisi \n  \n– Patrick Warbur"
+    },
+    {
+        "inputs": "What is the answer to this question? when was the last time england made the semi finals of the world cup?",
+        "targets": "2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– England have not reached the semi-finals of the World Cup since 1990. \n  \n– England have not reached the semi-finals of the World Cup since 1990."
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the largest country in europe by area?",
+        "targets": "Russia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– 1. Russia 2. Ukraine 3. France 4. Spain 5. Italy \n  \n– 1. Russia 2. Ukraine 3. France 4. Spain 5. Italy"
+    },
+    {
+        "inputs": "Question: who plays frankie heck's mom on the middle??\nAnswer:",
+        "targets": "Marsha Mason",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Patricia Heaton \n  \n– Neil Flynn \n  \n– Charlie McDermott \n  \n– Eden Sher \n  \n– Atticus Shaffer \n  \n– Aidan"
+    },
+    {
+        "inputs": "Can you tell me the answer to when was rick and morty season 3 released??",
+        "targets": "April 1, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Rick and Morty Season 3 was released on November 10, 2017. \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Question: where was season 3 of american horror story filmed??\nAnswer:",
+        "targets": "New Orleans, Louisiana",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The third season of American Horror Story was filmed in Los Angeles, California. \n  \n– The third season of American Horror Story was filmed in Los Angeles, California. \n  \n– The third season of American"
+    },
+    {
+        "inputs": "Question: where do avocados come from in the us??\nAnswer:",
+        "targets": "California",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The avocado is a fruit that grows in tropical and subtropical climates. \n  \n The avocado is a fruit that grows in tropical and subtropical climates. \n  \n The"
+    },
+    {
+        "inputs": "Please answer this question: who was the leading lady in raiders of the lost ark?",
+        "targets": "Karen Jane Allen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "who plays the chief of police in stranger things??",
+        "targets": "David Harbour",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "David Harbour \n  \n David Harbour is an American actor and screenwriter. He is known for his roles as Jim Hopper in the Netflix series Stranger Things, Alex in the 2016 film The Equal"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen was the affordable care act voted on?",
+        "targets": "2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Affordable Care Act was signed into law by President Barack Obama on March 23, 2010. \n  \n– The Affordable Care Act was signed into law by President Barack Obama"
+    },
+    {
+        "inputs": "Answer the question...where are the enzymes and other proteins that make up the electron transport chain found??",
+        "targets": "inner mitochondrial membrane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The electron transport chain (ETC) is a series of protein complexes that transfer electrons from one molecule to another, ultimately producing a proton gradient across the inner mitochondrial membrane. The proton gradient is used to produce"
+    },
+    {
+        "inputs": "Next question: who does the voice of cortana in halo?",
+        "targets": "Jennifer Lee Taylor",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Question: what is the name of the closet in beauty and the beast??\nAnswer:",
+        "targets": "Madame de la Grande Bouche",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Beast's closet is a room in the Beast's castle in Beauty and the Beast. \n  \n The Beast's closet is a room in the Beast's"
+    },
+    {
+        "inputs": "Please answer this question: who plays harley quinn in the animated series?",
+        "targets": "Tara Strong",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Can you tell me the answer to who plays mckenna in mckenna shoots for the stars??",
+        "targets": "Jade Pettyjohn",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Can you tell me the answer to what relationship plays a central role in the ethics of care??",
+        "targets": "interpersonal",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "who does the voice of mufasa in the lion king??",
+        "targets": "James Earl Jones",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– James Earl Jones \n  \n– Who does the voice of Mufasa in the Lion King? \n  \n– James Earl Jones \n  \n– Who does the voice of Mufasa in the Lion King?"
+    },
+    {
+        "inputs": "Q: who holds the record for the fastest tennis serve? A:",
+        "targets": "John Isner",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Roger Federer \n  \n– Andy Roddick \n  \n– Ivo Karlovic \n  \n– John Isner \n  \n– Sam Groth \n  \n– Milos Raonic"
+    },
+    {
+        "inputs": "Next question: who sings sun and moon above and beyond?",
+        "targets": "Richard Bedford",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "when do dawson and joey get back together in season 2??",
+        "targets": "2.18",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Dawson and Joey get back together in season 2, episode 12, \"The Kiss.\" \n  \n––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Question: who is the owner of mcalister's deli??\nAnswer:",
+        "targets": "Focus Brands",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n McAlister's Deli is a fast casual restaurant chain with 350 locations in 27 states. \n  \n The company was founded in 1989 by Don and Linda"
+    },
+    {
+        "inputs": "Answer the question...where did the first european land in australia??",
+        "targets": "as early as 1605",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The first European to land in Australia was Dutch explorer Willem Janszoon, who arrived in 1606. \n  \n The first British settlement was established in 1788 at Sydney Cove, New South"
+    },
+    {
+        "inputs": "Answer this question:\n\nsalt mines in himachal pradesh are located at??",
+        "targets": "Guma",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "–"
+    },
+    {
+        "inputs": "Answer this question:\n\nlist of countries who win fifa world cup??",
+        "targets": "Spain",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– 1930 Uruguay \n  \n– 1934 Italy \n  \n– 1938 Italy \n  \n– 1950 Uruguay \n  \n– 1954"
+    },
+    {
+        "inputs": "What is the answer to this question? when did leonardo da vinci finish painting the mona lisa?",
+        "targets": "1517",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Leonardo da Vinci's Mona Lisa is one of the most famous paintings in the world. \n  \n The painting is in the Louvre in Paris, France. \n  \n The painting was finished in 1"
+    },
+    {
+        "inputs": "Answer the question...when did grand finals start in rugby league??",
+        "targets": "1908",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 2017 NRL Grand Final will be played on Sunday, October 1. \n  \n– The 2017 NRL Grand Final will be played on Sunday, October 1."
+    },
+    {
+        "inputs": "Can you tell me the answer to where can the ten commandments be found in the bible??",
+        "targets": "Exodus 34:28",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Ten Commandments are found in Exodus 20:1-17 and Deuteronomy 5:6-21. \n  \n The Ten Commandments are the most famous of the 613 commandments"
+    },
+    {
+        "inputs": "What is the answer to this question? when did iphone 6 come out in usa?",
+        "targets": "September 19, 2014",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The iPhone 6 and iPhone 6 Plus were announced on September 9, 2014, and were released on September 19, 2014. \n  \n The iPhone 6 and iPhone 6 Plus"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho has taken the highest number of wickets in test cricket?",
+        "targets": "Muttiah Muralitharan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The 100th Test of the 21st century will be played at the Oval on 28 August 2019. \n  \n The first Test of the 21st"
+    },
+    {
+        "inputs": "Question: who played gaston in beauty and the beast 1991??\nAnswer:",
+        "targets": "Richard White",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n Gaston is a fictional character in Walt Disney Pictures' 30th animated feature film Beauty and the Beast (1991). He is the main antagonist of the film."
+    },
+    {
+        "inputs": "Next question: which windows system was the first to incorporate the system restore?",
+        "targets": "in Windows ME",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Windows XP was the first version of Windows to include System Restore. \n  \n– Windows Vista introduced the ability to create a System Restore point before installing updates. \n  \n– Windows 7 introduced the ability to create"
+    },
+    {
+        "inputs": "Can you tell me the answer to who came up with the law of conservation of mass??",
+        "targets": "Antoine Lavoisier",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The law of conservation of mass states that in any closed system, the mass of the system remains constant over time. \n  \n The law of conservation of mass is a fundamental principle of chemistry. It states that in any chemical reaction, the"
+    },
+    {
+        "inputs": "Can you tell me the answer to in which language is the indian national anthem??",
+        "targets": "Bengali",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Indian national anthem is written in Hindi. \n  \n The national anthem of India, Jana Gana Mana, is written in Sanskrit. \n  \n The national anthem of India, Jana G"
+    },
+    {
+        "inputs": "What is the answer to this question? who won season 16 of america's next top model?",
+        "targets": "Brittani Kline",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Tyra Banks has announced the winner of America’s Next Top Model’s 16th season. \n  \n The 21-year-old model from New York City, Nyle DiMarco, was crown"
+    },
+    {
+        "inputs": "Can you tell me the answer to who goes home on the bachelorette season 14 episode 3??",
+        "targets": "Clay",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Bachelorette season 14 episode 3 airs Monday at 8PM ET on ABC. \n  \n– The Bachelorette season 14 episode 3 will feature the first one-on-one date"
+    },
+    {
+        "inputs": "Please answer this question: when did tlc stop being the learning channel?",
+        "targets": "1998",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Please answer this question: who does the voice in a dog's purpose?",
+        "targets": "Josh Gad",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer the question...ajanta caves is made up of which stone??",
+        "targets": "flood basalt rock",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Ajanta Caves are 30 rock-cut Buddhist cave monuments which date from the 2nd century BCE to about 480 CE in Aurangabad district of Maharashtra state of India."
+    },
+    {
+        "inputs": "Please answer this question: who plays donatella versace in the fx series?",
+        "targets": "Penélope Cruz",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "What is the answer to this question? who is tom cruise playing in the mummy?",
+        "targets": "Sergeant Nick Morton",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Tom Cruise is playing the role of Nick Morton in the upcoming film The Mummy. \n  \n The Mummy is a reboot of the classic Universal monster franchise. The film is directed by Alex Kurtzman and stars"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho plays eli roosevelt in sons of anarchy??",
+        "targets": "Rockmond Dunbar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "–"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho voices the skunk in over the hedge??",
+        "targets": "Wanda Sykes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "who got their ear cut off in the bible??",
+        "targets": "Malchus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "where did the portuguese first land in brazil??",
+        "targets": "April 22, 1500",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Portuguese first landed in Brazil in 1500, when a fleet of ships under the command of Pedro Álvares Cabral arrived at Porto Seguro, on the northeastern coast of the country."
+    },
+    {
+        "inputs": "Answer the question...who played mark twain in the ridiculous 6??",
+        "targets": "Vanilla Ice",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "what is the name of the large city in southeastern nevada??",
+        "targets": "Las Vegas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Las Vegas, Nevada \n  \n Las Vegas is the largest city in Nevada, United States, the county seat of Clark County, and the city proper of the Las Vegas–Paradise–Henderson,"
+    },
+    {
+        "inputs": "Please answer this question: who is the head of income tax department?",
+        "targets": "Arun Jaitley, Finance Minister",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Income Tax Department has issued a notice to the former chief of the Central Bureau of Investigation (CBI) Ranjit Sinha, asking him to appear before it on 22 March. \n  \n The notice was"
+    },
+    {
+        "inputs": "Next question: when was the last time the philadelphia eagles won the division?",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Philadelphia Eagles have won the NFC East division title in 2001, 2002, 2003, 2004, 2006, 2007"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen did japan go to war with russia??",
+        "targets": "8 February 1904",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Japan and Russia fought a war in 1904-1905. \n  \n– The war was fought over the Liaodong Peninsula in China. \n  \n– The war was fought over"
+    },
+    {
+        "inputs": "Answer the question...how many episodes are in season 3 of switched at birth??",
+        "targets": "22 episodes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Season 3 of Switched at Birth premiered on January 13, 2015."
+    },
+    {
+        "inputs": "Answer this question:\n\nwho won the toss in 2003 world cup final??",
+        "targets": "India captain Sourav Ganguly",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 2003 Cricket World Cup was the fifth Cricket World Cup, organised by the International Cricket Council (ICC). It was held in South Africa from 9 February to 23 March 200"
+    },
+    {
+        "inputs": "Can you tell me the answer to what kind of worms does pyrantel pamoate kill??",
+        "targets": "parasitic",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Pyrantel pamoate is an antiparasitic medication used to treat worm infections. It is taken by mouth. \n  \n Common side effects include stomach pain, nausea,"
+    },
+    {
+        "inputs": "Question: what ion causes the color of the indicator to change??\nAnswer:",
+        "targets": "hydronium ions",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The color of the indicator changes when the pH of the solution changes. \n  \n The indicator is a weak acid, and the color change is due to the formation of the conjugate base."
+    },
+    {
+        "inputs": "Q: where does the movie wedding crashers take place? A:",
+        "targets": "Washington D.C.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The movie Wedding Crashers was filmed in the following cities:"
+    },
+    {
+        "inputs": "Please answer this question: what is the meaning of the name fernanda?",
+        "targets": "adventurous, bold journey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Fernanda is a female given name. It is the Portuguese and Spanish form of the name Fern. \n  \n It is also a surname. \n  \n Notable people with the name include: \n  \n Fernando Fernanda (1"
+    },
+    {
+        "inputs": "Next question: who sang the song don't go breaking my heart?",
+        "targets": "Kiki Dee",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhich had more power over taxation under the articles of confederation?",
+        "targets": "The states",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Articles of Confederation gave Congress the power to levy taxes, but it was up to the states to collect them. \n  \n– The Articles of Confederation gave Congress the power to levy taxes, but it was"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho played diana's mother on wonder woman??",
+        "targets": "Connie Nielsen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer the question...who played ms pearly on friday after next??",
+        "targets": "Bebe Drake",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "What is the answer to this question? red white and green flag with red triangle?",
+        "targets": "Palestinian flag",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The flag of the United States of America (officially, the \"flag of the United States\") consists of thirteen equal horizontal stripes of red (top and bottom) alternating with white, with a blue rectangle in the canton"
+    },
+    {
+        "inputs": "Next question: when was the department of housing and urban development founded?",
+        "targets": "1965",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Department of Housing and Urban Development (HUD) was created in 1965 as a Cabinet-level agency to oversee federal housing programs. \n  \n HUD's mission is to create strong,"
+    },
+    {
+        "inputs": "when did florida stop using the electric chair??",
+        "targets": "1999",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Florida has not executed anyone since 2000, when it put to death a man convicted of murdering a police officer. \n  \n– The state has not executed anyone since 2000, when it put"
+    },
+    {
+        "inputs": "Answer the question...who wrote the song in the end by linkin park??",
+        "targets": "Michael Shinoda",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Linkin Park's Chester Bennington has died at the age of 41. \n  \n The singer was found dead at his home in Palos Verdes Estates in Los Angeles County on Thursday morning, according"
+    },
+    {
+        "inputs": "Please answer this question: the name of deputy governor of lagos state?",
+        "targets": "Dr Oluranti Adebule",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Lagos State Government has announced the appointment of Mrs. Adejoke Orelope-Adefulire as the new Deputy Governor of the State. \n  \n The appointment was announced in a statement signed by the"
+    },
+    {
+        "inputs": "what is the most abundent element on earth??",
+        "targets": "iron",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The most abundant element in the Earth's crust is oxygen. \n  \n The most abundant element in the Earth's crust is oxygen. \n  \n The most abundant element in the Earth's"
+    },
+    {
+        "inputs": "Next question: who has the fastest slapshot in the nhl?",
+        "targets": "Zdeno Chára",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The NHL has released the results of its annual skills competition, and the winner of the fastest slapshot is... \n  \n– The NHL has released the results of its annual skills competition, and the winner of the fast"
+    },
+    {
+        "inputs": "Please answer this question: when does the 100 season 5 episode 4 come out?",
+        "targets": "May 15, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The 100 season 5 episode 4 will air on Wednesday, May 17 at 9 p.m. ET on The CW. \n  \n The 100 season 5 episode"
+    },
+    {
+        "inputs": "what is the elevation of uluru-kata (in meters) in australia??",
+        "targets": "863 m",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Uluru-Kata Tjuta National Park is a national park in the Northern Territory of Australia, 440 km (273 mi) southwest of Alice Springs. It is located within the traditional lands of the"
+    },
+    {
+        "inputs": "What is the answer to this question? who played guitar on do it again steely dan?",
+        "targets": "Jeff Baxter",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Steely Dan's Donald Fagen and Walter Becker have announced that they will reunite for a new album and tour. \n  \n The duo, who have not performed together since 1993, will release their first"
+    },
+    {
+        "inputs": "Q: i wanna be bad song in movie? A:",
+        "targets": "What a Girl Wants",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "–"
+    },
+    {
+        "inputs": "Question: when did the chinese new year start 2018??\nAnswer:",
+        "targets": "15 Feb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Chinese New Year, also known as the Lunar New Year, is the most important holiday in China. \n  \n– The holiday is celebrated in China and other Asian countries, including Vietnam, Korea, and Singapore."
+    },
+    {
+        "inputs": "Q: which layer of the epidermis is responsible for cell division and replacement? A:",
+        "targets": "the stratum basale",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The stratum basale is the deepest layer of the epidermis. It is the source of new cells that migrate to the surface of the skin. \n  \n– The stratum spinosum is the second layer"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did mamma mia the movie come out?",
+        "targets": "-18)",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Mamma Mia! The Movie is a 2008 jukebox musical romantic comedy film based on the 1999 musical of the same name, which itself is based on the songs of ABBA. The film was"
+    },
+    {
+        "inputs": "Please answer this question: when's the last time the philadelphia phillies won the world series?",
+        "targets": "2008",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Philadelphia Phillies have won two World Series titles, in 1980 and 2008. \n  \n– The Phillies have won two National League pennants, in 1980 and"
+    },
+    {
+        "inputs": "Please answer this question: when did the just do it campaign start?",
+        "targets": "1988",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Nike \"Just Do It\" campaign was launched in 1988. \n  \n The campaign was created by Wieden+Kennedy, a Portland, Oregon-based advertising agency."
+    },
+    {
+        "inputs": "What is the answer to this question? who has sold more kelly clarkson or carrie underwood?",
+        "targets": "Carrie Underwood",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Carrie Underwood has sold more albums than Kelly Clarkson, according to Billboard. \n  \n Underwood has sold 14.5 million albums in the U.S. since her debut in 2005, while Clark"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen are new episodes of riverdale coming out?",
+        "targets": "October 11, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Riverdale is a teen drama that follows Archie and his friends as they navigate life in a small town. \n  \n The show is based on the characters from the Archie Comics and is set in the fictional town of River"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat relationship is whitney to bianca in eastenders??",
+        "targets": "adoptive daughter",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Whitney Dean is the daughter of Bianca Jackson and Ricky Butcher. She is played by Shona McGarty. \n  \n Whitney was born on 19th September 2003. She is the"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho had the fastest lap on top gear??",
+        "targets": "Koenigsegg CCX",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Stig has been revealed as the fastest driver on Top Gear. \n  \n The BBC show's resident driver, who has been shrouded in mystery since the show began in 200"
+    },
+    {
+        "inputs": "Q: who sings climb every mountain in the sound of music crossword? A:",
+        "targets": "Mother Abbess",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Sound of Music is a 1965 American musical drama film produced and directed by Robert Wise, and starring Julie Andrews and Christopher Plummer, with Richard Haydn and Peggy Wood in supporting roles. The"
+    },
+    {
+        "inputs": "Next question: who plays diana in anne of green gables?",
+        "targets": "Megan Elizabeth Laura Diana Follows",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Next question: how many seasons of the vicar of dibley are there?",
+        "targets": "two",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Vicar of Dibley is a British sitcom written by Richard Curtis and Paul Mayhew-Archer. It was first broadcast on BBC One in 1994 and ran for four series, ending in 19"
+    },
+    {
+        "inputs": "Next question: what types of cells are in connective tissue?",
+        "targets": "mast cells",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The connective tissue is a type of tissue that is found in animals and plants. It is a non-vascular tissue that is found in the body of animals and plants. \n  \n The connect"
+    },
+    {
+        "inputs": "Can you tell me the answer to who made the engine for the p 51 mustang??",
+        "targets": "Allison",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Allison V-1710 was an American liquid-cooled, inverted-vee, 14-cylinder aircraft engine. It was used in a number of aircraft, including the North American P-5"
+    },
+    {
+        "inputs": "Please answer this question: 1st nfl player to kneel during national anthem?",
+        "targets": "Colin Kaepernick",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Colin Kaepernick, a quarterback for the San Francisco 49ers, has been the first NFL player to kneel during the national anthem. \n  \n– Kaepernick, who has been a free"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen is love and hip hop atlanta coming back on?",
+        "targets": "March 19, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Love & Hip Hop Atlanta is coming back to VH1 on Monday, March 20 at 8/7c. \n  \n The new season will feature the return of cast members Stevie J, Joseline Hernande"
+    },
+    {
+        "inputs": "first workers' compensation law in the united states??",
+        "targets": "Maryland in 1902",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The first workers' compensation law in the United States was passed in 1889 in the state of Wisconsin. \n  \n The first workers' compensation law in the United States was passed in 1"
+    },
+    {
+        "inputs": "Q: where are the molecules of the electron transport chain found in plant cell? A:",
+        "targets": "inner mitochondrial membrane",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The electron transport chain is a series of reactions that occurs in the mitochondria of cells. \n  \n– The electron transport chain is a series of reactions that occurs in the mitochondria of cells."
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did we have our last total eclipse?",
+        "targets": "August 21, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The last total solar eclipse visible from the United States was in 1979. \n  \n– The next total solar eclipse visible from the United States will be in 2024. \n  \n– The next"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the most points scored in an nfl game??",
+        "targets": "113",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The most points scored in an NFL game is 105. The game was played on November 27, 1966, between the New York Jets and the New York Giants. The Jets won the game"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhen did arsenal won the premier league at white hart lane?",
+        "targets": "13 November 2004",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Arsenal have won the Premier League title at White Hart Lane on three occasions. \n  \n The Gunners won the league at the ground in 1998, 2002 and 2004"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen was the last time malaysia hosted the sea games??",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The last time Malaysia hosted the SEA Games was in 1997. \n  \n– The last time Malaysia hosted the SEA Games was in 1997. \n  \n– The last time"
+    },
+    {
+        "inputs": "Question: what state produces the most rice in the us??\nAnswer:",
+        "targets": "Arkansas",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The United States is the world's largest producer of rice, with an annual production of 200 million metric tons. \n  \n The United States is the world's largest producer of rice, with an"
+    },
+    {
+        "inputs": "What is the answer to this question? who was the founder of legalism in china?",
+        "targets": "Sima Tan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Liu Xiang (Chinese: 劉向; pinyin: Liú Xiāng; Wade–Giles: Liu Hsiang; 179–122 BC) was a Chinese"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the stuff in a sebaceous cyst??",
+        "targets": "keratin",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Sebaceous cysts are benign, non-cancerous growths that develop in the skin. They are also known as epidermoid cysts. \n  \n Sebaceous cysts are usually har"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho has been awarded padma vibhushan in 2018?",
+        "targets": "Ghulam Mustafa Khan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Padma Vibhushan is the second highest civilian award in the Republic of India. It is awarded for \"exceptional and distinguished service\" \n  \n The award is given in three categories:"
+    },
+    {
+        "inputs": "Next question: how much could sea level rise in the 21st century?",
+        "targets": "2 m",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Q: how many apps are on the google play store? A:",
+        "targets": "over 2.7 million",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Google Play has over 2.2 million apps and games, and the number is growing. \n  \n– Google Play has over 2.2 million apps and games, and the number is growing. \n  \n– Google"
+    },
+    {
+        "inputs": "Q: who is the first hispanic player voted into baseball's hall of fame? A:",
+        "targets": "Roberto Enrique Clemente Walker",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Q: who did courtney cox play on family ties? A:",
+        "targets": "Lauren Miller",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Courtney Cox Arquette (born June 15, 1964) is an American actress, producer, and director. She is best known for her role as Monica Geller on the NBC sitcom Fri"
+    },
+    {
+        "inputs": "Q: smallest unit that consist of at least one atom? A:",
+        "targets": "molecules",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The smallest unit of matter that can exist on its own is called an atom. \n  \n Atoms are the building blocks of matter. \n  \n Atoms are made up of three types of particles: pro"
+    },
+    {
+        "inputs": "Answer the question...when did town lake became lady bird lake??",
+        "targets": "July 26, 2007",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The lake was renamed in 1961 to honor Lady Bird Johnson, wife of President Lyndon B. Johnson. \n  \n– The lake was renamed in 1961 to honor Lady Bird Johnson, wife of"
+    },
+    {
+        "inputs": "Next question: who is in the group the traveling wilburys?",
+        "targets": "Bob Dylan",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Traveling Wilburys were a supergroup consisting of George Harrison, Jeff Lynne, Bob Dylan, Tom Petty, and Roy Orbison. \n  \n– The group was formed in 198"
+    },
+    {
+        "inputs": "Can you tell me the answer to players that have won the world cup as managers??",
+        "targets": "Alf Ramsey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– 1966: Alf Ramsey \n  \n– 1970: Mario Zagallo \n  \n– 1974: Franz Beckenbauer \n  \n– 1978"
+    },
+    {
+        "inputs": "What is the answer to this question? who sold the most records in the 2000s?",
+        "targets": "The Beatles",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The 2000s were a decade of change for the music industry. The rise of the internet and the decline of the CD meant that the way we listened to music was changing."
+    },
+    {
+        "inputs": "Question: inside no 9 series 4 episode 3 cast??\nAnswer:",
+        "targets": "May (Monica Dolan)",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Inside No. 9 is a British comedy anthology television programme, produced by BBC Studios. Each episode is a self-contained story, presented as a single continuous take, with no cutaways or edits. The series is written"
+    },
+    {
+        "inputs": "Answer the question...who does the voice for triumph the insult dog??",
+        "targets": "Robert Smigel",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhere was the first abercrombie and fitch store??",
+        "targets": "314 Broadway",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The first Abercrombie & Fitch store opened in 1962 in the basement of a department store in New Jersey. \n  \n– The first Abercrombie & Fitch store opened in 19"
+    },
+    {
+        "inputs": "What is the answer to this question? who played the little boy in george and mildred?",
+        "targets": "Nicholas Bond-Owen",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– George and Mildred is a British sitcom that was first broadcast on ITV in 1976. It was written by Roy Clarke and starred Yootha Joyce and Brian Murphy as George and Mildred"
+    },
+    {
+        "inputs": "Q: how many episodes will american horror story season 7 have? A:",
+        "targets": "11",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– American Horror Story: Cult will have 11 episodes, Ryan Murphy has confirmed. \n  \n– The seventh season of the FX anthology series will premiere on September 5, and will be set in the"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the girl in love in an elevator?",
+        "targets": "Brandi Brandt",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Answer the question...how many nba titles does kobe bryant have??",
+        "targets": "five",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Kobe Bryant has won five NBA titles with the Los Angeles Lakers. \n  \n– Kobe Bryant has won five NBA titles with the Los Angeles Lakers. \n  \n– Kobe Bryant has won five"
+    },
+    {
+        "inputs": "Can you tell me the answer to who proposed the double helical model of dna??",
+        "targets": "Francis Crick",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Question: who plays tupac shakur in all eyez on me??\nAnswer:",
+        "targets": "Demetrius Shipp Jr.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Danai Gurira \n  \n– Demetrius Shipp Jr. \n  \n– Jamal Woolard \n  \n– Dominic L. Santana \n  \n– Hill Harper"
+    },
+    {
+        "inputs": "What is the answer to this question? when did why don't we become a band?",
+        "targets": "September 27, 2016",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The band Why Don't We was formed in 2016 by Daniel Seavey, Corbyn Besson, Jack Avery, Jonah Marais, and Zach Herron."
+    },
+    {
+        "inputs": "Answer this question:\n\nwhere was the location of the battle of trenton??",
+        "targets": "Trenton, New Jersey",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Battle of Trenton was a small but pivotal battle of the American Revolutionary War. It was fought on the morning of December 26, 1776, in Trenton, New Jersey. The battle was"
+    },
+    {
+        "inputs": "when does the punisher on netflix come out??",
+        "targets": "2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Punisher is coming to Netflix on November 17. \n  \n The Punisher is coming to Netflix on November 17. \n  \n The Punisher is coming to Netflix"
+    },
+    {
+        "inputs": "the national theater of the deaf made a guest appearance on what 90’s television series??",
+        "targets": "Deaf Mosaic",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The National Theater of the Deaf made a guest appearance on what 90’s television series? \n  \n– The National Theater of the Deaf made a guest appearance on what 90’s television series?"
+    },
+    {
+        "inputs": "Please answer this question: who is killing teresa in happy death day?",
+        "targets": "Lori",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The film Happy Death Day is a slasher film that follows a college student who is murdered on her birthday. She wakes up to find herself reliving the day over and over again. \n  \n The film is a remake"
+    },
+    {
+        "inputs": "Answer the question...who sang reunited and it feels so good??",
+        "targets": "Peaches & Herb",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Question: where was the hallmark movie wedding march filmed??\nAnswer:",
+        "targets": "British Columbia",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Hallmark Channel's \"Wedding March\" was filmed in Vancouver, British Columbia, Canada. \n  \n– The Hallmark Channel's \"Wedding March\" was filmed in Vancouver, British Columbia"
+    },
+    {
+        "inputs": "Please answer this question: what does fes stand for that 70s show?",
+        "targets": "Foreign Exchange",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Fes (noun) \n  \n The abbreviation for the Federal Emergency Management Agency. \n  \n The abbreviation for the Federal Election Commission. \n  \n The abbreviation for the Federal Election System."
+    },
+    {
+        "inputs": "Answer this question:\n\nwhen did the new alex box stadium open??",
+        "targets": "2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The new Alex Box Stadium opened in 2008. \n  \n– The new Alex Box Stadium opened in 2008. \n  \n– The new Alex Box Stadium opened in 2008."
+    },
+    {
+        "inputs": "in the first half of the nineteenth century the united states gained the most territory through??",
+        "targets": "Louisiana Purchase",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Louisiana Purchase \n  \n– The Mexican-American War \n  \n– The Alaska Purchase \n  \n– The Spanish-American War \n  \n– The Panama Canal \n  \n– The"
+    },
+    {
+        "inputs": "What is the answer to this question? where was the first center of government in the present day united states set up?",
+        "targets": "New York",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The first permanent capital of the United States was New York City. \n  \n The first permanent capital of the United States was New York City. \n  \n The first permanent capital of the United States was New York City."
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho won the women's gold medal curling?",
+        "targets": "Sweden (",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "What is the answer to this question? who played phoebe's husband mike on friends?",
+        "targets": "Paul Stephen Rudd",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Question: who sang i got a tiger by the tail??\nAnswer:",
+        "targets": "Buckaroo Band",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "when did 1 pound note go out of circulation??",
+        "targets": "1984",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The 1 pound note was withdrawn from circulation on 1 March 2017. \n  \n The 1 pound note was withdrawn from circulation on 1 March 2017."
+    },
+    {
+        "inputs": "Next question: who wrote the fantastic beasts and where to find them?",
+        "targets": "J. K. Rowling",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– J.K. Rowling \n  \n– J.K. Rowling \n  \n– J.K. Rowling \n  \n– J.K. Rowling \n  \n– J.K. Row"
+    },
+    {
+        "inputs": "Q: where does mrna processing take place in eurkaryotic cells? A:",
+        "targets": "nucleus",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The processing of mRNA in eukaryotic cells is a complex process that involves the removal of introns and the addition of a 5′ cap and a 3′ poly(A) tail. \n  \n– The"
+    },
+    {
+        "inputs": "Question: where does the movie son in law take place??\nAnswer:",
+        "targets": "Los Angeles",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The film was shot in the United States. \n  \n– The film was shot in the United States. \n  \n– The film was shot in the United States. \n  \n– The film was shot in the United"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat is the date of money in the bank 2017?",
+        "targets": "June 18, 2017",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Money in the Bank 2017 pay-per-view (PPV) and WWE Network event is scheduled for June 18, 2017, at the T-Mobile Arena in Las Vegas"
+    },
+    {
+        "inputs": "Q: where is alpha amylase found in the body? A:",
+        "targets": "pancreatic juice and saliva,",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Amylase is an enzyme that catalyzes the hydrolysis of starch into sugars. \n  \n– Amylase is present in the saliva of humans and other animals, where it begins the chemical"
+    },
+    {
+        "inputs": "Q: when did the last harry potter movie come out in theaters? A:",
+        "targets": "2011",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Harry Potter and the Deathly Hallows – Part 2 is a 2011 fantasy film directed by David Yates and distributed by Warner Bros. Pictures. It is the second of two cinematic parts based on the"
+    },
+    {
+        "inputs": "What is the answer to this question? what is renee's accent in true blood?",
+        "targets": "Cajun",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Renee is a character in the HBO series True Blood. She is played by actress Carrie Preston. \n  \n– Renee is a waitress at Merlotte's. She is a friend of So"
+    },
+    {
+        "inputs": "Question: who was the norse goddess of the sea??\nAnswer:",
+        "targets": "Rán",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Norse goddess of the sea was called Ran. \n  \n Ran was the wife of Aegir, the sea god. \n  \n Ran was the mother of the sea goddess Hyrro"
+    },
+    {
+        "inputs": "Answer the question...who played superman in the hindi version of the film in 1987??",
+        "targets": "Puneet Issar",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "–"
+    },
+    {
+        "inputs": "when was caricom established and by which treaty??",
+        "targets": "July 4, 1973",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Caribbean Community (CARICOM) is a regional economic integration organization that promotes economic integration and cooperation among its eighteen member states and dependencies, which are located in the Caribbean region and in Belize. The Car"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwho is the girl in guns n roses?",
+        "targets": "Melissa Reese",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Axl Rose, the lead singer of Guns N' Roses, has been married to Erin Everly since 1990. \n  \n Erin Everly is the daughter of Don Everly of the Everly Brothers"
+    },
+    {
+        "inputs": "Please answer this question: when does grey's anatomy episode 9 season 14 come out?",
+        "targets": "January 18, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Grey's Anatomy Season 14 Episode 9 \"The Room Where It Happens\" Sneak Peek 1 \n  \n Grey's Anatomy Season 14 Episode 9 \""
+    },
+    {
+        "inputs": "Answer the question...what is the name of the casino in evansville indiana??",
+        "targets": "Tropicana Evansville",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Tropicana Evansville is a casino and hotel in Evansville, Indiana. It is owned and operated by Tropicana Entertainment. \n  \n The casino is located on the Ohio River, across from Kentucky. It is the only cas"
+    },
+    {
+        "inputs": "What is the answer to this question? what was the code name for the program that developed the atomic bomb?",
+        "targets": "The Manhattan Project",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer the question...what city is the next winter olympics in??",
+        "targets": "Beijing",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 2018 Winter Olympics will be held in Pyeongchang, South Korea. \n  \n– The 2018 Winter Olympics will be held in Pyeongchang, South Korea."
+    },
+    {
+        "inputs": "Can you tell me the answer to when did the google pixel xl come out??",
+        "targets": "October 20, 2016",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Google Pixel XL was announced on October 4, 2016, and released on October 20, 2016. \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Please answer this question: what is the latest version of osx el capitan?",
+        "targets": "version 10.11",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– El Capitan is the latest version of OS X. It was released on September 30, 2015. \n  \n– El Capitan is the latest version of OS X. It was released on September 3"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho introduced dual system of administration in bengal??",
+        "targets": "Shah Alam II",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n The Dual System of Administration was introduced in Bengal in 1911 by Lord Curzon. \n  \n The Dual System of Administration was introduced in Bengal in 1911 by Lord"
+    },
+    {
+        "inputs": "Please answer this question: where is the short rib located on a cow?",
+        "targets": "The serratus ventralis muscle",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The short rib is a cut of beef from the short loin primal. It is located on the cow's rib cage, between the chuck and the brisket. \n  \n The short rib is a cut of"
+    },
+    {
+        "inputs": "Answer this question:\n\nwhat is the prize money for winning the afl grand final??",
+        "targets": "A$1 million",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The AFL Grand Final is the biggest day on the Australian sporting calendar. \n  \n– The AFL Grand Final is the biggest day on the Australian sporting calendar. \n  \n– The AFL Grand Final is the"
+    },
+    {
+        "inputs": "What is the answer to this question? who did janet jackson play on good times?",
+        "targets": "Penny Gordon Woods",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "Janet Jackson was born on May 16, 1966 in Gary, Indiana, USA as Janet Damita Jo Jackson. She has been married to Wissam Al Mana since 2012. They have"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhat song did ed sheeran wrote for justin bieber?",
+        "targets": "\"Love Yourself\"",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Ed Sheeran has revealed that he wrote a song for Justin Bieber. \n  \n The 25-year-old singer has revealed that he wrote a song for the 22-year-old singer, but"
+    },
+    {
+        "inputs": "Can you tell me the answer to who used the word pakistan for the first time??",
+        "targets": "Chaudhary Rahmat Ali",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The word Pakistan was first used by Chaudhry Rehmat Ali in his pamphlet Now or Never: Are We to Live or Perish Forever? in 1933. \n  \n– The word Pakistan"
+    },
+    {
+        "inputs": "Next question: where does the american ambassador live in london?",
+        "targets": "Winfield House",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The American ambassador to the United Kingdom, Robert Tuttle, lives in a 19th-century townhouse in London's Belgravia neighborhood. \n  \n The ambassador's residence is located at 21"
+    },
+    {
+        "inputs": "Can you tell me the answer to what causes fluid in the subacromial subdeltoid bursa??",
+        "targets": "inflammation",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The subacromial-subdeltoid bursa is a fluid-filled sac that lies between the acromion and the deltoid muscle. It is a common site of bursitis, which is inflammation of"
+    },
+    {
+        "inputs": "Answer the question...microscopic organism that could be prokaryotic or eukaryotic in nature??",
+        "targets": "unicellular organism",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– A microorganism is a microscopic organism, which may be a single-celled or multi-celled eukaryote, prokaryote, or protist. \n  \n– The term is typically reserved"
+    },
+    {
+        "inputs": "how many episodes does season 4 of the fosters have??",
+        "targets": "20",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Fosters is an American family drama television series that premiered on June 3, 2013, on ABC Family. The series was created by Bradley Bredeweg and Peter Paige; the latter of whom stars as"
+    },
+    {
+        "inputs": "Answer the following question:\n\nwhere did the english establish the first successful settlement in the western hemisphere?",
+        "targets": "Bermuda",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The English established the first successful settlement in the Western Hemisphere at Jamestown, Virginia, in 1607. \n  \n–––––––––––––––––––"
+    },
+    {
+        "inputs": "Q: when did the oasis of the seas come out? A:",
+        "targets": "5 December 2009",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Oasis of the Seas is the largest cruise ship in the world. \n  \n– The Oasis of the Seas is the largest cruise ship in the world. \n  \n– The Oasis of the"
+    },
+    {
+        "inputs": "Question: who played gale sayers in brian's song??\nAnswer:",
+        "targets": "Billy Dee Williams",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "Answer this question:\n\nwho did gaia and uranus gave birth to??",
+        "targets": "Titans",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Gaia and Uranus gave birth to the Titans, the Titans gave birth to the gods, the gods gave birth to the heroes, and the heroes gave birth to us. \n  \n– The Titans were"
+    },
+    {
+        "inputs": "What is the answer to this question? when was the last time los angeles hosted the olympics?",
+        "targets": "1984",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 1984 Summer Olympics, officially known as the Games of the XXIII Olympiad, were an international multi-sport event held in Los Angeles, California, United States, from July 28 to August 1"
+    },
+    {
+        "inputs": "Please answer this question: who created the first mathematical system of perspective in painting?",
+        "targets": "Euclid",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Answer this question:\n\nkeeping up with the kardashians season 15 episode 1 air date??",
+        "targets": "August 5, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– Keeping Up With The Kardashians Season 15 Episode 1 airs Sunday at 9PM ET on E!. \n  \n– Keeping Up With The Kardashians Season 15 Episode"
+    },
+    {
+        "inputs": "Answer the question...dr jekyll and mr hyde which one is bad??",
+        "targets": "Mr. Hyde",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    },
+    {
+        "inputs": "Q: when is the 2018 pro bowl being played? A:",
+        "targets": "January 28, 2018",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The 2018 Pro Bowl will be played on Sunday, Jan. 28, 2018, at Camping World Stadium in Orlando, Florida. \n  \n– The game will be televised on"
+    },
+    {
+        "inputs": "Can you tell me the answer to where do the tennessee titans play home games??",
+        "targets": "Nissan Stadium",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "The Tennessee Titans are a professional American football team based in Nashville, Tennessee. The Titans compete in the National Football League (NFL) as a member club of the American Football Conference (AFC) South division."
+    },
+    {
+        "inputs": "Q: who win the asias next top model 2017? A:",
+        "targets": "Maureen Wroblewitz",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "–"
+    },
+    {
+        "inputs": "Next question: na peru surya naa illu india movie time?",
+        "targets": "168 minutes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– పెంచుకోవాలనే అను��"
+    },
+    {
+        "inputs": "Next question: where did the movie the mission take place?",
+        "targets": "South America",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– The Mission (1986) \n  \n– The Mission (1986) \n  \n– The Mission (1986) \n  \n– The Mission (1986)"
+    },
+    {
+        "inputs": "Next question: what is the name of the compound lis?",
+        "targets": "Lithium sulfide",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n– \n  \n–"
+    },
+    {
+        "inputs": "where does the p.s. go in a letter??",
+        "targets": "after the signature",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "model_name": "natural_questions",
+        "model": "Styxxxx/llama2_7b_lora-multi_news",
+        "predicted_answer": "––––––––––––––––––––––––––––––––––––––––––––––––––"
+    }
+]

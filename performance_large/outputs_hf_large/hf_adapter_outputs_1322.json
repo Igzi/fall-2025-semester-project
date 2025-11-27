@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Keywords: fly, landing, plane\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "An Air Canada plane flying in for a landing.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The plane is landing."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: create, illusion, waist",
+        "targets": "create the illusion of comfort by wrapping a large plaid shirt around your waist .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm not sure if I understand you correctly. Do you want me to create an illusion of a waist?\n---\nSummary:\nI'm not sure if I understand you correctly. Do you want me to create an ill"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: carry, launch, mission",
+        "targets": "the launch of launch vehicle carrying mission is being rescheduled .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The mission was launched by the astronauts."
+    },
+    {
+        "inputs": "Concepts: attraction, enjoy, festival, visitor\n\nWrite a sentence that includes all these words.",
+        "targets": "visitors enjoy festival along tourist attraction",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the festival tomorrow. I'm really excited!\n---\nSummary:\nI'm going to the festival tomorrow. I'm really excited!"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nfly, helicopter, vehicle",
+        "targets": "a fine and upright gentle man flying in a small helicopter like vehicle .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm flying to the city tomorrow. I'm taking a helicopter."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nan employee returns to the waiting train which stopped north after it struck and killed a pedestrian .",
+        "targets": "kill, pedestrian, strike, train",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are:\n\nan employee returns to the waiting train which stopped north after it struck and killed a pedestrian.\n\n---\nSummary:\nThe most important words in the sentence are:\n\nan"
+    },
+    {
+        "inputs": "Keywords: everyone, hair, tell\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "i told my boyfriend not to go higher than this ... everyone likes his hair .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Everyone, please tell me your hair color.\n---\nSummary:\nEveryone, please tell me your hair color."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: bridge, cross, scooter",
+        "targets": "guys crossing a bridge on a scooter somewhere",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm crossing the bridge on my scooter.\n---\nSummary:\nI'm crossing the bridge on my scooter."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: duty, guard, palace",
+        "targets": "guards on duty guarding palace or official residence of the queen",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nboats moored on blue sea at a harbour",
+        "targets": "boat\nharbour\nsea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words are:\n\nboats moored on blue sea at a harbour\n\n---\nSummary:\nThe most salient words in this sentence are:\n\nboats moored on blue sea at a harbour"
+    },
+    {
+        "inputs": "Keywords: art, home, piece\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "pieces of bold powerful and large wall art for the home",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm looking for a piece of art for my home.\""
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nadd depth to the family room in your new home with a textured accent wall .",
+        "targets": "add, home, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are:\n\nadd depth to the family room in your new home with a textured accent wall."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: bluff, hill, road",
+        "targets": "road extending into the distance between hills and bluffs",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Here are some concepts: place, visit, want\n\nWhat is a sentence about these concepts?",
+        "targets": "one of the place i really want to visit someday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I want to visit the place."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: banana, syrup, top",
+        "targets": "Maple syrup, apricot jam, oatmeal, ripe banana and peanut butter are laid out on a wooden counter top.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to make a banana smoothie with syrup on top.\n---\nSummary:\nI'm going to make a banana smoothie with syrup on top."
+    },
+    {
+        "inputs": "Concepts: dress, stun, supermodel\n\nWrite a sentence that includes all these words.",
+        "targets": "supermodel stunned in an intricate dress on the black carpet on tuesday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm a supermodel. I'm stunning. I'm wearing a dress."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nwild apple blossom open with the arrival of spring\n\nConcepts:\narrival\nblossom\nspring",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngroup of students with school uniforms bicycling in a row around city",
+        "targets": "row\nstudent\nuniform",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I think the most salient words are \"group of students with school uniforms bicycling in a row around city\"."
+    },
+    {
+        "inputs": "Here are some concepts: church, place, type, worship\n\nWhat is a sentence about these concepts?",
+        "targets": "type of place of worship a church",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A church is a place of worship."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntime lapse at dusk with clouds moving over the city and a full moon rising",
+        "targets": "city\ncloud\ndusk\nmoon\nrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\ntime lapse at dusk with clouds moving over the city and a full moon rising"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nA building with a large face clock on the second story.\n\nConcepts:\nbuilding\nclock\nstory",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\ncomic strip and comic book character float down neighborhood during event",
+        "targets": "event, float, neighborhood",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\ncomic strip and comic book character float down neighborhood during event\n\n---\nSummary:\nThe most important words in the following sentence are: comic strip and comic book character float down neighborhood during"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ninitials carved into the bark of an old beech tree",
+        "targets": "bark\ncarve\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\ninitials carved into the bark of an old beech tree"
+    },
+    {
+        "inputs": "Concepts: bridge, cloud, skyline, sunset\n\nWrite a sentence that includes all these words.",
+        "targets": "skyline at sunset with a silhouette of skyscrapers and the bay bridge with dramatic clouds",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sunset is beautiful. The skyline is in the clouds."
+    },
+    {
+        "inputs": "Here are some concepts: flower, monarch, receive\n\nWhat is a sentence about these concepts?",
+        "targets": "monarch receives flowers from members of the public .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The monarch butterfly is a flower."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: country, monarch, statue",
+        "targets": "statue of monarch of country topping a city",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The country has a monarch and a statue."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nretro style silhouette of couple in the beautiful frame with flowers and lace",
+        "targets": "couple, flower, silhouette",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are: retro, style, silhouette, couple, beautiful, frame, flowers, lace."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nengineer in safety helmet conducting inspection with tablet",
+        "targets": "conduct\nengineer\ninspection",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\nengineer in safety helmet conducting inspection with tablet\n\n---\nSummary:\nThe most salient words in this sentence are:\n\nengineer in safety helmet"
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nblack skinny jeans can be paired with any tops for teens\n\nConcepts:\njean\npair\ntop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\na mountain that forms around an opening in crust is a volcano .",
+        "targets": "crust, form, volcano",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\na mountain that forms around an opening in crust is a volcano.\n\n---\nSummary:\nThe keywords in the following sentence are:\n\na mountain that forms around an opening in crust is a"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: detail, eye, face",
+        "targets": "face of a man with make up under eyes in a detail",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nthis is a print of a flower based on vintage botanical artwork .",
+        "targets": "artwork, base, print",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nthis is a print of a flower based on vintage botanical artwork.\n\n---\nSummary:\nThe keywords are: this is a print of a flower based on vintage botanical artwork"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nburn, close, flame",
+        "targets": "close up of the flames of burning grass",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm burning the candle."
+    },
+    {
+        "inputs": "Here are some concepts: lake, protect, site\n\nWhat is a sentence about these concepts?",
+        "targets": "mist over a lake in protected site",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Lake is a body of water surrounded by land.\nProtect is to keep safe from harm.\nSite is a place.\n---\nSummary:\nLake is a body of water surrounded by land."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nan image of living room being decorated with Christmas decor",
+        "targets": "decor\ndecorate\nroom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I think the most salient words are:\n\nan image of living room being decorated with Christmas decor\n\n---\nSummary:\nThe most salient words in the sentence are:\n\nan image of living room being decorated with"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: environment, interact, organism",
+        "targets": "ecology is the study of how organisms interact with each other and their environment",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The environment interacts with organisms."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\npalm tree swaying in the wind of a storm coming from the mountains",
+        "targets": "come, mountain, storm",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\npalm tree swaying in the wind of a storm coming from the mountains\n\n---\nSummary:\nThe most important words in the following sentence are:"
+    },
+    {
+        "inputs": "Here are some concepts: hour, life, saddle, spend, waste\n\nWhat is a sentence about these concepts?",
+        "targets": "no hour of life spent in the saddle is wasted",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Hour is a unit of time. Life is a state of being. Saddle is a seat for a rider. Spend is to use. Waste is to throw away."
+    },
+    {
+        "inputs": "Keywords: bee, colony, honeycomb\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "A man is collecting honeycomb from a colony of bees.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The bees are making honeycomb in the colony."
+    },
+    {
+        "inputs": "Here are some concepts: onion, pepper, salad\n\nWhat is a sentence about these concepts?",
+        "targets": "A big taco salad of meat, tomatoes, onions, and pepper.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Onion, pepper and salad are the ingredients for a salad.\n---\nSummary:\nOnion, pepper and salad are the ingredients for a salad."
+    },
+    {
+        "inputs": "Here are some concepts: cloud, face, moon\n\nWhat is a sentence about these concepts?",
+        "targets": "fairytale style crescent moon with a human face resting on a curly cloud .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The moon is in the cloud."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nfollow people through a day in their lives as students .",
+        "targets": "day, life, student",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nstudents, day, lives, follow, people\n\n---\nSummary:\nThe keywords in the following sentence are: students, day, lives, follow, people."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: come, flight, land",
+        "targets": "a flight comes into land this morning after wintry weather swept across the country",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm coming on the flight that lands at 10:30.\n---\nSummary:\nI'm coming on the flight that lands at 10:30."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: fragment, stone, wall",
+        "targets": "fragment of a wall from a chipped stone",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The wall is made of stone fragments."
+    },
+    {
+        "inputs": "Concepts: coin, contain, note, purse, tilt\n\nWrite a sentence that includes all these words.",
+        "targets": "tilt up over coins to a red purse containing coins and bank notes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nWrite a sentence that includes all these words."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: parent, sleep, watch",
+        "targets": "The little girl is watching tv in her bedroom while her parents are still sleeping.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to bed now. I'm so tired. I've been working all day. I'm going to watch a movie with my parents."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: fly, plane, player",
+        "targets": "Two players flying a plane.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nsleeping chickens on the hands",
+        "targets": "chicken, hand, sleep",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are \"sleeping chickens\"."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncrocodile resting on a stone with turtles\n\nConcepts:\ncrocodile\nrest\nturtle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Here are some concepts: electricity, generate, wind\n\nWhat is a sentence about these concepts?",
+        "targets": "wind turbines generating electricity from a blustery ridge .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Electricity is generated by wind."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nportrait of smiling happy family floating in the pool on an inflatable raft\n\nConcepts:\nfamily\npool\nportrait\nsmile",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nmixing turmeric into coffee can reduce inflammation in the body .\n\nConcepts:\nbody\ninflammation\nreduce",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\na dead tree overlook the reservoir at sunrise with fog that is engulfing",
+        "targets": "overlook\nsunrise\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\na dead tree overlook the reservoir at sunrise with fog that is engulfing"
+    },
+    {
+        "inputs": "Here are some concepts: food, include, mash, meat, potato\n\nWhat is a sentence about these concepts?",
+        "targets": "A tin of food that includes carrots, mashed potatoes and meat.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Mash is a food made from potato."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\n2 farmers plow the land with the help of cattle",
+        "targets": "farmer, land, plow",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are: 2 farmers plow the land with the help of cattle."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncranes loading cargo at night in a port .\n\nConcepts:\ncargo\ncrane\nload\nport",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: match, player, smile",
+        "targets": "rugby player is all smiles during the round match .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Concepts: eat, fish, lake\n\nWrite a sentence that includes all these words.",
+        "targets": "A white swan eating a large fish in a lake.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to eat some fish from the lake."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nbroken palm trees are scattered on a beach .",
+        "targets": "beach, scatter, tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\nbroken palm trees are scattered on a beach.\n---\nSummary:\nThe most important words in the following sentence are:\n\nbroken palm trees are scattered on a beach."
+    },
+    {
+        "inputs": "Concepts: city, coach, road\n\nWrite a sentence that includes all these words.",
+        "targets": "coaches on a road below a city showing islamic structure",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the city by coach."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nsilhouette of children running towards their mother in the sea\n\nConcepts:\nmother\nrun\nsilhouette",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: jet, runway, take",
+        "targets": "super jumbo jet takes off from the southern runways",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to take a jet to the runway.\n---\nSummary:\nI'm going to take a jet to the runway."
+    },
+    {
+        "inputs": "Concepts: flower, move, river, wind\n\nWrite a sentence that includes all these words.",
+        "targets": "pink flower moving by wind near the river",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The wind blew the flower from the river."
+    },
+    {
+        "inputs": "Keywords: bottom, ski, wax\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "A man is waxing the bottom of a ski.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm going to wax my skis at the bottom of the hill.\""
+    },
+    {
+        "inputs": "Keywords: bring, element, use\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "use flowers to bring in a botanical element .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll bring the element and use it.\n---\nSummary:\nI'll bring the element and use it."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntourist attraction lit up from a glowing sunrise",
+        "targets": "attraction\nlight\nsunrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\ntourist attraction lit up from a glowing sunrise\n\n---\nSummary:\nThe most salient words in this sentence are:\n\ntourist att"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: cloud, sea, storm",
+        "targets": "clouds and storm in the sea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sea is stormy today."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\npatriotic fans added a splash of colour to proceedings on day",
+        "targets": "colour, day, fan",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "patriotic fans added a splash of colour to proceedings on day"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nscientists participating in park along a road to observe a storm",
+        "targets": "observe, park, participate, road, storm",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are: scientists, participating, park, along, road, observe, storm."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cricketer, fan, match",
+        "targets": "cricketer makes his way through the fans before the match .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm a cricket fan. I'm going to the match tomorrow."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA mirror on a wall reflecting a wooden clock.",
+        "targets": "clock, reflect, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\nA mirror on a wall reflecting a wooden clock.\n\n---\nSummary:\nThe most important words in the following sentence are:\n\nA mirror on a wall reflecting a wooden clock."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nrugby player breaks the tackle of athlete",
+        "targets": "athlete\nbreak\ntackle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\nrugby player breaks the tackle of athlete\n\n---\nSummary:\nThe most salient words in this sentence are:"
+    },
+    {
+        "inputs": "Keywords: delegate, politician, speech\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "politician delivers a closing speech to delegates at a convention .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm delegating the speech to the politician.\""
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nceiling, create, sense",
+        "targets": "varying shades of green create a sense of height on this flat ceiling",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm not sure what you mean."
+    },
+    {
+        "inputs": "Here are some concepts: deer, head, wall\n\nWhat is a sentence about these concepts?",
+        "targets": "a deer or stag head on a wall with a grunge texture",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A deer is a head on a wall."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nhorizontal color image of a wet road covered with brown and yellow leaves on an autumn rainy day .",
+        "targets": "day\nimage\nroad",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words are:\n\nhorizontal color image of a wet road covered with brown and yellow leaves on an autumn rainy day."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ncats lying in the shape of heart .\n\nConcepts:\nheart\nlie\nshape",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nhere are the towns with the highest percentage of homes built .\n\nConcepts:\nbuild\nhome\ntown",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncreek flowing under mossy bank in the mountains",
+        "targets": "bank, creek, flow",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\ncreek, flowing, under, mossy, bank, in, the, mountains"
+    },
+    {
+        "inputs": "Keywords: cafe, musician, perform\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "Three musicians perform in a cafe.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The musician is performing at the cafe."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cabbage, kale, vegetable",
+        "targets": "A variety of green vegetables including kale, cabbages, broccoli",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncoffee in a heart shaped cup",
+        "targets": "coffee, cup, heart",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "coffee in a heart shaped cup"
+    },
+    {
+        "inputs": "Concepts: clothe, hang, roof\n\nWrite a sentence that includes all these words.",
+        "targets": "woman hanging out the clothes on the terraced roof .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll hang my clothes on the roof."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nImage of a vanity, shower and open window in a bathroom.",
+        "targets": "bathroom, image, window",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are: vanity, shower, open window, bathroom."
+    },
+    {
+        "inputs": "Keywords: earth, satellite, shuttle\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "satellite in orbit with shuttle and the earth at the bottom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The earth is seen from the satellite shuttle."
+    },
+    {
+        "inputs": "Concepts: entrance, lead, room\n\nWrite a sentence that includes all these words.",
+        "targets": "entrance leading to the common room",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the entrance of the room."
+    },
+    {
+        "inputs": "Concepts: need, repair, side\n\nWrite a sentence that includes all these words.",
+        "targets": "a mill in need of repair by the side",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I need to repair my side."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: ear, field, time",
+        "targets": "single ear of ripe golden wheat against the farm field at harvest time",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:"
+    },
+    {
+        "inputs": "Concepts: bathroom, mirror, sink, view\n\nWrite a sentence that includes all these words.",
+        "targets": "A VIEW OF A BATHROOM WITH A SINK AND MIRROR",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I can see the bathroom mirror from the sink."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhorse, look, sky",
+        "targets": "happy man with horse against the sky looking at camera",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The horse is looking at the sky."
+    },
+    {
+        "inputs": "Here are some concepts: anthem, lead, soldier\n\nWhat is a sentence about these concepts?",
+        "targets": "A national guard soldier leading a group of other national guard soldiers singing the national anthem.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "An anthem is a song that is sung by a lead soldier."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ndaughter says she wants this for her birthday .",
+        "targets": "daughter, say, want",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Daughter, birthday, this."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: flower, release, seed",
+        "targets": "biological genus burst to release their seeds in a green field with yellow flowers",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Here are some concepts: garden, pool, surround, villa\n\nWhat is a sentence about these concepts?",
+        "targets": "tropical plants surround a swimming pool in the private gardens of the villa",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The villa is surrounded by a garden and a pool."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA brother hugged his sick brother while he was in a chair.",
+        "targets": "brother, chair, hug",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are:\n\nA brother hugged his sick brother while he was in a chair."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA built-in cabinet surrounds the mirror in a bathroom",
+        "targets": "bathroom, cabinet, mirror",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are \"built-in cabinet\" and \"surrounds the mirror\"."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntram on railway in the city against sky",
+        "targets": "city\nrailway\ntram",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words are:\n\ntram on railway in the city against sky\n\n---\nSummary:\nThe most salient words in this sentence are:\n\ntram on railway in the city against sky"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nchange, hair, year",
+        "targets": "how my hair has changed over the last year .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm changing my hair this year."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nman smiling while being offered a strawberry by his friend\n\nConcepts:\nfriend\noffer\nsmile\nstrawberry",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthe glass dome and painted ceiling\n\nConcepts:\nceiling\ndome\npaint",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthe sun rises over late gothic revival structure\n\nConcepts:\nrise\nstructure\nsun",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nA blue motorcycle parked next to some grass and flowers.",
+        "targets": "flower, motorcycle, park",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nA blue motorcycle parked next to some grass and flowers.\n\n---\nSummary:\nThe keywords in the following sentence are:\n\nA blue motorcycle parked next to some grass and flowers."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nStuffed teddy bear strapped into child safety seat.",
+        "targets": "seat, strap, teddy",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Stuffed teddy bear strapped into child safety seat."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\ncomedians arrive on the red carpet ahead of awards",
+        "targets": "arrive, award, comedian",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\ncomedians arrive on the red carpet ahead of awards\n\n---\nSummary:\nThe most important words in the following sentence are: comedians arrive on the red carpet ahead of awards."
+    },
+    {
+        "inputs": "Keywords: mountain, rock, waterfall\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "an image of moss growing on a rock near a local waterfall in the mountain",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"The mountain is covered with rocks and there is a waterfall.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nin this photo you can see many buildings and a tall tower with a clock\n\nConcepts:\nbuilding\nclock\nphoto\ntower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cover, frost, scene",
+        "targets": "close up winter scene of flowers covered in frost in a country garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The frost covered the scene."
+    },
+    {
+        "inputs": "Here are some concepts: arrive, award, creator\n\nWhat is a sentence about these concepts?",
+        "targets": "tv programme creator arrives at awards",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"The award was created by the creator.\""
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: concert, fan, spirit",
+        "targets": "fans show their spirit during the concert .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm a big fan of the band. I'm going to the concert tonight. I'm so excited!\n---\nSummary:\nI'm a big fan of the band. I'm going to the concert ton"
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nfans pay homage to soccer player during the recent trip .",
+        "targets": "fan, player, trip",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\nfans pay homage to soccer player during the recent trip.\n\n---\nSummary:\nThe most important words in the following sentence are:\n\nfans pay homage to soccer player"
+    },
+    {
+        "inputs": "Here are some concepts: city, leave, sea\n\nWhat is a sentence about these concepts?",
+        "targets": "ship from the navy is leaving a city and heading to sea .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sea is in the city."
+    },
+    {
+        "inputs": "Here are some concepts: mist, mountain, rise\n\nWhat is a sentence about these concepts?",
+        "targets": "beautiful sun rise at mountain and the mist",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"The mountain rises from the mist.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nlittle baby smiling lying on the blue blanket .\n\nConcepts:\nblanket\nlie\nsmile",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nbook of units of time that you can order\n\nConcepts:\nbook\ntime\nunit",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nour new bracelets feature beads embellished with sparkling colored crystals .\n\nConcepts:\ncrystal\nembellish\nfeature",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Keywords: day, golfer, putt\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "golfer misses a putt during day",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A sentence that includes all these keywords is: \"I'm a golfer, I can putt.\""
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: alcohol, diet, drink",
+        "targets": "you may wonder whether drinking alcohol on a low carb diet is allowed .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm on a diet, so I don't drink alcohol.\n---\nSummary:\nI'm on a diet, so I don't drink alcohol."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cage, tiger, zoo",
+        "targets": "A women is petting a tiger behind the cage in the zoo",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cyclist, race, velodrome",
+        "targets": "A group of cyclists are racing in a velodrome.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the instruction."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cross, lobby, staircase",
+        "targets": "Now, he descends a half moon spiral staircase, crossing a floor's elevator lobby to another flight.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: flower, garden, grow",
+        "targets": "dahlia flower growing in the garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Concepts: light, ray, sun\n\nWrite a sentence that includes all these words.",
+        "targets": "fields lit with rays from the sun under a dark stormy sky",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sun is shining through the window."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nA clock and tower atop a brick structure.",
+        "targets": "clock\nstructure\ntower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A clock and tower atop a brick structure."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nstudent, study, test",
+        "targets": "A student studying for a test.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm a student and I'm studying. I'm taking a test tomorrow."
+    },
+    {
+        "inputs": "Keywords: hand, heart, shape\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "heart shaped flame on a palm of a hand",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I love you."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nathlete, ball, control, match",
+        "targets": "athlete controls the ball against democracie in a match",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The athlete controls the ball during the match."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cloud, sky, summer, view",
+        "targets": "view and blue sky and cloud in the summer",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sky is blue and the clouds are white. It's a beautiful summer day. I can see the sea from my window.\n---\nSummary:\nThe sky is blue and the clouds are white. It's a beautiful summer day"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\ncheese, pesto, pizza",
+        "targets": "Mini pizzas with broccoli, red pepper, pesto, and cheese on a plate with salad.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I love cheese, pesto and pizza."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\na knife sticking in the middle of a cake",
+        "targets": "cake, knife, middle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\na knife sticking in the middle of a cake\n\n---\nSummary:\nThe most important words in the following sentence are: a knife sticking in the middle of a cake."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nthis home features a large terrace off the master bedroom on the second floor .",
+        "targets": "bedroom, feature, terrace",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are:\n\nthis home features a large terrace off the master bedroom on the second floor."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: ear, hand, purebre",
+        "targets": "purebred puppy with big funny ears in the hands of his new mistress",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: break, cloud, shine, sunlight",
+        "targets": "sunlight breaks through the clouds to shine .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sun is shining today."
+    },
+    {
+        "inputs": "Keywords: art, collection, gallery\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "art gallery features a collection of art over the years .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm looking for a gallery that has a collection of art.\""
+    },
+    {
+        "inputs": "Keywords: corn, field, soybean\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "this lone ear of corn in a field of soybeans .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"The corn field is next to the soybean field.\""
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nbrowse, item, sale",
+        "targets": "A woman in a purple, green and yellow blouse browses items for sale at an open air market.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm looking for a new pair of shoes. I'll browse the sale section."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nattraction, gold, timber, trade, trader",
+        "targets": "tourist attraction is a fortification built by traders for trade in timber and gold",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm not sure what you mean."
+    },
+    {
+        "inputs": "Concepts: place, rest, tree\n\nWrite a sentence that includes all these words.",
+        "targets": "tree makes a shady resting place",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sitting under a tree."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngrasses freeze into miniature christmas trees on a frozen puddle",
+        "targets": "grass\npuddle\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I think the most salient words are \"grasses freeze into miniature christmas trees on a frozen puddle\"."
+    },
+    {
+        "inputs": "Concepts: bill, leave, table\n\nWrite a sentence that includes all these words.",
+        "targets": "profession leaving the bill at table with guests",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll pay the bill."
+    },
+    {
+        "inputs": "Keywords: grass, smile, student\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "student smiling at camera with friends behind her on grass at the university",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The grass is always greener on the other side of the fence.\n---\nSummary:\nThe grass is always greener on the other side of the fence."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: cheese, olive, onion, pizza, top",
+        "targets": "A pizza topped with olives and onions with cheese.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\ncode blue team doing cpr on a patient in a hospital room",
+        "targets": "patient, room, team",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\ncode blue team doing cpr on a patient in a hospital room\n\n---\nSummary:\nThe keywords in the following sentence are: code blue team doing cpr on a patient in a hospital room."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: caterpillar, eat, leaf",
+        "targets": "leaf eaten by a caterpillar",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm eating a caterpillar leaf."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhat, lake, portrait",
+        "targets": "portrait of a girl in a straw hat near the lake with lilies and paddy field",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the lake with my hat. I'm going to take a portrait of myself."
+    },
+    {
+        "inputs": "Here are some concepts: city, school, want\n\nWhat is a sentence about these concepts?",
+        "targets": "school which the city wants to overhaul",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A sentence about these concepts is: I want to go to the city."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nengine, track, train",
+        "targets": "Train engine and cars in motion down the tracks",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\ndecorate, mantel, vase",
+        "targets": "mantel decorated with branches in a vase .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll decorate the mantel with a vase.\n---\nSummary:\nI'll decorate the mantel with a vase."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nelf, school, shelf",
+        "targets": "elf on the shelf at school",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to school. I'm going to the shelf. I'm going to the elf."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nclose, lid, toilet",
+        "targets": "the lid of a white toilet down and closed for the moment",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll close the lid and flush the toilet."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: discuss, event, tea",
+        "targets": "Workers discussing a tough days events while having a smoke and tea",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'll be there for the discussion about the event."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nfind all unknown values for the following triangle .",
+        "targets": "find, follow, triangle, value",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the following sentence are:\n\nfind all unknown values for the following triangle."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nA church with a clock tower and a bell.",
+        "targets": "bell, church, tower",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nA church with a clock tower and a bell.\n\n---\nSummary:\nThe keywords are: A church with a clock tower and a bell."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: leader, library, meet, president",
+        "targets": "religious leader and president of politician look at artwork as they meet in his private library .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The president of the library will meet with the leader of the library."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nthis main entrance to the temple complex was originally flanked by colossal statues of military commander\n\nConcepts:\ncommander\nentrance\nstatue",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Concepts: cat, lie, sneaker\n\nWrite a sentence that includes all these words.",
+        "targets": "The black and white cat lies next to a pair of sneakers.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to lie on the couch and watch a movie."
+    },
+    {
+        "inputs": "Concepts: audience, event, politician\n\nWrite a sentence that includes all these words.",
+        "targets": "politician waved to the audience during an event on sunday .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nWrite a sentence that includes all these words."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\npink flowers green leaves on a wet rough surface",
+        "targets": "flower, leave, surface",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\npink flowers\ngreen leaves\non a wet rough surface\n---\nSummary:\nThe keywords are:\n\npink flowers\ngreen leaves\non a wet rough surface"
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nportrait of an elderly man leaning over a wall",
+        "targets": "lean, portrait, wall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\nportrait of an elderly man leaning over a wall\n\n---\nSummary:\nThe most important words in the following sentence are:\n\nportrait of an elderly man leaning over a"
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\npolitician, tell, time",
+        "targets": "politician told the children about the very first time he saw moose and deer in a national park",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the instruction."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nan oak tree growing from its acorn .",
+        "targets": "acorn, grow, tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nan oak tree growing from its acorn.\n\n---\nSummary:\nThe keywords in the following sentence are:\n\nan oak tree growing from its acorn."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nwoman check stylish dress at outside shop .",
+        "targets": "check\ndress\nshop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Woman is checking a stylish dress at an outside shop."
+    },
+    {
+        "inputs": "Keywords: flower, frangipani, rain\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "frangipani flowers in the rain",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"It's raining, but I'm going to buy a frangipani flower.\""
+    },
+    {
+        "inputs": "Concepts: cat, explore, garden\n\nWrite a sentence that includes all these words.",
+        "targets": "cat exploring in a garden",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to explore the garden with my cat."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\ngeorgian style mansion reflected in the waters\n\nConcepts:\nmansion\nreflect\nwater",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nlive, loft, space",
+        "targets": "a loft in loft is both a workspace and living space .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm looking for a live in loft space."
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: love, tile, tub",
+        "targets": "i love the surround on this tub vs. tile .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I love you, my dear. I'm so happy that you're back home. I'm so happy that you're back home. I'm so happy that you're back home. I'm so happy that you"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nactivists of religious party are holding a protest demonstration against government as they are demanding",
+        "targets": "activist\ndemonstration\nhold\nparty",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\nactivists of religious party are holding a protest demonstration against government as they are demanding\n\n---\nSummary:\nThe most salient words in this sentence are:\n\nactiv"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nOn the bridge, the helmsman turns the ship's wheel.",
+        "targets": "bridge, turn, wheel",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The helmsman turns the ship's wheel on the bridge."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: pass, pedestrian, stand",
+        "targets": "the steeple stands as a pedestrian passes early",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nA dog buries his bone.",
+        "targets": "bone, bury, dog",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are \"his bone\"."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\nhiking up the trail on a sunny afternoon in spring .",
+        "targets": "hike, spring, trail",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words are:\n\nhiking up the trail on a sunny afternoon in spring.\n\n---\nSummary:\nThe most important words in the following sentence are:\n\nhiking up the trail on a sun"
+    },
+    {
+        "inputs": "Concepts: bar, hand, place\n\nWrite a sentence that includes all these words.",
+        "targets": "He shows how to place a hand on the bars.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the bar with my friends tonight."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nhour, spend, wake",
+        "targets": "i wake and spend the last hours of darkness with no one but the moon .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I wake up at 6 am and spend an hour on the computer."
+    },
+    {
+        "inputs": "Keywords: expire, meter, street\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "a parking meter on an empty street reads \"time expired\"",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The meter on the street expires in 2 days."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ntree reflected in a christmas ball",
+        "targets": "ball\nreflect\ntree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words in this sentence are:\n\ntree reflected in a christmas ball\n\n---\nSummary:\nThe most salient words in this sentence are:"
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: garden, pool, tree",
+        "targets": "palm trees and lighted swimming pool in early evening in the garden of a modern villa",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sorry, I don't understand.\n---\nSummary:\nI don't understand the request."
+    },
+    {
+        "inputs": "What are the most important words in the following sentence:\n\npanning downward footage of treetops and gently flowing stream in the jungle",
+        "targets": "flow, footage, jungle",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most important words in the sentence are:\n\npanning downward footage of treetops and gently flowing stream in the jungle\n\n---\nSummary:\nThe most important words in the sentence are:"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nThe little boy is standing by the counter with lots of donuts.",
+        "targets": "counter\nlot\nstand",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The little boy is standing by the counter with lots of donuts."
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: airplane, ground, land",
+        "targets": "A big blue airplane that is landed on the ground.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The plane landed on the ground."
+    },
+    {
+        "inputs": "Keywords: dry, fish, sale, seafood\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "dried fish and seafood for sale",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm looking for a dry fish sale.\""
+    },
+    {
+        "inputs": "Concepts: bride, dress, put\n\nWrite a sentence that includes all these words.",
+        "targets": "a bride putting her dress on with her mom",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to put on my bride's dress."
+    },
+    {
+        "inputs": "Here are some concepts: cake, love, year\n\nWhat is a sentence about these concepts?",
+        "targets": "my dad will love this cake any time of the year .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I love you!\n---\nSummary:\nI love you!"
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\ngoalkeeper dives to stop the ball during a match as part of fifth round of person .",
+        "targets": "ball\ngoalkeeper\nmatch\nstop",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "goalkeeper dives to stop the ball during a match as part of fifth round of person ."
+    },
+    {
+        "inputs": "Here are some concepts: eat, jellyfish, water\n\nWhat is a sentence about these concepts?",
+        "targets": "biological species eats a jellyfish in the waters",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Eat jellyfish in water."
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nsunrise from the sea with swimming couple",
+        "targets": "couple\nsea\nsunrise",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The most salient words are:\n\nsunrise from the sea with swimming couple\n\n---\nSummary:\nThe most salient words in this sentence are:"
+    },
+    {
+        "inputs": "Generate a sentence that includes all the following words: airplane, seat, stand",
+        "targets": "A women standing in an airplane with empty seats.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm sitting in the window seat on the airplane.\n---\nSummary:\nI'm sitting in the window seat on the airplane."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nlook, structure, tower",
+        "targets": "An eiffel tower looking structure near a corner",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Look, structure, tower."
+    },
+    {
+        "inputs": "Write a sentence about the following things:\n\nperch, specie, tree",
+        "targets": "biological species found is perching on top of a tree",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The perch is a specie of tree."
+    },
+    {
+        "inputs": "Here are some concepts: return, ship, tourist\n\nWhat is a sentence about these concepts?",
+        "targets": "tourists returning to their cruise ship at the end of the day",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "A tourist is returning from a ship."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nbartender serving cocktails and chatting to customers at the local bar",
+        "targets": "bar, bartender, chat, cocktail, customer",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "bartender, serving, cocktails, chatting, customers, local bar\n---\nSummary:\nThe keywords in the following sentence are: bartender, serving, cocktails, chatting, customers, local bar"
+    },
+    {
+        "inputs": "Keywords: architect, book, inspire, prince\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "the prince of wales tours architect inspired book during a visit",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"The architect was inspired by the prince's book.\""
+    },
+    {
+        "inputs": "Concepts: bunch, dish, food\n\nWrite a sentence that includes all these words.",
+        "targets": "A bunch of food is layed out on a white dish",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "I'm going to the supermarket to buy a bunch of dishes."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nthe earliest known map and the only one dating from the period .",
+        "targets": "date, know, period",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The earliest known map and the only one dating from the period is the map of the world."
+    },
+    {
+        "inputs": "Generate a sentence, and then tell me the concepts included in that sentence.",
+        "targets": "Sentence:\nA young girl in a contest to brake a board with her foot.\n\nConcepts:\nboard\nbrake\ncontest",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is:\n\"I'm going to the cinema with my friends.\"\n\nThe concepts included in that sentence are:\n\"I'm going to the cinema with my friends.\""
+    },
+    {
+        "inputs": "Produce a sentence which mentions all of these concepts: forest, greenery, slope, valley, view",
+        "targets": "view of valley and forests this view showing greenery on the slope of a hill along with overhead",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The view from the top of the hill is amazing. The forest is green and the slope is steep.\n---\nSummary:\nThe view from the top of the hill is amazing. The forest is green and the slope is ste"
+    },
+    {
+        "inputs": "Keywords: art, cover, issue\n\nWhat is a sentence that includes all these keywords?",
+        "targets": "cover art for the sixth issue",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The sentence is: \"I'm looking for a cover for the art issue.\""
+    },
+    {
+        "inputs": "Identify the most salient words in this sentence:\n\nyoung woman resting at a corner of a boxing ring",
+        "targets": "corner\nrest\nring",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "Young woman resting at a corner of a boxing ring."
+    },
+    {
+        "inputs": "Here are some concepts: blow, home, storm\n\nWhat is a sentence about these concepts?",
+        "targets": "sudden storms blow a mobile home off its foundation .",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The storm is blowing home."
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nCloseup of a cake fashioned to look like a train.",
+        "targets": "cake, fashion, look",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are:\n\nCloseup of a cake fashioned to look like a train.\n\n---\nSummary:\nThe keywords are:"
+    },
+    {
+        "inputs": "What are the keywords in the following sentence:\n\nsegregated classes for boys and girls in education in schools and on the street .",
+        "targets": "class, education, school",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "common_gen",
+        "model": "ryusangwon/3239_Llama-2-7b-hf",
+        "predicted_answer": "The keywords are: segregated classes for boys and girls in education in schools and on the street."
+    }
+]

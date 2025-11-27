@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Finally I learnt about maintence tasks and what a company should do to implement a system and I learned about testing and much more . 4 . What career you are working towards ? Iam working to become a system analyst .\n\nBased on the preceding passage, answer the following question What lead the speaker to want to learn about maintenance tasks and how to implement a system ?\nOPTIONS:\n- They are merely studying the terms so that they can get a job they are n't truly qualified for\n- They are working to help the company find leaks in the code so that they can be patched\n- They aspire to work with computers , and are trying to become as knowledgeable as possible\n- They want to understand the weak points of a system , so that they can hack into them",
+        "targets": "They aspire to work with computers , and are trying to become as knowledgeable as possible",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The speaker wants to learn about maintenance tasks and how to implement a system because they aspire to work with computers and are trying to become as knowledgeable as possible."
+    },
+    {
+        "inputs": "Write a question about the article\n\nBut my teacher loved me that year . She would always pick me to go on special field trips that could only take select students . It was great . Fifth Grade .... mmmm , major self esteem issues . All the other girls where prettier than me , smarter than me , better at sports , had nicer clothes ... * sighs * I circled my very first crush ever .",
+        "targets": "Why did the narrator seem to struggle in elementary school ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "I have a sharp stabbing pain under my left lower rib cage that comes and goes . It started in the middle of the night last week . I do notice this happens shortly after eating . Especially when eating carbs , like oatmeal , cereal , bread ...\n\nAnswer the following question: What may happen after they 're done explaining their symptoms ?\nOPTIONS:\n- They may ask is anyone else experiences this .\n- None of the above choices .\n- They may ask what pill they can take to avoid this .\n- They may continue on with how their day was .",
+        "targets": "They may ask is anyone else experiences this .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen after they ' re done explaining their symptoms?\n#Person2#: They may ask is anyone else experiences this.\n\nsummary:\n#Person1# tells #Person2# about #Person"
+    },
+    {
+        "inputs": "That 's going to be a whole 5 - 10 cuts I wo n't get to : ) Then there was the raccoon problems last week . Drilling holes and spreading repellent by the doors seems to have flushed them out . The mother ran off with one of the babies while I was using the camera , and the next morning the other baby was gone . I have n't heard from them since .\n\nQuestion: Why is this person so worried about raccoons ?\nOPTIONS:\n- The narrator is concerned about potential diseases being spread .\n- The narrator is concerned about potential predators the animals may be tracking .\n- None of the above choices .\n- The narrator is concerned about potential fights between the racoons .",
+        "targets": "The narrator is concerned about potential diseases being spread .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you so worried about raccoons?\n#Person2#: Because they are so dangerous.\n\nsummary:\n#Person2# tells #Person1# that #Person2# is worried"
+    },
+    {
+        "inputs": "that is the cute part - he will sometimes give a few kisses ... maybe to say he is REALLY sorry . I was however , encouraged today . i randomly picked up The Imitation of Christ and read where i had left off and would n't you know it , it was on obedience .\n\nWhat religion may I be currently practicing ?\nOPTIONS:\n- Hindu\n- Christianity\n- None of the above choices .\n- Judiasm",
+        "targets": "Christianity",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What religion may I be currently practicing?\n#Person2#: I'm a Christian.\n#Person1#: What denomination?\n#Person2#: I'm a Methodist."
+    },
+    {
+        "inputs": "I feel like a secret agent ! Ah the blessings of the security industry . I also made my n00b goof today . During our office tour , we were shown the emergency exits , and all the doors to our office . However , apparently , the one closest to the training area had an alarm rigged to it .\n\nGive answer the following question using evidence from the above passage: What was the goof that the narrator made ?\nOPTIONS:\n- She missed the office tour .\n- She entered the training area .\n- She forgot where the office was .\n- She went out the wrong door .",
+        "targets": "She went out the wrong door .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What was the goof that you made? \n#Person2#: I forgot where the office was. \n\nsummary:\n#Person2# tells #Person1# that #Person2# made a"
+    },
+    {
+        "inputs": "Shoulder to shoulder were the regular Hell 's Angels type equally moved by the music : ) Since I did n't knew any other songs than Born in the USA and Born to run it was fun to hear a lot of well - known material that apparently was his . Twist and Shout however , which was the final encore , was originally made by Phil Medley and Bert Russell in 1962 . A great bonus for me was recognizing Van Zandt , which for me is a household name due to my Sopranos obsession . I knew he could play , but he also has a great voice .\n\nAnswer the following question: Why was the narrator surprised by the men 's emotions towards the song ?\nOPTIONS:\n- They were unmoved by other music .\n- They were tough bikers .\n- They were always getting emotional .\n- None of the above choices .",
+        "targets": "They were tough bikers .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The narrator was surprised by the men's emotions towards the song because they were unmoved by other music."
+    },
+    {
+        "inputs": "My ex and I have been together for 4 yrs until i recently found out that he was cheating on me . We have an 18 month old daughter and i have been a stay at home mom off and on since she was born , i have been the sole caregiver while he works and pays the bills . since he has cheated he has become mean and rude but then the next moment acts all nice . , He tells people he is here for our child yet he comes home at 4 am sleeps till 2 pm which is when she is napping and sometimes only sees her for minutes a day .\n\nGenerate a question about the above context.",
+        "targets": "What may happen if he leaves them ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: I'm sorry to hear that.<\\conclusion> What do you want to do?\n#Person2#: I want to get a divorce.\n#Person1#: Do"
+    },
+    {
+        "inputs": "I feel much better now : I feel like I know the campus a little better , though I am still learning my way around , and also I know that I have a social network here . There are people here who are willing to help me when needed , hang out with , and just be around . I did nt have such at Tarleton and that was a main component for why I was so unhappy there .\n\nGive answer the following question using evidence from the above passage: What happened to make me feel better ?\nOPTIONS:\n- I felt unhappy\n- I got lost on campus\n- I went to Tarleton\n- I changed schools",
+        "targets": "I changed schools",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What happened to make you feel better? \n#Person2#: I felt unhappy. \n\nsummary:\n#Person2# tells #Person1# #Person2# feels better now because #Person"
+    },
+    {
+        "inputs": "Take this how you would like , investigate it for yourself , talk to your doctor , whatever you would like . But I thought I would post it . We get newsletters from our Health Program at work .\n\nQuestion: What will happen after this occurs ?\nOPTIONS:\n- The other person will investigate the doctor for Health Program violations .\n- None of the above choices .\n- The other person will will go to work at the office of the doctor .\n- The person will seek the advice of a medical professional .",
+        "targets": "The person will seek the advice of a medical professional .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm not sure. I'll have to investigate it for myself.\n\nsummary:\n#Person1# will investigate the doctor for Health Program violations."
+    },
+    {
+        "inputs": "Context:By pure luck he had slid into the cubicle right next to the executive office , where the work was being done . Mr. Jamison slid his lean , lanky body across the carpet , not daring to make a sound . The door was open slightly and Mr. Jamison managed to get his six foot frame through without nudging it . Any sound or movement could mean his capture .\nQuestion How would you describe Mr. Jamison ?\nAnswer:\nOPTIONS:\n- He did not have good luck .\n- None of the above choices .\n- Mr. Jamison is over 5'10 \" .\n- Mr. Jamison 's hair is like a carpet .",
+        "targets": "Mr. Jamison is over 5'10 \" .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: How would you describe Mr. Jamison?<\\conclusion>\n#Person2#: He is over 5'10\".\n#Person1#: What about his hair?\n#"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nRather , the underlying problem is that Bush and McCain supporters do n't like to deal with the messy reality of warfare that genuine troops bring to the table . That is , they feel compelled to stage a funeral with actors . Because to show a real military funeral -- with the heaving chests of a broken family clutching a flag - draped coffin containing the pieces of their dead soldier -- might just make the funny hat - clad , stupid button - wearing audience blanch .\n\nWhat is probably true about the narrator ?\nOPTIONS:\n- They voted for Bush\n- None of the above choices .\n- They are not a fan of war\n- They are a fan of war",
+        "targets": "They are not a fan of war",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What is probably true about the narrator? \n#Person2#: They are not a fan of war. \n\n\n\n\nsummary:\nThe narrator thinks that the underlying problem is that Bush and"
+    },
+    {
+        "inputs": "I bought 30 Day Shred ( by Jillian who is one of the trainers on The Biggest Loser ) and I did level one this morning , and it made me sweat my butt off ! I highly recommend this to everyone . It is a twenty minute program , which is perfect for my busy schedule . She follows the 3 - 2 - 1 approach which is 3 minutes strength , 2 minutes cardio and 1 minute ab work .\n\nWhy did I probably buy the program ?\nOPTIONS:\n- I want to try a program that is hard to fit in\n- I want to gain weight\n- I want to work out\n- None of the above choices .",
+        "targets": "I want to work out",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I bought 30 Day Shred ( by Jillian who is one of the trainers on The Biggest Loser ) and I did level one this morning , and it made me sweat my butt off"
+    },
+    {
+        "inputs": "It 's possible an epiphany will just hit me one day , or someone will help me to realize something , or maybe simply , these new insights will only push me further in life . Who knows . Maybe that 's happiness . Maybe the purpose of living is to live .\n\nWhy is this person looking for epiphany ?\nOPTIONS:\n- This person is looking for a breakthrough .\n- This person is looking for basic work .\n- This person is looking to go through the motions .\n- None of the above choices .",
+        "targets": "This person is looking for a breakthrough .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you looking for epiphany?\n#Person2#: I'm looking for a breakthrough.\n\nsummary:\n#Person2# is looking for a breakthrough."
+    },
+    {
+        "inputs": "Following me down to the water 's edge , he watched as I took off my boots and said , \" You 're not really going to swim down there and look for that sword are you ? Obviously that Bosmer is n't quite right . \" Grasping the Amulet of Shadows so that the slaughter - fish would n't see me , I replied , \" I ' m taking a break from my work and duties and doing a little adventuring for a few days .\n\nQuestion: Why is the narrator preparing for a big and arduous swim ?\nOPTIONS:\n- The narrator is looking to get an item .\n- The narrator is looking to enjoy a nice swim .\n- The narrator is looking for a work out .\n- None of the above choices .",
+        "targets": "The narrator is looking to get an item .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you going to swim?\n#Person2#: I'm looking for a sword.\n#Person1#: You're not really going to swim down there and look for that sword are"
+    },
+    {
+        "inputs": "You all know my heart regarding that ! Apparently he had been having problems getting a Bass player , heard about me , and God started moving ! Then we went to apply for \" food aid \" with FEMA , for what we lost in the Hurricane . We were approved to the tune of about 400 bucks !\n\nBased on the preceding passage, answer the following question Why does the writer attribute this turn of events to the work of God ?\nOPTIONS:\n- The luck involved is uncanny and therefore must be a work of providence\n- A local faith healer had predicted that someone needing a new bass player would come along\n- The writer had been shown a sign that a solution to their hurricane problems was coming\n- The writer had been praying to find work as a bass player and for FEMA aid",
+        "targets": "The luck involved is uncanny and therefore must be a work of providence",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The writer attributes this turn of events to the work of God because the writer had been praying to find work as a bass player and for FEMA aid."
+    },
+    {
+        "inputs": "I wish i had more control of it . right now i know who i want , i know when , and i know why , but the truth is i know the feeling is not mutual , not now , maybe someday . Till then world , its 5:30 and i ' ve had a pretty amazing night , thank jenny for my very long blog . i must admit not my best , this blog was very \" all over the place \" .\n\nGive answer the following question using evidence from the above passage: Why did they feel this was not their best ?\nOPTIONS:\n- None of the above choices .\n- They thought it was not cohesive .\n- They wanted it to be longer .\n- The feeling was not mutual .",
+        "targets": "They thought it was not cohesive .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Give answer the following question using evidence from the above passage: Why did they feel this was not their best ?\n\n#Person1#: They thought it was not cohesive. \n\n#Person2#: They wanted it"
+    },
+    {
+        "inputs": "I was in the need of a post - dinner / study - break snack . I ' ve been on a health kick since I got back to school and needed something other than the ice cream or thin mints sitting in the freezer . My roommate poked hear head in and handed me the last of her cup of mint tea , made with the chocolate mint I bought and planted a few weeks ago .\n\nGenerate a question about the above context.",
+        "targets": "What might I do after my roommate gives me something ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: I'm looking for a job.<\\conclusion> Do you know of any openings?\n#Person2#: I'm sorry, but I don't.\n#Person1"
+    },
+    {
+        "inputs": "Enjoy the Beauty and Mistique of the Smoky Mountains with our new partner - Mountain Charm Cabin Rentals . Mountain Charm offers a wide variety of lodging options for any Smoky Mountain Vacation . They have honeymoon cabins , secluded cabins , large capacity cabins and resort cabins for rent , as well as cabins that offer indoor swimming pools and movie theaters . They even offer many cabins that allow pets .\n\nAnswer the following question: What may be going on in this situation ?\nOPTIONS:\n- None of the above choices .\n- A company is giving information to customers about their rentals .\n- They are giving a suggestion to someone about cabins .\n- A company is advertising their cabin rentals .",
+        "targets": "A company is advertising their cabin rentals .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be going on in this situation? \n#Person2#: A company is giving information to customers about their rentals. \n#Person1#: What kind of information? \n#Person2"
+    },
+    {
+        "inputs": "Fucking win . In other news : Woke up to an empty half of my bed , with pillows being where Michelle 's head should ' ve been . She ended up surprising me and stopping over which was amazing . Then Luc picked me up and we dropped Michelle off at the mall , started to head to the show , got some food , found out about an asshole , and got to the show .\n\nGenerate a question about the above context.",
+        "targets": "Why did they head to the show ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What's the show about?<\\conclusion>\n\n#Person2#: It's a play about a guy who's a loser.\n\n#Person1#:"
+    },
+    {
+        "inputs": "Dark brown hair , pulled back in a ponytail that reached halfway down his back ; a small , neatly trimmed goatee around a mouth that seemed used to smiling quite often ; deep green eyes that looked real enough you could tell they were n't contacts ; and a nicely formed chin that neither looked too big or too small . He was dressed in a simple green , casual button - down shirt , the kind you wear at work , or out on an informal date , and black jeans . His shoes reiterated the casual - not - casual feel of his attire .\n\nQuestion: What may be a plausible fact about me .\nOPTIONS:\n- I am describing a certain woman .\n- I am describing a certain dog .\n- I am describing a certain man .\n- I am describing a certain pony .",
+        "targets": "I am describing a certain man .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I am describing a certain man."
+    },
+    {
+        "inputs": "Context:And just like that , he vanished from sight . And there they were again , just three UWL students standing in Myrick Park . No titles . No riches and royalty .\nQuestion What do the students in the text have ?\nAnswer:\nOPTIONS:\n- They have titles .\n- They have riches .\n- They have nothing to note .\n- None of the above choices .",
+        "targets": "They have nothing to note .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What do the students in the text have? \n#Person2#: They have nothing to note. \n\nsummary:\n#Person2# tells #Person1# the students in the text have nothing to"
+    },
+    {
+        "inputs": "Not long after Fiddledaddy moved me to Hurricane Alley , Florida , I had a recurrent dream that haunted me . I dreamed that a tornado was eminent , and my only concern was saving my appliances . This was before we had children , of course . Now the children would be my priority .\n\nQuestion: Why   is the narrator dreaming and scared of a possible tornado ?\nOPTIONS:\n- The narrator has recently moved into a disaster prone area .\n- The narrator has recently moved into a tranquil area .\n- The narrator has recently moved into a quiet neighborhood .\n- None of the above choices .",
+        "targets": "The narrator has recently moved into a disaster prone area .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you dreaming and scared of a possible tornado?\n#Person2#: I have recently moved into a disaster prone area."
+    },
+    {
+        "inputs": "I feel so sad sometimes that i ' m not involved in theatre anymore , and when i think about it 's like i have all this energy building up and i need to just go and do a musical . Anyways , i just transferred to a new college , and i met a friend . She is really crazy and very outgoing ! but she is such a great friend !\n\nWhat may happen at their new college ?\nOPTIONS:\n- They will be far away from home .\n- They will go into the theatre program .\n- They will socialize and meet new friends .\n- None of the above choices .",
+        "targets": "They will socialize and meet new friends .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen at their new college? \n#Person2#: They will go into the theatre program. \n\nsummary:\n#Person2# tells #Person1# #Person2#'s friend"
+    },
+    {
+        "inputs": "My husband and I went to the U. of Washington vs. BYU game yesterday , up here in Seattle . I know it is unlikely most of you are football fans , but neither am I. I came to the game for a very different reason , and it had a far more profound effect on me than I thought . My father Frank Jr. was a huge football fan . I say \" was \" because he passed away on March 9 , 2007 , two days shy of my birthday .\n\nAnswer the following question: What state may I be currently living in ?\nOPTIONS:\n- None of the above choices .\n- Oregon\n- Washington\n- Idaho",
+        "targets": "Washington",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What state may I be currently living in?\n#Person2#: Washington.\n\nsummary:\n#Person2# tells #Person1# #Person2#'s father passed away and #Person2#"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nAfter a wonderful weekend with the Cutweb Rally at the Blue Lias pub , we set off for home . The intended route is via Oxford and the Thames .\n\nWhy may the narrator be heading home ?\nOPTIONS:\n- It is the end of their life .\n- It is the end of the vacation .\n- It is the end of the weekend .\n- It is the end of the year .",
+        "targets": "It is the end of the weekend .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why may the narrator be heading home? \n#Person2#: It is the end of their life. \n\nsummary:\nThe narrator is heading home because it is the end of their life."
+    },
+    {
+        "inputs": "My right arm has been starting to worry me . It has recently begun to have a strange sensation in on of my veins . It feels as though my blood has turned into a thick substance with a million ants in it . When my arm points up , I can feel my blood & what seems to be ants rushing slowly down my arm .\n\nBased on the preceding passage, answer the following question Why is the narrator worried about their arm ?\nOPTIONS:\n- They feel a strange sensation .\n- They get a strange feeling when pointing their arm down .\n- They feel that the blood is pumping too fast .\n- They are getting no feeling .",
+        "targets": "They feel a strange sensation .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you worried about your arm? \n#Person2#: Because I feel a strange sensation in my arm. \n#Person1#: What kind of sensation? \n#Person2"
+    },
+    {
+        "inputs": "We sat on the grass watching Mormons do their thing on this girl . And we were like \" oh no , oh no ... oh no ! He 's going to flip to John , ohno ohno . \"\n\nAnswer the following question: Why did they watch the mormons ?\nOPTIONS:\n- None of the above choices .\n- One guy was going to flip to John .\n- They thought it was interesting or entertaining .\n- They were doing something on a girl .",
+        "targets": "They thought it was interesting or entertaining .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction accurately:\n\n\n\narticle:\n<conclusion>#Person1#: I'm going to the movies with <Jane> <tonight>.<\\conclusion>\n#Person2#"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nIt cost me $ 50 to buy a new bicycle tire which is thick enough goatheads ca n't pierce the casing and cause flats . Yesterday I was out cycling around Sparks , and I picked up one of those goatheads . Instead of taking the \" thorn \" out of the tire and thus causing an immediate flat tire , I continued to ride around until I got home and then replaced the old tire and inner tube .\n\nWhat did he enjoy doing ?\nOPTIONS:\n- Going cycling in full tires .\n- None of the above choices .\n- Picking up goatheads .\n- Going cycling and getting a flat .",
+        "targets": "Going cycling in full tires .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Write a question about the article\n\nRachel Dawes had this extremely relaxed , it felt like lounge music . Harvey Dent 's was like a hero riding on a stallion after defeating an enemy , however ... Whenever he got angry the music turned twisted and rotten . The Joker 's overture was this screeching disturbance matter , very chaotic and warm . The music was wonderful , another reason to love this movie .",
+        "targets": "What am I talking about ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately before finishing the instruction. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the response with a comprehensive yet brief conclusion. Additionally, conclude the response with a"
+    },
+    {
+        "inputs": "Write a question about the article\n\nIts fine and soft to the touch and leaves a beautiful texture on your project . Here 's my first attempt at using it . Forgive the blended colours - I ' m experimenting here . Actually , it works with this card because I kind of have a grungy thing going on here . This card was also for today 's \" Ways to Use It \" challenge on Splitcoast which asked us to use torn paper .",
+        "targets": "How many times has this person made a card just like this before ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "I ' ve finally found out how to restore my keyboard navigation . It 's more complicated than I expected -- and as I expected , it turned out to be a combination of OS X prefs and Firefox settings . The key is in this article on tabbing problems in Firefox ( which , to my amusement , includes notes on setting this in Camino as well ) .\n\nWhy has the narrator suddenly become so efficient ?\nOPTIONS:\n- They discovered hot keys .\n- They discovered time blocking .\n- They discovered time management .\n- They discovered pomodoro clocks .",
+        "targets": "They discovered hot keys .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why has the narrator suddenly become so efficient? \n#Person2#: They discovered hot keys. \n\nsummary:\n#Person2# tells #Person1# the narrator has become efficient because they"
+    },
+    {
+        "inputs": "All of my songs are gone , and will need to be ( slowly and painfully ) synced . So , now I ' m copying song 318 of 7111 songs ( and spanish words ) . This is going to suck .\n\nGenerate a question about the above context.",
+        "targets": "What may be the reason why all of their songs were gone ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: I'm sorry to hear that.<\\conclusion> What happened?\n#Person2#: I accidentally deleted all of my songs.\n#Person1#: Oh, that's"
+    },
+    {
+        "inputs": "Iran on Tuesday called for the Organisation of Petroleum Exporting Countries to discuss quota - busting by some members at its meeting in Vienna on September 9 iran newspaper . Iran calls for OPEC to rein in oil supply iran perse . TEHRAN , Sept iran news .\n\nWhat type of policy is being discussed at the meeting ?\nOPTIONS:\n- Energy policy .\n- None of the above choices .\n- Entitlement policy .\n- Welfare policy .",
+        "targets": "Energy policy .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What type of policy is being discussed at the meeting?\n#Person2#: Energy policy.\n\nsummary:\nIran calls for OPEC to rein in oil supply. #Person2# tells #Person"
+    },
+    {
+        "inputs": "I do think that I 'll learn from him though since he 's going to be my first \" scary \" Spanish professor . As for my DEUSTAT , I have Baquiran . He seems really intimidating and serious . He told us that the teaching method he 'll use is going to be like the one people use for people taking up Law . He 's also making us make notes for every reading that he assigns .\n\nQuestion: What is the \" scary \" thing about the method people use for taking up law ?\nOPTIONS:\n- It is legal\n- It is exacting\n- None of the above choices .\n- It has a lot of definition",
+        "targets": "It is exacting",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What is the \" scary\" thing about the method people use for taking up law? \n#Person2#: It is exacting. \n\nsummary:\n#Person2# tells #Person1#"
+    },
+    {
+        "inputs": "its like i was sitting there with nothing to do for 2 days , waiting impatiently for work , and then when galen finally brings the skid over i feel too awful to work . today i was better , and i got most of the structure modeled .\n\nGenerate a question about the above context.",
+        "targets": "Why must have I been feeling too awful to work for the past two days ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: What's the matter with you?<\\conclusion> You look like you've been hit by a truck.\n\n#Person2#: I'm sick. I've"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nHe claimed the time was right for both . Upon learning of his abandonment , John went insane with rage and ran to the only open arms he could find . A desperate , ultra conservative base that had rejected him so long ago , but who John felt really loved him deep down inside . They only beat him when he deserved it . However , John , still smitten with Barack , could n't bear to live without him .\n\nWhat may be the reason for someone taking such abuse ?\nOPTIONS:\n- They do n't want to be treated nicely .\n- They somehow think they deserve it .\n- They do n't want to belong to anybody .\n- They secretly like it .",
+        "targets": "They somehow think they deserve it .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason for someone taking such abuse? \n#Person2#: I think they do n't want to be treated nicely. \n\nsummary:\nJohn ran to the only open arms"
+    },
+    {
+        "inputs": "It 's sad that I just got paid last night , and after paying bills I ' m already down to my last $ 300 . For the rest of the month . That 's probably how much gas will cost me for the rest of the month . And I only get paid ... you guessed it , once a month . And speaking of the dire gas situation ... I filled my tank up on Saturday at the Costco . I was running on fumes , and at $ 3.83/gallon , it took $ 51.00 for me to fill up my tank .\n\nGenerate a question about the above context.",
+        "targets": "What might happen if you continue to get small paychecks ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What's the matter?\n#Person2#: I'm broke.\n#Person1#: What do you mean?\n#Person2#: I just got paid last night, and after paying"
+    },
+    {
+        "inputs": "Write a question about the article\n\nAfter a long flight we sure love to get a good sleep . But it 's afternoon in Beijing and we need to adjust to the local time . We took a quick nap and woke up in the early evening in time to take a stroll around the neighborhood . Our hostel is nearby the old drum tower which is located near a busy street .",
+        "targets": "Why does a long flight require the speaker to then have to adjust to the local time ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately before finishing the response. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the response properly. Specifically emphasize and accurately represent entities enclosed between '<'"
+    },
+    {
+        "inputs": "Write a question about the article\n\nHe was actually right next door to it . The reason no one knew about it was the guy had just started his hostel 3 days ago . We paid for a 10 bed dorm , but there were only 4 beds .",
+        "targets": "Why does the narrator seem to feel ripped off ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Write a question about the article\n\nIn my high school German classes , at least the first year , we had ' lab ' in computer rooms . It was mostly add on tasks that were not very well applied , and the instruction was more or less lackluster . I really , to this day , do n't know why we had these labs .",
+        "targets": "What did the labs teach you ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nThese days , keyless entry generally involves a wireless remote either built into the key ( my Honda ) or as a separate key fob ( my mom 's Camry ) . At some point , Mercury added that feature to the Grand Marquis , but in 1992 it involved a five - button keypad on the door . ( Newer ones still have the keypad , in addition to the remote . ) This means that I can leave the keys in the ignition when I go to the grocery store , thus eliminating that unsightly bunch - of - keys bulge in my pocket .\n\nWhy would the narrator leave their keys unattended ?\nOPTIONS:\n- The keys are n't theirs to begin with .\n- They gave them to a friend actually .\n- The keys no longer work .\n- It helps their fashion look .",
+        "targets": "It helps their fashion look .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why would the narrator leave their keys unattended?\n#Person2#: They gave them to a friend actually."
+    },
+    {
+        "inputs": "Answer the question about text:\n\nHe spent RS 13,475 in a single night at a biryani joint . To make this clear , a single person would find it difficult , especially in these lower - end joints , to spend more than RS 30 on all the biryani he could possibly eat , plus a few pints of beer and a couple of pieces of furniture thrown in . He must have really done something ridiculous .\n\nDoes the person in question know how to have a good time ?\nOPTIONS:\n- None of the above choices .\n- This person could spend RS on a nice meal , instead they frequent low end joints and are miserable .\n- This person is clearly unhappy and eats way to much biryani .\n- This person is accustomed to spending RS in low end joints , they frequently overindulge and have a good time .",
+        "targets": "This person is accustomed to spending RS in low end joints , they frequently overindulge and have a good time .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: This person is accustomed to spending RS in low end joints, they frequently overindulge and have a good time."
+    },
+    {
+        "inputs": "THIS HAPPENED AND THAT HAPPENED \" ( none of his problems were severe , sounds a little harsh but they really were n't ) he was just a little overwhelmed by a pile of smaller problems . HOWEVER , i did nt appreciate being yelled at , so when i got angry i began to yell and he got quiet . He said he admits he was being an A - hole to me and taking his problems out on me . but it 's not the first time he 's conducted himself like that towards me \" because of an outside problem he was having prior to our hanging out .\n\nGive answer the following question using evidence from the above passage: What may be the reason for their partner 's outbursts ?\nOPTIONS:\n- They want to push their partner away .\n- They have been under a lot of stress .\n- They have too much bottled up anger .\n- None of the above choices .",
+        "targets": "They have been under a lot of stress .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason for their partner's outbursts?\n#Person2#: They have too much bottled up anger."
+    },
+    {
+        "inputs": "You were an inspiration , a no - nonsense person with a big heart . This has been the hardest loss to take because I 'd promised to see you ... but for some reason , it was n't in the cards . I have to believe that it was for a reason : so I did n't have to see you but in my mind 's eye . You always said that I was a good writer , but today , I ca n't find the words .\n\nGenerate a question about the above context.",
+        "targets": "Why is the narrator so heart broken ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately:\n\nInstruction:\n\n\n\n\narticle:\n<conclusion>#Person1#: I'm going to the movies with <Jim>.<\\conclusion>\n#"
+    },
+    {
+        "inputs": "We got some bad news while in Michigan that Brian 's mom was in the hospital . Although she said she was fine ( she was fine , but still had to hear it from the doctors ) and she did not want us to end our trip , we started to head back to Columbus . While on the way back Dad called and asks us if we wanted to attend the Red , White , and BOOM celebration in downtown on the 3rd with my cousin . This has been a tradition in Columbus for that last twenty years or so .\n\nAnswer the following question: Why did they end their trip early ?\nOPTIONS:\n- Brian 's mom was going to pass away soon .\n- None of the above choices .\n- They wanted to be in the hospital with Brian 's mom .\n- They needed to pick up Brian 's mom from the hospital .",
+        "targets": "They wanted to be in the hospital with Brian 's mom .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why did they end their trip early?\n#Person2#: They wanted to be in the hospital with Brian's mom.\n\nsummary:\n#Person2# tells #Person1# they ended their trip"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nWhat a lively bunch . ( From front to back : Cooper , Peaches , Mija , Wesley , Captain Jack , BJ , and me . ) The reason Wesley came over - besides to visit - is because he is having hydro - therapy and Aunt Carol wanted to use our pool for one of his treatments . For a greyhound , Wesley 's a really good swimmer .\n\nWhat might the lively bunch in the pictures be ?\nOPTIONS:\n- There were six gorgeous sprinter dogs and me .\n- They were a greyhound dog and all of her kittens .\n- It was a picture of my mom and her siblings .\n- They were a picture of me and my brothers and sisters .",
+        "targets": "There were six gorgeous sprinter dogs and me .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What might the lively bunch in the pictures be? \n#Person2#: They were a picture of my mom and her siblings. \n\nsummary:\n#Person2# tells #Person1#"
+    },
+    {
+        "inputs": "There we played racquetball and swam . Right now I am listening to a cassette of music by Mozart . On Wednesday I went with Casey to his company picnic . On Tuesday I went on a walk with Melanie .\n\nGive answer the following question using evidence from the above passage: What was the reason for the walk ?\nOPTIONS:\n- I went with Casey to his company picnic ?\n- I wanted to catch up with Melanie .\n- I wanted to enjoy Mozart .\n- None of the above choices .",
+        "targets": "I wanted to catch up with Melanie .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What did you do on <Saturday>? \n#Person2#: I went to the movies with <Jim>. \n#Person1#: What did you see? \n#Person2"
+    },
+    {
+        "inputs": "Winds blowing out to left field at 10 - 15 m.p.h . Game Time temperature : Around 70 . Complete Coverage > Sat 09/13 Jo - Jo Reyes vs Pedro Martinez Mostly cloudy . Winds blowing out to center field at 5 - 10 m.p.h .\n\nBased on the preceding passage, answer the following question What may be a fact about this statement ?\nOPTIONS:\n- It is a weather report for a soccer field .\n- It is stating the weather report for a town .\n- It is a weather report for a baseball stadium .\n- It is stating the current weather at a soccer stadium .",
+        "targets": "It is a weather report for a baseball stadium .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be a fact about this statement? \n#Person2#: It is a weather report for a baseball stadium. \n\nsummary:\n#Person2# tells #Person1# it is a"
+    },
+    {
+        "inputs": "Write a question about the article\n\nLike a foreign language . The tone of the creature 's voice changed . \" Aurelia , do you know what I ' m going to do to you if you do n't show yourself to me ? I ' m going to kill you .",
+        "targets": "Why did the tone of the creature 's voice change ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI always get hit with a bad case of post con blues . Work is OK , same old same old . Got into a big argument with my boss because she wanted to not pay me for the days I was gone . Sorry , no , I will have to work off ( or already have ) these days .\n\nWhy is the narrator feeling a bit down ?\nOPTIONS:\n- They are in withdrawal from work .\n- They are in withdrawal from being fired by their boss .\n- None of the above choices .\n- They are in withdrawal from a recent nerd event .",
+        "targets": "They are in withdrawal from a recent nerd event .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you feeling a bit down? \n#Person2#: I always get hit with a bad case of post con blues. \n#Person1#: What's that? \n#Person"
+    },
+    {
+        "inputs": "Context:My training plan has the longest run at 10miles , which is a distance I have never acheived . In fact , my longest run was 8 miles and that was last summer when I was running a lot more than I am now . But the best part about my training program is that it is starting me out slow and with a few miles and working my way up slowly .\nQuestion Why do I use a training program for running now ?\nAnswer:\nOPTIONS:\n- To make me spend more time in the activity .\n- To get me to run as much as last summer .\n- To help me exceed my personal max distance .\n- To let me jog slowly for miles .",
+        "targets": "To help me exceed my personal max distance .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: Why do I use a training program for running now?<\\conclusion>\n#Person2#: To make you spend more time in the activity.\n\nsummary:\n#Person2# tells"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nWhen the D is shutting down opponents like that and getting the Linc rowdy , does that energy translate at all to when you guys get on the field ? You feed off all the energy that your fans present . You try to show them positive plays and we did that early on . Our defense was blitzing , getting to the quarterback , getting sacks .\n\nWhat will happen if the crowd is excited and loud during the game ?\nOPTIONS:\n- Our team will feed off that energy and will perform better because they feel supported and motivated\n- The team will struggle to play well because they 'll get too caught up in the crowd being rowdy\n- None of the above choices .\n- The team will struggle to concentrate because the rowdy crowd will be distracting",
+        "targets": "Our team will feed off that energy and will perform better because they feel supported and motivated",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: The team will struggle to concentrate because the rowdy crowd will be distracting. \n\nsummary:\n#Person1# tells #Person2# that the team will struggle to concentrate because the rowdy"
+    },
+    {
+        "inputs": "Her father married her to a first cousin she scarcely knew . When Miryam had trouble feeding her firstborn , a girl named Rifqa , she and my grandfather gave the baby to a wet nurse . But the wet nurse disappeared , and the baby girl was never seen again . Three of Savta 's children had moved away to America , and we gathered that my grandfather , who died 13 years earlier , had grown distant long before that .\n\nBased on the preceding passage, answer the following question Why did her father marry her to a first cousin she scarcely knew ?\nOPTIONS:\n- Her father married her to a first cousin she scarcely knew because she could live in America if she did .\n- Her father married her to a first cousin she scarcely knew because he did n't want the cousin to cheat on wet nurses .\n- Her father married her to a first cousin she scarcely knew because Rifqa and Savta asked him to do so .\n- Her father married her to a first cousin she scarcely knew because he wanted the children to be close to his family .",
+        "targets": "Her father married her to a first cousin she scarcely knew because he wanted the children to be close to his family .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Her father married her to a first cousin she scarcely knew because he wanted the children to be close to his family."
+    },
+    {
+        "inputs": "Write a question about the article\n\nThe rest of the family like , even love the place . I am the odd one out . I am also the only one in the family whose relationship with the house is as intensely intimate as only the connection between a building and its chief caretaker can be . In cases where this relationship is a love affair - this is not one of those , I assure you - the burden of stewardship , while still onerous , is lightened by periodic surges of pride and joy .",
+        "targets": "Why do I feel like the odd one out ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction accurately while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\conclusion>'"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI downloaded 3 torchwood episodes . All of them were not fully downloaded when my comp turned it self off . Also I was using gift card money . When i turned on my p.c I could n't find the eps in the downloading file or purchased file and I has taken away money Will they come back or am I screwed ?\n\nHow did I feel after what happened ?\nOPTIONS:\n- I enjoyed watching the episodes .\n- None of the above choices .\n- I feel frustrated that I spent money on the episodes that did n't downloaded .\n- I love the episodes and they made me happy .",
+        "targets": "I feel frustrated that I spent money on the episodes that did n't downloaded .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm sorry to hear that. \n\nsummary:\n#Person1# tells #Person2# that #Person2# downloaded 3 torchwood episodes but they were not fully downloaded when #Person2"
+    },
+    {
+        "inputs": "Write a question about the article\n\nI bought myself birthday presents . I ordered \" Ink Exchange \" by Melissa Marr from Borders . The books been out for months and I ' ve been waiting until I was sure I had the money for college before getting it . And I treated myself to some sushi . 12 pieces for less than $ 5 ?",
+        "targets": "What may be the reason for this person buying gifts for themselves ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nSarah Palin ? ? Come on . Good for her , but I find it pretty obvious that McCain 's VP choice addresses two of the biggest issues that he faces - age and gender bias .\n\nWhy does the narrator believe McCain chose Palin ?\nOPTIONS:\n- To help with the Latino vote .\n- To help with the country .\n- To help with concerns of gender bias by McCain .\n- None of the above choices .",
+        "targets": "To help with concerns of gender bias by McCain .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does the narrator believe McCain chose Palin? \n#Person2#: To help with the Latino vote. \n\nsummary:\nThe narrator believes McCain chose Palin to help"
+    },
+    {
+        "inputs": "I have n't written anything too substantial lately . Actually , I have n't written anything at all lately ! I feel like I ' ve been very busy and have had little time to sit at my computer and think . But on the bright side , I ' ve gotten my house more organized and have spent more time with some friends .\n\nQuestion: Why does the narrator seem a bit guilty ?\nOPTIONS:\n- They have let their house get messy .\n- They have not organized their house .\n- They have not written much .\n- None of the above choices .",
+        "targets": "They have not written much .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does the narrator seem a bit guilty? \n#Person2#: They have not written much. \n\nsummary:\n#Person2# thinks the narrator seems a bit guilty because the narrator"
+    },
+    {
+        "inputs": "I mean seriously , this had to be the saddest pb&j sandwich I ' ve ever had the misfortune to buy . I forgot breakfast this morning , so when I hit campus I decided to get something . I decided to get a pb&j sandwich , so I ordered one on multi grain bread . They did n't have multi grain bread , so it was soft roll or nothing .\n\nAnswer the following question: What do we know about the sandwich ?\nOPTIONS:\n- It was on multi grain bread .\n- It was the first choice for breakfast .\n- It was a disappointment .\n- None of the above choices .",
+        "targets": "It was a disappointment .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What do we know about the sandwich?\n#Person2#: It was on multi grain bread.\n#Person1#: Oh, that's a pity.\n#Person2#: Yes,"
+    },
+    {
+        "inputs": "Write a question about the article\n\nAnd yet , I avoid being alone in public places . I avoid the very experience I enjoy so much -- that of having the luxury to people watch . There 's such a stigma to being alone , especially as a woman . You are automatically lonely -- bitterly resigned to life as an aging spinster .",
+        "targets": "How does the speaker feel about herself ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Context:I just found out a couple of hours ago that one of my ex boyfriends died in a motorcycle accident 3 days ago . Thinking about this made me realize how much my current boyfriend meant to me and how much I loved him . I ' ve tried calling him numerous times in the past two hours and I have n't gotten an answer .\nQuestion How would you describe the narrators feelings about the death of her ex ?\nAnswer:\nOPTIONS:\n- She wants to reach out to a current loved one .\n- She is heart broken by his death .\n- None of the above choices .\n- She realizes she still loved him .",
+        "targets": "She wants to reach out to a current loved one .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: How would you describe the narrator's feelings about the death of her ex?<\\conclusion>"
+    },
+    {
+        "inputs": "Context:He 's going to wish he was still hanging out with me in a couple of months when I ' m skinny . That night I hopped onto the treadmill in our basement and never looked back . Every night during the week I got on the treadmill like clockwork and went at least three miles . Slowly the weight came off and then almost over night it was as if I had dropped twenty pounds .\nQuestion What is the reason He 'll like me when I 'm skinny ?\nAnswer:\nOPTIONS:\n- None of the above choices .\n- I will be able to lift you\n- I can play games better because I 'll be in better weight .\n- I will look better and more fit and attractive .",
+        "targets": "I will look better and more fit and attractive .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: I will look better and more fit and attractive.<\\conclusion>"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI have little hobbies here and there like baking , watching lots and lots of tv and movies , and making movies / dramas . I have 2 jobs right now . I am an intern at a church , and I am a delivery driver for Pizza Hut . The church gig is pretty sweet , I get paid very well for an intern .\n\nWhat is the narrator likely to do when not working at one of their jobs ?\nOPTIONS:\n- They are likely to be doing drugs .\n- They are likely to be pursuing side projects .\n- None of the above choices .\n- They are likely to be out with friends .",
+        "targets": "They are likely to be pursuing side projects .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What is the narrator likely to do when not working at one of their jobs?\n#Person2#: They are likely to be pursuing side projects."
+    },
+    {
+        "inputs": "Context:The beer , however , came to $ 50 . We had 8 beers between the 4 of us . ) Then off we went to the Egyptian Museum which has the majority of the antiquities from the country in it . The sad thing is that the museum is , like so many things in the country , falling apart .\nQuestion what happened after he went to the museum ?\nAnswer:\nOPTIONS:\n- he bought the museum\n- he sold the museum\n- None of the above choices .\n- he left the country",
+        "targets": "he left the country",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What happened after he went to the museum? \n#Person2#: He bought the museum. \n\nsummary:\n#Person2# tells #Person1# what happened after he went to the museum."
+    },
+    {
+        "inputs": "I decided that today would be a good day to take a sick day . Last night Jodi and I broke up and I ' m thinking this time it 's for good . I come to find out that I was being lied to and in a sense even cheated on . Over the 4th , she lied to everyone about where she was going .\n\nWhat happened after last night ?\nOPTIONS:\n- Jodi and I broke up for good .\n- I found out Jodi cheated on me .\n- I decided to take a sick day .\n- Jodi lied about where she was going .",
+        "targets": "I decided to take a sick day .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What happened after last night?\n#Person2#: Jodi and I broke up for good.\n\nsummary:\n#Person2# tells #Person1# Jodi and #Person2# broke up for"
+    },
+    {
+        "inputs": "I walked down a couple of blocks , filled with interesting shops , but there was n't a temple in sight . I finally stopped for a moment , took out my map and tried to orient myself . After consulting one of the shop owners , we determined that I needed to backtrack a bit and go over a couple of streets .\n\nwhat was I seeking ?\nOPTIONS:\n- None of the above choices .\n- Photos of temples\n- Religious site .\n- tourist shop",
+        "targets": "Religious site .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What was I seeking?\n#Person2#: Photos of temples.\n\nsummary:\n#Person2# tells #Person1# #Person2# was seeking photos of temples."
+    },
+    {
+        "inputs": "Best Syndication News A home is generally the largest financial investment most people will ever make . Buying a house or flat is a costly process but one that can , and usually does , pay off in the future . Whether the benefits are financial such as when it comes to selling it on and gaining equity , or practical by simply ensuring a family home for years to come , they will generally be welcome . It is inevitable then , that so many people wish to undertake a little home improvement .\n\nQuestion: What may be a valid fact about a home ?\nOPTIONS:\n- Keeping a home long term may cause its owner to lose equity .\n- Frequently a home may bring profit to the owner upon its eventual sale .\n- It may involve very little money to go through and complete a home purchase transaction .\n- Overall , making enhancements to the property may not be attractive with homeowners .",
+        "targets": "Frequently a home may bring profit to the owner upon its eventual sale .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm looking for a house.\n#Person2#: What kind of house are you looking for?\n#Person1#: I'm looking for a house with a garden.\n#Person2#"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI start looking for the screaming woman and finally figure out it 's coming from an apartment at the end . All the other neighbors are hiding behind their doors and the woman screaming is in the upstairs apartment . I go up there and knock . I yelled if everything was okay , if she needed the police .\n\nWhy did the narrator knock at the door ?\nOPTIONS:\n- None of the above choices .\n- To see if the apartment was clean .\n- To see if the woman was home .\n- To see if the woman was alright .",
+        "targets": "To see if the woman was alright .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why did the narrator knock at the door? \n#Person2#: To see if the apartment was clean. \n\nsummary:\nThe narrator knocks at the door to see if the a"
+    },
+    {
+        "inputs": "Very professional . Anyway , then today has been good . Had a nice class and nothing much else , and it was very sunny so I worked outside all afternoon ! Very nice , very oxfordy .\n\nBased on the preceding passage, answer the following question What country may I be currently living in ?\nOPTIONS:\n- Canada\n- England\n- None of the above choices .\n- United States",
+        "targets": "England",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What country may I be currently living in? \n#Person2#: I'm from <Canada>. \n\nsummary:\n#Person2# tells #Person1# #Person2#'s"
+    },
+    {
+        "inputs": "Context:I was so excited to hear she had made the leap , but while I finished up the whirlwind of getting dinner on the table and Brian out the door to go to a colleague 's going away party , a sad thought materialized . I had missed her first success on the potty . I quickly called Brian to share my sorrow . He immediately helped me to focus on the positive .\nQuestion Which of the following is true of the narrator ?\nAnswer:\nOPTIONS:\n- She is the mother of a young child .\n- None of the above choices .\n- She had her first success on the potty .\n- She wrote to Brian to share her sorrow .",
+        "targets": "She is the mother of a young child .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "One shade of blue -- and shiny , even ! There are still a few issues , some of which probably will not wind up being corrected completely , but it 's a heck of a lot better than it had been . I spent way too much money on it , of course . It 's probably worth just a tiny bit more now than the money I spent painting it ...\n\nGenerate a question about the above context.",
+        "targets": "Why did the narrator spend more money than expected ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: I'm thinking of buying a new car.<\\conclusion> What do you think of this one?\n#Person2#: It's a good car. It's got a"
+    },
+    {
+        "inputs": "What the heck is it with these doinks who wear their trousers down around their knees ? Why do they think it looks cool ? Are they as brain - dead as they are ridiculous ?\n\nAnswer the following question: How does the writer feel about saggy pants ?\nOPTIONS:\n- He thinks they look cool .\n- He thinks they 're stupid .\n- None of the above choices .\n- He thinks they 're the bee 's knees .",
+        "targets": "He thinks they 're stupid .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: How does the writer feel about saggy pants? \n#Person2#: He thinks they 're stupid. \n\nsummary:\n#Person2# thinks the writer thinks saggy pants are stupid"
+    },
+    {
+        "inputs": "Context:Sure , DFW made you work -- the footnotes , the endnotes , the digressions and philosophical asides , the brain - stretching vocabulary and sentence structure -- but it was totally worth it . You feel smarter after you read his writing , you feel you ' ve been somewhere you did n't even know existed , like you ' ve peeked through all these oddly - shaped windows in weird buildings and seen all the fascinating things happening right on the other side of the glass . DFW never yanked your chain or threw stuff in just to make himself look clever -- he really was the genuine article .\nQuestion Why does the narrator think DFW stands out ?\nAnswer:\nOPTIONS:\n- DFW was not pompous .\n- DFW was flowery .\n- DFW was over the top .\n- None of the above choices .",
+        "targets": "DFW was not pompous .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction accurately and comprehensively while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<"
+    },
+    {
+        "inputs": "A week later I heard a loud thud as the UPS man left a small box at the front door . I went out , bent over and was stunned at the difficulty in lifting this small box . I barely got it inside , opened it and found thirteen boxes of folders , each containing fifty folders . When my husband came home that night , I presented him with the 25 pound box , that 's 650 folders to symbolize a lifetime of forever love .\n\nGive answer the following question using evidence from the above passage: About how much does each box of folders weigh ?\nOPTIONS:\n- None of the above choices .\n- About 2 pounds .\n- About 3 pounds .\n- About 4 pounds .",
+        "targets": "About 2 pounds .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person2#: About 4 pounds."
+    },
+    {
+        "inputs": "( Technically , I even have one myself , although she still needs a damn faceup . ) In Ohio , the big thing was DoTs , but I do n't think I saw a single DoD doll at the Seattle meetup.2 . I had no idea Catsy was so goddamn tiny .\n\nWhat may happen if I did not go the meet up ?\nOPTIONS:\n- I would lose my job\n- I would not be able to buy my stuffed animals .\n- None of the above choices .\n- I would still meet my friends",
+        "targets": "I would not be able to buy my stuffed animals .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen if I did not go the meet up?\n#Person2#: I would lose my job.\n\nsummary:\n#Person2# tells #Person1# what may happen if #Person1"
+    },
+    {
+        "inputs": "Write a question about the article\n\nI did not get up this morning and head directly to my scraproom which by the way looks like a bomb went off in it . Instead I took a ride to the barn to give my Lizzy a nice cool bath . I have to say that I really miss her and I have n't ridden her since Memorial Day weekend . She looks great .",
+        "targets": "What is Lizzy ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "I got a pleasant surprise at dinner tonight . My friend passed me my CD sleeve ... and I thought it was weird . When I turned it over , my heart melted and I saw a message written by Jason Mraz on it .\n\nQuestion: What did my friend do to surprize me .\nOPTIONS:\n- He had an artist autograph my tablecloth .\n- He had an artist autograph my plate .\n- He had an artist autograph my shirt .\n- He had an artist autograph my cd .",
+        "targets": "He had an artist autograph my cd .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What did your friend do to surprise you? \n#Person2#: He had an artist autograph my cd. \n\nsummary:\n#Person2#'s friend had an artist autograph #Person"
+    },
+    {
+        "inputs": "thurs fri did nt go to school . sat and sun weekends . saw a doc on thurs , he said i had gastritis viral ( again ) . since i ' ve gotten it before , i thought no big deal .\n\nGive answer the following question using evidence from the above passage: What may happen after their diagnosis ?\nOPTIONS:\n- None of the above choices .\n- They will get a doctor 's note for school .\n- They will continue back to school on Monday .\n- They wo n't be able to leave their house .",
+        "targets": "They will get a doctor 's note for school .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What may happen after their diagnosis?<\\conclusion>"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nhello!andrew over at thinkspace gallery interviewed me a few days ago , right after i returned from my solo show there , Raveled , from august 8th.normally i am not fond of interviews , but i guess i felt comfortable talking to andrew , so i answered them pretty loose and easily.but i did n't know it was going to be posted so fast , and everywhere ( i saw it on juxtapoz too),so i apologize if it sounds too casual and scattered . oops . please read the original version here on their blog , or under the cut below . AN INTERVIEW WITH STELLA IM HULTBERG:1 ) Please give us a lil ' background info on yourself .\n\nWhy did Andrew interview the speaker ?\nOPTIONS:\n- None of the above choices .\n- He was interviewing the speaker for a potential job opening\n- For an online blog so that he could publish the interview\n- Andrew is romantically interested in the speaker and wants to know if they would be a good partner",
+        "targets": "For an online blog so that he could publish the interview",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm sorry, I don't understand.\n#Person2#: I'm asking you to help me with my English homework.\n#Person1#: Oh, I see. I'll"
+    },
+    {
+        "inputs": "The thought of it makes me smile because in spite of the fact that I am not meant for them , and they are not meant for me , there were happy memories . Like this guy from 2002 . We were never lovers ; we were never friends in the first place but there was something different ( at least on my part ) about us . It was a work in progress .\n\nGenerate a question about the above context.",
+        "targets": "What may be the reason for smiling when remembering people from their past ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What's the matter?<\\conclusion> You look upset.\n#Person2#: I'm not sure. I'm not sure what to do.\n#Person1#"
+    },
+    {
+        "inputs": "We ' ve got a mystery maybe . One wandered near Mom and Dad 's daylight basement , baaah - ing in apparently searching terms : Where are my goat friends ? He then got stubborn and would n't leave . I then went out and tried leading him ; he seemed fine with following me .\n\nGenerate a question about the above context.",
+        "targets": "What may be the reason I have goat friends ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: What's the matter with your goat?<\\conclusion>\n\n#Person2#: He's been wandering around the house.\n\n#Person1#: What do"
+    },
+    {
+        "inputs": "I killed the mood by saying , \" Fine I 'll get knocked up right now ! \" It 's pretty funny , though . My mom said she and dad would react the same way Juno 's parents would have . They would have calmly helped me out and they would ' ve let me keep my baby too .\n\nWhy did the narrator say she 'll get knocked up right now ?\nOPTIONS:\n- None of the above choices .\n- She is already pregnant .\n- She was just kidding .\n- She wants to have a baby .",
+        "targets": "She was just kidding .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why did the narrator say she'll get knocked up right now? \n#Person2#: She was just kidding. \n\n\n\n\nsummary:\n#Person2# tells #"
+    },
+    {
+        "inputs": "if i ever say otherwise . I mean , how stupid are you ? You cheat on me then assume i 'll want to be your best friend aferwards ? I actually saw him at the library a few weeks ago when i was doing my taxes online .\n\nQuestion: Why is the narrator not interested in talking to the man ?\nOPTIONS:\n- The man committed infidelity .\n- None of the above choices .\n- The man cheated on his taxes .\n- The man stole her tax return .",
+        "targets": "The man committed infidelity .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm sorry, I can't talk to you right now.\n#Person2#: Why not?\n#Person1#: Because you cheated on me.\n#Person2#: I'"
+    },
+    {
+        "inputs": "That little girl is going to look so cute in her little outfits ! ! ! ! ! Ok I think she will be adorable no matter what she wears . She is my niece after all ! ! ! ! ! ! ! I just ca nt wait to meet her .\n\nQuestion: Why does the speaker feel confident that the girl will look cute in the outfits ?\nOPTIONS:\n- Because she is being paid to promote these specific outfits and is lying about the benefits\n- Because she wants the girl to win the beauty pageant and is being hopeful that she will\n- Because the girl looks cute in most outfits , and these should n't be any exception\n- Because she is being paid to recommend the outfits for the girl and is trying to be convincing",
+        "targets": "Because the girl looks cute in most outfits , and these should n't be any exception",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Because she is being paid to promote these specific outfits and is lying about the benefits."
+    },
+    {
+        "inputs": "The bigger thing was that he was very vocal that he did n't want to do a cameo . We tried desperately to put him in the movie , but he was making it very clear that he wanted the movie to focus on him significantly , which , frankly , he deserves . \" Shatner claims he was never approached for a cameo . In fact , he claims this in a YouTube clip you can view after the jump . He also supplies a simple solution to the big problem Abrams cites , namely that Captain Kirk already died onscreen .\n\nAnswer the following question: Why would William Shatner be miffed at some people ?\nOPTIONS:\n- He is being discriminated against .\n- He is being assaulted .\n- He is being yelled at .\n- He is being restricted from playing his main role .",
+        "targets": "He is being restricted from playing his main role .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "He is being restricted from playing his main role."
+    },
+    {
+        "inputs": "Answer the question about text:\n\nI told my mother I was going to walk from JC Penny to my house , and that I would call her again when I was there , to ensure that I was alive and that someone was looking out of me . walking back was pretty uneventful , except that for about five minutes the wind was blowing directly into my face , and I did n't have a scarf . thank goodness I had proper gloves , not the knit kind but the leather kind , and my jacket was waterproof .\n\nWhy did his mother want him to call her from JC Penny ?\nOPTIONS:\n- None of the above choices .\n- to make sure he was getting coffee\n- to make sure he bought her clothes\n- to make sure he was safe",
+        "targets": "to make sure he was safe",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why did your mother want you to call her from JC Penny?\n#Person2#: She wanted to make sure I was getting coffee.\n\nsummary:\n#Person2# tells #Person1#"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nWhen Kickass Daughter came home for a few days at the end of the summer , I annoyed her deeply by demanding that she go through everything in her room and weed out the nonessentials . Feeling violated ( she hates to throw out things ) and put - upon ( this was her only vacation all summer ! ) she managed to get through it .\n\nWhat will happen between the father and daughter after the cleaning ?\nOPTIONS:\n- They will ultimately go their separate ways .\n- None of the above choices .\n- They will ultimately get mad and never forgive one another .\n- They will ultimately forgive one another .",
+        "targets": "They will ultimately forgive one another .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What will happen between the father and daughter after the cleaning? \n#Person2#: They will ultimately forgive one another. \n\n\n\n\nsummary:\n#Person2# tells #Person1"
+    },
+    {
+        "inputs": "Her mum refused to give into believing that she would spend the rest of her life laying there . So she called her prayer team , and other churches and they prayed fervently and earnestly for this young woman . Well , the eighth day the paralysis lifted . The doctor said he 's never in his life seen anyone with that many strokes walk out of the hospital !\n\nGive answer the following question using evidence from the above passage: What did the prayer team do ?\nOPTIONS:\n- They refused to lay in the hospital .\n- They most likely prayed for this woman who had had the strokes for eight days .\n- They called on other churches to pray for them fervently .\n- They left the hospital when the doctor came in .",
+        "targets": "They most likely prayed for this woman who had had the strokes for eight days .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The prayer team called on other churches to pray for them fervently and earnestly for this young woman."
+    },
+    {
+        "inputs": "They have all the tacky decorations you can get from Oriental Trading and are .... well , boring . When my friend got married , they had the reception in the community center , and it lasted for 45 minutes and consisted of punch and snacks ( like mixed nuts and mints ) . After the bride and groom arrived , there was a non - alcoholic toast and they cut the cake . Everyone had some cake while we all watched the bride and groom open their presents .\n\nGenerate a question about the above context.",
+        "targets": "What best explain 's the wedding 's budget ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately before instruction.\n\n\n\n\narticle:\n<conclusion>#Person1#: I'm going to the movies with <Jane> <tonight>.<\\conclusion>"
+    },
+    {
+        "inputs": "New Corolla ! We managed to find a 2009 that barely had 250 miles on it , so we get what is essentially a brand new car for $ 2 K less than we 'd expect . It 's black ; I ' m not too hot on that .\n\nAnswer the following question: What seems to be exciting the narrator ?\nOPTIONS:\n- They got a deal on a black car .\n- None of the above choices .\n- They just ran 250 miles .\n- They got a great car deal .",
+        "targets": "They got a great car deal .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What seems to be exciting the narrator? \n#Person2#: They just ran 250 miles. \n\nsummary:\n#Person2# tells #Person1# they just ran"
+    },
+    {
+        "inputs": "Context:I was trying to compose a post yesterday that was just not coming together , largely because it was A Serious Post , and I really do n't do serious very well - particularly when the \" serious \" is to do with my own tranny status . Since we moved house , I ' ve been dressing up pretty much every day . Not in super - full - tranny regalia : sometimes , just clothes , sometimes more , sometimes less . But pretty much every day .\nQuestion What may be the reason why they cross dress at least a little every day ?\nAnswer:\nOPTIONS:\n- They are not ready to transition .\n- None of the above choices .\n- They are working on transitioning .\n- They want to make sure this is something they want .",
+        "targets": "They are working on transitioning .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason why they cross dress at least a little every day?\n#Person2#: They are working on transitioning."
+    },
+    {
+        "inputs": "I do n't usually love ceviche , but this was firm and flavorful . The mains were pork enchiladas and skirt steak with garlic chorizo mashed potatoes . The rice pudding for dessert was nice , however the other , 2 scoops of vanilla ice cream , was surprisingly plain .\n\nQuestion: What kind of person is the narrator ?\nOPTIONS:\n- None of the above choices .\n- They are a homeowner .\n- They are a foodie .\n- They are a foreign exchange student .",
+        "targets": "They are a foodie .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What kind of person are you? \n#Person2#: I'm a foodie. \n#Person1#: What's a foodie? \n#Person2#: It's"
+    },
+    {
+        "inputs": "The 2008 Asian bronze medallist is now an Olympic medallist . \" All sportspersons dream of an Olympic medal . I was upset after losing the first round , which I could have won . \" Asked how he felt during the periods in between the Repechage bouts , Sushil said : \" There is not much time to think .\n\nGenerate a question about the above context.",
+        "targets": "What may be the reason for not having enough time to think ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately before instruction.\n\n#Person1#: The 2008 Asian bronze medallist is now an Olympic medallist.\n#Person2#: Really?\n#Person1"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI remember something Beth said . She told me that after she returned home from a trip with Lucius she would always feel that he had grown . I feel that way with Elias , he 's changing from a baby to a little boy . The trip ended with a soggy Sunday .\n\nHow do I feel about Elias ?\nOPTIONS:\n- I think he 's growing up fast .\n- None of the above choices .\n- I think he 's underfed .\n- I think he 's not growing fast enough .",
+        "targets": "I think he 's growing up fast .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: How do you feel about Elias? \n#Person2#: I think he's growing up fast. \n\nsummary:\n#Person2# tells #Person1# that Elias is growing up"
+    },
+    {
+        "inputs": "I wish everyone loved coconut as much as I do . \" Immediately , the entire population of the world was seized with an intense longing for coconut . Nobody cared about his or her gold anymore . There was a run on the limited world stores of coconuts and people began to hoard them .\n\nWhat may be the reason why coconut supplies are limited ?\nOPTIONS:\n- Stores began hoarding them .\n- None of the above choices .\n- Everyone is buying them .\n- Farmers are limiting them .",
+        "targets": "Everyone is buying them .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm sorry, but I don't know. I'm not sure.\n\nsummary:\n#Person1# tells #Person2# that #Person1# doesn't know the reason why co"
+    },
+    {
+        "inputs": "Write a question about the article\n\nI need the new gate code , and alarm deactivating procedure , as I forget . It 's been a long while since I ' ve keyed in , and I have n't yet at the new building . I wrote to my landlady , because she all of this insurance stuff that takes care of things like this , and I did n't want to pay a big plumbing bill , or have her fight with me for not doing it her way .",
+        "targets": "What might have happened at the new building ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\"
+    },
+    {
+        "inputs": "Pissed off at everything and eveyone . It 's makes me feel ashamed . But then it 's so funny , to find myself in this kind of situation .\n\nBased on the preceding passage, answer the following question What might be true about my mental state .\nOPTIONS:\n- None of the above choices .\n- I 'm apt to be swarmed with various feelings .\n- I tend to be calm in these situations .\n- I 'm too ashamed to see the humor in things .",
+        "targets": "I 'm apt to be swarmed with various feelings .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What might be true about your mental state? \n#Person2#: I'm apt to be swarmed with various feelings. \n\nsummary:\n#Person2# is pissed off at"
+    },
+    {
+        "inputs": "I do n't know how to describe the beauty of this weekend . I spent Friday night yelling over cheap martinis to a fellow journalism student about our future careers . We laughed , screamed , made passes at our waiter and nearly lost our voices . Saturday night my boyfriend and I drove out to the suburbs for my cousin 's post - wedding party . There , I got to see my mother , who has just returned from France , and a lot of family I have n't seen in a while .\n\nWhy would the narrator be happy to see their mother ?\nOPTIONS:\n- None of the above choices .\n- Their mom had come back after years away from home .\n- Their mom had returned from France .\n- Their mom had returned from a prison stint .",
+        "targets": "Their mom had returned from France .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why would the narrator be happy to see their mother?\n#Person2#: Their mom had returned from France."
+    },
+    {
+        "inputs": "WIN ! The kid at the station said he was watching it come in and it looked like it split and went north and south , then circled back on them . No matter . The rain eventually tapered off enough so that i could get the last few blocks with just the bikini that i had put on in the meantime .\n\nBased on the preceding passage, answer the following question What may be the kind of station the kid was at ?\nOPTIONS:\n- The train station .\n- None of the above choices .\n- The weather station .\n- The radio station .",
+        "targets": "The weather station .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the kind of station the kid was at? \n#Person2#: The train station. \n\nsummary:\n#Person2# tells #Person1# the kid was at the train station"
+    },
+    {
+        "inputs": "my wall . Nonetheless , I was doing quite well sticking things to my door , until suddenly today , within the span of a few hours , everything that had been stuck to the doors became un - stuck ! What is the most efficient ( read : reliable ) adhesive which is still compliant with hall policy ? Or will I have to re - stick everything each month ?\n\nGive answer the following question using evidence from the above passage: Why is the narrator in the market for an item that gets good recommendations ?\nOPTIONS:\n- They need a new door knob .\n- They need a good door .\n- They need a reliable door .\n- They need a good sticky substance .",
+        "targets": "They need a good sticky substance .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you in the market for an item that gets good recommendations? \n#Person2#: Because I need a new door knob. \n\nsummary:\n#Person2# needs a new door"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nSnow Falling on Cedars is one of my all - time favorite books . This book has everything : a great setting , a mystery , romance , a clash of cultures , and resentment stemming from treatment during WWII . The book primarily takes place on a fictional island in the San Juan Islands .\n\nWhat may be a plausible fact about the book “ Snow Falling On Cedars ” ?\nOPTIONS:\n- It is a book that I really enjoyed reading .\n- It takes place before the events of WWII .\n- It is a nonfictional memoir .\n- It takes place at a real set of islands .",
+        "targets": "It is a book that I really enjoyed reading .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be a plausible fact about the book ' Snow Falling On Cedars '? \n#Person2#: It is a book that I really enjoyed reading. \n\nsummary:\n#"
+    },
+    {
+        "inputs": "Gosh I ' m so nervous right now . Not that it 's been a while since I did a interview , I know I did my shire interview really well and that is why they hired me , but gee this is the big time for me . ( Haha I still think it 's funny , and this as a side story .\n\nGive answer the following question using evidence from the above passage: Why may the narrator be nervous about this particular job interview ?\nOPTIONS:\n- The narrator is unprepared for the interview .\n- None of the above choices .\n- The narrator does not have a ton of confidence in themselves .\n- The narrator has done bad things .",
+        "targets": "The narrator does not have a ton of confidence in themselves .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Give answer the following question using evidence from the above passage: Why may the narrator be nervous about this particular job interview ?"
+    },
+    {
+        "inputs": "We were the only people dancing . Luckily we were n't told off like we have been in other places ... ... We decided to give the aftershow a miss & headed for the cockpit where we DID get told off for dancing by some skanky sailor girls who really should n't have been wearing horizontal stripes . It was packed .\n\nBased on the preceding passage, answer the following question Where does the narrator seem to be hanging out ?\nOPTIONS:\n- They are at a party with sailors .\n- None of the above choices .\n- They are at a sailing party .\n- They are at a club .",
+        "targets": "They are at a club .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction accurately:\n\nThey were the only people dancing at the club. They were not told off like they have been in other places. They decided to give the aftershow a miss and headed for the cock"
+    },
+    {
+        "inputs": "Good look'n cabin perfect for east of the mountains or off in the woods somewhere on your property . I set it up on site . It 's built with 2x4 's and I use t-1 - 11 siding and cedar trim .\n\nWhat would happen if there was a forest fire ?\nOPTIONS:\n- The house would be protected .\n- The house would be safe .\n- The house would go up in flames .\n- None of the above choices .",
+        "targets": "The house would go up in flames .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What would happen if there was a forest fire?\n#Person2#: The house would be protected.\n\nsummary:\n#Person2# tells #Person1# the house would be protected if there was a"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nIn 24 hours , I will be looking back on the evening , and it will be over . \" Based on previous experiences , it would have gone fairly well . Of course I did n't have all the details in advance , like how many people would show up and how the conversations would go . But as I was telling myself this story about past , present , and future , I was calming myself with the passage of time , and more importantly the passage of story . It turns out that every minute is tomorrow 's memory .\n\nWhy is the narrator talking to themselves ?\nOPTIONS:\n- They have a big event coming up .\n- None of the above choices .\n- They are in a crowded room .\n- They are experiencing a mental health crises .",
+        "targets": "They have a big event coming up .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you talking to yourself? \n#Person2#: I have a big event coming up. \n\n\n\n\nsummary:\n#Person2# is talking to themselves because they have a big event"
+    },
+    {
+        "inputs": "Having just finished an enourmous sandwich at Panera 's , I walked towards my car in order to drive to a nearby coffeeshop ( which is where I am writing this post from ) . Today is blazing hot and as I entered my car it felt like I was inside a pizza brick oven . I stepped on the brake , turned the key , shifted the gear and released the brake . The beast started moving .\n\nQuestion: Why does the narrator feel so sluggish and exacerbated ?\nOPTIONS:\n- They just went for a checkup .\n- They just got out of work .\n- None of the above choices .\n- They just ate a big meal .",
+        "targets": "They just ate a big meal .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: They just ate a big meal."
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI ' ve just emailed Virginia Ironside to tell her how much I ' m enjoying her book - I ' ve told her about my blog so I hope if she visits , she 'll leave a comment - would n't that be exciting !\n\nWhat would be the reason Virginia Ironside leaving a comment on my blog would be exciting ?\nOPTIONS:\n- Having the content would bind her to me legally .\n- I am a fan and it would be meaningful , also others would be impressed .\n- If she comments then I can hack her account .\n- None of the above choices .",
+        "targets": "I am a fan and it would be meaningful , also others would be impressed .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What would be the reason Virginia Ironside leaving a comment on your blog would be exciting? \n#Person2#: If she comments then I can hack her account. \n\n\nsummary:\n#"
+    },
+    {
+        "inputs": "Or partway at least . I have a power point beside me on the train to Budapest , and my seat reservation is marked outside the compartment with a little paper slip in a chart . No wifi , but still , I can type up all my jottings from the past 24 hours . And we 're late leaving .\n\nBased on the preceding passage, answer the following question What is the person doing ?\nOPTIONS:\n- They are drawing while traveling\n- They are writing a report for work / school while traveling\n- They are reading a book while traveling\n- None of the above choices .",
+        "targets": "They are writing a report for work / school while traveling",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm writing a report for work.\n#Person2#: What's it about?\n#Person1#: It's about the conference I attended last week.\n#Person2#: What"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nSo crazy ! Last night I had a dream consisting of me starring in some sort of warped college - age episode of my favorite guilty pleasure , \" The Gossip Girls \" . And we all shared a bed at one point , although we had sectioned off the small day - bed into six different portions , and all had separate sheets , and expensive DKNY comforters and extravagant black and white throw pillows .\n\nWhat was the reason that the bed was sectioned off into different sections ?\nOPTIONS:\n- The bed was sectioned off because there was six people that had to share the bed .\n- The bed was sectioned due to privacy concerns .\n- The bed was sectioned becuse there were too many pillows .\n- None of the above choices .",
+        "targets": "The bed was sectioned off because there was six people that had to share the bed .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What was the reason that the bed was sectioned off into different sections?\n#Person2#: The bed was sectioned off because there were six people that had to share the bed.\n\nsummary:\n#"
+    },
+    {
+        "inputs": "I was at the Car Pool getting Mrs. Astro 's car washed . I stood in front of the vending machine and decided I wanted a root beer . I reached for my wallet and started sifting through my receipts . I noticed I had two bills .\n\nQuestion: Why was the person in front of a vending machine ?\nOPTIONS:\n- None of the above choices .\n- He was trying to keep out the way of the people washing the car .\n- He needed to get out of the car as Mrs. Astro 's car was being washed .\n- He noticed he was thirsty and wanted some root beer to quench his thirst .",
+        "targets": "He noticed he was thirsty and wanted some root beer to quench his thirst .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "He was trying to keep out the way of the people washing the car."
+    },
+    {
+        "inputs": "Write a question about the article\n\nThey had the best performance on last weeks show and did not deserve to be in the bottom two . I also felt that their performance was better than Super Crew but I am not one of the judges so my decision does not count . Now that they are gone I have really lost interest in the show . See kind of silly to invest so much time in a show and to not know if you are going to watch the last episode , but that happened last year too .",
+        "targets": "Why was the narrator miffed at the TV show ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Over the course of the Olympic Games there are 20 exciting Going for Gold events taking place at bet365 where players can compete for both cash prizes and medals . The more medals that you win , the higher up the leaderboard you are placed and greater your chance of winning the top prizes . In each event , the top 100 players will each win a medal .\n\nAnswer the following question: How many Going for Gold events are held in the Olympic Games .\nOPTIONS:\n- The are 365 players competing in 100 events for 20 medals .\n- None of the above choices .\n- The Going for Gold takes place at bet365 for 20 Olympic Games .\n- The Going for Gold competition consists of 100 events for 20 players .",
+        "targets": "The Going for Gold takes place at bet365 for 20 Olympic Games .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: How many Going for Gold events are held in the Olympic Games?\n#Person2#: The Going for Gold competition consists of 100 events for 20 players.\n\nsummary:\n#"
+    },
+    {
+        "inputs": "Context:I capped off a big week of training with the Big Kahuna Half . I did n't do any tapering or resting heading into this . On top of it all I ' m still sick and blowing major crap out my nose . I ca n't wait to be done with this sinus infection .\nQuestion Where is the narrator presently traveling ?\nAnswer:\nOPTIONS:\n- They are in Hawaii .\n- They are in California .\n- They are in Mexico .\n- They are in Jamaica .",
+        "targets": "They are in Hawaii .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: Where are you presently traveling?<\\conclusion>\n#Person2#: We are in <Mexico>.\n\nsummary:\n#Person2# tells #Person1# they are"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nAll the churches are n't really churches , well they 're churches but they believe in the same rituals and things that the people in the Chapel were together for . All of sudden , people come up to me and out of nowhere we become comrades to stop this evil . We exit the town and then suddenly everything is like an RPG game made for GameBoy Advance .\n\nWhat subject is the narrator espousing upon ?\nOPTIONS:\n- They are talking about RPG games .\n- They are talking Gameboy .\n- They are talking faith .\n- They are talking about life in the town .",
+        "targets": "They are talking faith .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What subject is the narrator espousing upon? \n#Person2#: They are talking about faith. \n\nsummary:\nThe narrator is talking about faith."
+    },
+    {
+        "inputs": "I have tendinitis in my Achilles ' heels now , plus problems from previous sprains in both my ankles . Not to mention the fact that I can hyper extend my knees and quite probably my hips as well . Also , the pulled muscle from last spring in my groin area does NOT help .\n\nGenerate a question about the above context.",
+        "targets": "What part of the body is hurting the narrator ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: I'm sorry to hear that.<\\conclusion> What can I do for you?\n\n#Person2#: I'd like to see a doctor.\n\n#Person1"
+    },
+    {
+        "inputs": "and some in between . but every day during the clean up , i was so tired afterwards . we still do n't have power so the only time i can get on the internet is at school or at some place that lets us get on the internet like yesterday i was a panera bread . i wish we would get power NOW !\n\nAnswer the following question: Why is the narrator falling behind with work ?\nOPTIONS:\n- They are in a family emergency .\n- They are wasteful with their time .\n- They have lost a power source .\n- None of the above choices .",
+        "targets": "They have lost a power source .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction:\n\nThe narrator is falling behind with work because they have lost a power source.\n\nSummary:\nThe narrator is falling behind with work because they have lost a power source."
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nHe starts acting sleepy at about six thirty , and we try to put him to bed starting then , but he just sits in his crib , hysterical , and screams . We go to get him , soothe him , and try to put him to bed again , all night long . Till 10:30 or 11 , every single night .\n\nHow old is the child likely to be ?\nOPTIONS:\n- 2\n- 5\n- 6\n- None of the above choices .",
+        "targets": "2",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: How old is the child likely to be? \n#Person2#: I'd say about 2. \n\nsummary:\n#Person2# tells #Person1# the child is likely to be"
+    },
+    {
+        "inputs": "Also , make sure it will not react negatively on any other medications that are currently being taken . It would also help to have it checked by the inundate before taking it . 3 .\n\nBased on the preceding passage, answer the following question What is the narrator concerned about ?\nOPTIONS:\n- Negative responses to a mix of pharmaceuticals .\n- They are afraid of how people will react .\n- It will be checked by the inundate before 3 .\n- They will run out of medication they are taking .",
+        "targets": "Negative responses to a mix of pharmaceuticals .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "And this evening I put together this Potato and Corn Fritatta that was seriously awesome . The original recipe called for scallions , but I wanted to use up more of the shallots Richard bought for the chicken packets , plus there was one red bell pepper left that needed using , so I chopped that up and stirred that in with the potatoes at the last minute . We 'll be taking the leftovers for lunch tomorrow , and we 'll also definitely be making this again .\n\nBased on the preceding passage, answer the following question What led the speaker to want to use shallots in place of scallions ?\nOPTIONS:\n- They already had the shallots on hand and have enjoyed using them , so they decided to use them now too\n- Scallions are out of season right now , so buying them is very cost prohibitive\n- None of the above choices .\n- They have a severe allergy to scallions so they can not eat them , even if they want to",
+        "targets": "They already had the shallots on hand and have enjoyed using them , so they decided to use them now too",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What led the speaker to want to use shallots in place of scallions?\n#Person2#: They already had the shallots on hand and have enjoyed using them, so they decided to use them now too"
+    },
+    {
+        "inputs": "Write a question about the article\n\nFirst , he is not my doctor . He was one I saw when my PCM was not available when I could n't see my PCM ( he is in the group ) . Well , I was a little attracted , but thought nothing about it , until I recently left a message for him . He said that he had been thinking about me that week , and asked me how I was feeling .",
+        "targets": "What happened when I could n't see my PCM ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\"
+    },
+    {
+        "inputs": "I ' m not glad it had to happen at all , but I am glad that my immediate reaction was to challenge her , and that I followed through on it . At the same time -- it 's been quite a while since I ' ve felt that vague icky discomfort . The kind that comes from suddenly realizing , oh , not everyone 's \" tolerant \" in the world , and here I am in the minority . There 's something wrong with me just because I exist , right ?\n\nWhat may have caused you to feel an icky discomfort ?\nOPTIONS:\n- I was being prejudiced .\n- People were prejudiced .\n- I felt like I did n't exist .\n- I was forced to challenge her .",
+        "targets": "People were prejudiced .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nI was being prejudiced."
+    },
+    {
+        "inputs": "When it wore off and she woke in the middle of that night - Tyrion was awake and reading - he slept poorly , Sansa knew that . \" Poor Margaery , \" she said softly almost to herself , but her lord husbands hearing was sharp . \" You do n't envy her ? \"\n\nGive answer the following question using evidence from the above passage: What will happen with Tyrion in the morning ?\nOPTIONS:\n- Tyrion will be full of energy .\n- Tyrion will be active and alive .\n- Tyrion will be tired and dragging .\n- None of the above choices .",
+        "targets": "Tyrion will be tired and dragging .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Tyrion will be tired and dragging."
+    },
+    {
+        "inputs": "Answer the question about text:\n\nWe could use the buddy system so as to safely navigate Cambridge . It was a brilliant , perfect , flawless plan . And Mom , though she never admitted it , was VERY OBVIOUSLY impressed , and oh - so - graciously allowed me to sleep over Liam 's so I could head down with Fred and Liam in the morning . And that 's what we did ! ... A lot happened . Cat screamed at geese . Cat had too much coffee . Cat picked on Liam .\n\nWhat may be the reason their mother allowed them to stay over at their friend 's house ?\nOPTIONS:\n- Because she trusted them .\n- Because she did n't want them to be separated .\n- Because she wanted them to have a good time .\n- None of the above choices .",
+        "targets": "Because she trusted them .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason their mother allowed them to stay over at their friend's house?\n#Person2#: Because she trusted them.\n\nsummary:\nCat's mother allowed them to stay over"
+    },
+    {
+        "inputs": "Context:Today we moved the RV home . His dad pisses me off most of the time I have to be in his company . It 's in the backyard , no help to me because the fever took over and I felt really really unbalanced and needed to lay down then and there . Anyways , need to go read a bit out in the RV .\nQuestion What is wrong with the author ?\nAnswer:\nOPTIONS:\n- He is running a temperature .\n- He 's feeling scared .\n- He 's feeling nervous .\n- None of the above choices .",
+        "targets": "He is running a temperature .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What is wrong with the author? \n#Person2#: He is running a temperature. \n\nsummary:\n#Person2# tells #Person1# the author is running a temperature."
+    },
+    {
+        "inputs": "This Labor Day Weekend was the best weekend I spent in the past year . I traveled to Michigan to visit my college roommate , Dan , and to go to Ohio to ride rollercoasters at Cedar Point . In Michigan , I wakeboarded , tubed , and jet skied the entire time i was there . Cedar Point was the epitome of all amusement parks .\n\nBased on the preceding passage, answer the following question Where did the narrator get to ride roller coasters ?\nOPTIONS:\n- He rode them in Michigan .\n- None of the above choices .\n- He rode them at a park in Michigan .\n- He rode them at Cedar Point .",
+        "targets": "He rode them at Cedar Point .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Cedar Point was the epitome of all amusement parks."
+    },
+    {
+        "inputs": "We are legitimate and reputable company from Uk , London we have all brands of Mobile Phones , Apple Iphones , Ipods , xbox 360 , Sidekicks , Nextels phone , Laptops for sell at cheap and affordable prices . ORDER INFORMATION : Minimum Order : 1 - 5 units Payment Method : Western Union and Money Gram Shipping Method : FedEx and UPS . Delivery Time : 48 Hours Delivery To Your Door Step .\n\nGive answer the following question using evidence from the above passage: How many days after placing an order should you receive the products ?\nOPTIONS:\n- You should receive the products in about ten days .\n- You should receive the products in about three weeks .\n- You should receive the products in about two days .\n- You should receive the products in about one week .",
+        "targets": "You should receive the products in about two days .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Hi, I'm <Jane>. I'm calling from <ABC Company>.\n#Person2#: Hi, <Jane>. I'm <John>.\n#Person1#: Hi, <"
+    },
+    {
+        "inputs": "The American dream became convoluted somewhere , and instead of just being homeowners , we wanted castles . And somehow , we sacrificed our individuality , our uniqueness , as humans . We became consumers of buildings oversized and underbuilt . We threw out quality construction , and traded it for shoddy , overpriced grandeur .\n\nBased on the preceding passage, answer the following question What does the writer believe would have happened if we had stayed true to the American dream ?\nOPTIONS:\n- We would all be living in house far too small to accommodate our needs and would be unhappy\n- Quality would not have been sacrificed for quantity , and posterity would have been maintained\n- Houses that we had constructed would simply not be big enough for us to function in\n- The shelters that we would have built would not be meaningful or worth living in",
+        "targets": "Quality would not have been sacrificed for quantity , and posterity would have been maintained",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The American dream became convoluted somewhere, and instead of just being homeowners, we wanted castles. And somehow, we sacrificed our individuality, our uniqueness, as humans. We became consumers of buildings oversized and"
+    },
+    {
+        "inputs": "-.-I'm not doing anything today . I ' m probably making pancakes and pulling out the couch so becky and i can lay on it . It 's some Jewish holiday today . We have n't celebrated any Jewish holidays since a couple years before my dad left .\n\nBased on the preceding passage, answer the following question What is my relationship with Judaism ?\nOPTIONS:\n- I 'm considering converting to Judaism .\n- I 'm Jewish and observant .\n- I 'm at least part Jewish but not observant .\n- None of the above choices .",
+        "targets": "I 'm at least part Jewish but not observant .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What's your relationship with Judaism? \n#Person2#: I'm at least part Jewish but not observant. \n\nsummary:\n#Person2# tells #Person1# #"
+    },
+    {
+        "inputs": "On Sunday we loaded up the kayaks and drove to Alfred Cove , and paddled over for fishermen 's baskets at Point Walter - about 7 3/4 kilometres all up . The fishermen 's baskets were worth it . Over at Point Walter there was a family just finishing their picnic , they had two recumbents , the lady had a trailer for one child , and the man had a very impressive wheelchair with cranks on the back of his recumbent for his CP'd son .\n\nAnswer the following question: What may of happened after the picnic ?\nOPTIONS:\n- We kayakers on the water .\n- We played volleyball .\n- We went hiking .\n- We went swimming .",
+        "targets": "We kayakers on the water .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction:\n\n instruction:\n\nsummary:\n#Person1# tells #Person2# about the picnic on Sunday. #Person1# and #Person2# went kayaking, and #Person1"
+    },
+    {
+        "inputs": "Context:) Like when the \" usual writers \" try to make something cool . It 's maybe not as good as a film , but still gives off a movie feeling . [ /rambling]Anyway , It was pretty weird .\nQuestion What was the narrator 's feel of the movie ?\nAnswer:\nOPTIONS:\n- They loved it .\n- They did not love it .\n- They felt it was very good .\n- They felt it was a normal flick .",
+        "targets": "They did not love it .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What was the narrator's feel of the movie?<\\conclusion>"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nWe got back , and Jeff 's interest in sketching grew . He picked up a small sketchbook and started drawing things here and there . Then work for him got busy .\n\nWhy does Jeff have so many drawings on his desk ?\nOPTIONS:\n- Jeff gets paid for drawing .\n- None of the above choices .\n- Jeff likes to draw in his spare time .\n- Jeff is a professional artist .",
+        "targets": "Jeff likes to draw in his spare time .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does Jeff have so many drawings on his desk? \n#Person2#: He gets paid for drawing. \n\nsummary:\nJeff has so many drawings on his desk because he"
+    },
+    {
+        "inputs": "Today I asked Josh if we had a socket wrench . He showed me how to actually use one , and together we detached the whole fan mechanism , reattached the screw , put the whole thing back together , and voila ! The fan works like new . Our apartment is cooler , and the peasants rejoiced .\n\nQuestion: What may be the reason for them fixing their fan ?\nOPTIONS:\n- None of the above choices .\n- They wanted their fan to look nicer .\n- Their apartment has been too hot .\n- They wanted their fan to be more quiet .",
+        "targets": "Their apartment has been too hot .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: They wanted their fan to be more quiet. \n\nsummary:\nJosh showed #Person1# how to use a socket wrench and together they detached the whole fan mechanism, reattached the screw"
+    },
+    {
+        "inputs": "I ca n't seem to control much , actually . I feel helpless , hopeless , weak , unworthy -- and that I ' ve failed . There are so many things I ' m thinking about right this second . There is so much I have to do that I have not done yet .\n\nGenerate a question about the above context.",
+        "targets": "What could be said about my post and the doubts I 'm feeling ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: I'm sorry to hear that.<\\conclusion> What's the matter?\n#Person2#: I'm not sure. I'm just feeling down.\n#Person"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nThere was a time when he told me , \" I may not be the best person ... but I will try harder than anyone in the world . \" He has , and I have to recognize that . He understands me better than anyone else ever did -- a close second being Tom , but I realize now that I was never completely honest with him , and this is because I feared stern rejection .\n\nWhy is the narrator so smitten with her new partner ?\nOPTIONS:\n- The narrator believes the partner is a brute .\n- The narrator believes the partner is hot .\n- The narrator believes the partner is an alpha male .\n- The narrator believes the partner is sweet .",
+        "targets": "The narrator believes the partner is sweet .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you so smitten with your new partner? \n#Person2#: Because he is sweet. \n\nsummary:\nThe narrator is smitten with her new partner because she believes he is"
+    },
+    {
+        "inputs": "Why do you ask ? \" She shrugged and said , \" Oh nothing ... just a little spying , that 's all . \" Apparantly she was curious about me ... or Julan ... I 'm not sure which , for she invited us into her home . Accepting the invitation we stepped into the small , but cozy , one room house . Not expecting to see so many Bosmers in a Telvanni town , I inquired , \" Have you always lived here , miss .... \" \" Liette . \"\n\nGenerate a question about the above context.",
+        "targets": "Why was the female subject suspicious of the male ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\"
+    },
+    {
+        "inputs": "Context:If he does n't eat them , well , more for me . Facebook is growing and growing . It 's weird to have an uncle in his fifties and a sixteen year old cousin friend me on the same day . Equally strange are seeing adult pictures of people who were in middle school at my church when I was leaving high school .\nQuestion If he does n't do what he is suppose to do , why would I do it for him instead ?\nAnswer:\nOPTIONS:\n- If he does n't eat them , I 'll be happy to eat them instead , as I am quite hungry myself .\n- None of the above choices .\n- If he refuses to go to church I will go in his stead .\n- If he does n't want to go to high school I will go for him .",
+        "targets": "If he does n't eat them , I 'll be happy to eat them instead , as I am quite hungry myself .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: If he does n't eat them , I'll be happy to eat them instead, as I am quite hungry myself."
+    },
+    {
+        "inputs": "Context:It 's not that great , but we were all sick of it so we decided it was fine . I went into town this afternoon and hung out with Jonn a little bit and bought the second season of Dexter on DVD . It came with a ' forensics bag ' or something too .\nQuestion What might they watch with John later that day ?\nAnswer:\nOPTIONS:\n- the John DVD they purchased .\n- None of the above choices .\n- season 2 of Dexter .\n- the movie they had purchased .",
+        "targets": "season 2 of Dexter .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What might they watch with John later that day? \n#Person2#: They might watch the John DVD they purchased. \n\nsummary:\n#Person2# tells #Person1# what they bought and"
+    },
+    {
+        "inputs": "The car was in the air for an oil change , and I mentioned to the mechanic that the air suspension had been unusually good to me , having lasted nearly 16 years . Needless to say , when the car was lowered to the ground , one of the air bags failed . A quick phone call revealed that replacement bags from the dealer would cost many , many hundreds of dollars . All told , replacing them would have cost well over a grand .\n\nGive answer the following question using evidence from the above passage: Why is the narrator expected to shell out so much money ?\nOPTIONS:\n- None of the above choices .\n- The narrator has an old car .\n- The narrator has a large debt .\n- The narrator has a huge mortgage .",
+        "targets": "The narrator has an old car .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The narrator has a huge mortgage."
+    },
+    {
+        "inputs": "Context:The uniform 's getting a little shabby . So 's the gardener but let 's just not go there . I have a friend , let 's call him Joe because that 's actually his name , upon whose routines I could invariably set my watch . It gave me comfort , knowing that even though I was in Minneapolis hours away from him , at 8:15 in the morning he was in a certain cafe , tearing his paper apart ( sports first ) and eating his bagel in a particular way .\nQuestion Why does the narrator judge the gardener ?\nAnswer:\nOPTIONS:\n- The narrator is noticing their laziness .\n- The narrator is noticing their uncleanliness .\n- None of the above choices .\n- The narrator is noticing their sleepiness .",
+        "targets": "The narrator is noticing their uncleanliness .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does the narrator judge the gardener? \n#Person2#: The narrator is noticing their laziness. \n\nsummary:\nThe narrator judges the gardener because the gard"
+    },
+    {
+        "inputs": "To begin , a Ryan napping update : Monday- refused a morning nap , so took one nap mid - day that lasted 45 minutes . Urgh . Tuesday- refused a morning nap , so took one nap mid - day , that lasted 2.5 hours .\n\nBased on the preceding passage, answer the following question What may happen during the napping ?\nOPTIONS:\n- No possible nap .\n- Will get quiet time .\n- Napping will happen later .\n- Will not lay down .",
+        "targets": "Will get quiet time .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen during the napping?\n#Person2#: Napping will happen later."
+    },
+    {
+        "inputs": "I ' ve completely forgotten , \" one man said to his companion . \" At least I can still leave old men speechless , \" I laughed to myself as I moved down another aisle . * * * In the end , my mom found just the right hostess gift for me to bring .\n\nQuestion: Why were the old men in the store rendered speechless ?\nOPTIONS:\n- I was walking by and tripped when looking for my mother .\n- My mother found the hostess gift and yelled aloud .\n- I walked by and they were mesmerized by me .\n- The two men had completely forgotten why they were there .",
+        "targets": "I walked by and they were mesmerized by me .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why were the old men in the store rendered speechless?\n#Person2#: They were mesmerized by me."
+    },
+    {
+        "inputs": "Answer the question about text:\n\nI was so ready to bail that if she had said forget it I would have agreed in less than a second . But we went , nervous and giggling for the first few houses . We drove around in circles up and down and back and forth on some of the same streets because our seriously jacked up list did n't really have any common sense to the order the houses were listed and well we were lacking on common sense at that point too . We only had one \" Not interested \" and door closed in our face , we had a couple undecideds but our lack of skills for converting them need some work .\n\nWhy was I feeling the way I was feeling ?\nOPTIONS:\n- I was excited , and knew we had common sense .\n- I was brave , knowing our common sense will win out .\n- I was confident in our skills , and common sense .\n- I was scared , nervous , and not sure if we were ready or not .",
+        "targets": "I was scared , nervous , and not sure if we were ready or not .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why were you feeling the way you were feeling? \n#Person2#: I was excited, and knew we had common sense. \n\nsummary:\n#Person2# tells #Person1# #Person"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nMy parents went to Trinidad and brought back this amazing coconut coffee ! We just made a pot of it , and now I ' m like - ! DON'T WASTE IT ! ! WE CAN ONLY HAVE THIS COFFEE ON VERY SPECIAL OCCASIONS !\n\nWhy is the narrator so protective of the coffee ?\nOPTIONS:\n- None of the above choices .\n- It is in limited quantities .\n- It is in large quantities .\n- It is in a diet to only have small amounts .",
+        "targets": "It is in limited quantities .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why is the narrator so protective of the coffee? \n#Person2#: It is in limited quantities. \n\nsummary:\n#Person2# tells #Person1# the narrator is protect"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nYou thought you were done hearing about my summer on Martha 's Vineyard ? Well , you thought wrong ! 3 pairs of sunglasses I lost my first pair of sunglasses during the first week I was there on a trip to South Beach . The waves are rough there ... that beach is not for kids !\n\nWhy is South Beach not a suitable place for children ?\nOPTIONS:\n- There is no life guard on duty .\n- Because the waves from the water can be dangerous .\n- None of the above choices .\n- There have been shark sightings .",
+        "targets": "Because the waves from the water can be dangerous .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why is South Beach not a suitable place for children? \n#Person2#: Because the waves from the water can be dangerous. \n\nsummary:\n#Person2# tells #Person1# #Person"
+    },
+    {
+        "inputs": "Pool owners who live in Los Angeles or Miami can splash around all year . But for those who live where winter is on the way , closing is a necessity . The process involves several steps , Mr. White said , some of which may be better left to a professional .\n\nWhat is the reason someone would need to close their pool ?\nOPTIONS:\n- The pool is closed for ice skating .\n- The pool is closed for insurance only .\n- None of the above choices .\n- The pool is closed to increase it 's swimability .",
+        "targets": "None of the above choices .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: The pool is closed for insurance only.\n#Person2#: Why?\n#Person1#: Because the pool is closed for insurance only.\n#Person2#: Oh, I see."
+    },
+    {
+        "inputs": "All my life my parents raised animals . And I know now that I never appreciated it . It is so funny how we come full circle in our journey ... we always come back regardless of what they say .\n\nAnswer the following question: What may be the reason to post that message .\nOPTIONS:\n- Realize the difference between parents and kids .\n- To reflect on owning your own animals .\n- Reflect on an animal dying .\n- None of the above choices .",
+        "targets": "To reflect on owning your own animals .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason to post that message? \n#Person2#: To reflect on owning your own animals. \n\nsummary:\n#Person2# posts a message to reflect on owning animals"
+    },
+    {
+        "inputs": "He obviously bled to death before they got him to shore . 12 - 17 foot long shark . The marine biologists say the behavious is typical of great whites . Well then . I met a woman once who had been attacked by a tiger shark .\n\nGenerate a question about the above context.",
+        "targets": "What may be the reason for them assuming the person bled to death ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: What happened to her?<\\conclusion>\n\n#Person2#: She was attacked by a tiger shark.\n\n#Person1#: What happened to her?"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nSo Mike told the kids that they were going to be on their own for a few hours . I went back to my hotel to change into evening clothes but ended up reading Steve Brust 's Jheggala and then back to the Sheraton at close to midnight . I ended up hanging out a bit at the Australia Victory party in the basement which closed around 1AM and then back up to the Reno in 2011 party which was not as entertaining as the previous evening . I went back to the Hotel by something like 4:30 .\n\nWhy will the narrator be tired the next morning ?\nOPTIONS:\n- The Canadian Victory party kept them up .\n- They could n't find the Sheraton .\n- They stayed out late .\n- Their kids kept them up .",
+        "targets": "They stayed out late .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The narrator will be tired the next morning because they stayed out late."
+    },
+    {
+        "inputs": "Ca n't be sure about that , though . One step at a time ... \" Andy watched , fascinated , and did n't interrupt again . Castin worked with his laptop battery and the elevator 's wiring , cursing a lot as he went .\n\nGive answer the following question using evidence from the above passage: What was Castin doing ?\nOPTIONS:\n- Working on the wiring .\n- Cursing his friend .\n- Buying a D battery .\n- Taking several steps at a time .",
+        "targets": "Working on the wiring .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What was Castin doing? \n#Person2#: He was working on the wiring. \n\nsummary:\nAndy watched Castin working on the wiring and cursing a lot."
+    },
+    {
+        "inputs": "Context:I could sit and listen to her and sit and listen to myself . She 'd listen to my kid stories and would offer stated support and the knowledge that I could do anything that I wanted . So rare .\nQuestion Why did the woman listen the narrator 's stories ?\nAnswer:\nOPTIONS:\n- The woman wanted support to deal with the narrator .\n- The woman wanted to listen to herself speak .\n- The woman wanted to encourage the narrator to follow their dreams .\n- None of the above choices .",
+        "targets": "The woman wanted to encourage the narrator to follow their dreams .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "With fellow knitters , I was n't worried . But I had a long conversation with a loud , opinionated , very cool Cuban woman , and decided to try it out . \" You know , it 's weird , I write straight romance , but I ' m married to a girl . \" She just leaned forward and asked , \" What is THAT like ? \"\n\nWhere is the person the narrator is conversing with from ?\nOPTIONS:\n- They are from an Island country .\n- They are from the United States .\n- None of the above choices .\n- They are from Canada .",
+        "targets": "They are from an Island country .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: They are from Canada. \n\nsummary:\nThe narrator is conversing with a Cuban woman."
+    },
+    {
+        "inputs": "July 11th was the Taylor fireworks and I went with my friend Eric . The place was crowded and I was reminded quite often why so many refer to the people of Taylor as \" Taylor - tuckians \" . Aside from that , even though there were hundreds of people there I was able to spot a friend of mine in the crowd ! She sat in front of me about 20 ft and when she saw me her eyes lit up and she attacked me with a hug .\n\nAnswer the following question: What will the narrator now do at the fireworks ?\nOPTIONS:\n- They will hang with their friend .\n- They will leave before the fireworks .\n- They will talk to the people of Taylor .\n- They will talk to Eric .",
+        "targets": "They will hang with their friend .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "They will talk to their friend."
+    },
+    {
+        "inputs": "Answer the question about text:\n\nI was looking at Spore bundles . One comes with a liquid mouse pad . But , the last time I used a mousepad , I always had horrible wrist pain . It was some fancy thing filled gel in a \" comforting \" wrist rest or some stupid crap .\n\nWhat may happen if I purchase a new mouse - pad ?\nOPTIONS:\n- I will find one that does n't cause me discomfort while using it .\n- I will experience even more discomfort because my old mouse - pad fits me better .\n- I will buy the same mouse - pad that I had used in the past .\n- None of the above choices .",
+        "targets": "I will find one that does n't cause me discomfort while using it .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I was looking at Spore bundles. One comes with a liquid mouse pad. But, the last time I used a mousepad, I always had horrible wrist pain. It was some fancy thing filled with gel"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nIt was kind of interesting , and everyone seemed really nice . By the time I had gotten there , he was half in the bag . It was really funny to see him so hyper , as he was drinking and excited cause the ex had gone and there was no real drama that night . So he was a little tipsy , and starts running around hanging out with everybody , and at one point keeps trying to get me to sit on his lap .\n\nWhat does the speaker mean by \" half in the bag \" ?\nOPTIONS:\n- None of the above choices .\n- The person was being friendly .\n- The person had just gotten out of a relationship .\n- The person is already drunk .",
+        "targets": "The person is already drunk .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What does the speaker mean by \" half in the bag \"? \n#Person2#: The person was being friendly. \n\nsummary:\n#Person2# tells #Person1# the speaker means the"
+    },
+    {
+        "inputs": "It has n't rained during the day here for like a month . The one Saturday I bring my staff in for the morning ... Yeah . Poopy . I stayed true to my word and went \" bar shopping \" last night . I stopped at one place I worked at about nine years ago in between LateNight and Little Bo 's . It was eleven o'clock and the place was as busy as I had expected .\n\nAnswer the following question: What happened on the one Saturday I bring my staff in for the morning ?\nOPTIONS:\n- It was pleasant .\n- It was closed .\n- I went bar shopping .\n- The weather was bad .",
+        "targets": "The weather was bad .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What happened on the one Saturday I bring my staff in for the morning?\n#Person2#: It was pleasant.\n\nsummary:\n#Person2# tells #Person1# #Person2# went bar"
+    },
+    {
+        "inputs": "Black hair obeying no known law but up , he resigned himself to the stark clues of his transformation and with a new determination , shaved the shadows from his face . The loss and grief would take longer . He dressed thoughtfully , still not quite in his body as he chose his black uniform . The color seemed a theme he could not escape from .\n\nBased on the preceding passage, answer the following question What may be true about him ?\nOPTIONS:\n- None of the above choices .\n- He is a shadow .\n- He is in grieving .\n- He is colorful .",
+        "targets": "He is in grieving .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction accurately before finishing the instruction.\n\n\n\n\narticle:\n<conclusion>#Person1#: I'm going to the movies with <Jane> <tonight>.<\\conclusion>"
+    },
+    {
+        "inputs": "I tried again .... Nothing . CRAP ! So now I decide then i move the steering wheel and it locks and i had the key still in the ignition and it kinda stuck a little .\n\nGive answer the following question using evidence from the above passage: What may I have tried to do before I moved the steering wheel ?\nOPTIONS:\n- Crash the car .\n- Start the car .\n- Turn the steering wheel .\n- Break the steering wheel .",
+        "targets": "Start the car .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may I have tried to do before I moved the steering wheel?\n#Person2#: I tried again ... Nothing. CRAP! So now I decide then I move the steering wheel and it locks"
+    },
+    {
+        "inputs": "The Lithuanians have been agitating ; Javier Solana visited Georgia in June ; the Germans have been trying to broker a diplomatic solution . But EU states did not stand solid enough behind the Germans . Too many had their heads in the sand , and the wrong signals were sent to both sides .\n\nGive answer the following question using evidence from the above passage: What type of subject would this narrator be interested in ?\nOPTIONS:\n- Domestic Affairs .\n- International food .\n- Foreign Affairs .\n- None of the above choices .",
+        "targets": "Foreign Affairs .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What type of subject would this narrator be interested in? \n#Person2#: Foreign Affairs. \n\nsummary:\nThe Lithuanians have been agitating, Javier Solana visited Georgia"
+    },
+    {
+        "inputs": "It hurt . Terribly . The blonde grimaced as a stream of blood dripped down his arm , splashing onto the floor . Mello gripped his shirt and pulled it over his head , falling back against the wall a moment as the sleeve was peeled off .\n\nGive answer the following question using evidence from the above passage: What may be the reason why he fell back against the wall ?\nOPTIONS:\n- Because it eases his anxiety .\n- Because the cool wall felt good .\n- Because it helps the pain .\n- Because of the pain .",
+        "targets": "Because of the pain .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Mello gripped his shirt and pulled it over his head, falling back against the wall a moment as the sleeve was peeled off."
+    },
+    {
+        "inputs": "Yes , we had a little rumble . Everyone is fine . A few photos fell from the wall and shelves , but no one got knocked in the head . I was upstairs cleaning up and the kids were downstairs .\n\nQuestion: Why may the kids be a little bit startled ?\nOPTIONS:\n- There was a small fire .\n- There was a lighting strike .\n- There was a tremor .\n- None of the above choices .",
+        "targets": "There was a tremor .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: There was a tremor.\n#Person2#: Oh, I see. I'm glad no one was hurt.\n\nsummary:\n#Person1# tells #Person2# the kids were a"
+    },
+    {
+        "inputs": "Stronger , more confident , and empowered girls come out of Metro and I really am glad I work there . Anyway after tutoring , I went home and baked vegan pumpkin muffins again . This time just for the house , and for the dinner on Thursday .\n\nGive answer the following question using evidence from the above passage: What type of diet does the narrator follow ?\nOPTIONS:\n- They do n't eat carbs .\n- They do n't eat fruit .\n- They do n't eat vegetables .\n- They do n't eat meat .",
+        "targets": "They do n't eat meat .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What type of diet does the narrator follow? \n#Person2#: They do n't eat meat. \n\nsummary:\nThe narrator tells #Person1# about the tutoring"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nI had a dream about my mom again . She 's been dead for three years but I still have dreams about her . It 's like we were n't close when she was alive and I know she 's dead ( Finding and touching someone 's body makes you aware that \" Hey , they are dead . \" . )\n\nWhy might they be having dreams about their mom ?\nOPTIONS:\n- They 've been dead for three years\n- None of the above choices .\n- They were n't close when she was alive\n- They are finding someone 's body",
+        "targets": "None of the above choices .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why might they be having dreams about their mom?\n#Person2#: They 've been dead for three years.\n\nsummary:\n#Person2# tells #Person1# that they've been"
+    },
+    {
+        "inputs": "Sometimes though the books take a back seat when there are several other toys competing for her attention But I found a good idea that could encourage her to like reading even more : publish a story book with her as the lead character . Personalized children 's books are a great way to preserve childhood memories as well as to encourage a child 's creativity . Sites like Kids Personally has a couple of personalized photo books , activity books , and novels for children .\n\nBased on the preceding passage, answer the following question What might I do in the near future in regards to my daughter ?\nOPTIONS:\n- I might get her regular story books to encourage her to read more .\n- I might get her old story books to encourage her to read more .\n- None of the above choices .\n- I might get her personalized story books to encourage her to read more .",
+        "targets": "I might get her personalized story books to encourage her to read more .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Personalized story books are a great way to encourage a child's creativity. I might get her personalized story books to encourage her to read more."
+    },
+    {
+        "inputs": "He would n't play at all , he ran from his tennis ball , and would hardly acknowledge the frisbee I brought him ( He used to be MAD crazy about frisbees ) . He 's gained weight , and was just ... not himself the whole time . It really made me upset , and mad that I ca n't have him with me .\n\nAnswer the following question: Why are you unable to have him stay with you ?\nOPTIONS:\n- None of the above choices .\n- I live in an apartment that does not allow us to keep pets so he stays with a friend of mine\n- I have a cat now and he does n't get along with the cat so he stays with my friend\n- He prefers my friend with whom he is staying so whenever I come to play with him he seems to be disinterested in me",
+        "targets": "I live in an apartment that does not allow us to keep pets so he stays with a friend of mine",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why are you unable to have him stay with you?\n#Person2#: I live in an apartment that does not allow us to keep pets so he stays with a friend of mine.\n#Person1"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nWe pulled into the parking lot of the pier , quickly threw on the top just before the rain started . We sat in the jeep eating our lunch , and the heavens dumped . Not just rain and lightening , but hail the size of marbles . At one point it looked like someone had dumped several boxes of mothballs in the parking lot .\n\nWhat is the narrator likely to bust out after eating ?\nOPTIONS:\n- They will pull out a bottle of sunscreen .\n- They will pull out a rain jacket .\n- None of the above choices .\n- They will pull out a pair of shorts .",
+        "targets": "They will pull out a rain jacket .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the instruction:\n\nWe pulled into the parking lot of the pier, quickly threw on the top just before the rain started. We sat in the jeep eating our lunch, and the heavens dumped. Not"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nwhen i got out of bed this morning i seriously did feel older . 33 ... wow , life is flying.this morning # 1 got everyone breakfast and let me sleep in a little bit . i thought that was so wonderful.my friend / neighbor is making me waffles for breakfast today . i know , how awesome!tonight we 'll have cake and ice cream and i will eat more than i should.tomorrow we 're going to see my mom and my aunt .\n\nWho is making food for the narrator this morning ?\nOPTIONS:\n- Their aunt is .\n- Their mom is .\n- None of the above choices .\n- Their personal chef is .",
+        "targets": "None of the above choices .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Who is making food for the narrator this morning?\n#Person2#: Their mom is.\n\nsummary:\nThe narrator tells #Person2# that their mom is making food for the narrator this"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nBeat the egg whites until satiny peaks form , and then beat in the sugar a spoonful at a time until the meringue is stiff and shiny . Fold corn flour , vinegar and vanilla with meringue until well - mixed and smooth.3 . Mound on to a baking sheet in a fat circle approximately 23 cm in diameter , smoothing the sides and top . Place in the oven , then immediately turn the temperature down to 150 and cook for about one to one and a quarter hours .\n\nWhat type of food is the narrator making ?\nOPTIONS:\n- None of the above choices .\n- They are making Mexican .\n- They are making lunch .\n- They are making sweets .",
+        "targets": "They are making sweets .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What type of food is the narrator making? \n#Person2#: They are making sweets. \n\nsummary:\n#Person2# tells #Person1# the narrator is making sweets"
+    },
+    {
+        "inputs": "Okay so it 's been a bit since spring break but we thought that we would still post so you could all know what we have been up to . For our spring break we went on a little boat ride . Okay so it was not such a little boat at all but it was an awesome ride !\n\nBased on the preceding passage, answer the following question What may be the reason for posting while on vacation ?\nOPTIONS:\n- None of the above choices .\n- Because they wanted to brag about their experiences .\n- Because they were drunk .\n- Because they do n't want to feel tied to the internet .",
+        "targets": "Because they wanted to brag about their experiences .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may be the reason for posting while on vacation? \n#Person2#: Because they wanted to brag about their experiences. \n\nsummary:\n#Person2# tells #Person1# they"
+    },
+    {
+        "inputs": "Getting on the metro almost felt like I was getting on a really scary rollercoaster . My ears popper as we declined to the Medical Center stop , and I held my breath as I walked out the door ( I think one of my biggest fears was somehow missing my stop ) . But yeah , everything went great from there . I was with 4 other new people for orientation , one that I had gone to the open house with , so it was n't like I was the only person that did n't know what I was doing .\n\nQuestion: How did the narrator get to orientation ?\nOPTIONS:\n- They took the bus .\n- They took the public transportation option .\n- They took the car .\n- They took the roller coaster .",
+        "targets": "They took the public transportation option .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: How did you get to orientation?\n#Person2#: I took the bus.\n#Person1#: Oh, that's a good idea. I'll do that next time.\n\nsummary:"
+    },
+    {
+        "inputs": "Write a question about the article\n\nI stopped by on Monday before I picked the dog up from the kennel and the head manager was there . We was as confused as I was that the receipt showed Legs / thighs but charged for the regular meal . He not only gave me the white meat , he also included mashed potatoes / gravy and two biscuits . Now that 's customer service . The first night of class was uneventful .",
+        "targets": "Where may I have been when I was treated very nicely by the Head Manager ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Write a question about the article\n\nThe table next to us actually requested to be moved and I do n't blame them I would have to . I am not taking her back to a restaurant until she is a little older . I do n't want the hassle , wasted money or to mess up the other patrons dining experience .",
+        "targets": "What did she do the last time you brought her to a restaurant ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Context:Ughh . I just got back from hell . ( The only reason I could nt be on here)Actually , the first week I was on vacation was great . I would n't eat at ALL and if I did it would be a tiny piece of bread and a cup of unsweetened tea . I lost around 5 - 6 lbs .\nQuestion What may happen before eating very little food ?\nAnswer:\nOPTIONS:\n- May feel better .\n- May start a diet .\n- None of the above choices .\n- Will gain weight .",
+        "targets": "May start a diet .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen before eating very little food? \n#Person2#: May feel better. \n\nsummary:\n#Person2# tells #Person1# #Person2# lost 5-6"
+    },
+    {
+        "inputs": "On the surface , Igor looks like a poor mans version of a 3D animated film . Frankly from the trailer it looked more like a student film from one of those animation schools you see advertised on Spike late at night . But hey , it 's got John Cusack attached so how bad can it be right ? Well ... THE GENERAL IDEA The idea for Igor is actually a pretty creative one .\n\nWhy does Igor look interesting ?\nOPTIONS:\n- It 's 3D animated .\n- It has John Cusack attached .\n- It 's on Spike TV .\n- It looks like a student film .",
+        "targets": "It has John Cusack attached .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does Igor look interesting?\n#Person2#: It's 3D animated.\n\nsummary:\n#Person2# thinks Igor looks interesting because it's 3D animated."
+    },
+    {
+        "inputs": "Write a question about the article\n\nMore so than any other place I have ever lived . It 's really sad . Well , I have to get back to going through my crap at the house and packing it . I ' m down to the crap - most of the good stuff is already moved , and this is the tediously boring and dirty part .",
+        "targets": "What am I probably going to do soon ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Write a question about the article\n\nMaliki stressed the \" necessity of providing the appropriate atmosphere and environment for pilgrims . \" He added \" We must focus on the contractors because the successes and failures campaigns pilgrimage depends on the degree of diligence and tender and awareness among contractors . \" Al - Maliki also pointed to \" the importance of health services provided for pilgrims and providing them with the necessary food , transportation and interest in aviation matters and providing other services .",
+        "targets": "What may be the reason Al - Maliki keeps stressing treating the pilgrims with care ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\nSummarize the instruction accurately while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\conclusion"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nI ' m a summer baby . My eldest is a summer baby . Summer babies do n't get to celebrate birthdays with cupcakes during school time . Summer babies do get their presents distributed better around the year .\n\nWhy does the narrator have a bit of resentment about school ?\nOPTIONS:\n- None of the above choices .\n- They got treated poorly in school .\n- They did n't get to have a birthday party in school .\n- They did n't get treated well in school .",
+        "targets": "They did n't get to have a birthday party in school .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why does the narrator have a bit of resentment about school? \n#Person2#: They did n't get to have a birthday party in school. \n\nsummary:\n#Person"
+    },
+    {
+        "inputs": "Write a question about the article\n\ni woke up this morning curled up on a cushion on the floor . next to me was a curly haired black man who ca nt sleep alone and a week old t.v dinner . my thirst was unbarable so i found the only clean bottle in the house . the sink was filled with some mystery murky water with chereos and ciggarette butts floating in it .",
+        "targets": "Is the sink in good working order ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Always seemed a bit of a goof to me . Not bad , not a heretic , just a goof . However , after his message , I am willing to give him another try . I re - added him to my Zune podcast feeds .\n\nWhy do you think I re - added him to my Zune podcast feeds ?\nOPTIONS:\n- I 'm willing to give another try because I like goofy people on my Zune podcast feed .\n- I re - added him to my Zune podcast feed because he 's not bad and he has good intentions .\n- After he sent me a goofy message , I decided to re - add him to my Zune podcast feed .\n- I re - added him to my Zune podcast feed because he 's goofy .",
+        "targets": "I re - added him to my Zune podcast feed because he 's not bad and he has good intentions .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I re - added him to my Zune podcast feeds because he 's goofy."
+    },
+    {
+        "inputs": "Together , we 're asking the California Legislature to rethink its entire approach to funding water policy . We 're also standing up for disadvantaged communities and individuals : those who must fish to feed their families , agricultural workers who ca n't drink the water that comes out of their tap . We 're fighting to make sure that these families and workers get a fair share of any bond . Along with our disappearing fish species , they have suffered the most from decades of water policies that rewarded special interests without improving water quality or supplies for these low - income communities .\n\nGenerate a question about the above context.",
+        "targets": "What is the politician trying to reform ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: I'm sorry, I don't understand.<\\conclusion>\n\nsummary:\n#Person1# asks #Person2# to generate a question about the above context."
+    },
+    {
+        "inputs": "Write a question about the article\n\nI ' m fuckin ' free . No more of the reek of pot driftin ' through the house at all hours of the day or night . No more hearing him sing along with songs that he only knows one word to and gets that word wrong .",
+        "targets": "What may be the plausible reason for my jubilation ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "Summarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>' and '<\\con"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nIt is super super fun . I ' m hosting a contest , as well , where you have to write a book report on a non - Harry - Potter book from the POV of a Harry Potter character . Fun times . Yesterday , I went to Queens with cacophonesque and liret , to go to a book sale . Destiny 's friends are moving out of the country and were selling off a lot of books .\n\nWhich of the following events did not happen yesterday ?\nOPTIONS:\n- Destiny 's friends sold a lot of books .\n- Destiny 's friends moved out of the country .\n- I went to a book sale in Queens .\n- None of the above choices .",
+        "targets": "Destiny 's friends moved out of the country .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Which of the following events did not happen yesterday?\n#Person2#: None of the above choices.\n\nsummary:\n#Person2# tells #Person1# that Destiny's friends sold a lot"
+    },
+    {
+        "inputs": "I went to Niagara Falls today , was at a stop , and someone slammed into my trunk . He pulled up next to me , rolled his window down , and offered me a few hundred dollars , but I was like , \" No way , I ' m calling the police . \" He decided to drive off , so I had to tail him and get his license . I got it , but lost him pretty fast .\n\nGenerate a question about the above context.",
+        "targets": "What happened to the guy that hit your car ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What happened to your car?<\\conclusion>\n#Person2#: Someone slammed into my trunk.\n#Person1#: Did you get his license?\n#Person2"
+    },
+    {
+        "inputs": "Read the following article and answer the question.\n\nI even got my flow going on the dance floor :] Spent most of the night talking to Evan and a few others at the table , my sister was MIA most the time : /. Evan and I talked some magic and things paranormal , and even threw a few energy balls back and forth , that was the first time he ever experimented with it and I picked up some qualities of his intent and he got my first one really accurately . His mom 's a professional psychic ... I really would like to get a reading from her some time . All in all , it was a splendid evening and an anticipated success .\n\nWhy would the narrator be so sweaty after this event ?\nOPTIONS:\n- The narrator worked out .\n- The narrator danced .\n- The narrator lifted weights .\n- None of the above choices .",
+        "targets": "The narrator danced .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why would the narrator be so sweaty after this event?\n#Person2#: The narrator danced.\n#Person1#: Oh, I see.\n\nsummary:\nThe narrator tells"
+    },
+    {
+        "inputs": "I had about 5 - 7 oz of alcohol this evening . Started drinking at 8 and ceased drinking at 12:30 . It is now 2:45 and I have had a full meal and 5 glasses of water . I also had about 300 mg of BC Powder at 1 am .\n\nWhat may be the reason that they did this ?\nOPTIONS:\n- They wanted to prevent a hangover the next day .\n- They needed to put food on their stomach .\n- The alcohol caused them to get hungry and thirsty .\n- None of the above choices .",
+        "targets": "They wanted to prevent a hangover the next day .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I'm sorry to hear that. I'm afraid I can't help you.\n\nsummary:\n#Person1# tells #Person2# #Person2# had about 5-7 oz"
+    },
+    {
+        "inputs": "Context:So ... 23 and more years ago , I stopped , and did n't return to it . I often lingered over the clay section in art supply stores when I would go in for needlepoint or knitting supplies ... but I never followed up on that longing . Until today .\nQuestion Which of the following is true of the narrator ?\nAnswer:\nOPTIONS:\n- They have used clay for years .\n- None of the above choices .\n- They are crafty .\n- They are 23 .",
+        "targets": "They are crafty .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What do you do for a living?\n#Person2#: I'm a teacher.\n#Person1#: What do you teach?\n#Person2#: I teach English.\n#Person1"
+    },
+    {
+        "inputs": "We were very tensed up while watching it . And at the last score , Korea served wrongly , and Singapore got into the finals . YEAH ! ! ! xD Too bad , Cg went to the toilet .\n\nQuestion: What is the narrator describing ?\nOPTIONS:\n- They are describing serving food in Singapore .\n- None of the above choices .\n- They are describing the toilet .\n- They are describing a sporting event .",
+        "targets": "They are describing a sporting event .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What is the narrator describing? \n#Person2#: They are describing a sporting event. \n\nsummary:\n#Person2# tells #Person1# the narrator is describing a sporting"
+    },
+    {
+        "inputs": "Context:Saw the dentist today for the first time in nearly 2 years , because not only am I forgetful but every time I go to this guy he find at least 2 cavities despite my religious brushing so I just do n't want to see him . All of my wisdom teeth have metal in them . So he finds two more and I was ready to call bullshit because it does n't make sense that he finds so many of them but then I looked at them in a mirror and indeed saw some yellowing holes . So he 's not bullshitting , I just fail at brushing .\nQuestion What may happen at their dentist appointment ?\nAnswer:\nOPTIONS:\n- They will have to get their wisdom teeth out .\n- None of the above choices .\n- They will just be there for a cleaning .\n- They will need to get work done on their teeth .",
+        "targets": "They will need to get work done on their teeth .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: We're going to the dentist.<\\conclusion>\n#Person2#: What for?\n#Person1#: I have a cavity.\n#Person2#: Oh"
+    },
+    {
+        "inputs": "She said \" fine , but if you do n't eat that entire thing I ' m going to shove it up your butt ! \" . No joke . Dear old Grandma said that . Which comes to another point , she was cheap too .\n\nQuestion: What may be the reason for their grandma 's statement ?\nOPTIONS:\n- None of the above choices .\n- She does n't like to see leftovers on plates .\n- She does n't want to clean up leftovers .\n- She does n't want to waste money on food .",
+        "targets": "She does n't want to waste money on food .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: She does n't want to waste money on food."
+    },
+    {
+        "inputs": "Welcome to my site ! Imelda here , 39 years old , filipina . I have a craze for greens , green bags , green shoes and green tops . I love to eat but i do n't cook .\n\nAnswer the following question: What might be true about this person .\nOPTIONS:\n- They 've never worn the color green .\n- None of the above choices .\n- They 've recently graduated high school .\n- They do poorly in the kitchen .",
+        "targets": "They do poorly in the kitchen .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What might be true about this person? \n#Person2#: They 've recently graduated high school. \n\nsummary:\nImelda tells #Person2# about her craze for greens."
+    },
+    {
+        "inputs": "Just what I needed these days ... one more major nerve problem . I am going back to the neurologist once I can make an appt . to get yet another nerve checked .\n\nBased on the preceding passage, answer the following question What is the reason I feel I need one more major nerve problem these days ?\nOPTIONS:\n- I am a masochist and enjoy pain and discomfort .\n- None of the above choices .\n- I am being sarcastic and ironically claiming I need a problem .\n- If I keep my insurance I am required to have one more problem .",
+        "targets": "I am being sarcastic and ironically claiming I need a problem .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: I am going back to the neurologist once I can make an appointment to get yet another nerve checked. \n#Person2#: What's the problem? \n#Person1#: Just"
+    },
+    {
+        "inputs": "Answer the question about text:\n\nSo last night we took a bus and then Metro to the Paris center and walking along the main axis of Paris to the Louvre . We were trying to find a place to eat but August is the month which Parisian takes holidays ... so many of the restaurant were closed . Since we were both not from Paris and have not been living in Paris before , we just walked in a street from the Louvre leading to the Opera . Then I realized that there are a lot of japanese restaurants ... I thought to myself that this must be the japanese town that Marc has told me about .\n\nWhat 's a possible reason there are a lot of Japanese restaurants ?\nOPTIONS:\n- Because many of the restaurants were closed .\n- Because they took the metro to the Paris Center .\n- Because some people in Paris like Japanese food .\n- None of the above choices .",
+        "targets": "Because some people in Paris like Japanese food .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What's a possible reason there are a lot of Japanese restaurants?\n#Person2#: Because they took the metro to the Paris Center.\n\nsummary:\n#Person2# tells #Person1"
+    },
+    {
+        "inputs": "Context:I went to Microsoft today for training . The Microsoft campus ( they have five buildings ! ) is in Reading , so I got home before six ! It 's a miracle .\nQuestion Why did the narrator get home so early ?\nAnswer:\nOPTIONS:\n- They got let out early .\n- None of the above choices .\n- The location was close to home .\n- They lived on campus .",
+        "targets": "The location was close to home .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why did you get home so early? \n#Person2#: We got let out early. \n\nsummary:\n#Person2# got home early because they got let out early."
+    },
+    {
+        "inputs": "Woke up with a stinking migraine this morning , and having had a wafer nearly two hours ago it is finally abating . It 's pouring with rain and after all the organising of the past few days I need a day of doing rather less , I feel . I have to sort out the bag of stuff I took off my bureau desk yesterday , but other than that , and the usual round of feeding people and keeping the place tidy enough to be safe , I want to knit and rest as much as I can . I am worried about my keys though , they have gone missing . If they do n't turn up in the bag of stuff off my desk then I am really going to start to worry .\n\nAnswer the following question: Why might the speaker need a day of rest ?\nOPTIONS:\n- They have been worried about their missing keys .\n- They need to work on their knitting .\n- They have not been eating enough .\n- They have been really busy recently .",
+        "targets": "They have been really busy recently .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "The speaker needs a day of rest because they have been really busy recently."
+    },
+    {
+        "inputs": "Bake in the preheated oven for 35 minutes , or until a toothpick inserted into the center of the cake comes out clean . Cool for 10 minutes on a cooling rack , then unmold cake . Cool completely before serving . Store in an airtight container once cooled .\n\nGenerate a question about the above context.",
+        "targets": "What type of cuisine is   the narrator teaching ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "\n<conclusion>#Person1#: I'm going to make a cake for my birthday.<\\conclusion> I'm going to make a chocolate cake.\n#Person2#: What kind of"
+    },
+    {
+        "inputs": "i feel like i come last and not first . i m not worthy of being first i guess . oh that s right , i m crazy . my whole life i have been blamed for things and i always think i cause the problem some way and it stresses me out .\n\nGive answer the following question using evidence from the above passage: What may I be feeling right now ?\nOPTIONS:\n- None of the above choices .\n- Tiredness\n- Sadness\n- Happiness",
+        "targets": "Sadness",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may I be feeling right now? \n#Person2#: Tiredness. \n\nsummary:\n#Person2# tells #Person1# #Person2# feels tiredness."
+    },
+    {
+        "inputs": "During that time of my life , I just could n't handle anyone who was dragging me down . If there was a person who saw the glass as half empty , it was her . She would always be the first to burst my bubbles , and yet she was happy about it . She had a strange sense of satisfaction to see me miserable .\n\nAnswer the following question: What may happen before I knew her ?\nOPTIONS:\n- I   looked for who is miserable .\n- I was content and satisfied .\n- I dragged my friends down .\n- None of the above choices .",
+        "targets": "I was content and satisfied .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: What may happen before I knew her?\n#Person2#: I was content and satisfied.\n\nsummary:\n#Person2# tells #Person1# that #Person2# was content and satisfied before #"
+    },
+    {
+        "inputs": "You know how I was complaining that I did n't get to shake Paul 's hand yesterday right ? ? ? Teehee , I got to hug him today I was amazingly star struck on stage today . While I was walking down towards Bryan , I wanted to hug him so baaadly but I did n't have the courage to do so . I stood dumbfounded for a long time in front of Bryan and Paul .\n\nGive answer the following question using evidence from the above passage: Why was the writer complaining that she did n't get to shake Paul 's hand ?\nOPTIONS:\n- Because she wanted to shake it .\n- Because she got to go on stage .\n- None of the above choices .\n- Because she got to hug him instead .",
+        "targets": "Because she wanted to shake it .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Why were you complaining that you didn't get to shake Paul's hand? \n#Person2#: Because I wanted to shake it. \n\nsummary:\n#Person2# tells"
+    },
+    {
+        "inputs": "Today I sat like a lump during almost the entire worship service . Not only pitiful , but a hindrance to my worship . Later I was attempting to chat with some friends , but that again required standing with no support . I tried to take one step backward to lean on a window sill , and everybody thought I was leaving the conversation .\n\nWhat is wrong ?\nOPTIONS:\n- Something is wrong with my feet .\n- None of the above choices .\n- Something is wrong with my worship .\n- Something is wrong with the conversation .",
+        "targets": "Something is wrong with my feet .",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "#Person1#: Something is wrong with my feet.\n\nsummary:\n#Person1# tells #Person2# something is wrong with #Person1#'s feet."
+    },
+    {
+        "inputs": "That was the first thing I wondered when I realized that he was n't joking . \" He gazed at Goku again . \" I suppose I 'll level with you ; we all know that Sanzo has not been himself lately . \"\n\nGenerate a question about the above context.",
+        "targets": "Why would he gaze at Goku ?",
+        "metric": "em",
+        "domain": "read.comp.w:commonsense",
+        "model_name": "cosmos_qa",
+        "model": "ryusangwon/9052_Llama-2-7b-hf",
+        "predicted_answer": "<conclusion>#Person1#: What's the matter with him?<\\conclusion>\n\n#Person2#: He's been acting strange.\n\n#Person1#: What do you mean?\n\n#"
+    }
+]

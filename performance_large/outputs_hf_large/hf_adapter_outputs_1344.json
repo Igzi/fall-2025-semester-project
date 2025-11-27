@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "Do these mean the same?\nThe film received negative reviews , but after release on VHS and DVD , it became a cult favorite with favorable comments on Amazon and IMDB .\nThe film received negative reviews , but after the release on VHS and DVD , he became a cult favorite with favorable comments on Amazon and IMDB .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "1. vidas distintas , is a 1969 Mexican telenovela transmitted by Televisa and originally produced by Telesistema Mexicano .\n2. Tres vidas distintas , is a 1969 Mexican telenovela transmitted by Televisa and originally produced by Telesistema Mexicano .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThe `` Fall Beil '' was used for the last time in West Germany in 1949 , in 1966 in East Germany .\nThe `` Fallbeil '' was last used in East Germany in 1949 , in 1966 in West Germany .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The Fall Beil was used for the last time in West Germany in 1949, in 1966 in East Germany."
+    },
+    {
+        "inputs": "Sentence 1: Early advisory board members included Alistair Cooke , Saul Bellow , Walter Cronkite , Norman Cousins , Gore Vidal , Norman Podhoretz .\nSentence 2: Early advisory members included Walter Cronkite , Norman Vetter , Gore Vidal , Norman Podhoretz , Saul Bellow , and Alistair Cooke .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is missing <Norman Cousins>. \n<Jim>: The second one is missing <Walter Cronkite>."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThe river Valea Sterminoasă is a tributary of the River Boia Micăa in Romania .\nThe Valea Sterminoasă River is a tributary of the Boia Mică River in Romania .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "In 1864 , the United Presbyterian Missionary Society of China sent its representatives to Scotland .\nThe United Presbyterian Missionary Society of Scotland sent its agents to China in 1864 .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "In January 2013 , it was announced that Warren Spector Disney Interactive had left after the closure of the Junction Point Studios .\nIn January 2013 , it was announced that Warren Spector had left Disney Interactive following the closure of Junction Point Studios .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "1. Many bus services depart from the adjacent Elizabeth Street or Railway Square or from the nearby Eddy Avenue .\n2. Many bus lines depart from the adjacent Eddy Avenue or from nearby Elizabeth Street or Railway Square .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not. 2 is more accurate."
+    },
+    {
+        "inputs": "Shirley Jones was offered the role of Laurey , who went to Joanne Woodward ( who had previously performed in a stage production by Oklahoma ! ) .\nJoanne Woodward was offered the role of Laurey , who went to Shirley Jones ( who had previously performed in a stage production by Oklahoma ! ) .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "(1) After Mitchell had returned to the main camp , Finch arrived with tragic news .\n(2) After Finch had returned to the main camp , Mitchell arrived with tragic news .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Mitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:\nMitchell:"
+    },
+    {
+        "inputs": "(1) Michael Jackson , Prince and Madonna were , however , influences on the album .\n(2) However , Michael Jackson , Prince , and Madonna were influences on the album .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is wrong. \n<Jim>: The second one is correct. \n<Jim>: The first one is missing the comma after Madonna"
+    },
+    {
+        "inputs": "The Spartans could not stop the Lions when Michigan State Quarterback Jeff Smoker 29 of 50 for 357 Yards and four touchdowns was completed .\nThe Lions defense could not stop the Spartans , as Michigan State quarterback Jeff Smoker completed 29 of 50 for 357 yards and four touchdowns .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The Lions could not stop the Spartans when Michigan State Quarterback Jeff Smoker 29 of 50 for 357 Yards and four touchdowns was completed ."
+    },
+    {
+        "inputs": "The race started in Castelldefels and was finished in Barcelona .\nThe race started in Barcelona and finished in Castelldefels .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Sentence 1: He was an Invited Speaker of the ICM in Toronto in 1924 , in 1932 in Zurich , and in 1936 in Oslo .\nSentence 2: In 1924 he was an invited spokesman for the ICM in Toronto , in Oslo in 1932 and in Zurich in 1936 .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nHe was an Invited Speaker of the ICM in Toronto in 1924 , in 1932 in Zurich , and in 1936 in Oslo .\nS"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nOmitting the engines and their fuel would reduce complexity and increase payload .\nOmitting the engines and their fuel would increase complexity and reduce payload .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No: Omitting the engines and their fuel would increase complexity and reduce payload .\r\nYes: Omitting the engines and their fuel would reduce complexity and increase payload ."
+    },
+    {
+        "inputs": "Are these paraphrases?\nFurthermore , a triple threat match for the United States Championship was between Champion Jack Swagger , The Miz and Kofi Kingston .\nFurthermore , a triple threat match for the United States Championship was between Champion Kofi Kingston , The Miz and Jack Swagger .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they're not."
+    },
+    {
+        "inputs": "Do these mean the same?\nErginus galkini is a sea snail species , a true limpet , a marine gastropod mollusk in the Lottiidae family , one of the families of true limpets .\nErginus galkini is a species of sea snail , a true limpet , a true gastropod mollusk in the family Lottiidae , one of the families of marine limpets .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Erginus galkini is a sea snail species , a true limpet , a marine gastropod mollusk in the Lottiidae family , one of the families of true limpets ."
+    },
+    {
+        "inputs": "Glockner made his first screen appearance as Mason during the episode broadcast on 22 February 2013 .\nHis first screen appearance as Glockner during the episode was broadcast on February 22 , 2013 .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Are these paraphrases?\nMohammad Shafiq ( variants : Shafeeq , Shafik , Shafeek , Mohammed , Muhammad , Shafique , Shafic , Chafic ) may refer to\nMohammad Shafiq ( variants : Mohammed , Muhammad , Shafik , Shafeek , Shafeeq , Shafique , Shafic , Chafic ) can refer to\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "The plant may have some medical properties and has been used in traditional medicine in South Asia and in traditional Chinese medicine .\nThe plant can have some medical properties and has been used in traditional Chinese medicine in South Asia and traditional medicine .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Do these mean the same?\nIn May 2011 , he produced , he directed and wrote his first feature film .\nIn May 2011 he wrote , directed , and produced his first feature .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "Sentence 1: However , Madonna , Prince , and Michael Jackson were influences on the album .\nSentence 2: Michael Jackson , Prince and Madonna , however , were influenced on the album .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jason>: No, they don't. \n<Jason>: The first one is correct. \n<Jason>: The second one is wrong. \n<Jason>: The second one should be:\n<J"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nWhile the exclusion of black players was not a written rule , since 1933 no African - American had been played in the National Football League .\nWhile the exclusion of African players was not a written rule , no black-American had played in the National Football League since 1933 .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "While the exclusion of black players was not a written rule , no African-American had played in the National Football League since 1933 ."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nIn August 2017 , Aluri Chakrapani also joined the team to play the role of producer Prakash Raj as well .\nAluri Chakrapani also joined the team in August 2017 , to allegedly play the role of producer Prakash Raj .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nHe was the son of Thomas Cairnes and his wife , Jane Scott , the daughter of John Scott .\nHe was the son of Thomas Cairnes and his wife Jane Scott , daughter of John Scott .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He was the son of Thomas Cairnes and his wife Jane Scott , daughter of John Scott ."
+    },
+    {
+        "inputs": "(1) Ján Sokol ( born 9 October , 1933 ) is a former bishop and Slovak Archbishop of Trnava .\n(2) Ján Sokol ( born October 9 , 1933 ) is a Slovak bishop and former archbishop of Trnava .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nJán Sokol ( born 9 October , 1933 ) is a former bishop and Slovak Archbishop of Trnava ."
+    },
+    {
+        "inputs": "(1) Jay Jakkrit Bunkham ( born December 7 , 1982 ) , simply known as Jay , is a retired Thai professional footballer who plays as midfielder .\n(2) Jakkrit Bunkham ( born December 7 , 1982 ) , simply known as Jay is a Thai retired professional footballer who plays as an Attacking Midfielder .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Jay Jakkrit Bunkham ( born December 7 , 1982 ) , simply known as Jay is a retired Thai professional footballer who plays as midfielder ."
+    },
+    {
+        "inputs": "1. Frank James joined a local company recruited for the secessionist Drew Lobbs Army , and fought at the Battle of Wilson 's Creek in August 1861 .\n2. Frank James joined a secessionist company , recruited for the local Drew Lobbs Army , and fought in August 1861 in the Battle of Wilson 's Creek .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Frank James joined a secessionist company, recruited for the local Drew Lobbs Army, and fought in August 1861 in the Battle of Wilson 's Creek."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nHe eventually made , in the `` Western Republican '' , one of the first botanical collections published in Ohio by a professional botanist .\nFinally , in the `` Western Republican '' , he published one of the first botanical collections to be made in Ohio by a professional botanist .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He eventually made , in the `` Western Republican '' , one of the first botanical collections published in Ohio by a professional botanist .\r\nFinally , in the `` Western Republican '' , he published one of the first botanical collections to be"
+    },
+    {
+        "inputs": "Same meaning?\nAll Music had written biographies of 30,000 artists , 120,000 record reviews and 300 essays published by `` a hybrid of historians , critics and passionate collectors '' .\nAll music had published biographies of 30,000 artists , 120,000 plate reviews and 300 essays by `` a hybrid of historians , critics and passionate collectors '' .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "All Music had published biographies of 30,000 artists , 120,000 record reviews and 300 essays by \"a hybrid of historians , critics and passionate collectors\"."
+    },
+    {
+        "inputs": "It was designed in 1983 by architects Philip Johnson ( alumnus of the University ) and John Burgee .\nIt was designed in 1983 by the architects Philip Johnson ( University Alumnus ) and John Burgee .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It was designed in 1983 by the architects Philip Johnson ( University Alumnus ) and John Burgee ."
+    },
+    {
+        "inputs": "Do these mean the same?\nAccording to the United States Census Bureau , Kennesaw is a total area of which is land and 1.08 % has water .\nAccording to the United States Census Bureau , Kennesaw has a total area of , of which is land and , or 1.08 % , is water .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\n`` Aku Ankka '' is published by Sanoma Media ( formerly Sanoma Magazines ) , which is part of Sanoma .\n`` Aku Ankka '' is published by Sanoma Media ( formerly Sanoma Magazines ) , who is part of Sanoma .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "1. The only tram depot is in San Antonio , Termini are Miraflores and Oriente .\n2. The only tram depot is at San Antonio . Termini are Miraflores and Oriente .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: I'm sorry, I don't understand.\n<Jim>: I'm not sure what you mean.\n<Jim>: I'm not sure what you're trying to say.\n<J"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThe Continental League was the last serious attempt to create a new league of third major clubs .\nThe Continental League was the last serious attempt to create a third major league consisting of new clubs .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The Continental League was the last serious attempt to create a third major league consisting of new clubs."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThe draft was used in Joseon to present Daoism in Korea and to express the hope for harmony of Yin and Yang .\nIn Korea , the draft was used to present Daoism in Joseon and to express the hope for harmony of Yin and Yang .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Are these paraphrases?\nThe score was made by composer Maury Yeston , with choreography by William Whitener , artistic director of the Kansas City Ballet .\nThe score was by composer William Whitener , with choreography by Maury Yeston , artistic director of the Kansas 'City Ballet ' .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "Sentence 1: He also wrote a large number of orchestral arrangements and accompaniments for varieties .\nSentence 2: He also wrote a large number of vocal arrangements and orchestral accompaniments to varieties .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: He wrote a large number of orchestral arrangements and accompaniments for varieties. \n<Jim>: He also wrote a large number of vocal arrang"
+    },
+    {
+        "inputs": "In these patients , vision can only be normal on hand movements or light perception .\nIn these patients , vision can only be light hand movements or a normal perception .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "The Brunau rises in the vicinity of Nindorf , flows initially northeast to the south of Hetendorf .\nThe Brunau flows in the vicinity of Nindorf , rises initially northeast to south of Hetendorf .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The Brunau rises in the vicinity of Nindorf , flows initially northeast to the south of Hetendorf .\r\nThe Brunau flows in the vicinity of Nindorf , rises initially northeast to south of Hetendorf"
+    },
+    {
+        "inputs": "Are these paraphrases?\nThe Boulder Dushanbe Tea House was a gift from mayor Maksud Ikramov from Dushanbe to the city of Boulder , Colorado .\nThe Boulder Dushanbe Tea House was a gift from Mayor Maksud Ikramov of Dushanbe to the city of Boulder , Colorado .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes, they are."
+    },
+    {
+        "inputs": "After the end of the war in June 1902 , Higgins Southampton left the `` SSBavarian '' in August and returned the following month to Cape Town .\nAfter the end of the war in June 1902 , Higgins left Southampton in the `` SSBavarian '' in August , returning to Cape Town the following month .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Vermont is bordered to the north by Mitcham , to the west of Nunawading and Forest Hill , to the south by Vermont and to the east by Wantirna and Ringwood .\nVermont South is bordered to the north by Mitcham , to the west by Nunawading and Forest Hill , to the south of Vermont and to the east by Wantirna and Ringwood .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Are these paraphrases?\nTres vidas distintas , is a 1969 Mexican telenovela transmitted by Televisa and originally produced by Telesistema Mexicano .\nvidas distintas is a Mexican telenovela , produced in 1969 by Televisa and originally transmitted by Telesistema Mexicano .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Example milestones are beating a World Series champion team , beating historical teams and playing other players head to head .\nExample milestones are beating a World Series Champion team , playing historic teams and beating other players head to head .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nNo, they are not."
+    },
+    {
+        "inputs": "Same meaning?\nIn films , school stories of customs and educational situations within comic frames fit well into the satires of Confucianism from earlier writings .\nIn films , school stories of manners and educational situations within comic frames fit well into the satires on Confucianism from earlier writings .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes."
+    },
+    {
+        "inputs": "Do these mean the same?\nHe was born the posthumous child of Sir John Lade , 1st Baronet ; his mother was the sister of the brewer Henry Thrale .\nHe was born the posthumous child of Sir John Lade , 1st Baronet , his mother was the brewer 's sister Henry Thrale .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He was born the posthumous child of Sir John Lade , 1st Baronet , his mother was the brewer 's sister Henry Thrale ."
+    },
+    {
+        "inputs": "1. Georgetown is also a drinking water source for Lake Georgetown and the nearby town of Round Rock .\n2. Georgetown is also a source of drinking water for Lake Georgetown and the nearby city of Round Rock .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. Georgetown is also a drinking water source for Lake Georgetown and the nearby town of Round Rock .\r\n2. Georgetown is also a source of drinking water for Lake Georgetown and"
+    },
+    {
+        "inputs": "Same meaning?\nHis father was the illegitimate son of Anne Tothby , a deputy for Lincolnshire , and of William Skipwith .\nHis father was the illegitimate son of Anne Tothby , a Member of Parliament for Lincolnshire , and William Skipwith .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "His father was the illegitimate son of Anne Tothby , a Member of Parliament for Lincolnshire , and William Skipwith ."
+    },
+    {
+        "inputs": "Podkriváň is a village and municipality in Detva District , in the Banská Bystrica Region of central Slovakia .\nPodkriváň is a village and municipality in the region Banská Bystrica , in the Detva district of Central Slovakia .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "Sentence 1: InMoment 's GoRecommend product provides customers with a positive feedback outlet at the end of a social experience , then measures the effectiveness of this review or recommendation .\nSentence 2: At the end of a positive experience , InMoment 's GoRecommend product offers customers social feedback and then measures the effectiveness of this review or a recommendation .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't."
+    },
+    {
+        "inputs": "Are these paraphrases?\nHe was born in Brooklyn , New York , died in Tiburon , California .\nHe was born in Tiburon , California , and died in Brooklyn , New York .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "1. In April 1942 , Montagu Slater returned to England and asked Britten to be his librettist for `` Peter Grimes '' shortly after his return .\n2. Britten returned to England in April 1942 . Soon after his return , he asked Montagu Slater to be his librettist for `` Peter Grimes '' .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not. 2 is a paraphrase of 1."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nMcCarthy was born in Auckland , but moved with his parents to San Francisco , California at the age of four .\nMcCarthy was born in Auckland , but moved to San Francisco , California at the age of four years with his parents .",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "McCarthy was born in Auckland , but moved to San Francisco , California at the age of four years with his parents ."
+    },
+    {
+        "inputs": "Scrivener dated the manuscript to the 12th century , C. R. Gregory to the 13th century . Currently the manuscript is dated by the INTF to the 12th century .\nScrivener dates the manuscript to the 13th century , C. R. Gregory to the 12th century , the manuscript is currently dated to the 12th century by INTF .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Scrivener dated the manuscript to the 12th century , C. R. Gregory to the 13th century . Currently the manuscript is dated by the INTF to the 12th century ."
+    },
+    {
+        "inputs": "Sentence 1: McCarthy was born in Auckland , but moved to San Francisco , California at the age of four years with his parents .\nSentence 2: McCarthy was born in San Francisco , California , but moved to Auckland with his parents at age four .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "McCarthy was born in San Francisco, California, but moved to Auckland with his parents at age four."
+    },
+    {
+        "inputs": "(1) The group played extensively , became famous in Israel and even toured in New York City in 2007 .\n(2) The group toured extensively and was famous in Israel and even played in New York City in 2007 .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. 2 is correct. 1 is wrong."
+    },
+    {
+        "inputs": "de Ruiter , born in Leiden , has played for FC Utrecht , FC Den Bosch , Excelsior , RKC Waalwijk and FC Emmen .\nde Ruiter , born in Leiden , performed for RKC Waalwijk , FC Den Bosch , Excelsior , FC Utrecht and FC Emmen .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "de Ruiter , born in Leiden , has played for FC Utrecht , FC Den Bosch , Excelsior , RKC Waalwijk and FC Emmen ."
+    },
+    {
+        "inputs": "1. He became Finnish champion in 1999 and 2003 , rivalling with Jarno Jokihaara and Marko Ritola . He also became indoor champion in 2003 .\n2. In 1999 and 2003 he became Finnish master , with Jarno Jokihaara and Marko Ritola , in 2003 he became Indoor - Champion .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jenny>: No, they are not."
+    },
+    {
+        "inputs": "Sentence 1: In early astronomy , his fame is due to the introduction of the mathematical globe , and his astronomical contributions to understanding the movement of the planets .\nSentence 2: His fame is due in mathematical astronomy to the introduction of the astronomical globe and to his early contributions to the understanding of the movement of the planets .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nSentence 2:"
+    },
+    {
+        "inputs": "Same meaning?\nOnly Ronnie Fields did not play a single game in the NCAA or the NBA .\nRonnie Fields did not play a single game in the NCAA or in the NBA .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, he did not play in the NBA."
+    },
+    {
+        "inputs": "1. This beetle was described as a new species in 1988 . It is about long . It has nonfunctional wings and can not fly .\n2. This beetle was described in 1988 as a non-functioning species ; it is about long , has new wings and can not fly .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not. 1 is about the beetle, 2 is about the description."
+    },
+    {
+        "inputs": "Do these mean the same?\nFishman holds a Bachelor 's degree from Columbia University and a Master 's degree from Brown University in Economics .\nFishman holds a bachelor 's degree from Columbia University and a master 's degree in economics from Brown University .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "In 2009 he moved back to New York City and today lives in Philadelphia .\nIn 2009 he moved back to Philadelphia and lives in New York City today .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "1. Field greens and root plants were generally not cultivated and were gathered seasonally when they grew in the wild .\n2. Field greens and root plants were generally not cultivated and grew seasonally when they were in the wild .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: I'm not sure. I'll check it out."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThere is a bus , officially called the Ground Force One , which is unofficially called the Stagecoach , while the president operated by the Secret Service is on board .\nThere is a bus officially called Ground Force One unofficially called Stagecoach , while the president is aboard , which is operated by the Secret Service .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nShe then returned to South Africa and played ten games for Maties FC , before taking up a professional contract in Iceland .\nShe then returned to Iceland and played ten games for Maties FC before taking a professional contract in South Africa .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "She then returned to Iceland and played ten games for Maties FC before taking a professional contract in South Africa ."
+    },
+    {
+        "inputs": "(1) He moved back to Philadelphia in 2009 and now lives in New York City .\n(2) In 2009 he moved back to New York City and today lives in Philadelphia .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: He moved back to Philadelphia in 2009 and now lives in New York City .\n<Jim>: In 2009 he moved back"
+    },
+    {
+        "inputs": "Do these mean the same?\nThe primacy of the arithmetic operators has been criticized , conceptually and 'are bitwise logical operators like and + .\nThe precedence of the arithmetic operators has been criticized . Conceptually , & and are bitwise logical operators like and + .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "Are these paraphrases?\nAfter the war , he played twice for the Army against the Royal Navy , in 1948 and 1949 , and against Cambridge University in 1949 .\nAfter the war , he played twice for the army against the Royal Navy , 1948 and 1949 , and against Cambridge University in 1949 .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nTom goes to Tuscany and confronts William and Marianne with the news that Hélène told him .\nTom drives to Tuscany and confronts William and Marianne with the news Hélène told him .",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Tom drives to Tuscany and confronts William and Marianne with the news Hélène told him ."
+    },
+    {
+        "inputs": "1. It has its headquarters in Vancouver , Washington , and factories in Shanghai , Hillsboro , Oregon , and Lohja , Finland .\n2. It has headquarters in Vancouver , Washington , and operations in Shanghai , Hillsboro , Oregon , and Lohja , Finland .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. It has its headquarters in Vancouver , Washington , and factories in Shanghai , Hillsboro , Oregon , and Lohja , Finland .\n2. It has headquarters in Vancouver , Washington , and operations in Shanghai ,"
+    },
+    {
+        "inputs": "1. Zinovjev 's works have been so far performed by Oulu Symphony Orchestra , Lahti Symphony Orchestra , Kymi Sinfonietta , Finnish Radio Symphony Orchestra and Avanti !\n2. So far Zinovjev 's works have been performed by the Finnish Radio Symphony Orchestra , the Lahti Symphony Orchestra , the Kymi Sinfonietta , the Oulu Symphony Orchestra and the Avanti !\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: I'm not sure. I'll check it out. \n<Jim>: I'm not sure. I'll check it out. \n<Jim>: I'm not sure. I'"
+    },
+    {
+        "inputs": "(1) Air transportation is provided locally through smaller aircraft in East Taunton , Berkley , and the regional airport in New Bedford .\n(2) Air transportation is provided locally by smaller aircraft in East Taunton , Berkley , and the regional airport in New Bedford .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "(2) Air transportation is provided locally by smaller aircraft in East Taunton , Berkley , and the regional airport in New Bedford ."
+    },
+    {
+        "inputs": "Are these paraphrases?\nSlough High School was a girls selective grammar school in Slough , Buckinghamshire , now Berkshire .\nSlough High School was a selective girls ' grammar school in Slough , Buckinghamshire , now Berkshire .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Slough High School was a selective girls ' grammar school in Slough , Buckinghamshire , now Berkshire ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nMei Shigenobu is the mother of the Japanese national Fusako Shigenobu , a journalist .\nFusako Shigenobu is the mother of Japanese national Mei Shigenobu , a journalist .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Mei Shigenobu is the mother of the Japanese national Fusako Shigenobu , a journalist .\nFusako Shigenobu is the mother of Japanese national Mei Shigenobu , a journalist ."
+    },
+    {
+        "inputs": "She was sunk by the Germans and scrapped by Allied bombers twice in 1943 -- 1944 and finally raised in 1946 -- 1947 .\nIt was raised by the Germans in 1943 -- 1944 and sunk twice by allied bombers and finally scrapped in 1946 -- in 1947 .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nShe was sunk by the Germans and scrapped by Allied bombers twice in 1943 -- 1944 and finally raised in 1946 -- 1947 .\nIt was raised"
+    },
+    {
+        "inputs": "Sentence 1: Through their family company Divine Foods , 85 % of the Dali Foods Group own their wife Xu Shihui and his daughter , Xu Yangyang .\nSentence 2: Xu Shihui , his wife Chen Liling , and daughter Xu Yangyang own 85 % of Dali Foods Group , through their family company , Divine Foods .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Xu Shihui, his wife Chen Liling, and daughter Xu Yangyang own 85 % of Dali Foods Group, through their family company, Divine Foods."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nWorcestershire is a city and county town of Worcester in England .\nWorcester is a city and county of the town of Worcestershire in England .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Are these paraphrases?\nFollowing the invasion of Poland by Nazi - Germany and the Soviet Union in 1939 , Osterwa became active in underground education , but was also sick .\nAfter the invasion of Poland by Nazi - Germany and the Soviet Union in 1939 , Osterwa was active in underground education , but also became ill .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "It is found in North America , where it has been recorded from California , Arizona , Nevada and Utah .\nIt is found in North America , where it was recorded from California , Arizona , Nevada and Utah .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It is found in North America , where it has been recorded from California , Arizona , Nevada and Utah ."
+    },
+    {
+        "inputs": "1. Malcolm Fraser , who had defeated Whitlam in a landslide at the federal election in December 1975 , offered Egerton the knighthood for serving the trade union movement .\n2. Whitlam , who had defeated Malcolm Fraser in a landslide at the federal election in December 1975 , offered Egerton the knighthood for serving the trade union movement .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Egerton was knighted by Whitlam in 1975."
+    },
+    {
+        "inputs": "Are these paraphrases?\nSierra Leone is an educational center and is home to the Magburaka Government Secondary School for boys , the first Western standard secondary school built in the Magburaka .\nMagburaka is an educational center and is home to the Magburaka Government Secondary School for Boys , the first western standard Secondary school built in the Northern Sierra Leone .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThe river Vălcea is a tributary of the River Arieşul Mare in Romania .\nThe Arieşul Mare River is a tributary of the river Vâlcea in Romania .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "(1) In computational fluid dynamics , the MacCormack method is a widely used discretization scheme for the numerical solution of hyperbolic partial differential equations .\n(2) In Computational Fluid Dynamics , the MacCormack method is a widespread discretization scheme for the numerical solution of hyperbolic partial differential equations .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "(2) instruction:\n\nsummary:\nThe MacCormack method is a widely used discretization scheme for the numerical solution of hyperbolic partial differential equations in Computational Fluid Dynamics."
+    },
+    {
+        "inputs": "Are these paraphrases?\nDuring its presence at DTM the Audi V8 competed with much smaller and about smaller Mercedes 190 , BMW M3 , and slightly lighter Opel Omega 3000 .\nThe Audi V8 competed with much smaller and smaller Mercedes 190 , BMW M3 and slightly lighter Opel Omega 3000 during its presence in the DTM .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes, they are paraphrases."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nIn 2010 , New York University defeated Harvard University 3-1-1 to win the first National Championship .\nIn 2010 , New York University defeated Harvard University 3-1-1 to win its first National Championship .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Born in Leiden , de Ruiter has played for RKC Waalwijk , FC Den Bosch , Excelsior , FC Utrecht and FC Emmen .\nde Ruiter was born in Leiden and played for RKC Waalwijk , FC Den Bosch , Excelsior , FC Utrecht and FC Emmen .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "de Ruiter was born in Leiden and played for RKC Waalwijk , FC Den Bosch , Excelsior , FC Utrecht and FC Emmen ."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThe Asian activities became part of Ebel while the European activities were sold to Hong Kong entrepreneur Joseph Wong and are now part of Stelux Holdings .\nAsian activities became part of Ebel , while the European activities were sold to the Hong Kong entrepreneur Joseph Wong and now belong to Stelux Holdings .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nHe later used it as a symbol for the Nazi party and placed it on a red circle and a white background to use it as a flag .\nHe later used it as a symbol for the Nazi Party , and placed it on a red circle and white background for use as a flag .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He later used it as a symbol for the Nazi Party , and placed it on a red circle and white background for use as a flag ."
+    },
+    {
+        "inputs": "Are these paraphrases?\nUsing the analytical hypotheses the linguist can form new sentences and create a translation manual .\nThe linguist can create new sentences and create a translation manual using the analytical hypotheses .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No."
+    },
+    {
+        "inputs": "1. Everton Ferreira Guimarães or simply Kaká ( born May 20 , 1991 in São Paulo ) is a Portuguese footballer who plays for the Brazilian Association C.D .\n2. Everton Ferreira Guimarães or simply Kaká ( born May 20 , 1991 in São Paulo ) is a Brazilian footballer who plays for Portuguese club C.D .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Kaká is a Brazilian footballer."
+    },
+    {
+        "inputs": "Sentence 1: Eugene D. Engley was born on the 5th of April 1851 in Attleborough , Massachusetts , the son of James Henry Engley and his wife , former Mary Kaley .\nSentence 2: Eugene D. Engley was born April 5 , 1851 in Attleborough , Massachusetts , the son of James Henry Engley and his wife , the former Mary Kaley .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1: Eugene D. Engley was born on the 5th of April 1851 in Attleborough , Massachusetts , the son of James Henry Engley and his wife , former Mary Kaley ."
+    },
+    {
+        "inputs": "Same meaning?\nTo catch it , Zaki Khan sent his nephew , Ali Murad Khan .\nTo catch him , Ali Murad Khan sent his nephew , Zaki Khan .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes."
+    },
+    {
+        "inputs": "The Giuroc River is a tributary of the Măgherus River in Romania .\nThe Măgheruş River is a tributary of the River Giuroc in Romania .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "(1) Birkenhead Wharf is located close to the Birkenhead Point Factory Outlet Centre and adjacent to Iron Cove Bridge , which is about a minute walk away .\n(2) Birkenhead Wharf is next to Iron Cove Bridge and close to the Birkenhead Point Factory Outlet Centre , which is about a minute 's walk away .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: I'm not sure. I'll check it out. \n<Jim>: I'm not sure. I'll check it out. \n<Jim>: I'm not sure. I'"
+    },
+    {
+        "inputs": "Same meaning?\nThe cast was completely male and consisted of six Melbourne actors and one Sydney actor ( Gordon Glenwright ) .\nThe cast was all-male and consisted of six Melbourne actors and one Sydney actor ( Gordon Glenwright ) .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes, the cast was all-male."
+    },
+    {
+        "inputs": "Same meaning?\nThe final won by Jonathan Dasnières de Veigy with 7-6 , 7-6 against Andrey Kuznetsov .\nAndrey Kuznetsov won the final 7 -- 6 , 7 -- 6 against Jonathan Dasnières de Veigy .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, the final was won by Andrey Kuznetsov."
+    },
+    {
+        "inputs": "On his mother 's side were Elizabeth John John Mordaunt , Chancellor of the Duchy of Cornwall , and William Mordaunt , Chief Prothonotary of the Common Pleas .\nOn his mother , Elizabeth 's side were Sir William Mordaunt , chancellor of the Duchy of Cornwall , and John Mordaunt , chief Prothonotary of the Common Pleas .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "Are these paraphrases?\nThis was recorded in two long inscriptions from his corpse hort Medinet Habu , which are physically separate and somewhat different from one another .\nThis was recorded in two separate inscriptions from his Medinet Habu mortuary temple , which are physically long and somewhat different from one another .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Do these mean the same?\nMcCarthy was born in Auckland , but moved with his parents to San Francisco , California at the age of four .\nMcCarthy was born in San Francisco , California , but at the age of four he moved to Auckland with his family .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "(1) The station was furnished in 1947 by the British Falkland Islands Dependencies Survey as Station F or `` Winter Island '' on the Argentine islands .\n(2) The station was established by the British Falkland Islands Dependencies Survey as Station F , or `` Argentine Islands '' , on Winter Island in 1947 .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. 1 is about the British Falkland Islands Dependencies Survey and 2 is about the Argentine Islands."
+    },
+    {
+        "inputs": "(1) Christopher Harris was the second son of William Harris . His elder brother , Harris , was MP for Okehampton .\n(2) William Harris was the second son of William Harris , his elder brother Christopher Harris was MP for Okehampton .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "(2) William Harris was the second son of William Harris , his elder brother Christopher Harris was MP for Okehampton ."
+    },
+    {
+        "inputs": "The episode was written by Chuck Tatham and directed by Fred Savage .\nThe episode was written by Chuck Tatham and led by Fred Savage .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The episode was written by Chuck Tatham and directed by Fred Savage ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nIt is found in most of the South Island and from Westland to central banks Peninsula on the North Island .\nIt is found throughout most of the North Island and from Banks Peninsula to central Westland in the South Island .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It is found in most of the South Island and from Westland to central banks Peninsula on the North Island .\nIt is found throughout most of the North Island and from Banks Peninsula to central Westland in the South Island ."
+    },
+    {
+        "inputs": "He was trained by John Velazquez and ridden in his most important races by jockey Dale Romans .\nHe was trained by Dale Romans and ridden by Jockey John Velazquez during his most important races .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He was trained by Dale Romans and ridden by Jockey John Velazquez during his most important races ."
+    },
+    {
+        "inputs": "Are these paraphrases?\nBefore its independence , Imperial Russia was an autonomous grand duchy inside Finland .\nImperial Russia was an autonomous Grand Duchy within Finland before its independence .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Sentence 1: It was finished by his wife , Stella Gemmell , following his death on 28 July 2006 and published under the joint authorship of David and Stella Gemmell .\nSentence 2: It was finished by his wife , Stella Gemmell , following his death on July 28 , 2006 and released under the joint authorship of David and Stella Gemmell .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nIt was finished by his wife , Stella Gemmell , following his death on 28 July 2006 and published under the joint authorship of David and Stella Gemmell ."
+    },
+    {
+        "inputs": "Do these mean the same?\nSoto was born in Fort Worth , but moved at the age of one year to Monterrey in Mexico .\nSoto was born in Monterrey , Mexico , but moved to Fort Worth , at the age of one .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Soto was born in Monterrey , Mexico , but moved to Fort Worth , at the age of one ."
+    },
+    {
+        "inputs": "Do these mean the same?\nThis film is about Rafael , a Malayalam singer in the new film industry .\nThe film is about Rafael , a new singer in the film industry in Malayalam .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "He published and wrote the prefaces to editions of Tommaso Campanella ( 1934 ) , Thomas More ( 1935 ) and Robert Owen ( 1950 ) .\nHe published and wrote the prefaces to the editions of Tommaso Campanella ( 1934 ) , Thomas More ( 1935 ) and Robert Owen ( 1950 ) .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nHe published and wrote the prefaces to editions of Tommaso Campanella ( 1934 ) , Thomas More ( 1935 ) and Robert Owen ( 1950 ) ."
+    },
+    {
+        "inputs": "(1) It is a dramatic reproduction of purple lights and brilliant sunshine .\n(2) It is a brilliant rendering of purple lights and dramatic sunshine .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is a dramatic reproduction of purple lights and brilliant sunshine.\n<Jim>: The second one is a brilliant rendering of pur"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nIt is found in most of the north island and from the banks Peninsula to the central Westland on the South Island .\nIt is found throughout most of the North Island and from Banks Peninsula to central Westland in the South Island .",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It is found in most of the north island and from the banks Peninsula to the central Westland on the South Island .\r\nIt is found throughout most of the North Island and from Banks Peninsula to central Westland in the"
+    },
+    {
+        "inputs": "Are these paraphrases?\nGyula is named after the medieval Hungarian ruler Gyula III , who was also a title among the Hungarian tribes and was still a popular first name for boys .\nGyula is named after the Hungarian ruler Gyula III . Gyula was still a title among the Medieval Hungarian tribes and also a popular given name for boys .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Gyula is named after the medieval Hungarian ruler Gyula III , who was also a title among the Hungarian tribes and was still a popular first name for boys ."
+    },
+    {
+        "inputs": "Sentence 1: When it opened , the Director of BBC television was David Nixon , and the first programme broadcast was `` First Night '' with Gerald Beadle in Studio Three .\nSentence 2: When it was opened , the director of the BBC - television David Nixon and the first programme was '' First Night `` with Gerald Beadle in Studio Three .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 2:\nWhen it was opened , the director of the BBC - television David Nixon and the first programme was '' First Night `` with Gerald Beadle in Studio Three ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nAnother member of the group was Sir George Throckmorton , whose sister Thomas Giffard was married .\nAnother member of that group was Sir Thomas Giffard , whose sister George Throckmorton married .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Another member of that group was Sir Thomas Giffard , whose sister George Throckmorton married ."
+    },
+    {
+        "inputs": "Do these mean the same?\nIt is unknown whether it is useless against other supernatural beings , although it is effective against angels .\nIt is unknown if it is effective against other supernatural beings , although it is useless against angels .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, it is useless against angels."
+    },
+    {
+        "inputs": "Loyang 's team defeated Xinmin Secondary School in the opening round and Raffles Institution in the quarter-finals , before losing to Hwa Chong Institution in the semi-finals .\nThe Loyang team defeated Xinmin Secondary School in the opening round and Raffles Institution in the quarterfinals before losing to the Hwa Chong Institution in the semi-finals .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "In contrast , a profit `` gross '' can be assigned or otherwise transferred by its owner .\nIn contrast , a profit `` gross '' can be transferred by its owner or otherwise assigned .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Are these paraphrases?\nCheese and cheese products ( especially tvaroh , korbáčik , oštiepok , parenica , and bryndza cheeses ) , žinčica are traditional Slovak specialties .\nCheese and cheese products ( especially Tvaroh , korbáčik , oštiepok , parenica and bryndza ) , žinčica are traditional Slovak specialties .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes, they are."
+    },
+    {
+        "inputs": "`` Dawn '' is the thirty-second episode ( production # 213 ) of the television series , the thirteenth of the ninth season .\n`` Dawn '' is the thirty-ninth episode ( production # 213 ) of the TV series '' , the thirteenth season of the second season .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not."
+    },
+    {
+        "inputs": "(1) Dora Rangelova is the current captain of the Bulgarian Fed Cup Team and mother of the tennis player Dimitar Kuzmanov .\n(2) Dora Rangelova is the Bulgarian captain of the current Fed Cup team . She 's also the mother of tennis player Dimitar Kuzmanov .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Dora Rangelova is the captain of the Bulgarian Fed Cup Team and mother of the tennis player Dimitar Kuzmanov ."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nWorcestershire is a city and county town of Worcester , England .\nWorcester is a town and county city of Worcestershire in England .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nThe Giants fell on the Chicago Bears 27 -- 21 and were for the first time since 1976 with 0 - 6 .\nThe Chicago Bears fell on the Giants 27 -- 21 and for the first time since 1976 they were 0 - 6 .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The Giants fell on the Chicago Bears 27 -- 21 and were for the first time since 1976 with 0 - 6 .\nThe Chicago Bears fell on the Giants 27 --"
+    },
+    {
+        "inputs": "Same meaning?\nLloyd founded and led his business to begin selling toys and gifts , and he expanded the Grandview , Missouri based House of Lloyd as the gift business grew .\nLloyd founded and conducted his business to begin selling toys and gifts , and he expanded the House of Lloyd , based in Grandview , Missouri , when the gift business grew .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Lloyd founded and conducted his business to begin selling toys and gifts , and he expanded the House of Lloyd , based in Grandview , Missouri , when the gift business grew ."
+    },
+    {
+        "inputs": "Same meaning?\nIt is based in Mondercange , to the south of Luxembourg City .\nIt is based in Luxembourg - city , south of Mondercange .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It is based in Luxembourg - city , south of Mondercange ."
+    },
+    {
+        "inputs": "(1) The race rubber dish was used by the National Guard of the United States as a base during the historic Wooster Avenue Riots of 1968 .\n(2) The historic Rubber Bowl was used by the National Guard of the United States as the base during the racist Wooster Avenue Riots of 1968 .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. The first one is correct."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nBeelkhoh is a village in the Berasia district of Madhya Pradesh , India . It is located in Bhopal tehsil .\nBeelkhoh is a village in the Berasia district of Madhya Pradesh , India . It is located in the Bhopal tehsil .",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nWith Vinny Testaverde considered the starter , Zolak was competing against Ray Lucas for a backup job .\nWith Vinny Testaverde as starter , Zolak was against Ray Lucas for a backup job competing .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "1. Many major league players spent time with the team , including seven-year veteran Jack Remsen and ten-year veteran John Kerins .\n2. Many major league players spent time with the team , including seven-year old Veteran Jack Remsen and a ten-year-old veteran John Kerins .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they're not. 2 is wrong."
+    },
+    {
+        "inputs": "Sentence 1: The song is a hook sample in `` Design in Malice '' single by American hip-hop group Jedi Mind Tricks .\nSentence 2: The song is a hook sample in single `` design in Malice '' of the American hip-hop group Jedi Mind Tricks .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Josh>: No, they don't. 2nd one is correct. 1st one is wrong. \n<Josh>: 2nd one is correct. 1st one is wrong. \n<Josh"
+    },
+    {
+        "inputs": "Do these mean the same?\nRıza Maksut İşman ( 1915 in İzmir -- December 30 , 2004 , in Istanbul ) was a Turkish athlete .\nRıza Maksut Isman ( 1915 in Izmir -- December 30 , 2004 , Istanbul ) was a Turkish athlete .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Rıza Maksut İşman ( 1915 in İzmir -- December 30 , 2004 , in Istanbul ) was a Turkish athlete ."
+    },
+    {
+        "inputs": "Sentence 1: This is the formal style of serving and eating meals practiced in Zen temples .\nSentence 2: This is the formal way of serving and eating meals practiced in Zen - temples .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nSentence 2:"
+    },
+    {
+        "inputs": "The River Boia Mică is a tributary of the River Valea Sterminoasă in Romania .\nThe Boia Mică River is a tributary of the Valea Sterminoasă River in Romania .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nOn 30 April 1983 , a C-131 assigned to NAS Guantanamo Bay , Cuba crashed at NAS Jacksonville with the loss of 13 lives .\nOn April 30 , 1983 , a C-311 that was assigned to NAS Jacksonville , Cuba , at NAS Guantanamo Bay crashed with the loss of 13 lives .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "(1) However , the mild version was skipped in favor of the original edition .\n(2) The original version , however , was skipped in favour of the mild edition .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is the original version, the second one is the mild version. \n<Jim>: The mild version was skipped in favour of"
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nA loss to Nataliya Tobias at the 2006 National Championships inspired her to restart her career and she started training with Iryna Lishchynska .\nA loss to Iryna Lishchynska at the 2006 national championships inspired her to restart her professional career and she began training with Nataliya Tobias .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nJuly is , on average , the coldest month , the hottest in January .\nJuly is on average the hottest month and January the coldest .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nBy contrast , a profit `` in gross '' can be transferred or otherwise assigned by its owner .\nIn contrast , a profit `` gross '' can be transferred by its owner or otherwise assigned .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nNo, it's not the same."
+    },
+    {
+        "inputs": "1. The species was first formally described in 1846 by the botanist Johann Georg Christian Lehmann within the framework of Stephan Endlicher 's work `` Irideae Plantae Preissianae '' .\n2. The species was first formally described in 1846 by the botanist Stephan Endlicher as part of the work `` Irideae Plantae Preissianae '' by Johann Georg Christian Lehmann .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. The species was first formally described in 1846 by the botanist Johann Georg Christian Lehmann within the framework of Stephan Endlicher 's work `` Irideae Plantae Preissianae '' .\n2."
+    },
+    {
+        "inputs": "Are these paraphrases?\nPennmakkal is an Indian Malayalam film produced by J. Sasikumar and directed by KP Kottarakkara in 1966 .\nPennmakkal is a 1966 Indian Malayalam film , directed by J. Sasikumar and produced by KP Kottarakkara .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not paraphrases."
+    },
+    {
+        "inputs": "Sentence 1: An analysis of millions of public RSA keys from the Internet was announced in 2012 by Augier , Hughes , Lenstra , Bos , Kleinjung and Wachter .\nSentence 2: An analysis of millions of public RSA keys collected from the Internet was announced in 2012 by Lenstra , Hughes , Augier , Bos , Kleinjung and Wachter .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nSentence 2:"
+    },
+    {
+        "inputs": "Do these mean the same?\nIn 80 minutes around the world with Douglas Fairbanks is an American pre-code documentary from 1931 directed by Douglas Fairbanks and Victor Fleming and by Robert E. Sherwood .\n`` In 80 minutes around the world '' with Robert E. Sherwood , is an American pre-code - documentary film by director Douglas Fairbanks from 1931 and by Douglas Fairbanks and Victor Fleming written .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "1. Astronomer and UFO researcher Edward Weiler and the director of Goddard Space Flight Center Jacques Vallee also attended TGS .\n2. Astronomer and UFO researcher Jacques Vallee and director of the Goddard Space Flight Center Edward Weiler also attended TGS .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. Astronomer and UFO researcher Jacques Vallee and director of the Goddard Space Flight Center Edward Weiler also attended TGS .\r\n2. Astronomer and UFO researcher Edward Weiler and the director of God"
+    },
+    {
+        "inputs": "Are these paraphrases?\nJohn Byron married Mary Byron , daughter of Sir Lucas of Newstead in Nottinghamshire .\nJohn Byron married Mary Byron , daughter of Sir Lucas of Newstead , Nottinghamshire .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "1. In the summer of 1924 , he went to Smackover in south Arkansas to work in the oil boom in an office at Norphlet near Union County .\n2. In the summer of 1924 he went to Union County in southern Arkansas to work in an office in Norphlet near Smackover in the oil boom .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. In the summer of 1924 he went to Smackover in south Arkansas to work in the oil boom in an office at Norphlet near Union County .\n2. In the summer of 192"
+    },
+    {
+        "inputs": "Are these paraphrases?\nIn 2014 the site launched iOS and Android applications for product search ; product features include live video product reviews with interactive question-and-answer sessions .\nIn 2014 , the site launched iOS and Android applications for product search , product features include live - video - product - reviews with interactive questions and answers - sessions .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes, they are."
+    },
+    {
+        "inputs": "Sarika asks Kabir to end his plan to reveal him Ranvir 's game .\nKabir asks Sarika to reveal his plan to end Ranvir 's game .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Kabir: I'm not going to reveal him.\nSarika: I'm not going to reveal him."
+    },
+    {
+        "inputs": "Enkor merged with the Siberian Airlines in 2001 .\nIn 2001 , the Siberian Airlines merged with Enkor .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "(1) The species was first formally described by the botanist Johann Georg Christian Lehmann in 1846 as part of Stephan Endlicher 's work `` Irideae . Plantae Preissianae '' .\n(2) The species was first formally described in 1846 by the botanist Stephan Endlicher as part of the work `` Irideae Plantae Preissianae '' by Johann Georg Christian Lehmann .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. 2 is more correct."
+    },
+    {
+        "inputs": "This was recorded in two separate inscriptions from his corpse hill Medinet Habu , which are physically long and somewhat different from one another .\nThis was recorded in two long inscriptions from his body horde Medinet Habu , which are physically separate and somewhat different from one another .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they are not."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nMichael Liebel Sr. was 14 years old when his parents came to Germany from Erie to Pennsylvania .\nMichael Michael Liebel Sen was 14 years old when his parents came from Erie to Pennsylvania to Germany .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "On November 29 , 1171 , Gonzalo Ruiz de Bureba signed a certificate for the first time as '' Gonzalo .\nOn 29 November 1171 , Gonzalo signed a charter as `` Gonzalo Ruiz de Bureba '' for the first time .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "(1) In the south end , Cook Pond , also formerly known as South Watuppa Pond , is located east of the Laurel Lake and west of the Taunton River .\n(2) Cook Pond , also formerly known as Laurel Lake , is located at the southern end of the Taunton River and west of the South Watuppa Pond .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jason>: No, they don't."
+    },
+    {
+        "inputs": "Are these paraphrases?\nIt then meets the Snoqualmie River to form the Snohomish River at Monroe .\nIt then meets the Snoqualmie River to form the Snohomish River in Monroe .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It then meets the Snoqualmie River to form the Snohomish River in Monroe ."
+    },
+    {
+        "inputs": "He played the Cuban tres rather than Cuban guitar and developed his own technique for this Spanish guitar .\nHe played the Cuban tres rather than the Cuban guitar , and developed his own technique for this Spanish guitar .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He played the Cuban tres rather than Cuban guitar and developed his own technique for this Spanish guitar ."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThe airline was developed by Irelandia , which also formed other five airlines , namely VivaColombia , Ryanair , Allegiant Air , VivaAerobus and Tigerair .\nThe airline was formed by Irelandia , which has also developed other five airlines , namely VivaColombia , Ryanair , Allegiant Air , VivaAerobus and Tigerair .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThe BBC College of Journalism was opened as an e-learning course series in June 2005 , with Vin Ray as Executive Editor . Its first Director was Kevin Marsh .\nThe BBC College of Journalism was opened in June 2005 as an E-Learning series with Kevin Marsh as Executive Editor , the first director of which was Vin Ray .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "`` Cosmic Explorer '' was released in four different formats by Universal Japan , Universal Music and Parfum Records on April 6 , 2016 .\n`` Cosmic Explorer '' was released on April 6 , 2016 by Universal Music Japan , Universal J , and Perfume Records in four different formats .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jason>: No, they're not."
+    },
+    {
+        "inputs": "Do these mean the same?\nShe was executed on 3 May 1947 , 24 minutes after Elisabeth Marschall , by Albert Pierrepoint in Hameln prison for her crimes .\nShe was executed for her crimes at 9 : 55 am on 3 May 1947 , 24 minutes after Elisabeth Marschall , by Albert Pierrepoint in Hameln prison .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "She was executed on 3 May 1947 , 24 minutes after Elisabeth Marschall , by Albert Pierrepoint in Hameln prison for her crimes ."
+    },
+    {
+        "inputs": "County Road 540 is a few miles south of State Road 540 in Highland City and runs west from US 98 to County Road 37B .\nCounty Road 540 is just a few miles south of State Road 540 in Highland City and runs west from US 98 to County Road 37B .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "County Road 540 is just a few miles south of State Road 540 in Highland City and runs west from US 98 to County Road 37B ."
+    },
+    {
+        "inputs": "(1) It began with the Japanese invasion of China over Finland and the Soviet invasion of Manchuria in 1937 .\n(2) It began with the Japanese invasion of China via Manchuria and the Soviet invasion of Finland in 1937 .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nIt began with the Japanese invasion of China via Manchuria and the Soviet invasion of Finland in 1937 ."
+    },
+    {
+        "inputs": "Same meaning?\nAfter the invasion of Poland by Nazi - Germany and the Soviet Union in 1939 , Osterwa was active in underground education , but also became ill .\nFollowing the 1939 , invasion of Poland by Nazi Germany and the Soviet Union , Osterwa became active in the underground education but also was ill .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nNo, it's not the same."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nIt was part of Hanover Township , then Florham Park before being incorporated as Chatham Township in 1899 .\nIt was part of the Hanover Township , then Chatham Township , before being recorded in 1899 as Florham Park .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It was part of Hanover Township , then Florham Park before being incorporated as Chatham Township in 1899 .\r\nIt was part of the Hanover Township , then Chatham Township , before being recorded in"
+    },
+    {
+        "inputs": "1. As a Jewish family , they escaped deportation to the concentration camps by being hidden by a Belgian family in Comblain-au - Pont .\n2. As a Jewish family , they escaped deportation to the concentration camps by being hidden by a Belgian family in Comblain-au-Pont .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "As a Jewish family , they escaped deportation to the concentration camps by being hidden by a Belgian family in Comblain-au-Pont ."
+    },
+    {
+        "inputs": "Sentence 1: On his mother , Elizabeth 's side were Sir William Mordaunt , chancellor of the Duchy of Cornwall , and John Mordaunt , chief Prothonotary of the Common Pleas .\nSentence 2: On his mother 's side were Elizabeth William Mordaunt , Chancellor of the Duchy of Cornwall , and John Mordaunt , Chief Prothonotary of the Common Pleas .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1: On his mother , Elizabeth 's side were Sir William Mordaunt , chancellor of the Duchy of Cornwall , and John Mordaunt , chief Prothonotary of the Common"
+    },
+    {
+        "inputs": "Do these mean the same?\nBorn was born in Germany to Jewish parents , the son of Hedwig Ehrenberg and the scientist Max Born .\nBorn in Germany was born to Jewish parent , the son of Max Born and scientist Hedwig Ehrenberg .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "Sentence 1: Abies lasiocarpa , commonly called the subalpine fir or Rocky Mountain fir , is a western North American fir tree .\nSentence 2: Abies lasiocarpa , generally called the subalpine fir or Rocky mountain fir tree , is a western North American fir .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1: Abies lasiocarpa , commonly called the subalpine fir or Rocky Mountain fir , is a western North American fir tree .\nSentence 2: Abies lasiocarpa ,"
+    },
+    {
+        "inputs": "Sentence 1: For example , Cerberus is expressed in amphibians in the anterior visceral endoderm , and in mice it is expressed in the anterior dorsal endoderm .\nSentence 2: For example , in amphibians Cerberus is expressed in the anterior visceral endoderm and in mice it is expressed in the anterior dorsal endoderm .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1: For example , Cerberus is expressed in amphibians in the anterior visceral endoderm , and in mice it is expressed in the anterior dorsal endoderm .\nSentence"
+    },
+    {
+        "inputs": "Premalignant lesions are morphologically atypical tissue that appears abnormal in microscopic examination and in which cancer is more likely than its apparently normal counterpart .\nPremalignant lesions are apparently a typical tissue which appears abnormal under microscopic examination , and in which cancer is more likely to occur than in its morphologically normal counterpart .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Premalignant lesions are morphologically atypical tissue that appears abnormal in microscopic examination and in which cancer is more likely than its apparently normal counterpart ."
+    },
+    {
+        "inputs": "Same meaning?\nMargaret Smith defeated Jan Lehane 7 -- 5 , 6 -- 2\nMargaret Smith defeats Jan Lehane 7 -- 5 , 6 -- 2\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Jan Lehane:\n<Jan>: No, it's not the same. 7-5, 6-2 is a win for Margaret. 7-5, 6-2 is a win for Jan. 7"
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nThey have 13 anal soft spines , 11 to 13 dorsal soft rays , 2 dorsal spines , and 11 to 13 anal rays .\nThey have 13 dorsal spines , 11 to 13 dorsale soft rays , 2 anal spines and 11 to 13 anal soft rays .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nIt was finished by his wife Stella Gemmell after his death on July 28 , 2006 and was published under the joint authorship of David and Stella Gemmell .\nIt was released by his wife , Stella Gemmell , following his death on July 28 , 2006 and finished under the joint authorship of David and Stella Gemmell .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Do these mean the same?\nIn 2012 , Adrian Belew released `` Treehouse '' , his sixth solo record , produced in Nashville Tennessee by musician Ned Evett .\nIn 2012 , Adrian Belew `` Treehouse '' released his sixth solo record , produced in Nashville Tennessee by musician Ned Evett .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Yes."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nOn August 17 , 1865 , the 3rd New York Volunteer Cavalry , together with the 16th New York Volunteer Cavalry , was brought together to the 13th New York Provisional Cavalry .\nOn August 17 , 1865 , the 13th New York Volunteer Cavalry was consolidated with the 16th New York Volunteer Cavalry to form the 3rd New York Provisional Cavalry .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning. The first one is about the 3rd New York Volunteer Cavalry, the 16th New York Volunteer Cavalry and the 13th New York Provis"
+    },
+    {
+        "inputs": "Sentence 1: In April 1942 , Britten returned to England , and soon after returning he asked Montagu Slater to be his librettist for Peter Grimes .\nSentence 2: In April 1942 , Montagu Slater returned to England and asked Britten to be his librettist for `` Peter Grimes '' shortly after his return .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is about Britten, the second one is about Slater. \n<Jim>: I think you meant to write \"In April 1"
+    },
+    {
+        "inputs": "Same meaning?\nLong was born in Israel , migrated as a young man to Australia and settled there in 1961 .\nBorn in Australia , Lang moved to Israel as a young man and settled there in 1961 .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Long was born in Israel , migrated as a young man to Australia and settled there in 1961 .\r\nBorn in Australia , Lang moved to Israel as a young man and settled there in 1961 ."
+    },
+    {
+        "inputs": "Jürgen Melzer won the title after defeating Michał Przysiężny in the final with 6 : 4 , 6 : 3 .\nJürgen Melzer won the title after defeating Michał Przysiężny 6 -- 4 , 6 -- 3 in the final .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Jürgen Melzer won the title after defeating Michał Przysiężny in the final with 6 : 4 , 6 : 3 ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThey have 13 dorsal spines , 11 to 13 dorsal soft rays , 2 anal spines , and 11 to 13 anal soft rays .\nThey have 13 anal soft spines , 11 to 13 dorsal soft rays , 2 back spines and 11 to 13 anal rays .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\n instruction:\nSummarize the following text concisely while ensuring the accuracy of important content. Specifically emphasize and accurately represent entities enclosed between '<' and '>'. Additionally, conclude the summary with a '<conclusion>'"
+    },
+    {
+        "inputs": "Do these mean the same?\nThis made him the first 994nd grader to play for the roosters .\nThis made him the first 994th grader to play for the Roosters .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, it's not the same."
+    },
+    {
+        "inputs": "Do these mean the same?\nThe third line of the last verse was changed to `` Kralja Aleksandra , Bože hrani , '' during the reign of Alexander I of Yugoslavia .\nThe third line of the last verse was changed during the reign of Alexander I of Yugoslavia to Kralja Aleksandra , Bože hrani .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "Same meaning?\nJohn John Milton refers to Shakespeare and quotes Angela Warren `` Comus '' : '' Under the glassy , cool , light translucent wave `` .\nAngela Warren refers to Shakespeare and cites John Milton `` Comus '' : '' Under the glassy , cool , translucent wave `` .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "John John Milton refers to Shakespeare and quotes Angela Warren `` Comus '' : '' Under the glassy , cool , light translucent wave `` .\r\nAngela Warren refers to Shakespeare and cites John Milton `` Comus ''"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nThe last track , `` Every Morning '' is the acoustic guitar version of the first track `` Morning '' .\nThe first track , `` Every Morning '' , is the acoustic version of the last guitar version of `` Morning '' .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "The last track , `Every Morning`, is the acoustic guitar version of the first track, `Morning`.\r\nThe first track, `Every Morning`, is the acoustic version of the last guitar version of `Mor"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nChauvetia robustalba is a species of sea snail , a marine gastropod mollusc in the family Buccinidae , the true whelks .\nChauvetia robustalba is a species of sea snail , a true gastropod mollusc in the Buccinidae family , the whelks marine .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "Same meaning?\nHe continued his relationship with ESPN directing two more films for the network , `` Wendell Scott '' and `` Herschel '' .\nHe continued his relationship with ESPN to lead two more films for the network , `` Herschel '' and `` Wendell Scott '' .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "He continued his relationship with ESPN to lead two more films for the network , `` Herschel '' and `` Wendell Scott '' ."
+    },
+    {
+        "inputs": "(1) where vectors and invariant numbers are real scalar under\n(2) where are vectors and real scalar numbers invariant under\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they don't. \n<Jim>: The first one is about vectors and the second one is about scalars. \n<Jim>: The first one is about vectors and real scalar numbers invariant under"
+    },
+    {
+        "inputs": "1. Both daughters died before he did , Tosca in 1976 and Janear in 1981 .\n2. Both daughters , before he died , did Tosca in 1976 and Janear 1981 .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, they are not."
+    },
+    {
+        "inputs": "Do these mean the same?\nIt was released on 28 January 2008 in the United States by Angular Recording Corporation and on 18 March 2008 in the United Kingdom through Domino Records .\nIt was published on January 28 , 2008 in the United Kingdom by the Angular Recording Corporation and on 18 March 2008 in the United States on Domino Records .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "\nIt was released on 28 January 2008 in the United States by Angular Recording Corporation and on 18 March 2008 in the United Kingdom through Domino Records ."
+    },
+    {
+        "inputs": "Sentence 1: He later used it as a symbol for the Nazi Party , and placed it on a white circle and red background for use as a flag .\nSentence 2: He later used it as a symbol for the Nazi party and placed it on a white circle and a red background to use it as a flag .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Sentence 1:\nHe later used it as a symbol for the Nazi Party , and placed it on a white circle and red background for use as a flag .\nSentence 2:\nHe later used it as a"
+    },
+    {
+        "inputs": "The nexct owner was Steen Brahe , brother of the astronomer Tyge Brahe .\nThe nexct owner was Tyge Brahe , a brother of the astronomer Steen Brahe .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't."
+    },
+    {
+        "inputs": "Sentence 1: Wilhelm Keppler joined Cuno in 1932 to consult Adolf Hitler economically .\nSentence 2: In 1932 , Cuno joined Wilhelm Keppler to advise Adolf Hitler economically .\n\nDo these two sentences convey the same information?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Keppler joined Cuno in 1932 to consult Hitler economically. \nCuno joined Keppler in 1932 to advise Hitler economically."
+    },
+    {
+        "inputs": "Do these mean the same?\nIn 2008 , Folayan won the Inspiring Award for `` Precious Leader within the Workplace '' .\nIn 2008 , Folayan won an Inspiring Award for the `` Precious Leader within the Workplace '' .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't mean the same."
+    },
+    {
+        "inputs": "It serves the south-eastern Edithvale suburb of Melbourne opening on September 20 , 1919 .\nIt serves the southeasternmost Melbourne suburb of Edithvale opening on 20 September 1919 .\n\nDo these sentences mean the same thing?\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "It serves the southeasternmost Melbourne suburb of Edithvale opening on 20 September 1919 ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nMaritsa Lazari was born in London in October 1943 and emigrated with her family to Cyprus at the age of 16 years .\nMaritsa Lazari was born in Cyprus in October 1943 and emigrated with her family to London , England at the age of 16 .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "Maritsa Lazari was born in London in October 1943 and emigrated with her family to Cyprus at the age of 16 years ."
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nHazel played the role of younger sister Alexandra Coppinger in the new TV series '' Dead Gorgeous '' .\nAlexandra Coppinger played the role of Hazel , the youngest sister , in the new TV series `` Dead Gorgeous '' .",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No."
+    },
+    {
+        "inputs": "Do these two sentences from wikipedia have the same meaning?\nAlthough interchangeable , the body parts are not similar on the 2 cars .\nAlthough similar , the body pieces on the 2 cars are not interchangeable .\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No, they don't have the same meaning."
+    },
+    {
+        "inputs": "1. According to the United States Census Bureau , Southport is a total surface area of which has land and , or 0.91 % , is water .\n2. According to the United States Census Bureau , Southport has a total area of which land is and , or 0.91 % , is water .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "1. According to the United States Census Bureau , Southport is a total surface area of which has land and , or 0.91 % , is water .\n2. According to the United States Census Bureau , Southport has a total"
+    },
+    {
+        "inputs": "Please check if these have the same meaning. Answer \"yes\" if they do, otherwise \"no\".\nDuring Vietnam war , the Triad was eliminated in the North but in the South .\nThe Triad was eliminated in the north during the Vietnam War , but in the south .",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "No."
+    },
+    {
+        "inputs": "Same meaning?\nFor normal cylindrical projections the geometry of the infinitesimal elements gives\nThe geometry of the normal cylindrical elements results for infinitesimal projections\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: No, it's not the same."
+    },
+    {
+        "inputs": "(1) It is a brilliant rendition of purple lights and dramatic sunshine .\n(2) It is a dramatic rendering of purple lights and brilliant sunshine .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
+        "targets": "no",
+        "metric": "em",
+        "domain": "paraphrase",
+        "model_name": "paws_wiki",
+        "model": "ryusangwon/3418_Llama-2-7b-hf",
+        "predicted_answer": "<Jim>: I think they mean the same thing. \n<Jim>: I'm not sure though. \n<Jim>: I'll ask my friend. \n<Jim>: I'll get back to"
+    }
+]
