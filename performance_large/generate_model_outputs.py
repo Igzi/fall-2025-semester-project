@@ -65,11 +65,11 @@ def load_peft_model(lora_module_list, base_model):
     return peft_model
 
 correct_count = 0
-model_size='7b'
+model_size='13b'
 batch_size = 1
 config_path = './config/config_large.json'
 data_path = './dataset/config_large_flat.json'
-res_path = './performance_large/outputs/model_'
+res_path = './performance_large/outputs_13b/model_'
 results = []  # Initialize a list to store question and response data
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -108,7 +108,7 @@ model_names = []
 
 # Compute average embeddings for each model
 for model in models:
-    model_name = f"Styxxxx/llama2_7b_lora-{model['model_name']}"
+    model_name = f"Styxxxx/llama2_{model_size}_lora-{model['model_name']}"
 
     model_names.append(model_name)
 
@@ -117,16 +117,18 @@ peft_model = peft_model.to(device)
 peft_model.eval()
 
 with torch.no_grad():
+    for model_id in range(48):
         results = []
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
-                mapping_rows = 256
-                mapping_cols = len(model_names)
-                mapping_matrix_tensor = torch.zeros((mapping_rows, mapping_cols), dtype=torch.bfloat16, device=device)
-                row_indices = torch.arange(mapping_rows, device=device)
-                col_indices = row_indices % mapping_cols
-                mapping_matrix_tensor[row_indices, col_indices] = 1.0
-                input_text = eval_data["full_prompt"][i : i + batch_size]*mapping_rows
+                input_text = eval_data["inputs"][i : i + batch_size]
+
+                # If out-of-domain filtering is required, specify exclusion list
+                exclude_list = None
+
+                mapping_matrix_tensor = torch.zeros((batch_size, len(model_names)), dtype=torch.bfloat16).to(device)
+                mapping_matrix_tensor[:, model_id] = 1.0
+                input_text = eval_data["full_prompt"][i : i + batch_size]
 
                 # Tokenize the input text
                 inputs = tokenizer(
@@ -144,20 +146,17 @@ with torch.no_grad():
                     lora_mapping=mapping_matrix_tensor
                 )
 
-                targets = eval_data["targets"][i : i + batch_size]*mapping_rows
-
                 # Process and store results
-                for j, (output, expected_answer) in enumerate(zip(outputs, targets)):
+                for j, (output, expected_answer) in enumerate(zip(outputs, eval_data["targets"][i : i + batch_size])):
                     generated_answer = tokenizer.decode(output, skip_special_tokens=True)
                     generated_answer = generated_answer.strip().split('### Response:\n')[-1]
 
                     sample = {
-                        'inputs': eval_data["inputs"][i],
-                        'targets': eval_data["targets"][i],
-                        'metric': eval_data["metric"][i],
-                        'domain': eval_data["domain"][i],
-                        'model_name': eval_data["model_name"][i],
-                        'model_used': j,
+                        'inputs': eval_data["inputs"][i+j],
+                        'targets': eval_data["targets"][i+j],
+                        'metric': eval_data["metric"][i+j],
+                        'domain': eval_data["domain"][i+j],
+                        'model_name': eval_data["model_name"][i+j],
                         'predicted_answer': generated_answer
                     }
                     results.append(sample)

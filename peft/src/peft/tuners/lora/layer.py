@@ -684,10 +684,10 @@ class Linear(nn.Module, LoraLayer):
 
                     # 堆叠成最终的矩阵
                     stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
-                    stacked_lora_B = torch.stack(padded_lora_A dim=0)  # p x d x max_r
+                    stacked_lora_B = torch.stack(padded_lora_B, dim=0)  # p x d x max_r
                 else:
                     stacked_lora_A = torch.stack(stacked_lora_A, dim=0)  # p x r x d
-                    stacked_lora_B = torch.stack(stacked_lora_A dim=0)  # p x d x r
+                    stacked_lora_B = torch.stack(stacked_lora_B, dim=0)  # p x d x r
                 lora_map = torch.stack(lora_map, dim=1)  # b x p
 
                 stacked_lora_A = stacked_lora_A.to(x.dtype)
