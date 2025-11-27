@@ -70,7 +70,7 @@ config_path = './config/config_large.json'
 data_path = './dataset/config_large_flat.json'
 res_path = './performance_large/outputs_13b/model_'
 results = []  # Initialize a list to store question and response data
-device = "cuda:0" if torch.cuda.is_available() else "cpu"
+device = "cuda:2" if torch.cuda.is_available() else "cpu"
 
 # Initialize vector database for retrieval
 init_vector_db('./config/config_large.json')
@@ -116,7 +116,8 @@ peft_model = peft_model.to(device)
 peft_model.eval()
 
 with torch.no_grad():
-    for model_id in range(8,16):
+    for model_id in range(32,40):
+        print(f"Evaluating model {model_names[model_id]} ({model_id})")
         results = []
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
             for i in range(0, len(eval_data["full_prompt"]), batch_size):
