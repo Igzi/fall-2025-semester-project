@@ -1,0 +1,1802 @@
+[
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Amatriciana sauce is a traditional Italian sauce from the Lazio region. Its ingredients include tomatoes, guanciale, cheese and olive oil.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Amatriciana sauce REGION Lazio\nAmatriciana sauce COUNTRY Italy\nAmatriciana sauce INGREDIENT Olive oil\nAmatriciana sauce MAIN_INGREDIENTS \"Tomatoes, guanciale, cheese, olive oil\"",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAmatriciana sauce is a traditional Italian sauce from the Lazio region. Its ingredients include tomatoes, guanciale, cheese and olive oil.\n\nThe ingredients are:\n\n* Tomatoes"
+    },
+    {
+        "inputs": "Here is some data: The Golden Curry food Indian.\n\nWrite a sentence that describes this data",
+        "targets": "The Golden Curry highly recommended by its customers serves Indian food and children are permitted.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Curry is a food Indian restaurant."
+    },
+    {
+        "inputs": "This is some data: Fitzbillies eatType coffee shop; Fitzbillies food Italian; Fitzbillies priceRange moderate; Fitzbillies customer rating 1 out of 5; Fitzbillies area city centre; Fitzbillies familyFriendly no.\n\nGenerate a detailed description of this data",
+        "targets": "Fitzbillies is a moderately priced low rated coffee shop located in the city centre serving Italian food. This is not a child friendly coffee shop.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: Fitzbillies eat Type coffee shop; Fitzbillies food Italian; Fitzbillies price Range moderate; Fitzbillies customer rating 1 out of 5; Fitzbillies area city"
+    },
+    {
+        "inputs": "Data: Shanghang County DENSITY 130; 130 AREA 2879\n\nWhat would a sentence about this data be like?",
+        "targets": "Shanghang County has an area of 2879.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The density of Shanghang County is 130 people per square kilometer.\n\nThe area of Shanghang County is 2879 square kilometers.\n\nThe population density of Shanghang County is 47.5 people"
+    },
+    {
+        "inputs": "Data: The Plough eatType pub; The Plough food Chinese; The Plough priceRange moderate; The Plough near Café Rouge\n\nWhat would a sentence about this data be like?",
+        "targets": "The Plough is a pub that provides Chinese food in the moderate price range. It is near Café Rouge.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Plough is a moderately priced Chinese restaurant that is near Café Rouge."
+    },
+    {
+        "inputs": "This is some data: The Golden Curry food French; The Golden Curry priceRange £20-25; The Golden Curry familyFriendly yes; The Golden Curry near The Bakers.\n\nGenerate a detailed description of this data",
+        "targets": "The Golden Curry offers French food with £20-25 for kids Friendly near The Bakers.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Description:**\n\nThe Golden Curry is a food business located in London, England. It specializes in Indian cuisine, particularly curry dishes, and is known for its authentic flavors and affordable prices. The"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nAtlantic Records made the album Lasers available in Germany on April 29, 2011.",
+        "targets": "April 29, 2011 REGION Germany\nApril 29, 2011 LABEL Atlantic Records\n[TABLECONTEXT] DATE April 29, 2011\n[TABLECONTEXT] [TITLE] Lasers (album)",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAtlantic Records made the album Lasers available in Germany on April 29, 2011.\n\n* *Atlantic Records* is the *subject* of the sentence.\n* *made the album Las"
+    },
+    {
+        "inputs": "Generate a sentence about this data: A.C. Cesena MANAGER Massimo Drago; Massimo Drago CLUB A.S.D. S.S. Nola 1925",
+        "targets": "Massimo Drago has been the manager of A C Cesena, he played for A.S.D. S.S. Nola 1925.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nA.C. Cesena MANAGER Massimo Drago; Massimo Drago CLUB A.S.D. S.S. Nola 1925"
+    },
+    {
+        "inputs": "Generate a sentence about this data: 1 Decembrie 1918 University NICKNAME Uab; 1 Decembrie 1918 University CITY Alba Iulia; 1 Decembrie 1918 University LATIN_NAME \"Universitas Apulensis\"; 1 Decembrie 1918 University STATE Alba",
+        "targets": "The 1 Decembrie 1918 University (of the city of Alba Iulia in the state of Alba), has the nickname Uab and the Latin name Universitas Apulensis.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated and will be removed if they are inappropriate.**\n\n**If you have a question about a particular instruction, please create a new post.**\n\n**For help with your home"
+    },
+    {
+        "inputs": "Triple: The Mill eatType coffee shop; The Mill food Indian; The Mill priceRange £20-25; The Mill area riverside; The Mill near The Sorrento\n\nWhat is a sentence that describes this triple?",
+        "targets": "Located riverside near The Sorrento, The Mill is a coffee shop that serves Indian food in the £20-25 price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Mill is a coffee shop located on the riverside in the area of The Sorrento, serving Indian food with a price range of £20-25."
+    },
+    {
+        "inputs": "Data: Green Man eatType restaurant; Green Man priceRange less than £20; Green Man area city centre; Green Man familyFriendly no\n\nWhat would a sentence about this data be like?",
+        "targets": "Green Man is a low price restaurant located in the city centre. It isn't family-friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Green Man is a restaurant that serves food that costs less than £20 and is located in the city centre. It is not family-friendly.**"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Aromi eatType pub; Aromi customer rating average; Aromi area city centre; Aromi familyFriendly yes",
+        "targets": "Aromi is a family-friendly pub located near the city centre. It has an average customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Aromi eatType pub**\n\n**Aromi customer rating average**\n\n**Aromi area city centre**\n\n**Aromi familyFriendly yes**\n\n### Explanation:"
+    },
+    {
+        "inputs": "Triple: The Mill eatType coffee shop; The Mill food French; The Mill priceRange moderate; The Mill area city centre; The Mill near The Sorrento\n\nWhat is a sentence that describes this triple?",
+        "targets": "The Mill, located in the city centre near The Sorrento, is a moderately priced French coffee shop.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Mill is a moderately priced French restaurant located in the city centre near The Sorrento."
+    },
+    {
+        "inputs": "Generate a sentence about this data: San Sebastián de los Reyes LEADER_PARTY People's Party (Spain); San Sebastián de los Reyes IS_PART_OF Community of Madrid; Adolfo Suárez Madrid–Barajas Airport LOCATION San Sebastián de los Reyes; San Sebastián de los Reyes COUNTRY Spain",
+        "targets": "Adolfo Suárez Madrid–Barajas Airport is found in San Sebastián de los Reyes, in Spain. The People's Party is the lead party of San Sebastian de los Reyes and area considered to be part of the Community of Madrid.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "San Sebastián de los Reyes is a city in the Community of Madrid, Spain. It is located 15 kilometers north of Madrid and has a population of 100,000. The city is known for its"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Loch Fyne eatType restaurant; Loch Fyne food French; Loch Fyne familyFriendly yes",
+        "targets": "Loch Fyne is a French restaurant that is child friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Loch Fyne is a French restaurant that is family-friendly."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Eagle is a cheap coffee shop near Burger King in the city centre. It is family-friendly and has a customer rating of three out of five.",
+        "targets": "The Eagle eatType coffee shop\nThe Eagle priceRange less than £20\nThe Eagle customer rating average\nThe Eagle area city centre\nThe Eagle familyFriendly yes\nThe Eagle near Burger King",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Eagle is a cheap coffee shop near Burger King in the city centre.\n\nIt is family-friendly and has a customer rating of three out of five."
+    },
+    {
+        "inputs": "Data: Serie A CHAMPIONS Juventus F.C.; A.S. Roma GROUND Rome; A.S. Roma NUMBER_OF_MEMBERS 70634; A.S. Roma LEAGUE Serie A\n\nWhat would a sentence about this data be like?",
+        "targets": "A.S. Roma play in Serie A, of which the current champions are Juventus F.C. Their home ground is in Rome and they have 70634 members.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nJuventus F.C. is the Serie A champion.\n\nRoma is a team in the Serie A.\n\nRoma has 70634 members.\n\nRoma plays in the Serie A."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: The Punter eatType coffee shop; The Punter food Fast food; The Punter near Café Sicilia",
+        "targets": "The Punter is a Café Shop where fast food for the family at a good price. It is located one block from Café Sicilia.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Punter, a popular eatery located near Café Sicilia, is known for its delicious food and friendly atmosphere. It offers a wide range of options, including coffee, sandwiches, and salads, making it a great spot"
+    },
+    {
+        "inputs": "Triple: Wildwood eatType pub; Wildwood priceRange moderate; Wildwood customer rating 3 out of 5\n\nWhat is a sentence that describes this triple?",
+        "targets": "Wildwood is a pub that serves sushi that has a 3 star rating and average price range",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Wildwood** is a restaurant that serves **moderately priced** food with **a 3-star customer rating**."
+    },
+    {
+        "inputs": "Triple: Paula Meronek ORIGINAL_SEASON RW: Key West; Paula Meronek ELIMINATED Episode 8\n\nWhat is a sentence that describes this triple?",
+        "targets": "Paula meronek was the contestant eliminated on episode 8 of RW: Key West season.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Paula Meronek was eliminated in episode 8 of the original season of Key West."
+    },
+    {
+        "inputs": "Write a sentence that about [A.C. Cesena MANAGER Massimo Drago; Massimo Drago CLUB Delfino Pescara 1936].",
+        "targets": "Massimo Drago has been the manager of A C Cesena and is attached to the club Delfino Pescara 1936.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a sentence that about [A.C. Cesena MANAGER Massimo Drago; Massimo Drago CLUB Delfino Pescara 1936].\n\n### Response:"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Lucas Oliver Bulto MANUFACTURER Yamaha; Lucas Oliver Bulto POSITION 12",
+        "targets": "Coming in 12th position was a Yamaha motorcycle.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nLucas Oliver Bulto, the CEO of Yamaha, is currently in the 12th position in the MANUFACTURER industry."
+    },
+    {
+        "inputs": "Generate a sentence about this data: Antwerp International Airport CITY_SERVED Antwerp; Antwerp MAYOR Bart De Wever",
+        "targets": "Bart De Wever is the mayor of Antwerp, which is served by Antwerp International airport.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Antwerp International Airport is located in Antwerp, Belgium. The airport serves the city of Antwerp and is governed by Mayor Bart De Wever."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nA great Japanese coffee shop is The Eagle along the riverside near Burger King.",
+        "targets": "The Eagle eatType coffee shop\nThe Eagle food Japanese\nThe Eagle area riverside\nThe Eagle near Burger King",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nA great Japanese coffee shop is The Eagle along the riverside near Burger King."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Cocum eatType coffee shop; Cocum food Fast food; Cocum priceRange cheap; Cocum familyFriendly yes",
+        "targets": "Cocum is a coffee shop that offers fast food in a family friendly environment for a cheap price.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated, and will be removed if they are inappropriate.**\n\n**Do you have any questions about this problem?**\n\n**Please share your thoughts!**\n\n**Remember"
+    },
+    {
+        "inputs": "This is some data: The Eagle eatType coffee shop; The Eagle food French; The Eagle priceRange less than £20; The Eagle customer rating low; The Eagle area city centre; The Eagle familyFriendly no; The Eagle near Burger King.\n\nGenerate a detailed description of this data",
+        "targets": "The Eagle is a coffee shop that serves French food for a low price. It is not family-friendly and has a low customer rating. It is located in the city centre near Burger King.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: The Eagle eatType coffee shop; The Eagle food French; The Eagle priceRange less than £20; The Eagle customer rating low; The Eagle area city centre; The Eagle familyFri"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: The Golden Curry food English; The Golden Curry customer rating average; The Golden Curry area city centre; The Golden Curry near Café Rouge",
+        "targets": "The Golden Curry near Café Rouge in the city centre serves English food, is adult oriented and has an average customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Curry is a food establishment located in the city centre of London, serving authentic Indian cuisine with an average customer rating of 4.5 stars. It is situated near Café Rouge, a popular café chain, making"
+    },
+    {
+        "inputs": "Triple: The Waterman eatType pub; The Waterman food Japanese; The Waterman customer rating 5 out of 5; The Waterman area riverside\n\nWhat is a sentence that describes this triple?",
+        "targets": "The Waterman is a Japanese pub with a customer rating of 5 out of 5.  It is in the riverside area.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Waterman is a Japanese restaurant located in Riverside, California, with a 5-star rating on Yelp."
+    },
+    {
+        "inputs": "This is some data: The Eagle eatType coffee shop; The Eagle food Fast food; The Eagle priceRange more than £30; The Eagle customer rating 1 out of 5; The Eagle near Burger King.\n\nGenerate a detailed description of this data",
+        "targets": "The Eagle is a poorly rated, moderately expensive family coffee shop near Burger King. It serves fast food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated and will be removed if they contain offensive or sensitive content.**\n\n**Do you think you've found a security issue?**  \nReport it to the [FindBugs project]("
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Blue Spice is a non-family-friendly establishment in the city centre with low customer ratings and a price range of less than £20.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Blue Spice priceRange less than £20\nBlue Spice customer rating low\nBlue Spice area city centre\nBlue Spice familyFriendly no",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nBlue Spice is a non-family-friendly establishment in the city centre with low customer ratings and a price range of less than £20.\n\nThe concepts are:\n\n* Non-family-friendly\n* City"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Phoenix providing Fast food. It is located in riverside area. Have 3 out of 5 costumer rating and medium low price.",
+        "targets": "The Phoenix food Fast food\nThe Phoenix priceRange cheap\nThe Phoenix customer rating 3 out of 5\nThe Phoenix area riverside",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Phoenix provides fast food. It is located in the Riverside area. It has 3 out of 5 customer ratings and a medium-low price."
+    },
+    {
+        "inputs": "Generate a sentence about this data: The Cambridge Blue eatType restaurant; The Cambridge Blue food Chinese; The Cambridge Blue customer rating 5 out of 5",
+        "targets": "An amazing Chinese restaurant, with a perfect 5 out of 5 rating, is The Cambridge Blue.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Cambridge Blue is a Chinese restaurant that has a 5-star rating."
+    },
+    {
+        "inputs": "This is some data: The Twenty Two eatType restaurant; The Twenty Two priceRange high; The Twenty Two customer rating 3 out of 5; The Twenty Two area city centre; The Twenty Two familyFriendly no; The Twenty Two near The Rice Boat.\n\nGenerate a detailed description of this data",
+        "targets": "Located in the city centre near The Rice Boat, The Twenty Two is a non-child-friendly restaurant in the high price range. It has a rating of three out of five.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Twenty Two is a restaurant located in the city centre of London, serving high-quality Asian fusion cuisine. It has a 3 out of 5 star rating from customers, and is family-friendly, with no children"
+    },
+    {
+        "inputs": "This is some data: The Waterman food English; The Waterman priceRange more than £30; The Waterman customer rating high; The Waterman area city centre; The Waterman familyFriendly no.\n\nGenerate a detailed description of this data",
+        "targets": "The Waterman is located in the city centre, it serves English food, is expensive, not children friendly and is highly rated.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated, and will be removed if they are inappropriate.**\n\n**Do you have any questions about this problem?**\n\n**Please share your thoughts in the comments below.**"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: PGA Championship RUNNER-UP Andy Bean,  Mike Reid,  Curtis Strange",
+        "targets": "Andy Bean, Mike Reid, and Curtis Strange tied for second place at the PGA Championship.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nProduce a long descriptive sentence that uses all these words: PGA Championship RUNNER-UP Andy Bean,  Mike Reid,  Curtis Strange\n\n### Response:"
+    },
+    {
+        "inputs": "Generate a sentence about this data: A Glastonbury Romance OCLC_NUMBER 76798317; A Glastonbury Romance MEDIA_TYPE \"Print\"",
+        "targets": "The OCLC number of the currently in print book \"A Glastonbury Romance\" is 76798317.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nA Glastonbury Romance is a novel by the English writer Joseph Conrad. It was first published in 1911. The novel is set in the town of Glastonbury, Somerset, England,"
+    },
+    {
+        "inputs": "Data: 17 Nov TEAM_1 Canada; 17 Nov TEAM_2 Kazakhstan;  DATE 17 Nov; 17 Nov SCORE 3-0;   2006 FIVB Volleyball Men's World Championship\n\nWhat would a sentence about this data be like?",
+        "targets": "Canada scored 3-0 against Kazakhstan on 17 Nov in the 2006 FIVB Volleyball Men's World Championship.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe data shows that Team 1 won 3-0 against Team 2 on November 17, 2006."
+    },
+    {
+        "inputs": "Here is some data: Strada food Indian; Strada priceRange cheap; Strada customer rating 5 out of 5; Strada familyFriendly yes; Strada near Rainbow Vegetarian Café.\n\nWrite a sentence that describes this data",
+        "targets": "Strada serves inexpensive but highly rated Indian dishes in a family-friendly environment. It is located near Rainbow Vegetarian Café.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nStrada is a food establishment that offers Indian cuisine at a budget-friendly price. It has a 5-star rating from customers, making it a family-friendly option. It is located near Rainbow Veg"
+    },
+    {
+        "inputs": "Here is some data: The Punter food English; The Punter priceRange high; The Punter customer rating 3 out of 5.\n\nWrite a sentence that describes this data",
+        "targets": "The high price range The Punter serves good quality English food",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Punter food English; The Punter priceRange high; The Punter customer rating 3 out of 5."
+    },
+    {
+        "inputs": "Generate a sentence about this data: Alimentum eatType restaurant; Alimentum food French; Alimentum priceRange cheap; Alimentum customer rating 5 out of 5; Alimentum area city centre; Alimentum near Yippee Noodle Bar",
+        "targets": "Alimentum is a cheap French restaurant located in the city centre near Yippee Noodle Bar with a customer rating of 5 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a restaurant that serves French cuisine, and it has a 5-star rating from customers. It is located in the city centre near Yippee Noodle Bar."
+    },
+    {
+        "inputs": "Write a sentence that about [The Golden Curry food Chinese; The Golden Curry customer rating 5 out of 5; The Golden Curry area riverside; The Golden Curry familyFriendly yes; The Golden Curry near Café Rouge].",
+        "targets": "The Golden Curry serves Chinese food and has a high customer rating of 5 out of 5.  It is located at a riverside, is family friendly and Café Rouge is located nearby.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Curry is a family-friendly restaurant located in the riverside area of London, with a 5-star rating on Google and is near Café Rouge."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Franklin D. Roosevelt served as assistant secretary of the Navy from March 17, 1913 to August 26, 1920.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Franklin D. Roosevelt LEFT_OFFICE August 26, 1920\nFranklin D. Roosevelt ASSUMED_OFFICE March 17, 1913\n[TABLECONTEXT] [TITLE] Assistant Secretary of the Navy\n[TABLECONTEXT] NAME Franklin D. Roosevelt",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Franklin D. Roosevelt served as assistant secretary of the Navy from March 17, 1913 to August 26, 1920.\n\n* Franklin D. Roosevelt"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The Rice Boat near the Express by Holiday Inn serves Chinese food at a high price in a family friendly environment with high customer ratings and is located right in the city centre\"\n\nReturn the answer as pairs of triples.",
+        "targets": "The Rice Boat food Chinese\nThe Rice Boat priceRange more than £30\nThe Rice Boat customer rating high\nThe Rice Boat area city centre\nThe Rice Boat familyFriendly yes\nThe Rice Boat near Express by Holiday Inn",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Rice Boat is a Chinese restaurant located near the Express by Holiday Inn in the city center, with high customer ratings and a family-friendly atmosphere."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Waterman is a pub  by the riverside that serves Japanese food. The customer rating is very high.",
+        "targets": "The Waterman eatType pub\nThe Waterman food Japanese\nThe Waterman customer rating high\nThe Waterman area riverside",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Waterman is a pub by the riverside that serves Japanese food. The customer rating is very high.\n\n* The Waterman is a pub by the riverside that serves Japanese food.\n* The customer rating is very high."
+    },
+    {
+        "inputs": "Here is some data: The Golden Palace eatType coffee shop; The Golden Palace food Fast food; The Golden Palace priceRange £20-25; The Golden Palace customer rating high; The Golden Palace area riverside.\n\nWrite a sentence that describes this data",
+        "targets": "The  riverside coffee shop The Golden Palace sells Fast food that is highly rated, priced at £20-25.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Golden Palace is a coffee shop located on the riverside that serves high-quality food at a price range of £20-25. It has a customer rating of high."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Golden Curry food Japanese; The Golden Curry familyFriendly yes",
+        "targets": "If you want Japanese go to The Golden Curry. It's children friendly and doesn't cost much.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Curry is a family-friendly Japanese restaurant that serves delicious food."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Golden Palace, is high customer rated coffee shop  located within the City Centre that serves high customer rated Indian food.",
+        "targets": "The Golden Palace eatType coffee shop\nThe Golden Palace food Indian\nThe Golden Palace customer rating high\nThe Golden Palace area city centre",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Golden Palace is a high-rated coffee shop located in the City Centre that serves high-rated Indian food."
+    },
+    {
+        "inputs": "Write a sentence that about [Atatürk Monument (İzmir) MATERIAL \"Bronze\"; Atatürk Monument (İzmir) DESIGNER Pietro Canonica].",
+        "targets": "The Atatürk Monument in Izmir, made of bronze, was designed by Pietro Canonica.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Atatürk Monument in Izmir is a bronze sculpture designed by Pietro Canonica. It was erected in 1930 to commemorate the founder of the Republic of Turkey, Mustafa Kemal Atat"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Italy LEADER Pietro Grasso; Italy DEMONYM Italians; Italy CAPITAL Rome; A.S. Gubbio 1910 GROUND Italy",
+        "targets": "The ground of A.S. Gubbio 1910 is located in Italy, which is inhabited by Italians, its leader is Pietro Grasso and the capital is Rome.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated, and will be removed if they are inappropriate.**\n\n**If you are having trouble with a homework problem, you are welcome to ask for help. However, you should include"
+    },
+    {
+        "inputs": "Triple: Bibimbap House food English; Bibimbap House priceRange less than £20; Bibimbap House area riverside; Bibimbap House near Clare Hall\n\nWhat is a sentence that describes this triple?",
+        "targets": "Bibimbap House by the riverside and close to Clare Hall provides English food for under £20.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Bibimbap House is a restaurant that serves Korean food and has prices under £20. It is located near Clare Hall on the River Cam."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Mmind Workstation has a version 1.2.2.0.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Mind WorkStation VERSION 1.2.2.0",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Mind Workstation has a version 1.2.2.0.\n\n* Mind Workstation is a version 1.2.2.0.\n* Mind Workstation is a version 1.2.2.0"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Cocum is a  coffee shop providing French food in the average price range. It has a high customer rating and is child friendly.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Cocum eatType coffee shop\nCocum food French\nCocum priceRange £20-25\nCocum customer rating high\nCocum familyFriendly yes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Cocum is a coffee shop that serves French food at an average price point. It has a high customer rating and is child-friendly."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Golden Curry is a low price restaurant in The Bakers that offers French foods",
+        "targets": "The Golden Curry eatType restaurant\nThe Golden Curry food French\nThe Golden Curry priceRange less than £20\nThe Golden Curry near The Bakers",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Golden Curry is a low price restaurant in The Bakers that offers French foods.\n\n\n\nThe Golden Curry is a low price restaurant in The Bakers that offers French foods.\n\n\n\nThe Golden Cur"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Zizzi has amazing ratings and is child friendly. They serve French food.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Zizzi food French\nZizzi familyFriendly yes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n* Zizzi is a restaurant that has amazing ratings and is child friendly.\n* They serve French food.\n\n* Zizzi is a restaurant that serves French food.\n* It has amazing ratings and is child friendly"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Appleton, Wisconsin IS_PART_OF Little Chute, Wisconsin",
+        "targets": "Appleton, Wisconsin, is part of Little Chute, Wisconsin.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Appleton, Wisconsin is a city in Wisconsin that is part of Little Chute, Wisconsin."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Abilene Regional Airport CITY_SERVED Abilene, Texas; Abilene, Texas IS_PART_OF Texas; Abilene, Texas IS_PART_OF Taylor County, Texas; Abilene, Texas COUNTRY United States",
+        "targets": "Abilene, Texas, U.S. (part of Taylor County) is served by the Abilene regional airport.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Abilene Regional Airport is located in Abilene, Texas, which is part of Taylor County. It serves the United States."
+    },
+    {
+        "inputs": "Data: Fitzbillies priceRange cheap; Fitzbillies customer rating average; Fitzbillies familyFriendly yes; Fitzbillies near Express by Holiday Inn\n\nWhat would a sentence about this data be like?",
+        "targets": "Fitzbillies is located near the Express by Holiday Inn.  This cheap, family friendly establishment has an average rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Fitzbillies is a family-friendly restaurant that offers affordable meals for people on a budget."
+    },
+    {
+        "inputs": "Write a sentence that about [Sumatra ETHNIC_GROUP Batak].",
+        "targets": "Batak is an ethnic group in Sumatra.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Summary:**\n\n* Sumatra ETHNIC_GROUP Batak is a group of people from the island of Sumatra in Indonesia.\n* They are known for their unique culture and traditions, including their distinct"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nAldershot had no deductions.",
+        "targets": "Aldershot DEDUCTION(S) None",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAldershot had no deductions.\n\n* Aldershot is a place.\n* Aldershot has no deductions.\n\n* Aldershot is a place.\n* It has no deductions."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Browns Cambridge eatType restaurant; Browns Cambridge food Italian; Browns Cambridge priceRange high; Browns Cambridge customer rating 1 out of 5",
+        "targets": "Browns Cambridge is an expensive Italian restaurant. Rated 1 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Browns Cambridge is a restaurant located in Cambridge, Massachusetts, specializing in Italian cuisine. It has a high price range, with most dishes costing between $30 and $50, and has a customer rating of"
+    },
+    {
+        "inputs": "Triple: 1634: The Bavarian Crisis ISBN_NUMBER \"978-1-4165-4253-7\"; 1634: The Bavarian Crisis NUMBER_OF_PAGES \"448\"; 1634: The Bavarian Crisis AUTHOR \"Virginia DeMarce and Eric Flint\"; 1634: The Bavarian Crisis MEDIA_TYPE \"Print\"\n\nWhat is a sentence that describes this triple?",
+        "targets": "1634: The Bavarian Crisis has 448 pages can be located by it's ISBN number \"978-1-4165-4253-7\" The authors are Virginia DeMarce and Eric Flint and was put in print.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The book 1634: The Bavarian Crisis by Virginia DeMarce and Eric Flint has 448 pages and is a print book."
+    },
+    {
+        "inputs": "Data: Alimentum eatType restaurant; Alimentum priceRange £20-25; Alimentum customer rating high; Alimentum near Yippee Noodle Bar\n\nWhat would a sentence about this data be like?",
+        "targets": "Alimentum is a restaurant providing high quality sea food in the average price range. It is located in the north of city after Yippee Noodle Bar.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a restaurant that serves high-quality food at a reasonable price. It is located near Yippee Noodle Bar, making it convenient for customers who want to combine a meal at Alimentum with a drink or dess"
+    },
+    {
+        "inputs": "Write a sentence that about [Zizzi eatType coffee shop; Zizzi customer rating 3 out of 5; Zizzi area riverside; Zizzi familyFriendly yes].",
+        "targets": "Zizzi is a coffee shop located down by the riverside. This is a kid friendly shop with a price range of £20-£25 and a customer rating of 3 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Zizzi is a popular Italian restaurant chain with locations across the UK. Customers give it a 3 out of 5 rating, with most complaints about slow service and overcrowded dining areas. It's family-friend"
+    },
+    {
+        "inputs": "Write a sentence that about [Italy CAPITAL Rome; A.S. Gubbio 1910 GROUND Italy].",
+        "targets": "The ground of A.S. Gubbio 1910 is located in Italy, the capital of which is Rome.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nItaly CAPITAL Rome; A.S. Gubbio 1910 GROUND Italy."
+    },
+    {
+        "inputs": "Data: United Kingdom LANGUAGE English language; AIDS (journal) COUNTRY United Kingdom; AIDS (journal) PUBLISHER Lippincott Williams &amp; Wilkins\n\nWhat would a sentence about this data be like?",
+        "targets": "AIDS (journal) is published by Lippincott Williams &amp; Wilkins in the UK where English is the main language.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The United Kingdom has a journal called AIDS that is published by Lippincott Williams & Wilkins."
+    },
+    {
+        "inputs": "Data: The Rice Boat food Fast food; The Rice Boat priceRange less than £20; The Rice Boat customer rating low; The Rice Boat area city centre; The Rice Boat familyFriendly yes; The Rice Boat near Express by Holiday Inn\n\nWhat would a sentence about this data be like?",
+        "targets": "For moderately priced fast food, you could try a family-friendly establishment called The Rice Boat, it can be found in the city centre near Express by Holiday Inn but it has a poor customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Rice Boat is a fast food restaurant located in the city centre of London, serving affordable Asian-inspired dishes. It has a low customer rating due to poor service and limited seating, but is popular among students and"
+    },
+    {
+        "inputs": "Write a sentence that about [The Rice Boat eatType restaurant; The Rice Boat food Italian; The Rice Boat area riverside; The Rice Boat familyFriendly no].",
+        "targets": "The Rice Boat is an average restaurant in the riverside area offering Italian food.  It is not family-friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Rice Boat is a family-friendly restaurant located on the riverside that serves Italian food."
+    },
+    {
+        "inputs": "Data: The Cambridge Blue eatType restaurant; The Cambridge Blue customer rating 5 out of 5\n\nWhat would a sentence about this data be like?",
+        "targets": "One 5 star rated restaurant is The Cambridge Blue.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Cambridge Blue restaurant has a 5-star rating."
+    },
+    {
+        "inputs": "Write a sentence that about [Aromi eatType coffee shop; Aromi food French; Aromi customer rating average; Aromi area city centre; Aromi familyFriendly no].",
+        "targets": "Aromi is a coffee shop that serves French food near the city centre. Ratings are average, and it is not family-friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Aromi is a coffee shop that serves French food. Its average customer rating is 4.5 stars. It is located in the city centre and is family-friendly."
+    },
+    {
+        "inputs": "This is some data: The Twenty Two food Chinese; The Twenty Two area riverside; The Twenty Two familyFriendly no.\n\nGenerate a detailed description of this data",
+        "targets": "The Twenty Two serves Chinese food in the Riverside but is not family friendly",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: The Twenty Two food Chinese; The Twenty Two area riverside; The Twenty Two familyFriendly no."
+    },
+    {
+        "inputs": "Write a sentence that about [Elliot See ALMA_MATER University of Texas at Austin; Elliot See STATUS \"Deceased\"; Elliot See DEATH_PLACE St. Louis; Elliot See DATE_OF_BIRTH \"1927-07-23\"; Elliot See BIRTH_PLACE Dallas; Elliot See DATE_OF_DEATH \"1966-02-28\"; Elliot See WAS_SELECTED_BY_NASA 1962].",
+        "targets": "Elliot See was born on July 23rd, 1927 in Dallas. He was a student at University of Texas at Austin, after that was chosen by NASA in 1962. He died on the 28th of February 1966 and is deceased.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nElliot See ALMA_MATER University of Texas at Austin; Elliot See STATUS \"Deceased\"; Elliot See DEATH_PLACE St. Louis; Elliot See DATE_OF_BIRTH"
+    },
+    {
+        "inputs": "Triple: St. Louis IS_PART_OF Kingdom of France\n\nWhat is a sentence that describes this triple?",
+        "targets": "St. Louis was a part of the kingdom of France.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nSt. Louis is a city in the Kingdom of France."
+    },
+    {
+        "inputs": "Triple: Clowns eatType pub; Clowns priceRange high; Clowns customer rating 1 out of 5; Clowns area riverside\n\nWhat is a sentence that describes this triple?",
+        "targets": "Clowns, a pub located near the riverside has high prices, but only a 1 out of 5 rating with customers.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nClowns are a type of food that are typically found in the riverside area and have a price range of 1 to 5 stars."
+    },
+    {
+        "inputs": "This is some data: The Phoenix eatType restaurant; The Phoenix food English; The Phoenix area city centre.\n\nGenerate a detailed description of this data",
+        "targets": "The Phoenix is an average English restaurant in the center of the city.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Phoenix is a restaurant located in the city centre of London. It serves English food."
+    },
+    {
+        "inputs": "Data: Taste of Cambridge eatType restaurant; Taste of Cambridge priceRange cheap; Taste of Cambridge customer rating 5 out of 5\n\nWhat would a sentence about this data be like?",
+        "targets": "A cheap restaurant called Taste of Cambridge has an excellence customer rating of 5 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Taste of Cambridge is a cheap eatery with a 5-star rating."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Strada eatType restaurant; Strada food Italian; Strada priceRange moderate; Strada customer rating 3 out of 5; Strada familyFriendly yes; Strada near Rainbow Vegetarian Café",
+        "targets": "The Strada is a moderately priced Italian restaurant with an average customer rating  and is unsuitable for children. It can be found near the Rainbow Vegetarian Café.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated and will be removed if they are inappropriate.**\n\n**Do you have any questions about this problem?**\n\n**Do you think it is a good question?**"
+    },
+    {
+        "inputs": "Write a sentence that about [Blue Spice priceRange £20-25; Blue Spice area riverside].",
+        "targets": "Blue Spice has items in the  £20-25 price range and is in riverside.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Blue Spice priceRange £20-25; Blue Spice area riverside."
+    },
+    {
+        "inputs": "Generate a sentence about this data: The Golden Palace eatType coffee shop; The Golden Palace priceRange high; The Golden Palace customer rating average; The Golden Palace area riverside",
+        "targets": "There is an average coffee shop called The Golden Palace located in Riverside that serves fast-food.  Consumers rate it as average and the prices are on the high end.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Palace is a coffee shop located in the riverside area of the city. It has an average customer rating of 4.5 stars."
+    },
+    {
+        "inputs": "Triple: The Eagle customer rating average\n\nWhat is a sentence that describes this triple?",
+        "targets": "Head over to The Eagle for sushi. 3 stars.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The average customer rating for Eagle is 3.5 stars."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Dane Whitman Black Knight (comicsCharacter) CREATOR John Buscema",
+        "targets": "Dane Whitman, a.k.a. Black Knight, was created by John Buscema in the comics genre.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nDane Whitman is a Marvel comics character created by John Buscema. He is the Black Knight, a superhero who uses a magical sword to fight evil."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Switzerland LEADER_TITLE Federal Chancellor of Switzerland",
+        "targets": "The Federal Chancellor of Switzerland is the title of the leader of Switzerland.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Switzerland LEADER_TITLE Federal Chancellor of Switzerland"
+    },
+    {
+        "inputs": "Data: The Eagle eatType coffee shop; The Eagle food Indian; The Eagle priceRange moderate; The Eagle customer rating average; The Eagle area riverside; The Eagle familyFriendly no; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
+        "targets": "Near Burger King near the riverside is The Eagle Indian food coffee shop.  It has a high price range with average customer ratings.  It is not kid friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Eagle is a coffee shop located in riverside, California. It has an average customer rating of 4.5 stars and serves moderately priced food. The establishment is family-friendly and is located near Burger King."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nButler County cast 30090 votes for Kerry.",
+        "targets": "35.2% KERRY# 30090\nButler KERRY% 35.2%",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nButler County cast 30090 votes for Kerry.\n\n* *votes* is a noun\n* *cast* is a verb\n* *30090* is a number\n* *"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The Waterman serves Chinese in the high price range, with an average customer rating. It is located in the city center and is children friendly.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "The Waterman food Chinese\nThe Waterman priceRange high\nThe Waterman customer rating average\nThe Waterman area city centre\nThe Waterman familyFriendly yes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The concepts described in the sentence are:\n\n* **Waterman**: a restaurant that serves Chinese food\n* **high price range**: expensive\n* **average customer rating**: average customer satisfaction\n* **city center**"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Loch Fyne eatType restaurant; Loch Fyne food Chinese; Loch Fyne priceRange moderate; Loch Fyne familyFriendly yes",
+        "targets": "Loch Fyne is a kids friendly Chinese food restaurant in the moderate price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Loch Fyne is a moderately priced restaurant that is family friendly and serves Chinese food."
+    },
+    {
+        "inputs": "Write a sentence that about [Browns Cambridge priceRange cheap].",
+        "targets": "Browns Cambridge is great for cheap burgers and other similar food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Browns Cambridge is a restaurant that offers affordable meals in the city of Cambridge."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nAsser Levy Public baths are located in New York City, New York, Manhattan.",
+        "targets": "Asser Levy Public Baths LOCATION New York City\nNew York City IS_PART_OF New York\nNew York City IS_PART_OF Manhattan",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAsser Levy Public baths are located in New York City, New York, Manhattan."
+    },
+    {
+        "inputs": "Here is some data: Fitzbillies eatType coffee shop; Fitzbillies priceRange less than £20; Fitzbillies customer rating low; Fitzbillies area riverside; Fitzbillies familyFriendly yes.\n\nWrite a sentence that describes this data",
+        "targets": "Family friendly, cheap lowly rated coffee shop Fitzbillies is located near the riverside.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nFitzbillies is a coffee shop that is less than £20, has a low customer rating, is family-friendly, and is located near the river."
+    },
+    {
+        "inputs": "Write a sentence that about [sugarbaby ARTIST morningwood].",
+        "targets": "The artist of the song \"sugarbaby is morningwood\".",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a sentence that about [sugarbaby ARTIST morningwood].\n\n### Response:"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Browns Cambridge eatType restaurant; Browns Cambridge food Italian; Browns Cambridge priceRange moderate; Browns Cambridge customer rating 3 out of 5",
+        "targets": "Browns Cambridge is a Italian restaurant with a moderate price and a rating 3 out of 5",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Browns Cambridge is a moderately priced Italian restaurant located in Cambridge, Massachusetts. It has a 3 out of 5 star rating on Yelp."
+    },
+    {
+        "inputs": "Triple: 1634: The Baltic War AUTHOR David Weber\n\nWhat is a sentence that describes this triple?",
+        "targets": "David Weber is the author of 1634: The Baltic War.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Triple: 1634: The Baltic War AUTHOR David Weber\n\nThe Baltic War is a triple by David Weber."
+    },
+    {
+        "inputs": "Here is some data: Cotto eatType coffee shop; Cotto food French; Cotto priceRange moderate; Cotto customer rating 1 out of 5; Cotto area city centre; Cotto near The Portland Arms.\n\nWrite a sentence that describes this data",
+        "targets": "Cotto is a French coffee shop in the moderate price range. It is located in the city centre, near The Portland Arms, and has a customer rating of 1 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nCotto is a coffee shop located in the city centre of Cambridge, England. It serves moderately priced French cuisine and has a customer rating of 1 out of 5 stars."
+    },
+    {
+        "inputs": "Here is some data: Browns Cambridge food Indian; Browns Cambridge area riverside; Browns Cambridge familyFriendly no; Browns Cambridge near The Sorrento.\n\nWrite a sentence that describes this data",
+        "targets": "Browns Cambridge is an adults only establishment located in riverside, near The Sorrento, and features Indian cuisine.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nBrowns Cambridge is a restaurant located in the area of riverside, which is family-friendly and near The Sorrento."
+    },
+    {
+        "inputs": "Data: The Rice Boat eatType restaurant; The Rice Boat food Italian; The Rice Boat priceRange cheap; The Rice Boat area riverside; The Rice Boat familyFriendly no; The Rice Boat near Express by Holiday Inn\n\nWhat would a sentence about this data be like?",
+        "targets": "The Rice Boat is located in Riverside near the Express by Holiday Inn and is a low priced Italian eatery that is an ok adult only restaurant",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Rice Boat is a restaurant that serves Italian food and is located near Express by Holiday Inn. It is family-friendly and has cheap prices."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Baked Alaska COURSE Dessert; Dessert DISH_VARIATION Sandesh (confectionery)",
+        "targets": "Baked Alaska and Sandesh are desserts.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that these responses are just examples, and your feedback is highly appreciated.**\n\n**Baked Alaska is a dessert that combines ice cream, cake, and fruit. It is a popular dessert in"
+    },
+    {
+        "inputs": "This is some data: 36 CAUCUSING 2; Communist Group TOTAL 36; 36 MEMBERS 34.\n\nGenerate a detailed description of this data",
+        "targets": "There are 34 members, 2 caucusing, 36 in total in the Communist Group",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: 36 CAUCUSING 2; Communist Group TOTAL 36; 36 MEMBERS 34.\n\nThis data is a list of 36 people who are"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Mill eatType coffee shop; The Mill food Fast food; The Mill priceRange more than £30; The Mill area riverside; The Mill near The Sorrento",
+        "targets": "The Mill is located near The Sorrento, in Riverside. Its a coffee shop that serves fast food. Their average cost is  more than £30.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that these responses are just examples, don't copy them!**\n\nThe Mill is a coffee shop located on the riverside in London. It serves fast food and has a price range of more than £30."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nGiraffe is a French pub restaurant that is family friendly in Riverside.",
+        "targets": "Giraffe eatType restaurant\nGiraffe food French\nGiraffe area riverside\nGiraffe familyFriendly yes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nGiraffe is a French pub restaurant that is family friendly in Riverside."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Bibimbap House food English; Bibimbap House area riverside; Bibimbap House near The Rice Boat",
+        "targets": "Bibimbap House, located near The Rice Boat on the riverside, provides English food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Bibimbap House is a Korean restaurant located in the riverside area near The Rice Boat. They serve authentic Korean food, including bibimbap, kimchi, and bulgogi."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nGiven 5 out 5 rating by customers Clowns coffee shop provides fabulous Japanese food on the riverside, close to Clare Hall",
+        "targets": "Clowns eatType coffee shop\nClowns food Japanese\nClowns area riverside\nClowns near Clare Hall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nGiven 5 out 5 rating by customers Clowns coffee shop provides fabulous Japanese food on the riverside, close to Clare Hall"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Zizzi eatType pub; Zizzi food English; Zizzi customer rating 1 out of 5; Zizzi familyFriendly yes",
+        "targets": "Zizzi is low rated as 1 out of 5. It is a kids friendly pub which serves English food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Please remember that comments are moderated and will be removed if they contain offensive or abusive language.**\n\n**Please consider the following guidelines before submitting a new post.**\n\n1. Read through the ["
+    },
+    {
+        "inputs": "Here is some data: Asam pedas COUNTRY Malaysia; Malaysia ETHNIC_GROUP Malaysian Chinese; Sumatra ETHNIC_GROUP Minangkabau people; Asam pedas REGION Sumatra.\n\nWrite a sentence that describes this data",
+        "targets": "Asam pedas is a food found in Sumatra and Malaysia. Malaysian Chinese is an ethnic group from Malaysia and the Minangkabau people are found in Sumatra.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAsam pedas is a spicy dish from Malaysia, and it is popular among Malaysian Chinese. Sumatra is a region in Indonesia, and it is home to the Minangkabau people, who are known for"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Loch Fyne food Italian; Loch Fyne customer rating average; Loch Fyne area city centre; Loch Fyne near The Rice Boat",
+        "targets": "Loch Fyne is in the city centre near The Rice Boat, it serves Italian food and comes with an average customer rating",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Loch Fyne food Italian, customer rating average 4.5, area city centre, near The Rice Boat.**"
+    },
+    {
+        "inputs": "Here is some data: The Waterman eatType restaurant; The Waterman food French; The Waterman priceRange £20-25; The Waterman customer rating 3 out of 5; The Waterman area riverside; The Waterman familyFriendly yes.\n\nWrite a sentence that describes this data",
+        "targets": "The Waterman is a restaurant providing French food in the Riverside area. The Waterman is a kid-friendly restaurant with a price range in the average range and a customer rating of 3 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Waterman is a French restaurant located in the riverside area, with a family-friendly atmosphere and a 3 out of 5 customer rating."
+    },
+    {
+        "inputs": "Triple: Danièle Dupré LANGUAGE French; Amours mortes (tant de peine) ARTIST Danièle Dupré\n\nWhat is a sentence that describes this triple?",
+        "targets": "Danièle Dupré sings a song Amours mortes (tant de peine) in Frech",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nDanièle Dupré sings Amours mortes (tant de peine) in French."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The Phoenix, serving Indian food, is cheap, has an average rating, and is located in the city centre.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "The Phoenix food Indian\nThe Phoenix priceRange cheap\nThe Phoenix customer rating average\nThe Phoenix area city centre",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The concepts described in the sentence are:\n\n* **Restaurant**: The Phoenix\n* **Location**: City centre\n* **Cuisine**: Indian food\n* **Rating**: Average\n* **Price"
+    },
+    {
+        "inputs": "Triple: The Waterman eatType pub; The Waterman customer rating 1 out of 5; The Waterman area riverside\n\nWhat is a sentence that describes this triple?",
+        "targets": "Customer rating 1 out of 5. The Waterman is a fast-food pub in the Riverside area.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Waterman has a pub, a customer rating of 1 out of 5, and is located in Riverside."
+    },
+    {
+        "inputs": "Triple: Giraffe eatType pub; Giraffe food Italian; Giraffe area riverside; Giraffe familyFriendly yes\n\nWhat is a sentence that describes this triple?",
+        "targets": "There is an Italian pub called the Giraffe that is located at Riverside and no need to worry, it is kid friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nGiraffe eats Italian food at the riverside while being family friendly."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nLoch Fyne is a restaurant that serves Indian food in the moderate price range and is not child friendly.",
+        "targets": "Loch Fyne eatType restaurant\nLoch Fyne food Indian\nLoch Fyne priceRange moderate\nLoch Fyne familyFriendly no",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nLoch Fyne is a restaurant that serves Indian food in the moderate price range and is not child friendly."
+    },
+    {
+        "inputs": "Data: Egg Harbor Township, New Jersey IS_PART_OF New Jersey; Atlantic City International Airport RUNWAY_LENGTH 1873.0; Atlantic City International Airport LOCATION Egg Harbor Township, New Jersey; Egg Harbor Township, New Jersey COUNTRY United States; Egg Harbor Township, New Jersey IS_PART_OF Atlantic County, New Jersey\n\nWhat would a sentence about this data be like?",
+        "targets": "The Egg Harbor Township in New Jersey is located in Atlantic City, New Jersey. It is served by Atlantic City International Airport which has a runway length of 1873.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Atlantic City International Airport is located in Egg Harbor Township, New Jersey, which is part of the state of New Jersey. The airport has a runway that is 1,873 meters long. It is located in"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Visvesvaraya Technological University CITY Belgaum; Acharya Institute of Technology ESTABLISHED 2000; Acharya Institute of Technology COUNTRY \"India\"; Acharya Institute of Technology CAMPUS \"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.\"; Acharya Institute of Technology AFFILIATION Visvesvaraya Technological University",
+        "targets": "The Acharya Institute of Technology's campus is in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090, India. It was established in 2000 and it is affiliated with the Visvesvaraya Technological University in Belgaum.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that posts should be on the topic of programming.**\n\n**If you are looking for a job, please visit the following sites:**\n\n- [Indeed](https://www.indeed.com/job"
+    },
+    {
+        "inputs": "Write a sentence that about [Energy (kJ) WHEAT 1369].",
+        "targets": "A 100 gram portion of wheat has 1369 kJ of energy.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Energy (kJ) WHEAT 1369 is a food item that contains 1369 kilojoules of energy."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Randy Lewis drove in 1973.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "1973 CONSTRUCTOR Brabham - Ford\n1973 REPORT Report\n1973 DRIVERS Randy Lewis\n1973 FORMULA Formula 3\n1973 LOCATION Roskilde Ring",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Randy Lewis drove in 1973.\n\n* Randy Lewis\n* drove\n* in\n* 1973\n\n### Explanation:\n\nThe first two words are the subject and the verb"
+    },
+    {
+        "inputs": "This is some data: The Golden Curry food English; The Golden Curry familyFriendly yes; The Golden Curry near The Bakers.\n\nGenerate a detailed description of this data",
+        "targets": "The Golden Curry sears English food near The Bakers. It is family friendly and has a higher price point.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Golden Curry is a food located in the English city of London. It is a family-friendly restaurant that is near The Bakers, another restaurant in the same area."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The French food restaurant, Loch Fyne, has a customer rating of 5 out of 5 and can be found near The Rice Boat in the city centre area.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Loch Fyne eatType restaurant\nLoch Fyne food French\nLoch Fyne customer rating 5 out of 5\nLoch Fyne area city centre\nLoch Fyne near The Rice Boat",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The French food restaurant, Loch Fyne, has a customer rating of 5 out of 5 and can be found near The Rice Boat in the city centre area.\n\nThe French food restaurant, Loch Fyne"
+    },
+    {
+        "inputs": "Here is some data: Blue Spice eatType coffee shop; Blue Spice priceRange £20-25; Blue Spice customer rating 3 out of 5; Blue Spice area riverside; Blue Spice near Avalon.\n\nWrite a sentence that describes this data",
+        "targets": "Blue Spice, near Avalon in the riverside are is a coffee shop that is moderately priced. They received a 3 out of 5 customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nBlue Spice is a coffee shop with a price range of £20-25, a customer rating of 3 out of 5, and is located near Avalon."
+    },
+    {
+        "inputs": "This is some data: Alan Shepard ALMA_MATER \"NWC, M.A. 1957\"; Alan Shepard DEATH_PLACE California; Alan Shepard OCCUPATION Test pilot; Alan Shepard BIRTH_PLACE New Hampshire; Alan Shepard WAS_SELECTED_BY_NASA 1959; Alan Shepard NATIONALITY United States; Alan Shepard DATE_OF_BIRTH \"1923-11-18\".\n\nGenerate a detailed description of this data",
+        "targets": "Alan Shepard is an American, who was born in New Hampshire on November 18th, 1923. He graduated from NWC in 1957 with an M.A. He was a test pilot, who was selected by NASA in 1959. He died in California.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: Alan Shepard ALMA_MATER \"NWC, M.A. 1957\"; Alan Shepard DEATH_PLACE California; Alan Shepard OCCUPATION"
+    },
+    {
+        "inputs": "Generate a sentence about this data: Fade From View ALBUM Stop The Bleeding",
+        "targets": "Fade From View was a single off the album Stop the Bleeding.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a sentence about this data: Fade From View ALBUM Stop The Bleeding\n\n### Response:"
+    },
+    {
+        "inputs": "Generate a sentence about this data: 1935/36 REGULAR_SEASON 1st;   New York Americans (soccer);  YEAR 1935/36",
+        "targets": "The New York Americans placed first in the regular season in 1935/36",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The New York Americans won the 1935–36 Regular Season title in the American Soccer League."
+    },
+    {
+        "inputs": "Write a sentence that about [Arròs negre REGION Valencian Community; Arròs negre COUNTRY Spain; Arròs negre MAIN_INGREDIENTS \"White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers\"; Arròs negre INGREDIENT Cephalopod ink].",
+        "targets": "Arros negre comes from the region of the Valencian Community in Spain. The main ingredients are white rice, cuttlefish or squid, cephalopod ink and cubanelle peppers.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nArròs negre is a traditional Valencian dish made with white rice, cuttlefish or squid, cubanelle peppers, and cephalopod ink. It is a popular dish in Spain,"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Yelena Koshcheyeva competed in the Olympic Games in 2004.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "[TABLECONTEXT] [TITLE] Yelena Koshcheyeva\n[TABLECONTEXT] YEAR 2004\n2004 COMPETITION Olympic Games",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Yelena Koshcheyeva competed in the Olympic Games in 2004.\n\n* Yelena Koshcheyeva\n* competed in the Olympic Games in 2004\n* Olympic Games"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nLusty Engineering is John Lusty Bernie Stack Holden VL Commodore SS Group A SV",
+        "targets": "Lusty Engineering POSITION 14\nLusty Engineering CAR Holden VL Commodore SS Group A SV\nLusty Engineering DRIVERS John Lusty  Bernie Stack",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nLusty Engineering is John Lusty Bernie Stack Holden VL Commodore SS Group A SV"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: AZ Alkmaar MANAGER John van den Brom; John van den Brom CLUB AFC Ajax",
+        "targets": "John van den Brom plays for AFC Ajax and has previously been the manager for AZ Alkmaar.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nJohn van den Brom, the manager of AZ Alkmaar, has been linked to the vacant managerial position at Ajax."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Blue Spice eatType restaurant; Blue Spice priceRange less than £20; Blue Spice customer rating low; Blue Spice familyFriendly no",
+        "targets": "The Blue Spice is a non-family-friendly restaurant with a price range of less than £20 with a low customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated, and will be removed if they are inappropriate.**\n\n**Do you have any questions about this problem?**\n\n**Please share your thoughts in the comments below.**"
+    },
+    {
+        "inputs": "This is some data: Airman (comicsCharacter) ALTERNATIVE_NAME \"Drake Stevens\"; Airman (comicsCharacter) CREATOR George Kapitan.\n\nGenerate a detailed description of this data",
+        "targets": "\"Drake Stevens, known as Airman, was created by George Kapitan.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n**Description:**\n\nThis is some data: Airman (comicsCharacter) ALTERNATIVE_NAME \"Drake Stevens\"; Airman (comicsCharacter) CREATOR George Kapitan."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Waterman provides Indian food. It is near Crowne Plaza Hotel.",
+        "targets": "The Waterman food Indian\nThe Waterman near Crowne Plaza Hotel",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Waterman provides Indian food. It is near Crowne Plaza Hotel.\n\nThe Waterman provides Indian food. It is near Crowne Plaza Hotel.\n\nThe Waterman provides Indian food. It is near Crowne Pla"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Bibimbap House eatType coffee shop; Bibimbap House food Italian; Bibimbap House priceRange less than £20; Bibimbap House area city centre; Bibimbap House near Clare Hall",
+        "targets": "Bibimbap House is low price coffee shop named serving Italian food Located in city center near Clare Hall",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please note that the response you are looking for is not a complete sentence. It is a list of words that you need to use in your sentence.**\n\n**You need to use the following words:**\n\n* Bibimb"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Buzz Aldrin BIRTH_PLACE Glen Ridge, New Jersey; Buzz Aldrin NATIONALITY United States; Buzz Aldrin WAS_SELECTED_BY_NASA 1963; Buzz Aldrin TIME_IN_SPACE \"52.0\"(minutes); Buzz Aldrin WAS_A_CREW_MEMBER_OF Apollo 11; Buzz Aldrin OCCUPATION Fighter pilot; Buzz Aldrin ALMA_MATER \"Massachusetts Institute of Technology, Sc.D. 1963\"",
+        "targets": "Buzz Aldrin was an American who was born in Glen Ridge, New Jersey. graduated from MIT with a Sc. D in 1963, which was the same year that he was hired by NASA. Buzz served as a Fighter pilot, and was also a crew member of Apollo 11. He was in space for 52 minutes.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate an approximately fifteen-word sentence that describes all this data: Buzz Aldrin BIRTH_PLACE Glen Ridge, New Jersey; Buzz Aldrin NATIONALITY United States; Buzz Aldrin WAS_SELECTED_BY_NASA 1963; Buzz Aldrin TIME_IN_SPACE \"52.0\"(minutes); Buzz Aldrin WAS_A_CREW_MEMBER_OF Apollo 11; Buzz Aldrin OCCUPATION Fighter pilot; Buzz Aldrin ALMA_MATER \"Massachusetts Institute of Technology, Sc.D. 1963\"\n\n### Response:"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Appleton International Airport LOCATION Greenville, Wisconsin; Greenville, Wisconsin IS_PART_OF Ellington, Wisconsin; Appleton, Wisconsin IS_PART_OF Little Chute, Wisconsin; Greenville, Wisconsin COUNTRY United States; Appleton International Airport CITY_SERVED Appleton, Wisconsin",
+        "targets": "Appleton international Airport is located in Greenville,Wisconsin,United States and serves the city of Appleton.Greenville is part of Ellington,Wisconsin.Little Chute is part of Appleton,Wisconsin.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Appleton International Airport is located in Greenville, Wisconsin, which is part of Ellington, Wisconsin, and is served by Appleton, Wisconsin. It is located in the United States."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"11 Diagonal Street is located in South Africa, where the leader is called Jacob Zuma.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "11 Diagonal Street LOCATION South Africa\nSouth Africa LEADER_NAME Jacob Zuma",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n11 Diagonal Street is located in South Africa, where the leader is called Jacob Zuma.\n\nThe leader is called Jacob Zuma.\n\nThe leader is Jacob Zuma.\n\nThe leader is a person."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"John van den Brom plays for the Netherlands football team and RSC Anderlecht, and manages AZ Alkmaair.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "AZ Alkmaar MANAGER John van den Brom\nJohn van den Brom CLUB R.S.C. Anderlecht\nJohn van den Brom CLUB Netherlands national football team",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nJohn van den Brom plays for the Netherlands football team and RSC Anderlecht, and manages AZ Alkmaair.\n\nThe Netherlands football team is a national team, and RSC Anderlecht is a club team"
+    },
+    {
+        "inputs": "Here is some data: Fitzbillies food French; Fitzbillies priceRange moderate; Fitzbillies near The Six Bells.\n\nWrite a sentence that describes this data",
+        "targets": "Fitzbillies is a lower than average priced place near The Six Bells serving French food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Fitzbillies is a French restaurant that offers moderately priced food near The Six Bells."
+    },
+    {
+        "inputs": "Triple: Giraffe eatType pub; Giraffe food Japanese; Giraffe area riverside; Giraffe familyFriendly yes\n\nWhat is a sentence that describes this triple?",
+        "targets": "Giraffe is a family friendly Japanese pub in the riverside area.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Giraffe eats Japanese food at riverside while being family friendly."
+    },
+    {
+        "inputs": "This is some data: The Eagle food Fast food; The Eagle customer rating 5 out of 5.\n\nGenerate a detailed description of this data",
+        "targets": "The Eagle serves Fast food with a customer rating of 5 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: The Eagle food Fast food; The Eagle customer rating 5 out of 5."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Cricketers eatType pub; The Cricketers customer rating 5 out of 5; The Cricketers familyFriendly yes; The Cricketers near Ranch",
+        "targets": "family-friendly Pub The Cricketers is near Ranch and has a customer rating of 5 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Explanation:**\n\nThe Cricketers is a family-friendly pub that serves pub food and has a 5-star customer rating. It is located near Ranch."
+    },
+    {
+        "inputs": "Generate a sentence about this data: The Golden Palace eatType coffee shop; The Golden Palace food Italian; The Golden Palace priceRange more than £30; The Golden Palace customer rating high; The Golden Palace area riverside",
+        "targets": "There is a highly rated Italian coffee shop in the Riverside area that cost more then more than £30.  It is named The Golden Palace.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Palace is a coffee shop that serves Italian food, with a customer rating of more than £30 and an area of riverside."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe cylinder size of this engine that was made with only 88 pieces was 20 ½” x 26.",
+        "targets": "E2 NUMBER_BUILT 88\nE2 CYLINDER_SIZE 20 ½” x 26”",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe cylinder size of this engine that was made with only 88 pieces was 20 ½” x 26.\n\nThe cylinder size of this engine that was made with only 88 pieces was 2"
+    },
+    {
+        "inputs": "Write a sentence that about [Aenir MEDIA_TYPE \"Print\"].",
+        "targets": "Aenir is available in print.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Aenir MEDIA_TYPE \"Print\" is a type of media that is used for printing."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Loch Fyne is a family friendly French restaurant in the average price range.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Loch Fyne eatType restaurant\nLoch Fyne food French\nLoch Fyne priceRange moderate\nLoch Fyne familyFriendly yes",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Loch Fyne is a family friendly French restaurant in the average price range.\n\nThe concepts are:\n\n* Loch Fyne is a restaurant\n* Loch Fyne is a French restaurant\n* Loch F"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: The Golden Curry food English; The Golden Curry customer rating 3 out of 5; The Golden Curry familyFriendly yes",
+        "targets": "The Golden Curry is a kids friendly place of English cuisine with ratings 3 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Curry is a food establishment located in the heart of London, serving authentic Indian cuisine with a modern twist. It has a 3 out of 5 customer rating, making it a family-friendly restaurant that offers both"
+    },
+    {
+        "inputs": "Generate a sentence about this data: The Mill eatType restaurant; The Mill food Japanese; The Mill priceRange moderate; The Mill area riverside",
+        "targets": "A moderately priced restaurant offering Japanese food is a pub restaurant, The Mill.  The Mill is located in the riverside area.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Mill is a Japanese restaurant located in Riverside, California."
+    },
+    {
+        "inputs": "Generate a sentence about this data: Dibrugarh Amritsar Express DESTINATION Amritsar; Dibrugarh Amritsar Express TRAIN_NO. 15933/34",
+        "targets": "The train numbered 15933/34 has a destination of Amritsar.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that these responses are just examples for your reference, any content in this answer should be used as a starting point for your research. Always do your own research before you make any final decisions or take any action.**"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Beef kway teow INGREDIENT Sesame oil; Beef kway teow COUNTRY \"Singapore and Indonesia\"",
+        "targets": "Sesame oil is an ingredient in beef kway teow, made in Singapore and Indonesia.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Beef kway teow INGREDIENT Sesame oil; Beef kway teow COUNTRY \"Singapore and Indonesia\""
+    },
+    {
+        "inputs": "This is some data: Giraffe eatType pub; Giraffe food Indian; Giraffe area riverside; Giraffe familyFriendly yes.\n\nGenerate a detailed description of this data",
+        "targets": "The Giraffe pub at riverside provides Indian food in a kid friendly environment.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Giraffe** is a type of **eat**.\n\n**Giraffe** lives in **Indian**.\n\n**Giraffe** is a **familyFriendly** animal.\n\n**G"
+    },
+    {
+        "inputs": "Here is some data: Michele Marcolini CLUB F.C. Bari 1908.\n\nWrite a sentence that describes this data",
+        "targets": "Michele Marcolini plays for F.C. Bari 1908.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nMichele Marcolini plays for CLUB F.C. Bari 1908."
+    },
+    {
+        "inputs": "This is some data:   List of Last of the Summer Wine episodes; 50 ORIGINAL_AIR_DATE 13 February 1983; 50 TITLE The Waist Land;  EPISODE_NUMBER 50.\n\nGenerate a detailed description of this data",
+        "targets": "Last of the Summer Wine's February 13, 1983 episode was called The Waist Land.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nThis is some data:\n\n\n\nList of Last of the Summer Wine episodes\n\n\n\n50 ORIGINAL_AIR_DATE 13 February 1983\n\n\n\n5"
+    },
+    {
+        "inputs": "Here is some data: The Rice Boat food Indian; The Rice Boat priceRange £20-25; The Rice Boat customer rating high; The Rice Boat area riverside; The Rice Boat familyFriendly yes; The Rice Boat near Express by Holiday Inn.\n\nWrite a sentence that describes this data",
+        "targets": "The Rice Boat is near the Express by Holiday Inn in Riverside.  Kid friendly and highly rated, this Indian food establishment  will not break the bank.  Price range £20-25.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Rice Boat is a food Indian restaurant located in London, near the Express by Holiday Inn, with a family-friendly atmosphere and a high customer rating. It offers affordable prices and serves a variety of Indian dishes."
+    },
+    {
+        "inputs": "Here is some data: The Olive Grove eatType pub; The Olive Grove food Japanese; The Olive Grove priceRange cheap; The Olive Grove area city centre; The Olive Grove familyFriendly no.\n\nWrite a sentence that describes this data",
+        "targets": "We do not offer a child-friendly environment. Japanese food is served here at The Olive Grove. Our pub is very low-priced. Located in the city centre",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Olive Grove is a pub that serves Japanese food and is located in the city centre. It is family-friendly and does not serve alcohol."
+    },
+    {
+        "inputs": "Generate a sentence about this data: Blue Spice priceRange less than £20; Blue Spice customer rating average; Blue Spice area riverside; Blue Spice familyFriendly no",
+        "targets": "The Blue Spice scored an average rating. This place is located near the riverside. Their products are less than £20. They are not family-friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that comments are moderated, and will be removed if they are inappropriate.**\n\n**Do you have any questions about this problem?**\n\n**Please share your thoughts in the comments below.**"
+    },
+    {
+        "inputs": "Triple: Alimentum eatType restaurant; Alimentum food French; Alimentum priceRange more than £30; Alimentum area riverside; Alimentum near Yippee Noodle Bar\n\nWhat is a sentence that describes this triple?",
+        "targets": "Alimentum is French restaurant in the high price range. It is located in riverside near Yippee Noodle Bar.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a French restaurant located on the riverside, near Yippee Noodle Bar, and has prices over £30."
+    },
+    {
+        "inputs": "This is some data: The Phoenix priceRange high; The Phoenix customer rating 3 out of 5; The Phoenix area city centre.\n\nGenerate a detailed description of this data",
+        "targets": "The Phoenix is a three star wine and cheese shop located outside of the City centre with a high price point.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**High**: The Phoenix priceRange high\n\n**Rating**: The Phoenix customer rating 3 out of 5\n\n**City Centre**: The Phoenix area city centre"
+    },
+    {
+        "inputs": "Here is some data: The Waterman eatType restaurant; The Waterman food French; The Waterman customer rating 3 out of 5; The Waterman area riverside; The Waterman familyFriendly no.\n\nWrite a sentence that describes this data",
+        "targets": "The Waterman is a French restaurant located near the riverside, it has a price range of £20-£25 and a customer rating of 3 out of 5. This isn't a kid friendly restaurant.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Waterman is a French restaurant located in Riverside, California, with a customer rating of 3 out of 5 stars. It is family-friendly and does not serve alcohol."
+    },
+    {
+        "inputs": "Data: Alimentum eatType restaurant; Alimentum food Italian; Alimentum priceRange moderate; Alimentum area city centre; Alimentum familyFriendly yes\n\nWhat would a sentence about this data be like?",
+        "targets": "There is a kid-friendly restaurant by the name of Alimentum, serving Italian food, located in the city centre area with a moderate price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a moderately priced Italian restaurant located in the city centre that is family-friendly."
+    },
+    {
+        "inputs": "Triple: The Waterman eatType pub; The Waterman food Fast food; The Waterman customer rating 5 out of 5; The Waterman area riverside\n\nWhat is a sentence that describes this triple?",
+        "targets": "The Waterman is a fast food serving pub by the river which has received high reviews.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Waterman is a fast food restaurant located in Riverside, California, with a 5-star rating on Google."
+    },
+    {
+        "inputs": "Write a sentence that about [The Olive Grove food Fast food; The Olive Grove priceRange less than £20; The Olive Grove area city centre; The Olive Grove familyFriendly yes].",
+        "targets": "The Olive Grove is a family-friendly fast food place. It is a city center place with a price range of less than 20",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Olive Grove is a fast food restaurant located in the city centre of London, serving Mediterranean-inspired cuisine at prices below £20 per person. It is family-friendly and offers indoor and out"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data:  DISTRICT 1; 1 INCUMBENT Diana DeGette;   United States House of Representatives elections in Colorado, 2008; 1 2008_STATUS Re-election; 1 REPUBLICAN George Lilly",
+        "targets": "Incumbent Diana DeGette was pitted against the Republican George Lily in the 2008 Colorado representatives re-election.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate an approximately fifteen-word sentence that describes all this data:  DISTRICT 1; 1 INCUMBENT Diana DeGette;   United States House of Representatives elections in Colorado, 2008; 1 2008_STATUS Re-election; 1 REPUBLICAN George Lilly\n\n### Response:"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Blue Spice eatType restaurant; Blue Spice priceRange £20-25; Blue Spice customer rating 3 out of 5; Blue Spice area city centre; Blue Spice near Avalon",
+        "targets": "A family restaurant, The Blue Spice, is located near Avalon in the city centre and provides a coffee shop with a price range of £20 - 25 and an average customer rating",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Blue Spice eatType restaurant; Blue Spice priceRange £20-25; Blue Spice customer rating 3 out of 5; Blue Spice area city centre; Blue Spice near Avalon**"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Elizabeth II is a leader in the United Kingdom where the English language is spoken. The country is where the AIDS (journal) is published by Lippincott Williams &amp; Wilkins who are owned by parent company Wolters Kluwer.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "United Kingdom LANGUAGE English language\nAIDS (journal) COUNTRY United Kingdom\nAIDS (journal) PUBLISHER Lippincott Williams &amp; Wilkins\nLippincott Williams &amp; Wilkins PARENT_COMPANY Wolters Kluwer\nUnited Kingdom LEADER_NAME Elizabeth II",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe concepts described in the sentence are:\n\n* The United Kingdom\n* The English language\n* The country where the AIDS journal is published\n* The publisher of the AIDS journal\n\nThe response should be:"
+    },
+    {
+        "inputs": "Here is some data: The Phoenix food Chinese; The Phoenix customer rating 5 out of 5; The Phoenix area riverside.\n\nWrite a sentence that describes this data",
+        "targets": "In riverside is The Phoenix. Serving Chinese with a 5 out of 5 customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Phoenix food Chinese, the Phoenix customer rating 5 out of 5, the Phoenix area riverside."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: The Waterman food Fast food; The Waterman customer rating 1 out of 5; The Waterman area riverside; The Waterman familyFriendly yes",
+        "targets": "At the riverside is The Waterman that serves fast food. It is kids friendly and has a customer rating of 1 out of 5.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Waterman is a family-friendly restaurant located in Riverside, California, serving fresh, healthy food with a focus on sustainability and community. Customers give it a 1 out of 5 rating due to poor service"
+    },
+    {
+        "inputs": "Data: Afonso Pena International Airport CITY_SERVED Curitiba; Curitiba IS_PART_OF Paraná (state); Afonso Pena International Airport OPERATING_ORGANISATION Infraero; Afonso Pena International Airport LOCATION São José dos Pinhais; São José dos Pinhais IS_PART_OF South Region, Brazil\n\nWhat would a sentence about this data be like?",
+        "targets": "Afonso Pena International Airport in São José dos Pinhais serves Curitiba, which is part of Parana state. São José dos Pinhais is part of the South Region, Brazil.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nData: Afonso Pena International Airport CITY_SERVED Curitiba; Curitiba IS_PART_OF Paraná (state); Afonso Pena International Airport OPERATING_ORGANISATION Inf"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: American Journal of Mathematics FREQUENCY \"Bimonthly\"",
+        "targets": "The American Journal of Mathematics is published bi-monthly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The American Journal of Mathematics is a bimonthly publication that focuses on the frequency of mathematical concepts."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Browns Cambridge eatType restaurant; Browns Cambridge food French",
+        "targets": "Browns Cambridge its a restaurant of French food",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Browns Cambridge is a French restaurant located in Cambridge, Massachusetts. It is known for its elegant atmosphere, fine dining, and exceptional service. The menu features classic French cuisine with a modern twist, showcasing seasonal"
+    },
+    {
+        "inputs": "Write a sentence that about [Asser Levy Public Baths LOCATION \"Asser Levy Place and East 23rd Street\"; Asser Levy Public Baths YEAR_OF_CONSTRUCTION 1904; Asser Levy Public Baths ADDED_TO_THE_NATIONAL_REGISTER_OF_HISTORIC_PLACES \"1980-04-23\"].",
+        "targets": "The Asser Levy Public Baths built in 1904 are located in Asser Levy Place , East 23rd Street. They were added to the National Register of Historic Places on \"1980-04-23\".",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAsser Levy Public Baths are located at Asser Levy Place and East 23rd Street in Manhattan, New York City. They were built in 1904 and added to the National Register of Historic Places in"
+    },
+    {
+        "inputs": "Data: Pacifier SONG Pacifier;  ALBUM Pacifier; Pacifier US_HOT_100 None;   Nothingface\n\nWhat would a sentence about this data be like?",
+        "targets": "The song Pacifier from the album Pacifier by Nothingface did not make the US Hot 100.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nData: Pacifier SONG Pacifier; ALBUM Pacifier; Pacifier US_HOT_100 None; Nothingface\n\nThis data is about the song Pacifier, which is on the album Pacifier. It"
+    },
+    {
+        "inputs": "This is some data: The Vaults eatType restaurant; The Vaults food Japanese; The Vaults priceRange moderate; The Vaults familyFriendly yes.\n\nGenerate a detailed description of this data",
+        "targets": "There is a kids friendly restaurant named The Vaults serving Japanese food in a moderate price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Vaults is a Japanese restaurant located in the city of Los Angeles, California. It offers moderately priced food and is family-friendly."
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"SWAT 4: The Stetchkov Syndicate was released in 2006.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "SWAT 4: The Stetchkov Syndicate YEAR 2006",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "SWAT 4: The Stetchkov Syndicate was released in 2006.\n\n* SWAT 4: The Stetchkov Syndicate was released in 2006.\n* 20"
+    },
+    {
+        "inputs": "This is some data: The Rice Boat food Indian; The Rice Boat priceRange high; The Rice Boat customer rating average; The Rice Boat area riverside; The Rice Boat familyFriendly yes; The Rice Boat near Express by Holiday Inn.\n\nGenerate a detailed description of this data",
+        "targets": "In the riverside area near Express by Holiday Inn is The Rice Boat it is a family friendly Indian its a little expensive but the ratings are average.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n\n\nThis is some data: The Rice Boat food Indian; The Rice Boat priceRange high; The Rice Boat customer rating average; The Rice Boat area riverside; The Rice Boat familyFri"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: 13715 MONTO 4155; 1966 TOTAL_REGION 13715",
+        "targets": "There are 4155 people in Monton in 1966",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\n**Please remember that these responses are just examples, not complete answers.**\n\n**Please remember that these responses are just examples, not complete answers.**\n\n**Please remember that these responses are just examples, not complete answers.**"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: A.F.C. Blackpool MANAGER Stuart Parker (footballer); Stuart Parker (footballer) CLUB Irlam Town F.C.; Stuart Parker (footballer) CLUB Runcorn F.C. Halton",
+        "targets": "The manager of A.F.C. Blackpool is Stuart Parker who plays for Runcorn F.C. Halton and is attached to Irlam Town Football Club.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate an approximately fifteen-word sentence that describes all this data: A.F.C. Blackpool MANAGER Stuart Parker (footballer); Stuart Parker (footballer) CLUB Irlam Town F.C.; Stuart Parker (footballer) CLUB Runcorn F.C. Halton\n\n### Response:"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Olive Grove is a pub not child-friendly. It is located in the city center. The prices are more than £ 30.",
+        "targets": "The Olive Grove eatType pub\nThe Olive Grove priceRange more than £30\nThe Olive Grove area city centre\nThe Olive Grove familyFriendly no",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Olive Grove is a pub that is not child-friendly. It is located in the city center. The prices are more than £ 30."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: The Golden Palace eatType coffee shop; The Golden Palace customer rating 1 out of 5; The Golden Palace area city centre",
+        "targets": "The Golden Palace in the city center., is a coffee shop with fair prices.  1 out of 5 for the ratings.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Golden Palace, a small eatery located in the city centre, has received a customer rating of 1 out of 5 on Google, with complaints about poor service and overpriced food."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Ukrainian JUDAISM 0.03%; Ukrainian N/A 0.94%; Ukrainian OTHER 0.02%; Ukrainian BUDDHISM 0.01%",
+        "targets": "Ukrainian has 0.03% of judaism, 0,01% of budhism, 0,02% of others and 0,94% of n/a",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nUkrainian JUDAISM 0.03%; Ukrainian N/A 0.94%; Ukrainian OTHER 0.02%; Ukrainian BUDDHISM 0.0"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"Angola International airport is located in Icolo e Bengo and is 159 metres above the sea level. Its runway is 3800 feet in length.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Angola International Airport LOCATION Ícolo e Bengo\nAngola International Airport ELEVATION 159\nAngola International Airport RUNWAY_LENGTH 3800.0",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe concepts described in the sentence are:\n\n* Angola International airport\n* Icolo e Bengo\n* 159 metres above the sea level\n* 3800 feet in length\n\nThe response should"
+    },
+    {
+        "inputs": "Triple: Addis Ababa City Hall COUNTRY Ethiopia\n\nWhat is a sentence that describes this triple?",
+        "targets": "The Addis Ababa City Hall is in the country of Ethiopia.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nTriple: Addis Ababa City Hall COUNTRY Ethiopia\n\nWhat is a sentence that describes this triple?\n\n* Addis Ababa City Hall is located in the country of Ethiopia."
+    },
+    {
+        "inputs": "This is some data: Indonesia LEADER_NAME Jusuf Kalla; Asam pedas COUNTRY Indonesia; Sumatra ETHNIC_GROUP Acehnese people; Asam pedas REGION Sumatra; Sumatra ETHNIC_GROUP Malays (ethnic group).\n\nGenerate a detailed description of this data",
+        "targets": "Asam pedas is a dish that is popular in Indonesia and Sumatra. Jusuf Kalla is the leader of Indonesia. Malays and Acehnese people are ethnic groups of Sumatra.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: Indonesia LEADER_NAME Jusuf Kalla; Asam pedas COUNTRY Indonesia; Sumatra ETHNIC_GROUP Acehnese people; Asam pedas REG"
+    },
+    {
+        "inputs": "Here is some data: Alimentum food English; Alimentum priceRange cheap; Alimentum area riverside; Alimentum familyFriendly yes.\n\nWrite a sentence that describes this data",
+        "targets": "Alimentum is a family-friendly venue located by the river, serving cheap English food.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a food that is English, and it is cheap. It is also family-friendly."
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Fitzbillies eatType coffee shop; Fitzbillies food Italian; Fitzbillies priceRange cheap; Fitzbillies customer rating average; Fitzbillies area city centre; Fitzbillies familyFriendly no",
+        "targets": "Fitzbillies is a coffee shop which serve Italian food it is located in the city centre. It is not family-friendly even with an average customer rating plus a cheap price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nFitzbillies is a popular Italian restaurant located in the heart of Cambridge, serving delicious food at affordable prices. Customers have rated it highly, with an average of 4.5 stars on Google, and it'"
+    },
+    {
+        "inputs": "Triple: Jay Hood POSITION Infielder; Jay Hood HOMETOWN Germantown, TN\n\nWhat is a sentence that describes this triple?",
+        "targets": "The position of the player from Germantown, TN, is infielder.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nJay Hood is a position infielder from Germantown, Tennessee."
+    },
+    {
+        "inputs": "This is some data: The Plough eatType pub; The Plough food English; The Plough priceRange cheap; The Plough familyFriendly yes; The Plough near Café Rouge.\n\nGenerate a detailed description of this data",
+        "targets": "Near Café Rouge there is a cheap family friendly pub that has English food named The Plough.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThis is some data: The Plough eatType pub; The Plough food English; The Plough priceRange cheap; The Plough familyFriendly yes; The Plough near Café Rouge."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: 11th Mississippi Infantry Monument LOCATION Adams County, Pennsylvania",
+        "targets": "The location of the 11th Mississippi Infantry Monument is Adams County, Pennsylvania.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The 11th Mississippi Infantry Monument is located in Adams County, Pennsylvania."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe 27th July, 1932 was the inauguration date of the Ataturk Monument in Izmir, Turkey; which was designed by Pietro Canonica. Ahmet Davutoglu is Turkeys leader and their national currency is the lira.",
+        "targets": "Atatürk Monument (İzmir) DESIGNER Pietro Canonica\nTurkey LEADER_NAME Ahmet Davutoğlu\nTurkey CURRENCY Turkish lira\nAtatürk Monument (İzmir) INAUGURATION_DATE \"1932-07-27\"\nAtatürk Monument (İzmir) LOCATION Turkey",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe 27th July, 1932 was the inauguration date of the Ataturk Monument in Izmir, Turkey; which was designed by Pietro Canonica. Ahmet Davutoglu is Turkeys leader and their"
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Cambridge Blue eatType pub; The Cambridge Blue food Indian; The Cambridge Blue priceRange high; The Cambridge Blue near Café Brazil",
+        "targets": "Near Café Brazil there is a pub Called The Cambridge Blue. Its provides Indian food but it has a high price range.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**Highlights:**\n\n* **The Cambridge Blue** is a **pub** that serves **Indian** food.\n* It is **near** **Café Brazil**, which is a **café**."
+    },
+    {
+        "inputs": "Data: Alimentum eatType restaurant; Alimentum food Italian; Alimentum area riverside; Alimentum familyFriendly yes\n\nWhat would a sentence about this data be like?",
+        "targets": "Alimentum is a family friendly restaurant in the riverside area that sells Italian food. The price range for this restaurant is average.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a restaurant that serves Italian food in the riverside area and is family-friendly."
+    },
+    {
+        "inputs": "Here is some data: Green Man food Chinese; Green Man priceRange high; Green Man area riverside; Green Man familyFriendly no; Green Man near All Bar One.\n\nWrite a sentence that describes this data",
+        "targets": "The Green Man is located on the riverside near All Bar One. It serves Chinese food in the high price range and is not child friendly.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Green Man is a Chinese restaurant located in the riverside area, which is family-friendly and near All Bar One. It has a high price range and is not suitable for children."
+    },
+    {
+        "inputs": "Generate an approximately fifteen-word sentence that describes all this data: The Golden Curry eatType restaurant; The Golden Curry food Italian; The Golden Curry customer rating low; The Golden Curry area city centre; The Golden Curry familyFriendly no; The Golden Curry near Café Rouge",
+        "targets": "The Golden Curry is a restaurant near Café Rouge in the city centre. It serves Italian food and is not family-friendly. It has a low customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "**The Golden Curry is a family-friendly Indian restaurant located in the city centre, serving authentic Italian cuisine with a low customer rating.**"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The Acharya Institute of Technology is affiliated with Visvesvaraya Technologial University.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Acharya Institute of Technology AFFILIATION Visvesvaraya Technological University",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Acharya Institute of Technology is affiliated with Visvesvaraya Technologial University.\n\n* The Acharya Institute of Technology is a university.\n* The Acharya Institute of Technology is affiliated with Visvesvar"
+    },
+    {
+        "inputs": "Write a sentence that about [Abilene Regional Airport CITY_SERVED Abilene, Texas; Abilene Regional Airport RUNWAY_LENGTH 2194.0; Abilene Regional Airport ELEVATION 546; Abilene Regional Airport RUNWAY_NAME \"17R/35L\"].",
+        "targets": "Abilene Regional Airport which serves the city of Abilene in Texas is 546 metres above sea level. Its runway is 2194.0 long and is named 17R/35L.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAbilene Regional Airport is located in CITY_SERVED, which is 2194.0 meters above sea level. It has two runways: Runway 17R/35L, which is"
+    },
+    {
+        "inputs": "Produce a long descriptive sentence that uses all these words: Bond BUSH% 55.2%; 55.2% BUSH# 4068",
+        "targets": "Bond County had 4068 votes cast for Bush.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Bond BUSH% 55.2%; 55.2% BUSH# 4068 is a bond with a 55.2% yield and a 4068-day duration."
+    },
+    {
+        "inputs": "Data: Alan Bean OCCUPATION Test pilot; Alan Bean BIRTH_PLACE Wheeler, Texas\n\nWhat would a sentence about this data be like?",
+        "targets": "Alan Bean was born in Wheeler, Texas and pursued a career as a test pilot.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nAlan Bean was a test pilot and was born in Wheeler, Texas."
+    },
+    {
+        "inputs": "Write a sentence that about [The Rice Boat food Japanese; The Rice Boat priceRange more than £30; The Rice Boat customer rating low; The Rice Boat area riverside; The Rice Boat familyFriendly yes; The Rice Boat near Express by Holiday Inn].",
+        "targets": "The Rice Boat is located in the riverside area near Express by Holiday Inn; It serves high priced Japanese food; It is family friendly and has a low customer rating.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Rice Boat is a Japanese restaurant located on the riverside in London. It has a family-friendly atmosphere and serves dishes such as sushi, tempura, and ramen. The price range is more than £3"
+    },
+    {
+        "inputs": "Here is some data: A Glastonbury Romance OCLC_NUMBER 76798317; A Glastonbury Romance ISBN_NUMBER \"0-7156-3648-0\".\n\nWrite a sentence that describes this data",
+        "targets": "The OCLC number for A Glastonbury Romance is 76798317 and the ISNN is 0-7156-3648-0.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nHere is some data: A Glastonbury Romance OCLC_NUMBER 76798317; A Glastonbury Romance ISBN_NUMBER \"0-7156-3648-0\".\n\nWrite a sentence that describes this data\n\n### Response:"
+    },
+    {
+        "inputs": "Write a sentence that about [Capella CURRENT_DISTANCE 42.2].",
+        "targets": "The current distance of star Capella is 42.2",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Capella CURRENT_DISTANCE 42.2 is 42.2 light-years away.\n\n### Explanation:\n\nThe instruction asks you to write a sentence about Capella's current"
+    },
+    {
+        "inputs": "What concepts are described in the following sentence?\n\n\"The ground of A.S. Gubbio 1910 is located in Italy. whose leader is Pietro Grasso and capital is Rome.\"\n\nReturn the answer as pairs of triples.",
+        "targets": "Italy LEADER Pietro Grasso\nItaly CAPITAL Rome\nA.S. Gubbio 1910 GROUND Italy",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The concepts described in the sentence are:\n\n* The ground of A.S. Gubbio 1910 is located in Italy.\n* The leader of A.S. Gubbio 1910 is Pietro"
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nSpaniards and Arros negre come from Spain.",
+        "targets": "Arròs negre COUNTRY Spain\nSpain DEMONYM Spaniards",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nSpaniards and Arros negre come from Spain.\n\n\n\nSpaniards and Arros negre are from Spain.\n\n\n\nSpaniards and Arros negre are Spanish.\n\n\n\nSpani"
+    },
+    {
+        "inputs": "Data: The Eagle eatType coffee shop; The Eagle food French; The Eagle priceRange £20-25; The Eagle area riverside; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
+        "targets": "The Eagle is a cute coffee shop serving French food. The prices are average and the coffee shop setting is child friend. You will find The Eagle in the riverside area near Burger King.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "The Eagle is a coffee shop that serves French food. It is located near Burger King and has a price range of £20-25."
+    },
+    {
+        "inputs": "Triple: Spain LANGUAGE Spanish language; Arròs negre COUNTRY Spain; Spain DEMONYM Spaniards; Spain LEADER_NAME Felipe VI of Spain\n\nWhat is a sentence that describes this triple?",
+        "targets": "Arròs negre is from Spain, where Spanish is spoken. The leader of the Spaniards is Felipe VI.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nSpain is a country in Europe. It is the second largest country in the European Union. It is bordered by France and Andorra to the north, and by Portugal and the Atlantic Ocean to the west. Spain has a population of"
+    },
+    {
+        "inputs": "Here is some data: germany PRESENTER(S) johanna klum.\n\nWrite a sentence that describes this data",
+        "targets": "In Germany, Johanna Klum was the preenter.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nJohanna Klum is a German presenter."
+    },
+    {
+        "inputs": "Generate a sentence about this data: Alimentum eatType restaurant; Alimentum food Italian; Alimentum priceRange cheap; Alimentum near Yippee Noodle Bar",
+        "targets": "There is a cheap average Italian restaurant Alimentum  near Yippee Noodle Bar in the river side.",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "Alimentum is a restaurant that serves Italian food. It is located near Yippee Noodle Bar."
+    },
+    {
+        "inputs": "Create a set of triples that describes the content in the following sentence.\n\nThe Plough is a family friendly pub located near Café Rouge. They serve cheap Chinese food.",
+        "targets": "The Plough eatType pub\nThe Plough food Chinese\nThe Plough priceRange cheap\nThe Plough familyFriendly yes\nThe Plough near Café Rouge",
+        "metric": "rouge",
+        "domain": "struct to text",
+        "model_name": "dart",
+        "model": "egupta/llama2-7b-finetuned-finance",
+        "predicted_answer": "\nThe Plough is a family friendly pub located near Café Rouge.\n\nThey serve cheap Chinese food."
+    }
+]
