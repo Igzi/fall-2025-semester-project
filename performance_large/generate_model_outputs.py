@@ -164,6 +164,6 @@ with torch.no_grad():
                 pbar.update(len(input_text))
         
         # Save the results to a JSON file
-        os.makedirs(os.path.dirname(f"{res_path}"), exist_ok=True)
-        with open(f"{res_path}_test.json", 'w', encoding='utf-8') as f:
+        os.makedirs(os.path.dirname(f"{res_path}{model_id}"), exist_ok=True)
+        with open(f"{res_path}{model_id}.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
