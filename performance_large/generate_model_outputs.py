@@ -36,16 +36,6 @@ def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     base_model.bfloat16()
     return base_model, tokenizer
 
-def init_vector_db(config_path):
-    """
-    Initialize the vector database with configurations from the specified JSON file.
-    """
-    model_names = []
-    with open(config_path, 'r') as file:
-        lora_configs = json.load(file)
-
-    initialize_index(lora_configs)
-
 def load_peft_model(lora_module_list, base_model):
     """
     Load and configure PEFT (Parameter-Efficient Fine-Tuning) adapters onto the base model.
@@ -72,8 +62,6 @@ res_path = './performance_large/outputs_13b/model_'
 results = []  # Initialize a list to store question and response data
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-# Initialize vector database for retrieval
-init_vector_db('./config/config_large.json')
 
 def generate_and_tokenize_prompt(data_point):
     """
