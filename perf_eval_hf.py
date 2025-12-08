@@ -15,13 +15,14 @@ import torch.nn.functional as F
 
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
-device = "cuda:0" if torch.cuda.is_available() else "cpu"
+
+device = "cuda:2" if torch.cuda.is_available() else "cpu"
 
 # Load previously computed model performance matrix (if present). This file is
 # produced by `performance_based_selection/generate_results.py` and saved as
 # `model_performance.npy`. We load it once at import-time so downstream code can
 # consult model performance scores when needed.
-def load_results_matrix(path: str = "./performance_large/model_performance_13b.npy"):
+def load_results_matrix(path: str = "./performance_large/model_hf_performance.npy"):
     if not os.path.exists(path):
         # Not an error: just return None so callers can fall back to defaults
         print(f"[info] results matrix not found at: {path}")
@@ -38,6 +39,57 @@ def load_results_matrix(path: str = "./performance_large/model_performance_13b.n
 
 # Expose loaded matrix as a module-level variable; callers can check for None.
 results_matrix = load_results_matrix()
+old_results_matrix = load_results_matrix("./performance_large/model_performance_7b.npy")
+
+import json
+original_model_names = []
+tasks = []
+config_path = './config/config2.json'
+with open(config_path, 'r') as file:
+    lora_configs = json.load(file)
+    for model in lora_configs:
+        original_model_names.append(f"Styxxxx/llama2_7b_lora-{model['model_name']}")
+        tasks.append(model['model_name'])
+
+with open('./scripts/llama2_7b_adapters.json', 'r') as file:
+    lora_adapters = json.load(file)
+
+all_model_names = []
+model_ranks = []
+original_adapter_ids = []
+original_adapter_names = []
+for i, model in enumerate(lora_adapters):
+    all_model_names.append(model['model_id'])
+    model_ranks.append(model['rank'])
+    if model['model_id'] in original_model_names:
+        original_adapter_ids.append(i)
+        original_adapter_names.append(model['model_id'])
+
+with open(config_path, 'r') as file:
+        lora_configs = json.load(file)
+
+models = lora_configs
+original_model_names = []
+
+# Compute average embeddings for each model
+for model in models:
+    model_name = f"Styxxxx/llama2_7b_lora-{model['model_name']}"
+
+    original_model_names.append(model_name)
+
+# Extract IDs that appear in top 5 highest values in at least one row
+all_ids = list(range(results_matrix.shape[1]))
+selected_ids = []
+for col_id in all_ids:
+    if col_id in original_adapter_ids:
+        selected_ids.append(col_id)
+        continue
+    for row in results_matrix:
+        # Get indices of top 5 values in this row
+        top5_indices = np.argsort(-row)[:2]
+        if col_id in top5_indices:
+            selected_ids.append(col_id)
+            break
 
 def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
     """
@@ -80,7 +132,7 @@ def load_peft_model(lora_module_list, base_model):
     peft_model.eval()
     return peft_model
 
-class BilinearFusionScorer(nn.Module):
+class AdapterRouter(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
@@ -95,14 +147,19 @@ class BilinearFusionScorer(nn.Module):
         self.A = A_new.clone().to(self.A.device)
 
     def get_selected_adapter(self, old_idx: int, exclude_idx: int = None):
-        old_row = results_matrix[old_idx]
-        mask_array = np.ones(results_matrix.shape[1], dtype=bool)
+        row = results_matrix[old_idx]
+        row_old = old_results_matrix[old_idx]
         if exclude_idx is not None:
-            mask_array[exclude_idx] = False
+            exclude_idx_new = all_model_names.index(original_model_names[exclude_idx])
+            row[exclude_idx_new] = 0.0
+            row_old[exclude_idx] = 0.0
         
-        row = old_row*mask_array
-        maxpos = np.flatnonzero(row==row.max())
-        sel = old_idx if old_idx in maxpos else int(maxpos[0])
+        sel = int(np.nanargmax(row).item())
+        if row[sel]-row_old.max() < 5:
+            sel = int(np.nanargmax(row_old).item())
+            sel = original_adapter_names.index(original_model_names[sel])
+            sel = original_adapter_ids[sel]
+        sel = selected_ids.index(sel)
         return sel
 
 
@@ -118,7 +175,7 @@ class BilinearFusionScorer(nn.Module):
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
         if exclude_idx is not None:
-            logits[:,exclude_idx] = -1.0
+            logits[0,exclude_idx] = -1.0
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -140,7 +197,7 @@ class BilinearFusionScorer(nn.Module):
                 sel = self.get_selected_adapter(old, exclude_idx=exclude_idx)
                 new_model_ids[b, k] = sel
 
-        probs = logits.new_zeros(logits.size())
+        probs = torch.zeros((logits.size(0), len(selected_ids)), dtype=torch.bfloat16).to(device)
         for b in range(model_ids.size(0)):
             for k in range(model_ids.size(1)):
                 probs[b, new_model_ids[b, k]] += probs_old[b, model_ids[b, k]]
@@ -155,8 +212,7 @@ def eval_datasets(
     batch_size=1, 
     ood=False, 
     best_selection=False, 
-    model_size='7b',
-    eval_type='fusion',
+    model_size='7b'
 ):
     """
     Evaluate the model on given datasets.
@@ -174,7 +230,6 @@ def eval_datasets(
     """
     correct_count = 0
     results = []  # Initialize a list to store question and response data
-    model_size='13b'
 
     cfg_path = "./performance_based_selection/models/base_model.config.json"
     ckpt_path = "performance_based_selection/models/base_model.pt"
@@ -182,7 +237,7 @@ def eval_datasets(
     with open(cfg_path) as f:
         cfg = json.load(f)
 
-    scorer = BilinearFusionScorer(
+    scorer = AdapterRouter(
         A_init=torch.zeros(cfg["K"], 768, dtype=torch.bfloat16),  # placeholder, will be loaded
         top_k=lora_num,
         temperature=cfg["temperature"],
@@ -221,24 +276,53 @@ def eval_datasets(
     base_model, tokenizer = load_base_model(model_path)
     base_model.eval()
 
-    with open(config_path, 'r') as file:
-        lora_configs = json.load(file)
-
-    models = lora_configs
-    model_names = []
+    selected_model_names = []
 
     # Compute average embeddings for each model
-    for model in models:
-        model_name = f"Styxxxx/llama2_{model_size}_lora-{model['model_name']}"
+    for id in selected_ids:
+        selected_model_names.append(all_model_names[id])
 
-        model_names.append(model_name)
+    # input_text = eval_data["inputs"][1450:1451]
+    # task_names = eval_data["task"][1450:1451]
 
-    
-    peft_model = load_peft_model(model_names, base_model)
+    # # if eval_data["domain"][i] != "struct to text":
+    # #     continue
+
+    # # If out-of-domain filtering is required, specify exclusion list
+    # exclude_list = None
+    # if ood:
+    #     if model_size == '7b':
+    #         exclude_list = [f"Styxxxx/llama2_7b_lora-{task}" for task in task_names]
+    #     else:
+    #         exclude_list = [f"Styxxxx/llama2_13b_lora-{task}" for task in task_names]
+
+    # # Perform retrieval to get top-k LoRA modules
+    # I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
+    # I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
+
+    # # If best_selection is True, re-map module_list and mapping_matrix for a more constrained set
+    # if best_selection:
+    #     if model_size == '7b':
+    #         exclude_list = [f"Styxxxx/llama2_7b_lora-{task}" for task in task_names]
+    #     else:
+    #         exclude_list = [f"Styxxxx/llama2_13b_lora-{task}" for task in task_names]
+
+    #     unique_items = list(set(exclude_list))
+    #     module_list = unique_items
+
+    # if ood:
+    #     mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=original_model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
+    # else:
+    #     mapping_matrix_tensor, _ = scorer(I_batch)
+    # print(mapping_matrix_tensor)
+    # print(mapping_matrix_tensor[0].argmax())
+    # print(selected_model_names[mapping_matrix_tensor[0].argmax()])
+    # x=10/0
+
+    print(f"len(selected_model_names): {len(selected_model_names)}")
+    peft_model = load_peft_model(selected_model_names, base_model)
     peft_model = peft_model.to(device)
     peft_model.eval()
-
-    weight_mask = torch.where(torch.rand(48,generator=torch.Generator().manual_seed(1)) < 0.5, 0.2, 1.0).to(device).bfloat16()
 
     with torch.no_grad():
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
@@ -272,13 +356,13 @@ def eval_datasets(
                     module_list = unique_items
 
                 if ood:
-                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_{model_size}_lora-{task_names[0]}"))
+                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=original_model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
                 else:
                     mapping_matrix_tensor, _ = scorer(I_batch)
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
                 if ood:
-                    mapping_matrix_tensor[0, model_names.index(f"Styxxxx/llama2_{model_size}_lora-{task_names[0]}")] = 0.0
+                    mapping_matrix_tensor[0, selected_model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}")] = 0.0
                     mapping_matrix_tensor = mapping_matrix_tensor / mapping_matrix_tensor.sum(-1, keepdim=True)
 
                 # Tokenize the input text
@@ -293,7 +377,7 @@ def eval_datasets(
                     input_ids=inputs["input_ids"],
                     max_new_tokens=50,
                     temperature=0.001,
-                    merging_type=eval_type,
+                    merging_type='mixture',
                     lora_mapping=mapping_matrix_tensor
                 )
 
@@ -312,6 +396,7 @@ def eval_datasets(
                     }
                     results.append(sample)
 
+                #peft_model.unload()
                 pbar.update(len(input_text))
 
     # Save the results to a JSON file

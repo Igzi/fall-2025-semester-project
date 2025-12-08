@@ -91,13 +91,13 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + ['best.json', 'perf_oracle.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = 'test_results'  # Replace with your actual folder path
+folder_path = 'final_results'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 print(latex_table)
