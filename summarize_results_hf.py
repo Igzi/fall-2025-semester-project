@@ -21,14 +21,19 @@ def calculate_rouge(references, candidates):
     return rouge_1, rouge_2, rouge_l
 
 # Function to calculate Exact Match score
-def calculate_em(options, references, candidates):
+def calculate_em(options, inputs, references, candidates):
     references = [ref.split("\n\n")[0] for ref in references]
-    em_scores = [1 if cal_correct(option, ref, cand) else 0 for option, ref, cand in zip(options, references, candidates)]
+    em_scores = [1 if cal_correct(option, input, ref, cand) else 0 for option, input, ref, cand in zip(options, inputs, references, candidates)]
     return np.round(np.mean(em_scores) * 100, 1) if em_scores else 0
 
-def cal_correct(options, expected_answer, generated_answer):
+def cal_correct(options, input, expected_answer, generated_answer):
     #options=None
     if options is None:
+        gen_ans_clean = generated_answer.strip().lower().replace(".", "")
+        input_clean = input.strip().lower().replace(".", "")
+        
+        if len(gen_ans_clean)>len(expected_answer.strip().lower().replace(".", "")) and gen_ans_clean in input_clean or input_clean in gen_ans_clean:
+            return False  # Generated answer is too similar to input
         return expected_answer.strip().lower().replace(".", "") in generated_answer.strip().lower().replace(".", "")
     else:
         option_list = [opt.strip().lower().replace(".", "") for opt in options]
@@ -75,6 +80,7 @@ def process_folder(folder_path):
             for domain, tasks_data in domains_data.items():
                 for task, entries in tasks_data.items():
                     metric = entries[0]['metric']
+                    inputs = [entry['inputs'] for entry in entries]
                     references = [entry['targets'] for entry in entries]
                     candidates = [entry['predicted_answer'] for entry in entries]
                     options = [get_options_from_input(entry['inputs']) for entry in entries]
@@ -90,7 +96,7 @@ def process_folder(folder_path):
                         domain_specific_metrics[domain]['rouge-l'][file_name].append(rouge_l)
                         domain_specific_metrics['avg']['avg'][file_name].append((rouge_1+rouge_2+rouge_l)/3)
                     elif metric == 'em':
-                        score = calculate_em(options, references, candidates)
+                        score = calculate_em(options, inputs, references, candidates)
                         domain_specific_metrics[domain][metric][file_name].append(score)
                         domain_specific_metrics['avg']['avg'][file_name].append(score)
 
@@ -112,7 +118,7 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['perf_hf_oracle_masked.json', 'perf_oracle_masked.json','hf_best.json', 'perf_13b_oracle.json', '13b_best.json', 'perf_13b_selection.json', '13b_selection.json', 'best.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
