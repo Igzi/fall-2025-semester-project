@@ -657,6 +657,8 @@ class Linear(nn.Module, LoraLayer):
                     stacked_lora_A.append(lora_A_weight)
                     stacked_lora_B.append(lora_B_weight)
 
+                    scaling = self.scaling[active_adapter]
+
                 stacked_lora_A = torch.stack(stacked_lora_A, dim=0)  # p x r x d
                 stacked_lora_B = torch.stack(stacked_lora_B, dim=0)  # p x d x r
                 lora_map = torch.stack(lora_map, dim=1)  # b x p
