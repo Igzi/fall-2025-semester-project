@@ -37,7 +37,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alfredo Zitarrosa"
+        "predicted_answer": "MusicGroup"
     },
     {
         "inputs": "Generate a sentence about this data: Chicago, isPartOf, DuPage County, Illinois",
@@ -93,7 +93,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alex Plante was born on May 9, 1989 in Brandon, Manitoba."
+        "predicted_answer": "Alex Plante was born in Brandon, Manitoba on May 9, 1989. He currently plays for Anyang Halla."
     },
     {
         "inputs": "Generate a sentence that describes the following data: Hypermarcas, product, Drugs; Hypermarcas, location, São Paulo",
@@ -101,7 +101,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Drugs are sold in São Paulo by Hypermarcas"
+        "predicted_answer": "Drugs are sold by Hypermarcas in São Paulo"
     },
     {
         "inputs": "Sentence: Elliot See was born on July 23, 1927 in Dallas. He graduated from U of Texas at Austin which is part of the U of Texas system. He worked as a test pilot before he died in St. Louis.\n\nWhat structured data could we extract from this sentence?",
@@ -125,7 +125,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Alcatraz Versus the Evil Librarians (book)"
+        "predicted_answer": "Alcatraz Versus the Evil Librarians (Book)"
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: Aaron Turner, genre, Black metal; Aaron Turner, associatedBand/associatedMusicalArtist, Sumac (band); Black metal, musicFusionGenre, Death metal",
@@ -149,7 +149,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Association Football Club Fylde is based in Warton, Fylde. It has 3180 members."
+        "predicted_answer": "Association Football Club Fylde is based at Warton, Fylde. It has 3180 members."
     },
     {
         "inputs": "Generate a sentence about this data: AIDAluna, activeYearsStartDate, 2009-03-22",
@@ -181,7 +181,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Deșteaptă-te, române!"
+        "predicted_answer": "The Germans of Romania"
     },
     {
         "inputs": "Sentence: Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.\n\nWhat data can be extracted from this sentence?",
@@ -229,7 +229,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Accademia di Architettura di Mendrisio, country, Switzerland; Accademia di Architettura di Mendrisio, numberOfStudents, 600; Accademia di Architett"
+        "predicted_answer": "Accademia di Architettura di Mendrisio, location, Ticino."
     },
     {
         "inputs": "Andrews County Airport, location, Texas; Texas, language, Spanish language; Texas, largestCity, Houston; Texas, capital, Austin, Texas; Texas, country, United States\n\nWhat is sentence that verbalizes this data?",
@@ -405,7 +405,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a cheap coffee shop with a 5 out of 5 customer rating. It is family friendly."
+        "predicted_answer": "Cocum is a cheap coffee shop with a customer rating of 5 out of 5. It is family friendly."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"Alan Shepard died in California.\"\n\nReturn the answer as pairs of triples.",
@@ -437,7 +437,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cornell University is the publisher of the Administrative Science Quarterly. Cornell University is also known as the Cornell Big Red. Cornell University is affiliated with the Association of Public and Land-grant Universities. Corn"
+        "predicted_answer": "Cornell University, located in Ithaca, New York, is a public research university affiliated with the Association of Public and Land-grant Universities. The Cornell Big Red is the nickname of Cornell University. Cornell"
     },
     {
         "inputs": "Triple: The Punter eatType coffee shop; The Punter food Chinese; The Punter priceRange high; The Punter customer rating average; The Punter familyFriendly yes; The Punter near Café Sicilia\n\nWhat is a sentence that describes this triple?",
@@ -469,7 +469,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a coffee shop that serves English food. It is located in the city centre. It has a high customer rating. It costs between 20 and 25 pounds. It is family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop that serves English food. It is located in the city centre. It has a high customer rating and is family friendly. Fitzbillies has a price range of £20-25."
     },
     {
         "inputs": "This is some data: American Journal of Mathematics ABBREVIATION \"Am. J. Math.\"; American Journal of Mathematics ACADEMIC_DISCIPLINE Mathematics; American Journal of Mathematics FREQUENCY \"Bimonthly\"; American Journal of Mathematics ISSN_NUMBER \"1080-6377\".\n\nGenerate a detailed description of this data",
@@ -677,7 +677,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a cheap, family-friendly coffee shop that serves English food. It has an average customer rating."
+        "predicted_answer": "Cocum is a cheap coffee shop that serves English food. It is family friendly and has an average customer rating."
     },
     {
         "inputs": "Data: The Eagle eatType coffee shop; The Eagle priceRange moderate; The Eagle customer rating 1 out of 5; The Eagle area riverside; The Eagle near Burger King\n\nWhat would a sentence about this data be like?",
@@ -685,7 +685,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Eagle is a coffee shop located in riverside near Burger King. It has a customer rating of 1 out of 5 and a price range of moderate."
+        "predicted_answer": "The Eagle is a coffee shop located in riverside near Burger King. The Eagle has a customer rating of 1 out of 5 and a price range of moderate."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"The Golden Palace is a moderate priced coffee shop located close to the river that provides take away\"\n\nReturn the answer as pairs of triples.",
@@ -861,7 +861,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is moderately priced and family friendly. It has a customer rating of 1 out of 5."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is moderately priced and is family friendly. It has a customer rating of 1 out of 5."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Punter, eatType = restaurant, customer rating = 3 out of 5, area = riverside, familyFriendly = yes",
@@ -885,7 +885,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies eatType coffee shop food English priceRange high customer rating 1 out of 5 area city centre familyFriendly yes"
+        "predicted_answer": "Fitzbillies coffee shop English high city centre yes 1 out of 5"
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Cambridge Blue, eatType = coffee shop, customer rating = average, area = riverside, familyFriendly = yes, near = Burger King",
@@ -893,7 +893,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Cambridge Blue is a coffee shop that is family friendly and has an average customer rating. It is located near Burger King in the riverside area."
+        "predicted_answer": "The Cambridge Blue is a family friendly coffee shop located near Burger King in the riverside area. It has an average customer rating."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Cotto, eatType = coffee shop, priceRange = cheap, customer rating = average, area = riverside, near = The Portland Arms",
@@ -981,7 +981,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Wrestlers family-friendly 1 out of 5 near The Sorrento"
+        "predicted_answer": "The Wrestlers familyFriendly yes near The Sorrento customer rating 1 out of 5"
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Fitzbillies, eatType = coffee shop, food = Chinese, priceRange = less than £20, customer rating = low, area = city centre, familyFriendly = no",
@@ -1045,7 +1045,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Mill is a Chinese coffee shop in the city centre near The Sorrento. It is less than £20."
+        "predicted_answer": "The Mill is a Chinese coffee shop in the city centre near The Sorrento. It has a price range of less than £20."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Aromi, eatType = coffee shop, food = Chinese, customer rating = 5 out of 5, area = city centre, familyFriendly = yes",
@@ -1069,7 +1069,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Phoenix is a restaurant in the riverside area."
+        "predicted_answer": "The Phoenix is a restaurant in riverside."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Cotto, eatType = coffee shop, food = Chinese, customer rating = high, area = riverside, near = The Portland Arms",
@@ -1077,7 +1077,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a Chinese coffee shop in Riverside near The Portland Arms. It has a high customer rating."
+        "predicted_answer": "Cotto is a Chinese coffee shop in riverside near The Portland Arms. It has a high customer rating."
     },
     {
         "inputs": "Here are some keywords about a restaurant:\n\nname = Cocum, eatType = coffee shop, food = English, priceRange = moderate, customer rating = 3 out of 5, familyFriendly = yes. Write a sentence that describes the following attributes of a restaurant.",
@@ -1093,7 +1093,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a family friendly restaurant with an average customer rating. It is located in the riverside area near Café Brazil."
+        "predicted_answer": "The Eagle is a family friendly restaurant with an average customer rating. It is located in the Riverside area near Café Brazil."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = Browns Cambridge, eatType = coffee shop, food = English, customer rating = high, area = riverside, familyFriendly = yes, near = Crowne Plaza Hotel",
@@ -1109,7 +1109,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a cheap Chinese coffee shop near Café Sicilia. It has an average customer rating and is family friendly."
+        "predicted_answer": "The Punter is a cheap Chinese coffee shop near Café Sicilia with an average customer rating and is family friendly."
     },
     {
         "inputs": "Data: name = The Eagle, customer rating = high, area = riverside, familyFriendly = yes, near = Café Brazil. Can you generate a sentence about this data?",
@@ -1173,7 +1173,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Wrestlers is family-friendly and has a customer rating of 5 out of 5."
+        "predicted_answer": "The Wrestlers is a 5 out of 5 customer rated family friendly film."
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = The Mill, eatType = coffee shop, food = Chinese, priceRange = less than £20, area = riverside, near = The Sorrento",
@@ -1181,7 +1181,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Mill is a coffee shop that serves Chinese food for less than £20. It is located in the riverside area near The Sorrento."
+        "predicted_answer": "The Mill is a Chinese coffee shop in the riverside area near The Sorrento. It costs less than £20."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Browns Cambridge, eatType = coffee shop, food = Chinese, customer rating = 5 out of 5, area = city centre, familyFriendly = no, near = Crowne Plaza Hotel",
@@ -1261,7 +1261,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The boy held the ball and stood to watch the game."
+        "predicted_answer": "The boy held the ball and stood watching the game."
     },
     {
         "inputs": "Concepts: couple, ride, road, skateboard\n\nWrite a sentence that includes all these words.",
@@ -1293,7 +1293,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The fish was caught in the river."
+        "predicted_answer": "Fish can be caught in a river."
     },
     {
         "inputs": "Concepts: chair, flute, sit\n\nWrite a sentence that includes all these words.",
@@ -1309,7 +1309,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The top of the cliff is where you can jump."
+        "predicted_answer": "The top of the cliff is where you should jump."
     },
     {
         "inputs": "Generate a sentence that includes all the following words: chair, floor, sit",
@@ -1365,7 +1365,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The dog stood in the field holding a ball."
+        "predicted_answer": "The dog stood in the field holding the ball."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nA woman crosses the street while talking on her phone.",
@@ -1381,7 +1381,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "When it's someone's birthday, we sing and blow out the candles on the cake."
+        "predicted_answer": "On your birthday, you can blow out the candles on your cake and sing."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: headphone, watch, wear",
@@ -1389,7 +1389,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "You can wear a watch and headphones."
+        "predicted_answer": "You can wear a watch and headphones at the same time."
     },
     {
         "inputs": "Write a sentence about the following things:\n\nbutton, coin, insert, machine, press",
@@ -1413,7 +1413,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The map is used to show the location of the marker."
+        "predicted_answer": "The map is used to mark the location of the country."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: field, player, talk",
@@ -1533,7 +1533,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "You should wear a seat belt when riding in a vehicle."
+        "predicted_answer": "You should wear a seatbelt when riding in a vehicle."
     },
     {
         "inputs": "Here are some concepts: jacket, snow, walk, wear\n\nWhat is a sentence about these concepts?",
@@ -2013,7 +2013,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing a car"
+        "predicted_answer": "Washing dishes"
     },
     {
         "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
@@ -2045,7 +2045,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing dishes"
+        "predicted_answer": "Washing a car"
     },
     {
         "inputs": "How do you do this: Make emergency car cup holder.\n\nOPTIONS:\n- Place cup in hat.\n- Place cup in shoe.",
@@ -2109,7 +2109,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing dishes"
+        "predicted_answer": "Washing a car"
     },
     {
         "inputs": "Goal: how do you mark something?\n\nWhich of the following methods is more reasonable for accomplishing this goal?\n\nOPTIONS:\n- make it the same.\n- make it different.",
@@ -2173,7 +2173,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing dishes"
+        "predicted_answer": "Washing a car"
     },
     {
         "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
@@ -2181,7 +2181,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing dishes"
+        "predicted_answer": "Washing a car"
     },
     {
         "inputs": "Objective: how to increase shelf life of nuts?\n\nWhich of the following solutions is more sound in terms of naive physics reasoning?\n\nOPTIONS:\n- place them outside in the sun for several days\n- put them in the freezer",
@@ -2373,7 +2373,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "Washing a car"
+        "predicted_answer": "Washing dishes"
     },
     {
         "inputs": "How do you do this: mop\n\nOPTIONS:\n- has a blade \n- has a long handle",
@@ -4957,7 +4957,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "multirc",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Paragraph: Eric , a young boy , is excited about his birthday after reading a book and believes that a train will come for him , despite his sister Jill's disbelief .  A few hours later , the train station's control tower wakes up and in the roundhouse , Tillie , a young little blue switcher engine , along with her best bird friend , Chip , wakes up four other trains : Georgia , a kind all-purpose engine , Farnsworth , a stuck-up passenger engine , Jebediah , a worn-out old engine , and Pete , a gruff , burly freight engine .  After the tower assigns Farnsworth and Pete their jobs , Tillie tries to help with the milk train assigned to Jebediah , but the tower insists that she is too small for the job .  Georgia is assigned to pull the birthday train .  A clown named Rollo leads the toys into the train , including Stretch , a basketball player ; Missy , a ballerina ; a Handy Pandy , a panda ; Perky , an elephant ; and Grumpella , a stuffed bird .  During her journey , Georgia breaks down and is taken back to the roundhouse by Doc .  Left behind , Rollo eventually takes Doc's advice of flagging down one of the other engines returning from their daily runs over the mountain .  Farnsworth and Pete turn down their offers to pull the train .  Meanwhile , Tillie asks the tower to rescue the stranded train , but he insists that Tillie will never do the job .  Jebediah turns down his offer to pull the train because of his age , and returns to the roundhouse .  Chip and Tillie sneak past the sleeping tower and pulls the birthday train up a mountain . \n\nQuestion: \"Which trains turn down the request to pull the birthday train?\"\n\nAnswer: \"Georgia\"\n\nBased on the paragraph, is this answer correct\n\nOPTIONS:\n- no\n- yes",
@@ -5269,7 +5269,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "Hurricane Dora caused a minor damage"
+        "predicted_answer": "Hurricane Dora caused a minor damage."
     },
     {
         "inputs": "Read this: Baran developed the concept of distributed adaptive message block switching during his research at the RAND Corporation for the US Air Force into survivable communications networks, first presented to the Air Force in the summer of 1961 as briefing B-265, later published as RAND report P-2626 in 1962, and finally in report RM 3420 in 1964. Report P-2626 described a general architecture for a large-scale, distributed, survivable communications network. The work focuses on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets, and delivery of these messages by store and forward switching.\nNow answer this question, if there is an answer (If it cannot be answered, return \"unanswerable\"): What concept did Baran research for the US Air Force?",
@@ -5357,7 +5357,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "Brutalist"
+        "predicted_answer": "Soviet-style"
     },
     {
         "inputs": "Read this and answer the question. If the question is unanswerable, say \"unanswerable\".\n\nLarger drugs (>500 Da) can provoke a neutralizing immune response, particularly if the drugs are administered repeatedly, or in larger doses. This limits the effectiveness of drugs based on larger peptides and proteins (which are typically larger than 6000 Da). In some cases, the drug itself is not immunogenic, but may be co-administered with an immunogenic compound, as is sometimes the case for Taxol. Computational methods have been developed to predict the immunogenicity of peptides and proteins, which are particularly useful in designing therapeutic antibodies, assessing likely virulence of mutations in viral coat particles, and validation of proposed peptide-based drug treatments. Early techniques relied mainly on the observation that hydrophilic amino acids are overrepresented in epitope regions than hydrophobic amino acids; however, more recent developments rely on machine learning techniques using databases of existing known epitopes, usually on well-studied virus proteins, as a training set. A publicly accessible database has been established for the cataloguing of epitopes from pathogens known to be recognizable by B cells. The emerging field of bioinformatics-based studies of immunogenicity is referred to as immunoinformatics. Immunoproteomics is the study of large sets of proteins (proteomics) involved in the immune response.\n\nWhat kind of amino acids are overrepresented in epitope regions?",
@@ -5381,7 +5381,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "the first Thursday in May every four years (1999, 2003, 2007 and so on)"
+        "predicted_answer": "the first Thursday in May every four years"
     },
     {
         "inputs": "Oxygen is the most abundant chemical element by mass in the Earth's biosphere, air, sea and land. Oxygen is the third most abundant chemical element in the universe, after hydrogen and helium. About 0.9% of the Sun's mass is oxygen. Oxygen constitutes 49.2% of the Earth's crust by mass and is the major component of the world's oceans (88.8% by mass). Oxygen gas is the second most common component of the Earth's atmosphere, taking up 20.8% of its volume and 23.1% of its mass (some 1015 tonnes).[d] Earth is unusual among the planets of the Solar System in having such a high concentration of oxygen gas in its atmosphere: Mars (with 0.1% O\n2 by volume) and Venus have far lower concentrations. The O\n2 surrounding these other planets is produced solely by ultraviolet radiation impacting oxygen-containing molecules such as carbon dioxide.\nIf it is possible to answer this question, answer it for me (else, reply \"unanswerable\"): What makes up 49.2% of the sun's mass?",
@@ -5821,7 +5821,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "Existing staff will be vetted on a phased basis."
+        "predicted_answer": "Existing teachers and non-teachers are vetted on a phased basis."
     },
     {
         "inputs": "Read this and answer the question\n\nIn the spring of 1753, Paul Marin de la Malgue was given command of a 2,000-man force of Troupes de la Marine and Indians. His orders were to protect the King's land in the Ohio Valley from the British. Marin followed the route that Céloron had mapped out four years earlier, but where Céloron had limited the record of French claims to the burial of lead plates, Marin constructed and garrisoned forts. He first constructed Fort Presque Isle (near present-day Erie, Pennsylvania) on Lake Erie's south shore. He had a road built to the headwaters of LeBoeuf Creek. Marin constructed a second fort at Fort Le Boeuf (present-day Waterford, Pennsylvania), designed to guard the headwaters of LeBoeuf Creek. As he moved south, he drove off or captured British traders, alarming both the British and the Iroquois. Tanaghrisson, a chief of the Mingo, who were remnants of Iroquois and other tribes who had been driven west by colonial expansion. He intensely disliked the French (whom he accused of killing and eating his father). Traveling to Fort Le Boeuf, he threatened the French with military action, which Marin contemptuously dismissed.\n\nWhat native chief travelled to French fort and threatened Marin?",
@@ -5837,7 +5837,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "Quadratic time"
+        "predicted_answer": "Saying that a problem is not in P does not imply that all large cases of the problem are hard or even that most of them are. For example, the decision problem in Presburger arithmetic has been shown not to be in P, yet"
     },
     {
         "inputs": "Please answer a question about the following article about Southern California:\n\nIts counties of Los Angeles, Orange, San Diego, San Bernardino, and Riverside are the five most populous in the state and all are in the top 15 most populous counties in the United States.\n\nWhat country are all the counties in?",
@@ -5973,7 +5973,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "Its unpaired electrons, which have a spin triplet state."
+        "predicted_answer": "Its unpaired electrons, which have paired electron spins; this prevents spontaneous combustion."
     },
     {
         "inputs": "Article: The Harvard University Library System is centered in Widener Library in Harvard Yard and comprises nearly 80 individual libraries holding over 18 million volumes. According to the American Library Association, this makes it the largest academic library in the United States, and one of the largest in the world. Cabot Science Library, Lamont Library, and Widener Library are three of the most popular libraries for undergraduates to use, with easy access and central locations. There are rare books, manuscripts and other special collections throughout Harvard's libraries; Houghton Library, the Arthur and Elizabeth Schlesinger Library on the History of Women in America, and the Harvard University Archives consist principally of rare and unique materials. America's oldest collection of maps, gazetteers, and atlases both old and new is stored in Pusey Library and open to the public. The largest collection of East-Asian language material outside of East Asia is held in the Harvard-Yenching Library.\n\nQuestion: What is the center library in the Harvard library system?",
@@ -6909,7 +6909,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "Two"
+        "predicted_answer": "2"
     },
     {
         "inputs": "A resident of Chennai is called a Chennaite. According to 2011 census, the city had a population of 4,646,732, within the area administered by the Municipal Corporation; that had 11 lakh households, with 51% of them living in rented houses. The citys limits were expanded later in 2011 and its population reached 7,088,000 with Chennai Municipal Corporation being renamed as Greater Chennai Corporation.  Tamil people form the majority of Chennais population. Indian English is spoken largely by white-collar workers, often mixed into Tamil. In 2001, out of the 2,937,000 migrants (33.8% of its population) in the city, 61.5% were from other parts of the state, 33.8% were from rest of India and 3.7% were from outside the country. As per the 2001 census, the number of speakers mother tongue wise are as follows, Tamil language is spoken by 3,424,107 (78.8%), followed by Telugu language by 419,209 (9.7%), Urdu by 180,245 (4.1%), Malayalam by 113,828 (2.6%), Hindi by 104,084 (2.4%), and Kannada by 22,250 (0.5%). Chennai, along with Mumbai, Delhi and Kolkata, is one of the few Indian cities that are home to a diverse population of ethno-religious communities. Minorities include Telugu people, Marwaris, Gujarati people, Parsis, Sindhi people, Odia people, Goans, Kannadigas, Anglo-Indians, Bengali people, Punjabi people, and Malayalees. As per the religious census of 2011, Chennais population was 80.7% Hindu, 9.5% Muslim, 7.7% Christian, 1.1% Jainism, 0.1% Sikh, 0.1% Buddhist, 0.1% following other religions and 0.8% following no religion or did not indicate any religious preference.\n\nBased on the above article, answer a question. Which religions each made up less than 1% of the population?",
@@ -7189,7 +7189,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "1,998"
+        "predicted_answer": "1,997"
     },
     {
         "inputs": "Read this article and answer this question The Kingdom of Hungary , also known as the Regency, existed from 1920 to 1946 as a de factonote 1 country under Regent Miklós Horthy. Horthy officially represented the Hungarian monarchy of Charles IV, Apostolic King of Hungary. Attempts by Charles IV to return to the throne were prevented by threats of war from neighbouring countries and by the lack of support from Horthy. The country has been regarded by some historians to have been a client state of Germany from 1938 to 1944. The Kingdom of Hungary under Horthy was an Axis Power during most of World War II.  In 1944, after Horthy's government negotiated secretly with the Allies, and considered to leave the war as well, Hungary was occupied by Nazi Germany and Horthy was deposed. The Arrow Cross Party's leader Ferenc Szálasi established a new Nazi-backed government, effectively turning Hungary into a German-occupied puppet state. After World War II, Hungary fell within the Soviet Union's sphere of interest. In 1946, the Second Hungarian Republic was established under Soviet influence. In 1949, the communist Hungarian People's Republic was founded.\nWhat stopped Charles IV from returning to the throne",
@@ -7453,7 +7453,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "The information displayed in clear text from the ftp header is the date and time of the file."
+        "predicted_answer": "The information displayed in clear text from the ftp header is the date and time of the last modification of the file."
     },
     {
         "inputs": "Please answer this question: what channel is celebrity big brother on in the usa?",
@@ -7485,7 +7485,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "the dallas cowboys are playing the washington football team on thanksgiving"
+        "predicted_answer": "the dallas cowboys are playing the washington redskins on thanksgiving"
     },
     {
         "inputs": "when was i can only imagine the song released??",
@@ -7565,7 +7565,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "1908"
+        "predicted_answer": "2016"
     },
     {
         "inputs": "Answer the question...who expanded the palace of versailles to its present size??",
@@ -7589,7 +7589,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "a real image"
+        "predicted_answer": "an inverted image"
     },
     {
         "inputs": "Question: who played violet in a series of unfortunate events netflix??\nAnswer:",
@@ -8005,7 +8005,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "arc_challenge",
-        "predicted_answer": "3.3 kilometers"
+        "predicted_answer": "9 kilometers"
     },
     {
         "inputs": "Which of these is the best example of physical weathering?\n\nOPTIONS:\n- insects eating a dead tree\n- a bulldozer pushing soil\n- ice fracturing a stone\n- acid rain dissolving limestone",
@@ -9869,7 +9869,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Americas in 1999."
+        "predicted_answer": "Cuba in 1999."
     },
     {
         "inputs": "Find the right ending to this passage.\n\nWashington (CNN) Donald Trump tweeted Tuesday that he didn't invite \"Iron\" Mike Tyson to speak at the Republican National Convention in Cleveland, Ohio, dismissing a report that he wanted the former heavyweight champ at the event. Trump tweeted, \"Iron Mike Tyson was not asked to speak at the Convention though I'm sure he would do a good job if he was. The media makes everything up!\" Trump was responding to a Bloomberg News report that said Trump's team was looking to line up a slate of sports figures to appear at the convention, including Tyson, ex-Chicago Bears coach Mike Ditka, former Indiana University basketball coach Bobby Knight and NASCAR chief Brian France. The report said the figures' roles at the convention had not been finalized.\n\n\"And I think it says a lot about Donald Trump's campaign and his character that he is standing up and cheering for an endorsement by\n\nOPTIONS:\n- Bloomberg News.\"\n- Bobby Knight.\"\n- Brian France.\"\n- CNN.\"\n- Chicago Bears.\"\n- Cleveland.\"\n- Convention.\"\n- Donald Trump.\"\n- Indiana University.\"\n- Iron.\"\n- Mike Ditka.\"\n- Mike Tyson.\"\n- NASCAR.\"\n- Ohio.\"\n- Republican National Convention.\"\n- Trump.\"\n- Tyson.\"\n- Washington.\"",
@@ -10101,7 +10101,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "paws_wiki",
-        "predicted_answer": "Yes"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "(1) In 1986 he signed for Luxembourg the European Single Act , which launched the European single market .\n(2) In 1986 , he launched the European Single Act for Luxembourg , which has signed the European internal market .\n\nDo these two sentences mean the same thing?\n\nOPTIONS:\n- no\n- yes",
@@ -10309,7 +10309,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "paws_wiki",
-        "predicted_answer": "yes"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Do these mean the same?\nRemy Belleau was greatly admired by poets in the twentieth century , such as Francis Ponge .\nRemy Belleau was very much admired in the twentieth century by poets such as Francis Ponge .\n\nOPTIONS:\n- no\n- yes",
@@ -10325,7 +10325,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "paws_wiki",
-        "predicted_answer": "yes"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "The music was composed by Vaali and lyrics were written by Ilaiyaraaja .\nThe music was composed by Vaali and the lyrics by Ilaiyaraaja were written .\n\nAre these two sentences paraphrases of each other?\nOPTIONS:\n- no\n- yes",
@@ -11741,7 +11741,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "wnli",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "If \"Jane knocked on Susan's door but she did not answer.\", is \"Susan did not answer.\" correct?\n\nOPTIONS:\n- no\n- yes",
@@ -11765,7 +11765,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "wnli",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "If \"I can't cut that tree down with that axe; it is too thick.\", is \"The tree is too thick.\" correct?\n\nOPTIONS:\n- no\n- yes",
@@ -13173,7 +13173,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "It's impossible to say"
     },
     {
         "inputs": "Dewhurst v. Coulthard, 3 U.S. 409 (1799) , was a United States Supreme Court case that initiated with a civil suit brought by Isaac Coulthard (owner of Coulthard's Brewery) against John Dewhurst which reached the Court by a convoluted process. The Court refused to hear the case: \"T]his court will not take cognizance of any suit, or controversy not brought before them by regular process of law.\"\nCan we infer the following?\nDewhurst v. Coulthard died at 1877.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13245,7 +13245,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "It's impossible to say"
     },
     {
         "inputs": "Read the text and determine if the sentence is true:\n\n\"22\" is a song recorded by American singer-songwriter Taylor Swift for her fourth album, \"Red\" (2012). It was written by Swift along with Max Martin and Shellback. The song was released as the album's fourth single on March 12, 2013. The lyrics describe the joys of being 22 years old.\n\nSentence: \"22\" was the first song Taylor Swift recorded for her album \"Red\".n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13293,7 +13293,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "It's impossible to say"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Mark Rankin was lead vocalist with Scottish rock band Gun, who were best known for their cover of \"Word Up!\", originally by Cameo. The single was taken from the album \"Swagger\", and was released in 1994. Other singles were \"Better Days\", \"Taking on the World\" and \"Steal Your Fire\".\n\nBased on the paragraph above can we conclude that \"Mark Rankin wrote the song \"Steal Your Fire\" in 1993.\"?\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13941,7 +13941,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "mnli_mismatched",
-        "predicted_answer": "it is not possible to tell"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Premise:\n\"He was simply making extortionate exactions upon his wretched lessees.\" Based on this premise, is the hypothesis \"He was being fair to his tenants.\" true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -15205,7 +15205,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "With this result, the expectation of the market for the endex of June 2015 was 92.9."
+        "predicted_answer": "With this result, the expectation of the market for the endex of June 2015 and onwards was 92.9."
     },
     {
         "inputs": "Pain as well.\n\nTranslate to Turkish",
@@ -15301,7 +15301,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Sam Wood, şu anda finale'deki görevini tamamlamaya hazır."
+        "predicted_answer": "Sam Wood, çıkış gününe kadar ağzını kapatıyor"
     },
     {
         "inputs": "Sanıyorum uzaylılardan kaçıyordu.\n\nWhich language is this?",
@@ -15317,7 +15317,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Birkaç ay sonra yakın olan yakında kışferileri, şirketler, mağazalarını ve ürünlerini satmak iç"
+        "predicted_answer": "Birkaç ay sonra yakın olan bayramlarının değişiklikleri için, bayram alışveriş sezonu dağıtılıy"
     },
     {
         "inputs": "Translate the following sentence to Turkish:\n\"If there's more than one finisher, the one with the fastest time gets it,\" said Weed.",
@@ -15341,7 +15341,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "I have tried to use Muhammad everywhere."
+        "predicted_answer": "I tried to use Muhammad everywhere."
     },
     {
         "inputs": "Ancak farklı bir kampanya da otobüs durakları ve metro trenlerindeki posterlerle devam ediyor ve iki kez bakmayı gerektiriyor.\n\nWhich language is this?",
@@ -15381,7 +15381,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Uzman Diyetisyen Pınar Kural Enç, \"Yoğurttan daha besleyicidir, çünkü protein, temel mineraller ve B vitaminini kaps"
+        "predicted_answer": "Expert dietitian Pinar Kural Enç, who says that the miraculous food that is more beneficial than milk, which is the main substance, is one of the foods that can be consumed safely at"
     },
     {
         "inputs": "34. dakikada Nikola Djurdjic'in, Kevin Trapp'ın koruduğu köşenin direğini sıyıran şutu hariç çok az atak yaptılar.\n\nTranslate this to English?",
@@ -15389,7 +15389,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "34. Except for the shot that hit the post defended by Nikola Djurdjic, they hardly made any attacks."
+        "predicted_answer": "34. Except for a shot that hit the post of the goal defended by Nikola Djurdjic, they hardly made any attacks."
     },
     {
         "inputs": "Pundits point out that at this time in 2011, Rick Perry's lead was giving way to a rising Herman Cain, neither of whom won even one state in the nomination process.\n\nTranslate to Turkish",
@@ -15421,7 +15421,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate to Turkish:\n\nIt stresses you after a while and you say, \"Sit somewhere and look beautiful; do nothing else!\"",
@@ -15469,7 +15469,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "We saw more of the long skirts on the podium, as they were draped over the models' hips."
+        "predicted_answer": "We saw more of the long skirts on the podium, as they were draped over the models' waists."
     },
     {
         "inputs": "How is \"Sometimes you react and have to live the consequences and I will have to live with what I said.\" said in Turkish?",
@@ -15493,7 +15493,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "How is \"It is not because the economic situation in Europe is great.\" said in Turkish?",
@@ -15501,7 +15501,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Bu nedenle Avrupa'nın ekonomik durumu çok iyi değil."
+        "predicted_answer": "Bu nedenle Avrupa'da ekonomik durum çok iyi değil."
     },
     {
         "inputs": "Both Jeavons-Fellows and Markoski were quick to name Mackay as, apart from themselves, the best match for Wood.\n\nTranslate to Turkish",
@@ -15509,7 +15509,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Jeavons-Fellows ve Markoski, Wood için diğerlerinden önce Mackay'i en iyi eşleştirmek için hızlıca adland"
+        "predicted_answer": "Jeavons-Fellows ve Markoski, Wood için kendilerine göre en iyi eşit olan Mackay'ın adını hemen anlattı."
     },
     {
         "inputs": "Bishnu Prasad Dhakal, the chief district officer, said more than 1,000 protesters had gathered outside a police station, some of them throwing stones and firebombs.\n\nTranslate to Turkish",
@@ -15525,7 +15525,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -15573,7 +15573,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate the following sentence to German:\nIt was Martinez's first three-hit night since he had four hits against the Seattle Mariners on July 6.",
@@ -15581,7 +15581,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Es war die erste dreifache Hit-Nacht von Martinez seitdem er vier Hits gegen die Seattle Mariners am 6. Juli hatte."
+        "predicted_answer": "Es war die erste dreifache-Hit-Nacht für Martinez seit er vier Hits gegen die Seattle Mariners am 6. Juli hatte."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -15589,7 +15589,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Freundschaft ist das Herzstück im Kampf, um diese Herausforderung zu meistern.\n\nTranslate this to English?",
@@ -15773,7 +15773,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "The club agreed: You can manage the money freely, but no debts can be made."
+        "predicted_answer": "The club had agreed: You can manage the money freely, but no debts can be made."
     },
     {
         "inputs": "Translate to German:\n\nLacker, a voting member of the policymaking Federal Open Market Committee who has been pushing for a rate increase, cited decisions in 1998-99 as an example.",
@@ -15789,7 +15789,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Derek McInnes admits his Aberdeen side had to fight for their lives against Hamilton Accies to see off a seventh consecutive league win, which was secured by Adam Rooney's first-half penalty."
+        "predicted_answer": "Derek McInnes admits his team from Aberdeen had to fight desperately against Hamilton Accies to see a seventh consecutive league win, which was thanks to Adam Rooney's penalty in the first half that gave them a"
     },
     {
         "inputs": "Translate to German:\n\nPaul Collingwood comes in for the white-ball leg of the tour and will bring both energy and a ruthless streak into the setup.",
@@ -15989,7 +15989,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Hogg was released on bail on this charge, but was arrested on other charges pending against him."
+        "predicted_answer": "Hogg was released on bail on this charge, but was taken into custody pending the start of the other remaining trials."
     },
     {
         "inputs": "Посольство США сожалеет о закрытии Американского центра в Москве.\n\nTranslate to English",
@@ -16013,7 +16013,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev,"
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate to Russian:\n\nLyth got seven caps - like Sam Robson before him - while Nick Compton got nine.",
@@ -16069,7 +16069,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev,"
     },
     {
         "inputs": "\"The unilateral steps taken by the Russian Federation as of late call into question the commitment of the Russian government to the relationship between the Russian and American peoples, which was maintained even during the Cold War and other difficult moments in the long history of relations between our countries\", reads a statement by US Ambassador John Tefft received by Interfax.\n\nTranslate to Russian",
@@ -16077,7 +16077,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "«Указанные последовательные шаги, которые предприняла Россия, вызывают сомнения в том, что российское правительство сохраняет свое отношение к отношениям между народами России"
+        "predicted_answer": "«Указанные последовательные шаги, предпринятые Российской Федерацией, вызывают сомнения в том, что российское правительство придерживается отношений между народами России и США,"
     },
     {
         "inputs": "Читаю современных российских авторов, свежие переводы...\n\nTranslate to English",
@@ -16101,7 +16101,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev,"
     },
     {
         "inputs": "Сегодня у бизнеса один выход: необходимо научиться работать, ориентируясь на сегодняшнюю экономическую ситуацию в стране и регионе.\n\nWhich language is this?",
@@ -16109,7 +16109,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Today the business has one way out: it is necessary to learn to work, orienting on today's economic situation in the country and the region."
+        "predicted_answer": "Today the business has one exit: it is necessary to learn to work, orienting on today's economic situation in the country and the region."
     },
     {
         "inputs": "Г-жа Робертсон добавила: \"Когда девочка обнаружила фотографии на телефоне, она позвала свою мать, дрожала и плакала.\n\nTranslate to English",
@@ -16117,7 +16117,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Mrs Robertson added: \"When the girl found the pictures on the phone, she called her mum, was shaking and crying."
+        "predicted_answer": "Mrs Robertson added: \"When the girl found the photos on the phone, she called her mum, was shaking and crying."
     },
     {
         "inputs": "Translate \"The expected job cuts will result in a charge of about $2.7bn, beginning in the fourth quarter, HP said in a statement.\" to Russian?",
@@ -16125,7 +16125,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Ожидаемые сокращения штата приведут к зачислению в счет примерно $2,7 млрд, начиная с четвертого квартала, сообщила H"
+        "predicted_answer": "Ожидаемые сокращения штата приведут к зачислению в счет примерно 2,7 млрд долл., начиная с четвертого квартала, сообщи"
     },
     {
         "inputs": "Человек созревает неравномерно.\n\nCould you please translate this to English?",
@@ -16141,7 +16141,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate to Russian:\n\nDespite facing a potential life sentence for attempting to possess a commercial quantity of cocaine, Maksimovic's lawyer argued there was no evidence that he was attempting to possess all of it and that he might have been at the cafe for an innocent purpose.",
@@ -16165,7 +16165,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "При повышении ставки, однако, последствия обычно не такие драматические."
+        "predicted_answer": "When rates rise, however, the consequences are not usually so dramatic."
     },
     {
         "inputs": "Translate to Russian:\n\nThe Broncos game was probably a good game, I haven't watched it yet but what was the score? 16-12?",
@@ -16245,7 +16245,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Главный исполнительный директор JD Sports Питер Коугилл заявил, что повышение минимальной заработной платы для британских работников может означать \"больше покупа"
+        "predicted_answer": "Главный исполнительный директор JD Sports Питер Коугилл говорит, что повышение минимальной заработной платы для британских работников может означать \"больше покупатель"
     },
     {
         "inputs": "Автор: Руперт Стейнер, главный городской корреспондент Daily Mail\n\nTranslate this to English?",
@@ -16261,7 +16261,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "The company's quarterly revenue was up 1.9% compared to the same quarter last year. Analysts expect next quarter's earnings to be $0.53 per share and the next full year's ear"
+        "predicted_answer": "The company's quarterly revenue was up 1.3% compared to the same quarter last year. On average, analysts expect that The Hartford Financial Services Group, Inc. will report full-year revenue of"
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -16269,7 +16269,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate to Russian:\n\nIrina Leonova, the common-law spouse of the popular Russian actor, Yevgeny Tsyganov, has given birth to a seventh child.",
@@ -16285,7 +16285,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Договорённости о достройке третьего и четвертого блоков были подписаны ещё в 2010-2012 годах, но приступить к реализации проекта так и"
+        "predicted_answer": "Договорённости по достройке третьего и четвертого блоков были подписаны ещё в 2010-2012 годах, но приступить к реализации проекта так и"
     },
     {
         "inputs": "Translate \"University President William LaForge said he didn't know of any conflict between Lamb and Schmidt but \"obviously there was something in Mr. Lamb's mind.\"\" to Russian?",
@@ -16293,7 +16293,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Президент Университета Уильям ЛаФордж сказал, что он не знал о конфликте между Ламбом и Шмидтом, но \"очевидно, что было что-"
+        "predicted_answer": "Президент Университета Уильям ЛаФордж сказал, что он не знает о каком-либо противоречии между Ламбом и Шмидтом, но \"очевидно"
     },
     {
         "inputs": "Плюс знаешь, что и отпуск совсем скоро...\n\nTranslate this to English?",
@@ -16405,7 +16405,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Uuden nelivetoisen RS:n 0-100 huippunopeus on 4,7 sekuntia, ja moottori on 2,3 litran 350 hevosvo"
+        "predicted_answer": "Uuden nelivetoisen Ford RS:n 0-100 huippunopeus on 4,7 sekuntia, ja moottori on 2,3 litran 350 hevos"
     },
     {
         "inputs": "How is \"Palola estimates that the Confederation of Finnish Industries (EK) has no readiness for discussions.\" said in Finnish?",
@@ -16413,7 +16413,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Palola arvioi, että Suomen Yrittäjät ei ole valmis keskusteluihin."
+        "predicted_answer": "Palola arvioi, että Suomen teollisuusliitto (EK) ei ole valmis keskusteluihin."
     },
     {
         "inputs": "Nyt ei ole aikaa monologeille.\n\nCould you please translate this to English?",
@@ -16437,7 +16437,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "SDP:n puheenjohtaja Antti Rinne julistaa, että hän haastaa Sipilän keskustan kanssa keskusteluun."
+        "predicted_answer": "SDP:n puheenjohtaja Antti Rinne julistaa, että hän haastaa Sipilän keskusteluun."
     },
     {
         "inputs": "Clintonin suosio on laskenut useiden väestöryhmien parissa viime kuun CBS News Poll -kyselytutkimuksen jälkeen, ja samaan aikaan Sanders on noussut jonkin verran.\n\nTranslate to English",
@@ -16461,7 +16461,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Konstaapeli Lachlan Perhavec ei ollut kovin mielestään saada pukuaan kostea, joten hän käytti turvallisempaa tak"
+        "predicted_answer": "Konstaapeli Lachlan Perhavec ei ollut kovin mielessään saada pukuaan kostea, joten hän käytti turvallisempaa tak"
     },
     {
         "inputs": "Uudistukset toteutetaan pakottavana lainsäädäntönä ammattiliittojen ohi, mikä on herättänyt voimakasta arvostelua.\n\nWhich language is this?",
@@ -16493,7 +16493,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Aluksi minä en mennä sisään taistelupanssarivaunuun, koska se oli panssarijääkärin kuljetusvaunu BMP"
+        "predicted_answer": "Aluksi minulla ei ole ollut mahdollisuutta mennä sisään panssarivaunuun, koska se oli jalkaväkipanssariva"
     },
     {
         "inputs": "Voitte itse tuomita tilanteen, kun sanon että siitä tuli rangaistuslaukaus ja punainen kortti.\n\nWhich language is this?",
@@ -16501,7 +16501,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "You can blame the situation, when I say that it became a penalty kick and a red card."
+        "predicted_answer": "You can judge the situation yourself when I say that it became a penalty kick and a red card."
     },
     {
         "inputs": "A broad low-pressure system about 350 miles (560 km) south of the southernmost Cape Verde Islands has a 60 percent chance of developing into a tropical cyclone in the next 48 hours, the U.S. National Hurricane Center said Tuesday.\n\nTranslate to Finnish",
@@ -16509,7 +16509,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Yhdysvaltain kansallinen hurrikaanicentrali arvioi, että Atlantin eteläosassa sijaitsevan laajan matalapaineen 60 prosentt"
+        "predicted_answer": "Yhdysvaltain kansallinen hurrikaanicentrali arvioi, että Atlantin eteläosassa noin 560 kilometrin päässä Kap Verden etelä"
     },
     {
         "inputs": "Translate to Finnish:\n\nEven though he lost the title match, Rocky evoked great sympathy.",
@@ -16557,7 +16557,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Although Arsenal is a clear favourite to win Group F, Maksimir Stadium in Zagreb is one of the most intimidating in Europe."
+        "predicted_answer": "Although Arsenal is a clear favourite to win Group F, Maksimir in Zagreb is one of the most intimidating stadiums in Europe."
     },
     {
         "inputs": "Translate the following sentence to Finnish:\nA bigger bubble and more debt",
@@ -16589,7 +16589,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Fedin päätöksenteossa on nyt lisäää kysymyksiä, kun markkinat ovat kääntyneet."
+        "predicted_answer": "Fedin päätöksenteossa on nyt lisäää komplikaatioita, kun markkinat ovat kääntyneet."
     },
     {
         "inputs": "Metallimiehet saivat 16 prosentin palkankorotuksen.\n\nCould you please translate this to English?",
@@ -16597,7 +16597,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Metalworkers got a 16 percent pay rise."
+        "predicted_answer": "Metalworkers got a 16 per cent pay rise."
     },
     {
         "inputs": "Tigers sai kolme juoksua kahdella ensimmäisellä vuoroparilla oikeakätistä konkaria vastaan, joka oli juuri päässyt loukkaantuneiden listalta takaisin kentille. Mies oli sivussa kuukauden päivät selkätulehduksen takia.\n\nTranslate to English",
@@ -16709,7 +16709,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Kolmas aihe sisälsi vain viitteen entiseltä Euroopan komission puheenjohtajalta, Jose Manuel Barrosolta."
+        "predicted_answer": "Kolmas aihe sisälsi vain viitteen entiseltä Euroopan komission puheenjohtajalta, Jose Manuel Barrosoilta."
     },
     {
         "inputs": "McInnes sanoo: ”Ei ole olemassa yhtäkään joukkuetta, joka olisi voittanut mitään, oli se sitten pokaali tai liiga, joka ei olisi myös voittanut pelejä tällä tavalla.”\n\nTranslate to English",
@@ -16717,7 +16717,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "McInnes said: \"There is no team that has won anything, whether it be a trophy or a league that hasn't also won games in this manner.\""
+        "predicted_answer": "McInnes said: \"There is not a team in the world that has won anything, whether it be a cup or a league, that has not won games in this manner.\""
     },
     {
         "inputs": "Translate \"\"Sarah is really down to earth, she's so much fun to be around,\" added Markoski.\" to Finnish?",
@@ -16757,7 +16757,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Tony Blair himself thought of them in much the same way, but he realised that if you are in a cage with a hungry gorilla, you have to give up the bananas for the sake of appearances, or you"
+        "predicted_answer": "Tony Blair himself thought of them in exactly the same way, but he realised that if you are in a cage with a hungry gorilla, you have to give up the bananas for tactical reasons, unless you want"
     },
     {
         "inputs": "Translate \"Then, they have to choose one of four movies available on the platform, download the texts the child is going to read and then the child will be recorded while giving his/her own version of the dubbing.\" to Romanian?",
@@ -16805,7 +16805,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "All functions will be available to those who want them."
+        "predicted_answer": "All functions will be available to those who will want them."
     },
     {
         "inputs": "A lansat un mesaj foarte simplu și foarte actual în condițiile de acum: încercați să găsiți o soluție pentru a nu pune în pericol partidul.\n\nTranslate this to English?",
@@ -16821,7 +16821,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Without what has happened on the financial markets and the news about the weakening of the Chinese economy in the last few weeks, they would be firmer at the meeting,” said Stephen D. Oliner, an experienced researcher at the"
+        "predicted_answer": "Without what happened on the financial markets and the news about the weakening of the Chinese economy in the last few weeks, they would be firmer at the meeting,” said Stephen D. Oliner, an experienced researcher at the U"
     },
     {
         "inputs": "A football player from Steaua gives lessons to Gigi Becali: The decision he has taken\n\nTranslate to Romanian",
@@ -16837,7 +16837,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Di Maria scored in less than four minutes from the start of his debut in the Champions League in the PSG team, bringing the French champions ahead despite missing a series of chances before securing their advantage with a goal scored by Cavani in"
+        "predicted_answer": "Di Maria scored in less than four minutes from the start of his Champions League debut in the PSG team, bringing the French champions into the lead despite missing a series of chances before securing their advantage with a goal from Cavani in the"
     },
     {
         "inputs": "Debra Aho Williamson, analist social media la compania eMarketer, a mentionat ca este greu de imaginat ca un singur buton poate transmite o gama complexa de emotii negative.\n\nTranslate this to English?",
@@ -16853,7 +16853,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "The Prime Minister continues the exchange of replies with the Hungarian authorities."
+        "predicted_answer": "The Prime Minister continues to exchange replies with the Hungarian authorities."
     },
     {
         "inputs": "There is hardly a novelty the fact that IT is in constant development in the country.\n\nTranslate to Romanian",
@@ -16877,7 +16877,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado a 100.000."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate \"Movement for Democratic Change (MDC) chief whip Innocent Gonese said seven opposition politicians received text messages on their mobile phones warning them not to disrupt Nr Mugabe's address.\" to Romanian?",
@@ -16909,7 +16909,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "The last leader of Al Qaida, Osama bin Laden, was a \"renegade\" son, disinherited by his family in the '90s."
+        "predicted_answer": "The last Al Qaida leader, Osama bin Laden, was a \"renegade\" son, disinherited by his family in the '90s."
     },
     {
         "inputs": "Translate the following sentence to Romanian:\nThe cyclist was airlifted to the Royal Melbourne Hospital with serious injuries after being struck by a car on the Murray Valley Highway on Saturday morning.",
@@ -16981,7 +16981,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "The company said it expects to see further profit growth this year as a result of lower costs, higher revenues and the development of online trade."
+        "predicted_answer": "The company said it expects further profit growth due to lower costs, higher revenues and the development of online trade."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17053,7 +17053,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Încă există unii care rămân neintegrati, creând probleme majore sociale în Franța, Germania, Marea Britanie."
+        "predicted_answer": "Există încă unii care rămân neintegrat, creând probleme majore sociale în Franța, Germania, Marea Britanie."
     },
     {
         "inputs": "And I think Nick, he's risen very quickly, as people like Federer and Murray have pointed out, he's growing up in the public eye and he's made some terrible errors and deserves all the criticism he gets, but we're trying to support him, we're trying to help him understand the consequences of his actions, and some time out of the limelight where he can just reflect on that I think is appropriate and it's best for the team and it's best for him.\n\nTranslate to Romanian",
@@ -17085,7 +17085,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "\"In this way were reduced travels and other activities that generate costs, were renegotiated a series of commercial contracts, and at the end of July TVR News was closed\", it is shown in the letter of the president of TV"
+        "predicted_answer": "\"In this way were reduced travels and other cost-generating activities, were renegotiated a series of commercial contracts, and at the end of July TVR News was closed\", it is shown in the letter of the president of"
     },
     {
         "inputs": "În fata unui asemenea val nu se poate asa, pentru ca unele tari nu fac fata.\n\nTranslate this to English?",
@@ -17101,7 +17101,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "What I always say is that I am against xenophobic discourses the idea to close the borders, that all those who come are terrorists, are people of the Middle Ages and I totally oppose this approach."
+        "predicted_answer": "What I always say and say is that I am against xenophobic discourses the idea to close the borders, that all those who come are terrorists, are people of the Middle Ages and I totally oppose this approach."
     },
     {
         "inputs": "How is \"FedEx reported disappointing results for its latest quarter, and the delivery giant cut its full-year profit forecast on weaker demand for freight services and higher costs in its ground division.\" said in Romanian?",
@@ -17229,7 +17229,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Les jeunes filles qui fleurissent tôt ont besoin d'être rassurées que, même si cela se produit à l'avance, le processus fait partie de la vie."
+        "predicted_answer": "Les filles qui fleurissent tôt ont besoin d'être rassurées que, même si cela se produit à l'avance, le processus fait partie de la vie."
     },
     {
         "inputs": "How is \"At the APHP, officials prefer the term \"transformation\" or \"change in continuity\" to closure.\" said in French?",
@@ -17253,7 +17253,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate to French:\n\nWe dressed our dogs up last year and to my amazement we were not alone.",
@@ -17293,7 +17293,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Plus tôt ce soir, les serveurs en ligne ont noté que le site du NSA a été hors service pendant au moins six heures, et le site continue d'être inaccessible pour certains utilisateurs."
+        "predicted_answer": "Plus tôt ce soir, les serveurs en ligne ont noté que le site Web de la NSA était inaccessible pendant au moins six heures, et le site continue d'être inaccessible pour certains utilisateurs."
     },
     {
         "inputs": "À la suite du départ de toutes les industries (grandes consommatrices d'eau) et au grand déclin de la population, l'utilisation de l'eau a considérablement diminué partout sur le territoire.\n\nTranslate to English",
@@ -17317,7 +17317,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "The National Security Agency working in the shadows said Friday that it was a bug that caused its public website to go down for several hours, not hackers as some had claimed online."
+        "predicted_answer": "The National Security Agency working in the shadows said Friday that it was a bug that caused its public website to go down for a few hours, not hackers as some had claimed online."
     },
     {
         "inputs": "Translate \"He remains in breach of his bail conditions.\" to French?",
@@ -17325,7 +17325,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Il reste en violation de ses conditions de libération."
+        "predicted_answer": "Il reste en violation des conditions de son cautionnement."
     },
     {
         "inputs": "Translate the following sentence to French:\nThe idea is to eventually repaint all the traffic lights in Brussels, at an estimated cost of one million Euros.",
@@ -17349,7 +17349,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "They want to see the government give priority to new trade links with countries like China, India and Brazil rather than get bogged down in the long and arduous process of reforming the arcane institutions of Europe."
+        "predicted_answer": "They want to see the government give priority to new commercial links with countries like China, India and Brazil rather than get bogged down in the long and arduous process of reforming the arcane institutions of Europe."
     },
     {
         "inputs": "Miller a ajouté que la jonction directe vers la Bulgarie, membre de l'Union européenne, signifie que les risques géopolitiques associés aux pays de transit sont éliminés « pour toujours ».\n\nTranslate to English",
@@ -17397,7 +17397,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Je m'interroge par exemple sur la définition de la résilience.\n\nTranslate to English",
@@ -17445,7 +17445,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Les données présentées au Parlement l'année dernière indiquent que, sur les 1 218 militaires licenciés pour raisons médicales, 199 n'avaient pas atteint la durée"
+        "predicted_answer": "Les données présentées au Parlement l'année dernière indiquent que, sur les 1 218 militaires mis à la retraite pour raisons médicales, 199 n'avaient pas atteint la"
     },
     {
         "inputs": "Diminué physiquement par un très grave accident cardiaque en décembre 2010, il se déplaçait durant ce voyage avec un déambulateur.\n\nWhich language is this?",
@@ -17501,7 +17501,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Even so, the number of Cogeco Cable customers rose by 5,546 for the 2013 fiscal year.\n\nTranslate to French",
@@ -17525,7 +17525,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Le marché unique a occasionné un mécontentement général, les entreprises disant que le coût du règlement Bruxelles est disproportionné par rapport aux avantages qu'il y a à faire partie de la zone d'échanges européenne – 40 % des grandes entreprises, traditionnellement les plus pro-européennes, sont même d'accord.\n\nTranslate to English",
@@ -17533,7 +17533,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "The single market has caused general discontent, companies saying that the cost of the Brussels settlement is disproportionate to the benefits of being part of the European trading zone – 40% of the big companies, traditionally"
+        "predicted_answer": "The single market has caused general discontent, companies saying that the cost of the Brussels settlement is disproportionate to the benefits of being part of the European trading zone – 40% of big companies, traditionally the"
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17541,7 +17541,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Translate the following sentence to French:\nBorn on 24 October 1953 in La Ferté-Saint-Aubin, the man with an open face, a balding head and the glasses of an intellectual is the holder of a certificate of professional competence in confectionery.",
@@ -17589,7 +17589,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Mám čtyři děti, není to pro zaměstnavatele hotové."
+        "predicted_answer": "Mám čtyři děti, není jsem pro zaměstnavatele hotová."
     },
     {
         "inputs": "Translate \"That's work for honest, decent people, not for enemies of the people, as I was in the eyes of the comrade superintendent.\" to Czech?",
@@ -17645,7 +17645,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev,"
     },
     {
         "inputs": "Další fotbalisty pražského klubu nejmenoval, a tak přišla přímá otázka, jestli zná i Davida Lafatu, nejlepšího střelce v historii české ligy a kapitána Sparty.\n\nTranslate this to English?",
@@ -17701,7 +17701,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "Lamb se setkal s Prentiss, když spolu s Abigail vystuopovali na letním festivalu před třemi lety.\n\nTranslate this to English?",
@@ -17717,7 +17717,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 25% en comparación con el mismo período del año pasado."
     },
     {
         "inputs": "How is \"McKee and Capewell said PHE's claims that \"there is no evidence so far that e-cigarettes are acting as a route into smoking for children or non-smokers\" were premature.\" said in Czech?",
@@ -17749,7 +17749,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Na druhé straně však toto faktum zvýší riziko, že organizace těžby budou kompenzovat zvýšené výdaje zvýšením úspor, což"
+        "predicted_answer": "Na druhé straně ovšem toto faktum zvýší riziko, že organizace těžby budou kompenzovat zvýšené výdaje zvýšením úspor,"
     },
     {
         "inputs": "V areálu v pražských Letňanech vyrábí dřívější Letov kompletní dveře pro Airbus A320.\n\nTranslate to English",
@@ -17765,7 +17765,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev,"
     },
     {
         "inputs": "For this, you need: • 1 peach • 1 bunch of rocket • 1 cupful chopped cucumber • 1 cup mixed lettuce leaves • 3 tablespoonfuls of grape oil\n\nTranslate to Czech",
@@ -17781,7 +17781,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Donald Trump and Ben Carson are receiving roughly half of Republican voters' support today, mostly because they are outsiders."
+        "predicted_answer": "Donald Trump and Ben Carson are receiving roughly half of the support from Republican voters, and that is mainly due to their status as outsiders."
     },
     {
         "inputs": "Translate to Czech:\n\nAnd although inflation continued to run below the central bank's annual 2% target, Fed policymakers said a key reason was the temporary effect of sharply lower oil prices.",
@@ -17821,7 +17821,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 20% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
     },
     {
         "inputs": "Potom posudek z uliční organizace strany.\n\nWhich language is this?",
@@ -17853,7 +17853,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Very important is rehabilitation care for people with multiple sclerosis, which most often deals with weakening of the lower limbs or balance disorders."
+        "predicted_answer": "Very important is rehabilitation care for people with multiple sclerosis, which most often deals with weakening of lower limbs or balance disorders."
     },
     {
         "inputs": "\"It is the justice of equal stomachs, it has nothing to do with human justice,\" said TOP 09 deputy chairman Miroslav Kalousek, who emphasised the principle of deservedness.\n\nTranslate to Czech",
@@ -17885,7 +17885,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
     },
     {
         "inputs": "He's received tons of accolades from fans.\n\nTranslate to Czech",
@@ -17925,7 +17925,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "El número de personas que han muerto en el conflicto en el país ha aumentado en un 50% en comparación con el mismo período del año pasado."
+        "predicted_answer": "El número de personas que han muerto en el conflicto en el este de Ucrania ha aumentado a 4.700, dijo el jefe de la oficina de las Naciones Unidas en Kiev."
     },
     {
         "inputs": "Translate to Czech:\n\nThey finally became a couple around Vítek's second birthday, and Vítek now sees Vašek as his father, and calls him this, too.",
@@ -18197,7 +18197,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "stsb",
-        "predicted_answer": "3"
+        "predicted_answer": "0"
     },
     {
         "inputs": "Do the following sentences say the same thing?\n\nRick Santorum wins Kansas caucuses\nRick Santorum notches a victory in Kansas caucuses\n\nReturn your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -18317,7 +18317,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "stsb",
-        "predicted_answer": "4"
+        "predicted_answer": "3"
     },
     {
         "inputs": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar is the sentence \"A skier speeds through the snow.\" to the sentence \"A brown dog carrying a Frisbee runs through the snow.\"?\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -18469,7 +18469,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "trivia_qa",
-        "predicted_answer": "Alana Hamilton"
+        "predicted_answer": "Rachel Hunter"
     },
     {
         "inputs": "Who were the runners-up in the 1978 FIFA World Cup????",
@@ -18829,7 +18829,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "En 2011, el Departamento del Tesoro y la Agencia Tributaria emitieron reglamentos que obligaron a los preparadores de declaraciones de impuestos a someterse a pruebas y CE"
+        "predicted_answer": "En 2011, el Departamento del Tesoro y la Agencia de Impuestos Internos emitieron reglamentos que obligaron a los preparadores de declaraciones de impuestos a someterse a prue"
     },
     {
         "inputs": "Baño Vestíbulo Paredes divisorias Cabina de ducha Pasillo Sala de estar Dormitorio Hueco de escalera Cocina Oficinas Negocios Detalles decorativos Pisos How do you say this sentence in English?",
@@ -18837,7 +18837,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Bathroom Hallway Walls Divider Cabin shower Corridor Living room Bedroom Stairwell Kitchen Offices Business Details decorative Floors"
+        "predicted_answer": "Bathroom Hallway Walls Divider Cabin shower Corridor Living room Bedroom Stairwell Kitchen Offices Businesses Decorative details Floors"
     },
     {
         "inputs": "Translate \"La compra de estos aparatos significó una inversión de 186 millones de pesos chilenos (cerca de US$ 360 mil).\" from Spanish to English.",
@@ -18957,7 +18957,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The 1998-99 season was a disaster for the club, as they were relegated to the First Division."
+        "predicted_answer": "The 1999-2000 season was the 101st season of competitive football in England."
     },
     {
         "inputs": "Translate from Spanish to English:\n\nDespués de atravesar la bulliciosa capital bananera de Changuinola llegué a la Finca 50, donde pude abordar la lancha rápida que me llevaría hasta Bocas. Efectivamente lo de rápida era cierto y fue un vertiginoso viaje en medio de manglares y cuantiosa vegetación.",
@@ -19029,7 +19029,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Example 1: A, sculptor, was hired by B to make some bas-reliefs carved directly in the stone of the foundation of the main façade of his house."
+        "predicted_answer": "Example 1: A, sculptor, was hired by B to make some bas-reliefs carved directly into the stone of the foundation of the main facade of his house."
     },
     {
         "inputs": "Translate \"Satanás ha hecho un trabajo brillante educando a la iglesia cristiana sobre la tierra para que siga su perversión de lo que la Biblia dice.\" from Spanish to English.",
@@ -19069,7 +19069,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The 1999-2000 season was the 101st season of competitive football in England."
+        "predicted_answer": "The 1998-99 season was a disaster for the club, as they were relegated to the First Division."
     },
     {
         "inputs": "Translate from Spanish to English:\n\nNo es difícil imaginar que los miembros de un pequeño grupo al que se le diga que se necesitan las muestras porque están en peligro de extinción quedaría muy ofendido y es poco probable que les consuele mucho que se les diga que están haciendo una importante contribución al adelanto del conocimiento científico sobre el cuerpo humano.",
@@ -19117,7 +19117,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The 1998-99 season was a disaster for the club, as they were relegated to the First Division."
+        "predicted_answer": "The 1999-2000 season was the 101st season of competitive football in England."
     },
     {
         "inputs": "Translate \"«En mi opinión, no existe un choque de civilizaciones o de religiones, sino un choque de intereses.\" from Spanish to English.",
@@ -19133,7 +19133,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Nos esfuerza en conectarte con los mejores abogados de custodia de Carthage North Carolina y en tu ubicación Inicia seleccionando una ubicación y categoría en tu área. Es tan simple."
+        "predicted_answer": "Nos esfuerza en conectarte con los mejores abogados de custodia de Carthage North Carolina y en tu ubicación Inicia seleccionando una ubicación y categoría en tu área. Es tan senc"
     },
     {
         "inputs": "At the first meeting, with Lithuanian counterpart Kazys Starkevicius, Petrovic said that the implementation of this project was important for the promotion of cattle breeding and the production of meat and milk. He emphasized that Serbia could continue with the positive trend in food exports, which amounted to 2.7 billion dollars in 2011. Say this using Spanish",
