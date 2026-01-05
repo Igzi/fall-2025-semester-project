@@ -150,7 +150,7 @@ def eval_datasets(
     ood=False, 
     best_selection=False, 
     model_size='7b',
-    eval_type='fusion',
+    eval_type='mixture',
 ):
     """
     Evaluate the model on given datasets.
