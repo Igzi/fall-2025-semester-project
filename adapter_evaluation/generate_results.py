@@ -6,6 +6,8 @@ from rouge import Rouge
 import numpy as np
 import pandas as pd
 
+model_size = "7b"
+
 # Function to calculate BLEU score
 def calculate_bleu(references, candidates):
     scores = [sentence_bleu([ref.split()], cand.split()) for ref, cand in zip(references, candidates)]
@@ -141,7 +143,7 @@ def convert_to_latex_modified(data, folder_path):
     ax.set_title('Model performance heatmap')
 
     plt.tight_layout()
-    out_png = "./adapter_evaluation/model_performance_heatmap.png"
+    out_png = f"./adapter_evaluation/model_performance_heatmap_{model_size}.png"
     plt.savefig(out_png, dpi=300)
     print(f"Saved heatmap to {out_png}")
     plt.show()
@@ -149,7 +151,7 @@ def convert_to_latex_modified(data, folder_path):
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = './adapter_evaluation/outputs_7b'  # Replace with your actual folder path
+folder_path = f'./adapter_evaluation/outputs_{model_size}'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 #print(latex_table)

@@ -80,7 +80,7 @@ class LoRAuter(nn.Module):
     def __init__(self, A_init: torch.Tensor, results_matrix: np.ndarray, top_k: int, temperature: float = 1.0):
         super().__init__()
         self.register_buffer("A", A_init.clone())       # (K, d_a)
-        self.register_buffer("results_matrix", torch.tensor(results_matrix))  # (N, K)
+        self.results_matrix = results_matrix
         self.top_k = top_k
         self.tau = temperature
 
@@ -116,7 +116,7 @@ class LoRAuter(nn.Module):
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
-            topk_vals, topk_idx = torch.topk(logits, self.top_k, dim=-1)
+            _, topk_idx = torch.topk(logits, self.top_k, dim=-1)
             mask = torch.zeros_like(logits, dtype=torch.bool)
             
             mask.scatter_(1, topk_idx, True)
@@ -188,7 +188,9 @@ def eval_datasets(
         scorer.bfloat16()
 
     state = torch.load(ckpt_path, map_location="cpu")
-    scorer.load_state_dict(state)
+    state.pop('results_matrix', None)  # Remove if exists
+    state.pop('top_k', None)  # Remove if exists
+    scorer.load_state_dict(state, strict=False)
     scorer.to(device).eval()
 
     # Initialize vector database for retrieval
@@ -234,8 +236,6 @@ def eval_datasets(
     peft_model = load_peft_model(model_names, base_model)
     peft_model = peft_model.to(device)
     peft_model.eval()
-
-    weight_mask = torch.where(torch.rand(48,generator=torch.Generator().manual_seed(1)) < 0.5, 0.2, 1.0).to(device).bfloat16()
 
     with torch.no_grad():
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
