@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Compute embeddings for validation dataset from config_large_flat.json
-and save them to test_results/validation_embeddings.npy
+and save them to embeddings/validation_embeddings.npy
 """
 
 import json
@@ -13,7 +13,7 @@ import os
 def main():
     # Configuration
     config_path = 'dataset/config_large_flat.json'
-    output_path = 'test_results/validation_embeddings.npy'
+    output_path = 'embeddings/validation_embeddings.npy'
     instruction = "Represent the sentence for similar task retrieval: "
     
     print("Loading INSTRUCTOR model...")

@@ -1,8 +1,0 @@
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_12_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 12
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_24_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 24
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_48_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 48
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_96_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 96
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_192_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 192
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_384_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 384
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_768_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 768
-python3 perf_eval_kmeans.py --data_path dataset/combined_test.json  --res_path kmeans_results/fusion_1536_7b.json --eval_type mixture  --lora_num 3 --batch_size 1 --model_size 7b --device cuda:1 --num_clusters 1536
