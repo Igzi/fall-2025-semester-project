@@ -1,0 +1,402 @@
+[
+    {
+        "inputs": "Sentence 1: Well that window happened to be through her room, so I just kind of walked on through the room and she looked up at me and I said, Good morning, and she just screamed.\n\nSentence 2: She screamed when I walked through the room and said good morning. \nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: \"All of the above techniques rest, in one way or another, on the meanings of words.\" If this premise is true, what does that tell us about whether it entails the hypothesis \"What wording means has little impact. \"?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Five seconds later, Jarrah asked, Is that it?\n\nDoes it follow that \"Ten seconds passed before Jarrah asked \"is that it?\".\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "it is not possible to tell"
+    },
+    {
+        "inputs": "Here is a premise:\nHowever, the excitement and motivation of that goal is often diminished by the difficult financial constraints that students experience.\n\nHere is a hypothesis:\nStudents run into financial obstacles that diminish their excitement and motivation.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "If The Czech playwright Karel Kapek was the creator of robot a `machine which replaces a man' in R.U.R., can we conclude that \"Karel Kapek created Robot: A Machine Which Replaces a Man. \"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: They enabled the passengers to gain critical information, including the news that two aircraft had slammed into the World Trade Center.\nHypothesis: The passengers remained ignorant of this critical information.\nIs the hypothesis entailed by the premise?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: Here are just some of the services your gift can provide.\n\nHypothesis: Your gift can offer services, here are some of them.\n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Here is a premise:\nAmerican 77 traveled undetected for 36 minutes on a course heading due east for Washington, D.C.\n\nHere is a hypothesis:\nAmerican 77 was not known to be flying toward Washington, D.C\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: Consider, for instance, how many store clerks still scan items incorrectly at the register.\nHypothesis: Items are consistently miss-scanned at registers.\nIs the hypothesis entailed by the premise?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Sentence 1: I love to read just plain history, um, it must have rubbed off in some aspect because that's the kind of thing I still read.\n\nSentence 2: I don't like history books.\nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: How about I used to read you stories a lot.\nHypothesis: I used to read stories to you a fair bit.\nIs the hypothesis entailed by the premise?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Sentence 1: Wages have risen relative to the average of all manufacturing or nondurable manufacturing.\n\nSentence 2: Wages have decreased relative to the average of all manufacturing or nondurable manufacturing.\n\nIf the first sentence is true, then is the second sentence true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: Indeed, retailers like Wal-Mart Stores, Kmart Corporation, and Dillard's Inc. have been the driving forces behind changes in manufacturing and logistics systems in a way that was unheard of in Bond Stores' time.\nHypothesis: Retailers have been the force behind changes in manufacturing and logistics systems,\nIs the hypothesis entailed by the premise?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Sentence 1: Also testifying about al Qaeda in a U.S. court was L'Houssaine Kherchtou, who told of breaking with Bin Ladin because of Bin Ladin's professed inability to provide him with money when his wife needed a caesarian section.\n\nSentence 2: Bin Ladin did not pay Kherchtou, even when he really needed the money.\nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"I firmly am committed to that.\", can we conclude the hypothesis \"I'm committed to that.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"None is the combined Old English ne `not' + on `one.\", can we conclude the hypothesis \"None comes from Spanish words\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Here is a premise:\nWell, thank you for being part of this study\n\nHere is a hypothesis:\nWe regret to inform you that you do not qualify for this study.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Based on the premise \"Partnership with YMCA of Liberia - In 1998, we continued our efforts to help the YMCA of Liberia re-establish after 7 years of civil war.\", can we conclude the hypothesis \"The YMCA has become involved with Liberia to help them recover from war. \" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"However, I am sure there will be other items that will be needed in the new facility to enhance the educational experience of students, including graduate students.\", can we conclude the hypothesis \"No additional items will needed in the new facility to enhance the educational experience of students.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Sentence 1: Your tax-deductible contribution may be sent in the enclosed postage-paid envelope with the attached return card.\n\nSentence 2: Due to funding cuts we are not able to provide any postage-paid envelopes. \n\nIf the first sentence is true, then is the second sentence true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Sentence 1: But for 8 minutes and 13 seconds, between 8:56 and 9:05, this primary radar information on American 77 was not displayed to controllers at Indianapolis Center.\n\nSentence 2: American 77's information was not displayed on the primary radar.  \nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: \\\\ They wasn't ghosts.\n\nHypothesis: They were ghosts. \n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: \"Then he came and we stayed on in the same place.\" If this premise is true, what does that tell us about whether it entails the hypothesis \"We were in the same place when he arrived.\"?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: He learned in the tunnel that the Pentagon had been hit, and he saw television coverage of smoke coming from the building.\n\nHypothesis: He knew about the Pentagon while he was in the tunnel.  \n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: The military aide returned a few minutes later, probably between 10:12 and 10:18, and said the aircraft was 60 miles out.\n\nHypothesis: Sometime after 10 in the morning, the military aide returned.\n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "If Thank you for your ongoing support of our great school!, can we conclude that \"Our great school could care less about your support, we can manage without you and your donations.\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "If Over time, their policies- repression, rewards, emigration, and the displacement of popular anger onto scapegoats (generally foreign)-were shaped by the desire to cling to power., can we conclude that \"Their policies over time were driven by their thirst for power.\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"Bottom-up  the young being inducted into school at an early age and proceeding, level by level, to institutions of ever  higher  learning, stopping off for various reasons at various levels, usually marked by tests and the distribution of certificates providing a social grade.\", can we conclude the hypothesis \"Young people enter the school system and go level by level through different instutions.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Here is a premise:\nActually, I went back to see my doctor and when I, everything you know was fine.\n\nHere is a hypothesis:\nMy test results all came back just fine.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: We'd basically coasted down into town and got about 50 gallons of kerosene and pumped it in the fuel tank so that so that the fuel would actually run through the fuel lines and the bus would run.\nHypothesis: We went into town in a bus.\nIs the hypothesis entailed by the premise?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"Excessive stimulation also causes them to withdraw as they try to shield themselves from a stimulus deluge, thereby creating conditions that, paradoxically, are much like stimulus deprivation!\", can we conclude the hypothesis \"Too much stimulation causes them to withdraw, often times forming a stimulus deprivation.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: \"By 10:45 there was, however, another set of fighters circling Washington that had entirely different rules of engagement.\" If this premise is true, what does that tell us about whether it entails the hypothesis \"Reports of any fighters in the airspace over Washington on that day are incorrect. \"?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: \"Both dictionaries list abbreviations and biographical and geographical entries in separate sections at the back, a practice I have never liked.\" If this premise is true, what does that tell us about whether it entails the hypothesis \"I have no issues with entries at the back of a dictionary.\"?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Based on the premise \"I would just scream and scream you know that, No, no, don't do that.\", can we conclude the hypothesis \"That's nothing, I wouldn't even flinch. \" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Premise: I should worry.\n\nHypothesis: I need to be worried.\n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Here is a premise:\nThe measurements must still be transmitted to a CAD system that will automatically alter the pattern to conform to specific body measurements.\n\nHere is a hypothesis:\nThe measurements must be moved to a specific CAD system.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Here is a premise:\nIf the average American uses from three to five thousand different words each day, the chances are everybody in this country will use three or more Texican words.\n\nHere is a hypothesis:\nIt is likely everyone uses a Texican word every day\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Sentence 1: Representatives also came from organizations such as the Palestine Liberation Organization, Hamas, and Hezbollah.\n\nSentence 2: The Palestine Liberation Organization, Hezbollah, and Hamas are examples of organizations that were represented.\nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "If The President said he remembered such a conversation, and that it reminded him of when he had been an interceptor pilot., can we conclude that \"The President spoke about when he had been a pilot.\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: \"Because he knew little about the cattle business and cared less, he never got around to branding his stock.\" If this premise is true, what does that tell us about whether it entails the hypothesis \"Even though he knew little about cattle, he made sure to brand his stock.\"?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Sentence 1: And I couldn't, well, do anything else.\n\nSentence 2: I did more than I thought I could.\nIs this second sentence entailed by the first sentence?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "Here is a premise:\nI hope you'll think of Wanda and other mothers' prayers and dreams this Mother's Day.\n\nHere is a hypothesis:\nThis Mother's Day it is my hope that Wanda and the other female parents will be in your thoughts.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Here is a premise:\nAccording to Miyares, the DBA is the first organization to target the role of disabled persons in business.\n\nHere is a hypothesis:\nDBA is the first organization to help the disabled persons in the business world\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"Wha, yeah, very hard compared to high school.\", can we conclude the hypothesis \"This is so much more difficult than high school.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Earlier, on page 49, we learnt about Agnodice,  who lived to become the world's first known woman gynaecologist,  in the fourth century BC.\n\nDoes it follow that \"We have already read about the world's first known woman gynecologist, Agnodice.\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Sentence 1: While awaiting my licensure to practice dental hygiene, I have had the opportunity to look back upon my education at Indiana University School of Dentistry.\n\nSentence 2: I went to the Indiana University School of Dentistry.\n\nIf the first sentence is true, then is the second sentence true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Premise: In the course of a long night, two Black Hawk helicopters were shot down, 73 Americans were wounded, 18 were killed, and the world's television screens showed images of an American corpse dragged through the streets by exultant Somalis.\n\nHypothesis: The incident that saw 73 wounded and 18 killed, played out on TV and brought the war into American homes.\n\nDoes the premise entail the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "yes"
+    },
+    {
+        "inputs": "Based on the premise \"The headword is syllabified in W , not in L .  In older dictionaries the words are syllabified mainly to help in pronouncing them; latterly, syllabication has been used largely to find where a word can be hyphenated at the end of a line of text, though, judging by today's newspapers and magazines, one would be sore put to believe that a dictionary had ever been within the grasp of their editors, proofreaders, or the programmers who wrote the hyphenation programs for the automatic typesetting many of them now employ.\", can we conclude the hypothesis \"Newspaper and magazine editors do a poor job of properly hyphenating words.\" is true?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "it is not possible to tell"
+    },
+    {
+        "inputs": "Premise:\n\"He was simply making extortionate exactions upon his wretched lessees.\" Based on this premise, is the hypothesis \"He was being fair to his tenants.\" true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "no",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    },
+    {
+        "inputs": "If This year IUPUI is celebrating 25 years in partnership., can we conclude that \"The IUPUI is more than 24 years old.\"?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
+        "targets": "yes",
+        "metric": "em",
+        "domain": "nli",
+        "task": "mnli_mismatched",
+        "predicted_answer": "no"
+    }
+]

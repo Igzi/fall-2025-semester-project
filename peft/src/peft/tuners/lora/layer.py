@@ -644,24 +644,67 @@ class Linear(nn.Module, LoraLayer):
                         )
 
             else: 
+                # Create cache key based on active adapters and layer
+                cache_key = f"padded_lora_{self.layer_idx}_{'_'.join(sorted(self.active_adapters))}"
+                
+                # Check if padded matrices are already cached
+                if cache_key in self._caches:
+                    cached_data = self._caches[cache_key]
+                    stacked_lora_A = cached_data['stacked_lora_A']
+                    stacked_lora_B = cached_data['stacked_lora_B']
+                    max_r = cached_data['max_r']
+                else:
+                    # Compute padded matrices
+                    max_r = 0
+                    for active_adapter in self.active_adapters:
+                        if active_adapter not in self.lora_A.keys():
+                            continue
+                        lora_A_weight = self.lora_A[active_adapter].weight  # r x d
+                        scaling = self.scaling[active_adapter]
+                        max_r = max(max_r, lora_A_weight.shape[0])
+                        
+                        # 将 lora_A 和 lora_B 的权重添加到堆叠列表中
+                        stacked_lora_A.append(scaling * lora_A_weight)
+                        stacked_lora_B.append(self.lora_B[active_adapter].weight)
+
+                    # Pad lower-rank adapters so the stack works even when ranks differ.
+                    padded_lora_A = []
+                    padded_lora_B = []
+                    for A, B in zip(stacked_lora_A, stacked_lora_B):
+                        current_r = A.shape[0]
+                        if current_r < max_r:
+                            pad_rows = max_r - current_r
+                            A = torch.cat(
+                                [A, torch.zeros((pad_rows, A.shape[1]), dtype=A.dtype, device=A.device)],
+                                dim=0,
+                            )
+                            B = torch.cat(
+                                [B, torch.zeros((B.shape[0], pad_rows), dtype=B.dtype, device=B.device)],
+                                dim=1,
+                            )
+                        padded_lora_A.append(A)
+                        padded_lora_B.append(B)
+
+                    # 堆叠成最终的矩阵
+                    stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
+                    stacked_lora_B = torch.stack(padded_lora_B, dim=0)  # p x d x max_r
+                    
+                    # Cache the padded matrices
+                    self._cache_store(cache_key, {
+                        'stacked_lora_A': stacked_lora_A,
+                        'stacked_lora_B': stacked_lora_B,
+                        'max_r': max_r
+                    })
+                
+                # Build lora_map from lora_mapping
                 lora_map = []
                 for idx, active_adapter in enumerate(self.active_adapters):
                     if active_adapter not in self.lora_A.keys():
                         continue
-
                     lora_map.append(lora_mapping[:, idx])
-                    lora_A_weight = self.lora_A[active_adapter].weight  # r x d
-                    lora_B_weight = self.lora_B[active_adapter].weight  # d x r
-                    
-                    # 将 lora_A 和 lora_B 的权重添加到堆叠列表中
-                    stacked_lora_A.append(lora_A_weight)
-                    stacked_lora_B.append(lora_B_weight)
-
-                    scaling = self.scaling[active_adapter]
-
-                stacked_lora_A = torch.stack(stacked_lora_A, dim=0)  # p x r x d
-                stacked_lora_B = torch.stack(stacked_lora_B, dim=0)  # p x d x r
+                
                 lora_map = torch.stack(lora_map, dim=1)  # b x p
+                scaling = 1.0
 
                 stacked_lora_A = stacked_lora_A.to(x.dtype)
                 stacked_lora_B = stacked_lora_B.to(x.dtype)

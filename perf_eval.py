@@ -174,7 +174,7 @@ def eval_datasets(
     """
     correct_count = 0
     results = []  # Initialize a list to store question and response data
-    model_size='13b'
+    model_size='7b'
 
     cfg_path = "./performance_based_selection/models/base_model.config.json"
     ckpt_path = "performance_based_selection/models/base_model.pt"
@@ -232,6 +232,14 @@ def eval_datasets(
         model_name = f"Styxxxx/llama2_{model_size}_lora-{model['model_name']}"
 
         model_names.append(model_name)
+
+    for i, row in enumerate(results_matrix):
+    # Get indices of top 2 values in this row
+        results_matrix[:,i] 
+        top2_indices = np.argsort(-row)[:2]
+        print(model_names[i])
+        print([model_names[idx] for idx in top2_indices])
+    x=10/0
 
     
     peft_model = load_peft_model(model_names, base_model)

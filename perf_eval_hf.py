@@ -77,6 +77,9 @@ for model in models:
 
     original_model_names.append(model_name)
 
+for model_name in original_model_names:
+    results_matrix[:, all_model_names.index(model_name)] = -0.0
+
 # Extract IDs that appear in top 5 highest values in at least one row
 all_ids = list(range(results_matrix.shape[1]))
 selected_ids = []
@@ -147,18 +150,21 @@ class AdapterRouter(nn.Module):
         self.A = A_new.clone().to(self.A.device)
 
     def get_selected_adapter(self, old_idx: int, exclude_idx: int = None):
-        row = results_matrix[old_idx]
-        row_old = old_results_matrix[old_idx]
+        row = results_matrix[old_idx].copy()
+        row_old = old_results_matrix[old_idx].copy()
         if exclude_idx is not None:
             exclude_idx_new = all_model_names.index(original_model_names[exclude_idx])
             row[exclude_idx_new] = 0.0
             row_old[exclude_idx] = 0.0
         
         sel = int(np.nanargmax(row).item())
-        if row[sel]-row_old.max() < 5:
-            sel = int(np.nanargmax(row_old).item())
-            sel = original_adapter_names.index(original_model_names[sel])
-            sel = original_adapter_ids[sel]
+        # if row[sel]-row_old.max() < 0.2:
+        #     # The order of the old adapters is different from the new adapters
+        #     # This part of the codecorrects it in a hacky way
+        #     sel = int(np.nanargmax(row_old).item())
+        #     sel = original_adapter_names.index(original_model_names[sel])
+        #     sel = original_adapter_ids[sel]
+        
         sel = selected_ids.index(sel)
         return sel
 
@@ -323,6 +329,7 @@ def eval_datasets(
     peft_model = load_peft_model(selected_model_names, base_model)
     peft_model = peft_model.to(device)
     peft_model.eval()
+    #scorer.top_k = 1
 
     with torch.no_grad():
         with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:

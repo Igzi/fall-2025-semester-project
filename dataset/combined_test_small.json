@@ -1,0 +1,1402 @@
+[
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nkinnear does n't aim for our sympathy , but rather delivers a performance of striking skill and depth . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nhere 's yet another studio horror franchise mucking up its storyline with glitches casual fans could correct in their sleep . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: ( e ) ventually , every idea in this film is flushed down the latrine of heroism . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nfeature debuter d.j. caruso directs a crack ensemble cast , bringing screenwriter tony gayton 's narcotics noir to life . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "\"a hamfisted romantic comedy that makes our girl the hapless facilitator of an extended cheap shot across the mason-dixon line . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: an exquisitely crafted and acted tale . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: a gripping movie , played with performances that are all understated and touching . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nthis flick is about as cool and crowd-pleasing as a documentary can get . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: i am sorry that i was unable to get the full brunt of the comedy . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: thekids will probably stay amused at the kaleidoscope of big , colorful characters . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\na superbly acted and funny/gritty fable of the humanizing of one woman at the hands of the unseen forces of fate . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nanother one of those estrogen overdose movies like `` divine secrets of the ya ya sisterhood , '' except that the writing , acting and character development are a lot better . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: and that leaves a hole in the center of the salton sea . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: a warm but realistic meditation on friendship , family and affection . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: the film tries too hard to be funny and tries too hard to be hip . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: without ever becoming didactic , director carlos carrera expertly weaves this novelistic story of entangled interrelationships and complex morality . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\ntaylor appears to have blown his entire budget on soundtrack rights and had nothing left over for jokes . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "\"its story may be a thousand years old , but why did it have to seem like it took another thousand to tell it to us ? \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthis is the sort of burly action flick where one coincidence pummels another , narrative necessity is a drunken roundhouse , and whatever passes for logic is a factor of the last plot device left standing . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nbroomfield turns his distinctive ` blundering ' style into something that could really help clear up the case . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\na coarse and stupid gross-out . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: tries to add some spice to its quirky sentiments but the taste is all too familiar . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nby candidly detailing the politics involved in the creation of an extraordinary piece of music , ( jones ) calls our attention to the inherent conflict between commerce and creativity . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: dense with characters and contains some thrilling moments . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\ncorpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthe movie understands like few others how the depth and breadth of emotional intimacy give the physical act all of its meaning and most of its pleasure . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\nnothing in waking up in reno ever inspired me to think of its inhabitants as anything more than markers in a screenplay . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: at its worst , it implodes in a series of very bad special effects . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\naffleck and jackson are good sparring partners . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nthe movie is what happens when you blow up small potatoes to 10 times their natural size , and it ai n't pretty . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nin its best moments , resembles a bad high school production of grease , without benefit of song . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: what the film lacks in general focus it makes up for in compassion , as corcuera manages to find the seeds of hope in the form of collective action . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Does the following review have a positive or negative opinion of the movie?\n\nthere seems to be no clear path as to where the story 's going , or how long it 's going to take to get there . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "\"lovely and poignant . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nabout a manga-like heroine who fights back at her abusers , it 's energetic and satisfying if not deep and psychological . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "\"for all its impressive craftsmanship , and despite an overbearing series of third-act crescendos , lily chou-chou never really builds up a head of emotional steam . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\n`` the time machine '' is a movie that has no interest in itself . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\na coda in every sense , the pinochet case splits time between a minute-by-minute account of the british court 's extradition chess game and the regime 's talking-head survivors . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: this is a story of two misfits who do n't stand a chance alone , but together they are magnificent . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nthat 's a cheat . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "\"another in-your-face wallow in the lower depths made by people who have never sung those blues . \"\nHow would the sentiment of this sentence be perceived?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Short movie review: it made me want to wrench my eyes out of my head and toss them at the screen . \nDid the critic thinking positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the sentiment of the following sentence positive or negative?\nif you 've ever entertained the notion of doing what the title of this film implies , what sex with strangers actually shows may put you off the idea forever . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Would the following phrase be considered positive or negative?\n\nbut taken as a stylish and energetic one-shot , the queen of the damned can not be said to suck . \nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nthe socio-histo-political treatise is told in earnest strides ... ( and ) personal illusion is deconstructed with poignancy . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: rare birds has more than enough charm to make it memorable . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Sentence from a movie review: the cold turkey would 've been a far better title . \nWas the movie seen positively or negatively based on the preceding review?\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nno way i can believe this load of junk . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following movie review sentence?\ndetermined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult . \nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Review:\nzaidan 's script has barely enough plot to string the stunts together and not quite enough characterization to keep the faces straight . \nIs this movie review sentence negative or positive?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sst2",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Slow, slow, slow, and did I mention SLOW.....\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Feeling the need to sample more than one donut shop while in Vegas I went to Coco Donuts after  getting a dozen at Pinkbox. Evening it out with \"only\" a half dozen here, the selection while not as vast, still delicious.  Custard filled cronut, clearly the star of the show here,  perfect in every way, from the crunch, to the custard to the glaze, amazing! Apple cinnamon, blueberry glazed, creme filled, crumb cake and a fabulous buttermilk bar also did not dissapoint! The owner is super nice and threw in some donut holes, cute, clean shop, worth a stop, it is about 15 minutes east of the strip. Seems like Vegas has some outstanding donut options, more trips planned soon!\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nI've been to the Nitty Gritty about four or five times before hockey games and always enjoyed it. The bar was full, a bit tough to get a bar but expected, and it seemed like a great time. We recently went there to watch the NCAA Football National Championship. I thought it'd be a nice place for a group of about 8 of us to watch it. The game wasn't on when we got there, and we mentioned we wanted to watch it and they sat us where we could see the game and then put the game on. There were a few tables of people in the bar with people, and all of us were interested in the game. However, they would not turn the sound on. We asked the waitress, and she spoke to the manage, and the returned to tell us sorry but she couldn't. We didn't really understand why, as everyone wanted to watch it, so we asked to talk to the manager. He came over and said his boss wouldn't let him do it, but he'd be happy to send this person over. Ok, we'll keep doing this, we thought. Yes, please send him over. Well that person never arrived. We waited and waited for about 20-30 min for the person to give us a reason why they wouldn't turn the sound on for a game that everyone was watching. We got fed up and walked over to the Steak and Lube that had the game on with sound and a lot of people watching it. I do not think I'll be heading back to the Nitty Gritty (unless it's before a hockey game) anytime soon.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Meh. I 've experienced better, as yelp would say. Totally unimpressive. I was very excited to stay here. Rooms were small and it is at the end of the strip. I way prefer the Venetian, way bigger rooms, normally same price, and more in the middle of the strip! Wont stay here again.\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I've only been a member for 2 weeks.  I am temp in AZ from CO caring for a terminally ill family member.  I needed a place to escape for relief. MSF is close.  I joined to attend yoga and pilates classes. 2 out of the 5 times I have gone to class there has been a mixup in the schedule.  Wed I noticed the online sched differed from the paper sched.  I called to find out the correct time and was given the wrong info.  Waiting with several other confused members for the class to begin, one of the said \"the yoga schedule has been jacked up lately\".  It's not easy for me to get away.  I have to hire home health care every time I leave the house.  I needed an outlet to relieve stress and get some exercise. MSF has provided the opposite.  To add to the so far awful experience, the front desk employees could care less.  AND I paid to attend a meditation class and realized I was charged 5.00 too much.  After I had to wait 20min to sign up and pay because no one at the front desk had any idea what I was requesting!  I had to direct them to the huge sign advertising the class outside the yoga room instructing to sign up and pay at the front desk.  Now I will need to spend more time and frustration trying to get my 5.00 back.   Needless to say I will be re-joining the wonderful PEORIA BIKRAM YOGA studio even though it is a long drive.  Anyone looking for mind/body classes for stress and exercise.....join a REAL yoga studio!\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the following review positive or negative?\n\nWhat a wonderful job hanging tv, audio shelf, hiding wires, and doing some electrical work.. Your one time shopping for just about anything around the home. Great job Travis !\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nI would love to offer a positive review for a grass roots local joint, but my third and final trip to this restaurant cements my initial impression - mediocre at best and not worthy of another visit.  Not sure what other reviews were about - I would love a more Italian, authentic product like they seem to be attempting to provide - wood fire oven is definitely a step in the right direction.  But the only good thing I've ordered here was the Pizza Margherita - tough to screw that up - pretty much a glorified Italian cheese crisp...Last go round my pizza was piled with no less than an inch of arugala - most of which was wilted and looked gross - covered with a thin layer of fresh arugala.  Asked the waitress about it and her response?  It works.  Nuff said.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nI had very limited choices here in this plaza when my friend wanted to stop at El Pollo Loco (which I won't eat). It was that, Subway or Qdoba.   Having had good experiences with Qdoba in Seattle/Bellevue, I figured I'd just give it a try. (I'm not much of a fan of Subway either, tbh.)   I went in, walked up to the counter and waited... and waited more... About 5 minutes passed and I still haven't been served because the annoying employee is having social time with either a friend or obnoxious customer over at the register, babbling on and on about how he's in school and blahblahblah. 'Scuze me? A little service down here?  Of course, after a few minutes I gave the employee the patented Condi Rice \"stink-eye\", and I'm glad I did, because this place has a big ol' B grade for their health department grade. Ew.  I did an about face and walked right out, wishing the next guy in line luck with actually getting some service.   I'd give 0 if I could, but +1 stars because the ignorant, incompetent employee's behavior caused me to notice the B grade, and realize that I probably don't want to be eating at this location.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Incredible. Love this place!  Best view of the strip!  Fabulous cocktails, service & VIP tables.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nThis is a review for the hotel. I'll update the review should I ever play games here. Jean-Philippe will gets its own review when I've tried enough of their selection, but they have good seafood quiche!  I've been spoiled by this hotel, for future Vegas trips I'll be expecting rooms as nice as this one.   This is one of the newer hotels in Vegas, situated near the Cosmopolitan and Mandarin Oriental hotels and Crystals shopping complex. It offers the 21st century equivalent of classy, different from the Bellagio. Check-in was hassle-free and straightforward. Upon going up to our rooms, the room was clean.  Stayed here twice on standard rooms. Instantly I was hooked on the touch panel on the center screen, which basically controlled everything except the bathroom (that would be kinda creepy if it did) and call room service. You could even review your bill and check out, which is one of the best perks about this place.   Beds were very comfortable, with the exception of snoring I had a good two nights sleep. TV was in HD and contained most of the common channels, so I was able to catch a bit of my favorite show being aired. LOVED the overall design of the rooms, gives a new meaning to contemporary and classy, from the mirrors to the drawers. If you get a room of the view, the windows are big enough to peer down at the Strip below, especially with all the lights at night.   Bathrooms were just simply GORGEOUS. Toilet and shower/bath had its own compartments. Glass is opaque on both doors.  Service is pretty good. We had a wonderful housekeeper who brought us plenty of shampoo and shower gel, and still kept an upbeat attitude when we forgot to ask for towels initially and asked him again.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I was told it was free setup, Do not let them plug in anything, I was told that  this is considered advance setup and you get billed additional $20.  I called to question and the girl stated \"Tough we told you!\" I was not told and explained this, She said o well it the fee\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nI've had a mail box here since 2003. Great package acceptance service, safe and convenient for me. The staff is always friendly and the rates are reasonable.  Open Saturdays too!\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nThere is absolutely nothing that separates this place from hundreds of other AYCE sushi joints across the valley, aside from maybe convenience. We came on a Friday night and the place was pretty busy. It is very apparent that the staff does not know how to handle busy peaks. We had three semi clueless people servicing our table. It was very bizarre.   We ordered three rolls, an order of nigiri, and green mussels. One of the three servers brings out the \"Mussels\".I point out that we ordered mussels and he informs that's what was in front of us.  I politely inform him that in fact I have seen a mussel or two in my day, and this was some type of a leaf tempura, not mussels. He looks confused, then he rushes off and comes back to inform us that it's really a complimentary chef's creation, and our mussels were going to be out shortly. Wow. I mean how could you even confuse the two?   The fish was not fresh and the creations were pretty much all the same thing. The service was extremely lackluster and a toddler slipped and fell as the family was leaving. They promptly grabbed the \"wet floor\" sign and put it up. They did check if the tot was okay, but then rushed to cover their butt. I mean, when the kid slipped it was apparent there was spilled water on the ground. Someone could have seriously injured themselves, or as a pregnant woman I shudder to think what could have happened.   Nothing about this experience warrants going back.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I'd give them more stars if I could. I can't tell you how many times I've been in here (a 20 year old car will do that to you), but it's always a pleasure. Surprising, I know! James and Nicole are not only nice, but superbly knowledgeable and caring.   I first heard of them from my Fed Ex guy- he positively raved about how great they were. I finally gave them a try when I bought a used Honda Accord. They did a bunch of work on it to get it in tip top shape since it had been sitting in a garage for a long time.   Shortly after, we encountered some additional unrelated problems, and they accommodated us so quickly and for such a reasonable price I was ecstatic. Every time we've gone, we've feared the worst, and it's always been reasonable and fixed correctly. I love that James always explains everything and shows us the old parts.  I have a limited knowledge of mechanics and always used to do basic repairs at home when I lived in California, so the thought of coming to a new area and finding a new mechanic made me really uneasy. I love knowing that now I have a reputable shop that would never try to pull one over on me. In fact, it makes me want to only have an Acura or Honda (since that's all they work on, to my knowledge).\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "You want a big-ass burger? Look no further.  Hash House A Go Go has one-pound burgers by default. Yes, you will literally weigh an extra pound after finishing a creation that takes up most of your plate.  Will you have a food coma afterwards? Youbetcha. Is it worth it? Absolutely.\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "My wife and I eat at Ka Mei fairly often. The restaurant isn't much to look at (outside or inside), but the food is excellent, the service is speedy (and most importantly, friendly!), and the prices are very reasonable. Admittedly, I'm no expert on Chinese cuisine, but I've sampled a number of items on the menu and been happy every time. The veggies always taste fresh, and the soups I've had are particularly good (I especially like their take on \"Hot and Sour\" soup and Wonton Soup). I try to eat healthy, but sometimes you just want the basics of \"Americanized\" Chinese food, and on the occasions when I've gotten the sesame chicken, I find that the fried breading around the chicken is quite a bit thicker than I'd like. Still, the servings are generous, and I can pull most of the breading off. Ka Mei has the feel of a simple homestyle restaurant in the very best sense and I would not hesitate to recommend it to a friend.\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the following review positive or negative?\n\nAmbience was great but food was very mediocre. The noodles tasted good. I didn't like the Manchurian. Food was very spicy.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nNummy.  LOVE 5 guys. Best burgers. Fries are pretty good.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nCame here during a visit to see Uncle Ryan.  My son loved it (3 years old).  We were running out of things to do for him so it was a good find.  This place is great for a couple hours if you have a toddler or young child you want to entertain & tire out.  They also do bday parties, it would probably be good for a small group of kids in that age group.  Pros: Clean price: $8 indoors so option for any weather/year round  Cons: It's relatively small :  there are 4-5 large \"bouncy houses\" and a toddler room\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the following review positive or negative?\n\nSo I just got a email from Yelp HQ that people are reporting me about this review for being an asshole.  I AM a asshole. Go read my other reviews. However, I am ALSO telling the truth! And as any asshole should do, I should INSTIGATE and PROVOKE!  I come to imagine that the average individual who wrote complaints about me for this creep-nest is a straight up fucking loser. You know, a homeless, crank-smoking, shit bag that kicks it with the unwashed juggalos next to the DJ/Rock N' Roll Stand across from the Plaza Casino.    AKA, someone who doesn't even have a job. And probably makes it a lifelong occupation to instigate fights along Fremont Street so they can get a misdemeanor battery charge for some free chow at the Clark County Detention Center.   Two weeks ago, I was outside The Griffin Bar on Fremont just sipping on my beer and enjoying a cigarette. Then, this scumbag bitch-made fat white dude with nerd glasses and white Dr. Dre Beats Headphones comes up to me screaming \"FUCK YOU! FUCK ALL OF YOU! AND FUCK ME!\" like a broken record.   As soon as I heard \"Fuck you\", I immediately whipped around to face him in the eyes. Motherfucker immediately said \"Fuck me\", etc, and blahblahblah. He was creeping out this set of girls outside of bar too until they finally gave him the simutaneous silent treatment.   Unfortunately, thats pretty much the end of the story. Unbelieveable. Usually fights on at this point. But I guess the bouncers at The Griffin also found him to be harmless and in many ways, pathetic.  UPDATE:   So there is a stabbing on Fremont Street that happened about two days ago. Thank you for proving my point that FSE is NOT SAFE FOR KIDS and NOT SAFE FOR TOURISTS as long as people like Timothy Dudley, 31 years old, are hanging out on that eight block stretch of methheads.   Tourists should type \"Timothy Dudley Vegas\" in Google to pull up the article. It's about a habitually lying Juggalo who got butthurt that some guy didn't give him change for crack money (maybe meth money?). So he threatened to \"beat his ass\", and a fight continued to escalate from there until Dudley pulled out a knife and stabbed the victim in the chest, severing a HUGE artery that needed 15 pints of blood to replace.   During the arrest, Mr. Dudley, in his meth-powered rampage, bashed his head repeatedly against the confines of the squad car, causing parts of the cage and windows to fall off.   I actually recognized and knew this fuck. Not on good terms.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Food was horrible. If it wasn't for my son this place would have never even been visited very disappointed. You pay for an elephant to move every half hr for like 30 seconds. Definitely was a one in done kind of place.\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Woop woop called in my breakfast got it super fast. Love this place!!! You guys rock! I can see why your place is always packed!!! Holla!\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nSo I went in and picked up a Sig Sauer P232 from the Guns and Ammo,  they just happened to have one of  these in the case,  as usual the whole crew over there was helpful and friendly .    But the thing that keeps me coming back is the customer service,  The P232 had a little problem with it and it had to go back to SIg Sauer for service.  The guys at Guns and Ammo stepped up and took care of it for me.    I would suggest to anyone looking to purchase a firearm to go to Guns and Ammo Garage.    -Mike\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Thank you for all the emails you sent me on my review! I was surprised at how many responses I recieved from people searching for the right dentist.. I shared my new dentist information and even got some movie tickets from my dentist for the referrals! I find it funny how since I wrote this review how many people have reviewed with 5 stars... They must have a lot of friends and family!  I hope everyone reads my review and picks the right dentist for your needs! Happy Holidays\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I ordered a breakfast burrito and a latte TO GO.  The burrito was delivered in less than 5 minutes. After that I sat and waited an additional 10 minutes for the latte. There were 4 people waiting for coffee when I ordered.   I get it that they take their coffee seriously here but 15 minutes for a latte when it's dead??   Burrito was ruined/inedible because the potatoes were basically raw.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I will never come here again...  HORRIBLE service and mediocre cupcakes.  The lady behind the counter, for lack of a better word, was a huge B****.  Literally.  It was like she was on the first day of her period and someone took away her midol and chocolate.  And to top it off the cupcakes weren't that great.  Avoid like the plague.\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nHorrible customer service. Such a shame too, since it's normally a good place to goto.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nIf I could give 0 stars I would. They always take a really long time to make crepes.  The ingredients are not fresh.  My last and final visit I had the older Asian guy making my 3 crepes. He was very rude.  He made on crepe handed it to me then rang other guests. Walked in the back, made the drink orders for several other guests. Then, made the second crepe and again same thing with the 3rd crepe.   They need to get training on how to make crepes.  My advice is go to Bellagio and watch how they make crepes.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "The food was excellent! Service was friendly. The restaurant itself has a welcoming aura and the music is not overwhelming and rather soothing. The food came out in a timely fashion but we did go in early around opening time. They take open table reservation on the site. Another plus side is they do substitute white rice for brown rice!;-)\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nThe food was ok but nothing special for the price. The ambiance was ok. The biggest beef (no pun intended) was the overpriced wine list. I mean $55 for Liberty School is just price gouging.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nYum. I just love the keg.  Food is yummy Service is fast Servers are friendly Prices are decent  What else can you ask for??\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nTERRIBLE. If you want to get cut and leave with your fingers bleeding while being made fun and talked about in a different language then this is the place for you. There are only two employees that do GEL manicures and the man is absolutely terrible. He cut me several times and he was rushing. My nails were uneven and sloppy. He used to work up the street at N'joy nails but was fired, probably because he's very rude and doesn't take his time. My nails also started chipping two days later and gel is supposed to last 2 weeks. I will never give my business to this salon and I wouldn't refer anyone either.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "So fun to have a place like this in the Strip.  I just found out that they have chocolate oranges - I look for these in all the stores during Christmas and never thought to come here - well they have white, milk, and dark chocolate varieties available year-round.  I love the dark chocolate, but only because I didn't know the other two kinds existed!  They also have canisters of malted milk balls, unique chocolates from all over, seasonal items, and a cafe-ish area.  I didn't try the hot chocolate, but I hear it's a must-have.  While we walked around the small store, three different salespeople asked if we were finding everything okay - possibly because I kept taking pictures to Instagram and I didn't realize until after I left that there's a sign asking patrons not to take pictures. Ooops!  But no one said anything and they were polite, so thumbs up for the service here.\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Total Wine is my choice over Bevmo.  I just like everything about it. What else can I say?  There are far more choices. Its more of a cozy relaxing atmosphere.  I can spend a lot of time here just browsing. Maybe it was me just being thirsty. But I can say there are a quite bit more CSRs there ready to assist with whatever you need.  As I passed a few helping other customers I happened to hear honest opinions in choices.  They weren't trying to force sell anything.  And believe me what I heard was something I would say about something that I have tried.  They also carry my Bud Select which is nice to know that I can pick that up if I cant make any decisions on what to drink.  I am sure I would the next time I visit.  I do plan on being dutchess of Total Wine.\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "They never have Apprentice services available. Even when trying to book months ahead!\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nGreat service and food. The setting is nothing special, as it sits right in the middle of the MGM casino, but they've tried to make it nice. Getting a decent seat was no problem.  Went for lunch. Very reasonable. The sandwiches are big and the beer is cold. I am a HUGE fan of reubens, but opted for the Cuban instead. Good, but compared to my wife's reuben, I made the wrong choice. Served on pretzel bread and thick with fresh ingredients, this sandwich ROCKED!\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "**this is a review of the fireside lounge** Giant pink chick drinks with 6 shots and ice cream for $18 ummmm 2 please!! Known for their Scorpion which is kinda like a Mai Tai or for people in the Northwest it is the desert version of the De-railer.  Oh man too bad this is a little north on the strip because this would be my go-to prefunk drink when I am hitting the strip but at least an option for nights at the Wynn or Venetian.  The funny thing is that Rhumbar at Mirage sells Scorpions for $46!!  The place itself is pretty cool with the fireplace and big comfy chairs with 80's and 90's music videos playing. I did not have any food but they have free peanuts on the table. It is a little small and be careful not to leave the place driving because it is swarming with cops.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the following review positive or negative?\n\nbest sushi in this area. i've tried going to other places around centennial hills but nothing is as fresh as this place. plus its across the street from our house, so convenient for late night sushi cravings\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Is the following review positive or negative?\n\nI was disappointed with the food and service. The waffle breakfast sandwich was overpriced for what it is. 10.95 is too much for a small sandwich where the waffles seem like it come out of a box from the frozen food aisle with no sides. It was also very bland! We also ordered the breakfast pizza that was topped with scrambled eggs, cheese and tomatoes. We where asked if we wanted sausage or bacon and were charged extra. If they are asking you if you want bacon or sausage you would think that it was included. they should ask would you like to add bacon or sausage\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following review?\nIf you love microbrews, and good ones, you will like Santan.   The owner, Anthony, used to be the head Brewmaster at Four Peaks. Not sure why that didn't work out, but when he left Four Peaks he decided to open up his own brewery; and thus began SanTan Brewery. You can find him sitting at the bar, conversing with his customers and getting a good idea of what they want from the bar/restaurant.   The food is really good at Santan, and each meal can be paired with a brew. I am a big fan of the Santanwich and the Raspberry Stuffed Mushrooms.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This is my favorite bar to go to!!! Right by Mountains Edge, very easy to get in and out of. We always go during happy hour, which is amazing. During any football game they run the happy hour specials too. I recommend the quesadillas and tacos. Always amazing service from the waitresses and bartenders, love Porter! Go Broncos!\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Can't wait to return!   Staff was BEYOND friendly, helpful, and polite (Cafe Rio could take a lesson).   The process was simple and quick. Next thing you know, we have our own personal pizzas! Fresh pizza and a drink for 2 for only $11.95!? Can't beat that. We can not wait to return.\nHow would this review be described in terms of sentiment?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nThis review is for Great Arizona Picnic event of the Scottsdale Culinary Festival ... I want to key in on the word \"Picnic\".   A lot of reviewers have complained about the food not be of culinary excellence, which is correct, but the selections are decent for a picnic.  There is broad range of mediocre, decent priced food from local restaurants, such as BBQ, taco stands, gelato, sushi, and even Indian Food.  Despite what some of the reviewer's state, there are several events throughout the week that are tailored towards the Foodies.   These events do cost more than $10 for admission, as do most extraordinary culinary events.   Now back to the picnic, it's a blast!  It's a perfect way to enjoy the spring while day drinking.   This year, they went away with tickets and instead you put money on the GAP card, and pay vendors with the card.   I believe the reason there is a no cash policy, is because a portion of the proceeds go to non-profit organizations. We spent a good amount of time in the beer garden.  On Sunday the price of admission into the garden was cut down to $10, and then each beer sample (4oz) is $1.  With a selection of over 200 beers, it was a great way to try all different kinds of beer from local breweries and vendors.  The rest of our day was spent lounging on the main picnic lawn enjoying the bands playing on the main stage.  To sum it up: Go to the AZ picnic if you want to hang out in the sun and enjoy some tasty beverages and mediocre food... Don't go to the picnic if you have less than $40 in your pocket, and expect to be delivered a culinary masterpiece.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Everyone's least favorite place to drop $300+ twice a year on text books. Nonetheless, I dig this place, because they consistently have way cheaper office/school supplies than Walgreens.  Additionally they carry a stellar selection of date books and art supplies. (not sure how reasonably priced the art supplies are) Also, the upstairs book store is extremely convenient when you need to get that last minute travel guide for your last minute vacation. (or gifts) On the reverse side, all of their UW gear (sweatshirts, water bottles, etc etc) might as well be purchased at Steve & Barry's for half the price.\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I know it would be wrongheaded to expect a great burrito from a bar and maybe I should not have ordered it.  The burrito was not good.  It was more of a vegetable wrap.  My date didn't take the burrito detour and ordered a wrap directly.  It was a lonely little thing in a plastic basket.  She described it as \"good, not great.\"  But these facts alone do not earn this restaurants two stars.  Mortimer's gets this rating because they served dinner, on a Friday night, with plastic silverware.  No points awarded for how amazingly close an approximation to real, shiny silverware these plastic forks and knives provided.    The food quality, the cramped quarters, and yes, the plastic silverware all gave me the impression that I was dining on an airplane.\nIs this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is a winesky?   I'm so very glad that you asked. A winesky is a cocktail containing the happy marriage between Coach House's finest cabernet and whisky from the deepest well in all of  Scottsdale. Conceived from the mind of my favorite genius bartender, Drew, a winesky is an all out assault on your senses, and if you have one too many of them, you will surely be ass-over-tea-kettle in no time flat.  Coach house is the best bar in Scottsdale. Hands down. (DJs was a close second) I generally come here with Rabbi Andrew Michael Doohan III. If it is a proper night, we will stroll in sideways at 12:00 am on the dot, and our standard order is two shots of whisky and a pitcher of Bud Light. Often, if Drew is working, he will line our order up as soon as the Rabbi and I walk in the door. He knows us a little too well, perhaps.   $13 for the first round. Well shots(including wineskys) are generally $3.50. Full pitchers are $6 or $6.50(domestic, of course).  I love the other bartenders too, although some of them overcharge on occasion, and they don't necessarily get my jokes.....  Christmas lights from November-February. Free Barbecue every Giants home game during Spring Training, and almost every Sunday for the rest of the year.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "After 2 classes at Pure Barre, I'm hooked.  I waited until after the second class to write this because I wasn't sure how much of a workout I got...until I sneezed and my abs felt like they were going to explode...in a good way!  I had a LivingSocial deal for 2 weeks of unlimited classes, and it turns out your first class is free, which is a great way for anyone to try it out.  A few tips before you go: -Everyone wears socks with treads on the bottom.  They sell them at the studio, but you can pick up a similar yoga pair somewhere else. -When you go for the first time, the instructor will tell you what equipment you need (weights, a ball, and a band), so that's helpful. -Everyone there looks like they stepped out of the Lululemon catalog.  Don't be intimidated; you can do this workout too!  The class starts off fast and doesn't stop.  If you think you're getting a break to stretch, you're not.  The instructor does give you some adjustments, but a lot of the movements are so small that it's tough to know what's right.  My method is to just go by feel; if it's tough, it's probably working.  I was a little surprised that we don't do more barre work; a lot is on mats or the floor.  No problem really, because the barre stuff is the toughest.  I really wish it was less expensive, or even if they would include cheaper \"community classes\" taught by instructors in training like some yoga studios do.  They advertise that you will see results in 10 classes or less....so I'm going every day until my deal expires because I feel it working already!\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nI can't seem to fathom what the employees are thinking at this place. They show no hospitality at all, and basic restaurant service seems to be non-existent. They work as if they're offended to be our waiters and waitresses.  As my party and I are seated, the server asks us if we are ready to order.  We need some time to look at the menu, so we tell him to give us some time.  Only thirty seconds pass when he returns and asks us to order.  We repeat the procedure about 2 more times until we feel so compelled to order we give in.  My dad had a special request to add chicken and beef in the soup, but the server couldn't understand us. He seemed really confused and frustrated, so he brought someone else over who had better English. He turned around and muttered some word that I'm sure wasn't too polite.  We place our order and in less than five minutes our dishes are ready.  I love fast service, but for some reason I felt queasy that day.  I just knew it wasn't prepared 100% fresh.  Plus the server's attitude earlier set me off from my usual happy piggy mood.  We asked for extra dishes and the server seemed offended that we were giving orders.  Maybe I'm just reading into their body language too much, but they give the expression like I said something mean about their mother, which of course wasn't the case. Seriously, what's the deal? Not once did they stop by to check up on our water, or ask if things were okay.  The food itself is OK, but that day it tasted especially bland. Maybe the bad service was getting to me.  I noticed the pho tasted like noodles and water; no amount of hot sauce or fish sauce could add any flavoring.  Judging by how fast the food was served, I wouldn't be surprised if it was just composed of water. We rose and paid for our meal, and I felt like I wasted every cent of it.  I would've had better service at McDonalds, hands down.  My whole afternoon would've been ruined but thankfully the Yogurtland right next door cheered us up.  As soon as we enter, we are greeted with a warming hello.  That alone made me feel better.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I found V. Picasso ultimately very disappointing.  They've worked hard on the place, and the decor is lovely, albeit a bit-Vegasesque.  However, the tapas themselves are lackluster, and while certain ones have promise, others were incredibly disappointing.  The Spanish ham, machengo and olive tapa was not only more minuscule than one would expect (two pieces of ham?  Tapas does not include simply obtaining nothing but air).  The tortilla with chorizo was simultaneously bland and a bit chewy.  I've enjoyed many a Spanish tortilla, and this one just felt under flavored and overvalued.    The sangria was also incredibly underwhelming.  We were offered a sample of each, red and white, to try.  White seems the best, but the actual pitcher we obtained was filled with the sharp taste of excessive lemon rind and generally unpleasant.  The two bright spots were in the dessert and the service.  The dessert churro, which we ordered, was itself rather unimpressive, and more doughy than I've usually expected, even from a Spanish style churro.  However, the accompanying mocha chocolate sauce was nothing short of amazing.  Absolutely totally amazing.  As in i wanted to dip everything ever in that chocolate.  Wonderful.  Finally, our waitress, Lisa, was friendly, helpful and ultimately made the night far better than the lackluster meal deserved.  She was a definite bright spot and deserves mention.  Overall, I'd go to V.Picasso for a glass of wine and maybe a dessert.  But I'd skip the meal aspects, and certainly the Sangria.  Mr. Fuentes has a delightful chain of restaurants and breakfast places in the area, but this foray into fine dining is a misstep.\nWas this review given positively or negatively?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How might one describe the sentiment of this review?\nI am giving Olive & Ivy only 1 star because the employees have no idea how to run a restaurant or deal with customers.  We went there to celebrate a Birthday which did not go too well.  First when we made the reservation we were told to come in before 3pm on a Sunday so we could order from 3 menus well when we arrived, we were told a different story about the menus and told something else by another person and the story kept changing depending on who you spoke with.  Well this restaurant should be closed between 3-5pm on weekends as the only items are flatbreads, a select few salads and apps but no one tells you this when you call.  So we had planned to order dinner but were told we could not something to do with the kitchen, but we were also told we could not order from the brunch or lunch menu either so we were stuck as to what to order, well it was terrible - the flat breads were terrible, dry and way to salty. The bacon burger was not worth $12.00 and it was just a real bad time and the manager would not comp anything for all the bad information and did not seem to care we could not find anything good to eat on the menu.  We had told the waitress we could not handle anything spicy as to let us know if we ordered something which was spicy well do not order the hummus, we were not told it had jalapenos in it even though we asked, they did not take it off the bill even though 5 of the 6 people at the table did not eat it.  We will not visit again, very bad experience, bad manager, bad customer service.  not a good fox restaurant, plus the uniforms looked like construction workers.  The food, was well not worth the money and have had much better elsewhere.\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "yelp_polarity_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "VHS - I have watched this over and over and LOVED every minute of it so much so I have now ordered the DVD I only wished the film could have lasted longer. I never worry about what other people think I prefer to make my own mind up and entirely disagree with the negative comments and will not let others spoil my enjoyment of the film whatsoever. Make up your own mind and don't let others put you off! I have all Jane Austen's BBC series but this is my FAVOURITE. I see there is to be a NEW Northanger Abbey released in 2007 which I will buy when it comes out but it will not stop me watching Northanger Abbey released in the 80's.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I know when you buy a used (oops, excuse me, previously viewed)DVD for $5.99 you shouldn't have very high expectations, but even that was a steep price for this poor boxed disc.\n\nI will give the producers credit for providing a complex challenge for the viewer . . . to determine which is worst, the acting, the scripting, the camera work, the special effects . . . they all pretty much tie for just plain terrible. Oh, it has the absolutely WORST faked car crash ever used in a motion picture anywhere.\n\nNow all this is pretty serious ridicule for a movie fan who proudly features 'Police Academy', 'Naked Gun', 'National Lampoon's Loaded Weapon\" and a host of other campy discs in his collection. But, at least those folks know that ones tongue should be planted firmly in ones cheek, the cast of PW, unfortunately use their tongues in an attempt to deliver inane dialogue. And, although it is almost beyond my belief, the movies characters seem to think they might actually be doing something of value. A back room pornographer would be ashamed to release this mess.\n\nOh . . . lucky me bought the worst video ever made at the same time . ..\"Fraternity Demon\" . . . maybe the name should have given me a hint.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This film would have put the typical Hollywood \"tearjerkers\" to shame. The emotions portrayed are subdued and understated in a very comfortable fashion. The plot is cliche enough with a lead role having terminal disease (this is not a spoiler and was well established quite early into the movie) The method of execution is somehow unique from most love stories you ever saw--not even a kiss was being exchanged and yet you will feel the enormous current of love between the two leads. Initially, I assumed this \"restriction on emotions\" to be something analoguous to the typical \"eastern values\" but later decided against it.\n\nThis film is so understated that if you compare it with movies like \"Cinema Paradiso\", CP would have felt overtly manipulative by comparison. So, it's definitely not everyone's cup of tea.\n\nAfter watching the film, I have this strong feeling that Holly- wood love movies, (or love movies all around, to be accurate) have been glorifying romance or passion and label it as \"love\". I am sure we all have our own definitions and I wouldn't say these qualities are mutually exclusive. But, I would venture to say that the movie will let you wonder if there is any added dimension you have with you loved one.\n\nIt's very obvious that I enjoy this movie a lot. Considering the fact that the movie is so plain in appearance, it is paradoxically one of the more \"cinematic\" movie I saw lately.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: This film is a hodge-podge of various idiotic cliches. For instance, boy-meets-spoilt-rich-girl and gets her to fall in love with him by harassing her in college (an over-used backdrop in recent Indian commercial films). A male chauvinistic glorification of sexual conquest. The climax is predictable (having been used ad nauseum in several other films). As with many other recent commercial Hindi films, the film abounds with the incongruous insertion of songs, which probably contributed to the film's success more than anything else.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "First of all I have to say that I'm a huge Lucio Fulci and Dario Argento fan. Although I have not seen absolutely all of their movies, I really enjoyed almost every one I did see. I really like giallos and I thought Argento was the master of this genre, after seeing films like \"Tenebre\" and \"Phenomena\". But after I saw \"New York Ripper\" by Fulci, I found out that he could do pretty good giallos besides his graphic zombie movies and even outdo Argento, on a certain level.\n\nI love Fulci's style, and yes I love gore, but this film I think, although it has a more developed plot and characters than his other films, is not his best one. What I don't like is that it can be confusing at times, especially at the end. And the fact that we go from one suspect, to another, and then another until we even suspect the retarded little girl for a moment, I think it goes too far. I know giallos are supposed to keep you guessing until the end, and the killer should be very hard to find, but this film plays a little too much with our minds. However I did like the scene when the witch is killed, I think it is very well done and gave me the chills. The acting is also pretty good and the photography is great.\n\nAlthough this is not a bad film, I think Lucio Fulci has made better films than this, and I think his best one is \"The Beyond\", a very different movie but a more atmospheric and visual experience.\n\nI give \"Don't torture a duckling\" a 7 out of 10.\n\n\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nOur Family and friends enjoyed this movie very much. The theme was well handled by the Director with great performances from Shabana Azmi, Konkana Sen and well supported by good performances from the other cast. The climax was built well but for the ending which was a far from being called \"Good\". We are still trying to understand what was the Director trying to convey? Were they short of ideas or was the ending beyond the understanding of common movie lovers? A better ending would have created a lasting impression on the audience and increased the viewer-ship. This however should not take away credit that is due to Konkana and Shabana Azmi for relating so well with the characters!\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "...means \"take up and read\", which is precisely what I felt like doing after having seen this marvelous film.\n\nVon Ancken stimulates and inspires with this breathtaking and superbly executed adaptation of Tobias Wolff's 1995 New Yorker article of the same name. The incredible performance by Tom Noonan is brilliant and provocative and the editing, sound design, cinematography and directing are truly inspired. The nuanced changes and embellishments on the original story are subtle, clever, and make the film cinematically more dynamic. It's lyrical pacing is mesmerizing and begs you to watch it again.\n\nWatch out for this young director...he's going places.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Although allegedly autobiographical, this movie demonstrates very little insight both into the protagonist's psychology (resulting in a flat, fragmented characterization) as well as into larger-scale historical processes, and my hope of either learning something new or improving my understanding of contemporary Iran remained unfulfilled. Instead, I found my sensibilities somewhat dulled as a succession of bearded Islamic villains replaced each other taunting, torturing or killing the wantonly victimized prototypical middle-class Iranian whose Western cultural sympathies were patent (and whose exoneration the movie quite blatantly seeks.) The deeper understanding the movie does seem to demonstrate is that of the mass-media market, as it serves to nourish prevalent occidental folk-ideologies (i.e. a \"crowd pleaser\"). \n\nWhat redeemed the movie from being outright boring was its creative animation - genuinely minimalistic imagery which, nevertheless, always kept the screen rich, expressive and unambiguous - no small fete for which I do give it some stars.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: I found this film to be extremely homophobic... the main character doesn't know he's gay until he realizes that he likes Barbra Streisand and has a limp wrist!!! I was so offended that after the screening at the Toronto Film Festival, I went up and spoke to the screen writer to complain about this film. This is the sort of film that GLAAD needs to work to have banned.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "normally,i would say i loved this movie.not for acting,although that was OK.not for the script,which was so-so.the reason i would have normally loved this movie is for the intense action,which starts from the get go and doesn't end until the final credits roll.but,the problem with this movie,and i felt it was a big problem,was the horrible CGI.it looks like they ran out of money and couldn't complete the the effects shots. a lot of the effects look lime they are in their very roughest form.since it is obvious they didn't have enough money to finish the movie,they should not have released it.i actual found the effects insulting.it seems obvious they didn't care about making a decent end product for the consumer.if it weren't for that,i would give this movie a much higher rating.my vote for Air Panic is a 3/10\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Martin Lawrence could be considered a talented man, but those days are long gone. Runteldat shows a man who at once tries to play the sympathy card to his plight yet takes responsibility for it whenever he thinks it'll benefit his ego. The sad truth is that at this point in his life, his best days were behind him: his half-funny show was dead in the water after his co-star left and to today he faces a career of voice acting and god awful action films.\n\nOne gets the impression that this concert film wasn't made to give Lawrence's career another boost after his humiliation but rather a childish attempt to clear the air by both trying to pathetically salvage what remained of his life and somehow twist it into something to be proud of, some defining moment in which he showed himself to have 'earned' his fame. Sadly, the concert is nothing but a gravelly-voiced Martin incoherently trying to be funny, invoke pathos, and then claim he doesn't care about it at all because hardcore. The sad truth is that this is the real public embarrassment for Lawrence: the way he rambles on invoking sad pity laughter makes you wish that he would just strip down to his underwear on stage, wave a gun around, and just reenact it all over again. There is no real insight to his performance at all. Much like the childish title states, Martin is trying to make his ultimate moment of truth his own in his way and fails miserably. He would have been better off waiting for the E! True Hollywood Story instead of running on a stage and making an idiot out of himself for the second time.\n\nPerhaps the saddest thing about this concert film--or rather, career eulogy--is that Martin didn't put any thought into this. What was this film supposed to prove? Sadly, that his fame was fleeting, he was a flash in the pan before the underwear incident, and now that the only way he can get work is piggybacking Will Smith or a Pixar production. They might as well called this concert 'Tombstone' because that's what it is. Martin Lawrence just dies on stage here, and with it goes what could have been an interesting career. Now? Just a pathetic side note in history.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nLike most other reviewers, I really enjoyed this TV miniseries. I didn't see it when it first came out, but my grandfather - a big fan of mysteries and war films - happened to record it in 1989. I remember watching it at my grandparents' cabin one night and I was completely drawn into the story! It has a very intriguing plot and a good mix of drama, romance, and espionage. I've seen lots of films that are set during WWII, but none with a twist like this! Thankfully, I was able to make a VHS copy of the film several years ago. I've watched it several times since then and I still enjoy it. I would love for this film to be released on DVD. It would be so much easier to view with chapters.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "A woman who deals in art starts to have a passionate love affair with a man named John. They make love everywhere they go and they play sexual games. The problem I had was that was all they did. There was no plot at all to this movie or I just didn't see it. The hot erotic passion was the best thing about this movie but I wanted something else to happen. Perhaps he could have been a serial killer or she could have had a secret. I just needed something and all that there was was a bunch of love making scenes. Not that's it was bad or anything, I just wanted more things to happen in the movie. Perhaps a coworker was sleeping with him too. Anything! I was greatly upset that this was all that there was. Mickey Rourke was so hot back then. I wonder what happened.\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This one and the one prior \"Toulon's Revenge\" and the next one seem to be completely different from the first two movies where the puppets were not so nice. It is basically choose your series, the first two go together and paint the puppets as killers, while the next three are a series of them being the good guys. This one plays out to much like some cheesy television series episode to be as good as part three was and I never really had the urge to try and watch part five of the series. Basically, a kid gets the puppets while some strange dark lord or something sends his evil puppets out to kill, this dark lord looks like some sort of enemy from one of those live action Japanese shows like Ultraman. The movie is over before you know it though so it has to get credit for not inflicting you with a very painful to watch movie. Just to many plot holes and things in it for it to be considered an okay movie. You do get to see the guy who played Toulon in the last movie though then you have a very anti-climatic battle and wham the movie is over before it really begins.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Captain Corelli's Mandolin is a beautiful film with a lovely cast including the wonderful Nicolas Cage, who as always is brilliant in the movie. The music in the film is really nice too. I'd advise anyone to go and see it. Brilliant! 10/10\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nThe Chasers War On Everything. 5 words that I love to watch. The chasers war on everything is an excellent Australian comedy. As the name suggests they wage war on everything. They seem to love hitting the politions most of all.\n\nThe Chaser is one of the best comedies I have seen and is the top of the line in Australia. It is on the Australian Broadcasting Corparation (ABC) which is where some of the best comedies are.\n\nIt has won the Australian Film Industry (AFI) awards but did not win the best comedy at the logies. \n\nLast Year (2006) the chaser was aired on ABC on Friday nights when everyone was out so no one could watch it. Well they have been moved to Wednesday nights at 9pm (a heaps better timeslot) and the best thing is if I miss an episode or even just want to see it again i can download it from www.ABC.net.au/chaser.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Renee Zellweger is a Kansas housewife whose domineering husband is mixed up in drug trafficking. Two professional hit men -- Morgan Freeman and his son, Chris Rock, murder the husband in his dining room. Zellweger, unobserved by the killers, witnesses this and undergoes a dissociative reaction, assuming the personality of a nurse -- the eponymous Betty -- who is a character in her favorite soap opera. Believing herself to be the TV character, Zellweger takes off in her husband's car, which has a load of dope in the trunk, and travels to LA where she hopes to link up with another character in this mindless afternoon drama, \"Dr. David Ravell\", Greg Kinnear. Not realizing she is being pursued by the two hit men, she drives to LA where she manages to link up with Kinnear and is actually written into the show as a nurse named Betty. A handful of men in the know, including the local sheriff, catch on to what's happening and also seek Zellweger in LA. The ending is believable and poignant.\n\nIf that sounds crazy, it's because it is. And it's the writer's responsibility, John C. Richards. The curious thing is that Richards and the director, Neil Labute, with considerable help from the performers, just about pull it all off. This isn't a plot that has been cast in a familiar mold. Nope. I give it bonus points for sheer originality. Somebody went out on a limb. Somebody took a chance on a movie that was NOT a copy or remake of something that had made money ten years or fifty years ago. I imagine the people involved, down on their knees every night, praying fervently. I don't know if the film was remunerative but it's mostly successful on its own aesthetic terms.\n\nIt's what might be called an \"initial premise\" movie. You start off with a single transformative event, in this case the murder of Zellweger's husband and her adoption of a genuinely new personality, and follow the resultant logical paths realistically. \"Groundhog Day\" is another, better and more intricately plotted, example. \"Nurse Betty\" has its logical cracks, where the incidents give up their plausibility. Eg., at a party in LA, Zellweger finally runs into Kinnear, the guy who plays her ex-fianc\u00e9 on TV. She's stunned (because, after all, she thinks she's Betty, who lost her fianc\u00e9 long ago). She approaches Kinnear and a couple of his colleagues and introduces herself as \"Nurse Betty\", the character. She addresses Kinnear by the name of his TV character, \"David Ravell.\" The group are puzzled at first, then convince themselves that she's an aspiring actress who insists on staying \"in character\" during the conversation -- and afterward, too, after Kinnear has become fascinated by her and the others bored. Kinnear drives her home and even when she kisses him goodnight, she's still in character, leaving Kinnear wide-eyed with astonishment at the relentless way she captures the character of Betty. On the next date, Kinnear returns her love. That development, the relationship between Zellweger and Kinnear at this point, is a crack in the logic, the kind that's absent from \"Groundhog Day.\" By the end of Night One, Kinnear, like any other person, would realize that Zellweger is a few clowns short of a circus.\n\nThe rest of the film, which includes many digressions, succeeds beyond expectations. The relationship between Morgan Freeman and his insolent, nihilistic son is marvelously spelled out. Morgan is flawless in his exasperation. He manages to fall in love with the image of Zellweger as he unearths clues to her whereabouts and activities, and at the end he can't bring himself to shoot her. She's too sweet to shoot. After her transformation into Betty, she left a note behind in Kansas. \"I want to help all life, whether it be animal, plant, or mineral.\" Who could harm the author of such a preposterous connative statement? His admiration of her comes as an epiphany, as he stands near one of the floodlights at the rim of the Grand Canyon. Zellweger, dressed as Dorothy, or maybe the Good Witch of the East -- well, characters that, like Zellweger, are from Kansas anyway -- appears to Freeman and he embraces her and kisses her tenderly. It's a scene that's at once eerie, romantic, and a little spooky. I once stood at one of those lights and threw some shredded paper into the updraft from the dark canyon and found myself surrounded by a thousand swirling bats who had misperceived the fluttering shreds as moths.\n\nRight. Where was I? Okay. I was trying not to run out of space. Zellweger's performance deserves plaudits. Everything she does, every movement, every utterance, is naive and tentative. She really IS a likable character -- and that despite the fact that she's no glamor girl by Hollywood standards. But -- what an actress. Compare her performance as the bumptious 19th-century hick in \"Cold Mountain.\" Just the opposite. But then everyone is up to snuff in this enjoyable film. Allyson Jannings does a fine job in a minor role. Watch her when she tells Greg Kinnear that she's considering killing off his character in the soap opera in a drowning accident. Kinnear is one of those narcissists who wears the kind of ten-thousand dollar thin black leather jackets that were popular at the time. He chuckles and says, \"Oh, one of those castaway deals, right? Okay, how do I get back?\" Jannings doesn't answer. She just smiles at him with those enormous blue eyes and tilts her head mockingly.\n\nNot a masterpiece of film-making but a good, original, professional job by everyone concerned.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This is a good film, no doubt, but with some odd aspects. Without spoiling anything it takes place in 3 places only- a Sicilian farm, the boat,and Ellis Island New York. All shots are close up so we never see a broad sweep of anything. I wonder if this was to save money? No street scenes anywhere, and we don't even see the boat except in close ups. And the music...what on earth was going on with playing Nina Simone songs, decades before they were out? I could have done without the milk river business too......But hey, before you think of me as a pure misanthrope, let me repeat, this is a very good film, with heartbreakng moments, wonderful photography, great characters and more accuracy than the usual (American) efforts at the immigration experience.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I Liked this move when I was a kid, but now that I'm older I can see how absurd the plot really is. In case you didn't read the earlier reviews it's about a teenager and an Air Force Colonel who steal two fully loaded F-16s to rescue said teenager's dad.\n\nIt does have some nice aerial stunts, even if the dialog accompanying then is basically teckno babel.\n\nSome unintentional humor in the edited for TV version. When the hero's dad is being held by Iran, err I mean an unnamed country, and his captors ask him for a confession (relating to why he's being held, don't worry about exactly why, or what they want him to confuse to.) he says \"Tell him he can take my confession and shove it down his throat.\". However his lips and, more importunely, his gesture make it clear what motion, and part of the anatomy, he was really thinking of.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "those people,who told me\"this movie is good\"-shame on them!this film is for an audience,who has no problem to watch everything{especially when it's all about tough guys,guns,chasing&heists}.i 'd compare this movie with\"The Inside Man\"{the same loss of time}. i'm tired of copy and paste movies.and i'm discontented,but what can i do?fans of that types of movies are much more.... if you want to watch good movie from that type ,i will recommend to you \"Lucky Number Slevin\". i'm not mean, i just dislike this movie{weak actors,weak script,weak action}.probably someone else will like it.many people-many tastes.HOWEVER FOR ME\"CHAOS\"IS TASTELESS!\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Well the film starts good, but after half an hour it becomes boring and stupid, when all the plot is about Karen's( that was the name of the girl right?) pregnancy.\n\nThe end of the movie it's really corny and the characters really dumb.\n\nI don't know who is more stupid, if the girl because she came back with her old boyfriend or the boy for the way he was used for her.\n\nAnyway my conclusion is this: definitely not the best eighties comedy, just another movie like many others with nothing special, they could do it better but they ruined it, if only the plot had take another way but they keep that pregnancy stuff and they definitely ruined, so final conclusion: i don't like.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "My original title for this review was going to be, \"Ending disappoints, Film triumphs.\" But I actually thought about this one on the way home. It is not the fairy tale most of these films are, it takes turns that are different and while its ending is at first disappointing, it slowly sinks in and hits the core on a satisfying tone.\n\nThe plot follows a man named James Aaron(Curb Your Enthusiasm's Jeff Garlin, who also wrote and directed) a struggling actor who lives in Chicago with his mother and deals with both his obesity and his inability to find someone to love.\n\nYes, it sounds corny, but it experiments with elements that make it somewhat unpredictable, and actually makes you wish it were longer. The ending came kind of abruptly and had me saying, \"that's it!?\" But once it starts to take it's toll, it really makes you smile.\n\nIt does have many tones of seriousness throughout, but fear not, for it is also very funny. Some scenes offer huge laughs, and those who have seen Jeff Garlin's stand-up will recognize a couple (Primarily when he gives a speech at career day for his niece's kindergarten class and bombs). It begins on somewhat of a serious note that you do not expect, but what follows is very funny, entertaining, and quite poignant as well. It is the kind of movie that you keep watching and always enjoy. And as I said before, while the ending may seem absurd at first, once you take time to think about, it is a true joy.\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "LIGHTS OF NEW YORK was the first \"all-taking\" feature film, coming in at a brisk 57 minutes and directed by Bryan Foy (of the famous vaudeville family).\n\nThe story has two dopey barbers (Cullen Landis, Eugene Palette) yearning for a chance at \"big city life\" and getting involved with gangsters and bootleg booze. One of the guys gets framed for the murder of a cop but is saved at the last minute by a gun moll (Gladys Brockwell).\n\nMuch of the story takes place in a night club called The Night Hawk, which is run by a crook named Hawk (Wheeler Oakman) who has his eye on a pretty chorine (Helene Costello) who is the girl friend of Landis. Costello gets to do a brief dance, and we hear Harry Downing (made up to resemble Ted Lewis) sing \"At Dawning) in his best Al Jolson style.\n\nThe acting ranges from good (Palette and Brockwell) to awful (Oakman). A couple of the actors muff their lines but then keep right on with the scene. As noted elsewhere this was intended to be a short 2-reeler and was made on a shoestring budget. Yet the sound quality is surprisingly good, the voices all register clearly, and there is a neat cinematic touch in the silhouette death.\n\nThe film was a box-office smash even though it was shown as a silent film where theaters were not wired for the new sound technology. No one expected this little film to gross an amazing $1.3 million. It briefly made stars of Costello and Landis and certainly launched Palette on his long career as a star character actor.\n\nCo-stars include Mary Carr as the mother, Robert Elliott as the detective, Eddie Kane as the street cop, and Tom Dugan as a thug.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "After watching \"A Texas Tale of Treason\" you feel a renewed disgust for the nature of the Hollywood beast. Inside the interviews and conversations of all involved with the project there is a common sense of comradery and rebelliousness that spans backgrounds, social classifications, and even geography. This can be attributed to hard work on the entire production's undying commitment to the project and the love the of the story from the original film, and the complete creation of vacuum that is it's creator. The scale of people involved in \"Waldo's Hawaiian Holiday\" was amazing to me, at a no budget, no glory production. There were no trailers or craft services, no amenities at all, and yet everyone involved stuck right there with it. If nothing ever comes of this project, Antstuie Productions have laid their foundation for being a serious, honest company that's never going to lay down and take it or sell out and make a movie just for the money. I'd like to see any L.A. director go through the guerrilla process to get a shot. More realistic true to life cinema is lacking in this time of CG and green screens. The masses may enjoy their entertainment spoon fed to them in nice bite sized censored calm bits, but there is a large group of people out here in the world that share the opinions and insights of the filmmakers that still make films for the love of the material or love of storytelling, not DVD sales or box office. I loved this documentary, and I hope that IFC has the cahones to pick it up and air it so that maybe, just maybe, one more person will decide to pick up a camera and film some real life so we the viewer can have even a temporary understanding that everyone everywhere is the same, and anyone anywhere can be a true storyteller.\n\nDid this review think positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: So umm this woman has a vagina that sucks people into it when they umm do it and there's this dude who like follows her around...everywhere....and uhh is umm in love with her and she cant love him back because of her thingy. Well her thingy starts talking to her...sort of...it just says feed me over and over and she tries to feed it hot dogs but that doesn't work because it ummmmm wants fresh meat?!?!!? So this woman heads to the red light district where she picks up tourists but only the really sleazy ones cause I guess they deserve it and after a while this dude comes looking for her and even though shes like right there he doesn't see her so eventually he gets involved with conjoined twins but he only likes one of them cause the other is a real hussy. This isn't bad good like I thought it would be cause like the novelty sort of wears off within the first 1/2 hour and it goes on for another hour. I think it killed off a few brain cells cause I sat through this whole thing and now im a little brain damaged. Either way man this is the worst man-eating vagina movie I have ever seen.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: This movie is probably one of 3 worst movies made in history. I rented this by chance, without reading reviews, and wow, do I regret it. Really has no plot, doesn't really follow the vampire genre. Just plain god awful. Watching this movie will taint your enthusiasm for vampire movies. I felt like the writer/director/producer went on this drug binge and had hallucinations and tried to recreate it on film. Whole time I wanted the movie to end.. but the ending was even more whacked. \n\nIf this review can save just one person from watching this crap, I felt my time spent on registration and writing this review was well worth it.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: But it's not. The plot isn't all that bad, the actors aren't all terrible so it should be decent. Instead though despite a good starting point the plot just drags on and suffers from a lot of those \"I can't believe he/she is so dumb\" moments so often used in horror movies to keep things going. It frustrated me at times watching some of the decision made by the lead character. Also it took way too long to get to the good part of the movie. Anticipation is great but you can't spend over half the movie building it up. A shame too since it got decent exposure upon release and hit right before the big Halloween season. Even so I have a feeling this is going to get at least one sequel, if not more so maybe they'll be able to build on the strong general plot to eventually release something decent.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nAs social satire, Idiocracy is just as good as Office Space, but with a wider scope. To criticize this film as too puerile due to potty humor is to kind of miss the point, I think. There are certainly fart jokes etc., but they're not really intended to be funny to the audience - they exist to define the state of \"culture\" in the world of 2500 AD visited by Joe, as a background to the bizarre state of affairs in which he awakes. The real humor of the film lies in the many sight gags and attitudes present in this future society that are just a shade off of what we encounter in our daily lives, and which should serve as a warning. My personal favorite is the depiction of Fox News. The subtle brilliance in the film lies in the fact that it also digs at \"smart\" people, and average Joes like the protagonists. Note the times in the film when Joe and Rita almost subconsciously conform to the idiots around them, and you realize that Idiocracy is not created to pick on any group of people in particular, but on the culture of idiocy in general. I don't know what to say about the \"made for conspiracy theory\" behavior of Fox in releasing this film, but if it's not playing in your local theater, demand it. We all need to see this film, if not for the social commentary, at least for the fart jokes...\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: This film is exceptional in that Marlene & Raymond present outstanding performances. The acting in this film is the greatest strength of the production, but the script, direction, and editing deserve applause. There is an extraordinary chemistry that exsists between the two stars. If you like Marlene, and you like Raymond, you'll love this film..... (It's a classic that compares with Casablanca.)\n\n\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "The story takes place on the streets of Sao Paoulo in Brazil where a young boy named Pixote grows up alone without his parents. Left troubled and with no direction, Pixote gets taken into a child asylum with other adolescents from the street. Behind closed doors terrible things occurs within the staff and within the child-groups. And there is one last trigger that gets the place blown up, the last incident that makes Pixote and his friends decide to break out and escape. From there on begins a journey overwhelmed with strong bonded friendships, friendships torn apart, love and hate, criminal activities and simply chilling on the beach talking about things, something someone like you and I also does sometimes.\n\nI think this film is perfect in so many ways because it touches you on so many levels, it did that with me anyway. The document-like style used to portray Pixote and his surroundings does it seem more realistic, and the actors, who really are street children and have lived similar lives, helps the humanity in the conditions seem more natural. It has a social comment about child abuse too, but I think what makes the film so great is that the pressure is on the story and not on the political views. The last scene, which I find the best piece from the film, strikes me as something beyond nothing I've seen before. So full of emotions and yet so unsentimental makes this film a truthful, believable, unbearable, unforgettable story-tale. A true heartbreaking masterpiece which is so underrated!\n\nMy vote: 10/10\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nI've always liked Barbara Stanwyck who was, perhaps, the hardest working lead actress of the 30's and 40's although few of her movie roles are memorable. Today she is remembered most for the TV show \"The Big Valley\". Stanwyck worked so much because she was durable; it seems that she would accept most any role and make the most of it to make the movie a success and so directors loved her and many an ordinary picture gained credibility by her presence.\n\nAnd so it was for \"Christmas in Connecticut\" a very ordinary effort whose plot strains credulity and isn't even really about Christmas. It does, however, have Stanwyck and Dennis Morgan as well as some supreme character actors including Sydney Greenstreet and S.K. Sakall so there are plot twists and funny moments which undoubtedly seemed more real in 1945 than they do today. To begin, the plot concerns a magazine writer (Stanwyck) who the magazine's readers believe is a domestic goddess, married with a child and living on a farm in Connecticut but who is really single, lives in New York City and knows nothing about cooking or homemaking. Could anyone get away with such a fraud even then? Apparently, and even the owner of the magazine (Greenstreet) is deceived although one would think that he would have long since seen though the deception but the story moves on and Stanwyck, Greenstreet, a sailor recently survived from his sunken ship (Morgan) and Stanwyck's restaurateur friend (S.Z.Sakall) find themselves spending Christmas in Connecticut at a farm belonging to Stanwyck's boorish boyfriend (Reginald Gardiner). You can imagine all the possibilities there are for this as the fraud unwinds as it must. Gardiner wants Stanwyck to marry him to perpetuate the rouse but one wonders how she can stand him at all. Morgan and Stanwyck fall for each other but he is supposed to be engaged and she is supposed to be married. Regardless, they begin what seems to be a make believe affair dancing cheek to cheek and stealing off in a horse drawn sleigh. Meanwhile, the incredibly naive Greenstreet character who has seen Stanwyck and Morgan go off together but still doesn't get it sees one of the neighbors take back a child that has been borrowed as part of the deception and calls the cops to report a kidnapping. Stanwyck and Morgan are arrested for stealing the sleigh and the hoax begins to unwind.\n\nAt this point the movie is funny as in ridiculous or absurd, not funny ha,ha and it routinely ends like screwball comedies always did. The good guy gets the girl and presumably they live happily ever after.\n\nI watch this movie every year at Christmas to enjoy these character actors at their best in a story that reflects way it was in 1945 and because of a long held fascination with Barbara Stanwyck. Thank goodness it was set at Christmas or like 95 percent of Stanwyck's movies it would have been long ago forgotten and we would not get to see it each year anew.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Colonel Chabert is one of the best adaptations from novel to screen I have seen in the movies. It combines the realism of French cinema with excellent characterisation, from Depardieu's lost Chabert to Fabrice Luchini's proud Lawyer to Fanny Ardant's complex widow. The movie has wonderful dimension, as you might expect from a top cinematographer such as Yves Angelo. The characters keep this movie in gear and although a bit slow in the beginning, picks up pace and is a fine movie by the time it reaches the finish.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Exceptionally bad! I don't expect much from Garcia since he is one of the most overrated actors today but Keaton really should have known this movie would suck and gotten out while he could (not that I'm especially fond of him but hey, he did batman).\n\nIn one scene Keaton is transported to a hospital chained down and wearing a Hannibal Lecter kind of face mask when two attack dogs bark at him (dogs can sense evil you know (puke)) and Keaton growls back at them making them back off and whine with their tails between their legs. Did the movie turn comedy right there? Garcia makes a fool out of himself in an interrogation scene with dialogue only a complete retard could find plausible and the kid is too annoying to feel sorry for..\n\nIf you are gonna make a movie with as poor a plot as this you need some charm, humour, some solid action. Take Die Hard for example which is great despite its rather crappy plot.\n\nEven though Keatons character was a joke i routed for him all the way. I wanted to see Garcia cry over his dead kid and Keaton sipping martinis on some paradise island, however! This movie makes for a good laugh.. Watch it with a witty friend and you can have some fun as this movie begs for wisecracks in almost every scene. \n\nAll in all its an insult to one's intelligence and a huge waste of money. Greed made this movie and thank god it bit its own ass.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Slipknot is a heavy metal band from the great city of Des Moines, Iowa in which the rockers wear their own distinguished mask (I know someone already said this, but I need to fill up space for this review). The band members are Joey, Mick, 133, Sid, Clown, James, Corey, Chris, and Paul. This band is one of the best new heavy metal bands in my opinion and should be heard by everyone that loves hardcore rock. Another good movie is called \"DISASTERPIECES\" which shows the band's performance at the London Arena. The \"My Plague\" video was shot there and is included on the DVD. The most kick ass song they made is also on there (Sic). So if you love the band you need to see this and if you love heavy metal music then you have to hear this band.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I was kinda looking forward to Man of the Year, a couple girls at my work said it was a pretty good movie, and my mom said that she liked it, so I waited for the rental, and watched it last night. I have to honestly say that this movie was a huge disappointment. I barely made through it, because to be honest the beginning was pretty good and very well paced, but then it got too dark and not into the movie I saw from the trailer. It looked like a good comedy, then it turned into a very dark drama, that wasn't even that interesting, considering how many of these types of stories we've had about government conspiracy.\n\nTom Dobbs is a very popular comedian with a top ranks show and has an act where many people would want him to get involved with politics, just because it seems like he has a good grip on what should be improved. So he does it, he runs for presidency, but many people doubt that he can win due to the fact that he's a comedian, but he does win! But Elenore Green who makes sure all the votes are accounted for tries to fix a computer glitch, but when the government tells her not to fix it, they try to get rid of her, and Tom soon realizes that this may not be the job he wanted.\n\nThe acting was fine, the direction was OK, it was just the story that didn't work in my opinion. Like I said, it just turned into a dramatic change of genres, because if you see the trailer, you'd think it was a comedy, and when you start watching it, that's what you get, but then it just turns into a very dark and somewhat scary drama. I wouldn't really recommend this movie, it was one of the biggest disappointments I have seen so far.\n\n2/10\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This is the slowest \"film noir\" film I've ever seen. Very weak script only provides opportunity for Jack Palance and Rod Steiger to deliver exceptionally well, lines that were made for an acting audition. Palance and Steiger both affirm they are indeed serious actors who can portray their respective roles with power, emotion and drama. The story itself moves at an incredibly slow pace, mostly taking place in a living room. The director obviously moved the actors around in a rythmatic circles as they delivered exhaustingly long lines, to keep the slow pace from becoming noticeable to the audience. The action doesn't pick up until the last ten minutes of the film. If you're one who's looking for more depth in a crime drama, this one's not for you!\n\nDid this review think positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Determine the sentiment:\n\nI picked this movie up because it sounded like a pretty decent flick, and I've always been a fan of Foreign films. However, for someone who likes movies, I was surprised at how much I hate, hate, HATED this movie.\n\nAlthough it does aim to expose the lives of young, lowerclass men in Lima, and to an extent it does succeeed, the characters are hopelessly shallow and the audience winds up having absolutely no feelings whatsoever for them.\n\nAlthough the story chiefly revolves around M, he rarely ever speaks, and his dialouge is, at best, amazingly dry and dull.\n\n*** Warning: Some small spoilers ***\n\nBasically, the story revolves around a young man named M who has been searching for jobs, but without success (He does gain employment twice, but quits because they're \"not for him\", when you're poor, the last option you have is to be picky). Some amount of time is spent with his friends, who's idea of \"fun\" is to rape a little 14 year old, steal crappy tires off a piece of shit car for a dime sack of weed, and several other slightly retarded activities.\n\nM's friend comesup with a plan to make $25,000 a piece and move to the US by running Cocaine to Miami. When the drug lord gives them a job, we're treated to an extremely lame scene of the three friends buying clothes at the mall with some music playing in the background. We see them trying different clothes on like little girls given $200 to shop, get there hair cut, and then strutting off looking like slick gangsters (one character, Carlos, will from this point on wear sunglasses ALWAYS... even at night).The day before they leave, the leader of the group leaves to speak with the drug lord, leaving M and his friend to be dumb. They party up, take several samples of the drugs they're suppose to run, and break into thier old school, acting like animals and smashing everything in sight.\n\nThe movie ends when M tries calling his girlfriend, who hangs up on him. The friends then proceed to set the pay phone on fire, which brings out a bunch of kids and some old man with gun. M and Carlos' friend in charge of the drug run shows up on his motorcycle and wants them to leave with him now. Then he takes off by himself, and gets shot by that old man. The police show up and arrest M and his friends (but not the man who shot the guy) and cover thier dead friend up with newspapers as music plays and it fades to credits.\n\n**** End Spoiler ****\n\nI even watched this movie a second time, hoping to see some subtle, redeeming factor for it, but I did not. A complete waste of 102 minutes. Although I must give it credit for being straightforward and not shying away from disturbing elements, the casting, acting, and overall direction still leaves much, much, much to be desired.\n\nIMHO, if you're interested in a movie that explores the issues this one was suppose to, go rent City of God (Cidade de Deus) instead. Avoid this trash at all costs! You have been warned!!\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Not a stunner, but a good movie to see once or twice. Bill Macy shows he can do more than just act; his writing was pretty darn good. Great supporting cast, especially Jamie Cromwell as the extortionist private eye.\n\nThe movie's greatest strength is the work of Macy, who reminds us of his Jerry Lundergaard role from Fargo. He has numerous scenes where he is extremely funny as a slimy, manipulating and deceitful character. It's enjoyable to watch him be a weasel, and for a while I was happy that things were turning out well for him. *** out of four.\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "...the first? Killjoy 1. But here's the review of Killjoy 2:\n\n(contains spoilers, so beware readers)\n\nOh my. Oh, my, my, my. I'll start off with telling you that I had no hopes in the least bit that this movie would be good. Considering that Killjoy (the first movie) is without a doubt the worst movie ever made, the sequel didn't have much promise.\n\nAs expected, it didn't deliver.\n\nThe deaths were even lamer than in the first movie. There was absolutely no eye candy whatsoever, and every single prop looked so fake that I wouldn't be surprised if they had a kindergarten class make them.\n\nLook, I don't even know where to begin. Hm, for starters, the movie wasn't even feature length. It was only an hour and eight minutes long (68 min.), but then again, ending it early was actually a reprieve. In fact, that's the only reason that this movie wasn't as bad as the first, because the first was longer.\n\nUsually, I don't give spoilers in reviews, but since I don't want any of you to go through the torture of watching this waste of film, I'm going to spoil away. Not that there's much to spoil.\n\nLet's start with the ending. KILLJOY IS THE PUSSIEST KILLER EVER. It takes explosions, firebombs, guns, etc. to kill all of the normal serial killers in horror movies. Guess what it took to kill Killjoy? A F***ING GLASS OF WATER. No lie. In the end, a girl picked up a cup of water and threw the water on Killjoy's face. Then Killjoy started screaming, and they tried to make it look like his face was melting by putting dried rubber cement on his forehead. Then he laid there, and the people went to sleep.\n\nNow let's hit the acting. VERY TERRIBLE. Not even one person was believable in the least bit. I don't even know what to say, other than it looks like they just hired a few hobos living on the streets to act in this film.\n\nSeriously, I honestly doubt that they spent any more than 100 dollars total to make this movie. They had nothing. Most of it took place in the woods, which wouldn't have cost them anything to film on. The actors weren't giving in any effort whatsoever, so it's blatant that they were probably \"working\" for free. They didn't have any kind of special effects or nice props, and they probably used ketchup for the blood. Hell, who am I kidding? They probably didn't even spend 100 dollars. They probably spent $3.29 on a bottle of ketchup and that was it. A f**kin' movie made with a budget of $3.29.\n\nFor Bob's sake, they couldn't even afford to rent a cop uniform. In the end, after Killjoy dies, the girl wakes up and says \"Where is he?\" and the main woman replies, \"He's gone.\" Then, suddenly, some fat goofy guy with scars on his face pops out of nowhere with a cell phone saying \"You have a phone call.\" The girl answers and says \"Oh, hi mom!\" and smiles. Then the fat goofy guy walks along to reveal that it's a police officer. However, he's wearing khaki pants, and a regular button up green shirt, with a lame badge on the front pocket. Hell, it was probably the badge that the director got when he was in safety patrol in 3rd grade. Then they all got into a tan blazer and drove off as the credits rolled. They couldn't even get a police cruiser so they just got a tan blazer. F**kin' lame. Killjoy didn't even have the ice cream van that he had in the first movie.\n\nKilljoy is without a doubt the most flamboyantly gay slasher EVER. If there was a slasher that wore hot pink spandex and carried a rainbow flag, he STILL would not be as gay as Killjoy. Killjoy isn't funny either (and believe me, he DID try to be).\n\nThe only good thing about this movie is an extremely lame threat given by one of the delinquents. Somebody makes a comment to some boy about not passing third grade, to which the boy responds, \"I'll show you third grade!\" in a threatening manner. That has to be the absolute worst threat that I've ever heard. \"I'll show you third grade!\"\n\nThis movie doesn't even work on a \"so bad, it's good\" level. It's filth. Unless you did something bad, and you are feeling so guilty about it that you want to punish yourself severely, DON'T watch this movie.\n\nJust remember; if a flaming homosexual clown with a huge black afro tries to bore you to death with gay jokes (and attempt to kill you at the same time), just throw some water at him. Case closed.\n\nFINAL RATING: .1 out of 10\n\nDid this review think positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Valley Girl will always hold a special place in my heart: I would say this is certainly the best of the 80's teen-sex-comedies, but that is a back-handed compliment. This is a good movie, period. It is very specific in time and place--nearly twenty years later this is a marvelous snapshot--yet its story remains timeless. (This is just Romeo and Juliet, minus the death, after all!) Nicolas Cage is wonderful, showing all the early promise that, it turns out, he has squandered on overblown action crapola. Deborah Foreman is the revelation of this movie, and I can't believe she didn't go on to have a bigger career; someone rediscover her QUICK. This is sweeter and gentler than most films of the genre--the requisite nudity seems thrown in by contractual obligation--and, while not groundbreaking, it certainly is nice to see this kind of movie that respects its characters and doesn't crucify its shallow young girls for having fun--even Foreman's crew of best friends, misguided by peer pressure, are never presented as villains. (Indeed, her friend Stacy, forced to doubledate w/ Cage's friend Fred, has a good time despite her protests, and makes out w/ Fred in the backseat.) This will take you back to the early 80's if you were there, but it holds up quite well today. Warning to those unfamiliar with the movie: do NOT watch one of VH1's seemingly continual showings of it--go rent it in its unedited glory. Otherwise, you are missing some of the movies' most potent, time-specific dialogue. And one can't write about Valley Girl and not mention the fabu soundtrack of great 80's tunes--most of them by one-hit wonders, which are not only integral to the sense of time and place in this movie, but thematically well-chosen. See it--awesome little flick! Fer shur!!\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "**Warning! Slight Plot Spoilers Ahead!**\n\n\"The Italian Job\" is not the best movie you'll see all year, or probably even this summer. But it is a worthwhile two hours because it colors within the lines, knowing its limits and not attempting to exceed them.\n\nWhat carries the movie is the work of the cast. In a movie about a crew of thieves, the individuals must have a good rapport with each other. Without that cohesive feel, the audience doesn't believe in the characters collectively or individually, and the movie never has a chance. But from the first scenes, in which the men joke around and rag on each other while infiltrating a Venetian palace, the proper chemistry is in place.\n\nThe characters themselves aren't anything novel; they're your basic gang of criminals, containing about half a dozen players, each with a specific and defining skill. But each actor brings the proper goods to the table for his or her part. Mark Wahlberg's understated acting and humor fits well with his part as the mastermind planner. Edward Norton provides attitude and twirls his mustache well in his dark role. Donald Sutherland is the father figure of the crew, and he looks the part of the suave and old-fashioned thief, who is still mentally spry. Jason Statham, Seth Green, and Mos Def don't do much beyond their character's abilities, but they each nail those parts. Statham as the smooth-operating driver; Green as the tech whiz geek with a chip on his shoulder; and Def as the demolitions man. Charlize Theron slides in well in a part that doesn't ask too much of her. She is primarily asked to to drive fast and look good. That she does. None of the characters are that deep or three-dimensional, but in this familiar sort of movie, two dimensions are all that is required. \n\nAs the title implies, the movie has a European feel to it, a la \"The Bourne Identity,\" in part because it was shot on location in Venice, along with Philadelphia and Los Angeles. Also contributing to the Euro flair is the rhythmic, bouncy music, which adds to the upbeat nature of the flick and complements the rapport of the cast. The look of the movie is also a perfect match. The bright colors of all locales enhance the mood and add to the attitude. The Minis not only provide a fun variation on the car chase, but also work as a necessary plot device. \n\nThe plot is more or less straight-forward. There are a few surprises, but they are more of the swift-and-smooth-turn variety, as opposed to the drop-your-jaw hairpin curve. Even with those, the movie speeds along. Once the foundation is laid by the first act, everything continuously progresses. Thankfully there are no breaks in the action for a romance, something the movie wisely avoided. There aren't even any breaks for 'real life.' The story has its purpose and runs that course without distractions. The lack of character depth prevents \"The Italian Job\" from being more than a good popcorn movie, but with all the complex details of the heist-planning, such superfluities would have dragged down the pace and quality of the flick.\n\nThere are a number of implausibilities that I thought of both during and after viewing. But the movie is so enjoyable that I didn't and don't care. In the real world, most of the movie probably couldn't have gone off that cleanly. But \"The Italian Job\" doesn't take place in the real world. It occurs in a stylish and light-hearted criminal world that appeals to the rebel in all of us. \n\n\"The Italian Job\" is a movie, in the true sense of the word. It has no pretenses of Oscar and contains no deep moral message. It provides pure escapism entertainment and does so quite well.\n\nBottom Line: Maybe the best popcorn movie of the year so far. 7 of 10.\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Emotionally insecure Tom Russo (Asbestos Felt) reads the secret diary of his sexy wife Leeza (Courtney Lercara) and is dismayed to discover that the love of his life has apparently been sleeping with every bloke she meets; this shocking revelation sends poor Tom off his rocker, and he proceeds to wreak bloody revenge on the men who he believes have been rogering his old lady.\n\nIn my experience, really, really bad films can often be as much fun as really good ones, and no film featuring a decapitation by machete-enhanced ceiling fan should ever be considered completely worthless; but even though Killing Spree very occasionally manages to entertain with its inventiveness and cheap and cheerful gore, I found that the terrible direction, awful production values, ugly cinematography, muffled sound, dreadful lighting, mind numbingly tedious and daft narrative (which includes a really dumb plot twist that is telegraphed from the beginning, plus a pointless zombie finale), nasty synthesizer score, inane dialogue, and thoroughly amateurish acting all served to make this effort from writer/director Tom Ritter a virtually joyless experience.\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: OK I watched this movie. Someone needs to kick me. WHY must the Olsen twins insist on subjecting the world to this putrid torture? This was another movie of watching the Olsen twins travel to an exotic location, meet some cute guys,look pretty and have everyone drooling over them.the direction,the plot development,ugh the acting. i don't know about the U.S., but in my country it is considered extremely stupid to hop onto the bike of a guy u met like,10 minutes back. though i'm now convinced that these girls will never learn to act, i really hope that one day we'll get to watch a movie with an original,even slightly plausible plot.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I saw this film early one morning in the early 90s when i was about 12.I have been trying to find what it was and finally today i did!I remember enjoying it and being a little bit freaked out at the ending when it showed the gravestone of the young boy and his ghostly face!Please could anybody let me no if i can get a copy of this as i would love to see it again.I remember the kid getting stuck down a cornish tin mine and then befriending a boy.cant remember that the kids were stuck there with miners but must have been.the boy helps them out of the mine and turns out to be the ghost of a boy who had died while working down there i think.\n\nDid this review think positively or negatively of the movie?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "In the New Year's Eve, the tuberculous sister of the Salvation Army Edit (Astrid Holm) asks her mother and her colleague Maria (Lisa Lundholm) to call David Holm (Victor Sj\u00f6str\u00f6m) to visit her in her deathbed. Meanwhile, the alcoholic David is telling to two other drunkards in the cemetery the legend of the Phantom Coach and his coachman: in accordance with the legend, the last sinner to die in the turn of the New Year becomes the soul collector, gathering souls in his coach. When David denies to visit Edit, his friends have an argument with him, they fight and David dies. When the coachman arrives, he recognizes his friend Georges (Tore Svennberg), who died in the end of the last year. George revisits parts of David's obnoxious life and in flashbacks, he shows how mean and selfish David was.\n\n\"K\u00f6rkarlen\" is an impressive and stylish silent movie, with magnificent special effects (for a 1921 movie). The characters are very well developed; however, the story is dated and there is a weird and unexplained situation, when Sister Edit tells that she loves David Holm. Why should a enlightened woman love such a despicable man that wasted his life corrupting other people? Despite being religiously dated in the present days, it gives a beautiful message of faith and redemption in the end. My vote is nine.\n\nTitle (Brazil): \"A Carro\u00e7a Fantasma\" (\"The Phantom Coach\")\nWould you say this review is positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I didn't know much about this movie going in- my roommate kind of dragged me into it. I was so pleasantly surprised! The plot really grabbed my attention and held it, and the characters are well-drawn and realistic. The screenplay is very clever and funny, and the cast does great things with it. And the best part is that it managed to be entertaining without any explicit sex or violence! If this movie comes anywhere into your area you really should go see it- stand up for this little film, it is worth it!\n\nIs the sentiment of this review positive or negative?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "This movie was just plain bad. I can forgive low-budget films for being low budget but it wasn't funny, it wasn't smart, it had no redeeming qualities at all unless you really like looking at fake boobs. I don't know what this genre is classified as, possibly erotic horror, but if so-- well, it's neither sexy nor scary. Tying it into the Slumber Party Massacre movies was useless; I'd never seen the previous movies myself, and except for one scene that attempted to tie it together, I had no way of knowing who the escaped psycho killer in 'Cheerleader' was or why they were bothering with including him, especially because (and I don't think I'm revealing anything here) it was really obvious that the cheerleader killer in this film wasn't him. As for the actual murderer? All I can say is, lame. Really lame. When you find out why the killer is offing the cheerleading squad (and the squad's coach, and two stoners who happened to be on the bus trip they're taking, and the bus driver just for the heck of it, apparently) you will sit there and go-- WTF? Worst excuse for a murdering spree ever. The \"actors\" (two guesses why I added the quotes) generally looked like low-budget porn rejects, which they most likely were. Those poor people, trying to break into \"legitimate\" film. One of my friends had this to say about the actor who played Buzzy, the bus driver: \"He looks like the guy who, you know, gets really into it, and his face gets all red and stuff.\" We had a good larf at that. Half of the other actors had all the skill and subtlety of the actors in the sixth grade production of \"Annie\" I just saw. The other half pretty much seemed bored to death (especially in the deleted scene, this one redhead...), and by ten minutes into this movie I was, too.\n\nA note: the DVD contains one deleted scene, which would've put the movie from R-rated to NC-17 if it had been left in. It was entirely gratuitous, and as adult entertainment goes of no quality whatsoever. The only reason to bother with it is to laugh, a lot, at the badness.\nHow would you describe the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: Ocean's 12\n\n'If you steal fifty million dollars, they will find you.' (Alan Rickman as Hans Gruber, Die Hard)\n\nThis adage certainly rings true in this sequel. Terry Benedict has been informed that Danny Ocean and his compadres were the ones who ripped him off and now he wants it all back. The Ocean gang need a lot of money and fast, but cannot work in the states as Benedict has made it impossible for them. So it's off to Europe to perform acts of death defying thievery, whilst trying to avoid Catherine Zeta Jones' super cop, an old flame from Rusty's (Pitt's) past. \n\nOn their first heist in Amsterdam they find out that who ratted on them was the 'Night Fox', a super slick thief with a legend complex. He issues them with a challenge that could write off their debt in full or land them in some kind of Uma Thurman-Kill Bill II-buried-alive-type-sequence. Interesting? Well, yes. Slow? Sort of. Entertaining? Mostly. Unnecessary scenes of character development? Plenty. \n\nOcean and his band of merry men are charismatic, if nothing else and as this is a sequel and we are all old friends we see plenty more 'pally' situations and conversations. Too many. Damon's Linus is more nervous than before; the cousins are bickering as we knew they would; Bernie Mac talks too much and Don Cheadle's cock-er-ney accent is as bad as ever (I really like Cheadle, but could not abide this). Pitt and Clooney talk like old friends, filling each other's glasses and reading each other's minds. However, what worked so well in the last film was the lack of character development versus how slick the whole damned op was. And as much as these actors work well together, Zeta Jones fits into this film like a big square peg in a tight 11 sided hole. She simply doesn't fit and her chemistry with Pitt is non-existent.\n\nThe stars of this film for me, however, were Vincent Cassel as the Night Fox and Soderbergh's choice of locations. Cassel plays pomp and wealth as if he was born into both. His Night Fox is arrogant, 'awfully cavalier with other people's lives' (Danny Ocean) and a total contrast to the Ocean gang. This is where I think the film loses its way. Cassel and the European locations provide an all too realistic contrast with the American actors and the style of the first film. We want slick, brash and quick-witted; not gritty, considered and intellectual. This is where the film doesn't work.\n\nAdmittingly, you cannot repeat the same formula twice to the letter, but going to far left or right usually does more damage than good in a mainstream film like this.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Wow... this is the kind of movie that makes you wonder who's idea this was and what soup kitchen are they eating at now. To say this was bad is an insult to the bad movies we all know and love.\n\nWhen I saw Guttenberg's name in the TV guide I figured it would be a spoof... maybe it should have been. Could have made for a better movie.\n\nLook for the scene where they are in an airplane in mid flight with the door open and there is no wind what so ever. They could have sprung for a fan at least.\n\nLook for several Canadian & c-list actors in the movie. This is the kind of movie that litters the b-rate cable stations you never watch except on a rainy Sunday.\nWhat is the sentiment of this review?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Please tell me the sentiment of the following review: What a crappy movie! The main character in this movie was supposed to be born and brought up in Canada, yet he had a thicker Indian accent than his parents! Is it just me or does Uday look gay in this movie? Also, do all the chicks in Canada dress like sluts? At least that's how it is in this movie. All the females are dressed like strippers. Don't waste your time with this one! The only good thing about this movie is the setting in beautiful Vancouver. Wonder why Bollywood is going through a slump? It's because of movies like this. I miss the good old' days when Hindi movies were actually entertaining!I couldn't even finish this movie because it was so bad. I think Bollywood needs to stop trying to replicate the style of Hollywood because it's just not working out. They need to stick to their roots because that's what makes Indian movies entertaining.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "imdb_reviews",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Malcolm Gladwell is a genius at tricking people into not realizing he's a fucking idiot\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How would one describe the sentiment of this tweet?\nLAKERS tonight let's go!!!!\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Ok so lots of buzz from IO2009 but how lucky are they - a Free G2!! http://is.gd/Hyzl\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:omgg i ohhdee want mcdonalds damn i wonder if its open lol =]\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Arg. Twitter API is making me crazy.\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: Here's A case study on how to use viral marketing to add over 10,000 people to your list http://snipr.com/i50oz\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:Pissed at Time Warner for causin me to have slow internet problems\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: Ok, first assesment of the #kindle2 ...it fucking rocks!!!\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: Recovering from surgery..wishing @julesrenner was here :(\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "cant sleep... my tooth is aching.\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I'm ready to drop the pretenses, I am forever in love with jQuery, and I want to marry it. Sorry ladies, this nerd is jquery.spokenFor.js\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "So, Night at the Museum 2 was AWESOME! Much better than part 1. Next weekend we'll see Up.\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@vkerkez dood I got a free google android phone at the I/O conference. The G2!\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I think I may have a new favorite restaurant. On our way to see \"Night at the Museum 2\".\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@MMBarnhill yay, glad you got the phone! Still, damn you, AT&amp;T.\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "saw night at the museum 2 last night.. pretty crazy movie.. but the cast was awesome so it was well worth it. Robin Williams forever!\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: I still love my Kindle2 but reading The New York Times on it does not feel natural. I miss the Bloomingdale ads.\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@mitzs hey bud :) np I do so love my 50D, although I'd love a 5D mkII more\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "GM files Bankruptcy, not a good sign...\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How would one describe the sentiment of this tweet?\nGoing to the dentist later.:|\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:RT @LATimesautos is now the time to buy a GM car? http://bit.ly/nRzlu\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@crlane I have the Kindle2. I've seen pictures of the DX, but haven't seen it in person. I love my Kindle - I'm on it everyday.\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@mikefish  Fair enough. But i have the Kindle2 and I think it's perfect  :)\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Today is a good day to dislike AT&amp;T. Vote out of office indeed, @danielpunkass\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "jquery Selectors http://codylindley.com/jqueryselectors/\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How would one describe the sentiment of this tweet?\nWarren Buffet on the economy http://ping.fm/Lau0p\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Write a positive tweet.",
+        "targets": "@Pmillzz lebron IS THE BOSS",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tom Shanahan's latest column on SDSU and its NCAA Baseball Regional appearance: http://ow.ly/axhu\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How would one describe the sentiment of this tweet?\nEating dinner. Meat, chips, and risotto.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:Just saw the new Night at the Museum movie...it was...okay...lol 7\\10\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Write a tweet that is positive.",
+        "targets": "zomg!!! I have a G2!!!!!!!",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Lyx is cool.\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "The Times of India: The wonder that is India's election. http://bit.ly/p7u1H\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is an example of a tweet?",
+        "targets": "@Dommm did comcast fail again??",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Naive Bayes using EM for Text Classification. Really Frustrating...\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:@jktweet Hi! Just saw your Stanford talk and really liked your advice. Just saying Hi from Singapore (yes the videos do get around)\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "How would one describe the sentiment of this tweet?\n@phyreman9 Google is always a good place to look. Should've mentioned I worked on the Mustang w/ my Dad, @KimbleT.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@richardebaker no. it is too big. I'm quite happy with the Kindle2.\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "just watched night at the museum 2! so stinkin cute!\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "San Francisco today.  Any suggestions?\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What's Buffet Doing? Warren Buffett Kicks Butt In Battle of the Boots: Posted By:Alex Crippe.. http://bit.ly/AUIzO\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "yankees won mets lost. its a good day.\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "KOBE IS GOOD BT LEBRON HAS MY VOTE\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@wordwhizkid Lebron is a beast... nobody in the NBA comes even close.\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I like this guy : ' Barack Obama shows his funny side \" &gt;&gt; http://tr.im/l0gY !!\n\nHow would the sentiment of this tweet be described?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: Only one exam left, and i am so happy for it :D\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "Tweet: breakers. in San Francisco, CA http://loopt.us/4v88Bw.t\nPredict the sentiment of this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "@asherroth World Cup 2010 Access?? Damn, that's a good look!\nWhat is the sentiment of this tweet?\nOPTIONS:\n- negative\n- positive",
+        "targets": "positive",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "I'm truly braindead.  I couldn't come up with Warren Buffet's name to save my soul\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    },
+    {
+        "inputs": "What is the sentiment of the following tweet?\nTweet:#MBA Admissions Tips Stanford GSB Deadlines and Essay Topics 2009-2010 http://tinyurl.com/pet4fd\nOPTIONS:\n- negative\n- positive",
+        "targets": "negative",
+        "task": "sentiment140",
+        "domain": "sentiment",
+        "metric": "em"
+    }
+]

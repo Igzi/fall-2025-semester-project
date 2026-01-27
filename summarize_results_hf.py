@@ -28,6 +28,8 @@ def calculate_em(options, inputs, references, candidates):
 
 def cal_correct(options, input, expected_answer, generated_answer):
     #options=None
+    # is_correct = generated_answer.strip().lower().replace(".", "") == expected_answer.strip().lower().replace(".", "")
+    # return is_correct
     if options is None:
         gen_ans_clean = generated_answer.strip().lower().replace(".", "")
         input_clean = input.strip().lower().replace(".", "")
@@ -62,7 +64,7 @@ def process_file(file_path):
     organized_data = defaultdict(lambda: defaultdict(list))
     for entry in data:
         domain = entry['domain']
-        domain = entry['task']
+        #domain = entry['task']
         task = entry['task']
         organized_data[domain][task].append(entry)
     
@@ -118,13 +120,13 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + ['perf_hf_oracle_masked.json', 'perf_oracle_masked.json','hf_best.json', 'perf_13b_oracle.json', '13b_best.json', 'perf_13b_selection.json', '13b_selection.json', 'best.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['hf_fusion_full_ood_7b.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = 'results_hf'  # Replace with your actual folder path
+folder_path = 'results'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 print(latex_table)

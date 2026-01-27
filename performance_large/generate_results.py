@@ -109,13 +109,6 @@ def convert_to_latex_modified(data, folder_path):
     col_labels = [f"model_{i}" for i in range(plot_matrix.shape[1])]
     row_labels = [d.get('Domain-Metric', f"row_{i}") for i, d in enumerate(data_list)]
 
-    # Plot heatmap using seaborn
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-
-    plt.figure(figsize=(max(8, plot_matrix.shape[1] * 0.2), max(6, plot_matrix.shape[0] * 0.25)))
-    sns.set(font_scale=0.8)
-
     # Row-wise min-max normalization to [0,1], ignoring NaNs
     # For each row: norm_row = (row - min_row) / (max_row - min_row)
     # If max_row == min_row (constant row), set normalized values to 0
@@ -134,17 +127,34 @@ def convert_to_latex_modified(data, folder_path):
     # Keep NaNs where original data had NaNs
     norm_matrix[np.isnan(plot_matrix)] = np.nan
 
-    # Plot normalized heatmap with fixed vmin/vmax 0..1
-    ax = sns.heatmap(norm_matrix, xticklabels=col_labels, yticklabels=row_labels, cmap='viridis', vmin=0.0, vmax=1.0, cbar_kws={'label': 'Normalized score (0-1)'}, linewidths=0.5, linecolor='gray')
-    ax.set_xlabel('Models')
-    ax.set_ylabel('Domain - Metric')
-    ax.set_title('Model performance heatmap')
+    # plt.tight_layout()
+    # out_png = "./performance_large/model_performance_heatmap.png"
+    # plt.savefig(out_png, dpi=300)
+    # print(f"Saved heatmap to {out_png}")
+    # plt.show()
 
-    plt.tight_layout()
-    out_png = "./performance_large/model_performance_heatmap.png"
-    plt.savefig(out_png, dpi=300)
-    print(f"Saved heatmap to {out_png}")
-    plt.show()
+    with np.errstate(invalid='ignore'):
+        row_max = np.nanmax(plot_matrix, axis=1, keepdims=True)
+        row_argmax = np.nanargmax(plot_matrix, axis=1)
+    
+    row_series = pd.Series(np.squeeze(row_max), name='row_max')
+    argmax_series = pd.Series(row_argmax, name='best_model')
+    
+    combined = pd.concat([
+        df['Domain-Metric'].reset_index(drop=True), 
+        row_series.reset_index(drop=True),
+        argmax_series.reset_index(drop=True)
+    ], axis=1)
+
+    # Calculate mean before formatting as strings
+    mean_row_max = row_series[np.isfinite(row_series)].mean()
+    combined['row_max'] = combined['row_max'].apply(lambda x: f"{x:.4f}" if np.isfinite(x) else 'NaN')
+    with open('./scripts/llama2_7b_adapters.json', 'r') as file:
+        lora_adapters = json.load(file)
+    combined['best_model'] = combined['best_model'].apply(lambda x: lora_adapters[x]['model_id'] if x < len(lora_adapters) else 'N/A')
+    
+    print(combined.to_string(index=False))
+    print(f"\nMean of row_max values: {mean_row_max:.4f}")
 
     return df.to_latex(index=False)
 

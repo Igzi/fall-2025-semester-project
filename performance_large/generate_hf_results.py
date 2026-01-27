@@ -27,6 +27,8 @@ def calculate_em(options, inputs, references, candidates):
     return np.round(np.mean(em_scores) * 100, 1) if em_scores else 0
 
 def cal_correct(options, input, expected_answer, generated_answer):
+    is_correct = generated_answer.strip().lower().replace(".", "") == expected_answer.strip().lower().replace(".", "")
+    return is_correct
     #options=None
     if options is None:
         gen_ans_clean = generated_answer.strip().lower().replace(".", "")
@@ -175,6 +177,7 @@ def convert_to_latex_modified(data, folder_path):
     combined['row_max'] = combined['row_max'].apply(lambda x: f"{x:.4f}" if np.isfinite(x) else 'NaN')
     with open('./scripts/llama2_7b_adapters.json', 'r') as file:
         lora_adapters = json.load(file)
+    
     combined['best_model'] = combined['best_model'].apply(lambda x: lora_adapters[x]['model_id'] if x < len(lora_adapters) else 'N/A')
     
     print(combined.to_string(index=False))
