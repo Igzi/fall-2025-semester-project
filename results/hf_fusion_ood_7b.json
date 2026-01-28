@@ -13,7 +13,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Ardmore Airport (New Zealand), runwayLength, 1411.0"
+        "predicted_answer": "Ardmore Airport (New Zealand), runwayName, \"03R/21L\""
     },
     {
         "inputs": "Here is some data: Austin, Texas, country, United States; United States, demonym, Americans; United States, ethnicGroup, African Americans.\n\nWrite a sentence that describes this data",
@@ -21,7 +21,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "African Americans are the ethnic group of the United States. Austin, Texas is in the United States. Americans are the demonym of the United States."
+        "predicted_answer": "African Americans are a demonym of the United States."
     },
     {
         "inputs": "Generate a sentence about this data: Andrews County Airport, 4thRunwaySurfaceType, \"Asphalt\"; Andrews County Airport, elevationAboveTheSeaLevel, 973.0",
@@ -29,7 +29,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "The 4th runway at Andrews County Airport is made of asphalt and is 973.0 above the sea level."
+        "predicted_answer": "Andrews County Airport has an elevation of 973.0 above sea level and a runway surface type of asphalt."
     },
     {
         "inputs": "Sentence: Alfredo Zitarrosa performs Zamba music and has a background as a solo singer. He was signed to the RCA Records label, and has been associated with the musicians Ciro Pérez and Héctor Numa Moraes.\n\nWhat structured data could we extract from this sentence?",
@@ -53,7 +53,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Barny Cakes is a country in France. The language spoken in France is French. The leader of France is Gérard Larcher and the leader of France is Claude Bartolone. Barny Cakes contains Sponge cake"
+        "predicted_answer": "Barny Cakes is a country in France. The language spoken in France is French. The leader of France is Gérard Larcher and Claude Bartolone. Barny Cakes contains Sponge cake."
     },
     {
         "inputs": "Sentence: The people inhabiting the United States are known as Americans and include the ethnic group of Native Americans. The country is the location of Albany, a city in Dougherty County, Georgia.\n\nWhat structured data could we extract from this sentence?",
@@ -117,7 +117,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Aleksandre Guruli plays for FC Karpaty Lviv and AS Lyon-Duchère."
+        "predicted_answer": "Aleksandre Guruli plays for both FC Karpaty Lviv and AS Lyon-Duchère."
     },
     {
         "inputs": "Sentence: Alcatraz Versus the Evil Librarians is published in Hardcover and has the ISBN number 0-439-92550-9.\n\nWhat structured data could we extract from this sentence?",
@@ -141,7 +141,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Hypermarcas is a pharmaceutical company that produces cosmetics. It was founded on January 1, 2001 in Brazil, where the population density is 23.8."
+        "predicted_answer": "Hypermarcas is a Brazilian company that produces cosmetics. It was founded on January 1, 2001 and is located in Brazil. The population density of Brazil is 23.8."
     },
     {
         "inputs": "Generate an approximately fifteen-word sentence that describes all this data: A.F.C. Fylde, ground, Warton, Fylde; A.F.C. Fylde, numberOfMembers, 3180; A.F.C. Fylde, fullName, \"Association Football Club Fylde\"",
@@ -173,7 +173,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Abdulsalami Abubakar was the successor of Olusegun Obasanjo and the vice president of Mike Akhigbe."
+        "predicted_answer": "Abdulsalami Abubakar was the successor of Olusegun Obasanjo and the vice president of Mike Akhigbe. Mike Akhigbe was the predecessor of Oladipo Diya."
     },
     {
         "inputs": "Sentence: 1 Decembrie 1918 University is located in the city of Alba Iulia, Romania. The country's capital is Bucharest and the leader (title Prime Minister of Romania) is Klaus Iohannis. An ethnic group of the country is The Germans of Romania and the country's national anthem is Deșteaptă-te, române!\n\nWhat structured data could we extract from this sentence?",
@@ -181,7 +181,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "The country's capital is Bucharest and the leader (title Prime Minister of Romania) is Klaus Iohannis. An ethnic group of the country is The Germans of Romania and the country's national anthem is"
+        "predicted_answer": "location: Alba Iulia"
     },
     {
         "inputs": "Sentence: Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.\n\nWhat data can be extracted from this sentence?",
@@ -189,7 +189,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "AEK Athens FC compete in the Greece Superleague."
+        "predicted_answer": "Gus Poyet played for Chelsea F.C."
     },
     {
         "inputs": "This is some data: Binignit, ingredient, Sweet potato; Binignit, region, Visayas; Binignit, mainIngredient, Coconut milk; Binignit, country, Philippines.\n\nGenerate a detailed description of this data",
@@ -213,7 +213,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "(66063) 1998 RO1 has an epoch of 2013-11-04."
+        "predicted_answer": "The asteroid (66063) 1998 RO1 has an epoch of 2013-11-04."
     },
     {
         "inputs": "Here is some data: Baked Alaska, mainIngredient, \"Meringue, ice cream, sponge cake or Christmas pudding\"; Baked Alaska, country, \"France, United States or China\"; Baked Alaska, region, \"Paris, New York or Hong Kong\"; Baked Alaska, ingredient, Meringue.\n\nWrite a sentence that describes this data",
@@ -237,7 +237,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Andrews County Airport is located in Texas, which is the largest city in Texas, which is the capital of Austin, Texas, which is located in the United States."
+        "predicted_answer": "Andrews County Airport is located in Texas. The largest city in Texas is Houston. The capital of Texas is Austin. The language spoken in Texas is Spanish. Texas is a part of the United States."
     },
     {
         "inputs": "Data: Germany, leader, Stanislaw Tillich\n\nSentence about the following data:",
@@ -261,7 +261,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Amsterdam Airport Schiphol is the airport that serves the city of Amsterdam."
+        "predicted_answer": "Amsterdam Airport Schiphol is a city served airport in Amsterdam."
     },
     {
         "inputs": "Data: Bakso, ingredient, Noodle\n\nSentence about the following data:",
@@ -301,7 +301,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Bakewell pudding is a dessert from Derbyshire Dales. It is a variation of Bakewell tart and has ground almond, jam, butter, eggs as its main ingredients."
+        "predicted_answer": "Bakewell pudding is a dessert from Derbyshire Dales. It is a variation of Bakewell tart and contains ground almond, jam, butter, eggs."
     },
     {
         "inputs": "India, largestCity, Mumbai; AWH Engineering College, country, India; AWH Engineering College, academicStaffSize, 250; AWH Engineering College, state, Kerala; Kerala, hasToItsNorthwest, Mahé, India; AWH Engineering College, city, \"Kuttikkattoor\"; India, river, Ganges\n\nWhat is sentence that verbalizes this data?",
@@ -317,7 +317,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Akeem Dent played for the Houston Texans before joining the Atlanta Falcons. The Falcons are owned by Arthur Blank and are based in Atlanta."
+        "predicted_answer": "Akeem Dent played for the Houston Texans before he joined the Atlanta Falcons. The Falcons are owned by Arthur Blank and are based in Atlanta."
     },
     {
         "inputs": "Sentence: Beef kway teow is a dish from the country of Singapore, where the leader is Halimah Yacob and the currency is the Singapore dollar.\n\nWhat data can be extracted from this sentence?",
@@ -397,7 +397,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "web_nlg_en",
-        "predicted_answer": "Allen Forrest is an acoustic music singer from Fort Campbell, KY, raised in Dothan, AL. He is a solo singer."
+        "predicted_answer": "Allen Forrest is a solo singer who was born in Fort Campbell, KY, raised in Dothan, AL. He plays acoustic music."
     },
     {
         "inputs": "Data: Cocum eatType coffee shop; Cocum priceRange cheap; Cocum customer rating 5 out of 5; Cocum familyFriendly yes\n\nWhat would a sentence about this data be like?",
@@ -405,7 +405,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a coffee shop that is family friendly and has a 5 out of 5 customer rating. It is also cheap."
+        "predicted_answer": "Cocum is a family friendly coffee shop that serves cheap coffee and has a 5 out of 5 customer rating."
     },
     {
         "inputs": "What concepts are described in the following sentence?\n\n\"Alan Shepard died in California.\"\n\nReturn the answer as pairs of triples.",
@@ -437,7 +437,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cornell University is a land-grant university in Ithaca, New York. It is affiliated with the Association of Public and Land-grant Universities and is known as the Cornell Big Red. Administrative Science Quarter"
+        "predicted_answer": "Cornell University is a land-grant university in Ithaca, New York. It is affiliated with the Association of Public and Land-grant Universities and is known as the Cornell Big Red. The university publishes the"
     },
     {
         "inputs": "Triple: The Punter eatType coffee shop; The Punter food Chinese; The Punter priceRange high; The Punter customer rating average; The Punter familyFriendly yes; The Punter near Café Sicilia\n\nWhat is a sentence that describes this triple?",
@@ -453,7 +453,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Wildwood is a moderately priced coffee shop that serves English food. It is located near Ranch."
+        "predicted_answer": "Wildwood is a moderately priced coffee shop that serves English food. It has a customer rating of 1 out of 5. It is located near Ranch."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nBill pascrell (d) 62% matthew kirnan (r) 36% were the candidates in the district whose incumbent is Bill Pascrell.",
@@ -469,7 +469,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre of Cambridge. It is family friendly and serves English food. The price range is £20-25. The customer rating is high."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre of Cambridge. It is family friendly and serves English food. The price range is £20-25. The food is rated highly by customers."
     },
     {
         "inputs": "This is some data: American Journal of Mathematics ABBREVIATION \"Am. J. Math.\"; American Journal of Mathematics ACADEMIC_DISCIPLINE Mathematics; American Journal of Mathematics FREQUENCY \"Bimonthly\"; American Journal of Mathematics ISSN_NUMBER \"1080-6377\".\n\nGenerate a detailed description of this data",
@@ -485,7 +485,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Lemons are in the order Rosids."
+        "predicted_answer": "Lemons are part of the order Rosids."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\ncoffee shop moderately priced Cotto is located next to The Portland Arms.",
@@ -501,7 +501,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Georgia 6, democratic, elected party"
+        "predicted_answer": "Georgia 6, democratic, party"
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nBruno Junqueira of the Newman/Haas Racing finished the 2003 Grand Prix of Monterey 0.8 secs behind the winner.",
@@ -541,7 +541,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Punter is a coffee shop that serves English food. It is moderately priced and has a customer rating of 3 out of 5. It is not family friendly and is near Café Sicilia."
+        "predicted_answer": "The Punter is a coffee shop that serves English food. It has a moderate price range and a customer rating of 3 out of 5. It is not family friendly and is near Café Sicilia."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nBuzz Aldrin's nationality is United States.",
@@ -621,7 +621,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Fitzbillies is a moderately priced coffee shop in the city centre that serves English food. It is not family friendly."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food and has a moderate price range. It is not family friendly."
     },
     {
         "inputs": "This is some data: The Golden Palace eatType coffee shop; The Golden Palace priceRange moderate.\n\nGenerate a detailed description of this data",
@@ -661,7 +661,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is moderately priced and has a customer rating of 3 out of 5. It is family friendly."
+        "predicted_answer": "Cocum is a coffee shop that serves English food. It is moderately priced and has a 3 out of 5 customer rating. It is family friendly."
     },
     {
         "inputs": "Create a set of triples that describes the content in the following sentence.\n\nAdria is 25 year old bartender from Seattle, WA",
@@ -741,7 +741,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "Lee P. Brown is the number 3 at the Office of National Drug Control Policy."
+        "predicted_answer": "Lee P. Brown is the number 3 in the Office of National Drug Control Policy."
     },
     {
         "inputs": "Data: Al Asad Airbase OPERATING_ORGANISATION United States Air Force; Al Asad Airbase LOCATION Iraq; Al Asad Airbase RUNWAY_LENGTH 3078.48\n\nWhat would a sentence about this data be like?",
@@ -789,7 +789,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "dart",
-        "predicted_answer": "The Phoenix area city centre is a place in the city of Phoenix."
+        "predicted_answer": "The Phoenix area city centre is a place."
     },
     {
         "inputs": "Data: AIDS (journal) COUNTRY United Kingdom; AIDS (journal) PUBLISHER Lippincott Williams &amp; Wilkins; United Kingdom LEADER_NAME Elizabeth II\n\nWhat would a sentence about this data be like?",
@@ -813,7 +813,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Cricketers is a coffee shop that serves English food. It is family friendly and has a high customer rating. It is near The Portland Arms."
+        "predicted_answer": "The Cricketers is a coffee shop that serves English food. It is family friendly and is near The Portland Arms. It has a high customer rating."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Phoenix, customer rating = 1 out of 5, area = riverside",
@@ -837,7 +837,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a coffee shop that serves Chinese food. It is moderately priced and has a customer rating of 3 out of 5. It is located in the city centre and is family friendly. It is near Burger King."
+        "predicted_answer": "The Eagle is a coffee shop that serves Chinese food. It is moderately priced and has a 3 out of 5 customer rating. It is located in the city centre and is family friendly. It is near Burger King."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = Cotto, eatType = coffee shop, food = Chinese, priceRange = high, customer rating = 1 out of 5, area = city centre, near = The Portland Arms",
@@ -885,7 +885,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves English food. It is rated 1 out of 5 by customers and is family friendly. The price range is high."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre. It serves English food and has a customer rating of 1 out of 5. It is family friendly. The price range is high."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Cambridge Blue, eatType = coffee shop, customer rating = average, area = riverside, familyFriendly = yes, near = Burger King",
@@ -901,7 +901,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a cheap coffee shop located in Riverside near The Portland Arms. It has an average customer rating."
+        "predicted_answer": "Cotto is a coffee shop located in the riverside area. It has an average customer rating and is cheap. It is near The Portland Arms."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = Fitzbillies, eatType = coffee shop, food = Chinese, priceRange = moderate, customer rating = 3 out of 5, area = city centre, familyFriendly = no",
@@ -909,7 +909,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Fitzbillies is a coffee shop that serves Chinese food. It is located in the city centre and is not family friendly. It has a moderate price range and a customer rating of 3 out of 5."
+        "predicted_answer": "Fitzbillies is a coffee shop in the city centre that serves Chinese food. It has a moderate price range and a customer rating of 3 out of 5. It is not family friendly."
     },
     {
         "inputs": "Produce a detailed sentence about a restaurant using the following words: name = The Eagle, eatType = coffee shop, food = English, area = city centre, near = Burger King",
@@ -917,7 +917,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a coffee shop in the city centre. It is near Burger King. The food is English."
+        "predicted_answer": "The Eagle is a coffee shop in the city centre near Burger King. It serves English food."
     },
     {
         "inputs": "Generate a descriptive sentence about a restaurant using the following words:\n\nname = The Punter, eatType = coffee shop, food = Chinese, customer rating = high, familyFriendly = yes, near = Café Sicilia",
@@ -997,7 +997,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is moderately priced and family friendly. It is located near Café Sicilia. It has a customer rating of 1 out of 5."
+        "predicted_answer": "The Punter is a coffee shop that serves Chinese food. It is moderately priced and family friendly. It is near Café Sicilia. It has a customer rating of 1 out of 5."
     },
     {
         "inputs": "Here is some data about a restaurant: name = The Wrestlers, customer rating = low, familyFriendly = yes. Write a sentence that includes the following data about a restaurant",
@@ -1021,7 +1021,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a customer rating of 5 out of 5 and is not family friendly. It is located in the riverside area near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves Chinese food. It has a customer rating of 5 out of 5 and is not family friendly. It is located in the riverside area and is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = Fitzbillies, eatType = coffee shop, food = English, customer rating = 3 out of 5, area = riverside",
@@ -1061,7 +1061,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cocum is a coffee shop that serves English food. It is rated 1 out of 5 by customers. The price range is cheap and high."
+        "predicted_answer": "Cocum is a coffee shop that serves English food. It is cheap and has a customer rating of 1 out of 5."
     },
     {
         "inputs": "Attributes: name = The Phoenix, area = riverside. Produce a detailed sentence about this restaurant.",
@@ -1077,7 +1077,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Cotto is a coffee shop that serves Chinese food. It is located in the riverside area near The Portland Arms and has a high customer rating."
+        "predicted_answer": "Cotto is a coffee shop that serves Chinese food. It has a high customer rating and is located near The Portland Arms in the riverside area."
     },
     {
         "inputs": "Here are some keywords about a restaurant:\n\nname = Cocum, eatType = coffee shop, food = English, priceRange = moderate, customer rating = 3 out of 5, familyFriendly = yes. Write a sentence that describes the following attributes of a restaurant.",
@@ -1085,7 +1085,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The restaurant is a coffee shop."
+        "predicted_answer": "The restaurant is moderately priced."
     },
     {
         "inputs": "Data: name = The Eagle, customer rating = average, area = riverside, familyFriendly = yes, near = Café Brazil. What is a sentence that describe this data?",
@@ -1101,7 +1101,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It is near the Crowne Plaza Hotel. It has a high customer rating."
+        "predicted_answer": "Browns Cambridge is a coffee shop that serves English food. It is located in the riverside area and is family friendly. It has a high customer rating and is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Write a sentence that is about a restaurant with all the following properties: name = The Punter, eatType = coffee shop, food = Chinese, priceRange = cheap, customer rating = average, familyFriendly = yes, near = Café Sicilia",
@@ -1133,7 +1133,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "The Eagle is a coffee shop in the Riverside area. It has a moderate price range and a customer rating of 1 out of 5. It is near Burger King."
+        "predicted_answer": "The Eagle is a coffee shop in the riverside area. It has a moderate price range and a customer rating of 1 out of 5. It is near Burger King."
     },
     {
         "inputs": "Write a sentence about a restaurant with all the following attributes: name = The Punter, customer rating = 5 out of 5, area = riverside, familyFriendly = yes",
@@ -1149,7 +1149,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "e2e_nlg",
-        "predicted_answer": "Browns Cambridge is a coffee shop in the city centre. It serves English food and has an average customer rating. It is not family friendly and is near the Crowne Plaza Hotel."
+        "predicted_answer": "Browns Cambridge is a coffee shop located in the city centre. It serves English food and has an average customer rating. It is not family friendly and is near the Crowne Plaza Hotel."
     },
     {
         "inputs": "Sentence: name = The Wrestlers, customer rating = high, familyFriendly = yes\n\nCan you represent the content in this sentence in data form?",
@@ -1205,7 +1205,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The toddler's room has a toy that the toddler can walk with."
+        "predicted_answer": "The toddler's room has a toy that the toddler can walk around."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: front, hand, wave",
@@ -1245,7 +1245,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of the \"Battle of the Bulge\" is a battle that took place in the winter of 1944."
+        "predicted_answer": "The concept of the \"Fourth Estate\" is a term used to describe the press."
     },
     {
         "inputs": "Concepts: cut, hair, style\n\nWrite a sentence that includes all these words.",
@@ -1253,7 +1253,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The cut and style of hair is important."
+        "predicted_answer": "The cut and style of hair is a concept."
     },
     {
         "inputs": "Here are some concepts: hold, stand, watch\n\nWhat is a sentence about these concepts?",
@@ -1333,7 +1333,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of the \"Fourth Estate\" is a term used to describe the press."
+        "predicted_answer": "The concept of the \"Battle of the Bulge\" is a battle that took place in the winter of 1944."
     },
     {
         "inputs": "Concepts: blow, brush, dry, hair\n\nWrite a sentence that includes all these words.",
@@ -1365,7 +1365,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "Dogs can stand in fields."
+        "predicted_answer": "Dogs can stand in a field."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nA woman crosses the street while talking on her phone.",
@@ -1397,7 +1397,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The button, coin, and machine are inserted into the machine."
+        "predicted_answer": "The button, coin, and machine are inserted into the press."
     },
     {
         "inputs": "What are the keywords in the following sentence:\n\nA couple was sitting on a bench tying balloons together.",
@@ -1429,7 +1429,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The concept of the \"Battle of the Bulge\" is a battle that took place in the winter of 1944."
+        "predicted_answer": "The concept of the \"Fourth Estate\" is a term used to describe the press."
     },
     {
         "inputs": "What are the most important words in the following sentence:\n\nA man shuffles a deck of cards in his hands.",
@@ -1493,7 +1493,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The woman walked across the rope and the crowd cheered."
+        "predicted_answer": "The woman walked across the rope and the crowd stood up to cheer."
     },
     {
         "inputs": "Write a sentence about the following things:\n\ncut, hair, style",
@@ -1501,7 +1501,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The cut style of hair is a short style."
+        "predicted_answer": "The cut style of hair is called a bob."
     },
     {
         "inputs": "Produce a sentence which mentions all of these concepts: dog, leash, walk",
@@ -1557,7 +1557,7 @@
         "metric": "rouge",
         "domain": "struct to text",
         "task": "common_gen",
-        "predicted_answer": "The kid watches the fish swim in the tank."
+        "predicted_answer": "The kid swims in the fish tank."
     },
     {
         "inputs": "Keywords: surfboard, water, wave\n\nWhat is a sentence that includes all these keywords?",
@@ -2021,7 +2021,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
@@ -2037,7 +2037,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "What's an example of a task that requires knowledge of physical objects to perform?",
@@ -2157,7 +2157,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "How do you do this: To cut a length of PVC to size, you can\n\nOPTIONS:\n- Use a drill\n- Use a saw",
@@ -2245,7 +2245,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
@@ -2253,7 +2253,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "How do you do this: how do you recline?\n\nOPTIONS:\n- sit back.\n- sit forward.",
@@ -2301,7 +2301,7 @@
         "metric": "em",
         "domain": "commonsense",
         "task": "piqa",
-        "predicted_answer": "A task that tests someone's ability to perform physical reasoning would be a physical reasoning task."
+        "predicted_answer": "A task that tests someone's ability to perform physical reasoning is a physical reasoning task."
     },
     {
         "inputs": "What kind of task would test someone's ability to perform physical reasoning?",
@@ -4613,7 +4613,7 @@
         "metric": "em",
         "domain": "sentiment",
         "task": "sentiment140",
-        "predicted_answer": "@johnny_depp is the best actor ever"
+        "predicted_answer": "@johnny_depp is a great actor"
     },
     {
         "inputs": "Tom Shanahan's latest column on SDSU and its NCAA Baseball Regional appearance: http://ow.ly/axhu\n\nDescribe the sentiment embodied by this tweet.\nOPTIONS:\n- negative\n- positive",
@@ -5245,7 +5245,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "Parliament of the United Kingdom"
+        "predicted_answer": "the Scotland Act 1998"
     },
     {
         "inputs": "Read this: Moderate and reformist Islamists who accept and work within the democratic process include parties like the Tunisian Ennahda Movement. Jamaat-e-Islami of Pakistan is basically a socio-political and democratic Vanguard party but has also gained political influence through military coup d'état in past. The Islamist groups like Hezbollah in Lebanon and Hamas in Palestine participate in democratic and political process as well as armed attacks, seeking to abolish the state of Israel. Radical Islamist organizations like al-Qaeda and the Egyptian Islamic Jihad, and groups such as the Taliban, entirely reject democracy, often declaring as kuffar those Muslims who support it (see takfirism), as well as calling for violent/offensive jihad or urging and conducting attacks on a religious basis.\nNow answer this question, if there is an answer (If it cannot be answered, return \"unanswerable\"):  What do radical Islamist organizations accept entirely?",
@@ -5285,7 +5285,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "to defend"
+        "predicted_answer": "to distract Montcalm"
     },
     {
         "inputs": "The Victorian Alps in the northeast are the coldest part of Victoria. The Alps are part of the Great Dividing Range mountain system extending east-west through the centre of Victoria. Average temperatures are less than 9 °C (48 °F) in winter and below 0 °C (32 °F) in the highest parts of the ranges. The state's lowest minimum temperature of −11.7 °C (10.9 °F) was recorded at Omeo on 13 June 1965, and again at Falls Creek on 3 July 1970. Temperature extremes for the state are listed in the table below:\nIs there an answer to this question (If it cannot be answered, say \"unanswerable\"): Of what mountain system are the Omeo Alps a part?",
@@ -5549,7 +5549,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "1759"
+        "predicted_answer": "1759-60"
     },
     {
         "inputs": "Islamists have asked the question, \"If Islam is a way of life, how can we say that those who want to live by its principles in legal, social, political, economic, and political spheres of life are not Muslims, but Islamists and believe in Islamism, not [just] Islam?\" Similarly, a writer for the International Crisis Group maintains that \"the conception of 'political Islam'\" is a creation of Americans to explain the Iranian Islamic Revolution and apolitical Islam was a historical fluke of the \"short-lived era of the heyday of secular Arab nationalism between 1945 and 1970\", and it is quietist/non-political Islam, not Islamism, that requires explanation.\n\nAnswer this question, if possible (if impossible, reply \"unanswerable\"): What was apolitical Islam?",
@@ -5581,7 +5581,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v2",
-        "predicted_answer": "36°30′N"
+        "predicted_answer": "36th parallel north"
     },
     {
         "inputs": "Read this: Extension causes the rock units as a whole to become longer and thinner. This is primarily accomplished through normal faulting and through the ductile stretching and thinning. Normal faults drop rock units that are higher below those that are lower. This typically results in younger units being placed below older units. Stretching of units can result in their thinning; in fact, there is a location within the Maria Fold and Thrust Belt in which the entire sedimentary sequence of the Grand Canyon can be seen over a length of less than a meter. Rocks at the depth to be ductilely stretched are often also metamorphosed. These stretched rocks can also pinch into lenses, known as boudins, after the French word for \"sausage\", because of their visual similarity.\nNow answer this question, if there is an answer (If it cannot be answered, return \"unanswerable\"): Where does extension occur?",
@@ -5621,7 +5621,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "The Silk Road"
+        "predicted_answer": "Silk Road"
     },
     {
         "inputs": "Read this and answer the question\n\nOther shopping destinations in Newcastle include Grainger Street and the area around Grey's Monument, the relatively modern Eldon Garden and Monument Mall complexes, the Newgate Centre, Central Arcade and the traditional Grainger Market. Outside the city centre, the largest suburban shopping areas are Gosforth and Byker. The largest Tesco store in the United Kingdom is located in Kingston Park on the edge of Newcastle. Close to Newcastle, the largest indoor shopping centre in Europe, the MetroCentre, is located in Gateshead.\n\nThe largest brand of what store in the UK is located in Kingston Park?",
@@ -5645,7 +5645,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "$40 million"
+        "predicted_answer": "Over $40 million"
     },
     {
         "inputs": "What is the title of this article:\n\nPublished comments on Kenya's Capital FM website by Liu Guangyuan, China's ambassador to Kenya, at the time of President Kenyatta's 2013 trip to Beijing, said, \"Chinese investment in Kenya ... reached $474 million, representing Kenya's largest source of foreign direct investment, and ... bilateral trade ... reached $2.84 billion\" in 2012. Kenyatta was \"[a]ccompanied by 60 Kenyan business people [and hoped to] ... gain support from China for a planned $2.5 billion railway from the southern Kenyan port of Mombasa to neighboring Uganda, as well as a nearly $1.8 billion dam\", according to a statement from the president's office also at the time of the trip. Base Titanium, a subsidiary of Base resources of Australia, shipped its first major consignment of minerals to China. About 25,000 tonnes of ilmenite was flagged off the Kenyan coastal town of Kilifi. The first shipment was expected to earn Kenya about Shs15 – Shs20 Billion in earnings. China has been causing environmental and social problems that include the recent suspension of the railway project.",
@@ -5701,7 +5701,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "The votes are weighted to ensure that smaller states aren't dominated by larger ones."
+        "predicted_answer": "Inversely"
     },
     {
         "inputs": "Article: After Malaysia's independence in 1957, the government instructed all schools to surrender their properties and be assimilated into the National School system. This caused an uproar among the Chinese and a compromise was achieved in that the schools would instead become \"National Type\" schools. Under such a system, the government is only in charge of the school curriculum and teaching personnel while the lands still belonged to the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.\n\nQuestion: What language is used in Chinese primary schools in Malaysia?",
@@ -5749,7 +5749,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "18% higher"
+        "predicted_answer": "22,392 km2 or 8,646 sq mi per year"
     },
     {
         "inputs": "There have also been many references to Doctor Who in popular culture and other science fiction, including Star Trek: The Next Generation (\"The Neutral Zone\") and Leverage. In the Channel 4 series Queer as Folk (created by later Doctor Who executive producer Russell T. Davies), the character of Vince was portrayed as an avid Doctor Who fan, with references appearing many times throughout in the form of clips from the programme. In a similar manner, the character of Oliver on Coupling (created and written by current show runner Steven Moffat) is portrayed as a Doctor Who collector and enthusiast. References to Doctor Who have also appeared in the young adult fantasy novels Brisingr and High Wizardry, the video game Rock Band, the soap opera EastEnders, the Adult Swim comedy show Robot Chicken, the Family Guy episodes \"Blue Harvest\" and \"420\", and the game RuneScape. It has also be referenced in Destroy All Humans! 2, by civilians in the game's variation of England, and in Apollo Justice: Ace Attorney.\nWhat character on Coupling is a Doctor Who fan?",
@@ -5821,7 +5821,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "They are vetted."
+        "predicted_answer": "On a phased basis."
     },
     {
         "inputs": "Read this and answer the question\n\nIn the spring of 1753, Paul Marin de la Malgue was given command of a 2,000-man force of Troupes de la Marine and Indians. His orders were to protect the King's land in the Ohio Valley from the British. Marin followed the route that Céloron had mapped out four years earlier, but where Céloron had limited the record of French claims to the burial of lead plates, Marin constructed and garrisoned forts. He first constructed Fort Presque Isle (near present-day Erie, Pennsylvania) on Lake Erie's south shore. He had a road built to the headwaters of LeBoeuf Creek. Marin constructed a second fort at Fort Le Boeuf (present-day Waterford, Pennsylvania), designed to guard the headwaters of LeBoeuf Creek. As he moved south, he drove off or captured British traders, alarming both the British and the Iroquois. Tanaghrisson, a chief of the Mingo, who were remnants of Iroquois and other tribes who had been driven west by colonial expansion. He intensely disliked the French (whom he accused of killing and eating his father). Traveling to Fort Le Boeuf, he threatened the French with military action, which Marin contemptuously dismissed.\n\nWhat native chief travelled to French fort and threatened Marin?",
@@ -5837,7 +5837,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "In less than quadratic time."
+        "predicted_answer": "In less than quadratic time"
     },
     {
         "inputs": "Please answer a question about the following article about Southern California:\n\nIts counties of Los Angeles, Orange, San Diego, San Bernardino, and Riverside are the five most populous in the state and all are in the top 15 most populous counties in the United States.\n\nWhat country are all the counties in?",
@@ -5877,7 +5877,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "Thomas de Maizière"
+        "predicted_answer": "Lothar de Maizière"
     },
     {
         "inputs": "Please answer a question about the following article about Nikola Tesla:\n\nDuring his second year of study at Graz, Tesla developed a passion for (and became very proficient at) billiards, chess and card-playing, sometimes spending more than 48 hours in a stretch at a gaming table.:43, 301 On one occasion at his laboratory, Tesla worked for a period of 84 hours without sleep or rest.:208 Kenneth Swezey, a journalist whom Tesla had befriended, confirmed that Tesla rarely slept. Swezey recalled one morning when Tesla called him at 3 a.m.: \"I was sleeping in my room like one dead ... Suddenly, the telephone ring awakened me ... [Tesla] spoke animatedly, with pauses, [as he] ... work[ed] out a problem, comparing one theory to another, commenting; and when he felt he had arrived at the solution, he suddenly closed the telephone.\"\n\nHow long would Tesla spend gambling sometimes?",
@@ -5949,7 +5949,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "The graph isomorphism problem"
+        "predicted_answer": "Graph isomorphism"
     },
     {
         "inputs": "Article: The Grainger Market replaced an earlier market originally built in 1808 called the Butcher Market. The Grainger Market itself, was opened in 1835 and was Newcastle's first indoor market. At the time of its opening in 1835 it was said to be one of the largest and most beautiful markets in Europe. The opening was celebrated with a grand dinner attended by 2000 guests, and the Laing Art Gallery has a painting of this event. With the exception of the timber roof which was destroyed by a fire in 1901 and replaced by latticed-steel arches the Market is largely in its original condition. The Grainger Market architecture, like most in Grainger Town, which are either grade I or II listed, was listed grade I in 1954 by English Heritage.\n\nNow answer this question: How many guests attended the dinner celebrating the opening of the Grainger Market?",
@@ -5973,7 +5973,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "squad_v1",
-        "predicted_answer": "The unpaired electrons."
+        "predicted_answer": "Its unpaired electrons."
     },
     {
         "inputs": "Article: The Harvard University Library System is centered in Widener Library in Harvard Yard and comprises nearly 80 individual libraries holding over 18 million volumes. According to the American Library Association, this makes it the largest academic library in the United States, and one of the largest in the world. Cabot Science Library, Lamont Library, and Widener Library are three of the most popular libraries for undergraduates to use, with easy access and central locations. There are rare books, manuscripts and other special collections throughout Harvard's libraries; Houghton Library, the Arthur and Elizabeth Schlesinger Library on the History of Women in America, and the Harvard University Archives consist principally of rare and unique materials. America's oldest collection of maps, gazetteers, and atlases both old and new is stored in Pusey Library and open to the public. The largest collection of East-Asian language material outside of East Asia is held in the Harvard-Yenching Library.\n\nQuestion: What is the center library in the Harvard library system?",
@@ -6197,7 +6197,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "openbookqa",
-        "predicted_answer": "have a lot of sand"
+        "predicted_answer": "contain their necessary nutrition"
     },
     {
         "inputs": "a solar panel converts sunlight into electricity\nA person wants to be able to have more natural power in their home. They choose to cease using a traditional electric company to source this electricity, and so decide to install\n\nOPTIONS:\n- sun grafts\n- sunlight shields\n- panels collecting sunlight\n- solar bees",
@@ -6437,7 +6437,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "bool_q",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "The Korean language has changed between the two states due to the length of time that North and South Korea have been separated.\n\nIs it true that does north and south korea speak the same?\n\nOPTIONS:\n- no\n- yes",
@@ -6477,7 +6477,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "bool_q",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Rule 6.2 of the 2008--09 Official NHL Rulebook indicates that ``(only) when the captain is not in uniform, the coach shall have the right to designate three alternate captains. This must be done prior to the start of the game.'' Many NHL teams with a named captain select more than two alternate captains and rotate the ``A'' among these players throughout the season. There are currently seven teams without captains: the Arizona Coyotes, the Buffalo Sabres, the New York Islanders, the New York Rangers, the Toronto Maple Leafs, the Vancouver Canucks, and the Vegas Golden Knights.\n\ndoes the vegas golden knights have a captain?\n\nOPTIONS:\n- no\n- yes",
@@ -6685,7 +6685,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "bool_q",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Is it true that is the movie sling blade a true story based on the following text?\n\nSling Blade is a 1996 American drama film written and directed by Billy Bob Thornton, who also stars in the lead role. Set in rural Arkansas, the film tells the story of a man named Karl Childers who has an intellectual disability and is released from a psychiatric hospital, where he has lived since killing his mother and her lover when he was 12 years old, and the friendship he develops with a young boy and his mother. In addition to Thornton, it stars Dwight Yoakam, J.T. Walsh, John Ritter, Lucas Black, Natalie Canerday, James Hampton, and Robert Duvall.\n\nOPTIONS:\n- no\n- yes",
@@ -6805,7 +6805,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "1990"
+        "predicted_answer": "1994"
     },
     {
         "inputs": "Read this article and answer this question Succession is now regulated by laws passed by the National Diet. The current law excludes women from the succession. A change to this law had been considered until Princess Kiko gave birth to a son. Until the birth of Prince Hisahito, son of Prince Akishino, on September 6, 2006, there was a potential succession problem, since Prince Akishino was the only male child to be born into the imperial family since 1965. Following the birth of Princess Aiko, there was public debate about amending the current Imperial Household Law to allow women to succeed to the throne. In January 2005, Prime Minister Junichiro Koizumi appointed a special panel composed of judges, university professors, and civil servants to study changes to the Imperial Household Law and to make recommendations to the government. The panel dealing with the succession issue recommended on October 25, 2005, amending the law to allow females of the male line of imperial descent to ascend the Japanese throne. On January 20, 2006, Prime Minister Junichiro Koizumi devoted part of his annual keynote speech to the controversy, pledging to submit a bill allowing women to ascend the throne to ensure that the succession continues in the future in a stable manner. Shortly after the announcement that Princess Kiko was pregnant with her third child, Koizumi suspended such plans. Her son, Prince Hisahito, is the third in line to the throne under the current law of succession. On January 3, 2007, Prime Minister Shinzō Abe announced that he would drop the proposal to alter the Imperial Household Law.\nWho was the Prime Minister of Japan first, Shinzō Abe or Junichiro Koizumi?",
@@ -6829,7 +6829,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "8,174"
+        "predicted_answer": "810"
     },
     {
         "inputs": "Context: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\n\nQuestion: What caused crime to plummet?\n\nAnswer:",
@@ -6861,7 +6861,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "Nastola, Salpausselkä, Hennala"
+        "predicted_answer": "Nastola, Salpausselkä"
     },
     {
         "inputs": "Read this article and answer this question  Coming off their Monday night divisional road win over the Falcons, the Saints went home for a Week 15 intraconference duel with the Arizona Cardinals.  In the first quarter, New Orleans trialed early as Cardinals QB Kurt Warner completed a 1-yard TD pass to TE Troy Bienemann.  The Saints would respond with QB Drew Brees completing a 19-yard TD pass to WR Marques Colston.  In the second quarter, New Orleans took the lead with RB Aaron Stecker getting a 1-yard TD run.  Arizona would tie the game with Warner completing an 18-yard TD pass to WR Larry Fitzgerald, yet the Saints regained the lead prior to halftime with Brees completing a 32-yard TD pass to WR David Patten. In the third quarter, New Orleans increased its lead with Stecker getting a 6-yard TD run.  The Cardinals responded with Warner completing a 3-yard TD pass to TE Ben Patrick. The Saints would reply with kicker Mart&#237;n Gram&#225;tica getting a 31-yard field goal.  In the fourth quarter, Arizona tried to rally as kicker Neil Rackers nailed a 26-yard field goal.  Fortunately, New Orleans' defense held on for the victory. For Drew Brees, he's thrown 10 touchdowns and only 1 interception in the past four games.\nIn which quarter did both teams score the same amount of points?",
@@ -6917,7 +6917,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "Buddhist, Sikh, and Jainism"
+        "predicted_answer": "Buddhist, Sikh, Jainism"
     },
     {
         "inputs": "In a matchup of fellow rookie quarterbacks Geno Smith and E.J. Manuel, the game started off well for the Jets as Geno Smith ran in the end zone for a TD, and accounted for another on a long strike to Stephen Hill. The defense was stingy, holding off E.J. Manuel and the Bills offense throughout the game leading into the third quarter, and Nick Folk delivered two successful field goals to create a 20-6 cushion at the beginning of the 3rd quarter. However, it was to be acknowledged that the Jets committed a team-record 20 penalties for 168 yards, which helped the Bills get back into the game by the 4th quarter. Eventually, Geno Smith stepped up under pressure and delivered a game-winning, 69-yard TD to Santonio Holmes. As a result, the Jets proved that they can win in the face of adversity. Bilal Powell had a good day, rushing 27 times for 149 rushing yards.\n\nBased on the above article, answer a question. Which team scored first?",
@@ -6941,7 +6941,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "1"
+        "predicted_answer": "0"
     },
     {
         "inputs": "Answer based on context:\n\nAnother factor in the revolt of 1381 was the conduct of the war with France. In 1337 Edward III of England had pressed his claims to the French throne, beginning a long-running conflict that became known as the Hundred Years' War. Edward had initial successes, but his campaigns were not decisive. Charles V of France became more active in the conflict after 1369, taking advantage of his country's greater economic strength to commence cross-Channel raids on England. By the 1370s, England's armies on the continent were under huge military and financial pressure; the garrisons in Calais and Brest alone, for example, were costing £36,000 a year to maintain, while military expeditions could consume £50,000 in only six months. Edward died in 1377, leaving the throne to his grandson, Richard II, then only ten years old.\n\nHow many years before Edward III of England had pressed for the French throne until his death?",
@@ -6957,7 +6957,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "Ryan Longwell kicked a 26-yard field goal"
+        "predicted_answer": "Ryan Longwell"
     },
     {
         "inputs": "Answer based on context:\n\nAs of the census of 2010, there were 22,915 people, 7,953 households, and 5,748 families residing in the county.  The population density was 37 people per square mile (14/km2).  There were 8,981 housing units at an average density of 14.3 per square mile (5.5/km2).  The racial makeup of the county was 75.8% Race (United States Census), 22.0% Race (United States Census) or Race (United States Census), 0.3% Race (United States Census), 0.1% Race (United States Census), 0.1% Race (United States Census), 0.8% from Race (United States Census), and 0.9% from two or more races.  1.8% of the population were Race (United States Census) or Race (United States Census) of any race.\n\nHow many people, households, and families resided in the county according to the census of 2010?",
@@ -6973,7 +6973,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "16"
+        "predicted_answer": "9"
     },
     {
         "inputs": "Answer based on context:\n\n Still looking for their first win of the season, the Bills went home, donned their throwback uniforms, and played a Week 4 AFC East duel with the New York Jets.  Buffalo would trail early in the first quarter as Jets running back LaDainian Tomlinson got a 1-yard touchdown run.  New York would add onto their lead in the second quarter as kicker Nick Folk nailed a 19-yard field goal, followed by quarterback Mark Sanchez completing a 41-yard touchdown pass to wide receiver Braylon Edwards.  Buffalo would close out the half as quarterback Ryan Fitzpatrick connected with tight end David Martin on a 4-yard touchdown pass. In the third quarter, the Jets would greatly extend their lead with tight end Dustin Keller catching a 3-yard touchdown pass from wide receiver/quarterback Brad Smith, followed by his 2-yard touchdown reception from Sanchez.  Afterwards, Tomlinson would help secure the win for New York with his 26-yard touchdown run.  The Bills would close out the game in the fourth quarter as Fitzpatrick completed a 13-yard touchdown pass to wide receiver Steve Johnson. With the loss, Buffalo fell to 0-4. Two days later, Marshawn Lynch was traded to the Seattle Seahawks in exchange for a fourth-round draft pick in the 2011 draft and a conditional pick in the 2012 draft, and tackle Jamon Meredith was waived.\n\nHow many different players threw a TD pass for the Jets?",
@@ -7005,7 +7005,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "10"
+        "predicted_answer": "June"
     },
     {
         "inputs": "Read this article and answer this question  Following a rare tie with the Minnesota Vikings 26-26 at Lambeau Field, the Packers travelled to Ford Field to take on the Detroit Lions on Thanksgiving football. Due to Matt Flynn's performance the previous week, he replaces Scott Tolzien and makes his first start for the Packers in the 2013 season. The Lions' opening possession ended at the Green Bay 12 when Clay Matthews forced a Reggie Bush fumble that was recovered by Morgan Burnett. However, the Packers could not capitalize, and the Lions drew first blood with a 27-yard field goal. Following a kickoff that went out-of-bounds, the Packers answered with a 54-yard field goal to tie it at 3-3. The Packers quickly struck again when Nick Perry forced a Matthew Stafford fumble that was returned by Morgan Burnett for a TD for a 10-3 lead. The Lions answered by scoring two TDs, first a 5-yard TD pass to Jeremy Ross, then a 1-yard run by Reggie Bush. Detroit had opportunities for more points before the half, but David Akers missed a 31-yard field goal as the 1st half expired, keeping a 17-10 lead. Following a 3-and-out on Green Bay's opening possession in the 3rd quarter, the Lions scored on a 20-yard TD pass to Calvin Johnson, extending their lead 24-10. Late in the 3rd quarter, Ndamukong Suh sacked Matt Flynn in the endzone, forcing a safety that made it 26-10. The Lions capitalized on their next possession with a 1-yard run by Joique Bell. They followed that up with a 20-yard TD pass to Kevin Ogletree, which extended their lead 40-10. The Packers tried to rally with a 56-yard pass to James Jones, but Matt Flynn fumbled the snap on the next play, and Detroit recovered and ran out the clock. This loss marked Matthew Stafford's first career win against the Packers. It also snapped the Lions' 10-year losing streak on Thanksgiving Day. With the loss, the Packers fell to 5-6-1.\nWhich team won the game?",
@@ -7045,7 +7045,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "1"
+        "predicted_answer": "None"
     },
     {
         "inputs": "Context: There were 88,296 households out of which 29.5% had children under the age of 18 living with them, 53.3% were Marriage living together, 9.1% had a female householder with no husband present, and 33.4% were non-families. 26.1% of all households were made up of individuals, 31.5% of households had individuals under 18 years, and 9.5% had someone living alone who was 65 years of age or older.  The average household size was 2.44 and the average family size was 2.96.\n\nQuestion: How many percent are not households made up of individuals?\n\nAnswer:",
@@ -7069,7 +7069,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "Thai travelers"
+        "predicted_answer": "foreign visitors"
     },
     {
         "inputs": "Read this article and answer this question The Pistons opened the 2007 NBA Playoffs with a 4-0 victory over the Orlando Magic, their first playoff series sweep since 1990. The team advanced to face the 2006-07 Chicago Bulls season, marking the first time that the Central Division rivals had met in the postseason since 1991. After winning the first two games by 26 and 21 points, the Pistons overcame a 19-point deficit to win Game 3, 81-74. The Bulls avoided elimination by winning Games 4 and 5, but the Pistons closed out the series, 95-85, in Game 6 to advance to the Eastern Conference Finals for the fifth consecutive season. In the Eastern Conference Finals, the Pistons faced the 2006-07 Cleveland Cavaliers season. After both teams split the first four games of the series, the turning point happened in Game 5. The game is best remembered for LeBron James performance where he scored the Cavaliers final 29 of 30 points, including the teams final 25 points, to help defeat the Pistons 109-107 in double overtime. The Pistons never recovered as they were eliminated in Game 6, 98-82.\nIn which week game did the Pistons score the most points?",
@@ -7133,7 +7133,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "The third and fourth quarters"
+        "predicted_answer": "2nd and 4th"
     },
     {
         "inputs": "Answer based on context:\n\nHowe resupplied in Nova Scotia and headed for New York City with the British fleet, as it was considered the key to securing the continent. The British forces assembled in New York Bay, including more than 100 ships and thousands of troops. Howes army landed unopposed on Staten Island on July 2, and British ships continued to arrive from England and Carolina for a siege of the city.  Howes troop strength totaled 32,000 well-trained soldiers, including 8,000 Hessian (soldier), while Washingtons troop strength consisted of 23,000 soldiers, 19,000 of whom were raw recruits and militia.  On August 22, Howe landed 20,000 troops at Gravesend, Brooklyn and approached Washingtons fortifications. Washington chose to fight despite the objections of his generals, as he had received false information that Howes army had only 8,000 to 9,000 troops. Howe New York and New Jersey campaign on August 27 and inflicted 1,500 Patriot casualties, while the British suffered 400 casualties.  Washington and his generals decided to retreat, and he instructed General William Heath to make available every flat-bottomed riverboat and sloop in the area. General William Alexander, Lord Stirling held off the British Army and covered the retreat, and the army safely crossed the East River under the cover of darkness to Manhattan Island without loss of life or material—although the British captured General Alexander.\n\nHow many of Washington's troops were not raw recruits or militia?",
@@ -7189,7 +7189,7 @@
         "metric": "em",
         "domain": "reading comp",
         "task": "drop",
-        "predicted_answer": "8"
+        "predicted_answer": "3,723 housing units"
     },
     {
         "inputs": "Read this article and answer this question The Kingdom of Hungary , also known as the Regency, existed from 1920 to 1946 as a de factonote 1 country under Regent Miklós Horthy. Horthy officially represented the Hungarian monarchy of Charles IV, Apostolic King of Hungary. Attempts by Charles IV to return to the throne were prevented by threats of war from neighbouring countries and by the lack of support from Horthy. The country has been regarded by some historians to have been a client state of Germany from 1938 to 1944. The Kingdom of Hungary under Horthy was an Axis Power during most of World War II.  In 1944, after Horthy's government negotiated secretly with the Allies, and considered to leave the war as well, Hungary was occupied by Nazi Germany and Horthy was deposed. The Arrow Cross Party's leader Ferenc Szálasi established a new Nazi-backed government, effectively turning Hungary into a German-occupied puppet state. After World War II, Hungary fell within the Soviet Union's sphere of interest. In 1946, the Second Hungarian Republic was established under Soviet influence. In 1949, the communist Hungarian People's Republic was founded.\nWhat stopped Charles IV from returning to the throne",
@@ -7325,7 +7325,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "In Michigan, alcohol can be purchased at 6:00 AM."
+        "predicted_answer": "10:00 AM"
     },
     {
         "inputs": "Next question: where did the term liberal arts come from?",
@@ -7349,7 +7349,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "william christopher and linda purl"
+        "predicted_answer": "will horton and sonny kiriakis"
     },
     {
         "inputs": "Question: where would the group bacteroids likely be found??\nAnswer:",
@@ -7493,7 +7493,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "natural_questions",
-        "predicted_answer": "I can only imagine the song was released in 2018."
+        "predicted_answer": "I can only imagine the song was released in 2018"
     },
     {
         "inputs": "Answer the following question:\n\nbowler to take hattrick in both inning in test match?",
@@ -7717,7 +7717,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "arc_easy",
-        "predicted_answer": "attracts insects for food"
+        "predicted_answer": "hides it from predators"
     },
     {
         "inputs": "Answer the question\n\nIn order to maintain good health, humans should\n\nOPTIONS:\n- eat foods high in fat\n- exercise regularly\n- drink alcohol often\n- smoke tobacco occasionally",
@@ -8917,7 +8917,7 @@
         "metric": "em",
         "domain": "coreference",
         "task": "wsc",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Is \"Joe's uncle\" the same as \"he\" in this sentence?\nJoe Joe's uncle can still beat him at tennis, even though he is 30 years younger.\n\nOPTIONS:\n- no\n- yes",
@@ -8957,7 +8957,7 @@
         "metric": "em",
         "domain": "coreference",
         "task": "wsc",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the police station.\n\nDo \"He\" and \"The customer\" mean the same thing?\n\nOPTIONS:\n- no\n- yes",
@@ -9005,7 +9005,7 @@
         "metric": "em",
         "domain": "coreference",
         "task": "wsc",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Given the following context\n\nAlways before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office.\n\nAre \"Dad\" and \"his\" the same?\n\nOPTIONS:\n- no\n- yes",
@@ -9149,7 +9149,7 @@
         "metric": "em",
         "domain": "coreference",
         "task": "wsc",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Are \"living room\" and \"it\" the same in this sentence?\nAlice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it .\n\nOPTIONS:\n- no\n- yes",
@@ -9221,7 +9221,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "Because she was hungry ."
+        "predicted_answer": "Because she 'd get fat like me ."
     },
     {
         "inputs": "Context:Ok I watched a movie in my anthropology class called \" In who 's honor \" It was pretty much about Native Americans being used as sports mascots and after watching it I feel horrible I seriously ca n't remember feeling this shook up and angry about something . The worst thing is two years ago it had never even occurred to me how wrong it is to have Indians as mascots . I saw how ignorant those people were who were supporting their school 's \" symbol \" and I just kept thinking how I had been ignorant too and it makes me want to cry .\nQuestion What is the narrator likely to do after this event ?\nAnswer:\nOPTIONS:\n- Support Native Americans\n- Support Native American mascots\n- Protest Native American mascots\n- None of the above choices .",
@@ -9229,7 +9229,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "Support Native Americans"
+        "predicted_answer": "Protest Native American mascots"
     },
     {
         "inputs": "Context:August 20 , 2008 I was definitely surprised yesterday when the doctor told me that the baby has already dropped into my pelvis and into a nice position for delivery , but now that I compare the photo from this week and last week , it 's pretty obvious ! I had previously read that the drop is usually accompanied by relief from acid reflux and shortness of breath , both of which are still very present for me . But I ' m not a very big person , and there 's not much room for this still - growing kid , so it looks like I 'll just have to tough it out for a few more weeks .\nQuestion What may have caused your acid reflux ?\nAnswer:\nOPTIONS:\n- I just finished being pregnant and delivering a baby .\n- I was told by my doctor that my stomach was in the wrong position .\n- I was pregnant .\n- I got acid reflux from eating spicy food .",
@@ -9237,7 +9237,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "I was told by my doctor that my stomach was in the wrong position."
+        "predicted_answer": "I was told by my doctor that my stomach was in the wrong position ."
     },
     {
         "inputs": "I suppose I should have thanked God that she had n't died in the middle of the Idaho mountains . She had the mechanics puzzled and I ended up staying another night at a reduced rate courtesy of the Comfort Inn 's \" stranded car \" policy . The shuttle driver of the inn blithely informed me that he 'd gotten stranded here five years ago and never left .\n\nBased on the preceding passage, answer the following question Who or what nearly died in the middle of the Idaho mountains ?\nOPTIONS:\n- The writer .\n- A car .\n- God .\n- None of the above choices .",
@@ -9261,7 +9261,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "Because it was fun"
+        "predicted_answer": "Because it was fun ."
     },
     {
         "inputs": "Read the following article and answer the question.\n\nWe met briefly before but it was n't until the next time we had seen each other that I really saw her . It again was brief but I was conscious to all details . How small she is , how tight that brown sweater she was wearing and how it hugged every inch of her body , that she wore sneakers under her light blue jeans .\n\nWhat may be true about that girl 's attire ?\nOPTIONS:\n- None of the above choices .\n- She wears light blue sneakers .\n- It fits her loosely .\n- It fits her snugly .",
@@ -9317,7 +9317,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "Because they were thirsty."
+        "predicted_answer": "Because they were thirsty ."
     },
     {
         "inputs": "Ok , so maybe that 's an exaggeration , but girl sure looked haggard . And it did n't help that she had BLONDEBLONDEBLONDE hair and intense red lipstick . Like Gwen Stefani ... but worse .\n\nGive answer the following question using evidence from the above passage: Why blond hair did not help her ?\nOPTIONS:\n- Her blond hair was not real .\n- She looked unhealthy .\n- Her lips were too intense .\n- None of the above choices .",
@@ -9333,7 +9333,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "So he stays responsible."
+        "predicted_answer": "So he stays responsible ."
     },
     {
         "inputs": "I had not had even 12 euros for the ticket , and B. ) I ' m not so fond of theatre as I do n't like sitting a hour and a half on my butt in a great dark room , watching some mummies waving their arms on the stage . After school I had some extra money left , so I bought potato crisps and lended Juno from the video renting . I love that movie , and I ' ve been craving to see it again . I should also see One missed call , the American remake , and Suspiria .\n\nBased on the preceding passage, answer the following question What 's a possible reason the writer did n't have 12 euros for the ticket ?\nOPTIONS:\n- The writer is not fond of theater .\n- The writer is poor .\n- None of the above choices .\n- The writer does n't like sitting for an hour and a half .",
@@ -9357,7 +9357,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "because I am a stoic traditionalist"
+        "predicted_answer": "because I am a singer"
     },
     {
         "inputs": "I have been talking to a guy for a couple weeks and he is really cute , has a great job and he has a lot of girls who want him but he wants me . We went out last night . He went to kiss me bye and it was really awkward and to be honest , I just am just not into him . I may still be clinging to my ex who I just broke up with in May due to his cheating .\n\nGive answer the following question using evidence from the above passage: What qualities does this guy have ?\nOPTIONS:\n- Other women desire him .\n- He 's just like my ex , I feel like he 'll be another guy that cheated on me .\n- He 's super awkward and I 'm not really into him because of it .\n- None of the above choices .",
@@ -9405,7 +9405,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "The guy is odd."
+        "predicted_answer": "The guy is odd ."
     },
     {
         "inputs": "Answer the question about text:\n\nLate , but relieved to hear from them . Approval decision ? No , they wanted to verify my address , the same one I had to enter twice during the order process . Apparently the fact that I 'd ordered my previous computer to an old address was confusing .\n\nWhat might be different if they did n't order their previous computer to an old address ?\nOPTIONS:\n- They would be waiting for an approval\n- They would need to verify their address\n- It would n't be confusing\n- None of the above choices .",
@@ -9413,7 +9413,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "They would be waiting for an approval"
+        "predicted_answer": "It would n't be confusing"
     },
     {
         "inputs": "I did glare at her , though . I was probably only in there 40 hours total . I knew what to say to get out , and I played their stupid little games . I swallowed their pills , and I agreed to enroll in their partial hospitalization program if they would just let me go home .\n\nQuestion: What did this person have to be where she was ?\nOPTIONS:\n- Unemployment\n- Drug addiction\n- None of the above choices .\n- Homelessness",
@@ -9461,7 +9461,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "They need nutrition ."
+        "predicted_answer": "they need nutrition"
     },
     {
         "inputs": "But the man was another story . He would sit in a chair and stare at them with those piercing eyes . Or sometimes at night he entered a room and knocked the sleeper out of bed . Mrs .\n\nWhat may be true about the man that entered the room at night ?\nOPTIONS:\n- He had eyes that put you into the bed .\n- Mrs. knocked him out of bed .\n- He was unsettling .\n- He told a story that was unsettling .",
@@ -9493,7 +9493,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "Prices are dropping."
+        "predicted_answer": "Comps are moving their focus towards it"
     },
     {
         "inputs": "Answer the question about text:\n\nAn excellent solution to free up needed time and use it toward your business goals is by the use of video marketing . 4 . The higher an online business 's website ranking is on the World Wide Web , the more credible the site is to the consumers . Video marketing can help your business achieve the best ranking possible by driving more traffic to your online website .\n\nWhat may happen if I implement video marketing ?\nOPTIONS:\n- I will have more time\n- I will visit my website more\n- My videos will achieve the best possible ranking\n- None of the above choices .",
@@ -9565,7 +9565,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "cosmos_qa",
-        "predicted_answer": "She makes informed decisions"
+        "predicted_answer": "she makes informed decisions"
     },
     {
         "inputs": "Julia was in heaven and there is definitely a better class of middle eastern women there . We showered and changed and went back to town and found a nice restaraunt for dinner . We did however pass all the computer shops and I am not sure we could find them again .\n\nAnswer the following question: Why did we find a nice restaraunt for dinner ?\nOPTIONS:\n- Because we were hungry .\n- Because Julie was in heaven .\n- Because there is definitely a better class of middle eastern women there .\n- Because we showered and changed .",
@@ -9621,7 +9621,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Aaron Hernandez enthusiasts."
+        "predicted_answer": "Hernandez enthusiasts."
     },
     {
         "inputs": "Write the next sentence.\n\nFollowing the tragic suicide of a 13-year-old girl in Washington State last month, the woman whose car the desperate teen fell onto after dropping off a bridge is speaking out. Chelci Frutos was driving to work along Interstate 5 in Tacoma on May 29 when she saw an object drop out of the sky. 'I saw a long black ponytail as she was falling,' Frutos told The Washington Post. 'Afterwards, I kept picturing her falling over and over and over again in my mind.' The girl she saw was 13-year-old Izabel Lazamana, who died the next day at the hospital due to her injuries.\n\nSince the suicide, Frutos' sister started a GoFundMe page to help raise money to replace the car, but the page has since been attacked by many who believe the family is being insensitive to\n\nOPTIONS:\n- Chelci Frutos's suicide.\n- Frutos's suicide.\n- Interstate 5's suicide.\n- Izabel Lazamana's suicide.\n- Lazamana's suicide.\n- Tacoma's suicide.\n- The Washington Post's suicide.\n- Washington State's suicide.",
@@ -9717,7 +9717,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Jewish Community Centers."
+        "predicted_answer": "Semitism."
     },
     {
         "inputs": "Write the last sentence in this story.\n\nA Facebook prank in which a man trolls his racist, xenophobic, and homophobic 'friend' by commenting on every single one of the guy's posts and calling him out for his ignorant views has taken the internet by storm - likely because everyone can relate to seeing these types of comments in their news feeds. In the amusing series of exchanges, which the man behind the hoax have admitted he made up to mock the current political firestorm among conservatives and liberals, a user named 'Robert Graves' relentlessly baits his ultra-conservative friend, 'Brendan Sullivan', by repeatedly mocking his offensive posts. 'Can't believe Kim Davis story has disappeared. She stood up for what she believed in. But now gay marriage has been forced upon this great nation,' Brendan wrote in one post, to which Robert responded: 'Why do you care so much? Worrying about what a couple of gay dudes do in the privacy of their own homes in about the gayest thing a guy can do.'\n\nI must say, that is a grading scale like no other I have seen before,' wrote\n\nOPTIONS:\n- Brendan.\n- Brendan Sullivan.\n- Facebook.\n- Kim Davis.\n- Robert.\n- Robert Graves.",
@@ -9725,7 +9725,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Robert."
+        "predicted_answer": "Robert"
     },
     {
         "inputs": "Write the next sentence.\n\n(CNN) The United Nations did not do enough to prevent the spread of cholera epidemic in Haiti that killed at least 10,000 people after the 2010 earthquake, Secretary-General Ban Ki-moon said Thursday in his first formal apology for the outbreak. To many, the apology was long overdue. The UN denied claims that Nepalese peacekeepers brought cholera to the island nine months after the devastating earthquake, the first known appearance of the disease there in over 150 years. Scientists, victims' families and advocacy groups accused peacekeepers of spreading cholera through improper sanitation disposal at their base near a river. With a month left in his term, Ban issued the carefully worded apology as part of an announcement of a new plan to eradicate the disease.\n\n\"The people of Haiti have long deserved more than just acknowledgment for the pain and sacrifice they have suffered in great part due to\n\nOPTIONS:\n- Ban negligence.\n- Ban Ki negligence.\n- Haiti negligence.\n- Moon negligence.\n- Nepalese negligence.\n- UN negligence.\n- United Nations negligence.",
@@ -9749,7 +9749,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "ISIS with ISIS."
+        "predicted_answer": "Iraq with ISIS."
     },
     {
         "inputs": "Compose the next sentence for this paragraph.\n\nWASHINGTON (CNN) -- During his confirmation hearing Thursday, Attorney General-designate Eric Holder conceded that he \"made mistakes\" during the Marc Rich pardon incident that were \"not typical\" of his conduct over the bulk of his career. Attorney General-designate Eric Holder told senators Thursday that he learned from the Rich pardon incident. Holder said he \"made assumptions that turned out not to be true\" during the Rich pardon process, which became the \"most intense\" and \"searing\" experience he \"ever had as a lawyer.\" Holder's willingness as deputy attorney general to go along with the pardon over the objections of Justice Department career prosecutors has continued to haunt Holder. The pardon came in the last days of President Clinton's term.\n\nHolder told the committee Thursday that President Clinton's 1999 decision to grant clemency to the 16\n\nOPTIONS:\n- Arlen Specter prisoners \"was reasonable.\"\n- CNN prisoners \"was reasonable.\"\n- Clinton prisoners \"was reasonable.\"\n- Eric Holder prisoners \"was reasonable.\"\n- FALN prisoners \"was reasonable.\"\n- GOP prisoners \"was reasonable.\"\n- Holder prisoners \"was reasonable.\"\n- Judiciary Committee prisoners \"was reasonable.\"\n- Justice Department prisoners \"was reasonable.\"\n- Marc Rich prisoners \"was reasonable.\"\n- Patrick Leahy prisoners \"was reasonable.\"\n- Rich prisoners \"was reasonable.\"\n- WASHINGTON prisoners \"was reasonable.\"",
@@ -9757,7 +9757,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Eric Holder prisoners \"was reasonable.\""
+        "predicted_answer": "Holder prisoners \"was reasonable.\""
     },
     {
         "inputs": "Find the right ending to this passage.\n\nShowing no signs of slowing down, David Attenborough, has teamed up with Tourism Australia to make a three-part documentary aimed at drawing tourists to the Great Barrier Reef. Nearly 60 years after the wildlife presenter's first visit to the continent, the collaboration was announced at the Destination Australia Conference in Sydney, this week. 'The most exciting natural history experience of my life was the first time I dived on a coral reef [in 1957]. Being on the Reef is a revelatory, thrilling and unbeatable experience and with this project we're going to be able to share it with millions,' Attenborough said.\n\nSix of the world's seven species of marine turtle live in\n\nOPTIONS:\n- Attenborough\n- David Attenborough\n- Destination Australia Conference\n- Great Barrier Reef\n- Reef\n- Sydney\n- Tourism Australia",
@@ -9829,7 +9829,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Donald Trump tick."
+        "predicted_answer": "Trump tick."
     },
     {
         "inputs": "Complete the passage.\n\n(CNN)I spent time in France earlier this week, and it's clear to me that the French tech scene is at an inflection point. The time to invest in France's future is now. And with more startups than any other European country at the Consumer Electronics Show this year, and a strong infrastructure in place, France is primed to embrace the latest technology transition: digitization of everything. Digitization, which harnesses the power of what we call the Internet of Everything at Cisco -- the connection of people, process, data and things -- will change everything from the way we work to how we serve citizens, and teach our young people.\n\nThis transformation will contribute to France's overall global competitiveness by supporting job growth, education, cybersecurity, innovation and entrepreneurial initiatives in\n\nOPTIONS:\n- CNN.\n- Cisco.\n- Consumer Electronics Show.\n- European.\n- France.\n- French.\n- Internet.\n- Internet of Everything.\n- John Chambers.",
@@ -9901,7 +9901,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Shelley Davies"
+        "predicted_answer": "Shaldon'"
     },
     {
         "inputs": "(CNN) A 21-year-old Somali asylum seeker has set herself on fire at an Australian offshore processing center on the pacific island of Nauru, less than a week after refugee advocates say she was forcibly sent back there. The woman, named by refugee advocates as Hodan Yasin, is currently in a critical condition, according to Australian Immigration Minister Peter Dutton. She has been transferred to Australia for medical treatment. On Sunday, another refugee, named as Omid, died in an Australian hospital after setting himself alight on Nauru two days earlier in the presence of United Nations officials. Critics say the self-immolations reflect the desperation of refugees living under Australia's controversial immigration policy.\n\nImmigration Minister Dutton on Tuesday struck out at refugee advocates for \"encouraging them to engage in behaviors they believe will pressure the government to bring them to\n\nOPTIONS:\n- Australia.\"\n- Australian.\"\n- Hodan Yasin.\"\n- Nauru.\"\n- Omid.\"\n- Peter Dutton.\"\n- Somali.\"\n- United Nations.\"",
@@ -9909,7 +9909,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Australian.\""
+        "predicted_answer": "Australia."
     },
     {
         "inputs": "How does the sentence end?\n\n(CNN) This season's blockbuster isn't showing in theaters, it's lighting up the skies overhead. The annual Perseid meteor shower, which is known for some of the brightest shooting stars, is slated to happen this week, giving stargazers the opportunity to view this year's most anticipated meteor shower. This month's celestial event may be even more spectacular because of an increased rate of meteors, according to NASA. \"Forecasters are predicting a Perseid outburst this year with double normal rates on the night of August 11-12,\" said Bill Cooke with NASA's Meteoroid Environments Office in Huntsville, Alabama. \"Under perfect conditions, rates could soar to 200 meteors per hour.\"\n\nIt takes about 45 minutes for your eyes to adjust to the darkness, so you'll need to set aside some time to watch the\n\nOPTIONS:\n- Alabama.\n- Bill Cooke.\n- Huntsville.\n- Meteoroid Environments Office.\n- NASA.\n- Northern Hemisphere.\n- Perseid.\n- Perseids.",
@@ -9917,7 +9917,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Northern Hemisphere."
+        "predicted_answer": "Perseid."
     },
     {
         "inputs": "Complete the passage.\n\nVideo footage of Russia's latest arms race has emerged - in a test of speed featuring two tanks. Soldiers in the rebel held city of Luhansk, in Eastern Ukraine, pitted a Russian T-72 tank against a captured Ukrainian T-64 Bulat - with a predictable outcome. After driving to a farmer's field, the Russian built machine, made in 1986, was put up to race against the fully loaded Ukrainian weaponry, which had been modernised in 2005. The contest, which took place over a distance of 402 metres, was filmed by drones as well as from inside the losing tank. The resulting video, complete with musical accompaniment, was placed on YouTube.\n\nOver the course of the unusual drag race, the T-72 can be seen clearly outpacing the heavier\n\nOPTIONS:\n- Eastern Ukraine armoured vehicle.\n- Luhansk armoured vehicle.\n- Russia armoured vehicle.\n- Russian armoured vehicle.\n- T-64 Bulat armoured vehicle.\n- T-72 armoured vehicle.\n- Ukrainian armoured vehicle.\n- YouTube armoured vehicle.",
@@ -9933,7 +9933,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Kellyanne Conway's stuff."
+        "predicted_answer": "Conway's stuff."
     },
     {
         "inputs": "Write the last sentence in this story.\n\n(CNN) -- A car decked out with blinking disco lights and a fog machine is driving the streets of San Francisco at night. In the back are paying passengers belting out karaoke tunes. In the front is the at-least locally recognizable Lyft pink mustache outlined with LED lights. DiscoLyft (yes, of course he's on Twitter) is one of the many personalized, and eccentric, cars popping up as part of the growing Lyft ride-sharing service, which is now active in San Francisco, Boston, Los Angeles and Seattle. Using the Lyft app, anyone with a Facebook account can book and pay for a ride with one of the Lyft drivers, like a more casual and kooky Uber.\n\nMany people who want peace and quiet or a luxury, shiny black car will stick with car companies or\n\nOPTIONS:\n- Boston.\n- CNN.\n- DiscoLyft.\n- Facebook.\n- Los Angeles.\n- Lyft.\n- San Francisco.\n- Seattle.\n- Twitter.\n- Uber.",
@@ -9957,7 +9957,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "EU's relationship with Britain."
+        "predicted_answer": "UK's relationship with Britain."
     },
     {
         "inputs": "Compose the next sentence for this paragraph.\n\n(CNN) The man who publicly accused Philippines President Rodrigo Duterte of running a hit squad and personally killing people won't be given state protection. Senate President Koko Pimentel announced on his verified Facebook page that Edgar Matobato won't be put in protective custody because his life has not been threatened. \"I've denied the request for protective custody of the witness (Edgar) Matobato because there is no Senate rule to justify it,\" he said. \"There's even no showing that his life or safety is threatened.\" Another Philippines Senator called the decision \"heartless.\" \"We'll be tackling this on Monday, but in the meantime we'll just have to find ways to make sure that our witness will be protected,\" Sen. Sonny Trillanes told CNN Philippines.\n\nTestifying before the Senate committee on August 23, dela Rosa said that local police \"follow the rule of law,\" and that there was no shoot-to-kill order despite the growing toll of bodies piling up in the wake of\n\nOPTIONS:\n- CNN's crackdown.\n- CNN Philippines's crackdown.\n- Davao's crackdown.\n- Duterte's crackdown.\n- Edgar's crackdown.\n- Edgar Matobato's crackdown.\n- Koko Pimentel's crackdown.\n- Matobato's crackdown.\n- Philippines's crackdown.\n- Rodrigo Duterte's crackdown.\n- Senate's crackdown.\n- Sonny Trillanes's crackdown.",
@@ -9973,7 +9973,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Twitter why she was crying."
+        "predicted_answer": "Greg Hardy why she was crying."
     },
     {
         "inputs": "What's the most logical way to complete this passage?\n\n(CNN) The family of a young Afghan boy, who gained worldwide fame after being photographed wearing a makeshift Lionel Messi soccer jersey fashioned from a plastic bag, has fled to Pakistan after receiving threats, the father of the boy told CNN. The family is now living in Quetta and has submitted an application with the United Nations seeking asylum in Pakistan. \"I received 20-30 unknown threatening calls in Afghanistan asking why I'm teaching my kid about football and not teaching him about the Quran,\" the boy's father, Muhammad Arif Ahmadi, told CNN. The family decided to flee to Pakistan 40 days ago for their safety, he said.\n\n\"I love Messi and want to meet\n\nOPTIONS:\n- Afghan,\" the boy said.\n- Afghanistan,\" the boy said.\n- CNN,\" the boy said.\n- Lionel Messi,\" the boy said.\n- Muhammad Arif Ahmadi,\" the boy said.\n- Pakistan,\" the boy said.\n- Quetta,\" the boy said.\n- Quran,\" the boy said.\n- United Nations,\" the boy said.",
@@ -9981,7 +9981,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Afghanistan,\" the boy said."
+        "predicted_answer": "Pakistan,\" the boy said."
     },
     {
         "inputs": "(CNN) \"When is your Shariah going to end? ... We know you are in bed with the Muslim Brotherhood!\" an irate white woman screamed in the face of a brown-skinned politician at his town hall meeting on Wednesday night. Sixteen years after 9/11, bigoted remarks like these against Muslims -- or even those perceived to be Muslim -- have become disturbingly commonplace. And our President, who during his campaign openly attacked Muslims with false claims -- that \"thousands\" of Muslim Americans cheered in New Jersey on 9/11, for example -- isn't helping matters. In the case of this incident, the politician who was subject to this barrage of anti-Muslim comments, Jagmeet Singh, is not even Muslim. Singh, who is running to be the head of the New Democratic Party, one of Canada's political parties, could've simply told the heckler, \"I'm not a Muslim. I'm a Sikh.\" But he didn't. Nor did he respond by screaming at the heckler or publicly dismissing her as a bigot.\n\nAnd, after the incident, Singh put out a statement explaining why he did not clarify that he was not\n\nOPTIONS:\n- CNN.\n- Canada.\n- Canadian.\n- Dean Obeidallah.\n- Jagmeet Singh.\n- Muslim.\n- Muslim Americans.\n- Muslim Brotherhood.\n- Muslims.\n- New Democratic Party.\n- New Jersey.\n- Obeidallah.\n- Shariah.\n- Sikh.\n- Singh.",
@@ -9989,7 +9989,7 @@
         "metric": "em",
         "domain": "read.comp.w:commonsense",
         "task": "record",
-        "predicted_answer": "Muslim."
+        "predicted_answer": "Sikh."
     },
     {
         "inputs": "How does this story end?\n\nNew York (CNN) Drug kingpin Joaquin \"El Chapo\" Guzman, a Houdini-like master of escape accused of running one of the world's largest drug trafficking organizations, entered a not guilty plea through his attorney at an arraignment Friday in federal court in Brooklyn. The diminutive, clean-shaven trafficker, described by a federal official as \"the most notorious criminal of modern time,\" was not handcuffed and wore a dark blue short-sleeved shirt and pants with white sneakers during his brief appearance in a packed courtroom. Magistrate Judge James Orenstein asked Guzman whether he understood the charges, including the operation of a continuing criminal enterprise, conspiring to murder rivals, firearms violations and money laundering.\n\n\"This extradition would not have been possible without the strong efficient close cooperation we have in our working relationship with our\n\nOPTIONS:\n- Brooklyn counterparts,\" he said.\n- CNN counterparts,\" he said.\n- Donald Trump counterparts,\" he said.\n- Guzman counterparts,\" he said.\n- Houdini counterparts,\" he said.\n- James Orenstein counterparts,\" he said.\n- Joaquin \"El Chapo counterparts,\" he said.\n- Joaquin \"El Chapo\" Guzman counterparts,\" he said.\n- Mexican counterparts,\" he said.\n- New York counterparts,\" he said.\n- US counterparts,\" he said.",
@@ -11245,7 +11245,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "cb",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "And I don't want to have to lie to them. The kidnappers have given us until October the eleventh to deliver the document and I haven't despaired of finding it before then. But if the police learn I 've been to America they 'll ask why.\nDoes this next sentence follow, given the preceding text?\nhe's been to America\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
@@ -11261,7 +11261,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "cb",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year or who do you like to do that this year? A: Uh, no I don't think the Cowboys have got a chance.\nDoes this next sentence follow, given the preceding text?\nthe Cowboys have got a chance\n\nOPTIONS:\n- Yes\n- No\n- It's impossible to say",
@@ -11581,7 +11581,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "wnli",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Let's say that \"It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.\"\n\nCan we now say that \"The spot under the tree was hot.\"?\n\nOPTIONS:\n- no\n- yes",
@@ -11965,7 +11965,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "mnli_matched",
-        "predicted_answer": "yes"
+        "predicted_answer": "it is not possible to tell"
     },
     {
         "inputs": "Premise:\n\"It is that prospect that may bring Republicans together to defend a CPI everyone knows is inaccurate.\" Based on this premise, is the hypothesis \"An inaccurate CPI can be defended by Republicans\" true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -12125,7 +12125,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "mnli_matched",
-        "predicted_answer": "yes"
+        "predicted_answer": "it is not possible to tell"
     },
     {
         "inputs": "Premise:\n\"Finally the woman opened her eyes feebly.\" Based on this premise, is the hypothesis \"She kept her eyes firmly closed. \" true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -12149,7 +12149,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "mnli_matched",
-        "predicted_answer": "it is not possible to tell"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Sentence 1:  The equipment you need for windsurfing can be hired from the beaches at Tel Aviv (marina), Netanya, Haifa (at Bat Galim beach), Tiberias, and Eilat.\n\nSentence 2: You can hire the equipment needed for windsurfing at Bat Galim Beach. \n\nIf the first sentence is true, then is the second sentence true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -12413,7 +12413,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Determine if the sentence is true based on the text below:\nFiers (5-5) struck out six and picked up the win Saturday against the Rangers\n\nFiers (6-5) struck out six and picked up the win Saturday against the Rangers. He gave up one run on five hits and one walk over six innings. Fiers continued his good pitching of late, as he's now given up just a single run in three straight starts (21 innings), bringing his season ERA down to 3.65. However, this was his first win during the stretch, as the Tigers bats have done him no favors. Fiers won't have an easy time keeping his hot streak going, as his next start is scheduled for Friday in Houston.\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12445,7 +12445,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "Yes"
+        "predicted_answer": "No"
     },
     {
         "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nWe spoke to ethics counsellor Howard Wilson January 30 about the minister's involvement with this legislation and he answered that the Canada Steamship Line's pension fund is incorporated under the Pension Fund Societies Act under the auspices of the Department of Industry and will not therefore be directly affected by the Pension Benefit Standards Act.\n\nHypothesis: The ethics counsellor is Howarddss Wilsonn\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12525,7 +12525,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Determine if the sentence is true based on the text below:\nThere was a debate in ninteen ninty three on thanksgiving night\n\nOn Monday, October 11, 1993, on the night of Thanksgiving Day, and a few weeks before the election, I had the honour, the pleasure and the privilege of representing my party during a public debate that was carried by Radio-Canada in the Quebec region from Portneuf to the Magdalen Islands, including Gasp, Sept-les and the greater Quebec City region.\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12629,7 +12629,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "How to change a page to landscape on microsoft word on pc or mac<br>Open the document in microsoft word. You can do this by double-clicking the document on your computer. [substeps] Alternatively, open microsoft word first (under all apps in the start menu on windows, or in the applications folder on macos), then open the document.\nDoes this next sentence follow, given the preceding text?\nMicrosoft word only allows you to have your page in landscape mode.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12669,7 +12669,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Can we draw the following hypothesis from the context? \n\nContext:\n\nThe Walkie Talkie<br>The boys loved playing outside. They had walkie talkies that the used to talk to each other. They would run through the woods and keep in contact with them. They played this game all summer. THey couldn't wait until next summer to play it again!\n\nHypothesis: The walkie talkies made it easy for the boys to keep in contact with each other n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12685,7 +12685,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Sir Ian Blair, the Metropolitan Police Commissioner, said, last night, that his officers were \"playing out of their socks\", but admitted that they were \"racing against time\" to track down the bombers.\n\nCan we draw the following conclusion?\nSir Ian Blair worships the Dark Lord Sauron.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12709,7 +12709,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r3",
-        "predicted_answer": "Yes"
+        "predicted_answer": "No"
     },
     {
         "inputs": "Read the text and determine if the sentence is true:\n\nHow to boost your health by adding berries to your diet<br>Start your day by adding berries to breakfast foods. Berries can easily be used to enhance breakfast foods. Sprinkle some blueberries, raspberries, or sliced strawberries in your morning cereal.\n\nSentence: Only sprinkling some blueberries, raspberries, or sliced strawberries in your morning cereal can boost your health.n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -12845,7 +12845,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r2",
-        "predicted_answer": "Yes"
+        "predicted_answer": "No"
     },
     {
         "inputs": "Thomas Carr Frank (born March 21, 1965) is an American political analyst, historian, journalist, and columnist for \"Harper's Magazine\". He wrote \"The Tilting Yard\" column in the \"Wall Street Journal\" from 2008 to 2010, and he co-founded and edited \"The Baffler\". He has written several books, most notably \"What's the Matter with Kansas?\" (2004) and \"Listen, Liberal\" (2016).\nDoes this next sentence follow, given the preceding text?\nHarpers Magazine is the same as Harpers Bazaar.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13205,7 +13205,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "Yes"
+        "predicted_answer": "No"
     },
     {
         "inputs": "Variations on a Korean Folk Song is a major musical piece written for concert band by John Barnes Chance in 1965. As the name implies, \"Variations\" consists of a set of variations on the Korean folk song \"Arirang\", which the composer heard while in South Korea with the U.S. Army in the late 1950s. In 1966 the piece was awarded the American Bandmasters Association's Ostwald Award.\n\nBased on the paragraph above can we conclude that \"Variations on a Korean Folk Song was written in the 20th century.\"?\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13221,7 +13221,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "A shared zone is an implementation of a living street in Australia and New Zealand, where pedestrians, cyclists and motorised traffic share the same road space. Special rules and speed limits apply for shared zones. Shared zones are related, but not automatically the same as shared space, which is a somewhat wider concept including elements such as urban design.\nDoes this next sentence follow, given the preceding text?\nThe shared zone was designed for people operating 4 wheeled vehicles, 2 wheeled vehicles or no vehicle at all.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13229,7 +13229,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Collins Hickey Johnston (August 29, 1859 – December 29, 1936) was an American football player, medical doctor, surgeon, and civic leader in Grand Rapids, Michigan. He was a graduate of the University of Michigan where he played college football for the 1879 Michigan Wolverines football team, the first football team to represent the University of Michigan.\n\nCan we draw the following conclusion?\nCollins Hickey Johnston would only listen to the Mozart when completing heart surgery, and rock and roll when completing brain surgery\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13317,7 +13317,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Fido Dido is a cartoon character created by Joanna Ferrone and Sue Rose. Rose first developed the character in 1985, on a napkin in a restaurant. They later stenciled Fido on T-shirts with the credo: \"Fido is for Fido, Fido is against no one\". These T-shirts became very popular in New York.\nDoes this next sentence follow, given the preceding text?\nFido Dido was first developed in the 20th century.\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13325,7 +13325,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Arthur \"Skip\" Roderick is a retired American soccer player who played professionally in the North American Soccer League, Major Indoor Soccer League and the American Soccer League. He is currently the head coach of the NCAA Division III Elizabethtown College men's soccer team.\n\nBased on the paragraph above can we conclude that \"\"Skip\" Roderick is not the assistant men's soccer coach at Elizabethtown College.\"?\n\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13429,7 +13429,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "anli_r1",
-        "predicted_answer": "No"
+        "predicted_answer": "Yes"
     },
     {
         "inputs": "Read the following paragraph and determine if the hypothesis is true:\n\nBeryl Markham (née Clutterbuck, 26 October 1902 – 3 August 1986) was a British-born Kenyan aviator (one of the first bush pilots), adventurer, racehorse trainer and author. She was the first woman to fly solo across the Atlantic from east to west. She wrote about her adventures in her memoir, \"West with the Night\".\n\nHypothesis: She was the 2nd bush pilot evern\nOPTIONS:\n- Yes\n- It's impossible to say\n- No",
@@ -13581,7 +13581,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "mnli_mismatched",
-        "predicted_answer": "no"
+        "predicted_answer": "it is not possible to tell"
     },
     {
         "inputs": "Here is a premise:\nHowever, the excitement and motivation of that goal is often diminished by the difficult financial constraints that students experience.\n\nHere is a hypothesis:\nStudents run into financial obstacles that diminish their excitement and motivation.\n\nIs it possible to conclude that if the premise is true, then so is the hypothesis?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -14333,7 +14333,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "snli",
-        "predicted_answer": "it is not possible to tell"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Premise: A chef is cutting a piece of fish with a chefs knife.\n\nHypothesis: The chef is at home, fast asleep.\n\n.Given the premise, can we conclude the hypothesis?\n\nOPTIONS:\n- yes\n- it is not possible to tell\n- no",
@@ -14605,7 +14605,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "qnli",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Does \"He was one of the first mathematicians in China to work on spherical trigonometry.\" contain the correct answer to \"What did Gou use for astronomy?\"\nOPTIONS:\n- yes\n- no",
@@ -14677,7 +14677,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "qnli",
-        "predicted_answer": "no"
+        "predicted_answer": "yes"
     },
     {
         "inputs": "Q: What was the most important discovery that led to the understanding that Earth's lithosphere is separated into tectonic plates?\n A: In the 1960s, a series of discoveries, the most important of which was seafloor spreading, showed that the Earth's lithosphere, which includes the crust and rigid uppermost portion of the upper mantle, is separated into a number of tectonic plates that move across the plastically deforming, solid, upper mantle, which is called the asthenosphere.\n Does the answer correctly answer the question\n\nOPTIONS:\n- yes\n- no",
@@ -14781,7 +14781,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "rte",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Fujimori charged that on January 26, 1995, Ecuador fired the first shot, an allegation denied by Ecuador's leader, Sixto Duran-Ballen. Predictably, each side blamed the other for starting the 1995 conflict, just as each pointed the finger of guilt to the other for provoking the border war of 1941, when Peru took most of the 120,000 square miles in contention between the two countries.\nCan we infer the following?\nPresident Fujimori was re-elected in 1995.\n\nOPTIONS:\n- yes\n- no",
@@ -14901,7 +14901,7 @@
         "metric": "em",
         "domain": "nli",
         "task": "rte",
-        "predicted_answer": "yes"
+        "predicted_answer": "no"
     },
     {
         "inputs": "Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass.\n\nCan we draw the following conclusion?\nCleopatra and Marc Antony lived in Egypt.\n\nOPTIONS:\n- yes\n- no",
@@ -15165,7 +15165,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Your friends may be surprised by your speech, and perhaps they will make your face a sweet surprise."
+        "predicted_answer": "Your friends may surprise you with a sweet surprise."
     },
     {
         "inputs": "Ailemin desteğine sahibim ve yürür giderim.\n\nWhich language is this?",
@@ -15173,7 +15173,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "I am a member of the Ailemin."
+        "predicted_answer": "I am the owner of this language."
     },
     {
         "inputs": "Üniversite korosunun \"Parlak Sabah Yıldızı\" ve \"Muhteşem Zarafet\" şarkılarını söylediği anma törenine Schmidt'in eşi Liz ve erkek kardeşi Jeff Schmidt de katıldı.\n\nTranslate this to English?",
@@ -15181,7 +15181,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "The university's \"Sunrise of the Golden Age\" and \"Magnificent Star\" songs were sung at the ceremony by Schmidt's wife Liz and his brother Jeff Schmidt."
+        "predicted_answer": "The university's \"Sunrise of the Golden Age\" and \"Magnificent Star\" songs were sung at the announcement ceremony, which was attended by Schmidt's wife Liz and his brother Jeff Schmidt."
     },
     {
         "inputs": "Translate to Turkish:\n\nAm I bad for the industry?",
@@ -15205,7 +15205,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "As a result, the index of the stock market expectations from June 2015 to this day has been maintained at a high level of 92.9."
+        "predicted_answer": "As a result, the index of expectations for the next 12 months from June 2015 to this day has been 92.9."
     },
     {
         "inputs": "Pain as well.\n\nTranslate to Turkish",
@@ -15229,7 +15229,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Regel nicht erlaubt."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "By spelling out clearly the current evidence - that while e-cigarettes are not risk-free, they carry only a fraction of the harm caused by smoking - we are fulfilling our national remit.\n\nTranslate to Turkish",
@@ -15237,7 +15237,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "E-sigara, çok az riskli olmasını belirten güvenlik belgeselini belirlemek için, ülkemiz için görevimiz yer"
+        "predicted_answer": "E-sigara, sadece çok az şekilde riskli olmasını belirten güvenlik belgeselini belirlemek için, ülkemizdeki g"
     },
     {
         "inputs": "400 MİLYAR DOLAR ASKIDA\n\nCould you please translate this to English?",
@@ -15269,7 +15269,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Onun gerçekleştirilmediği bir şey olmadığını söylemek için, onun ölümüne yaklaştığı g"
+        "predicted_answer": "Onun gerçekleştirilmediği bir şey olmadığını anlamına gelir."
     },
     {
         "inputs": "Translate the following sentence to Turkish:\nAnkle-shattering leg irons!",
@@ -15285,7 +15285,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Hükümetlerinin bu türlü işi için uyarısı yapıldı ve kullanıcıların hesaplarının güncellemes"
+        "predicted_answer": "Hükümetlerinin bu türlü işi için uyarısı yapıldı ve kullanıcıların hesaplarının güncellem"
     },
     {
         "inputs": "Demokratların yüzde 48'i tutkuyla Clinton'a destek vereceklerini belirtirken daha az Cumhuriyetçi önde koşan adayları Donald Trump hakkında konuşuyor (yüzde 35).\n\nTranslate to English",
@@ -15333,7 +15333,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Sadece Muhammed'i her yerde kullanmaya çalıştım.\n\nTranslate to English",
@@ -15341,7 +15341,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "I only tried to use Muhammad's name."
+        "predicted_answer": "I tried to use Muhammad's everywhere."
     },
     {
         "inputs": "Ancak farklı bir kampanya da otobüs durakları ve metro trenlerindeki posterlerle devam ediyor ve iki kez bakmayı gerektiriyor.\n\nWhich language is this?",
@@ -15365,7 +15365,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Birçok ülke'de 50 ülkede satılıyor."
+        "predicted_answer": "Birçok ülke'de 50 ülkede satış yapıyor."
     },
     {
         "inputs": "Mauer, iki - koşuda sağ kanat oyuncusu Drew VerHagen'i geçen vurucu Miguel Sano'ya karşı çıkabilen tek oyuncu cesaretle ilerledi.\n\nTranslate this to English?",
@@ -15381,7 +15381,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Health benefits of kefir are not limited to milk, but it is more beneficial than milk, because it contains more protein, minerals and B vitamins."
+        "predicted_answer": "Health benefits of milk are not limited to milk, but milk is more beneficial than kefir, which is a kind of milk, in every age and in every certainty, nutritionist Pınar Kural Enç,"
     },
     {
         "inputs": "34. dakikada Nikola Djurdjic'in, Kevin Trapp'ın koruduğu köşenin direğini sıyıran şutu hariç çok az atak yaptılar.\n\nTranslate this to English?",
@@ -15405,7 +15405,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Our digital lives have become powerful, fun, and successful people like; even if it looks like everything is isolated."
+        "predicted_answer": "Our digital lives have become powerful, fun, and successful people like; even if it looks like everything is isolated from the head."
     },
     {
         "inputs": "Having built up a large fanbase, Bergen narrowly escaped a knife attack in Adana where she went to perform a concert.\n\nTranslate to Turkish",
@@ -15413,7 +15413,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Bergen, yeni bir fanlarının oluşturduğu bir çok sayıda, Adana'da konserini yapmak için gittiğinde bir kı"
+        "predicted_answer": "Bergen, çok fazla fanlarının oluşturduğu bir çokluğu, Adana'da konserini yapmak için gittiğinde bir"
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -15445,7 +15445,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Donald Trump'ın bombastı ve saldırıları ile karşılandığında, 52% genç birleşik parti votosu ile Trump'ın baş"
+        "predicted_answer": "Donald Trump'ın bombastı ve saldırıları ile karşılandığında, ABD'de 52'inci yerli birleşik parti oyuncusu"
     },
     {
         "inputs": "Bunu biliyoruz.\n\nTranslate this to English?",
@@ -15469,7 +15469,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "We have seen many long hairs on the models' legs, which are even more striking."
+        "predicted_answer": "We have seen many long hairs on the models' legs, which are even more beautiful."
     },
     {
         "inputs": "How is \"Sometimes you react and have to live the consequences and I will have to live with what I said.\" said in Turkish?",
@@ -15493,7 +15493,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Regel nicht erlaubt."
+        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
     },
     {
         "inputs": "How is \"It is not because the economic situation in Europe is great.\" said in Turkish?",
@@ -15509,7 +15509,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Jeavons-Fellows ve Markoski'ler, Wood'in için en iyi uygun olan Mackay'i, kendilerine göre, yer aldı."
+        "predicted_answer": "Jeavons-Fellows ve Markoski'ler, Wood'ın için en iyi bir eş olarak Mackay'ı tanıdılar."
     },
     {
         "inputs": "Bishnu Prasad Dhakal, the chief district officer, said more than 1,000 protesters had gathered outside a police station, some of them throwing stones and firebombs.\n\nTranslate to Turkish",
@@ -15525,7 +15525,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -15533,7 +15533,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Translate to Turkish:\n\nAt least 14 people died and 27 people were injured in the tour bus that careered off the road in a mountainous area of Nagano, Japan.",
@@ -15549,7 +15549,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Vize başkanının bir yeni başkanlık çalışmasını düşünmek için 57% de Demokrat Parti'nin seçim"
+        "predicted_answer": "Vize başkanının bir yeni başkanlık çalışmasını düşünüyorsa, 57% Cumhuriyet Hareketi"
     },
     {
         "inputs": "Translate the following sentence to Turkish:\nLet our humanism grow.",
@@ -15557,7 +15557,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_tren",
-        "predicted_answer": "Humantolunuzu geliştirin."
+        "predicted_answer": "Humantolunuzu geliştiriniz."
     },
     {
         "inputs": "Ganz so sah dies Innenministerin Vesna Györkös Znidar in Laibach allerdings nicht.\n\nWhich language is this?",
@@ -15573,7 +15573,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "La paz es la condición de la vida."
+        "predicted_answer": "La mayoría de los niños de la escuela primaria deben llevar un uniforme escolar."
     },
     {
         "inputs": "Translate the following sentence to German:\nIt was Martinez's first three-hit night since he had four hits against the Seattle Mariners on July 6.",
@@ -15605,7 +15605,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Der Transfer kam nie zustande."
+        "predicted_answer": "Das Transfer wurde nie durchgeführt."
     },
     {
         "inputs": "Bislang war die Organisation des 120 000 Mitarbeiter starken Unternehmens komplex.\n\nWhich language is this?",
@@ -15629,7 +15629,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "So far im September hat Sunrise 349.000 Zuschauer zu Today's 314.000."
+        "predicted_answer": "So far im September, Sunrise ist durchschnittlich 349.000 Zuschauer zu Today's 314.000."
     },
     {
         "inputs": "While 48 percent of Democratic primary voters say they would enthusiastically back Clinton, fewer Republican voters say that about their frontrunner, Donald Trump (35 percent).\n\nTranslate to German",
@@ -15653,7 +15653,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Then the bad awakening on the wet highway."
+        "predicted_answer": "Then the bad awakening on the wet road."
     },
     {
         "inputs": "The accusation has been confirmed by the town of Bremen but it is not yet known what the consequences of this extraordinary incident will be.\n\nTranslate to German",
@@ -15797,7 +15797,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Paul Collingwood kommt für die weißen-ball-Leg der Tour und wird sowohl Energie als auch eine ruthlose Strecke in die Aufstellung bringen."
+        "predicted_answer": "Paul Collingwood kommt für die weißen-ball-Phase der Tour und bringt sowohl Energie als auch eine ruthlose Strecke in die Aufstellung."
     },
     {
         "inputs": "50 Städte auf der knapp 3 000 Kilometer langen Tour können dieses Flair nun erleben.\n\nTranslate to English",
@@ -15949,7 +15949,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_deen",
-        "predicted_answer": "Seit du uni an der Höhe der Bake-Off-Manie startest, um Menschen zu treffen, indem du ihnen ein Plateau mit Brownies vorstellst, scheint marginale weniger 195"
+        "predicted_answer": "Seit du uni an der Höhe der Bake-Off-Manie startest, um Menschen zu treffen, indem du ihnen ein Plateau mit Brownies vorstellst, scheint marginale weniger \"Welcome to"
     },
     {
         "inputs": "\"Die Anwendung von Gewalt hat nie diese Probleme gelöst\", fügte er hinzu.\n\nTranslate this to English?",
@@ -16005,7 +16005,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Старик оказался жив, несмотря на то, что он провёл более ста часов в лесу без еды."
+        "predicted_answer": "Старик оказался жив, несмотря на то, что он провёл в лесу более ста часов без еды."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -16013,7 +16013,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
+        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
     },
     {
         "inputs": "Translate to Russian:\n\nLyth got seven caps - like Sam Robson before him - while Nick Compton got nine.",
@@ -16021,7 +16021,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Литтл получил семь кап в том же количестве, что и Сэм Робинсон до него."
+        "predicted_answer": "Литтл получил семь кап в том же количестве, что и Сэм Робинсон."
     },
     {
         "inputs": "Предел ошибки для выборки из 351 первичных избирателей-демократов составляет 6 процентных пунктов.\n\nTranslate to English",
@@ -16045,7 +16045,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Первым из руководителей компании объявил о реформах монополия: в течение года и половины будет создана новая система тарифов на груз."
+        "predicted_answer": "Первым из руководителей компании объявил о реформах монополия: в течение года и половины будет создан новый системы тарифов грузов."
     },
     {
         "inputs": "Не скажу, что \"Реал\" сыграл идеально, но голевых возможностей у нас было предостаточно.\n\nTranslate to English",
@@ -16069,7 +16069,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
     },
     {
         "inputs": "\"The unilateral steps taken by the Russian Federation as of late call into question the commitment of the Russian government to the relationship between the Russian and American peoples, which was maintained even during the Cold War and other difficult moments in the long history of relations between our countries\", reads a statement by US Ambassador John Tefft received by Interfax.\n\nTranslate to Russian",
@@ -16077,7 +16077,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "\"Современные односторонние шаги, предпринятые Россией, вызывают сомнения в том, что российское правительство всерьез относится к отношениям между народами России и"
+        "predicted_answer": "\"Высокопоставленные представители США выразили сомнения в том, что Россия сохранит отношения между народами России и США, которые были поддержаны даже во время холод"
     },
     {
         "inputs": "Читаю современных российских авторов, свежие переводы...\n\nTranslate to English",
@@ -16093,7 +16093,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "It is not necessary to forget about human qualities of the citizens."
+        "predicted_answer": "It is not necessary to forget about human qualities of citizens."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -16125,7 +16125,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Ожидаемые увольнения приведут к начислению оценочной суммы в размере $2,7 млрд, заявил HP в заявлении."
+        "predicted_answer": "Ожидаемые увольнения приведут к начислению оценки в размере $2,7 млрд, начнётся в четвёртом квартале, заяви"
     },
     {
         "inputs": "Человек созревает неравномерно.\n\nCould you please translate this to English?",
@@ -16269,7 +16269,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Translate to Russian:\n\nIrina Leonova, the common-law spouse of the popular Russian actor, Yevgeny Tsyganov, has given birth to a seventh child.",
@@ -16317,7 +16317,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Они не готовы пожертвовать своим жизнью, чтобы помочь Британцам-селфи, чьи силы лучше бы были направлены на предотвращение выхода"
+        "predicted_answer": "Это трудно видеть их, чтобы помочь Бритам-селфи, у которых энергия может быть лучше потрачена на предотвращении выхода Шотландии из Великобрита"
     },
     {
         "inputs": "Translate to Russian:\n\nHe has clear connections to Serbia.",
@@ -16341,7 +16341,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_ruen",
-        "predicted_answer": "Все три женщины рассказали о том, почему Уолд - идеальный мужчина, указывая на его чувство юмора, амбиции, семейные ценности и"
+        "predicted_answer": "Все три женщины рассказали о том, почему Уолд — идеальный мужчина, указывая на его чувство юмора, амбиции, семейные ценности и"
     },
     {
         "inputs": "Translate \"How to share your stories, pictures and videos with BBC News\" to Russian?",
@@ -16381,7 +16381,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Brian Short tappoi ensin vaimonsa ja kolme lastaan kiväärillä, ja sitten hän ampui itsensä talon autotallissa."
+        "predicted_answer": "Brian Short ampui vaimonsa ja kolme lastaan pistoolilla, ja sitten ampui itsensä autonkeulassa olevassa talon autotallissa."
     },
     {
         "inputs": "Britit käyttävät yhä enemmän apumiesten palveluksia, Veronique Laury sanoo\n\nTranslate this to English?",
@@ -16405,7 +16405,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Uuden nelivetoisen RS:n Fordin 2,3-litraisen 350 hevosvoiman moottorin ansiosta auton 0–100 km/h tietää"
+        "predicted_answer": "Uuden nelivetoisen RS:n Fordin moottorin teho on 350 hevosvoimaa ja se kiihtyy 0–100 km/h:n tasolle"
     },
     {
         "inputs": "How is \"Palola estimates that the Confederation of Finnish Industries (EK) has no readiness for discussions.\" said in Finnish?",
@@ -16413,7 +16413,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Palola arvioi, että Suomen Kauppuliitto (EK) ei ole valmiina keskusteluihin."
+        "predicted_answer": "Palola arvioi, että Suomen Kauppakamari (EK) ei ole valmiina keskusteluihin."
     },
     {
         "inputs": "Nyt ei ole aikaa monologeille.\n\nCould you please translate this to English?",
@@ -16437,7 +16437,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Sosiaalidemokraattisen puolueen johtaja Antti Rinne ilmoittaa, että hän haastaa Sipilän dialogiin."
+        "predicted_answer": "Rinteen johtaja SDP:n johtaja Antti Rinne ilmoittaa, että hän haastaa Sipilän keskusteluun."
     },
     {
         "inputs": "Clintonin suosio on laskenut useiden väestöryhmien parissa viime kuun CBS News Poll -kyselytutkimuksen jälkeen, ja samaan aikaan Sanders on noussut jonkin verran.\n\nTranslate to English",
@@ -16445,7 +16445,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Clinton's popularity has dropped in several demographic groups since the CBS News Poll released last month, and Sanders has gained a little ground."
+        "predicted_answer": "Clinton's popularity has dropped in several demographic groups since the CBS News Poll released last month, and Sanders has risen a bit."
     },
     {
         "inputs": "Mielestäni hän on aina vaikuttanut sopivan kansainväliseen krikettiin, olipa hänen roolinsa pelaaja tai valmentaja, ja Mahelan tavoin hänellä on hyödynnettävää älyä.\n\nCould you please translate this to English?",
@@ -16493,7 +16493,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Käynnistämme siis minun ei mennä sisään panssarivaunu BMP-3:ssa, sillä se on jalkaväen taistelupans"
+        "predicted_answer": "Käynnistämme alusta, minä ei mennä sisään panssarivaunu BMP-3, koska se on jalkaväen taistelupanssar"
     },
     {
         "inputs": "Voitte itse tuomita tilanteen, kun sanon että siitä tuli rangaistuslaukaus ja punainen kortti.\n\nWhich language is this?",
@@ -16525,7 +16525,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "The news was reported on MTV's website on Tuesday evening."
+        "predicted_answer": "The matter was reported on MTV's website on Tuesday evening."
     },
     {
         "inputs": "Translate the following sentence to Finnish:\nGoran emphasises that he is a nice man with a good heart.",
@@ -16533,7 +16533,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Goran korostaa, että hän on hyvä mies, jolla on hyvä sydän."
+        "predicted_answer": "Goran korostaa, että hän on hyvä mies ja hyvä sydän."
     },
     {
         "inputs": "Translate to Finnish:\n\nNiinistö: The situation in Syria reflects to Ukraine and to Baltic Sea region",
@@ -16557,7 +16557,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Although Arsenal is the clear favourite to take over from F, the stadium at Maksimir Zagreb is one of the most frightening in Europe."
+        "predicted_answer": "Although Arsenal is the clear favourite to take over from F, the Maksimir stadium in Zagreb is one of the most frightening stadiums in Europe."
     },
     {
         "inputs": "Translate the following sentence to Finnish:\nA bigger bubble and more debt",
@@ -16589,7 +16589,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Fed-politiikan tekijöille markkinoiden kriisin lisääntyminen lisää kompleksisen kalkyylin, jolla on ratkaistavaa, kun"
+        "predicted_answer": "Fed-politiikan tekijöille markkinoiden kriisin lisääntyminen lisää kompleksisen laskutulonlaskennan kysymyksen."
     },
     {
         "inputs": "Metallimiehet saivat 16 prosentin palkankorotuksen.\n\nCould you please translate this to English?",
@@ -16613,7 +16613,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Viimeksi Fed nostatti Fed-pankkikirjanpito-korkoa oli kesäkuussa 2006."
+        "predicted_answer": "Viimeksi Fed nostatti Fed-pankkiivälinjan korotusta kesäkuussa 2006."
     },
     {
         "inputs": "Premier Injuries Ltd -yhtiön tutkimukset osoittavat, että Wilsherellä on ollut 23 eri vammaa sen jälkeen, kun hän debytoi kuusi vuotta sitten.\n\nTranslate this to English?",
@@ -16669,7 +16669,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Tällä vuonna 6. syyskuuta saavutettujen yksinäisten lasten tullessa maahan asylum-hakemuksia 586."
+        "predicted_answer": "Tällä vuonna 6. syyskuuta saamme tällä hetkellä 586 yksin tulleen lapsen asylum-pyyntöä."
     },
     {
         "inputs": "Käytännössä se tarkoittaa noin 130 työntekijän vähentämistä.\n\nTranslate to English",
@@ -16677,7 +16677,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "In practice, that means about 130 job cuts."
+        "predicted_answer": "In practice, this means the loss of about 130 jobs."
     },
     {
         "inputs": "Vaikka edellisellä kaudella olisit poseranut huippusuunnittelijoiden asuissa, uusi kausi alkaa taas castingeilla.\n\nCould you please translate this to English?",
@@ -16693,7 +16693,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Pound rises as UK wage growth accelerates"
+        "predicted_answer": "Pound kasvaa, kun Britannian palkkat kasvavat"
     },
     {
         "inputs": "I have had 50 buyouts during the last ten years.\n\nTranslate to Finnish",
@@ -16701,7 +16701,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Minulla on ollut 50 myyntiä viimeisen kymmenen vuoden aikana."
+        "predicted_answer": "Minulla on ollut 50 myyntejä viimeisen kymmenen vuoden aikana."
     },
     {
         "inputs": "How is \"The third topic only included a citation from the former President of the Commission, Jose Manuel Barroso.\" said in Finnish?",
@@ -16709,7 +16709,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Kolmas aihe käsitti vain Barrosoa, entisen Euroopan komission puheenjohtajan, maininnan."
+        "predicted_answer": "Kolmas aihe sisälsi vain Barrosoa aiemman Euroopan komission presidentin maininnan."
     },
     {
         "inputs": "McInnes sanoo: ”Ei ole olemassa yhtäkään joukkuetta, joka olisi voittanut mitään, oli se sitten pokaali tai liiga, joka ei olisi myös voittanut pelejä tällä tavalla.”\n\nTranslate to English",
@@ -16717,7 +16717,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "McInnes says: “There is no team that has won anything that has not also won games in this way.”"
+        "predicted_answer": "McInnes said: “There is no team that has won anything that has not also won games in this way.”"
     },
     {
         "inputs": "Translate \"\"Sarah is really down to earth, she's so much fun to be around,\" added Markoski.\" to Finnish?",
@@ -16725,7 +16725,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Sarah on todella maanantaista, hän on niin paljon mukavaa olla ympäröimässä, sanoi Markoski."
+        "predicted_answer": "Sarah on todella maanantaista, hän on niin paljon mukavaa olla ympärillä, sanoi Markoski."
     },
     {
         "inputs": "Jäsenyys fuusion jälkeen\n\nTranslate to English",
@@ -16741,7 +16741,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Cristiano Ronaldo teki viikonloppuun mennessä viisi maalia Espanjan pääsarjassa ja jatkoi maalintekoa myös Mestarien liigassa."
+        "predicted_answer": "Cristiano Ronaldo teki viisi maalia Espanjan liigassa viime viikonäytöksessä ja jatkoi myös Mestarien liigassa."
     },
     {
         "inputs": "Just another taxi driver\n\nTranslate to Finnish",
@@ -16749,7 +16749,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_fien",
-        "predicted_answer": "Kyllä, kuinka kauan sinä haluaisit matkustaa?"
+        "predicted_answer": "Kotimaisen taksinkuljettajan"
     },
     {
         "inputs": "Tony Blair itse asiassa ajatteli heistä aivan samoin, mutta tajusi, että jos olet häkissä himokkaan gorillan kanssa, banaaneista on luovuttava hämäyksen vuoksi, ellei halua olla kyseisen gorillan lounaslistalla ja myöhemmin vielä päivällisellä.\n\nWhich language is this?",
@@ -16773,7 +16773,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Așa că ne găsim într-o tranziție de la dezamăgire la un punct de vedere mai practic, dar obiectivul încă rămâne."
+        "predicted_answer": "Așa că ne găsim într-o transiție de la dezamăgire la un punct de vedere mai practic, dar obiectivul încă rămâne."
     },
     {
         "inputs": "55% dintre alegătorii democrați o consideră pe Clinton candidatul cu cele mai mari șanse să câștige alegerile generale; însă cifrele au scăzut de la 78% cât erau luna trecută.\n\nTranslate this to English?",
@@ -16789,7 +16789,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "I sper ca poate juca din nou acest sezon."
+        "predicted_answer": "I hope el poate juca din nou acest sezon."
     },
     {
         "inputs": "Imediat după impact, escorta arestaților a chemat un alt transport, pentru a prelua deținuții.\n\nTranslate to English",
@@ -16797,7 +16797,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Immediately after the impact, the escorting officers called another transport to take the prisoners."
+        "predicted_answer": "Immediately after the impact, the escorting officers called for another transport to take the prisoners."
     },
     {
         "inputs": "Toate funcțiile vor fi puse la dispoziția celor care le vor dori.\n\nWhich language is this?",
@@ -16813,7 +16813,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "You have launched a very simple and very current message in the current conditions: try to find a solution to not put the party at risk."
+        "predicted_answer": "A launched a very simple and very current message in the current conditions: try to find a solution to not put the party at risk."
     },
     {
         "inputs": "„Fără ceea ce s-a întâmplat pe piețele financiare și știrile despre slăbirea economiei chineze în ultimele săptămâni, ar fi mai fermi în cadrul ședinței”, a afirmat Stephen D. Oliner, cercetător cu experiență în cadrul UCLA Ziman Center for Real Estate și fost oficial Fed.\n\nWhich language is this?",
@@ -16845,7 +16845,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Debra Aho Williamson, an analyst at eMarketer, has said it's hard to imagine that a single button can convey a complex range of negative emotions."
+        "predicted_answer": "Debra Aho Williamson, analyst at eMarketer, has said it is difficult to imagine that a single button can transmit a complex range of negative emotions."
     },
     {
         "inputs": "Premierul continuă schimbul de replici cu autoritățile ungare.\n\nTranslate to English",
@@ -16861,7 +16861,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Nu există o realitate nici o faptă de fapt că IT este în dezvoltare în țară."
+        "predicted_answer": "Nu există o realitate a faptului că IT este în dezvoltare constantă în țară."
     },
     {
         "inputs": "Translate \"Recently, a prominent bank in Romania has hired an actor to play him in a video ad.\" to Romanian?",
@@ -16877,7 +16877,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Translate \"Movement for Democratic Change (MDC) chief whip Innocent Gonese said seven opposition politicians received text messages on their mobile phones warning them not to disrupt Nr Mugabe's address.\" to Romanian?",
@@ -16893,7 +16893,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "\"Romanian Rugby players have their debut on September 23 against France\" said in Romanian is \"Jucătorii de rugby români au debutul lor pe 23 septembrie împotriva"
+        "predicted_answer": "Romanian Rugby players have their debut on September 23 against France"
     },
     {
         "inputs": "Însă acum că stagnează puțin, ați putea observa o scădere (a creșterii).\n\nCould you please translate this to English?",
@@ -16901,7 +16901,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "But now it's stagnating a little, you can observe a decrease (increase)."
+        "predicted_answer": "But now it's stagnating a little, you could observe a decrease (increase)."
     },
     {
         "inputs": "Ultimul lider Al Qaida, Osama bin Laden, a fost un fiu „renegat”, dezmoștenit de familie în anii '90.\n\nTranslate this to English?",
@@ -16917,7 +16917,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Ciclistul a fost transportat cu avionul la Spitalul Regal din Melbourne cu răni grave după ce a fost lovit de un automobil pe șoseaua Murray Valley pe sâmbătă"
+        "predicted_answer": "Ciclistul a fost transportat cu avionul la Spitalul Regal din Melbourne cu răni grave după ce a fost lovit de un automobil pe șoseaua Murray Valley Highway pe sâmbăt"
     },
     {
         "inputs": "E un val al emotiei publice care se instaleaza în ambele sensuri.\n\nTranslate to English",
@@ -16933,7 +16933,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "The investigation revealed that, in order to avoid paying taxes and taxes to the state budget, representatives of a company specializing in security services would have created a criminal circuit, consisting of several commercial companies, through which fictitious transactions"
+        "predicted_answer": "During an investigation it was found that, in order to avoid paying taxes and taxes to the state budget, representatives of a company specializing in security services would have created a criminal circuit, consisting of several commercial companies, through which"
     },
     {
         "inputs": "How is \"Glencore had last week revealed the $2.5-billion shares sale as part of broader plans to slash its $30 billion debt pile by about a third.\" said in Romanian?",
@@ -16949,7 +16949,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "După 100 de ediții ale Salonului de Carieră, care au avut loc până acum, majoritatea companiilor sunt interesate, în plus față de recrutare, să"
+        "predicted_answer": "Conform statisticilor făcute după cele 100 de ediții ale Salonului de Carieră care au fost până acum, majoritatea companiilor sunt interesate, în plus față"
     },
     {
         "inputs": "Translate to Romanian:\n\nI wish the players good luck and I believe will do our best at the event.",
@@ -16957,7 +16957,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Vreau să-i doresc binecuvântări și cred că vom face cea mai bună performanță la eveniment."
+        "predicted_answer": "Vreau să-i doresc binecuvântări și cred că vom face cel mai bun lucru la eveniment."
     },
     {
         "inputs": "Conform datelor cumulate de analistii portalului financiar FinZoom, Bancpost ofera trei ani de dobanda fixa la lei, de 1,5%, cea mai mica de pe piata.\n\nWhich language is this?",
@@ -17029,7 +17029,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "I remember that, in 2010, St George received a lot of criticism because they were a boring team and Wayne said that he didn't care how black his nails were."
+        "predicted_answer": "I remember that, in 2010, St George received a lot of criticism because it was a boring team and Wayne said that he didn't care how many blacks under his nails."
     },
     {
         "inputs": "Translate the following sentence to Romanian:\nA new CBS/NYT poll out on Tuesday shows that just more than half of voters who support Trump say they have locked in their votes.",
@@ -17037,7 +17037,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Un nou sondaj CBS/NYT din luni, 13 septembrie, arată că doar aproximativ jumătate din votanți care susțin Trump au hotărât deja votul l"
+        "predicted_answer": "Un nou sondaj CBS/NYT din luni, 28 noiembrie, arată că doar aproximativ jumătate din votanți care susțin Trump au hotărât deja votul l"
     },
     {
         "inputs": "Translate \"Most of what I learned can be distilled into eight simple rules.\" to Romanian?",
@@ -17053,7 +17053,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Cele mai mari probleme sociale în Franța, Germania, Marea Britanie sunt cauzate de minoritățile neintegrate."
+        "predicted_answer": "Cele mai mari probleme sociale se regăsesc în Franța, Germania, Marea Britanie."
     },
     {
         "inputs": "And I think Nick, he's risen very quickly, as people like Federer and Murray have pointed out, he's growing up in the public eye and he's made some terrible errors and deserves all the criticism he gets, but we're trying to support him, we're trying to help him understand the consequences of his actions, and some time out of the limelight where he can just reflect on that I think is appropriate and it's best for the team and it's best for him.\n\nTranslate to Romanian",
@@ -17061,7 +17061,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Este o instrucţie care descrie o sarcină."
+        "predicted_answer": "Este bine pentru el si pentru echipa"
     },
     {
         "inputs": "Victor Piturca a demisionat de la nationala Romaniei în toamna anului trecut, desi echipa avea rezultate bune în preliminariile Euro 2016.\n\nCould you please translate this to English?",
@@ -17069,7 +17069,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "Victor Piturca resigned from the national team of Romania in the fall of last year, although the team had good results in the preliminaries of Euro 2016."
+        "predicted_answer": "Victor Piturca resigned from the national team of Romania in the autumn of last year, although the team had good results in the preliminaries of Euro 2016."
     },
     {
         "inputs": "How is \"The Construction Company is owned by the family of the former leader of Al-Qaida terrorist network, Osama bin Laden.\" said in Romanian?",
@@ -17109,7 +17109,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "FedEx a raportat rezultate neplăcute pentru ultimul trimestru, iar gigantul de livrare a scăzut prognoza profitului anului pe baza unei cer"
+        "predicted_answer": "FedEx a raportat rezultate neplăcute pentru ultimul trimestru, iar gigantul de livrare a scăzut prognoza profitului pe an pentru a fi mai slab"
     },
     {
         "inputs": "Translate to Romanian:\n\nIn his motivation, the judge speaks of the defiant reaction of the defendants, but also of those who supported them, stating that such attitudes create a strong sense of indignation among the public.",
@@ -17157,7 +17157,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_roen",
-        "predicted_answer": "În următorii ani, în următorii decenii, depopularea, sărăcia, schimbările climatice, depletarea resurselor, etc. vor forța"
+        "predicted_answer": "În următorii ani, în urmărirea a mai multor factori, cum ar fi depopularea, sărăcia, schimbările climatice, depletarea resurselor"
     },
     {
         "inputs": "Les dommages ont été somme toute limités, même si l'eau a causé des dégâts.\n\nCould you please translate this to English?",
@@ -17165,7 +17165,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "The damage was, in the end, limited, even if the water caused some damage."
+        "predicted_answer": "The damage was overall limited, even if the water caused some damage."
     },
     {
         "inputs": "« Nous ne voulons pas faire payer ce prix », a-t-elle expliqué.\n\nTranslate this to English?",
@@ -17197,7 +17197,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Des centaines de soldats et de policiers ont gardé le bâtiment alors que Morsi est arrivé peu après 11 heures locales dans une petite convoi."
+        "predicted_answer": "Des centaines de soldats et de policiers ont gardé le bâtiment lorsque Morsi est arrivé à 11 heures locales dans une petite convoi."
     },
     {
         "inputs": "En 2012, les agents des services frontaliers de la région du Québec ont effectué un total de 1653 saisies de stupéfiants.\n\nTranslate to English",
@@ -17245,7 +17245,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Vivre ensemble en français est la tâche qui attend la Commission Scolaire Marguerite-Bourgeoys (Commission Scolaire Marguerite-Bourgeoys)."
+        "predicted_answer": "Vivre ensemble en français est le défi qui attend la Commission Scolaire Marguerite-Bourgeoys (Commission Scolaire Marguerite-Bourgeoys)."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17253,7 +17253,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Translate to French:\n\nWe dressed our dogs up last year and to my amazement we were not alone.",
@@ -17269,7 +17269,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Italian"
+        "predicted_answer": "Français"
     },
     {
         "inputs": "Quatre blessés légers au moins seraient à déplorer.\n\nTranslate to English",
@@ -17301,7 +17301,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Following the departure of all the industries (large consumers of water) and the great decline of the population, the use of water has considerably decreased everywhere on the territory."
+        "predicted_answer": "Following the departure of all the industries (large water consumers) and the great decline of the population, the use of water has considerably decreased everywhere on the territory."
     },
     {
         "inputs": "Translate to French:\n\nThen only Rumyoni hill will be left.",
@@ -17333,7 +17333,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "L'idée est de repeindre tous les feux de circulation de Bruxelles, à un coût estimé à un million d'euros."
+        "predicted_answer": "L'idée est de repeindre progressivement tous les feux de circulation de Bruxelles, à un coût estimé à un million d'euros."
     },
     {
         "inputs": "Translate \"The FAA began restricting passengers' use of electronic devices in 1966 in response to reports of interference with navigation and communications equipment when passengers began carrying FM radios, the high-tech gadgets of their day.\" to French?",
@@ -17349,7 +17349,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "They want to see the government give priority to new commercial links with countries like China, India and Brazil rather than getting bogged down in the long and arduous process of reforming the EU's institutional arcana."
+        "predicted_answer": "They want to see the government give priority to new commercial links with countries like China, India and Brazil rather than getting bogged down in the long and arduous process of European institutional reform."
     },
     {
         "inputs": "Miller a ajouté que la jonction directe vers la Bulgarie, membre de l'Union européenne, signifie que les risques géopolitiques associés aux pays de transit sont éliminés « pour toujours ».\n\nTranslate to English",
@@ -17365,7 +17365,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "L'immensité de la douleur qui m'a envahie a dû s'estomper, mais il est toujours proche de moi."
+        "predicted_answer": "L'immensité de la douleur qui m'a envahie a dû s'estomper bien sûr, mais il est toujours proche de moi."
     },
     {
         "inputs": "A chaque livre, la même recette: une grande dose de géopolitique et d'exotisme, quelques scènes de sexe hard, un zeste de violences et de tortures.\n\nWhich language is this?",
@@ -17381,7 +17381,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Experts believe that obesity could be a trigger for early puberty"
+        "predicted_answer": "Experts believe that obesity may be a trigger for early puberty"
     },
     {
         "inputs": "How is \"I could not believe that she was up there in the first place.\" said in French?",
@@ -17397,7 +17397,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
     },
     {
         "inputs": "Je m'interroge par exemple sur la définition de la résilience.\n\nTranslate to English",
@@ -17437,7 +17437,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Mais, alors que son taux d'approbation s'abaisse en dessous de 45% cette semaine, il est devenu encore plus difficile de revenir à 2008 en l"
+        "predicted_answer": "Mais, alors que son taux d'approbation s'abaissait sous la barre des 45% cette semaine, il est devenu encore plus difficile de revenir à 2008 en"
     },
     {
         "inputs": "Translate to French:\n\nThe data presented to parliament last year indicates that, of the 1,218 soldiers discharged for medical reasons, 199 had not reached the length of service required to obtain retirement benefits.",
@@ -17469,7 +17469,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "L’austérité imposée par Berlin et la Banque centrale européenne, associée à la tenue imposée aux économies nationales par leur adhésion à la monnaie commune, a conduit beaucoup de gens"
+        "predicted_answer": "L’austérité imposée par Berlin et la Banque Centrale Européenne, associée à la tenue imposée aux économies nationales par leur adhésion à la monnaie commune, a conduit"
     },
     {
         "inputs": "Son salaire fixe n'est que d'un dollar symbolique.\n\nTranslate to English",
@@ -17485,7 +17485,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Nous sommes donc ravis de travailler en partenariat avec le gouvernement britannique pour examiner les options de transport à grande vitesse en Écosse, créant un bénéfice pour tous et complétant la ligne"
+        "predicted_answer": "Nous sommes ravis de travailler en partenariat avec le gouvernement britannique pour examiner les options pour amener le train à grande vitesse en Écosse, créant un bénéfice pour tous et complétant"
     },
     {
         "inputs": "Translate \"\"They absolutely think their son was murdered,\" Benjamin Crump, an attorney representing Kenneth and Jacquelyn Johnson, told FoxNews.com.\" to French?",
@@ -17501,7 +17501,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
+        "predicted_answer": "Die Verwendung von Kreditkarten ist in der Schweiz verboten."
     },
     {
         "inputs": "Even so, the number of Cogeco Cable customers rose by 5,546 for the 2013 fiscal year.\n\nTranslate to French",
@@ -17525,7 +17525,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "Die Veranstaltung ist für alle Interessierten offen."
+        "predicted_answer": "Die Verwendung von Kernkraft ist in Deutschland nicht mehr möglich."
     },
     {
         "inputs": "Le marché unique a occasionné un mécontentement général, les entreprises disant que le coût du règlement Bruxelles est disproportionné par rapport aux avantages qu'il y a à faire partie de la zone d'échanges européenne – 40 % des grandes entreprises, traditionnellement les plus pro-européennes, sont même d'accord.\n\nTranslate to English",
@@ -17533,7 +17533,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt14_enfr",
-        "predicted_answer": "The single market has caused general dissatisfaction, with businesses saying that the cost of Brussels regulation is disproportionate to the benefits of being part of the European exchange zone - 40% of large companies, tradition"
+        "predicted_answer": "The single market has caused general discontent, businesses saying that the cost of Brussels regulation is disproportionate to the benefits of being part of the European exchange zone - 40% of large companies, traditionally the"
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17621,7 +17621,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Je to pro mne velký úkol, ale pokud se podaří, že se dočasně uchýlíci integrují, pak mohou být pro nás vlastně dobr"
+        "predicted_answer": "Je to pro mne velký úkol, ale myslím, že, pokud se nám podaří integraci uprchlíků, pak mohou být pro nás zdrojem, říká"
     },
     {
         "inputs": "Spielberg řekl: \"Je to skutečně pro mě nesporně nejlepší cestovní dokument, který byl kdy zfilmován.\"\n\nTranslate this to English?",
@@ -17637,7 +17637,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Toto je změna od času, kdy čtyři z deseti v srpnu stáhli svůj peněžní výběr na Jeba Busha."
+        "predicted_answer": "Toto je změna od času, kdy čtyři z deseti v srpnu stáhli své peníze na Jeba Busha."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17645,7 +17645,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
+        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 15 Mitglieder festgelegt."
     },
     {
         "inputs": "Další fotbalisty pražského klubu nejmenoval, a tak přišla přímá otázka, jestli zná i Davida Lafatu, nejlepšího střelce v historii české ligy a kapitána Sparty.\n\nTranslate this to English?",
@@ -17669,7 +17669,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Ten let starší to uvedl, nyní chce, aby všichni hráli jeho styl fotbalu - nikdo nehrál dvojici jako Anthony Milford a Ben Hunt, takže"
+        "predicted_answer": "Ten let starší to uvedl, nyní chce, aby všechny týmy hrály podle jeho stylu fotbalu - nikdo nehrál s dvojicí jako Anthony Milford"
     },
     {
         "inputs": "Translate \"They soon disappeared.\" to Czech?",
@@ -17693,7 +17693,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "According to Deutsche Bank there was only a nominal annual increase in GDP of under 4.5 percent in either of the two years following 1950."
+        "predicted_answer": "According to Deutsche Bank, there was only a nominal annual increase in GDP of under 4.5 percent in either of the two years following 1950."
     },
     {
         "inputs": "Write a sentence not in English.",
@@ -17701,7 +17701,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 15 Mitglieder festgelegt."
+        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
     },
     {
         "inputs": "Lamb se setkal s Prentiss, když spolu s Abigail vystuopovali na letním festivalu před třemi lety.\n\nTranslate this to English?",
@@ -17717,7 +17717,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
+        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 27 Mitglieder erhöht worden."
     },
     {
         "inputs": "How is \"McKee and Capewell said PHE's claims that \"there is no evidence so far that e-cigarettes are acting as a route into smoking for children or non-smokers\" were premature.\" said in Czech?",
@@ -17765,7 +17765,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
+        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 15 Mitglieder festgelegt."
     },
     {
         "inputs": "For this, you need: • 1 peach • 1 bunch of rocket • 1 cupful chopped cucumber • 1 cup mixed lettuce leaves • 3 tablespoonfuls of grape oil\n\nTranslate to Czech",
@@ -17773,7 +17773,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "To tohoto potřebuje: • 1 ořechová slupka • 1 prášek z bobulí • 1 čepice sekáně • 1 čepice zeleniny z"
+        "predicted_answer": "To tohoto potřebuje: • 1 ořechová slupka • 1 prášek z bobu • 1 čepice sněhuláků • 1 čepice zeleniny"
     },
     {
         "inputs": "Donald Trump a Ben Carson dnes dostávají zhruba polovinu podpory ze strany republikánských voličů, a to především vzhledem k jejich stavu outsiderů.\n\nCould you please translate this to English?",
@@ -17789,7 +17789,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Ačkoliv se inflace nadále pohybovala pod cílovou ročními 2% úrovní, policisté Fedu uvedli, že důvodem byla pouze krátkod"
+        "predicted_answer": "Ačkoliv se inflace nadále pohybovala pod cílovou ročními 2% úrovní, policisté Fedu uvedli, že důvodem byla především krát"
     },
     {
         "inputs": "Schůze se zúčastnil také premiér Li Keqiang a vedoucí představitelé Liu Yunshan a Zhang Gaoli, podle prohlášení vydaného po schůzi.\n\nCould you please translate this to English?",
@@ -17797,7 +17797,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "The Chinese premier, Li Keqiang, also attended the meeting and was joined by Liu Yunshan and Zhang Gaoli, according to a statement released after the meeting."
+        "predicted_answer": "Liu Yunshan and Zhang Gaoli were also present at the meeting."
     },
     {
         "inputs": "Dál už to bylo jenom horší.\n\nWhich language is this?",
@@ -17821,7 +17821,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 15 Mitglieder festgelegt."
+        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
     },
     {
         "inputs": "Potom posudek z uliční organizace strany.\n\nWhich language is this?",
@@ -17837,7 +17837,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Deset z posledních jedenácti národních průzkumů ukázalo na dvakrát takovou vedenou Trumpovou, a někteří začínají vážně otáčet"
+        "predicted_answer": "Deset z posledních jedenácti národních průzkumů ukázalo na dvakrát takovou vedenou Donaldem Trumpem, a někteří začínají vážně otáč"
     },
     {
         "inputs": "Rezoluce EP odsuzuje \"nevídané represe proti občanské společnosti v Ázerbájdžánu\".\n\nCould you please translate this to English?",
@@ -17845,7 +17845,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "The resolution by the European Parliament criticizes the ``unidentified repression against the civil society in Azerbaijan''.\n\n[European Parliament resolution on Azerbaijan](https://www.europarl."
+        "predicted_answer": "The resolution by the European Parliament criticizes the unspecified repression against the civil society in Azerbaijan."
     },
     {
         "inputs": "Velmi důležitá je u lidí s roztroušenou sklerózou rehabilitační péče, která nejčastěji řeší oslabení dolních končetin či poruchy rovnováhy.\n\nTranslate this to English?",
@@ -17861,7 +17861,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Správné je, že se podle stavu žalobců a žalovaných rozhoduje, nikoliv podle lidské spravedlnosti."
+        "predicted_answer": "Správné je, že se podle stavu stomachů, nikoli podle lidské spravedlnosti, rozhoduje."
     },
     {
         "inputs": "Translate the following sentence to Czech:\nWage gains have shown signs of picking up.",
@@ -17885,7 +17885,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 27 Mitglieder erhöht worden."
+        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
     },
     {
         "inputs": "He's received tons of accolades from fans.\n\nTranslate to Czech",
@@ -17901,7 +17901,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Záhadou se mi zcela náhodou podařilo."
+        "predicted_answer": "Záhada se mi zjevila."
     },
     {
         "inputs": "Johnson řekl: \"Nechápu, proč regresivní daň by měla podporovat programy, které mohou být financovány bezpříspěvkově.\n\nWhich language is this?",
@@ -17909,7 +17909,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Johnson said that a regression tax should be used to support programs that can be financed without a contribution."
+        "predicted_answer": "Johnson said that a reverse tax should be used to support programs that could be financed without subsidies."
     },
     {
         "inputs": "Strážník Lachlan Perhavec si zrovna nechtěl namočit uniformu, tak se pokusil použít bezpečnější taktiku a to policejní vyjednávání.\"\n\nTranslate to English",
@@ -17925,7 +17925,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Das ist der Grund, warum ich mich für die Verwendung von Kaffee als Energielieferant entschieden habe."
+        "predicted_answer": "Die Anzahl der Mitglieder der Kommission ist auf 15 Mitglieder festgelegt."
     },
     {
         "inputs": "Translate to Czech:\n\nThey finally became a couple around Vítek's second birthday, and Vítek now sees Vašek as his father, and calls him this, too.",
@@ -17933,7 +17933,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Vítkem se stali až na Vítkovi druhém narozeninám, a Vítkem se Vašek považuje za otce, a to i jménem."
+        "predicted_answer": "Vítkem se stala párka až na Vítkovi druhém narozenině, a Vítkem se Vašekem považuje za otce, a toto jméno mu dá"
     },
     {
         "inputs": "Translate to Czech:\n\nHe's just so happy to have done what he's done.",
@@ -17957,7 +17957,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "wmt16_translate_csen",
-        "predicted_answer": "Kádner a Aulická se nepodařilo odmítnout úpravu, a Kučera chtěl vrátit ji k vládě pro úpravu."
+        "predicted_answer": "Kádner a Aulická se nepodařilo odmítnout úpravu, a Kučera se chystal ji vrátit vládě."
     },
     {
         "inputs": "Sentence 1: At least 20 dead in Somalia attacks\n\n Sentence 2: At least 60 die in Iraq prison attack\n\nFrom 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -18077,7 +18077,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "stsb",
-        "predicted_answer": "A man is walking down the sidewalk."
+        "predicted_answer": "A man is walking down a sidewalk."
     },
     {
         "inputs": "'Western' forces attack Islamic militant base in Somalia\n\nGenerate a new sentence that is, on a scale from 0 to 5, a 1 in textual similarity to the above sentence.",
@@ -18165,7 +18165,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "stsb",
-        "predicted_answer": "0"
+        "predicted_answer": "not similar"
     },
     {
         "inputs": "How similar are the following two sentences?\n\nIm very proud of the citizens of this state, said Gov. John Baldacci, a casino foe.\n\"I´m very proud of the citizens of this state,\" Gov. John Baldacci said after votes from Tuesday´s referendum were counted.\n\nGive the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -18261,7 +18261,7 @@
         "metric": "em",
         "domain": "paraphrase",
         "task": "stsb",
-        "predicted_answer": "3"
+        "predicted_answer": "4"
     },
     {
         "inputs": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\"?\n\nA kid plays with a toy phone.\nA little boy plays with a toy phone.\n\nOPTIONS:\n- 0\n- 1\n- 2\n- 3\n- 4\n- 5",
@@ -18389,7 +18389,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "trivia_qa",
-        "predicted_answer": "kosher"
+        "predicted_answer": "Kosher"
     },
     {
         "inputs": "Trivia question: In which town is the Devonshire Royal Hospital, now the Devonshire campus of the University of Derby?\nAnd the answer is?",
@@ -18469,7 +18469,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "trivia_qa",
-        "predicted_answer": "Renée Stewart"
+        "predicted_answer": "Penny Lancaster"
     },
     {
         "inputs": "Who were the runners-up in the 1978 FIFA World Cup????",
@@ -18661,7 +18661,7 @@
         "metric": "em",
         "domain": "closed_book QA",
         "task": "trivia_qa",
-        "predicted_answer": "Tokyo"
+        "predicted_answer": "Burj Khalifa"
     },
     {
         "inputs": "Trivia question: The plant 'Ananas comosus provides us with which fruit?\nAnd the answer is?",
@@ -18765,7 +18765,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "When you work too much, it's because your work is overtaking you."
+        "predicted_answer": "When you work too much, it is because your work is overtaking you."
     },
     {
         "inputs": "How do you say \"Once the egg is released, it has a short lifespan of 12 – 24 hours maximum.\" in Spanish?",
@@ -18789,7 +18789,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "El parada del tranvía 33 de Stazione Centrale está a 50 metros del hotel."
+        "predicted_answer": "La parada del tranvía 33 de Stazione Centrale está a 50 metros del hotel."
     },
     {
         "inputs": "Translate \"El registro es un instrumento de identificación y cuantificación de la población afectada en el territorio impactado por el emplazamiento de represas.\" from Spanish to English.",
@@ -18797,7 +18797,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The register is an instrument for the identification and quantification of the population affected in the territory impacted by the placement of dams."
+        "predicted_answer": "The register is an instrument for identification and quantification of the population affected in the territory impacted by the placement of dams."
     },
     {
         "inputs": "Write a sentence in Spanish.",
@@ -18805,7 +18805,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "El 15 de octubre de 1999, el presidente de la República de China, Lee Teng-hui, visitó Taiwán."
+        "predicted_answer": "El 1 de enero de 1999, el gobierno de la República de China (Taiwán) anunció que el nombre oficial de la isla sería \"Taiwán\" (en chino tradicional,"
     },
     {
         "inputs": "Está prohibido establecer los mostradores al terreno no limpiado de la nieve y el hielo. How do you say this sentence in English?",
@@ -18837,7 +18837,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Bathroom, hallway, living room, bedroom, stairwell, kitchen, office, business, decorative details, floors"
+        "predicted_answer": "Bathroom, hallway, bedroom, living room, kitchen, office, business, details of decoration, floors"
     },
     {
         "inputs": "Translate \"La compra de estos aparatos significó una inversión de 186 millones de pesos chilenos (cerca de US$ 360 mil).\" from Spanish to English.",
@@ -18853,7 +18853,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Definición Español: Los procesos por los que los organismos utilizan los simples sustancias inorgánicas tales como el dióxido de carbono gaseoso o disuelto y el nitró"
+        "predicted_answer": "Definición Español: Los procesos por los que los organismos utilizan los simples compuestos inorgánicos tales como el dióxido de carbono gaseoso o disuelto y el nitró"
     },
     {
         "inputs": "Las montañas aragonesas son un lugar idóneo para practar el deporte rey del invierno. How do you say this sentence in English?",
@@ -18893,7 +18893,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "feudal"
+        "predicted_answer": "daimyo"
     },
     {
         "inputs": "Write a sentence in Spanish.",
@@ -18925,7 +18925,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "3. A la mañana, los hombres fueron enviados, ellos y sus burros."
+        "predicted_answer": "3. Al amanecer, los hombres fueron enviados, ellos y sus burros."
     },
     {
         "inputs": "Write a sentence in Spanish.",
@@ -18933,7 +18933,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "El 1 de enero de 1999, el gobierno de la República de China (Taiwán) anunció que el nombre oficial de la isla sería \"Taiwán\" (en chino tradicional,"
+        "predicted_answer": "El 1 de enero de 1999, el gobierno de la República de China (Taiwán) anunció que el nombre oficial de la isla sería \"Taiwán\"."
     },
     {
         "inputs": "Jesmond Dene Hotel, London - Bookings, guest reviews and best rates Say this using Spanish",
@@ -18949,7 +18949,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "El Papa ha destacado que con la clausura del Año Jubilar el 6 de enero, \"nosotros hemos sido dejados un legado precioso que hay que transmitir a las generaciones futuras sig"
+        "predicted_answer": "El Papa ha destacado que con la clausura del Año Santo, \"hemos sido dejados un legado precioso que hay que transmitir a las generaciones futuras siguiendo dos direcciones principales: En primer lugar"
     },
     {
         "inputs": "Write a sentence in English.",
@@ -18957,7 +18957,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The first thing to do is to find out what the problem is."
+        "predicted_answer": "The first thing to do is to make sure that the computer is turned on."
     },
     {
         "inputs": "Translate from Spanish to English:\n\nDespués de atravesar la bulliciosa capital bananera de Changuinola llegué a la Finca 50, donde pude abordar la lancha rápida que me llevaría hasta Bocas. Efectivamente lo de rápida era cierto y fue un vertiginoso viaje en medio de manglares y cuantiosa vegetación.",
@@ -18965,7 +18965,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "After crossing the noisy banana capital of Changuinola, I arrived at Finca 50, where I could board the fast boat that would take me to Bocas. Indeed, the fast part was true and it was a"
+        "predicted_answer": "After crossing the noisy banana capital of Changuinola, I arrived at Finca 50, where I could board the fast boat that would take me to Bocas. Indeed, the fast was true and it was a vert"
     },
     {
         "inputs": "Translate the following.\n\nEnglish: There are no events planned for 0/9/2714\n\nSpanish:",
@@ -18981,7 +18981,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The developer must also build a soundproof wall between the south wall of the project and the Marsh Theater to mitigate the flow of noise, as voted by the board."
+        "predicted_answer": "The developer also must build a sound-proof wall between the south wall of the project and the Marsh Theater to mitigate the flow of noise, according to the board."
     },
     {
         "inputs": "CacheDefaultExpire — Especifica el tiempo de caducidad en horas para un documento que fue recibido usando un protocolo que no soporta fechas de vencimiento. How do you say this sentence in English?",
@@ -18989,7 +18989,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "CacheDefaultExpire — Specifies the time-to-live in hours for a document that was received using a protocol that does not support expiration dates."
+        "predicted_answer": "CacheDefaultExpire — Specifies the time-to-live in hours for a document received using a protocol that does not support expiration dates."
     },
     {
         "inputs": "Translate from English to Spanish:\n\nLisa tells us but is actually from 8 years which is in organic BMB as flutist and her big green eyes light up when he talks about his experience “I belong to this wonderful group since September 2003 I was about 14 years ...” Lisa has proven over the years his musical abilities and organizational skills also as section leader of the woodwind section and staff gave this role. “The fact that they play a role that really has never been present in our Organization made me a little’ of discomfort, you know the fear of making mistakes ... but luckily the Group I joined is inclusive and what reassures me very. And’ like a second family.”",
@@ -18997,7 +18997,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Lisa nos cuenta pero es de 8 años que es en organic BMB como flautista y sus grandes ojos verdes se iluminan cuando habla de su experiencia “Me pertenece a este maravilloso"
+        "predicted_answer": "14 años"
     },
     {
         "inputs": "Translate the following.\n\nEnglish: Brick specimens in drying phase.\n\nSpanish:",
@@ -19013,7 +19013,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The first thing to do is to find out what the problem is."
+        "predicted_answer": "The first thing to do is to make sure that the computer is turned on."
     },
     {
         "inputs": "Translate from English to Spanish:\n\nThis puts the emphasis on the action, not the person, so your criticism feels less like a personal attack.",
@@ -19037,7 +19037,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Satan has done a brilliant job of educating the church about the earth so that it will continue to follow his perversion of what the Bible says."
+        "predicted_answer": "Satan has done a brilliant job of educating the church about the earth so that it can continue to follow his perversion of what the Bible says."
     },
     {
         "inputs": "Common causes include motion sickness, self-limited illnesses (viruses or food poisoning) that last a few hours to a few days, and toxins (such as certain medications). Say this using Spanish",
@@ -19069,7 +19069,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The first thing to do is to find out what the problem is."
+        "predicted_answer": "The first thing to do is to make sure that the computer is turned on."
     },
     {
         "inputs": "Translate from Spanish to English:\n\nNo es difícil imaginar que los miembros de un pequeño grupo al que se le diga que se necesitan las muestras porque están en peligro de extinción quedaría muy ofendido y es poco probable que les consuele mucho que se les diga que están haciendo una importante contribución al adelanto del conocimiento científico sobre el cuerpo humano.",
@@ -19077,7 +19077,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "It is not difficult to imagine that members of a small group that is told that samples are needed because they are in danger of extinction would be very offended and it is unlikely that they would be comforted much if they were told that they were"
+        "predicted_answer": "It is not difficult to imagine that members of a small group that is told that samples are needed because they are in danger of extinction would be very offended and it is unlikely that they would be comforted much that they are making an important contribution"
     },
     {
         "inputs": "Translate the following.\n\nEnglish: Hotels, pensions and other accommodation Frýdlant\n\nSpanish:",
@@ -19117,7 +19117,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "The first thing to do is to find out what the problem is."
+        "predicted_answer": "The first thing to do is to make sure that the computer is turned on."
     },
     {
         "inputs": "Translate \"«En mi opinión, no existe un choque de civilizaciones o de religiones, sino un choque de intereses.\" from Spanish to English.",
@@ -19133,7 +19133,7 @@
         "metric": "bleu",
         "domain": "translation",
         "task": "para_crawl_enes",
-        "predicted_answer": "Buscamos conectarte con los mejores abogados y abogados de Carthage North Carolina Child Custody. Comienza seleccionando una ubicación y categoría en su área. Es tan sencillo."
+        "predicted_answer": "Buscamos conectarte con los mejores abogados y abogadas de Carthage North Carolina Child Custody. Comienza seleccionando una ubicación y categoría en tu área. Es tan simple."
     },
     {
         "inputs": "At the first meeting, with Lithuanian counterpart Kazys Starkevicius, Petrovic said that the implementation of this project was important for the promotion of cattle breeding and the production of meat and milk. He emphasized that Serbia could continue with the positive trend in food exports, which amounted to 2.7 billion dollars in 2011. Say this using Spanish",
