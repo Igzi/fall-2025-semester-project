@@ -77,24 +77,17 @@ for model in models:
 
     original_model_names.append(model_name)
 
-for model_name in original_model_names:
-    results_matrix[:, all_model_names.index(model_name)] = -0.0
 
 # Extract IDs that appear in top 5 highest values in at least one row
 all_ids = list(range(results_matrix.shape[1]))
 selected_ids = []
 for col_id in all_ids:
-    # if col_id in original_adapter_ids:
-    #     selected_ids.append(col_id)
-    #     continue
+    if col_id in original_adapter_ids:
+        selected_ids.append(col_id)
+        continue
     for row in results_matrix:
-        # Get indices of top 5 values in this row
-        # top5_indices = np.argsort(-row)[:2]
-        # if col_id in top5_indices:
-        #     selected_ids.append(col_id)
-        #     break
-        top_idx = int(np.nanargmax(row).item())
-        if col_id == top_idx:
+        top2_indices = np.argsort(-row)[:2]
+        if col_id in top5_indices:
             selected_ids.append(col_id)
             break
 
@@ -169,7 +162,6 @@ class AdapterRouter(nn.Module):
         #     sel = original_adapter_names.index(original_model_names[sel])
         #     sel = original_adapter_ids[sel]
         
-        print(f"Old idx: {old_idx}, Selected adapter: {sel}, Score: {row[sel]:.4f}")
         sel = selected_ids.index(sel)
         return sel
 
