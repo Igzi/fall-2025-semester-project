@@ -11,7 +11,7 @@ import sys
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, project_root)
 
-from utils.instructor_retrieval import perform_search, get_embeddings
+from utils.instructor_retrieval import get_embeddings
 from datasets import load_dataset
 from datasets import Dataset, load_dataset
 from InstructorEmbedding import INSTRUCTOR

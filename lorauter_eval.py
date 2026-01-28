@@ -4,10 +4,10 @@ from tqdm import tqdm
 from peft import PeftModel, get_peft_model, LoraConfig
 import json
 import numpy as np
-from utils.instructor_retrieval import perform_search, initialize_index
+from utils.instructor_retrieval import initialize_index
 from datasets import load_dataset
 from utils.prompter import Prompter
-from utils.instructor_retrieval import perform_search, get_embeddings
+from utils.instructor_retrieval import get_embeddings
 import os
 import torch
 import torch.nn as nn

@@ -10,10 +10,8 @@ import numpy as np
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, project_root)
 
-from utils.instructor_retrieval import perform_search, initialize_index
 from datasets import load_dataset
 from utils.prompter import Prompter
-from utils.instructor_retrieval import perform_search, get_embeddings
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
