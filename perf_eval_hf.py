@@ -16,7 +16,7 @@ import torch.nn.functional as F
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
 
-device = "cuda:2" if torch.cuda.is_available() else "cpu"
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 # Load previously computed model performance matrix (if present). This file is
 # produced by `performance_based_selection/generate_results.py` and saved as
@@ -84,13 +84,17 @@ for model_name in original_model_names:
 all_ids = list(range(results_matrix.shape[1]))
 selected_ids = []
 for col_id in all_ids:
-    if col_id in original_adapter_ids:
-        selected_ids.append(col_id)
-        continue
+    # if col_id in original_adapter_ids:
+    #     selected_ids.append(col_id)
+    #     continue
     for row in results_matrix:
         # Get indices of top 5 values in this row
-        top5_indices = np.argsort(-row)[:2]
-        if col_id in top5_indices:
+        # top5_indices = np.argsort(-row)[:2]
+        # if col_id in top5_indices:
+        #     selected_ids.append(col_id)
+        #     break
+        top_idx = int(np.nanargmax(row).item())
+        if col_id == top_idx:
             selected_ids.append(col_id)
             break
 
@@ -165,6 +169,7 @@ class AdapterRouter(nn.Module):
         #     sel = original_adapter_names.index(original_model_names[sel])
         #     sel = original_adapter_ids[sel]
         
+        print(f"Old idx: {old_idx}, Selected adapter: {sel}, Score: {row[sel]:.4f}")
         sel = selected_ids.index(sel)
         return sel
 
@@ -287,43 +292,6 @@ def eval_datasets(
     # Compute average embeddings for each model
     for id in selected_ids:
         selected_model_names.append(all_model_names[id])
-
-    # input_text = eval_data["inputs"][1450:1451]
-    # task_names = eval_data["task"][1450:1451]
-
-    # # if eval_data["domain"][i] != "struct to text":
-    # #     continue
-
-    # # If out-of-domain filtering is required, specify exclusion list
-    # exclude_list = None
-    # if ood:
-    #     if model_size == '7b':
-    #         exclude_list = [f"Styxxxx/llama2_7b_lora-{task}" for task in task_names]
-    #     else:
-    #         exclude_list = [f"Styxxxx/llama2_13b_lora-{task}" for task in task_names]
-
-    # # Perform retrieval to get top-k LoRA modules
-    # I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
-    # I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
-
-    # # If best_selection is True, re-map module_list and mapping_matrix for a more constrained set
-    # if best_selection:
-    #     if model_size == '7b':
-    #         exclude_list = [f"Styxxxx/llama2_7b_lora-{task}" for task in task_names]
-    #     else:
-    #         exclude_list = [f"Styxxxx/llama2_13b_lora-{task}" for task in task_names]
-
-    #     unique_items = list(set(exclude_list))
-    #     module_list = unique_items
-
-    # if ood:
-    #     mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=original_model_names.index(f"Styxxxx/llama2_7b_lora-{task_names[0]}"))
-    # else:
-    #     mapping_matrix_tensor, _ = scorer(I_batch)
-    # print(mapping_matrix_tensor)
-    # print(mapping_matrix_tensor[0].argmax())
-    # print(selected_model_names[mapping_matrix_tensor[0].argmax()])
-    # x=10/0
 
     print(f"len(selected_model_names): {len(selected_model_names)}")
     peft_model = load_peft_model(selected_model_names, base_model)

@@ -653,12 +653,15 @@ class Linear(nn.Module, LoraLayer):
                     stacked_lora_A = cached_data['stacked_lora_A']
                     stacked_lora_B = cached_data['stacked_lora_B']
                     max_r = cached_data['max_r']
+                    valid_adapter_indices = cached_data['valid_adapter_indices']
                 else:
-                    # Compute padded matrices
+                    # Compute padded matrices and valid adapter indices
                     max_r = 0
-                    for active_adapter in self.active_adapters:
+                    valid_adapter_indices = []
+                    for idx, active_adapter in enumerate(self.active_adapters):
                         if active_adapter not in self.lora_A.keys():
                             continue
+                        valid_adapter_indices.append(idx)
                         lora_A_weight = self.lora_A[active_adapter].weight  # r x d
                         scaling = self.scaling[active_adapter]
                         max_r = max(max_r, lora_A_weight.shape[0])
@@ -689,21 +692,16 @@ class Linear(nn.Module, LoraLayer):
                     stacked_lora_A = torch.stack(padded_lora_A, dim=0)  # p x max_r x d
                     stacked_lora_B = torch.stack(padded_lora_B, dim=0)  # p x d x max_r
                     
-                    # Cache the padded matrices
+                    # Cache the padded matrices and valid adapter indices
                     self._cache_store(cache_key, {
                         'stacked_lora_A': stacked_lora_A,
                         'stacked_lora_B': stacked_lora_B,
-                        'max_r': max_r
+                        'max_r': max_r,
+                        'valid_adapter_indices': valid_adapter_indices
                     })
                 
-                # Build lora_map from lora_mapping
-                lora_map = []
-                for idx, active_adapter in enumerate(self.active_adapters):
-                    if active_adapter not in self.lora_A.keys():
-                        continue
-                    lora_map.append(lora_mapping[:, idx])
-                
-                lora_map = torch.stack(lora_map, dim=1)  # b x p
+                # Build lora_map from lora_mapping using cached indices
+                lora_map = torch.stack([lora_mapping[:, idx] for idx in valid_adapter_indices], dim=1)  # b x p
                 scaling = 1.0
 
                 stacked_lora_A = stacked_lora_A.to(x.dtype)
@@ -714,225 +712,6 @@ class Linear(nn.Module, LoraLayer):
                     fusion_lora_B = torch.einsum('bp,pdr->bdr', lora_mapping, stacked_lora_B)
                     mid=torch.einsum('bld,brd->blr',x, fusion_lora_A)
                     res=torch.einsum('blr,bdr->bld',mid,fusion_lora_B)
-                elif merging_type == 'arrow':
-                    # Arrow routing: compute prototypes via SVD for each expert
-                    # For each expert i, compute prototype as first right singular vector of B_i @ A_i
-                    
-                    p = stacked_lora_A.size(0)  # number of experts
-                    d = stacked_lora_A.size(2)  # hidden dimension
-                    k = min(3, p)
-                    
-                    # Create cache key based on active adapters and layer
-                    cache_key = f"arrow_prototypes_{self.layer_idx}"
-                    
-                    # Check if prototypes are already cached
-                    if cache_key in self._caches:
-                        prototypes = self._caches[cache_key]
-                    else:
-                        # Compute prototypes for each expert: first right singular vector of B_i @ A_i
-                        prototypes = []
-                        for i in range(p):
-                            # stacked_lora_A[i]: (r, d) - maps hidden state (d) to intermediate (r)
-                            # stacked_lora_B[i]: (d, r) - maps intermediate (r) back to hidden state (d)
-                            # Full transformation on hidden state: B_i @ A_i: (d, r) @ (r, d) = (d, d)
-                            full_transform = stacked_lora_B[i] @ stacked_lora_A[i]  # (d, r) @ (r, d) = (d, d)
-                            
-                            # SVD: full_transform = U @ S @ V^T
-                            # We want the first right singular vector (column of V)
-                            try:
-                                U, S, Vh = torch.linalg.svd(full_transform, full_matrices=False)
-                                # Vh is (d, d), first row of Vh is first right singular vector
-                                prototype = Vh[0, :]  # (d,)
-                            except:
-                                # Fallback: use normalized first column of B_i if SVD fails
-                                prototype = stacked_lora_B[i][:, 0]  # take first column of B_i: (d,)
-                                prototype = prototype / (prototype.norm() + 1e-8)
-                            
-                            prototypes.append(prototype)
-                        
-                        prototypes = torch.stack(prototypes, dim=0)  # (p, d)
-                        
-                        # Normalize prototypes
-                        prototypes = prototypes / (prototypes.norm(dim=-1, keepdim=True) + 1e-8)
-                        
-                        # Cache the prototypes
-                        self._cache_store(cache_key, prototypes)
-                    
-                    # Compute per-token routing scores: cosine similarity between hidden states and prototypes
-                    # x: (b, l, d), prototypes: (p, d)
-                    # Normalize x
-                    x_norm = x / (x.norm(dim=-1, keepdim=True) + 1e-8)  # (b, l, d)
-                    
-                    # Compute similarity: (b, l, d) @ (d, p) = (b, l, p)
-                    routing_scores = torch.einsum('bld,pd->blp', x_norm, prototypes)  # (b, l, p)
-                    
-                    # Apply lora_map if provided (external weights)
-                    if lora_map is not None:
-                        routing_scores = routing_scores * lora_map.unsqueeze(1)  # (b, l, p) * (b, 1, p)
-                    
-                    # Select top-k experts per token
-                    _, topk_idx = torch.topk(routing_scores, k=k, dim=-1)  # (b, l, k)
-                    
-                    # Create mask for top-k
-                    mask = torch.zeros_like(routing_scores, dtype=routing_scores.dtype)  # (b, l, p)
-                    mask.scatter_(-1, topk_idx, 1.0)
-                    
-                    # Apply mask to scores
-                    masked_scores = routing_scores * mask  # (b, l, p)
-                    
-                    # Softmax to get routing weights
-                    # Add small value to avoid division by zero
-                    routing_weights = F.softmax(masked_scores.masked_fill(mask == 0, float('-inf')), dim=-1)  # (b, l, p)
-                    
-                    # Compute per-adapter outputs
-                    mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
-                    mid = torch.einsum('blpr,pdr->blpd', mid, stacked_lora_B)
-                    
-                    # Weighted combination using routing weights
-                    res = torch.einsum('blpd,blp->bld', mid, routing_weights)
-                elif merging_type == 'spectr':
-                    # SpectR: Spectral Routing using full-rank SVD representation
-                    # Instead of using only the first singular vector like Arrow, SpectR uses
-                    # the full rank of the adapter for more effective routing
-                    
-                    p = stacked_lora_A.size(0)  # number of experts
-                    r = stacked_lora_A.size(1)  # rank dimension
-                    d = stacked_lora_A.size(2)  # hidden dimension
-                    k = min(4, p)  # paper uses k=4
-                    
-                    # Create cache key for aligned adapters
-                    cache_key = f"spectr_aligned_{self.layer_idx}"
-                    
-                    # Check if aligned adapters are already cached
-                    if cache_key in self._caches:
-                        aligned_A_list = self._caches[cache_key]
-                    else:
-                        # Spectral Alignment: Reformulate B_i and A_i using SVD
-                        # For each expert, compute SVD: B_i @ A_i = U @ S @ V^T
-                        # Then set: B_i* = U and A_i* = S @ V^T
-                        aligned_A_list = []
-                        aligned_B_list = []
-                        
-                        for i in range(p):
-                            # stacked_lora_A[i]: (r, d), stacked_lora_B[i]: (d, r)
-                            # Compute the product B_i @ A_i: (d, r) @ (r, d) = (d, d)
-                            product = stacked_lora_B[i] @ stacked_lora_A[i]  # (d, d)
-                            
-                            # SVD: product = U @ S @ V^T
-                            try:
-                                U, S, Vh = torch.linalg.svd(product, full_matrices=False)
-                                # U: (d, min(d,d)), S: (min(d,d),), Vh: (min(d,d), d)
-                                
-                                # Create aligned representations
-                                # B_i* = U (left singular vectors)
-                                B_star = U  # (d, min(d,d))
-                                
-                                # A_i* = S @ V^T (scaled right singular vectors)
-                                # S is diagonal, so we can multiply element-wise
-                                A_star = S.unsqueeze(-1) * Vh  # (min(d,d), d)
-                                
-                            except:
-                                # Fallback: use original matrices if SVD fails
-                                B_star = stacked_lora_B[i]  # (d, r)
-                                A_star = stacked_lora_A[i]  # (r, d)
-                            
-                            aligned_A_list.append(A_star)
-                            aligned_B_list.append(B_star)
-                        
-                        # Cache the aligned adapters
-                        self._cache_store(cache_key, aligned_A_list)
-                        self._cache_store(cache_key + "_B", aligned_B_list)
-                    
-                    # Retrieve aligned B matrices
-                    aligned_B_list = self._caches.get(cache_key + "_B", None)
-                    if aligned_B_list is None:
-                        # If B matrices not cached, use originals
-                        aligned_B_list = [stacked_lora_B[i] for i in range(p)]
-                    
-                    # Compute low-rank representations for each expert
-                    # h_i = A_i* @ x for each token x
-                    h_list = []
-                    routing_scores_list = []
-                    
-                    for i in range(p):
-                        # A_star: (rank_i, d), x: (b, l, d)
-                        # h_i: (b, l, rank_i)
-                        h_i = torch.einsum('rd,bld->blr', aligned_A_list[i], x)
-                        h_list.append(h_i)
-                        
-                        # Compute routing score as L2 norm of h_i
-                        # s_i = ||h_i||_2
-                        score = torch.norm(h_i, p=2, dim=-1)  # (b, l)
-                        routing_scores_list.append(score)
-                    
-                    # Stack routing scores: (b, l, p)
-                    routing_scores = torch.stack(routing_scores_list, dim=-1)  # (b, l, p)
-                    
-                    # Apply lora_map if provided (external weights)
-                    if lora_map is not None:
-                        routing_scores = routing_scores * lora_map.unsqueeze(1)  # (b, l, p) * (b, 1, p)
-                    
-                    # Select top-k experts per token
-                    topk_scores, topk_idx = torch.topk(routing_scores, k=k, dim=-1)  # (b, l, k)
-                    
-                    # Create mask for top-k
-                    mask = torch.zeros_like(routing_scores, dtype=routing_scores.dtype)  # (b, l, p)
-                    mask.scatter_(-1, topk_idx, 1.0)
-                    
-                    # Uniform merging of selected experts (vectorized implementation)
-                    # Pad h_list to have the same rank dimension (use max rank)
-                    max_rank = max(h.size(-1) for h in h_list)
-                    h_padded = []
-                    for h in h_list:
-                        if h.size(-1) < max_rank:
-                            padding = torch.zeros(h.size(0), h.size(1), max_rank - h.size(-1), 
-                                                dtype=h.dtype, device=h.device)
-                            h = torch.cat([h, padding], dim=-1)
-                        h_padded.append(h)
-                    
-                    # Stack all h: (p, b, l, max_rank)
-                    h_stacked = torch.stack(h_padded, dim=0)  # (p, b, l, max_rank)
-                    
-                    # Similarly pad B matrices
-                    B_padded = []
-                    for B in aligned_B_list:
-                        if B.size(-1) < max_rank:
-                            padding = torch.zeros(B.size(0), max_rank - B.size(-1), 
-                                                dtype=B.dtype, device=B.device)
-                            B = torch.cat([B, padding], dim=-1)
-                        B_padded.append(B)
-                    
-                    # Stack all B: (p, d, max_rank)
-                    B_stacked = torch.stack(B_padded, dim=0)  # (p, d, max_rank)
-                    
-                    # Use mask to select experts: expand topk_idx to gather from h_stacked and B_stacked
-                    # topk_idx: (b, l, k), we need to gather k experts per token
-                    
-                    # Expand topk_idx for gathering from h_stacked
-                    batch_size, seq_len = x.size(0), x.size(1)
-                    topk_idx_expanded = topk_idx.unsqueeze(-1).expand(-1, -1, -1, max_rank)  # (b, l, k, max_rank)
-                    
-                    # Gather selected h for each token: (b, l, k, max_rank)
-                    h_stacked_perm = h_stacked.permute(1, 2, 0, 3)  # (b, l, p, max_rank)
-                    h_selected = torch.gather(h_stacked_perm, dim=2, index=topk_idx_expanded)  # (b, l, k, max_rank)
-                    
-                    # Average selected h: (b, l, max_rank)
-                    h_avg = h_selected.mean(dim=2)  # (b, l, max_rank)
-                    
-                    # For B matrices, we need to average them based on selected experts
-                    # This is trickier since B is (p, d, max_rank) and we need per-token selection
-                    # Gather B for selected experts: (b, l, k, d, max_rank)
-                    topk_idx_B = topk_idx.unsqueeze(-1).unsqueeze(-1).expand(-1, -1, -1, d, max_rank)  # (b, l, k, d, max_rank)
-                    B_stacked_expanded = B_stacked.unsqueeze(0).unsqueeze(0).expand(batch_size, seq_len, -1, -1, -1)  # (b, l, p, d, max_rank)
-                    B_selected = torch.gather(B_stacked_expanded, dim=2, index=topk_idx_B)  # (b, l, k, d, max_rank)
-                    
-                    # Average selected B: (b, l, d, max_rank)
-                    B_avg = B_selected.mean(dim=2)  # (b, l, d, max_rank)
-                    
-                    # Compute output: res = B_avg @ h_avg
-                    # B_avg: (b, l, d, max_rank), h_avg: (b, l, max_rank)
-                    # res = einsum('bldr,blr->bld', B_avg, h_avg)
-                    res = torch.einsum('bldr,blr->bld', B_avg, h_avg)  # (b, l, d)
                 else:
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
                     mid=torch.einsum('blpr,pdr->blpd',mid, stacked_lora_B)

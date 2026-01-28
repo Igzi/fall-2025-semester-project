@@ -92,7 +92,7 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + ['fusion.json', 'hf_fusion_7b.json', 'hf_selection_7b.json', 'fusion_ood.json', 'hf_fusion_ood_7b_new2.json', 'hf_fusion_semi_ood_7b_new.json', 'hf_fusion_full_ood_7b.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['my_results.json']#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
