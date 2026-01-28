@@ -67,9 +67,9 @@ Generate predictions from individual LoRA adapters for analysis:
 python adapter_evaluation/generate_model_outputs.py
 ```
 
-This creates output files in `outputs_{7b|13b}/` for each adapter.
+This creates output files in `adapter_evaluation/outputs_{7b|13b}/` for each adapter.
 
-### 2. **Generate Validation Set Results** (Optional)
+#### 2. **Generate Validation Set Results** (Optional)
 
 Process individual adapter outputs to compute performance metrics and matrices:
 
@@ -152,10 +152,14 @@ This script:
 ├── baselines/                    # Baseline method results
 ├── config/                       # LoRA adapter configurations
 ├── dataset/                      # Test and validation datasets
+├── notebooks/                    # Analysis and visualization notebooks
 ├── scripts/                      # Utility scripts
 │   ├── compute_embeddings.py    # Pre-compute dataset embeddings
 │   └── flatten_config2_to_dataset.py  # Convert config to dataset format
 ├── templates/                    # Prompt templates (Alpaca)
+├── utils/                        # Utility modules
+│   ├── prompter.py              # Prompt generation utilities
+│   └── instructor_retrieval.py  # Embedding and retrieval functions
 ├── results/                      # Evaluation results (JSON)
 └── peft/                        # Modified PEFT library
 ```
