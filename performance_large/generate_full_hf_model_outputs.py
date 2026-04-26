@@ -156,9 +156,9 @@ results = []
 with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
     for pos in range(0, len(eval_data["full_prompt"]), 10):
         task_id = tasks.index(eval_data["model_name"][pos])
-        if eval_data["model_name"][pos] != "arc_easy":
-            pbar.update(10)
-            continue
+        # if eval_data["model_name"][pos] != "arc_easy":
+        #     pbar.update(10)
+        #     continue
         # if model_id not in selected_adapters[task_id]:
         #     pbar.update(10)
         #     # Skip the next 10 samples since they are in the same task
