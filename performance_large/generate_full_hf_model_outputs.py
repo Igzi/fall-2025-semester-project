@@ -1,5 +1,5 @@
 import torch
-from transformers import LlamaForCausalLM, LlamaTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
 from peft import PeftModel, get_peft_model, LoraConfig
 import json
@@ -22,18 +22,19 @@ import torch.nn.functional as F
 # Prompter is a utility class to create a prompt for a given input
 prompter = Prompter("alpaca")
 
-def load_base_model(model_name_or_path='meta-llama/Llama-2-7b-hf'):
+def load_base_model(model_name_or_path='meta-llama/Llama-3.1-8B'):
     """
     Load the base model and tokenizer from a given model path.
     """
-    tokenizer = LlamaTokenizer.from_pretrained(model_name_or_path)
-    tokenizer.pad_token_id = 0
-    tokenizer.pad_token = "[PAD]"
+    tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "left"
 
-    base_model = LlamaForCausalLM.from_pretrained(
+    base_model = AutoModelForCausalLM.from_pretrained(
         model_name_or_path, torch_dtype=torch.float16
     )
+    base_model.generation_config.pad_token_id = tokenizer.pad_token_id
     base_model.bfloat16()
     return base_model, tokenizer
 
@@ -59,16 +60,19 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Generate outputs with LoRA adapters")
     parser.add_argument("--model_id", default=0, type=int)
     parser.add_argument("--device", default="cuda", type=str)
+    parser.add_argument("--base_model", default="meta-llama/Llama-3.1-8B", type=str)
+    parser.add_argument("--adapter_file", default="./scripts/llama3_1_8b_adapters_rank64.json", type=str)
+    parser.add_argument("--performance_file", default="./performance_large/model_hf_performance.npy", type=str)
+    parser.add_argument("--output_prefix", default="./performance_large/outputs_hf_large_llama3/hf_adapter_outputs", type=str)
     return parser.parse_args()
 
 args = parse_args()
 device = args.device
 
 correct_count = 0
-model_size='7b'
 config_path = './config/config2.json'
-data_path = './dataset/config_large_flat.json'
-res_path = './performance_large/outputs_hf_large/hf_adapter_outputs'
+data_path = './dataset/config2_flat.json'
+res_path = args.output_prefix
 results = []  # Initialize a list to store question and response data
 
 original_model_names = []
@@ -99,11 +103,11 @@ else:
 # Prepare the dataset with full prompts
 eval_data = dataset["train"].map(generate_and_tokenize_prompt)
 
-model_path = f"meta-llama/Llama-2-{model_size}-hf"
+model_path = args.base_model
 base_model, tokenizer = load_base_model(model_path)
 base_model.eval()
 
-with open('./scripts/llama2_7b_adapters.json', 'r') as file:
+with open(args.adapter_file, 'r') as file:
     lora_adapters = json.load(file)
 
 model_names = []
@@ -118,22 +122,29 @@ for i, model in enumerate(lora_adapters):
 model_id = args.model_id
 
 # Load the model performance matrix
-model_hf_performance = np.load('./performance_large/model_hf_performance.npy', allow_pickle=True)
-model_hf_performance[model_hf_performance == None] = 0.0
-model_hf_performance = model_hf_performance.astype(np.float32)
-for original_model_id in original_adapter_ids:
-    model_hf_performance[:, original_model_id] = -1.0
+# model_hf_performance = np.load(args.performance_file, allow_pickle=True)
+# model_hf_performance[model_hf_performance == None] = 0.0
+# model_hf_performance = model_hf_performance.astype(np.float32)
+# for original_model_id in original_adapter_ids:
+#     model_hf_performance[:, original_model_id] = -1.0
 
-selected_adapters = [[]]*model_hf_performance.shape[0]
-model_id_selected = False
-for i in range(model_hf_performance.shape[0]):
-    selected_adapters[i] = list(np.argsort(-model_hf_performance[i])[:50])
-    if model_id in selected_adapters[i]:
-        model_id_selected = True
+# selected_adapters = [[]]*model_hf_performance.shape[0]
+# model_id_selected = False
+# for i in range(model_hf_performance.shape[0]):
+#     selected_adapters[i] = list(np.argsort(-model_hf_performance[i])[:50])
+#     if model_id in selected_adapters[i]:
+#         model_id_selected = True
 
-if not model_id_selected:
-    print(f"Model ID {model_id} is not selected in any of the tasks. Exiting gracefully.")
+# if not model_id_selected:
+if model_id >= len(model_names) or model_id < 0:
+    #print(f"Model ID {model_id} is not selected in any of the tasks. Exiting gracefully.")
+    print(f"Model ID {model_id} is out of range. Exiting gracefully.")
     # Free up any GPU memory that might be allocated
+    torch.cuda.empty_cache()
+    sys.exit(0)
+
+if model_names[model_id].startswith("igzi"):
+    print(f"Model ID {model_id} is an original model. Exiting gracefully.")
     torch.cuda.empty_cache()
     sys.exit(0)
 
@@ -145,10 +156,13 @@ results = []
 with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
     for pos in range(0, len(eval_data["full_prompt"]), 10):
         task_id = tasks.index(eval_data["model_name"][pos])
-        if model_id not in selected_adapters[task_id]:
+        if eval_data["model_name"][pos] != "arc_easy":
             pbar.update(10)
-            # Skip the next 10 samples since they are in the same task
             continue
+        # if model_id not in selected_adapters[task_id]:
+        #     pbar.update(10)
+        #     # Skip the next 10 samples since they are in the same task
+        #     continue
 
         for i in range(pos, min(pos+10, len(eval_data["full_prompt"]))):
             mapping_matrix_tensor = torch.ones((1,1), device=device)

@@ -142,7 +142,7 @@ def convert_to_latex_modified(data, folder_path):
     results = []
     for d in data_list:
         results.append([])
-        for model_id in range(1700):
+        for model_id in range(600):
             results[-1].append(d.get(f'hf_adapter_outputs_{model_id}.json', None))
     
     results = np.array(results)
@@ -186,7 +186,7 @@ def convert_to_latex_modified(data, folder_path):
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = './performance_large/outputs_hf_large'  # Replace with your actual folder path
+folder_path = './performance_large/outputs_hf_large_llama3'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 #print(latex_table)
