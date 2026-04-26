@@ -175,7 +175,7 @@ def convert_to_latex_modified(data, folder_path):
     # Calculate mean before formatting as strings
     mean_row_max = row_series[np.isfinite(row_series)].mean()
     combined['row_max'] = combined['row_max'].apply(lambda x: f"{x:.4f}" if np.isfinite(x) else 'NaN')
-    with open('./scripts/llama2_7b_adapters.json', 'r') as file:
+    with open('./scripts/llama3_1_8b_adapters_rank64.json', 'r') as file:
         lora_adapters = json.load(file)
     
     combined['best_model'] = combined['best_model'].apply(lambda x: lora_adapters[x]['model_id'] if x < len(lora_adapters) else 'N/A')
