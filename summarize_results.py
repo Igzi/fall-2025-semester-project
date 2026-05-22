@@ -39,6 +39,7 @@ def process_file(file_path):
     for entry in data:
         domain = entry['domain']
         task = entry['task']
+        #domain = task
         organized_data[domain][task].append(entry)
     
     return organized_data
@@ -91,13 +92,13 @@ def convert_to_latex_modified(data, folder_path):
             data_list.append(row)
 
     df = pd.DataFrame(data_list)
-    columns_ordered = ['Domain-Metric'] + [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
+    columns_ordered = ['Domain-Metric'] + ['perf_fusion_ood.json', "lr_uniform_ood.json", "arrow_ood.json", "test.json", "test2.json"]#[file_name for file_name in os.listdir(folder_path) if file_name.endswith('.json')]
     df = df[columns_ordered]
 
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = 'results'  # Replace with your actual folder path
+folder_path = 'results_llama3'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 print(latex_table)

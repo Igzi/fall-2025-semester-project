@@ -1,0 +1,402 @@
+[
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nThe team shredded the report, so that it could be rewritten.\n\nOPTIONS:\n- The team\n- the report",
+        "targets": "the report",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The team"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nJohn wanted George to run for President because he was a great governor.\n\nOPTIONS:\n- John\n- George",
+        "targets": "George",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " George"
+    },
+    {
+        "inputs": "The man jumped on the neighbor's pool and he swam.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- The man\n- the neighbor",
+        "targets": "The man",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The man"
+    },
+    {
+        "inputs": "Battlefield 3 is more fun than Modern Warfare 3 because it is a better game.\nWho is \"it\"?\nOPTIONS:\n- Battlefield 3\n- Modern Warfare 3",
+        "targets": "Battlefield 3",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Battlefield 3"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nAndrea threw a promotion party in honor of Lindsay because she wanted to do something special for her.\n\nOPTIONS:\n- Andrea\n- Lindsay",
+        "targets": "Andrea",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Lindsay"
+    },
+    {
+        "inputs": "Bob kicked Larry, because he made a condescending comment.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- Bob\n- Larry",
+        "targets": "Larry",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Larry"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nSteve hired Jose because he could not find anyone better.\n\nOPTIONS:\n- Steve\n- Jose",
+        "targets": "Steve",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Jose"
+    },
+    {
+        "inputs": "Who is she referring to in the following sentence?\nHarley hides from Dyna because she is scary.\n\nOPTIONS:\n- Harley\n- Dyna",
+        "targets": "Dyna",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Dyna"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nJohn shot Bill and he was jailed.\n\nOPTIONS:\n- John\n- Bill",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Bill"
+    },
+    {
+        "inputs": "The teachers scolded the students because they were the authority figures.\nWho is \"they\"?\nOPTIONS:\n- The teachers\n- the students",
+        "targets": "The teachers",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The teachers"
+    },
+    {
+        "inputs": "The Autobots try to stop the Decepticons since they want the world to live in peace.\nWho is \"they\"?\nOPTIONS:\n- The Autobots\n- the Decepticons",
+        "targets": "The Autobots",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " the Decepticons"
+    },
+    {
+        "inputs": "King James eagerly awaited the arrival of Prince Henry because he was expected to propose to his daughter.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- King James\n- Prince Henry",
+        "targets": "Prince Henry",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " King James"
+    },
+    {
+        "inputs": "Bill Clinton speaks better than George Bush, since he is a practiced orator.\nBased on this sentence, who is he?\n\nOPTIONS:\n- Bill Clinton\n- George Bush",
+        "targets": "Bill Clinton",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Bill Clinton"
+    },
+    {
+        "inputs": "The Military Police threw the army recruits in the brig since they were causing a distrubance in the neighboring town.\nWho is \"they\"?\nOPTIONS:\n- The Military Police\n- the army recruits",
+        "targets": "the army recruits",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " the army recruits"
+    },
+    {
+        "inputs": "Which person is them referring to in the following sentence?\nThe campers turned on their flashlights because the darkness scared them.\n\nOPTIONS:\n- The campers\n- their flashlights",
+        "targets": "The campers",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The campers"
+    },
+    {
+        "inputs": "John introduced Bill because he was new.\nTell me who he is.\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Bill"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nSony recently locked 90000 users from their accounts because they had hackers compromise their customer's information.\n\nOPTIONS:\n- Sony\n- 90000 users",
+        "targets": "Sony",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " 90000 users"
+    },
+    {
+        "inputs": "Who is it referring to in the following sentence?\nThe program could successfully parse the file because it was programmed well.\n\nOPTIONS:\n- The program\n- the file",
+        "targets": "The program",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The program"
+    },
+    {
+        "inputs": "Schrodinger's cat walks into an empty building, but does it contain him?\nBased on this sentence, who is it?\n\nOPTIONS:\n- Schrodinger's cat\n- an empty building",
+        "targets": "an empty building",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Schrodinger's cat"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Mongolians attacked the Chinese because they are always eager for war.\n\nOPTIONS:\n- The Mongolians\n- the Chinese",
+        "targets": "The Mongolians",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The Mongolians"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nTradition dictated the captain hold the Stanley Cup first, and it was pretty.\n\nOPTIONS:\n- Tradition\n- the Stanley Cup",
+        "targets": "the Stanley Cup",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Tradition"
+    },
+    {
+        "inputs": "The salesperson told Dave that this would be the best car he ever bought.\n\nWho is he referring to?\nOPTIONS:\n- The salesperson\n- Dave",
+        "targets": "Dave",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Dave"
+    },
+    {
+        "inputs": "Which entity is one this sentence?\n\nA banana and an apple go walking, when the yellow one does the talking.\n\nOPTIONS:\n- A banana\n- an apple",
+        "targets": "A banana",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " A banana"
+    },
+    {
+        "inputs": "The mother bear attacked Karen because she was worried for her cub.\n\nWho is \"she\" in this prior sentence?\nOPTIONS:\n- The mother bear\n- Karen",
+        "targets": "The mother bear",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The mother bear"
+    },
+    {
+        "inputs": "John called Bill because he was a good listener.\nWho is \"he\"?\nOPTIONS:\n- John\n- Bill",
+        "targets": "Bill",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " John"
+    },
+    {
+        "inputs": "The football players went on strike against the NFL organization, but they will consider their demands to send the strike.\n\nWho is they referring to?\nOPTIONS:\n- The football players\n- the NFL organization",
+        "targets": "the NFL organization",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The football players"
+    },
+    {
+        "inputs": "Which person is he referring to in the following sentence?\nBob sued Bill because he wanted more money.\n\nOPTIONS:\n- Bob\n- Bill",
+        "targets": "Bob",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Bill"
+    },
+    {
+        "inputs": "The CIA control intelligence gathering for the United States because they have some of the best people who specialize in this type of work.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The CIA\n- the United States",
+        "targets": "The CIA",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The CIA"
+    },
+    {
+        "inputs": "Which entity is he this sentence?\n\nThe alter boy assisted Knight Mordron in his mission, but he did not want his help.\n\nOPTIONS:\n- The alter boy\n- Knight Mordron",
+        "targets": "Knight Mordron",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The alter boy"
+    },
+    {
+        "inputs": "Which person is they referring to in the following sentence?\nThe Eagles managed to completely dominate the Cowboys this weekend, but they were able to at least keep it from being a shutout.\n\nOPTIONS:\n- The Eagles\n- the Cowboys",
+        "targets": "the Cowboys",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The Eagles"
+    },
+    {
+        "inputs": "Which person is she referring to in the following sentence?\nMom brought Sara from school early because she had an early meeting.\n\nOPTIONS:\n- Mom\n- Sara",
+        "targets": "Mom",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Mom"
+    },
+    {
+        "inputs": "Who is he referring to in the following sentence?\nJoe crashed into Mike and he had to pay for the damage.\n\nOPTIONS:\n- Joe\n- Mike",
+        "targets": "Mike",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Mike"
+    },
+    {
+        "inputs": "The off-campus apartments were preferred to the on-campus apartments because they were more expensive.\n\nWho is \"they\" in this prior sentence?\nOPTIONS:\n- The off-campus apartments\n- the on-campus apartments",
+        "targets": "the on-campus apartments",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The off-campus apartments"
+    },
+    {
+        "inputs": "Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans, but they may be turned off by the asking price.\nTell me who they is.\nOPTIONS:\n- Some Motorcycle enthusiasts\n- TRON fans",
+        "targets": "TRON fans",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Some Motorcycle enthusiasts"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nThe cat was afraid of the dog because it was scary.\n\nOPTIONS:\n- The cat\n- the dog",
+        "targets": "the dog",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The cat"
+    },
+    {
+        "inputs": "Disney World offers a much wider array of rides than Six Flags since they are more limited on budget due to not having other sources of revenue.\nTell me who they is.\nOPTIONS:\n- Disney World\n- Six Flags",
+        "targets": "Six Flags",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Six Flags"
+    },
+    {
+        "inputs": "The winners were given the awards after they won.\n\nWho is they referring to in this sentence?\nOPTIONS:\n- The winners\n- the awards",
+        "targets": "The winners",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The winners"
+    },
+    {
+        "inputs": "Federer consistently beat Nadal since he was the worse tennis player.\n\nWho is he referring to in this sentence?\nOPTIONS:\n- Federer\n- Nadal",
+        "targets": "Nadal",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Nadal"
+    },
+    {
+        "inputs": "The teachers scolded the students because they would not learn the material.\nBased on this sentence, who is they?\n\nOPTIONS:\n- The teachers\n- the students",
+        "targets": "the students",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " the students"
+    },
+    {
+        "inputs": "Tatoo artists specialize in creating works of arts on their customers, because they are paid professionals in their field.\nBased on this sentence, who is they?\n\nOPTIONS:\n- Tatoo artists\n- their customers",
+        "targets": "Tatoo artists",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Tatoo artists"
+    },
+    {
+        "inputs": "Which entity is it this sentence?\n\nThe cheetah outran the antelope so it got to eat.\n\nOPTIONS:\n- The cheetah\n- the antelope",
+        "targets": "The cheetah",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The cheetah"
+    },
+    {
+        "inputs": "Who is her referring to in the following sentence?\nTaylor Swift is higher in record sales over Beyonce because more people can relate to her music.\n\nOPTIONS:\n- Taylor Swift\n- Beyonce",
+        "targets": "Taylor Swift",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Taylor Swift"
+    },
+    {
+        "inputs": "Mary smiled at Susan, but she was not happy to see her.\nBased on this sentence, who is she?\n\nOPTIONS:\n- Mary\n- Susan",
+        "targets": "Mary",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Mary"
+    },
+    {
+        "inputs": "John introduced Bill because he knew everyone.\n\nWho is \"he\" in this prior sentence?\nOPTIONS:\n- John\n- Bill",
+        "targets": "John",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " John"
+    },
+    {
+        "inputs": "The professor gave the student a bad grade because he did not study.\n\nWho is he referring to?\nOPTIONS:\n- The professor\n- the student",
+        "targets": "the student",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " the student"
+    },
+    {
+        "inputs": "Who is it in the following sentence?\n\nThe outlet powered the lamp when it was plugged in.\n\nOPTIONS:\n- The outlet\n- the lamp",
+        "targets": "the lamp",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The outlet"
+    },
+    {
+        "inputs": "Which person is it referring to in the following sentence?\nThe bug was flying towards the light, but it was exterminated prematurely.\n\nOPTIONS:\n- The bug\n- the light",
+        "targets": "The bug",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The bug"
+    },
+    {
+        "inputs": "Which entity is they this sentence?\n\nTwo deserted crusaders agreed to transport a girl for the priests, but they agreed in exchange for being pardoned.\n\nOPTIONS:\n- Two deserted crusaders\n- the priests",
+        "targets": "Two deserted crusaders",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Two deserted crusaders"
+    },
+    {
+        "inputs": "Jupiter is bigger than the Earth, but it is lighter due to being mostly gas.\nTell me who it is.\nOPTIONS:\n- Jupiter\n- the Earth",
+        "targets": "Jupiter",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " Jupiter"
+    },
+    {
+        "inputs": "The people protested the government because they were hungry.\nWho is \"they\"?\nOPTIONS:\n- The people\n- the government",
+        "targets": "The people",
+        "metric": "em",
+        "domain": "coreference",
+        "task": "definite_pronoun_resolution",
+        "predicted_answer": " The people"
+    }
+]

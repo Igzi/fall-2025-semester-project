@@ -90,20 +90,27 @@ Evaluate the LoRAuter system on test datasets.
 
 **Standard In-Distribution Evaluation:**
 ```bash
-python lorauter_eval.py \
+python3 lorauter_eval.py \
     --data_path dataset/combined_test.json \
-    --res_path results/my_results.json \
+    --res_path results_llama3/arrow.json \
     --config_path config/config_large.json \
     --lora_num 3 \
     --model_size 7b \
-    --eval_type mixture
+    --eval_type arrow
 ```
+python3 lorauter_eval.py \
+    --data_path dataset/combined_test.json \
+    --res_path results_llama3/spectr.json \
+    --config_path config/config_large.json \
+    --lora_num 3 \
+    --model_size 7b \
+    --eval_type spectr
 
 **Out-of-Distribution (OOD) Evaluation:**
 ```bash
-python lorauter_eval.py \
+python3 lorauter_eval_llama3.py \
     --data_path dataset/combined_test.json \
-    --res_path results/my_results_ood.json \
+    --res_path results_llama3/test.json \
     --config_path config/config_large.json \
     --lora_num 3 \
     --model_size 7b \

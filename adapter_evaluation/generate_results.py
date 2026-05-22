@@ -136,6 +136,12 @@ def convert_to_latex_modified(data, folder_path):
     # Keep NaNs where original data had NaNs
     norm_matrix[np.isnan(plot_matrix)] = np.nan
 
+    print(norm_matrix[6, :])
+    print(norm_matrix[6,34])
+    print(np.sort(norm_matrix[6, :])[-5:])
+    print(norm_matrix[34, :])
+    print(np.sort(norm_matrix[34, :])[-5:])
+
     # Plot normalized heatmap with fixed vmin/vmax 0..1
     ax = sns.heatmap(norm_matrix, xticklabels=col_labels, yticklabels=row_labels, cmap='viridis', vmin=0.0, vmax=1.0, cbar_kws={'label': 'Normalized score (0-1)'}, linewidths=0.5, linecolor='gray')
     ax.set_xlabel('Models')
@@ -151,7 +157,7 @@ def convert_to_latex_modified(data, folder_path):
     return df.to_latex(index=False)
 
 # Example usage
-folder_path = f'./adapter_evaluation/outputs_{model_size}'  # Replace with your actual folder path
+folder_path = f'./adapter_evaluation/outputs_8b_last'  # Replace with your actual folder path
 processed_data = process_folder(folder_path)
 latex_table = convert_to_latex_modified(processed_data, folder_path)
 #print(latex_table)

@@ -680,7 +680,7 @@ class Linear(nn.Module, LoraLayer):
                     k = min(3, p)
                     
                     # Create cache key based on active adapters and layer
-                    cache_key = f"arrow_prototypes_{self.layer_idx}"
+                    cache_key = f"arrow_prototypes_{self.layer_idx}_{self.out_features}"
                     
                     # Check if prototypes are already cached
                     if cache_key in self._caches:
@@ -689,22 +689,24 @@ class Linear(nn.Module, LoraLayer):
                         # Compute prototypes for each expert: first right singular vector of B_i @ A_i
                         prototypes = []
                         for i in range(p):
+                            # print(f"[DEBUG] stacked_lora_A[{i}].shape: {stacked_lora_A[i].shape}")
+                            # print(f"[DEBUG] stacked_lora_B[{i}].shape: {stacked_lora_B[i].shape}")
                             # stacked_lora_A[i]: (r, d) - maps hidden state (d) to intermediate (r)
                             # stacked_lora_B[i]: (d, r) - maps intermediate (r) back to hidden state (d)
                             # Full transformation on hidden state: B_i @ A_i: (d, r) @ (r, d) = (d, d)
                             full_transform = stacked_lora_B[i] @ stacked_lora_A[i]  # (d, r) @ (r, d) = (d, d)
-                            
-                            # SVD: full_transform = U @ S @ V^T
-                            # We want the first right singular vector (column of V)
                             try:
-                                U, S, Vh = torch.linalg.svd(full_transform, full_matrices=False)
-                                # Vh is (d, d), first row of Vh is first right singular vector
-                                prototype = Vh[0, :]  # (d,)
-                            except:
-                                # Fallback: use normalized first column of B_i if SVD fails
-                                prototype = stacked_lora_B[i][:, 0]  # take first column of B_i: (d,)
+                                # Use low-rank SVD (rank 6)
+                                full_transform_ = full_transform.float() if full_transform.dtype != torch.float32 else full_transform
+                                U, S, Vh = torch.svd_lowrank(full_transform_, q=6, niter=2)
+                                # Vh: (d, 6), take first right singular vector (shape [d])
+                                prototype = Vh[:, 0]
+                                if prototype.dtype != full_transform.dtype:
+                                    prototype = prototype.to(full_transform.dtype)
+                            except Exception as e:
+                                print(f"[DEBUG] SVD failed: {e}")
+                                prototype = stacked_lora_B[i][:, 0]
                                 prototype = prototype / (prototype.norm() + 1e-8)
-                            
                             prototypes.append(prototype)
                         
                         prototypes = torch.stack(prototypes, dim=0)  # (p, d)
@@ -745,6 +747,9 @@ class Linear(nn.Module, LoraLayer):
                     mid = torch.einsum('bld,prd->blpr', x, stacked_lora_A)
                     mid = torch.einsum('blpr,pdr->blpd', mid, stacked_lora_B)
                     
+                    # Debug print for shape mismatch
+                    # print("[DEBUG] mid shape:", mid.shape)
+                    # print("[DEBUG] routing_weights shape:", routing_weights.shape)
                     # Weighted combination using routing weights
                     res = torch.einsum('blpd,blp->bld', mid, routing_weights)
                 elif merging_type == 'spectr':
@@ -758,7 +763,7 @@ class Linear(nn.Module, LoraLayer):
                     k = min(4, p)  # paper uses k=4
                     
                     # Create cache key for aligned adapters
-                    cache_key = f"spectr_aligned_{self.layer_idx}"
+                    cache_key = f"spectr_aligned_{self.layer_idx}_{self.out_features}"
                     
                     # Check if aligned adapters are already cached
                     if cache_key in self._caches:
@@ -774,25 +779,22 @@ class Linear(nn.Module, LoraLayer):
                             # stacked_lora_A[i]: (r, d), stacked_lora_B[i]: (d, r)
                             # Compute the product B_i @ A_i: (d, r) @ (r, d) = (d, d)
                             product = stacked_lora_B[i] @ stacked_lora_A[i]  # (d, d)
-                            
-                            # SVD: product = U @ S @ V^T
                             try:
-                                U, S, Vh = torch.linalg.svd(product, full_matrices=False)
-                                # U: (d, min(d,d)), S: (min(d,d),), Vh: (min(d,d), d)
-                                
-                                # Create aligned representations
-                                # B_i* = U (left singular vectors)
-                                B_star = U  # (d, min(d,d))
-                                
-                                # A_i* = S @ V^T (scaled right singular vectors)
-                                # S is diagonal, so we can multiply element-wise
-                                A_star = S.unsqueeze(-1) * Vh  # (min(d,d), d)
-                                
-                            except:
-                                # Fallback: use original matrices if SVD fails
-                                B_star = stacked_lora_B[i]  # (d, r)
-                                A_star = stacked_lora_A[i]  # (r, d)
-                            
+                                # Use low-rank SVD (rank 6)
+                                product_ = product.float() if product.dtype != torch.float32 else product
+                                U, S, Vh = torch.svd_lowrank(product_, q=6, niter=2)
+                                # U: (d, 6), S: (6,), Vh: (d, 6)
+                                # Match original: B_star = U, A_star = S.unsqueeze(-1) * Vh.T (A_star: 6 x d, B_star: d x 6)
+                                B_star = U  # (d, 6)
+                                A_star = (S.unsqueeze(-1) * Vh.T)  # (6, d)
+                                if B_star.dtype != product.dtype:
+                                    B_star = B_star.to(product.dtype)
+                                if A_star.dtype != product.dtype:
+                                    A_star = A_star.to(product.dtype)
+                            except Exception as e:
+                                print(f"[DEBUG] SVD failed for expert {i}: {e}")
+                                B_star = stacked_lora_B[i]
+                                A_star = stacked_lora_A[i]
                             aligned_A_list.append(A_star)
                             aligned_B_list.append(B_star)
                         
@@ -875,11 +877,12 @@ class Linear(nn.Module, LoraLayer):
                     
                     # Average selected h: (b, l, max_rank)
                     h_avg = h_selected.mean(dim=2)  # (b, l, max_rank)
+
                     
                     # For B matrices, we need to average them based on selected experts
                     # This is trickier since B is (p, d, max_rank) and we need per-token selection
                     # Gather B for selected experts: (b, l, k, d, max_rank)
-                    topk_idx_B = topk_idx.unsqueeze(-1).unsqueeze(-1).expand(-1, -1, -1, d, max_rank)  # (b, l, k, d, max_rank)
+                    topk_idx_B = topk_idx.unsqueeze(-1).unsqueeze(-1).expand(-1, -1, -1, B_stacked.size(1), max_rank)  # (b, l, k, d, max_rank)
                     B_stacked_expanded = B_stacked.unsqueeze(0).unsqueeze(0).expand(batch_size, seq_len, -1, -1, -1)  # (b, l, p, d, max_rank)
                     B_selected = torch.gather(B_stacked_expanded, dim=2, index=topk_idx_B)  # (b, l, k, d, max_rank)
                     
