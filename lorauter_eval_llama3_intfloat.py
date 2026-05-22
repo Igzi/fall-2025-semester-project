@@ -1,3 +1,4 @@
+from sentence_transformers import SentenceTransformer
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
@@ -158,6 +159,8 @@ def eval_datasets(
     best_selection=False, 
     model_size='7b',
     eval_type='mixture',
+    val_embeddings_file: str = '/home/pavlovic/embeddings/validation_embeddings_e5_large.npy',
+    embedding_model_name: str = 'intfloat/e5-large-v2',
 ):
     """
     Evaluate the model on given datasets.
@@ -185,8 +188,29 @@ def eval_datasets(
     with open(cfg_path) as f:
         cfg = json.load(f)
 
+        # If a validation embeddings file is provided, load and convert to torch tensor
+    if val_embeddings_file is not None:
+        val_embeddings_np = np.load(val_embeddings_file)
+        val_embeddings = torch.from_numpy(val_embeddings_np.astype(np.float32)).to(device)
+        try:
+            val_embeddings = val_embeddings.to(dtype=torch.bfloat16 if cfg.get('dtype') == 'bfloat16' else torch.float32)
+        except Exception:
+            pass
+    else:
+        val_embeddings = torch.zeros(cfg['K'], 768, dtype=torch.float32).to(device)
+
+
     scorer = LoRAuter(
         A_init=torch.zeros(cfg["K"], 768, dtype=torch.bfloat16),  # placeholder, will be loaded
+        results_matrix=results_matrix,
+        top_k=lora_num,
+        temperature=cfg["temperature"],
+    ).to(device)
+    if cfg["dtype"] == "bfloat16":
+        scorer.bfloat16()
+
+    scorer = LoRAuter(
+        A_init=val_embeddings,
         results_matrix=results_matrix,
         top_k=lora_num,
         temperature=cfg["temperature"],
@@ -197,11 +221,14 @@ def eval_datasets(
     state = torch.load(ckpt_path, map_location="cpu")
     state.pop('results_matrix', None)  # Remove if exists
     state.pop('top_k', None)  # Remove if exists
+    state.pop('A', None)  # Remove if exists
     scorer.load_state_dict(state, strict=False)
     scorer.to(device).eval()
 
     # Initialize vector database for retrieval
     init_vector_db(config_path)
+
+    embedding_model = SentenceTransformer(embedding_model_name)
 
     def generate_and_tokenize_prompt(data_point):
         """
@@ -269,7 +296,7 @@ def eval_datasets(
                         exclude_list = [f"igzi/lora-{task}" for task in task_names]
 
                 # Perform retrieval to get top-k LoRA modules
-                I_batch = get_embeddings([["Represent the sentence for similar task retrieval: ", input_text[0]]])
+                I_batch = embedding_model.encode(input_text, convert_to_numpy=True)
                 I_batch = torch.tensor(I_batch, dtype=torch.bfloat16).to(device) 
 
                 # If best_selection is True, re-map module_list and mapping_matrix for a more constrained set
@@ -291,7 +318,7 @@ def eval_datasets(
 
                 if ood:
                     mapping_matrix_tensor[0, model_names.index(f"igzi/lora-{task_names[0]}")] = 0.0
-                    #mapping_matrix_tensor = mapping_matrix_tensor / mapping_matrix_tensor.sum(-1, keepdim=True)
+                    mapping_matrix_tensor = mapping_matrix_tensor / mapping_matrix_tensor.sum(-1, keepdim=True)
 
                 # Tokenize the input text
                 inputs = tokenizer(

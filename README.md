@@ -90,13 +90,13 @@ Evaluate the LoRAuter system on test datasets.
 
 **Standard In-Distribution Evaluation:**
 ```bash
-python3 lorauter_eval.py \
+python3 lorauter_eval_llama3.py \
     --data_path dataset/combined_test.json \
-    --res_path results_llama3/arrow.json \
+    --res_path results_new_emb/fusion.json \
     --config_path config/config_large.json \
     --lora_num 3 \
     --model_size 7b \
-    --eval_type arrow
+    --eval_type mixture
 ```
 python3 lorauter_eval.py \
     --data_path dataset/combined_test.json \
