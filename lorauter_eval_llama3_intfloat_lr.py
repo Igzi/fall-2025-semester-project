@@ -265,8 +265,8 @@ def eval_datasets(
     model_dtype = next(peft_model.parameters()).dtype
 
     with torch.no_grad():
-        with tqdm(total=50, desc="Evaluating", unit="item") as pbar:
-            for i in range(1050, 1100, batch_size):
+        with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
+            for i in range(0, len(eval_data["full_prompt"]), batch_size):
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 

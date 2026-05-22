@@ -119,8 +119,8 @@ class LoRAuter(nn.Module):
         A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
-        if exclude_idx is not None:
-            logits[:,exclude_idx] = -1.0
+        # if exclude_idx is not None:
+        #     logits[:,exclude_idx] = -1.0
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
             # Build boolean mask for top-k indices per row s
@@ -279,8 +279,8 @@ def eval_datasets(
     model_dtype = next(peft_model.parameters()).dtype
 
     with torch.no_grad():
-        with tqdm(total=50, desc="Evaluating", unit="item") as pbar:
-            for i in range(1050, 1100, batch_size):
+        with tqdm(total=len(dataset["train"]), desc="Evaluating", unit="item") as pbar:
+            for i in range(0, len(eval_data["full_prompt"]), batch_size):
                 input_text = eval_data["inputs"][i : i + batch_size]
                 task_names = eval_data["task"][i : i + batch_size]
 

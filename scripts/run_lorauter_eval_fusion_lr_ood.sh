@@ -2,7 +2,7 @@
 # Run lorauter_eval_llama3_intfloat.py on cuda:0 with specified arguments and log output
 
 LOGFILE="lorauter_eval_llama3_intfloat_fusion_lr_ood.log"
-nohup env CUDA_VISIBLE_DEVICES=2 python3 -u lorauter_eval_llama3_intfloat_lr.py \
+nohup env CUDA_VISIBLE_DEVICES=1 python3 -u lorauter_eval_llama3_intfloat_lr.py \
     --data_path dataset/combined_test.json \
     --res_path results_new_emb/lr_uniform_ood.json \
     --config_path config/config_large.json \

@@ -39,7 +39,7 @@ def process_file(file_path):
     for entry in data:
         domain = entry['domain']
         task = entry['task']
-        domain = task
+        #domain = task
         organized_data[domain][task].append(entry)
     
     return organized_data
