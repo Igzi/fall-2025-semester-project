@@ -111,15 +111,11 @@ class LoRAuter(nn.Module):
         return topk_idx
 
     def get_selected_adapter(self, old_idx: int, exclude_idx: int = None):
+        return old_idx
         old_row = self.results_matrix[old_idx]
         mask_array = np.ones(self.results_matrix.shape[1], dtype=bool)
         if exclude_idx is not None:
-            similar_indices = self.get_most_similar_indices(vector_index=exclude_idx, k=3)
-            excluded_indices = similar_indices.tolist()
-            if exclude_idx not in excluded_indices:
-                excluded_indices.append(exclude_idx)
-            for idx in excluded_indices:
-                mask_array[idx] = False
+            mask_array[exclude_idx] = False
         
         row = old_row*mask_array
         maxpos = np.flatnonzero(row==row.max())
@@ -138,7 +134,7 @@ class LoRAuter(nn.Module):
         A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
-        if not semi_ood and exclude_idx is not None:
+        if exclude_idx is not None:
             similar_indices = self.get_most_similar_indices(vector_index=exclude_idx, k=3)
             excluded_indices = similar_indices.tolist()
             if exclude_idx not in excluded_indices:
