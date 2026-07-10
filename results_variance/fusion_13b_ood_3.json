@@ -1,0 +1,402 @@
+[
+    {
+        "inputs": "Question: The atomic number of an element refers to the number of\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- electrons in the outer shell.\n- neutrons in the outer shell.\n- electrons in the nucleus.\n- protons in the nucleus.",
+        "targets": "protons in the nucleus.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "protons in the nucleus."
+    },
+    {
+        "inputs": "When entire communities in an ecosystem change over time, it is known as\n\nPick the answer from these options\n\nOPTIONS:\n- migration.\n- extinction.\n- overpopulation.\n- ecological succession.",
+        "targets": "ecological succession.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "ecological succession."
+    },
+    {
+        "inputs": "Where is water most likely to be brackish?\n\nPick the answer from these options\n\nOPTIONS:\n- sea\n- lake\n- river\n- estuary",
+        "targets": "estuary",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "estuary"
+    },
+    {
+        "inputs": "Question: What form of energy makes a compass needle point north?\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- electrical\n- heat\n- light\n- magnetic",
+        "targets": "magnetic",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "magnetic"
+    },
+    {
+        "inputs": "Q: An area is semiarid, has few trees, and is home to ground-nesting birds. This area is most likely part of which biome?\nWhat is the correct answer to this question?\nOPTIONS:\n- tundra\n- taiga\n- grassland\n- desert",
+        "targets": "grassland",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "grassland"
+    },
+    {
+        "inputs": "Which type of energy does a radiator give off ?\n\nOPTIONS:\n- heat\n- light\n- solar\n- electrical",
+        "targets": "heat",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "heat"
+    },
+    {
+        "inputs": "Question: One role of a producer in a food chain is to provide\n\nAnswer:\nOPTIONS:\n- water for plants\n- sunlight for plants\n- nutrients for animals\n- shelter for animals",
+        "targets": "nutrients for animals",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "nutrients for animals"
+    },
+    {
+        "inputs": "Q: What is the name of a circuit in which the current splits at the junctions?\nWhat is the correct answer to this question?\nOPTIONS:\n- closed circuit\n- parallel circuit\n- series circuit\n- short circuit",
+        "targets": "parallel circuit",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "parallel circuit"
+    },
+    {
+        "inputs": "About how long does it take for Earth to make one revolution around the Sun?\n\nPick the answer from these options\n\nOPTIONS:\n- one day\n- one week\n- one month\n- one year",
+        "targets": "one year",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "one year"
+    },
+    {
+        "inputs": "Students measured the elevation changes in a large park near their school. Which of the following would be the best way to report their findings?\n\nPick the answer from these options\n\nOPTIONS:\n- line graph\n- topographic map\n- color-coded chart\n- spreadsheet data table",
+        "targets": "topographic map",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "topographic map"
+    },
+    {
+        "inputs": "Answer the question\n\nWhich of the following structures enables fish to remain at a certain depth without expending energy through swimming?\n\nOPTIONS:\n- swim bladder\n- lateral line\n- dorsal fin\n- gill slits",
+        "targets": "swim bladder",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "swim bladder"
+    },
+    {
+        "inputs": "Question: What is one of the major advantages of using hydroelectric power?\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- It uses renewable natural resources.\n- It is easily generated in most big cities.\n- It can be generated from any area on Earth.\n- It does not require special buildings or equipment.",
+        "targets": "It uses renewable natural resources.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "It uses renewable natural resources."
+    },
+    {
+        "inputs": "Stars appear to be blue, white, yellow, and red, even without the aid of a telescope. What causes the different colors of the stars?\n\nPick the answer from these options\n\nOPTIONS:\n- the surface temperature\n- the distance from Earth\n- the distance from the Sun\n- the gases that compose the star",
+        "targets": "the surface temperature",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "the surface temperature"
+    },
+    {
+        "inputs": "Which pair of terms describes the usual location for fertilization and the first stages of development in human reproduction?\n\nOPTIONS:\n- external fertilization and external development\n- external fertilization and internal development\n- internal fertilization and external development\n- internal fertilization and internal development",
+        "targets": "internal fertilization and internal development",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "internal fertilization and internal development"
+    },
+    {
+        "inputs": "In a forest, a brown-colored bird sits on a tree branch. How does the bird's brown color most likely help it survive in the forest?\n\nOPTIONS:\n- attracts insects for food\n- warns predators of its defense\n- hides it from predators\n- allows it to stay warm",
+        "targets": "hides it from predators",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "hides it from predators"
+    },
+    {
+        "inputs": "Answer the question\n\nIn order to maintain good health, humans should\n\nOPTIONS:\n- eat foods high in fat\n- exercise regularly\n- drink alcohol often\n- smoke tobacco occasionally",
+        "targets": "exercise regularly",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "exercise regularly"
+    },
+    {
+        "inputs": "Question: The human body is made up of different levels of organization. A tissue is a group of cells that work together to perform a specific function. Which would be an example of a tissue in the human body?\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- stomach\n- platelets\n- muscle\n- hair",
+        "targets": "muscle",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "muscle"
+    },
+    {
+        "inputs": "What is the answer?\n\nDuring the year, the angle at which the path of the Sun appears in the sky varies. In the Northern Hemisphere, the path of the Sun appears higher on the horizon during the summer and lower on the horizon during the winter. Which factor most contributes to the variation in the path of the Sun across the sky?\n\nOPTIONS:\n- the rotation of Earth\n- the tilted axis of Earth\n- the flattening of Earth at the poles\n- the elliptical shape of the orbit of Earth",
+        "targets": "the tilted axis of Earth",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "the tilted axis of Earth"
+    },
+    {
+        "inputs": "Question: Francis plugged a toaster into an electric outlet. He put a piece of bread in the toaster and turned the toaster on. While the toaster was on, it changed the electrical energy from the outlet into other forms of energy. Which form of energy toasted the bread?\n\nAnswer:\nOPTIONS:\n- chemical\n- heat\n- magnetic\n- sound",
+        "targets": "heat",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "heat"
+    },
+    {
+        "inputs": "A cell's chromosomes contain\n\nPick the answer from these options\n\nOPTIONS:\n- genes\n- chlorophyll\n- sperm\n- eggs",
+        "targets": "genes",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "genes"
+    },
+    {
+        "inputs": "Answer the question\n\nThe area of a small ocean island is slowly shrinking. This is most likely the result of which occurrence?\n\nOPTIONS:\n- plant growth\n- beach erosion\n- dissolving rock\n- falling water",
+        "targets": "beach erosion",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "beach erosion"
+    },
+    {
+        "inputs": "Q: Sal is looking at a map of Massachusetts. He has measured the distance, in inches, from Boston to Salem on the map. He wants to know how many actual miles the inches represent. What feature of the map should he look for?\nWhat is the correct answer to this question?\nOPTIONS:\n- key\n- scale\n- legend\n- compass",
+        "targets": "scale",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "scale"
+    },
+    {
+        "inputs": "Question: Which process causes sand grains to stick together to form sandstone?\n\nAnswer:\nOPTIONS:\n- abrasion\n- cementation\n- combustion\n- erosion",
+        "targets": "cementation",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "cementation"
+    },
+    {
+        "inputs": "Answer the question\n\nWhich statement describes a characteristic of a gas that has a significant effect on the climates of both Earth and Venus?\n\nOPTIONS:\n- Nitrogen is chemically inert.\n- Sodium vapor reflects solar energy.\n- Carbon dioxide traps solar energy.\n- Argon is unable to react with water.",
+        "targets": "Carbon dioxide traps solar energy.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "Carbon dioxide traps solar energy."
+    },
+    {
+        "inputs": "Question: The structures in the bodies of many organisms have levels of organization that help the body to carry out life processes. Which list correctly shows how these levels are organized from the simplest to the most complex?\n\nAnswer:\nOPTIONS:\n- tissue, cell, organ, organ system\n- organ, cell, organ system, tissue\n- cell, tissue, organ, organ system\n- organ system, tissue, organ, cell",
+        "targets": "cell, tissue, organ, organ system",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "cell, tissue, organ, organ system"
+    },
+    {
+        "inputs": "Answer the question\n\nWhich mineral is most likely to be found in all of the three major rock types known as metamorphic, igneous, and sedimentary?\n\nOPTIONS:\n- halite\n- quartz\n- gypsum\n- sulfur",
+        "targets": "quartz",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "quartz"
+    },
+    {
+        "inputs": "Question: What type of rock was the fossil most likely found in?\n\nAnswer:\nOPTIONS:\n- igneous\n- volcanic\n- sedimentary\n- metamorphic",
+        "targets": "sedimentary",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "sedimentary"
+    },
+    {
+        "inputs": "Question: Which subatomic particle has a negative charge?\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- proton\n- neutron\n- electron\n- quark",
+        "targets": "electron",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "electron"
+    },
+    {
+        "inputs": "Which mineral, found in Arkansas, is an ore that can be used to produce aluminum?\n\nOPTIONS:\n- quartz\n- galena\n- bauxite\n- diamond",
+        "targets": "bauxite",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "bauxite"
+    },
+    {
+        "inputs": "A student rubs his hands together to warm them. His hands get warm due to\n\nOPTIONS:\n- friction\n- gravity\n- magnetism\n- sound",
+        "targets": "friction",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "friction"
+    },
+    {
+        "inputs": "Answer the question\n\nWhen a star explodes, an intensely bright object is formed. What is the name of this object?\n\nOPTIONS:\n- nova\n- red giant\n- supernova\n- white dwarf",
+        "targets": "supernova",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "supernova"
+    },
+    {
+        "inputs": "One of the main causes of acid rain is\n\nOPTIONS:\n- Waste from nuclear power plants\n- Spills from chemical manufacturing plants\n- Gases from burning fossil fuels\n- Gases from aerosol spray cans",
+        "targets": "Gases from burning fossil fuels",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "Gases from burning fossil fuels"
+    },
+    {
+        "inputs": "Question: A hypothesis that is successfully tested many times may become a\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- conclusion.\n- theory.\n- constant.\n- law.",
+        "targets": "theory.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "law."
+    },
+    {
+        "inputs": "I just took a test in school today. What question was I asked?",
+        "targets": "The Moon's rotation is",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "What is the capital of the United States?"
+    },
+    {
+        "inputs": "What is the answer?\n\nWhich of the following is an example of a compound?\n\nOPTIONS:\n- copper\n- iron\n- carbon\n- water",
+        "targets": "water",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "water"
+    },
+    {
+        "inputs": "Q: Aerogels are compounds formed by the drying of certain gels. Although the aerogel hardens into a solid material, the particles in the gel are much farther apart than those of most solids and particles are held together by strong bridges of covalently bonded atoms. Which of the following is a likely property of aerogels?\nWhat is the correct answer to this question?\nOPTIONS:\n- very low density\n- high electrical conductivity\n- very low melting point\n- very flexible",
+        "targets": "very low density",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "very low density"
+    },
+    {
+        "inputs": "Question: Needles on a cactus plant are actually leaves. This needle shape helps the plant survive by\n\nWhat is the correct answer to the question from the following choices?\nOPTIONS:\n- catching food.\n- preventing water loss.\n- staying in place.\n- reproducing.",
+        "targets": "preventing water loss.",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "preventing water loss."
+    },
+    {
+        "inputs": "Question: A bright object with a long tail of glowing gases is in orbit around the Sun. This object is most likely\n\nAnswer:\nOPTIONS:\n- a planet\n- a star\n- an asteroid\n- a comet",
+        "targets": "a comet",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "a comet"
+    },
+    {
+        "inputs": "The fur of the snowshoe rabbit changes to a lighter color in the winter. This allows the rabbit to blend in with its surroundings. This change is an example of\n\nOPTIONS:\n- extinction\n- competition\n- biological adaptation\n- ecological succession",
+        "targets": "biological adaptation",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "biological adaptation"
+    },
+    {
+        "inputs": "Which of these cell types has DNA that is not bound in a nuclear membrane?\n\nOPTIONS:\n- a plant cell\n- a protist cell\n- an animal cell\n- a prokaryote cell",
+        "targets": "a prokaryote cell",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "a prokaryote cell"
+    },
+    {
+        "inputs": "What is the answer?\n\nAt which location are oceans the deepest?\n\nOPTIONS:\n- Mid-ocean ridge\n- Abyssal plain\n- Ocean trench\n- Volcanic island",
+        "targets": "Ocean trench",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "Ocean trench"
+    },
+    {
+        "inputs": "Food contains stored chemical energy. Which units of measurement can be used to compare the amounts of energy in different foods?\n\nPick the answer from these options\n\nOPTIONS:\n- calories\n- decibels\n- newtons\n- watts",
+        "targets": "calories",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "calories"
+    },
+    {
+        "inputs": "Answer the question\n\nWhich of these technologies helps a power company use renewable energy for the production of electricity?\n\nOPTIONS:\n- hydroelectric power\n- nuclear power plants\n- natural gas generators\n- coal-fired power plants",
+        "targets": "hydroelectric power",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "hydroelectric power"
+    },
+    {
+        "inputs": "Question: Which of these moves in a regular path around the Sun?\n\nAnswer:\nOPTIONS:\n- a planet\n- a constellation\n- a meteor\n- a star",
+        "targets": "a planet",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "a planet"
+    },
+    {
+        "inputs": "What is the answer?\n\nA student placed a rock in a graduated cylinder containing water, causing the water level in the cylinder to increase by 20 mL. This increase represents the rock's\n\nOPTIONS:\n- mass\n- volume\n- solubility\n- temperature",
+        "targets": "volume",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "volume"
+    },
+    {
+        "inputs": "Henry learned that without the right kind of energy, plants cannot survive. What form of energy is used by plants to perform photosynthesis?\n\nPick the answer from these options\n\nOPTIONS:\n- electrical\n- light\n- mechanical\n- wind",
+        "targets": "light",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "light"
+    },
+    {
+        "inputs": "Answer the question\n\nSimilar types of cells form tissues. What is the next level of complexity formed from the grouping of tissues?\n\nOPTIONS:\n- organs\n- organelles\n- organisms\n- organ systems",
+        "targets": "organs",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "organ systems"
+    },
+    {
+        "inputs": "Answer the question\n\nHumans can do many things to impact the environment. Which of these is an example of how humans negatively impact the environment?\n\nOPTIONS:\n- planting more trees\n- burning less fossil fuel\n- reducing beach erosion\n- increasing water runoff",
+        "targets": "increasing water runoff",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "increasing water runoff"
+    },
+    {
+        "inputs": "What is the answer?\n\nWhich process causes water to move from the ocean to the atmosphere during the formation of a hurricane?\n\nOPTIONS:\n- condensation\n- evaporation\n- precipitation\n- runoff",
+        "targets": "evaporation",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "evaporation"
+    },
+    {
+        "inputs": "Q: Which energy source might involve burning wood or producing gasohol?\nWhat is the correct answer to this question?\nOPTIONS:\n- biomass\n- wind turbine\n- nuclear fission\n- hydroelectric power",
+        "targets": "biomass",
+        "metric": "em",
+        "domain": "closed_book QA",
+        "task": "arc_easy",
+        "predicted_answer": "biomass"
+    }
+]

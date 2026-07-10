@@ -100,7 +100,7 @@ class LoRAuter(nn.Module):
         return sel
 
 
-    def forward(self, I: torch.Tensor, exclude_idx: int = None):
+    def forward(self, I: torch.Tensor, exclude_idx: int = None, semi_ood: bool = False):
         """
         I: (B, d_in) input embeddings
         Returns:
@@ -111,7 +111,7 @@ class LoRAuter(nn.Module):
         A_norm = self.A / (self.A.norm(dim=-1, keepdim=True) + 1e-8)  # (K, d_a)
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
-        if exclude_idx is not None:
+        if not semi_ood and exclude_idx is not None:
             logits[:,exclude_idx] = -1.0
 
         if self.top_k is not None and 0 < self.top_k < logits.size(-1):
@@ -141,13 +141,42 @@ class LoRAuter(nn.Module):
 
         return probs, logits
 
+
+def _coerce_int(value, default=1):
+    if value is None or value == "" or value == " ":
+        return default
+    if isinstance(value, str):
+        value = value.strip()
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _coerce_bool(value):
+    if isinstance(value, bool):
+        return value
+    if value is None:
+        return False
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        normalized = value.strip().lower()
+        if normalized in {"1", "true", "yes", "y", "on", "t"}:
+            return True
+        if normalized in {"0", "false", "no", "n", "off", "f", ""}:
+            return False
+    return bool(value)
+
+
 def eval_datasets(
     data_path, 
     res_path, 
     config_path="config/config2.json", 
     lora_num=3, 
     batch_size=1, 
-    ood=False, 
+    ood=False,
+    semi_ood=False,
     best_selection=False, 
     model_size='7b',
     eval_type='mixture',
@@ -163,9 +192,17 @@ def eval_datasets(
     - lora_num: Number of LoRA adapters to be retrieved.
     - batch_size: Batch size for evaluation.
     - ood: Flag indicating if out-of-domain exclusion should be applied.
+    - semi_ood: Flag indicating if semi out-of-domain exclusion should be applied.
     - best_selection: If True, use the most appropriate LoRA for each input.
     - model_size: Model size of Llama-2.
     """
+    # Convert CLI/fire-provided values to the proper Python types
+    batch_size = _coerce_int(batch_size, default=1)
+    lora_num = _coerce_int(lora_num, default=3)
+    ood = _coerce_bool(ood)
+    semi_ood = _coerce_bool(semi_ood)
+    best_selection = _coerce_bool(best_selection)
+    
     correct_count = 0
     results = []  # Initialize a list to store question and response data
 
@@ -246,9 +283,9 @@ def eval_datasets(
                 # if eval_data["domain"][i] != "struct to text":
                 #     continue
 
-                # If out-of-domain filtering is required, specify exclusion list
+                # If out-of-domain or semi-out-of-domain filtering is required, specify exclusion list
                 exclude_list = None
-                if ood:
+                if ood or semi_ood:
                     if model_size == '7b':
                         exclude_list = [f"Styxxxx/llama2_7b_lora-{task}" for task in task_names]
                     else:
@@ -268,13 +305,13 @@ def eval_datasets(
                     unique_items = list(set(exclude_list))
                     module_list = unique_items
 
-                if ood:
-                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_{model_size}_lora-{task_names[0]}"))
+                if ood or semi_ood:
+                    mapping_matrix_tensor, _ = scorer(I_batch, exclude_idx=model_names.index(f"Styxxxx/llama2_{model_size}_lora-{task_names[0]}"), semi_ood=semi_ood)
                 else:
                     mapping_matrix_tensor, _ = scorer(I_batch)
                 input_text = eval_data["full_prompt"][i : i + batch_size]
 
-                if ood:
+                if ood or semi_ood:
                     mapping_matrix_tensor[0, model_names.index(f"Styxxxx/llama2_{model_size}_lora-{task_names[0]}")] = 0.0
                     mapping_matrix_tensor = mapping_matrix_tensor / mapping_matrix_tensor.sum(-1, keepdim=True)
 
