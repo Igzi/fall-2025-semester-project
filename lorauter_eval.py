@@ -77,11 +77,19 @@ class LoRAuter(nn.Module):
     """
     Learns Wi, Wr and returns softmax weights over K adapters given a batch of inputs.
     """
-    def __init__(self, A_init: torch.Tensor, results_matrix: np.ndarray, top_k: int, temperature: float = 1.0):
+    def __init__(
+        self,
+        A_init: torch.Tensor,
+        results_matrix: np.ndarray,
+        top_k: int,
+        similar_k: int = 3,
+        temperature: float = 1.0,
+    ):
         super().__init__()
         self.register_buffer("A", A_init.clone())       # (K, d_a)
         self.results_matrix = results_matrix
         self.top_k = top_k
+        self.similar_k = int(similar_k)
         self.tau = temperature
 
     @torch.no_grad()
@@ -114,7 +122,10 @@ class LoRAuter(nn.Module):
         old_row = self.results_matrix[old_idx]
         mask_array = np.ones(self.results_matrix.shape[1], dtype=bool)
         if exclude_idx is not None:
-            similar_indices = self.get_most_similar_indices(vector_index=exclude_idx, k=3)
+            similar_indices = self.get_most_similar_indices(
+                vector_index=exclude_idx,
+                k=self.similar_k,
+            )
             excluded_indices = similar_indices.tolist()
             if exclude_idx not in excluded_indices:
                 excluded_indices.append(exclude_idx)
@@ -139,7 +150,10 @@ class LoRAuter(nn.Module):
         logits = I_norm @ A_norm.t()  # (B, K) - cosine similarity in [-1, 1]
 
         if not semi_ood and exclude_idx is not None:
-            similar_indices = self.get_most_similar_indices(vector_index=exclude_idx, k=3)
+            similar_indices = self.get_most_similar_indices(
+                vector_index=exclude_idx,
+                k=self.similar_k,
+            )
             excluded_indices = similar_indices.tolist()
             if exclude_idx not in excluded_indices:
                 excluded_indices.append(exclude_idx)
@@ -211,6 +225,7 @@ def eval_datasets(
     best_selection=False, 
     model_size='7b',
     eval_type='mixture',
+    similar_k=3,
 ):
     """
     Evaluate the model on given datasets.
@@ -226,10 +241,14 @@ def eval_datasets(
     - semi_ood: Flag indicating if semi out-of-domain exclusion should be applied.
     - best_selection: If True, use the most appropriate LoRA for each input.
     - model_size: Model size of Llama-2.
+    - similar_k: Number of adapters most similar to the held-out adapter to exclude.
     """
     # Convert CLI/fire-provided values to the proper Python types
     batch_size = _coerce_int(batch_size, default=1)
     lora_num = _coerce_int(lora_num, default=3)
+    similar_k = _coerce_int(similar_k, default=3)
+    if similar_k < 0:
+        raise ValueError(f"similar_k must be non-negative, got {similar_k}")
     ood = _coerce_bool(ood)
     semi_ood = _coerce_bool(semi_ood)
     best_selection = _coerce_bool(best_selection)
@@ -250,6 +269,7 @@ def eval_datasets(
         A_init=torch.zeros(cfg["K"], 768, dtype=torch.bfloat16),  # placeholder, will be loaded
         results_matrix=results_matrix,
         top_k=lora_num,
+        similar_k=similar_k,
         temperature=cfg["temperature"],
     ).to(device)
     if cfg["dtype"] == "bfloat16":

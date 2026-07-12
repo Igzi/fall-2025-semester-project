@@ -8,10 +8,22 @@ echo "Using CUDA device: $CUDA_DEVICE"
 
 python3 loraretriever_eval.py \
     --data_path dataset/combined_test.json \
-    --res_path results_topk/fusion_13b_lr.json \
+    --res_path results_top5/fusion_13b_lr.json \
     --config_path config/config_large.json \
     --lora_num 3 \
     --batch_size 1 \
     --model_size 13b \
     --eval_type mixture \
-    --ood True
+    --ood True \
+    --similar_k 5
+
+python3 loraretriever_eval.py \
+    --data_path dataset/combined_test.json \
+    --res_path results_top10/fusion_13b_lr.json \
+    --config_path config/config_large.json \
+    --lora_num 3 \
+    --batch_size 1 \
+    --model_size 13b \
+    --eval_type mixture \
+    --ood True \
+    --similar_k 10
